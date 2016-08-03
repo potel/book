@@ -1,0 +1,53 @@
+\begin{thebibliography}{8}
+\providecommand{\natexlab}[1]{#1}
+\providecommand{\url}[1]{\texttt{#1}}
+\expandafter\ifx\csname urlstyle\endcsname\relax
+  \providecommand{\doi}[1]{doi: #1}\else
+  \providecommand{\doi}{doi: \begingroup \urlstyle{rm}\Url}\fi
+
+\bibitem[B{\`{e}}s and Broglia(1977)]{Bes:77}
+D.~B{\`{e}}s and R.~Broglia.
+\newblock In A.~Bohr and R.~Broglia, editors, \emph{International School of
+  Physics ``Enrico Fermi'' Course LXIX, Elementary Modes of Excitation in
+  Nuclei}, page~55, Amsterdam, 1977. North Holland.
+
+\bibitem[Bohr and Mottelson(1975)]{Bohr:75}
+A.~Bohr and B.~R. Mottelson.
+\newblock \emph{Nuclear Structure, Vol.II}.
+\newblock Benjamin, New York, 1975.
+
+\bibitem[Broglia and Winther(2004)]{Broglia:04a}
+R.~Broglia and A.~Winther.
+\newblock \emph{Heavy Ion Reactions}.
+\newblock Westview Press, Cambridge, MA., 2004.
+
+\bibitem[Broglia et~al.(1973)Broglia, Hansen, and Riedel]{Broglia:73}
+R.~Broglia, O.~Hansen, and C.~Riedel.
+\newblock Two--neutron transfer reactions and the pairing model.
+\newblock \emph{Advances in Nuclear Physics}, 6:\penalty0 287, 1973.
+\newblock URL
+  \url{http://merlino.mi.infn.it/repository/BrogliaHansenRiedel.pdf}.
+
+\bibitem[{Broglia, R.A. and Col{\'{o}}, G. and Onida, G. and Roman,
+  H.E.}(2004)]{Broglia:04b}
+{Broglia, R.A. and Col{\'{o}}, G. and Onida, G. and Roman, H.E.}
+\newblock \emph{Solid State Physics of Finite Systems: metal clusters,
+  fullerenes, atomic wires}.
+\newblock Springer Verlag, Berlin, Heidelberg, 2004.
+
+\bibitem[{C. Mahaux {et al.}}(1985)]{Mahaux:85}
+{C. Mahaux {et al.}}
+\newblock Dynamics of the shell model.
+\newblock \emph{Physics Reports}, 120:\penalty0 1--274, 1985.
+
+\bibitem[Feynman(1975)]{Feynman:75}
+R.~Feynman.
+\newblock \emph{Theory of fundamental processes}.
+\newblock Benjamin, Reading, Mass., 1975.
+
+\bibitem[Satchler(1980)]{Satchler:80}
+G.~Satchler.
+\newblock \emph{Introduction to Nuclear Reactions}.
+\newblock Mc Millan, New York, 1980.
+
+\end{thebibliography}

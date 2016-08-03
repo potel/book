@@ -1,0 +1,21 @@
+\begin{thebibliography}{2}
+\providecommand{\natexlab}[1]{#1}
+\providecommand{\url}[1]{\texttt{#1}}
+\expandafter\ifx\csname urlstyle\endcsname\relax
+  \providecommand{\doi}[1]{doi: #1}\else
+  \providecommand{\doi}{doi: \begingroup \urlstyle{rm}\Url}\fi
+
+\bibitem[Broglia et~al.(1973)Broglia, Hansen, and Riedel]{Broglia:73}
+R.~Broglia, O.~Hansen, and C.~Riedel.
+\newblock Two--neutron transfer reactions and the pairing model.
+\newblock \emph{Advances in Nuclear Physics}, 6:\penalty0 287, 1973.
+\newblock URL
+  \url{http://merlino.mi.infn.it/repository/BrogliaHansenRiedel.pdf}.
+
+\bibitem[Potel et~al.(2013)Potel, Idini, Barranco, Vigezzi, and
+  Broglia]{Potel:13}
+G.~Potel, A.~Idini, F.~Barranco, E.~Vigezzi, and R.~A. Broglia.
+\newblock Cooper pair transfer in nuclei.
+\newblock \emph{{Rep. Prog. Phys.}}, 76:\penalty0 106301, 2013.
+
+\end{thebibliography}

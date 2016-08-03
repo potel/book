@@ -1,0 +1,494 @@
+\documentclass[a4paper,14pt]{book}
+%\documentclass[a4paper]{book}
+% \linespread{2.}
+%\documentclass[12pt]{article}
+%\documentclass[12pt]{cmmp}
+
+%%\usepackage{psfig}
+%\usepackage{harvard}
+\usepackage{epsfig}
+%%\usepackage{amsmath}
+\usepackage{amsfonts}
+%%\usepackage{amssymb}
+%%\usepackage{graphicx}
+%%
+%%\usepackage{txfonts}
+%%%\usepackage{mathrsfs}
+%
+%\usepackage{feynmf}     %<------------ Obbligatorio
+\unitlength=1mm         %<------------ Obbligatorio
+%
+\newcommand{\braket}[1]{\langle {#1} \rangle }
+\newcommand{\ket}[1]{|{#1} \rangle }
+\newcommand{\bra}[1]{\langle {#1}|}
+\usepackage{latexsym}
+\usepackage{amssymb}
+\usepackage{amsmath}
+\usepackage[varg]{txfonts}
+\usepackage{mathrsfs}
+\usepackage{upgreek}
+%\usepackage [latin1]{inputenc}
+\usepackage{verbatim}
+\usepackage{array}
+\usepackage{color}
+%\pagestyle{plain}
+\usepackage{graphicx}
+\DeclareMathAlphabet{\mathpzc}{OT1}{pzc}{m}{it}
+
+
+
+\begin{document}
+ \setcounter{chapter}{8}
+ \chapter{Knock--out reactions in DWBA}
+\section{Spinless particles}
+We are going to consider the reaction $A+a \rightarrow a+b+c$, in which the cluster $b$ is knocked out from the nucleus $A(=c+b)$. Cluster $b$ is thus initially bounded, while the final states of $a,b$ and the initial state of $a$ are all in the continuum, and can be described with distorted waves defined as scattering solutions of a (as a rule, complex) suitable optical potential. A schematic depiction of the situation is shown in Fig. \ref{fig1}. We will begin by considering the simplified case in which the clusters $a,b,c$ are spinless.
+\subsection{Transition amplitude}
+We consider optical potentials $U(r_{aA}),U(r_{cb}),U(r_{ac})$ which will be central potentials without a spin--orbit term. In addition, the interaction $v(r_{ab})$ between $a$ and $b$ is taken to be an arbitrary function of the distance $r_{ab}$. Then, the transition amplitude which is at the basis of the evaluation of the multi--differential cross section is the 6--dimensional integral
+\begin{equation}\label{eq1}
+\begin{split}
+T_{m_b}=\int d\mathbf{r}_{aA}d \mathbf{r}_{bc}\chi^{(-)*}(\mathbf{r}_{ac})\chi^{(-)*}(\mathbf{r}_{bc})v(r_{ab})\chi^{(+)}(\mathbf{r}_{aA})u_{l_b}(r_{bc})Y^{l_b}_{m_b}(\hat{\mathbf{r}}_{bc}).
+\end{split}
+\end{equation}
+\subsection{Coordinates}
+The vectors $\mathbf{r}_{ab},\mathbf{r}_{ac}$ can easily be written in function of the integration variables $\mathbf{r}_{aA},\mathbf{r}_{bc}$ (see Fig. \ref{fig1}), namely
+\begin{equation}\label{eq18}
+\begin{split}
+\mathbf{r}_{ac}&=\mathbf{r}_{aA}+\frac{b}{A}\mathbf{r}_{bc},\\
+\mathbf{r}_{ab}&=\mathbf{r}_{aA}-\frac{c}{A}\mathbf{r}_{bc},
+\end{split}
+\end{equation}
+where $b,c,A$ stand for the number of nucleons of the species $b,c$ and $A$ respectively.
+\subsection{Distorted waves in the continuum}
+A standard way to reduce the dimensionality of the integral \ref{eq1} consists in expanding the continuum wave functions $\chi^{(+)}(\mathbf{r}_{aA}),\chi^{(-)*}(\mathbf{r}_{ac}),\chi^{(-)*}(\mathbf{r}_{bc})$ in a basis of eigenstates of the angular momentum operator (partial waves). Then we can exploit the transformation properties of these eigenstates under rotations to perform the angular integrations. With time--reversed phase convention, that is
+\begin{equation}\label{eq19}
+Y_m^l(\theta,\phi)=i^l \sqrt{\frac{2l+1}{4\pi}\frac{(l-m)!}{(l+m)!}}P_l^m(\cos \theta)e^{im\phi},
+\end{equation}
+ the general form of these expansions is
+ \begin{equation}\label{eq2}
+\chi^{(+)}(\mathbf{k},\mathbf{r})= \sum_{l}\frac{4\pi}{k r} i^{l}\sqrt{2l+1}
+e^{i\sigma^{l}} F_{l}(r) \left[ Y^{l} (\hat {\mathbf{r}}) Y^{l} (\hat {\mathbf{k}})\right]^0_0,
+\end{equation}
+ \begin{equation}\label{eq3}
+\chi^{(-)*}(\mathbf{k},\mathbf{r})= \sum_{l}\frac{4\pi}{k r} i^{-l}\sqrt{2l+1}
+e^{i\sigma^{l}} F_{l}(r) \left[ Y^{l} (\hat {\mathbf{r}}) Y^{l} (\hat {\mathbf{k}})\right]^0_0,
+\end{equation}
+where $\sigma_l$ is the Coulomb phase shift. The radial functions $F_{l}(r)$ are regular (finite at $r=0$) solutions of the one--dimensional Schr\"{o}dinger equation with an effective potential $U(r)+\tfrac{\hbar^2 l(l+1)}{2\mu r^2}$ and suitable asymptotic behaviour at $r\rightarrow\infty$ as boundary conditions. 
+So the distorted waves appearing in \ref{eq1} are
+ \begin{equation}\label{eq4}
+\chi^{(+)}(\mathbf{k_{a}},\mathbf{r}_{aA})= \sum_{l_a}\frac{4\pi}{k_a r_{aA}} i^{l_a}\sqrt{2l_a+1}
+e^{i\sigma^{l_a}} F_{l_a}(r_{aA}) \left[ Y^{l_a} (\hat{\mathbf r}_{aA}) Y^{l_a} (\hat{ \mathbf k}_{a})\right]^0_0,
+\end{equation}
+(initial relative motion between $A$ and $a$, defined from the complex optical potential $U(r_{Aa})$)
+ \begin{figure}
+\centerline{\includegraphics*[width=10cm,angle=0]{figs_C9/knock1.pdf}}
+\vspace{-4cm}
+\caption{Sketch of the system considered to describe the reaction $A+a \rightarrow a+b+c$. The nucleus $A$ is viewed as an inert cluster $b$ bounded to an inert core $c$.}\label{fig1}
+\end{figure}
+ \begin{equation}\label{eq5}
+\chi^{(-)*}(\mathbf{k'_{a}},\mathbf{r}_{ac})= \sum_{l'_a}\frac{4\pi}{k'_a r_{ac}} i^{-l'_a}\sqrt{2l'_a+1}
+e^{i\sigma^{l'_a}} F_{l'_a}(r_{ac}) \left[ Y^{l'_a} (\hat{\mathbf r}_{ac}) Y^{l'_a} (\hat{ \mathbf k}'_{a})\right]^0_0,
+\end{equation}
+(final relative motion between $c$ and $a$, defined from the complex optical potential $U(r_{ac})$)
+ \begin{equation}\label{eq6}
+\chi^{(-)*}(\mathbf{k'_{b}},\mathbf{r}_{bc})= \sum_{l'_b}\frac{4\pi}{k'_b r_{bc}} i^{-l'_b}\sqrt{2l'_b+1}
+e^{i\sigma^{l'_b}} F_{l'_b}(r_{bc}) \left[ Y^{l'_b} (\hat{\mathbf r}_{bc}) Y^{l'_b} (\hat{ \mathbf k}'_{b})\right]^0_0,
+\end{equation}
+(final relative motion between $b$ and $c$, defined from the complex optical potential $U(r_{bc})$).
+\subsection{Recoupling of angular momenta}
+We thus need to evaluate the 6--dimensional integral
+\begin{equation}\label{eq14}
+\begin{split}
+\frac{64\pi^3}{k_ak'_ak'_b}&\int d\mathbf{r}_{aA}d \mathbf{r}_{bc}u_{l_b}(r_{cb})v(r_{ab})\sum_{l_a,l'_a,l'_b}\sqrt{(2l_a+1)(2l'_a+1)(2l'_b+1)}\\
+&\times e^{i(\sigma^{l_a}+\sigma^{l'_a}+\sigma^{l'_b})} \frac{F_{l_a}(r_{aA})  F_{l'_a}(r_{ac})F_{l'_b}(r_{bc})}{r_{ac}r_{aA}r_{bc}}\\
+&\times \left[ Y^{l_a} (\hat{\mathbf r}_{aA}) Y^{l_a} (\hat{ \mathbf k}_{a})\right]^0_0\left[ Y^{l'_a} (\hat{\mathbf r}_{ac}) Y^{l'_a} (\hat{ \mathbf k}'_{a})\right]^0_0\left[ Y^{l'_b} (\hat{\mathbf r}_{bc}) Y^{l'_b} (\hat{ \mathbf k}'_{b})\right]^0_0Y^{l_b}_{m_b}(\hat{\mathbf{r}}_{bc}).
+\end{split}
+\end{equation}
+Note that this expression depends explicitly on the asymptotic kinetic energies ($k_a,k'_a,k'_b$) and scattering angles  ($\hat{ \mathbf k}_{a},\hat{ \mathbf k}'_{a},\hat{ \mathbf k}'_{b}$) of $a,b$.
+Now we will take advantage of the partial wave expansion to reduce the dimensions of the integral from 6 to 3. A possible strategy to deal with \ref{eq14} is to recouple together all the terms that depend on the integration variables to a global angular momentum and retain  only the term coupled to 0 as the only one surviving the integration.
+Let us couple separately the terms corresponding to particle $a$ and particle $b$. For particle $a$
+\begin{equation}\label{eq7}
+\begin{split}
+\left[ Y^{l_a} (\hat{\mathbf r}_{aA}) Y^{l_a} (\hat{ \mathbf k}_{a})\right]^0_0 & \left[ Y^{l'_a} (\hat{\mathbf r}_{ac}) Y^{l'_a} (\hat{ \mathbf k}'_{a})\right]^0_0=\sum_K \bigl((l_a l_a)_0(l'_a l'_a)_0|(l_a l'_a)_K(l_a l'_a)_K\bigr)_0\\
+& \times \left\{\left[ Y^{l_a} (\hat{\mathbf r}_{aA}) Y^{l'_a} (\hat{ \mathbf r}_{ac})\right]^K \left[Y^{l_a} (\hat{\mathbf k}_{a}) Y^{l'_a} (\hat{ \mathbf k}'_{a})\right]^K\right\}^0_0.
+\end{split}
+\end{equation}
+We can evaluate the $9j$ symbol,
+\begin{equation}\label{eq8}
+\bigl((l_a l_a)_0(l'_a l'_a)_0|(l_a l'_a)_K(l_a l'_a)_K\bigr)_0=\sqrt{\frac{2K+1}{(2l'_a+1)(2l_a+1)}},
+\end{equation}
+and expand the coupling,
+\begin{equation}\label{eq9}
+\begin{split}
+&\left\{\left[ Y^{l_a}(\hat{\mathbf r}_{aA})  Y^{l'_a} (\hat{ \mathbf r}_{ac})\right]^K \left[Y^{l_a} (\hat{\mathbf k}_{a}) Y^{l'_a} (\hat{ \mathbf k}'_{a})\right]^K\right\}^0_0=\sum_M \langle K\;K\;M\;-M|0\;0\rangle\\
+&\times \left[ Y^{l_a} (\hat{\mathbf r}_{aA}) Y^{l'_a} (\hat{ \mathbf r}_{ac})\right]^K_M \left[Y^{l_a} (\hat{\mathbf k}_{a}) Y^{l'_a} (\hat{ \mathbf k}'_{a})\right]^K_{-M}=\sum_M\frac{(-1)^{K+M}}{\sqrt{2K+1}}\\
+&\times \left[ Y^{l_a} (\hat{\mathbf r}_{aA}) Y^{l'_a} (\hat{ \mathbf r}_{ac})\right]^K_M \left[Y^{l_a} (\hat{\mathbf k}_{a}) Y^{l'_a} (\hat{ \mathbf k}'_{a})\right]^K_{-M}.
+\end{split}
+\end{equation}
+Thus,
+\begin{equation}\label{eq20}
+\begin{split}
+\left[ Y^{l_a} (\hat{\mathbf r}_{aA}) Y^{l_a} (\hat{ \mathbf k}_{a})\right]^0_0 & \left[ Y^{l'_a} (\hat{\mathbf r}_{ac}) Y^{l'_a} (\hat{ \mathbf k}'_{a})\right]^0_0=\sqrt{\frac{1}{(2l'_a+1)(2l_a+1)}}\\
+&\times\sum_{KM}(-1)^{K+M}\left[ Y^{l_a} (\hat{\mathbf r}_{aA}) Y^{l'_a} (\hat{ \mathbf r}_{ac})\right]^K_M \left[Y^{l_a} (\hat{\mathbf k}_{a}) Y^{l'_a} (\hat{ \mathbf k}'_{a})\right]^K_{-M}.
+\end{split}
+\end{equation}
+We can further simplify the above expression if we take the direction of the initial momentum to be parallel to the $z$ axis, so $Y^{l_a}_m (\hat{\mathbf k}_{a})=Y^{l_a}_m (\hat{\mathbf z})=\sqrt{\frac{2l_a+1}{4\pi}}\delta_{m,0}$. Then,
+\begin{equation}\label{eq10}
+\begin{split}
+\left[ Y^{l_a} (\hat{\mathbf r}_{aA}) Y^{l_a} (\hat{ \mathbf k}_{a})\right]^0_0 & \left[ Y^{l'_a} (\hat{\mathbf r}_{ac}) Y^{l'_a} (\hat{ \mathbf k}'_{a})\right]^0_0=\sqrt{\frac{1}{4\pi(2l'_a+1)}}\sum_{KM}(-1)^{K+M}\\
+&\times\langle l_a\;0\;l'_a\;-M|K\;-M\rangle\left[ Y^{l_a} (\hat{\mathbf r}_{aA}) Y^{l'_a} (\hat{ \mathbf r}_{ac})\right]^K_M   Y^{l'_a}_{-M} (\hat{ \mathbf k}'_{a}).
+\end{split}
+\end{equation}
+For the particle $b$ we have
+\begin{equation}\label{eq11}
+\begin{split}
+Y^{l_b}_{m_b}(\hat{\mathbf{r}}_{bc})\left[ Y^{l'_b} (\hat{\mathbf r}_{bc}) Y^{l'_b} (\hat{ \mathbf k}'_{b})\right]^0_0=Y^{l_b}_{m_b}(\hat{\mathbf{r}}_{cb})\sum_m \frac{(-1)^{l'_b+m}}{\sqrt{2l'_b+1}}Y^{l'_b}_m (\hat{\mathbf r}_{bc})Y^{l'_b}_{-m} (\hat{ \mathbf k}'_{b}),
+\end{split}
+\end{equation}
+but we can write
+\begin{equation}\label{eq12}
+\begin{split}
+Y^{l_b}_{m_b}(\hat{\mathbf{r}}_{bc})Y^{l'_b}_m (\hat{\mathbf r}_{bc})=\sum_{K'}\langle l_b\;m_b\;l'_b\;m|K'\;m_b+m\rangle \left[ Y^{l_b} (\hat{\mathbf r}_{bc}) Y^{l'_b} (\hat{\mathbf r}_{bc})\right]^{K'}_{m_b+m}.
+\end{split}
+\end{equation}
+In order to couple to 0 angular momentum with \ref{eq10} we must only keep the term with  $K'=K,\;m=-M-m_b$ so
+\begin{equation}\label{eq13}
+\begin{split}
+Y^{l_b}_{m_b}(\hat{\mathbf{r}}_{bc})&\left[ Y^{l'_b} (\hat{\mathbf r}_{bc}) Y^{l'_b} (\hat{ \mathbf k}'_{b})\right]^0_0=\frac{(-1)^{l'_b-M-m_b}}{\sqrt{2l'_b+1}}\langle l_b\;m_b\;l'_b\;-M-m_b|K\;-M\rangle\\
+&\times \left[ Y^{l_b} (\hat{\mathbf r}_{bc}) Y^{l'_b} (\hat{\mathbf r}_{bc})\right]^{K}_{-M}Y^{l'_b}_{-M-m_b} (\hat{ \mathbf k}'_{b}),
+\end{split}
+\end{equation}
+and \ref{eq14} becomes
+\begin{equation}\label{eq15}
+\begin{split}
+\frac{32\pi^2}{k_ak'_ak'_b}&\sum_{KM}(-1)^{K+l'_b-m_b}\langle l_a\;0\;l'_a\;-M|K\;-M\rangle\langle l_b\;m_b\;l'_b\;-M-m_b|K\;-M\rangle\\
+&\times \sum_{l_a,l'_a,l'_b}\sqrt{(2l_a+1)} e^{i(\sigma^{l_a}+\sigma^{l'_a}+\sigma^{l'_b})}Y^{l'_b}_{-M-m_b} (\hat{ \mathbf k}'_{b}) Y^{l'_a}_{-M} (\hat{ \mathbf k}'_{a})\int d\mathbf{r}_{aA	}d \mathbf{r}_{bc}u_{l_b}(r_{bc})v(r_{ab}) \\
+&\times\frac{F_{l_a}(r_{aA})  F_{l'_a}(r_{ac})F_{l'_b}(r_{bc})}{r_{ac}r_{aA}r_{bc}}\left[ Y^{l_a} (\hat{\mathbf r}_{aA}) Y^{l'_a} (\hat{ \mathbf r}_{ac})\right]^K_M   \left[ Y^{l_b} (\hat{\mathbf r}_{bc}) Y^{l'_b} (\hat{\mathbf r}_{bc})\right]^{K}_{-M}.
+\end{split}
+\end{equation}
+Note that
+\begin{equation}\label{eq16}
+\begin{split}
+\left[ Y^{l_a} (\hat{\mathbf r}_{aA}) Y^{l'_a} (\hat{ \mathbf r}_{ac})\right]^K_M &   \left[ Y^{l_b} (\hat{\mathbf r}_{bc}) Y^{l'_b} (\hat{\mathbf r}_{bc})\right]^{K}_{-M}=\sum_P \langle K\;M\;K\;-M|P\;0\rangle\\
+&\times \left\{\left[ Y^{l_a} (\hat{\mathbf r}_{aA}) Y^{l'_a} (\hat{ \mathbf r}_{ac})\right]^K\left[ Y^{l_b} (\hat{\mathbf r}_{bc}) Y^{l'_b} (\hat{\mathbf r}_{bc})\right]^{K} \right\}^P_0,
+\end{split}
+\end{equation}
+and that to survive the integration the rotational tensors must be coupled to $P=0$. Keeping only this term in the sum over $P$, we get
+\begin{equation}\label{eq17}
+\begin{split}
+\left[ Y^{l_a} (\hat{\mathbf r}_{aA}) Y^{l'_a} (\hat{ \mathbf r}_{ac})\right]^K_M &   \left[ Y^{l_b} (\hat{\mathbf r}_{bc}) Y^{l'_b} (\hat{\mathbf r}_{bc})\right]^{K}_{-M}=\\
+&\frac{(-1)^{K+M}}{\sqrt{2K+1}}\left\{\left[ Y^{l_a} (\hat{\mathbf r}_{aA}) Y^{l'_a} (\hat{ \mathbf r}_{ac})\right]^K\left[ Y^{l_b} (\hat{\mathbf r}_{bc}) Y^{l'_b} (\hat{\mathbf r}_{bc})\right]^{K} \right\}^0_0.
+\end{split}
+\end{equation}
+ \begin{figure}
+\centerline{\includegraphics*[width=10cm,angle=0]{figs_C9/coords2.pdf}}
+\vspace{-3cm}
+\caption{Coordinates in the ``standard'' configuration.}\label{fig2}
+\end{figure}
+The coordinate--dependent part of the latter expression is  a rotationally invariant scalar, so it can be evaluated in any conventional ``standard'' configuration such as the one depicted in Fig. \ref{fig2}. It must then be multiplied by a factor resulting of the integration of the remaining angular variables, which accounts for the rigid rotations needed to connect any arbitrary configuration to one of this type. This factor turns out to be $8\pi^2$ (a $4\pi$ factor for all possible orientations of, say, $\mathbf r_{aA}$ and a $2\pi$ factor for a complete rotation around its direction). According to Fig. \ref{fig2},
+\begin{equation}\label{eq22}
+\begin{split}
+\mathbf{r}_{bc}&=r_{bc}\left(\sin \theta\, \hat x+\cos \theta\,\hat z \right),\\
+\mathbf{r}_{aA}&=-r_{aA}\,\hat z,\\
+\mathbf{r}_{ac}&=\frac{b}{A}r_{bc}\sin \theta\,\hat x+\left(\frac{b}{A}r_{bc}\cos \theta-r_{aA}\right)\,\hat z.
+\end{split}
+\end{equation}
+As $\mathbf{r}_{aA}$ lies parallel to the $z$ axis, $Y^{l_a}_{M_K} (\hat{\mathbf r}_{aA})=\sqrt{\frac{2l_a+1}{4\pi}}\delta_{M_K,0}$ and
+\begin{equation}\label{eq21}
+\begin{split}
+\left[ Y^{l_a} (\hat{\mathbf r}_{aA})\right.&\left. Y^{l'_a} (\hat{ \mathbf r}_{ac})\right]^K_{M_K}=\sum_{m}\langle l_a\;m\;l'_a\;M_K-m|K\;M_K\rangle Y^{l_a}_{m} (\hat{ \mathbf r}_{aA})Y^{l'_a}_{M_K-m} (\hat{ \mathbf r}_{ac})=\\
+&\sqrt{\frac{2l_a+1}{4\pi}} \langle l_a\;0\;l'_a\;M_K|K\;M_K\rangle Y^{l'_a}_{M_K} (\hat{ \mathbf r}_{ac}).
+\end{split}
+\end{equation}
+Then
+\begin{equation}\label{eq23}
+\begin{split}
+&\left\{\left[ Y^{l_a} (\hat{\mathbf r}_{aA}) Y^{l'_a} (\hat{ \mathbf r}_{ac})\right]^K\left[ Y^{l_b} (\hat{\mathbf r}_{bc}) Y^{l'_b} (\hat{\mathbf r}_{bc})\right]^{K} \right\}^0_0=\\
+&\sum_{M_K}\langle K\;M_K\;K\;-M_K|0\;0\rangle \left[ Y^{l_a} (\hat{\mathbf r}_{aA}) Y^{l'_a} (\hat{ \mathbf r}_{ac})\right]^K_{M_K}\left[ Y^{l_b} (\hat{\mathbf r}_{bc}) Y^{l'_b} (\hat{\mathbf r}_{bc})\right]^{K}_{-M_K}=\\
+&\sqrt{\frac{2l_a+1}{4\pi}}\sum_{M_K}\frac{(-1)^{K+M_K}}{\sqrt{2K+1}} \langle l_a\;0\;l'_a\;M_K|K\;M_K\rangle\\
+&\times \left[ Y^{l_b} (\hat{\mathbf r}_{bc}) Y^{l'_b} (\hat{\mathbf r}_{bc})\right]^{K}_{-M_K} Y^{l'_a}_{M_K} (\hat{ \mathbf r}_{ac}).
+\end{split}
+\end{equation}
+Remembering the $8\pi^2$ factor, the term arising from \ref{eq17} to be considered in the integral is
+\begin{equation}\label{eq24}
+\begin{split}
+4\pi^{3/2}\frac{\sqrt{2l_a+1}}{2K+1}&(-1)^K\sum_{M_K}(-1)^{M_K} \langle l_a\;0\;l'_a\;M_K|K\;M_K\rangle\\
+&\times \left[ Y^{l_b} (\cos \theta,0) Y^{l'_b} (\cos \theta,0)\right]^{K}_{-M_K} Y^{l'_a}_{M_K} (\cos \theta_{ac},0),
+\end{split}
+\end{equation}
+with
+\begin{equation}\label{eq25}
+\cos \theta_{ac}=\frac{\frac{b}{A}r_{bc}\cos \theta-r_{aA}}{\sqrt{\left(\frac{b}{A}r_{bc}\sin \theta\right)^2+\left(\frac{b}{A}r_{bc}\cos \theta-r_{aA}\right)^2}},
+\end{equation}
+(see \ref{eq22}). The final expression of the transition amplitude is
+\begin{equation}\label{eq26}
+\begin{split}
+T_{m_b}(\mathbf{k}'_a,\mathbf{k}'_b)=\frac{128\pi^{7/2}}{k_ak'_ak'_b}&\sum_{KM}\frac{(-1)^{l'_b+m_b}}{2K+1}\langle l_a\;0\;l'_a\;-M|K\;-M\rangle\langle l_b\;m_b\;l'_b\;-M-m_b|K\;-M\rangle\\
+&\times \sum_{l_a,l'_a,l'_b}(2l_a+1) e^{i(\sigma^{l_a}+\sigma^{l'_a}+\sigma^{l'_b})}Y^{l'_b}_{-M-m_b} (\hat{ \mathbf k}'_{b}) Y^{l'_a}_{-M} (\hat{ \mathbf k}'_{a})\,\mathcal I(l_a,l_a',l_b',K),
+\end{split}
+\end{equation}
+where
+\begin{equation}\label{eq27}
+\begin{split}
+\mathcal I(l_a,l_a'&,l_b',K)=\int dr_{aA} dr_{bc}d\theta r_{aA}r_{bc} \frac{\sin \theta}{r_{ac}} u_{l_b}(r_{bc})v(r_{ab})F_{l_a}(r_{aA})  F_{l'_a}(r_{ac})F_{l'_b}(r_{bc}) \\
+&\times \sum_{M_K} (-1)^{M_K}\langle l_a\;0\;l'_a\;M_K|K\;M_K\rangle \left[ Y^{l_b} (\cos \theta,0) Y^{l'_b} (\cos \theta,0)\right]^{K}_{-M_K} Y^{l'_a}_{M_K} (\cos \theta_{ac},0)
+\end{split}
+\end{equation}
+is a 3--dimensional integral that can be numerically evaluated with, e.g., Gaussian integration.
+\section{Particles with spin}
+ \begin{figure}
+\centerline{\includegraphics*[width=10cm,angle=0]{figs_C9/knock2.pdf}}
+\vspace{-4cm}
+\caption{Now all three clusters $a,b,c$ have definite spins and projections. The nucleus $A$ is coupled to total spin $J_A,M_A$.}\label{fig3}
+\end{figure}
+We will now turn to the case in which the clusters have a definite spin (see Fig. \ref{fig3}),  and the optical potentials $U(r_{aA}),U(r_{cb}),U(r_{ac})$ are now central potentials with a spin--orbit term proportional to the usual product $\mathbf l \cdot \mathbf s=1/2(j(j+1)-l(l+1)-3/4)$ for particles with spin 1/2. In addition, the interaction $V(r_{ab},\boldsymbol\sigma_a,\boldsymbol\sigma_b)$ between $a$ and $b$ is taken to be a separable function of the distance $r_{ab}$ and of the spin orientations, $V(r_{ab},\boldsymbol\sigma_a,\boldsymbol\sigma_b)=v(r_{ab})v_\sigma(\boldsymbol\sigma_a,\boldsymbol\sigma_b)$. Note that this rules out a spin--orbit term and terms proportional to $\mathbf{r}\cdot \boldsymbol\sigma$, such as the tensor term! For the moment we will assume that the spin--dependent interaction is rotationally invariant (scalar with respect to rotations), such as, e.g., $v_\sigma(\boldsymbol\sigma_a,\boldsymbol\sigma_b)\propto\boldsymbol\sigma_a \cdot\boldsymbol\sigma_b$. Again, that excludes from our formalism tensor terms in the interaction. The transition amplitude is
+\begin{equation}\label{eq28}
+\begin{split}
+T_{m_a,m_b}^{m'_a,m'_b}=\sum_{\sigma_a,\sigma_b}\int d\mathbf{r}_{aA}d \mathbf{r}_{bc}&\chi^{(-)*}_{m'_a}(\mathbf{r}_{ac},\sigma_a)\chi^{(-)*}_{m'_b}(\mathbf{r}_{bc},\sigma_b)\\
+&\times v(r_{ab})v_\sigma(\sigma_a,\sigma_b)\chi^{(+)}_{m_a}(\mathbf{r}_{aA},\sigma_a)\psi_{m_b}^{l_b,j_b}(\mathbf{r}_{bc},\sigma_b).
+\end{split}
+\end{equation}
+\subsection{Distorted waves}
+The distorted waves in \ref{eq28} $\chi_{m}(\mathbf{r},\sigma)=\chi(\mathbf{r})\phi^{1/2}_m(\sigma)$ have a spin dependence contained in the spinor $\phi^{1/2}_m(\sigma)$, where $\sigma$ is the spin degree of freedom and $m$ the projection of the spin along the quantization axis. The superscript $1/2$ reminds us that we are considering spin $1/2$ particles, which have important consequences when dealing with the spin--orbit term of the optical potentials. As for the spin--dependent term $v_\sigma(\boldsymbol\sigma_a,\boldsymbol\sigma_b)$, the value of the spin of the involved particles does not make much difference \emph{as long as this term is rotationally invariant}. After \ref{eq2},
+ \begin{equation}\label{eq29}
+\chi^{(+)}(\mathbf{k},\mathbf{r})\phi_m(\sigma)= \sum_{l,j}\frac{4\pi}{k r} i^{l}\sqrt{2l+1}
+e^{i\sigma^{l}} F_{l,j}(r) \left[ Y^{l} (\hat {\mathbf{r}}) Y^{l} (\hat {\mathbf{k}})\right]^0_0\phi^{1/2}_m(\sigma).
+\end{equation}
+Note that now the sum is also over the total angular momentum $j$, because the radial functions $F_{l,j}(r)$ depend now on $j$ as well as on $l$, being solutions of an optical potential with a spin--orbit term proportional to $1/2\left(j(j+1)-l(l+1)-3/4\right)$. We must then couple the radial and spin functions to total angular momentum $j$, noting that 
+ \begin{equation}\label{eq30}
+ \begin{split}
+\left[ Y^{l} (\hat {\mathbf{r}}) \right. & \left. Y^{l} (\hat {\mathbf{k}})\right]^0_0\phi^{1/2}_m(\sigma)=\sum_{m_l} \langle l\;m_l\;l\;-m_l|0\;0\rangle Y^{l}_{m_l} (\hat {\mathbf{r}})Y^{l}_{-m_l} (\hat {\mathbf{k}})\phi^{1/2}_m(\sigma)=\\
+&\sum_{m_l} \frac{(-1)^{l-m_l}}{\sqrt{2l+1}} Y^{l}_{m_l} (\hat {\mathbf{r}})Y^{l}_{-m_l} (\hat {\mathbf{k}})\phi^{1/2}_m(\sigma),
+ \end{split}
+\end{equation}
+and
+ \begin{equation}\label{eq31}
+ Y^{l}_{m_l} (\hat {\mathbf{r}})\phi^{1/2}_m(\sigma)=\sum_j \langle l\;m_l\;1/2\;m|j\;m_l+m\rangle \left[ Y^{l} (\hat {\mathbf{r}})\phi^{1/2}(\sigma)\right]^j_{m_l+m},
+\end{equation}
+we can write
+ \begin{equation}\label{eq32}
+ \begin{split}
+\left[ Y^{l} (\hat {\mathbf{r}}) \right. & \left. Y^{l} (\hat {\mathbf{k}})\right]^0_0\phi^{1/2}_m(\sigma)=\sum_{m_l,j} \frac{(-1)^{l+m_l}}{\sqrt{2l+1}} \langle l\;m_l\;1/2\;m|j\;m_l+m\rangle \\
+&\times \left[ Y^{l} (\hat {\mathbf{r}})\phi^{1/2}(\sigma)\right]^j_{m_l+m}Y^{l}_{-m_l} (\hat {\mathbf{k}}),
+ \end{split}
+\end{equation}
+and the distorted waves in \ref{eq28} are
+ \begin{equation}\label{eq33}
+\begin{split} 
+\chi^{(+)}_{m_a}(\mathbf{r}_{aA},&\mathbf{k}_{a},\sigma_a)= \sum_{l_a,m_{l_a},j_a}\frac{4\pi}{k_a r_{aA}} i^{l_a}(-1)^{l_a+m_{l_a}}
+e^{i\sigma^{l_a}} F_{l_a,j_a}(r_{aA})\\
+ &\times\langle l_a\;m_{l_a}\;1/2\;m_a|j_a\;m_{l_a}+m_a\rangle
+ \left[ Y^{l_a} (\hat {\mathbf{r}}_{aA})\phi^{1/2}(\sigma_a)\right]^{j_a}_{m_{l_a}+m_a}Y^{l_a}_{-m_{l_a}} (\hat {\mathbf{k}}_a),
+\end{split} 
+\end{equation}
+ \begin{equation}\label{eq34}
+\begin{split} 
+\chi^{(-)*}_{m'_b}(\mathbf{r}_{bc},&\mathbf{k}'_{b},\sigma_b)= \sum_{l'_b,m_{l'_b},j'_b}\frac{4\pi}{k'_b r_{bc}} i^{-l'_b}(-1)^{l'_b+m_{l'_b}}
+e^{i\sigma^{l'_b}} F_{l'_b,j'_b}(r_{bc})\\
+ &\times\langle l'_b\;m_{l'_b}\;1/2\;m'_b|j'_b\;m_{l'_b}+m'_b\rangle
+ \left[ Y^{l'_b} (\hat {\mathbf{r}}_{bc})\phi^{1/2}(\sigma_b)\right]^{j'_b*}_{m_{l'_b}+m'_b}Y^{l'_b*}_{-m_{l'_b}} (\hat {\mathbf{k}}'_b),
+\end{split} 
+\end{equation}
+ \begin{equation}\label{eq35}
+\begin{split} 
+\chi^{(-)*}_{m'_a}(\mathbf{r}_{ac},&\mathbf{k}'_{a},\sigma_a)= \sum_{l'_a,m_{l'_a},j'_a}\frac{4\pi}{k'_a r_{ac}} i^{-l'_a}(-1)^{l'_a+m_{l'_a}}
+e^{i\sigma^{l'_a}} F_{l'_a,j'_a}(r_{ac})\\
+ &\times\langle l'_a\;m_{l'_a}\;1/2\;m'_a|j'_a\;m_{l'_a}+m'_a\rangle
+ \left[ Y^{l'_a} (\hat {\mathbf{r}}_{ac})\phi^{1/2}(\sigma_a)\right]^{j'_a*}_{m_{l'_a}+m'_a}Y^{l'_a*}_{-m_{l'_a}} (\hat {\mathbf{k}}'_a).
+\end{split} 
+\end{equation}
+The initial bounded wavefunction of particle $b$ is
+ \begin{equation}\label{eq36}
+\psi_{m_b}^{l_b,j_b}(\mathbf{r}_{bc},\sigma_b)=u_{l_b,j_b}(r_{bc})\left[ Y^{l_b} (\hat {\mathbf{r}}_{bc})\phi^{1/2}(\sigma_b)\right]^{j_b}_{m_b},
+\end{equation}
+substituting in \ref{eq28},
+
+\begin{multline}\label{eq37}
+T_{m_a,m_b}^{m'_a,m'_b}(\mathbf{k}'_a,\mathbf{k}'_b)=\frac{64\pi^3}{k_ak'_ak'_b}\sum_{\sigma_a,\sigma_b}\sum_{l_a,m_{l_a},j_a}\sum_{l'_a,m_{l'_a},j'_a}\sum_{l'_b,m_{l'_b},j'_b}
+ e^{i(\sigma^{l_a}+\sigma^{l'_a}+\sigma^{l'_b})}i^{l_a-l'_a-l'_b}(-1)^{l_a-m_{l_a}+l'_a-j'_a+l'_b-j'_b}\\
+\times \langle l'_a\;m_{l'_a}\;1/2\;m'_a|j'_a\;m_{l'_a}+m'_a\rangle \langle l_a\;m_{l_a}\;1/2\;m_a|j_a\;m_{l_a}+m_a\rangle\langle l'_b\;m_{l'_b}\;1/2\;m'_b|j'_b\;m_{l'_b}+m'_b\rangle\\
+\times Y^{l_a}_{-m_{l_a}} (\hat {\mathbf{k}}_a)Y^{l'_b}_{-m_{l'_b}} (\hat {\mathbf{k}}'_b)Y^{l'_a}_{-m_{l'_a}} (\hat {\mathbf{k}}'_a)
+\int d\mathbf{r}_{aA}d \mathbf{r}_{bc}\left[ Y^{l'_a} (\hat {\mathbf{r}}_{ac})\phi^{1/2}(\sigma_a)\right]^{j'_a}_{-m_{l'_a}-m'_a}\left[ Y^{l'_b} (\hat {\mathbf{r}}_{bc})\phi^{1/2}(\sigma_b)\right]^{j'_b}_{-m_{l'_b}-m'_b}\\
+\times \frac{F_{l_a,j_a}(r_{aA})  F_{l'_a,j'_a}(r_{ac})F_{l'_b,j'_b}(r_{bc})}{r_{ac}r_{aA}r_{bc}}u_{l_b,j_b}(r_{bc})v(r_{ab})v_\sigma(\sigma_a,\sigma_b)\\
+\times\left[ Y^{l_a} (\hat {\mathbf{r}}_{aA})\phi^{1/2}(\sigma_a)\right]^{j_a}_{m_{l_a}+m_a}\left[ Y^{l_b} (\hat {\mathbf{r}}_{bc})\phi^{1/2}(\sigma_b)\right]^{j_b}_{m_b},
+\end{multline}
+where we have used 
+ \begin{equation}\label{eq59}
+\left[ Y^{l} (\hat {\mathbf{r}})\phi^{1/2}(\sigma)\right]^{j*}_{m}=(-1)^{j-m}\left[Y^{l} (\hat {\mathbf{r}})\phi^{1/2}(\sigma)\right]^{j}_{-m}.
+\end{equation}
+\subsection{Recoupling of angular momenta}
+Let us now separate spatial and spin coordinates, noting that the spin functions must be coupled to 0 (this is a consequence of the  interaction $v_\sigma(\sigma_a,\sigma_b)$ being rotationally invariant). Starting with particle $a$,
+\begin{multline}\label{eq38}
+\left[ Y^{l'_a} (\hat {\mathbf{r}}_{ac})\phi^{1/2^*}(\sigma_a)\right]^{j'_a}_{-m_{l'_a}-m'_a}\left[ Y^{l_a} (\hat {\mathbf{r}}_{aA})\phi^{1/2}(\sigma_a)\right]^{j_a}_{m_{l_a}+m_a}=\\
+\sum_K \bigl((l'_a \tfrac{1}{2})_{j'_a}(l_a \tfrac{1}{2})_{j_a}|(l_a l'_a)_K(\tfrac{1}{2} \tfrac{1}{2})_0\bigr)_K\\
+\times \left[ Y^{l'_a} (\hat {\mathbf{r}}_{ac})Y^{l_a} (\hat {\mathbf{r}}_{aA})\right]^{K}_{-m_{l'_a}-m'_a+m_{l_a}+m_a}\left[\phi^{1/2^*}(\sigma_a)\phi^{1/2}(\sigma_a)\right]^0_0.
+\end{multline}
+For particle $b$,
+\begin{multline}\label{eq39}
+\left[ Y^{l'_b} (\hat {\mathbf{r}}_{bc})\phi^{1/2^*}(\sigma_b)\right]^{j'_b}_{-m_{l'_b}-m'_b}\left[ Y^{l_b} (\hat {\mathbf{r}}_{bc})\phi^{1/2}(\sigma_b)\right]^{j_b}_{m_b}=\\
+\sum_{K'} \bigl((l'_b \tfrac{1}{2})_{j'_b}(l_b \tfrac{1}{2})_{j_b}|(l_b l'_b)_{K'}(\tfrac{1}{2} \tfrac{1}{2})_0\bigr)_{K'}\\
+\times \left[ Y^{l'_b} (\hat {\mathbf{r}}_{bc})Y^{l_b} (\hat {\mathbf{r}}_{bc})\right]^{K'}_{-m_{l'_b}-m'_b+m_b}\left[\phi^{1/2^*}(\sigma_b)\phi^{1/2}(\sigma_b)\right]^0_0.
+\end{multline}
+The spin summation yields a constant factor,
+ \begin{equation}\label{eq40}
+\sum_{\sigma_a,\sigma_b}\left[\phi^{1/2^*}(\sigma_a)\phi^{1/2}(\sigma_a)\right]^0_0\left[\phi^{1/2^*}(\sigma_b)\phi^{1/2}(\sigma_b)\right]^0_0v_\sigma(\sigma_a,\sigma_b)\equiv T_\sigma,
+\end{equation}
+and what we have yet to do is very similar to what we have done for spinless particles. First of all note that the necessity to couple all angular momenta to 0 imposes $K'=K$ and $m_{l_a}+m_a-m_{l'_a}-m'_a=m_{l'_b}+m'_b-m_b$ (see \ref{eq38} and \ref{eq39}). If we set $M=m_{l_a}+m_a-m_{l'_a}-m'_a$ and take, as before, $\hat {\mathbf{k}}_a\equiv \hat z$
+\begin{multline}\label{eq41}
+T_{m_a,m_b}^{m'_a,m'_b}(\mathbf{k}'_a,\mathbf{k}'_b)=\frac{32\pi^{5/2}}{k_ak'_ak'_b}T_\sigma\sum_{l_a,j_a}\sum_{l'_a,j'_a}\sum_{l'_b,j'_b}\sum_{K,M}
+ e^{i(\sigma^{l_a}+\sigma^{l'_a}+\sigma^{l'_b})}i^{l_a-l'_a-l'_b}(-1)^{l_a+l'_a+l'_b-j'_a-j'_b}\\
+ \times \sqrt{2l_a+1}\bigl((l'_a \tfrac{1}{2})_{j'_a}(l_a \tfrac{1}{2})_{j_a}|(l_a l'_a)_K(\tfrac{1}{2} \tfrac{1}{2})_0\bigr)_K\,\bigl((l'_b \tfrac{1}{2})_{j'_b}(l_b \tfrac{1}{2})_{j_b}|(l_b l'_b)_{K}(\tfrac{1}{2} \tfrac{1}{2})_0\bigr)_{K}\\
+\times \langle l'_a\;m_a-m'_a-M\;1/2\;m'_a|j'_a\;m_a-M\rangle \langle l_a\;0\;1/2\;m_a|j_a\;m_a\rangle\langle l'_b\;m_b-m'_b+M\;1/2\;m'_b|j'_b\;M+m_b\rangle\\
+\times Y^{l'_b}_{m'_b-m_b-M} (\hat {\mathbf{k}}'_b)Y^{l'_a}_{m'_a-m_a+M} (\hat {\mathbf{k}}'_a)
+\int d\mathbf{r}_{aA}d \mathbf{r}_{bc}\frac{F_{l_a,j_a}(r_{aA})  F_{l'_a,j'_a}(r_{ac})F_{l'_b,j'_b}(r_{bc})}{r_{ac}r_{aA}r_{bc}}\\
+\times u_{l_b,j_b}(r_{bc})v(r_{ab})\left[ Y^{l_a} (\hat{\mathbf r}_{aA}) Y^{l'_a} (\hat{ \mathbf r}_{ac})\right]^K_M   \left[ Y^{l_b} (\hat{\mathbf r}_{bc}) Y^{l'_b} (\hat{\mathbf r}_{bc})\right]^{K}_{-M}.
+\end{multline}
+The integral of the above expression is similar to the one in \ref{eq15}, so we obtain
+\begin{multline}\label{eq42}
+T_{m_a,m_b}^{m'_a,m'_b}(\mathbf{k}'_a,\mathbf{k}'_b)=\frac{128\pi^{4}}{k_ak'_ak'_b}T_\sigma\sum_{l_a,j_a}\sum_{l'_a,j'_a}\sum_{l'_b,j'_b}\sum_{K,M}
+ e^{i(\sigma^{l_a}+\sigma^{l'_a}+\sigma^{l'_b})}i^{l_a-l'_a-l'_b}(-1)^{l_a+l'_a+l'_b-j'_a-j'_b}\\
+ \times \frac{2l_a+1}{2K+1}\bigl((l'_a \tfrac{1}{2})_{j'_a}(l_a \tfrac{1}{2})_{j_a}|(l_a l'_a)_K(\tfrac{1}{2} \tfrac{1}{2})_0\bigr)_K\,\bigl((l'_b \tfrac{1}{2})_{j'_b}(l_b \tfrac{1}{2})_{j_b}|(l_b l'_b)_{K}(\tfrac{1}{2} \tfrac{1}{2})_0\bigr)_{K}\\
+\times \langle l'_a\;m_a-m'_a-M\;1/2\;m'_a|j'_a\;m_a-M\rangle \langle l'_b\;m_b-m'_b+M\;1/2\;m'_b|j'_b\;M+m_b\rangle\\
+\times \langle l_a\;0\;1/2\;m_a|j_a\;m_a\rangle Y^{l'_b}_{m'_b-m_b-M} (\hat {\mathbf{k}}'_b)Y^{l'_a}_{m_a-m'_a+M} (\hat {\mathbf{k}}'_a)
+\mathcal I(l_a,l'_a,l'_b,j_a,j'_a,j'_b,K),
+\end{multline}
+with
+\begin{multline}\label{eq43}
+\mathcal I(l_a,l'_a,l'_b,j_a,j'_a,j'_b,K)=\int dr_{aA} dr_{bc}d\theta r_{aA}r_{bc} \frac{\sin \theta}{r_{ac}} u_{l_b}(r_{bc})v(r_{ab})\\
+\times F_{l_a,j_a}(r_{aA})  F_{l'_a,j'_a}(r_{ac})F_{l'_b,j'_b}(r_{bc}) \\
+\times \sum_{M_K} \langle l_a\;0\;l'_a\;M_K|K\;M_K\rangle \left[ Y^{l_b} (\cos \theta,0) Y^{l'_b} (\cos \theta,0)\right]^{K}_{-M_K} Y^{l'_a}_{M_K} (\cos \theta_{ac},0).
+\end{multline}
+Again, this is a 3--dimensional integral that can be evaluated with the method of Gaussian quadratures. The transition amplitude $T_{m_a,m_b}^{m'_a,m'_b}(\mathbf{k}'_a,\mathbf{k}'_b)$ depends explicitly on the initial ($m_a,m'_a$) and final ($m'_a,m'_b$) polarizations of $a,b$. If the particle $b$ is initially coupled to core $c$ to total angular momentum $J_A,M_A$, the amplitude to be considered is rather
+\begin{equation}\label{eq45}
+T_{m_a}^{m'_a,m'_b}(\mathbf{k}'_a,\mathbf{k}'_b)=\sum_{m_b}\langle j_b\;m_b\;j_c\;M_A-m_b|J_A\;M_A\rangle\, T_{m_a,m_b}^{m'_a,m'_b}(\mathbf{k}'_a,\mathbf{k}'_b),
+\end{equation}
+and the multi--differential cross section for detecting particle $c$ (or $a$) is
+\begin{equation}\label{eq46}
+\left.\frac{d\sigma}{d\mathbf{k}'_ad\mathbf{k}'_b}\right]_{m_a}^{m'_a,m'_b}=\frac{k'_a}{k_a}\frac{\mu_{aA}\mu_{ac}}{4\pi^2\hbar^4}\left|\sum_{m_b}\langle j_b\;m_b\;j_c\;M_A-m_b|J_A\;M_A\rangle\, T_{m_a,m_b}^{m'_a,m'_b}(\mathbf{k}'_a,\mathbf{k}'_b)\right|^2.
+\end{equation}
+All spin--polarization observables (analysing powers, etc.,) can be derived from this expression. But let us now work out the expression of the cross section for an unpolarized beam (sum over initial spin orientations divided by the number of such orientations) and when we do not detect the final polarizations (sum over final spin orientations), 
+\begin{equation}\label{eq47}
+\begin{split}
+\frac{d\sigma}{d\mathbf{k}'_ad\mathbf{k}'_b}&=\frac{k'_a}{k_a}\frac{\mu_{aA}\mu_{ac}}{4\pi^2\hbar^4}\frac{1}{(2J_A+1)(2j_a+1)}\\
+&\times \sum_{\substack{m_a,m'_a\\M_A,m'_b}}\left|\sum_{m_b}\langle j_b\;m_b\;j_c\;M_A-m_b|J_A\;M_A\rangle\, T_{m_a,m_b}^{m'_a,m'_b}(\mathbf{k}'_a,\mathbf{k}'_b)\right|^2.
+\end{split}
+\end{equation}
+The sum above can be simplified a bit. Let us consider a single particular value of $m_b$ in the sum over $m_b$,
+\begin{equation}\label{eq48}
+\begin{split}
+\sum_{m_a,m'_a,m'_b}&\left|T_{m_a,m_b}^{m'_a,m'_b}(\mathbf{k}'_a,\mathbf{k}'_b)\right|^2\sum_{M_A}\Big|\langle j_b\;m_b\;j_c\;M_A-m_b|J_A\;M_A\rangle\Big|^2=\\
+&\frac{2J_A+1}{2j_b+1}\sum_{m_a,m_a,m'_b}\left|T_{m_a,m_b}^{m'_a,m'_b}(\mathbf{k}'_a,\mathbf{k}'_b)\right|^2\\
+&\times\sum_{M_A}\Big|\langle J_A\;-M_A\;j_c\;M_A-m_b|j_b\;m_b\rangle\Big|^2,
+\end{split}
+\end{equation}
+where we have used
+\begin{equation}\label{eq49}
+\langle j_b\;m_b\;j_c\;M_A-m_b|J_A\;M_A\rangle=(-1)^{j_c-M_A+m_b}\sqrt{\frac{2J_A+1}{2j_b+1}}\langle J_A\;-M_A\;j_c\;M_A-m_b|j_b\;m_b\rangle.
+\end{equation}
+As
+\begin{equation}\label{eq50}
+\sum_{M_A}\Big|\langle J_A\;-M_A\;j_c\;M_A-m_b|j_b\;m_b\rangle\Big|^2=1,
+\end{equation}
+we finally have
+\begin{equation}\label{eq51}
+\begin{split}
+\frac{d\sigma}{d\mathbf{k}'_ad\mathbf{k}'_b}&=\frac{k'_a}{k_a}\frac{\mu_{aA}\mu_{ac}}{4\pi^2\hbar^4}\frac{1}{(2j_b+1)(2j_a+1)}\sum_{\substack{m_a,m'_a,m'_b}}\left|\sum_{m_b} T_{m_a,m_b}^{m'_a,m'_b}(\mathbf{k}'_a,\mathbf{k}'_b)\right|^2.
+\end{split}
+\end{equation}
+\subsection{Zero range approximation.}
+The zero range approximation consists in taking $v(r_{ab})=D_0\delta(r_{ab})$. Then, (see \ref{eq18})
+\begin{equation}\label{eq52}
+\begin{split}
+\mathbf{r}_{aA}&=\frac{c}{A}\mathbf{r}_{bc},\\
+\mathbf{r}_{ac}&=\mathbf{r}_{bc}.
+\end{split} 
+\end{equation}
+The angular dependence of the integral can be readily evaluated. From \ref{eq17}, noting that $\hat{\mathbf r}_{aA}=\hat{\mathbf r}_{ac}=\hat{\mathbf r}_{bc}\equiv \hat{\mathbf r}$,
+\begin{equation}\label{eq53}
+\begin{split}
+\left[ Y^{l_a} (\hat{\mathbf r}) Y^{l'_a} (\hat{ \mathbf r})\right]^K_M &   \left[ Y^{l_b} (\hat{\mathbf r}) Y^{l'_b} (\hat{\mathbf r})\right]^{K}_{-M}=\\
+&\frac{(-1)^{K-M}}{\sqrt{2K+1}}\left\{\left[ Y^{l_a} (\hat{\mathbf r}) Y^{l'_a} (\hat{ \mathbf r})\right]^K\left[ Y^{l_b} (\hat{\mathbf r}) Y^{l'_b} (\hat{\mathbf r})\right]^{K} \right\}^0_0.
+\end{split}
+\end{equation}
+We can as before evaluate this expression in the configuration shown in Fig. \ref{fig2} ($\hat{\mathbf r}=\hat z$), but now the multiplicative factor is $4\pi$. The corresponding contribution to the integral is
+\begin{equation}\label{eq54}
+\frac{(-1)^K}{4\pi(2K+1)}\langle l_a\;0\;l'_a\;0|K\;0\rangle\sqrt{(2l_a+1)(2l'_a+1)(2l_b+1)(2l'_b+1)},
+\end{equation}
+and
+\begin{multline}\label{eq55}
+T_{m_a,m_b}^{m'_a,m'_b}(\mathbf{k}'_a,\mathbf{k}'_b)=\frac{16\pi^{2}}{k_ak'_ak'_b}\frac{c}{A}D_0T_\sigma\sum_{l_a,j_a}\sum_{l'_a,j'_a}\sum_{l'_b,j'_b}\sum_{K,M}
+ e^{i(\sigma^{l_a}+\sigma^{l'_a}+\sigma^{l'_b})}i^{l_a-l'_a-l'_b}(-1)^{l_a+l'_a+l'_b-j'_a-j'_b}\\
+ \times\sqrt{(2l_a+1)(2l'_a+1)(2l_b+1)(2l'_b+1)}\,\langle l_a\;0\;l'_a\;0|K\;0\rangle\\
+ \times \frac{2l_a+1}{2K+1}\bigl((l'_a \tfrac{1}{2})_{j'_a}(l_a \tfrac{1}{2})_{j_a}|(l_a l'_a)_K(\tfrac{1}{2} \tfrac{1}{2})_0\bigr)_K\,\bigl((l'_b \tfrac{1}{2})_{j'_b}(l_b \tfrac{1}{2})_{j_b}|(l_b l'_b)_{K}(\tfrac{1}{2} \tfrac{1}{2})_0\bigr)_{K}\\
+\times \langle l'_a\;m_a-m'_a-M\;1/2\;m'_a|j'_a\;m_a-M\rangle \langle l'_b\;m_b-m'_b+M\;1/2\;m'_b|j'_b\;M+m_b\rangle\\
+\times \langle l\;0\;1/2\;m_a|j\;m_a\rangle Y^{l'_b}_{M+m_b+m'_b} (\hat {\mathbf{k}}'_b)Y^{l'_a}_{m_a+m'_a-M} (\hat {\mathbf{k}}'_a)
+\mathcal I_{ZR}(l_a,l'_a,l'_b,j_a,j'_a,j'_b),
+\end{multline}
+where now the 1--dimensional integral to solve is
+\begin{equation}\label{eq56}
+\mathcal I_{ZR}(l_a,l'_a,l'_b,j_a,j'_a,j'_b)=\int dr u_{l_b}(r)F_{l_a,j_a}(\tfrac{c}{A}r)  F_{l'_a,j'_a}(r)F_{l'_b,j'_b}(r)/r.
+\end{equation}
+ \begin{figure}
+\centerline{\includegraphics*[width=10cm,angle=0]{figs_C9/onept.pdf}}
+\vspace{-1cm}
+\caption{One particle transfer reaction $A(=c+b)+a\rightarrow B(=a+b)+c$.}\label{fig4}
+\end{figure}
+\subsection{One particle transfer}
+It may be interesting to state the expression for the one particle transfer reaction within the same context and using the same elements, in order to better compare these two type of experiments. In particle transfer, the final state of $b$ is a bounded state of the $B(=a+b)$ nucleus, and we can carry on in a similar way as done previously just by substituting the distorted wave (continuum) wave function \ref{eq34} with
+ \begin{equation}\label{eq57}
+\psi_{m'_b}^{l'_b,j'_b*}(\mathbf{r}_{ab},\sigma_b)=u^*_{l'_b,j'_b}(r_{ab})\left[ Y^{l'_b} (\hat {\mathbf{r}}_{ab})\phi^{1/2}(\sigma_b)\right]^{j'_b*}_{m'_b},
+\end{equation}
+so the transition amplitude is now
+\begin{multline}\label{eq58}
+T_{m_a,m_b}^{m'_a,m'_b}(\mathbf{k}'_a)=\frac{8\pi^{3/2}}{k_ak'_a}\sum_{\sigma_a,\sigma_b}\sum_{l_a,j_a}\sum_{l'_a,m_{l'_a},j'_a}
+ e^{i(\sigma^{l_a}+\sigma^{l'_a})}i^{l_a-l'_a}(-1)^{l_a+l'_a-j'_a-j'_b}\\
+\times \sqrt{2l_a+1}\,\langle l'_a\;m_{l'_a}\;1/2\;m'_a|j'_a\;m_{l'_a}+m'_a\rangle \langle l_a\;0\;1/2\;m_a|j_a\;m_a\rangle\\
+\times Y^{l'_a}_{-m_{l'_a}} (\hat {\mathbf{k}}'_a)
+\int d\mathbf{r}_{aA}d \mathbf{r}_{bc}\left[ Y^{l'_a} (\hat {\mathbf{r}}_{Bc})\phi^{1/2}(\sigma_a)\right]^{j'_a}_{-m_{l'_a}-m'_a}\left[ Y^{l'_b} (\hat {\mathbf{r}}_{ab})\phi^{1/2}(\sigma_b)\right]^{j'_b}_{-m'_b}\\
+\times \frac{F_{l_a,j_a}(r_{aA})  F_{l'_a,j'_a}(r_{Bc})}{r_{Bc}r_{aA}}u^*_{l'_b,j'_b}(r_{ab})u_{l_b,j_b}(r_{bc})v(r_{ab})v_\sigma(\sigma_a,\sigma_b)\\
+\times\left[ Y^{l_a} (\hat {\mathbf{r}}_{aA})\phi^{1/2}(\sigma_a)\right]^{j_a}_{m_a}\left[ Y^{l_b} (\hat {\mathbf{r}}_{bc})\phi^{1/2}(\sigma_b)\right]^{j_b}_{m_b}.
+\end{multline}
+Using \ref{eq38}, \ref{eq39}, \ref{eq40}, and setting $M=m_a-m'_a-m_{l'_a}$
+\begin{multline}\label{eq60}
+T_{m_a,m_b}^{m'_a,m'_b}(\mathbf{k}'_a)=\frac{8\pi^{3/2}}{k_ak'_a}T_{\sigma}\sum_{l_a,j_a}\sum_{l'_a,j'_a}\sum_{K,M}
+ e^{i(\sigma^{l_a}+\sigma^{l'_a})}i^{l_a-l'_a}(-1)^{l_a+l'_a-j'_a-j'_b}\\
+ \times\bigl((l'_a \tfrac{1}{2})_{j'_a}(l_a \tfrac{1}{2})_{j_a}|(l_a l'_a)_K(\tfrac{1}{2} \tfrac{1}{2})_0\bigr)_K\,\bigl((l'_b \tfrac{1}{2})_{j'_b}(l_b \tfrac{1}{2})_{j_b}|(l_b l'_b)_{K}(\tfrac{1}{2} \tfrac{1}{2})_0\bigr)_{K}\\
+\times \sqrt{2l_a+1}\,\langle l'_a\;m_a-m'_a-M\;1/2\;m'_a|j'_a\;m_a-M\rangle \langle l_a\;0\;1/2\;m_a|j_a\;m_a\rangle\\
+\times Y^{l'_a}_{m_a-m'_a-M} (\hat {\mathbf{k}}'_a)
+\int d\mathbf{r}_{aA}d \mathbf{r}_{bc}\frac{F_{l_a,j_a}(r_{aA})  F_{l'_a,j'_a}(r_{Bc})}{r_{Bc}r_{aA}}u^*_{l'_b,j'_b}(r_{ab})u_{l_b,j_b}(r_{bc})v(r_{ab})\\
+\times\left[ Y^{l_a} (\hat{\mathbf r}_{aA}) Y^{l'_a} (\hat{ \mathbf r}_{Bc})\right]^K_{M}   \left[ Y^{l_b} (\hat{\mathbf r}_{bc}) Y^{l'_b} (\hat{\mathbf r}_{ab})\right]^{K}_{-M}.
+\end{multline}
+Aside from \ref{eq18}, we also need 
+\begin{equation}\label{eq63}
+\mathbf{r}_{Bc}=\frac{a+B}{B}\mathbf{r}_{aA}+\frac{b}{A}\mathbf{r}_{bc}.
+\end{equation}
+From \ref{eq17}, \ref{eq22}, \ref{eq21}, \ref{eq23}, \ref{eq24}, we get
+\begin{multline}\label{eq61}
+T_{m_a,m_b}^{m'_a,m'_b}(\mathbf{k}'_a)=\frac{32\pi^{3}}{k_ak'_a}T_{\sigma}\sum_{l_a,j_a}\sum_{l'_a,j'_a}\sum_{K,M}
+ e^{i(\sigma^{l_a}+\sigma^{l'_a})}i^{l_a-l'_a}(-1)^{l_a+l'_a-j'_a-j'_b}\\
+ \times\bigl((l'_a \tfrac{1}{2})_{j'_a}(l_a \tfrac{1}{2})_{j_a}|(l_a l'_a)_K(\tfrac{1}{2} \tfrac{1}{2})_0\bigr)_K\,\bigl((l'_b \tfrac{1}{2})_{j'_b}(l_b \tfrac{1}{2})_{j_b}|(l_b l'_b)_{K}(\tfrac{1}{2} \tfrac{1}{2})_0\bigr)_{K}\\
+\times \frac{2l_a+1}{2K+1}\,\langle l'_a\;m_a-m'_a-M\;1/2\;m'_a|j'_a\;m_a-M\rangle\\ \times\langle l_a\;0\;1/2\;m_a|j_a\;m_a\rangle
+ Y^{l'_a}_{m_a-m'_a-M} (\hat {\mathbf{k}}'_a)
+\mathcal I(l_a,l'_a,j_a,j'_a,j'_b,K),
+\end{multline}
+with
+\begin{multline}\label{eq62}
+I(l_a,l'_a,j_a,j'_a,K)=\int dr_{aA} dr_{bc}d\theta r_{aA}r^2_{bc} \frac{\sin \theta}{r_{Bc}}\\
+\times F_{l_a,j_a}(r_{aA})  F_{l'_a,j'_a}(r_{ac})u^*_{l'_b,j'_b}(r_{ab}) u_{l_b,j_b}(r_{bc})v(r_{ab}) \\
+\times \sum_{M_K} \langle l_a\;0\;l'_a\;M_K|K\;M_K\rangle \left[ Y^{l_b} (\cos \theta,0) Y^{l'_b} (\cos \theta_{ab},0)\right]^{K}_{-M_K} Y^{l'_a}_{M_K} (\cos \theta_{Bc},0),
+\end{multline}
+where (see \ref{eq18}, \ref{eq63} and Fig. \ref{fig2})
+
+\begin{equation}\label{eq64}
+\cos \theta_{ab}=\frac{-r_{aA}-\frac{c}{A}r_{bc}\cos \theta}{\sqrt{\left(\frac{c}{A}r_{bc}\sin \theta\right)^2+\left(r_{aA}+\frac{c}{A}r_{bc}\cos \theta\right)^2}},
+\end{equation}
+\begin{equation}\label{eq65}
+\cos \theta_{Bc}=\frac{\frac{a+B}{B}r_{aA}+\frac{b}{A}r_{bc}\cos \theta}{\sqrt{\left(\frac{b}{A}r_{bc}\sin \theta\right)^2+\left(\frac{a+B}{B}r_{aA}+\frac{b}{A}r_{bc}\cos \theta\right)^2}},
+\end{equation}
+and
+\begin{equation}\label{eq66}
+r_{Bc}=\sqrt{\left(\frac{b}{A}r_{bc}\sin \theta\right)^2+\left(\frac{a+B}{B}r_{aA}+\frac{b}{A}r_{bc}\cos \theta\right)^2}.
+\end{equation}
+Again, this is nothing new as many codes exist which deal with one particle transfer within the same DWBA formalism we have used here, but it may be useful to have our own code to better compare transfer and knock--out experiments. By the way, \ref{eq61} can also be used when particle $b$ populates a resonant state in the continuum of nucleus $B$.  
+
+
+\end{document} 

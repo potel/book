@@ -1,0 +1,264 @@
+
+\chapter{Scattering amplitude}
+\section{Definitions}
+Let us recapitulate what was said in the last chapter. A given mode of two-particle break-up is specified by a product
+
+\begin{equation}
+\psi_{\alpha}(\xi_{\alpha}) = \psi_a (\xi_a) \psi_A (\xi_A)
+\end{equation}
+ of the bound internal wave functions of the two nuclei. A given system of nucleons may separate into two nuclei in more than one way; for example three protons and three neutrons may separate into $^4 He$  plus a deuteron, into $^3 H$ plus $^3 H$ and so forth. Accordingly, the variable $r$, which is the displacement between the centers of mass of the two separating nuclei, must be defined differently for each different mode of break-up. The relative kinetic energy of the separating nuclei $E$ must also depend on the mode of break-up, as does the relative momentum $\vec{k_{\alpha}}$, where $E_{\alpha}=\hbar^2 k_{\alpha}/2\mu_{\alpha}$ and where
+\begin{equation}
+\mu_{\alpha} = \frac{M_a M_A}{M_a+M_A},
+\end{equation}
+ is the reduced mass of the indicated mode of break-up.
+
+We consider the stationary states eigenfunction that obey
+
+\begin{equation}
+H \Psi^{(+)}(\vec{k_{\alpha}}) = (E_{\alpha}+\varepsilon_{\alpha}) \Psi^{(+)} (\vec{k_{\alpha}}),
+\end{equation}
+ where $\varepsilon_{\alpha}$ is the sum of the internal energies of the particles in channel $\alpha$. Because the functions $\Psi^{(+)}(\vec{k_{\alpha}})$ are energy eigenstates the channel energies all obey $E_{\alpha}+\varepsilon_{\alpha}=E_{\beta}+\varepsilon_{\alpha}$. The functions $\Psi^{(+)}(\vec{k_{\alpha}},\vec{r_{\alpha}}, \xi_{\alpha})$ are chosen to obey standard asymptotic boundary conditions, such that the channel $\alpha$ contains an incident plane wave with relative momentum $\vec{k_{\alpha}}$ and all the other channels contain only outgoing scattered waves. The complete asymptotic form of the wave functions is
+\begin{equation}\label{eq2nd_2}
+\Psi^{(+)}(\vec{k_{\alpha}}) = \psi_{\alpha}(\xi_{\alpha})e^{i(\vec{k_{\alpha}} \cdot \vec{r_{\alpha}})} + \sum_{\beta} \psi_{\beta} (\xi_{\beta}) f_{\alpha \beta}(\vec{k_{\alpha}},\theta) \frac{e^{i k_{\beta} r_{\beta}}}{r_{\beta}}.
+\end{equation}
+ The superscript $^{(+)}$ indicates that the wave function has been chosen with all the scattered waves radially outgoing. In the entrance channel we can write (cf. L.S. Rodberg and R.M. Thaler, {\it Introduction to the Quantum Theory of Scattering}, Ass. Press.)
+\begin{equation}
+\psi_{\rm entrance} = \left\{ e^{i k_{\alpha} z} + \frac{e^{i k_{\alpha} r}}{r} f_{\alpha \alpha}(\vec{k_{\alpha}}, \theta) \right\} e^{-\frac{i E_{\alpha} t}{\hbar}}.
+\end{equation}
+The phase $e^{-\frac{i E_{\alpha} t}{\hbar}}$ indicates that $\psi_{\rm entrance}$ is a stationary solution of the time-dependent Schr\"odinger equation. If we consider the scattering of protons on heavy nuclei $\mu_p \approx m_p$, the order of magnitude of the wave number $k$ is given by
+
+\begin{equation}
+k = \sqrt{\frac{2 m_p E}{\hbar^2}} = 0.218 \sqrt{E({\rm MeV})} {\rm fm}^{-1}.
+\end{equation}
+So for 20 MeV protons we get
+
+\begin{equation}
+k \approx 1 {\rm fm}^{-1} \approx \frac{5}{R_0} ({\rm fm}^{-1}),
+\end{equation}
+ (where $R_0 = 5 {\rm fm}$ is approximately the radius of $^{40}Ca$).
+In other channels we have
+\begin{equation}\label{eq2nd_3}
+{\rm d}\sigma = \left( \frac{v_{\beta}}{v_{\alpha}} \right) |f_{\alpha \beta}|^2 {\rm d}\Omega.
+\end{equation}
+
+The formulation so far, in terms of plane waves (which is a stationary description) is convenient for calculating, but does not correspond to our normal way of thinking about such processes (i.e. in a time dependent description). We can, however, get the time dependence out of these expressions by constructing wave packets. Let us now only consider the entrance channel (elastic scattering)
+
+\begin{equation}\label{eq2nd_1}
+\psi_{\rm entrance}(r,t) = \int_0^{\infty} \left\{ e^{ikz} + f \frac{e^{ikr}}{r} \right\} e^{-\frac{i E(k) t}{\hbar}} A(k) {\rm d}k
+\end{equation}
+where we have dropped all the subindices for simplicity.
+
+The dependence of $E$ with $k$ can be more general than $E=\frac{\hbar^2 k^2}{2m}$; for example in the case of quasiparticles $E(k)$ is a dispersion relation. The weighting function $A(k)$ defines a definite distribution of momenta and consequently produces some localization in space (Heisenberg relation).
+
+There are many possibilities for $A(k)$, but a very convenient one is the Gaussian distribution, as it provides a very good space localization (it is in this case that the equal sign of the relation $\Delta_p \Delta_x \ge \frac{\hbar}{2}$ is valid), and at the same time is easy to work with. So we take
+
+\begin{equation}
+A(k) = e^{-\frac{1}{4} \sigma^2 (k-k_0)^2}
+\end{equation}
+where $k_0$ : mean value of the momenta around which the wave packet is centered, and
+$\sigma$ : length which measures the size of the wave packet ($\sigma \sim \frac{1}{\Delta k}$, $\Delta k$ dispersion in the linear momentum).
+
+We start making the assumption $\sigma k_0 \gg 1$ so $\frac{\Delta k}{k_0} \ll 1$ (This is the essential condition for the wave packet not to spread). Then
+
+\begin{equation}\label{eq_sa1}
+\begin{split}
+\psi_{\rm inc} &= \int_0^{\infty} e^{ikz} e^{-\frac{iE(k)}{\hbar}t} A(k) {\rm d}k, \\
+&= \int_0^{\infty} e^{ikz} e^{-\frac{i \hbar^2 k^2}{2M}t} e^{-\frac{1}{4}\sigma^2 (k-k_0)^2} {\rm d}k.\\
+\end{split}
+\end{equation}
+where
+\begin{equation}
+E(k) = \frac{\hbar^2 k^2}{2M} \qquad \qquad ({\rm free \;\; particle})
+\end{equation}
+
+The exponent of the integrand in eq. \ref{eq_sa1} is equal to
+
+\begin{equation}\label{eq_sa2}
+\begin{split}
+ikz &- \frac{i\hbar k^2}{2M} t - \frac{1}{4} \sigma^2 (k^2 -2k_0k +k_0^2), \\
+&= a k^2 + b k + c,
+\end{split}
+\end{equation}
+where
+\begin{equation}\label{eq_sa6}
+\begin{split}
+a &= -\frac{1}{4} \sigma^2 - \frac{i \hbar}{2M} t, \\
+b &= iz + \frac{1}{2} \sigma^2 k_0, \\
+c &= - \frac{1}{4} \sigma^2 k_0^2.
+\end{split}
+\end{equation}
+Eq. \ref{eq_sa2} can be rewritten as
+
+\begin{equation}
+\nonumber
+a k^2 + bk + c = a \left( k + \frac{1}{2}\frac{b}{a} \right)^2 - \frac{a}{4} \left( \frac{b}{a} \right)^2 + c.
+\end{equation}
+Then
+\begin{equation}
+\psi_{\rm inc} = {\rm exp} \left( c - \frac{1}{4} \frac{b^2}{a} \right) \int_0^{\infty} {\rm d}k {\rm exp} \left\{ a \left( k + \frac{1}{2} \frac{b}{a} \right)^2 \right\}.
+\end{equation}
+
+\begin{figure}
+\centerline{\includegraphics*[width=12cm,angle=0]{C3/figs_C3/2_1.pdf}}
+\caption{}\label{fig2nd_1}
+\end{figure}
+ Because of the condition $\sigma k_0 \gg 1$, one can check that
+
+\begin{equation}\label{eq_sa7}
+\int_{-\infty}^0 {\rm d}k {\rm exp} \left\{ a \left( k + \frac{1}{2} \frac{b}{a} \right)^2 \right\} \approx 0
+\end{equation}
+Then the integral (\ref{eq_sa7}) can be calculated between the limits $\pm \infty$, giving rise to a very simple integral. The final result is equal to
+\begin{equation}
+\begin{split}
+\psi_{\rm inc}(r,t) &= {\rm exp}\left( c - \frac{1}{4} \frac{b^2}{a} \right) \sqrt{\frac{\pi}{-a}} \\
+&= \sqrt{\frac{\pi}{\frac{1}{4} \sigma^2 + \frac{2 \hbar t}{2M}}} {\rm exp} \left\{ c - \frac{1}{4} \frac{b^2}{a} \right\}
+\end{split}
+\end{equation}
+Making use of the definitions given in equation (\ref{eq_sa6}), and of the fact that the incident velocity $v_0$ of the projectile is equal to
+\begin{equation}
+v_0 = \frac{\hbar k_0}{M}
+\end{equation}
+we obtain
+\begin{equation}\label{eq_sa8}
+\psi_{\rm inc}(r,t) = \sqrt{\frac{\pi}{\frac{1}{4} \sigma^2 + \frac{2 \hbar t}{2M}}} e^{- \frac{(z-v_0 t)^2}{\sigma^2 + \frac{2 \hbar}{M} i t}} e^{ik_0 (z - \frac{1}{2} v_0 t)},
+\end{equation}
+i.e. the wave packet, which is centered around $z=v_0 t$ and hits the target ($z=0$) at $t=0$, has a group velocity $v_0$ and a phase velocity $1/2 v_0$. Its width is equal to
+
+\begin{equation}
+W(t) = \Re \left\{ \exp \left(- \frac{(z-v_0 t)^2}{\sigma^2 + \frac{2 \hbar}{M} i t}\right) \right\} = \sigma \sqrt{1+ \frac{4 \hbar^2 t^2}{M^2 \sigma 4}},
+\end{equation}
+and is spreading at a rate given by (cf. Appendix \ref{})
+
+\begin{equation}
+\lim_{t \rightarrow \infty} \frac{\partial W(t)}{\partial t} \approx \frac{2 \hbar}{M \sigma} \sim \Delta v_z
+\end{equation}
+
+ We can obtain the scattered wave by integrating the second term of $\psi_{\rm entrance}$  (eq. (\ref{eq2nd_1})). For the moment we neglect the $k$-dependenc of $f$ as compared with the rapid oscillations of $e^{ikr}$. Proceeding in the same way as before we obtain
+
+\begin{equation}
+\psi_{\rm scatt}(r,t) = \frac{f(\theta, k_a)}{r} \sqrt{\frac{\pi}{\frac{1}{4} \sigma^2 + \frac{2 \hbar t}{2M}}} \exp\left(- \frac{(r-v_0 t)^2}{\sigma^2 + \frac{2 \hbar}{M} i t}\right) e^{i k_0 \left( r- \frac{v_0}{2} t \right)}
+\end{equation}
+Since $r = |\vec{r}| > 0$ we see that the scattered wave does not "form" until the incident wave arrives to the target (at $t=0$), and after having formed, it moves with the expected velocity (i.e. $v_0$).
+
+We have so far neglected the $k$-variation of $f$. We might expect that there should be limitations on this dependence to preserve the property just found. There are indeed limitations of this kind but we defer the discussion until we have a little more experience with $f$.
+
+
+\section{Properties of the scattering amplitude $f$}
+
+\subsection{Optical theorem}
+
+We first consider the situation in which only elastic scattering takes place. The current associated with $\psi$ entrance is equal to
+
+\begin{equation}\label{eq_sa4}
+\vec{I} = \frac{\hbar}{2iM} \left( \psi^* \vec{\nabla} \psi - \left( \vec{\nabla} \psi^* \right) \psi \right).
+\end{equation}
+Because of the conservation of the number of particles we can write
+
+\begin{equation}\label{eq_sa3}
+\int_{\text{large sphere}} \vec{I} \cdot {\rm d}\vec{s} = 0
+\end{equation}
+where ${\rm d}\vec{s}$ is the element of surface of the sphere. That is the total flux should be zero. From eqs. (\ref{eq2nd_1}), (\ref{eq_sa4}) and (\ref{eq_sa3}) we obtain
+
+\begin{equation}\label{eq_sa5}
+\sigma_{\rm TOTAL} = \int |f|^2 {\rm d}\omega = \frac{4\pi}{k} \Im f(\theta=0,k)
+\end{equation}
+This result is known under the name of the optical theorem. Let us discuss the physical significance of eq. (\ref{eq_sa5}).
+There are two independent ways of measuring $\sigma_{\rm TOTAL}$, namely
+\begin{enumerate}
+\item{by integrating the differential cross section $|f(\theta)|^2 = \frac{{\rm d}\sigma(\theta)}{{\rm d}\omega}$ (moving around the counter).}
+\item{measuring the attenuation of the incoming beam.}
+\end{enumerate}
+
+Both procedures should give the same result. We then identify $\frac{4\pi}{k} f(\theta=0,k)$ with the attenuation in the incoming beam which comes from he destructive interference of the elastic scattering wave with the incoming wave.
+
+In the case in which one deals with both elastic and reaction channels, we must use the scattering function \ref{eq2nd_2}. In this case eq. (\ref{eq_sa3}) gives
+
+\begin{equation}
+\begin{split}
+\sigma_{\rm TOTAL} &= \sum_{\alpha \beta} \int \frac{v_{\beta}}{v_{\alpha}} |f_{\alpha \beta}|^2 {\rm d}\omega, \\
+&= \int |f_{\alpha \alpha}|^2 {\rm d}\omega + \sum_{\alpha \neq \beta} \frac{v_{\beta}}{v_{\alpha}} \int |f_{\alpha \beta}|^2 {\rm d}\omega, \\
+&= \frac{4\pi}{k} \Im f_{\alpha \alpha}(\theta=0, k_{\alpha}),
+\end{split}
+\end{equation}
+
+This result is what we expected, as the only scattered wave that can interfere with the {\it incident wave is the one scattered elastically} (which is still in the entrance channel). On the other hand, the existence of other channels (inelastic, reaction, etc.) are taken into account in $f_{\alpha \alpha}$ {\it through the normalization of the total wave function} (\ref{eq2nd_2}).
+
+
+
+
+\section{Appendix: Evolution of wavepacket}
+We start with expression (\ref{eq_sa8}) of the incident wavefunction
+\begin{equation}
+\nonumber
+\psi_{\rm inc}(t) \sim e^{- \frac{(z-v_0 t)^2}{\sigma^2 + \frac{2 \hbar}{M} i t}} e^{i k_0 \left( z - \frac{v_0}{2} t \right)}.
+\end{equation}
+One can write
+\begin{equation}
+\nonumber
+\begin{split}
+\frac{1}{\sigma^2 + \frac{2 \hbar}{M} i t} &= \frac{\sigma^2 - \frac{2 \hbar}{M} i t}{\sigma^4 + \left( \frac{2 \hbar}{M} \right)^2 t^2}, \\
+&= \frac{1}{\sigma^2 + \left( \frac{2 \hbar}{\sigma M} \right)^2 t^2} - i \frac{\left( \frac{2\hbar}{M} \right)}{\sigma^4 + \left( \frac{2 \hbar}{M} \right)^2 t^2} t, \\
+&= \frac{1}{A} - i \frac{\left( \frac{2\hbar}{M} \right)}{B} t,
+\end{split}
+\end{equation}
+where
+\begin{equation}
+\nonumber
+\left\{
+\begin{split}
+A(t) &= \sigma^2 + \left( \frac{2\hbar}{\sigma M} \right)^2 t^2, \\
+B(t) &= \sigma^4 + \left( \frac{2\hbar}{M} \right)^2 t^2.
+\end{split}
+\right.
+\end{equation}
+Thus
+\begin{equation}
+\nonumber
+\begin{split}
+\psi_{\rm inc}(t) &\sim {\rm exp} \left( -\frac{(z - v_0 t)^2}{A(t)} \right) {\rm exp} \left\{ i k_0 \left( z - \left( \frac{1}{2} v_0 + \frac{(2 \hbar/M)}{B(t)} \right) t \right) \right\}, \\
+&\text{and}\\
+|\psi_{\rm inc}(t)|^2 &\sim {\rm exp} \left( - \frac{2 (z - v_0 t)^2}{A(t)}, \right)
+\end{split}
+\end{equation}
+where
+\begin{equation}
+\nonumber
+\sigma^2(t) \equiv A(t),
+\end{equation}
+that is 
+\begin{equation}
+\nonumber
+\sigma(t) = \sqrt{\sigma^2 + \left( \frac{2 \hbar}{\sigma M} \right)^2 t^2} = \sigma \sqrt{1 + \frac{4 \hbar^2}{\sigma^4 M^2} t^2}.
+\end{equation}
+The time evolution of $\sigma(t)$ is given by the relation
+\begin{equation}
+\nonumber
+\frac{{\rm d}\sigma(t)}{{\rm d}t} \sim \frac{\sigma}{2} \frac{\frac{4 \hbar^2}{\sigma^4 M^2} 2 t}{\sqrt{1 + \frac{4 \hbar^2}{\sigma^4 M^2} t^2}},
+\end{equation}
+which can be rewritten as
+\begin{equation}
+\nonumber
+\begin{split}
+\frac{{\rm d}\sigma(t)}{{\rm d}t}_{t \rightarrow \infty} &\sim \sigma \frac{4 \hbar^2}{\sigma^4 M^2} \frac{1}{\sqrt{\frac{4 \hbar^2}{\sigma^4 M^2}}} \sim \sigma \frac{4 \hbar^2}{\sigma^4 M^2} \frac{1}{\frac{2 \hbar}{\sigma^2 M}}, \\
+&\sim \sigma \frac{2 \hbar}{\sigma^2 M} = \frac{2 \hbar}{\sigma M}.
+\end{split}
+\end{equation}
+That is
+\begin{equation*}
+\frac{{\rm d}\sigma(t)}{{\rm d}t}_{t \gg \frac{\sigma^2 M}{2 \hbar}} \sim \frac{2 \hbar}{\sigma M}.
+\end{equation*}
+Because
+\begin{equation}
+\nonumber
+\sigma \sim \frac{1}{\Delta k}
+\end{equation}
+one can write
+\begin{equation}
+\nonumber
+\frac{2 \hbar}{\sigma M} = \frac{2 \hbar \Delta k}{M} = \frac{2 \Delta p_z}{M} = 2 \Delta v_z
+\end{equation}
+and 
+\begin{equation*}
+\frac{{\rm d}\sigma(t)}{{\rm d}t} \sim 2 \Delta v_z
+\end{equation*}
+

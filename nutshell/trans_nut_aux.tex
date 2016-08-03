@@ -1,0 +1,127 @@
+\documentclass[a4paper,11pt]{book}
+\usepackage[sectionbib]{chapterbib}
+%\usepackage{chapterbib}
+\usepackage[title]{appendix}
+\usepackage{slashbox}
+%\documentclass[a4paper]{book}
+% \linespread{2.}
+%\numberwithin{section}
+%\documentclass[12pt]{article}
+%\documentclass[12pt]{cmmp}
+
+%%\usepackage{psfig}
+%\usepackage{harvard}
+\usepackage{epsfig}
+\usepackage{amsmath}
+\usepackage{amsfonts}
+%\counterwithin{figure}{section}
+\usepackage{amssymb}
+\numberwithin{equation}{section}
+\numberwithin{figure}{section}
+\numberwithin{table}{section}
+%%\usepackage{graphicx}
+%%
+%%\usepackage{txfonts}
+%%%\usepackage{mathrsfs}
+%
+%\usepackage{feynmf}     %<------------ Obbligatorio
+\unitlength=1mm         %<------------ Obbligatorio
+%
+\newcommand{\braket}[1]{\langle {#1} \rangle }
+\newcommand{\ket}[1]{|{#1} \rangle }
+\newcommand{\bra}[1]{\langle {#1}|}
+\usepackage{latexsym}
+\usepackage[varg]{txfonts}
+\usepackage{mathrsfs}
+\usepackage{upgreek}
+\usepackage[round]{natbib}
+%\usepackage [latin1]{inputenc}
+\usepackage{verbatim}
+\usepackage{array}
+\usepackage{color}
+%\pagestyle{plain}
+\usepackage{graphicx}
+\DeclareMathAlphabet{\mathpzc}{OT1}{pzc}{m}{it}
+
+
+\begin{document}
+\section{Simultaneous versus successive Cooper pair transfer in nuclei}
+Cooper pair transfer is thought to be tantamount t simultaneous transfer. In this process a nucleon goes over the $NN$--interaction $v$, the second one does it making use of the correlations with its partner. Consequently, in the independent particle limit simultaneous Cooper transfer should not be possible. Nonetheless, it remains operative. This is because the particle transferred by $v$ is followed by a second one which profits of the non--orthogonality of the wavefunctions describing the single--particle motion in target and projectile. This is the reason why this transfer amplitude has to be substracted from the previous one, representing a spurious contribution to simultaneous transfer arising from the overcompletness of the basis employed. In other words, $T^{(1)}$ gives the wrong cross section, even at the level of simultaneous transfer, as it violates two--nucleon transfer sum rules. The resulting cancellation is quite conspicuous in actual nuclei, in keeping with the fact that Cooper pairs are weakly correlated systems. This is the reason why, successive transfer process in which $v$ acts twice, is the dominant mechanism in two--nucleon transfer. While this mechanism is antithetical to the transfer of strongly correlated fermion pairs (bosons), it probes the same pairing correlations as simultaneous transfer does in the nuclear case. This is because Cooper pairs (quasi--bosons) are quite extended objects, the two nucleons being (virtually) correlated over distances much larger than typical nuclear dimensions. I a two--nucleon transfer process this virtual property becomes real, the difference between the character of simultaneity and of succession becoming strongly blurred.
+
+
+
+\begin{equation*}
+\phi_t(\mathbf{r}_{p1},\sigma_1,\mathbf{r}_{p2},\sigma_2)\chi^{1/2}_{m_s}(\sigma_p)\psi_A(\xi_A)\chi^{(+)}_{tA}(\mathbf{r}_{tA})\quad\quad\quad\quad \chi^{1/2}_{m_s}(\sigma_p)\psi_B(\xi_B)\chi^{(-)}_{pB}(\mathbf{r}_{pB})
+\end{equation*}
+\begin{equation*}
+\left(\phi_d(\mathbf{r}_{p1},\sigma_1)\phi_d(\mathbf{r}_{p2},\sigma_2)\chi^{(+)}_{tA}(\mathbf{r}_{tA})\right)
+\end{equation*}
+\begin{equation*}
+\begin{split}
+\Psi_{A+2}(\xi_A,\mathbf r_{A1}&,\sigma_1,\mathbf r_{A2},\sigma_2)=\psi_A(\xi_A)\sum_{l_i,j_i}[\phi^{A+2}_{l_i,j_i}(\mathbf r_{A1},\sigma_1,\mathbf r_{A2},\sigma_2)]^0_0\\
+&=\psi_A(\xi_A)\sum_{nm}a_{nm}\left[\varphi^{A+2}_{n,l_i,j_i}(\mathbf r_{A1},\sigma_1)\varphi^{A+2}_{m,l_i,j_i}(\mathbf r_{A2},\sigma_2)\right]^0_0
+\end{split}
+\end{equation*} 
+\begin{equation*}
+\begin{split}
+T^{(1)}&=2\sum_{\sigma_1,\sigma_2,\sigma_p}\int d\xi_A d\mathbf{r}_{tA} d\mathbf{r}_{p1}d\mathbf{r}_{A2} \psi_A(\xi_A)\sum_{l_i,j_i}[\phi^{A+2}_{l_i,j_i}(\mathbf r_{A1},\sigma_1,\mathbf r_{A2},\sigma_2)]^{0*}_{0}\\
+&\times\chi^{(-)*}_{pB}(\mathbf{r}_{pB})\chi^{1/2*}_{m_s}(\sigma_p)
+ v(r_{p1}) \phi_t(\mathbf{r}_{p1},\sigma_1,\mathbf{r}_{p2},\sigma_2)\chi^{1/2}_{m_s}(\sigma_p)\psi_A(\xi_A)\chi^{(+)}_{tA}(\mathbf{r}_{tA})\\
+ &=2\sum_{\sigma_1,\sigma_2,\sigma_p}\int d\mathbf{r}_{tA} d\mathbf{r}_{p1}d\mathbf{r}_{A2} \sum_{l_i,j_i}[\phi^{A+2}_{l_i,j_i}(\mathbf r_{A1},\sigma_1,\mathbf r_{A2},\sigma_2)]^{0*}_{0}\\
+ &\times\chi^{(-)*}_{pB}(\mathbf{r}_{pB})\chi^{1/2*}_{m_s}(\sigma_p)
+  v(r_{p1}) \phi_t(\mathbf{r}_{p1},\sigma_1,\mathbf{r}_{p2},\sigma_2)\chi^{1/2}_{m_s}(\sigma_p)\chi^{(+)}_{tA}(\mathbf{r}_{tA})\\
+\end{split}
+\end{equation*} 
+\newpage
+\begin{equation*}
+\begin{split}
+\chi^{1/2}_{m_s}(\sigma_p)\phi_d(\mathbf{r}_{p1},\sigma_1)\psi_A(\xi_A)\varphi^{A+1}_{l_f,j_f,m_f}(\mathbf r_{A2},\sigma_2)
+\end{split}
+\end{equation*} 
+
+
+\begin{multline*}
+T^{(2)}_{succ}=2\sum_{l_i,j_i}\sum_{l_f,j_f,m_f}\sum_{\substack{\sigma_1 \sigma_2\\\sigma'_1 \sigma'_2}}
+\int d\xi_A d\mathbf{r}_{dF}d\mathbf{r}_{p1}d\mathbf{r}_{A2}
+\chi^{(-)*}_{pB}(\mathbf{r}_{pB})\chi_B^*(\xi_B) v(\mathbf{r}_{p1})\phi_d(\mathbf r_{p1})\varphi^{A+1}_{l_f,j_f,m_f}(\mathbf r_{A2},\sigma_2)
+\\
+ \times \chi^{1/2}_{m_s}(\sigma_p)\Psi_A(\xi_A) \frac{2\mu_{dF}}{\hbar^2} \int  d\xi'_A d\mathbf{r}'_{dF}d\mathbf{r}'_{p1}d\mathbf{r}'_{A2}G(\mathbf{r}_{dF},\mathbf{r}'_{dF})\\
+ \times \chi^{(+)}_{tA}(\mathbf{r}_{tA})\psi_A^*(\xi'_A) v(\mathbf{r'}_{p2})\phi_d(\mathbf r'_{p1})\varphi^{A+1}_{l_f,j_f,m_f}(\mathbf r'_{A2},\sigma'_2)\\
+ =2\sum_{l_i,j_i}\sum_{l_f,j_f,m_f}\sum_{\substack{\sigma_1 \sigma_2\\\sigma'_1 \sigma'_2}}
+ \int d\mathbf{r}_{dF}d\mathbf{r}_{p1}d\mathbf{r}_{A2}
+ \chi^{(-)*}_{pB}(\mathbf{r}_{pB}) v(\mathbf{r}_{p1})\phi_d(\mathbf r_{p1})\left[\varphi^{A+2}_{l_f,j_f,m_f}(\mathbf r_{A1},\sigma_1,\mathbf r_{A2},\sigma_2)\right]^0_0
+ \\
+  \times  \frac{2\mu_{dF}}{\hbar^2} \int   d\mathbf{r}'_{dF}d\mathbf{r}'_{p1}d\mathbf{r}'_{A2}G(\mathbf{r}_{dF},\mathbf{r}'_{dF}) \chi^{(+)}_{tA}(\mathbf{r}'_{tA}) v(\mathbf{r'}_{p2})\phi_d(\mathbf r'_{p1},\sigma'_1)\phi_d(\mathbf r'_{p2},\sigma'_2)\varphi^{A+1}_{l_f,j_f,m_f}(\mathbf r'_{A2},\sigma'_2)  
+\end{multline*} 
+
+\begin{multline*}
+T^{(1)}_{NO}=2\sum_{l_i,j_i}\sum_{l_f,j_f,m_f}\sum_{\substack{\sigma_1 \sigma_2\\\sigma'_1 \sigma'_2}}
+\int d\xi_A d\mathbf{r}_{dF}d\mathbf{r}_{p1}d\mathbf{r}_{A2}
+\chi^{(-)*}_{pB}(\mathbf{r}_{pB})\chi_B^*(\xi_B) v(\mathbf{r}_{p1})\phi_d(\mathbf r_{p1})\varphi^{A+1}_{l_f,j_f,m_f}(\mathbf r_{A2},\sigma_2)
+\\
+ \times \chi^{1/2}_{m_s}(\sigma_p)\Psi_A(\xi_A) \frac{2\mu_{dF}}{\hbar^2} \int  d\xi'_A d\mathbf{r}'_{dF}d\mathbf{r}'_{p1}d\mathbf{r}'_{A2}\\
+ \times \chi^{(+)}_{tA}(\mathbf{r}_{tA})\psi_A^*(\xi'_A) \phi_d(\mathbf r'_{p1})\mathbb I \varphi^{A+1}_{l_f,j_f,m_f}(\mathbf r'_{A2},\sigma'_2)\\
+ =2\sum_{l_i,j_i}\sum_{l_f,j_f,m_f}\sum_{\substack{\sigma_1 \sigma_2\\\sigma'_1 \sigma'_2}}
+ \int d\mathbf{r}_{dF}d\mathbf{r}_{p1}d\mathbf{r}_{A2}
+ \chi^{(-)*}_{pB}(\mathbf{r}_{pB}) v(\mathbf{r}_{p1})\phi_d(\mathbf r_{p1})\left[\varphi^{A+2}_{l_f,j_f,m_f}(\mathbf r_{A1},\sigma_1,\mathbf r_{A2},\sigma_2)\right]^0_0
+ \\
+  \times  \frac{2\mu_{dF}}{\hbar^2} \int   d\mathbf{r}'_{dF}d\mathbf{r}'_{p1}d\mathbf{r}'_{A2} \chi^{(+)}_{tA}(\mathbf{r}'_{tA}) \phi_d(\mathbf r'_{p1},\sigma'_1)\phi_d(\mathbf r'_{p2},\sigma'_2)\varphi^{A+1}_{l_f,j_f,m_f}(\mathbf r'_{A2},\sigma'_2)  
+\end{multline*} 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+\end{document} 

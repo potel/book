@@ -1,0 +1,223 @@
+
+\chapter{Inelastic scattering}
+In this lecture we discuss very briefly some applications of the DW method, in the most simple and straightforward way, ignoring all the complications associated with the spin carried by the particles, the spin orbit dependence of the optical model potential $\bar{U}(r_\beta)$ etc. In following lectures we take again the problem in more detail.
+\section{Inelastic $\alpha$-scattering}
+We start assuming that the interaction $V'_\beta$ is equal to $V'_\beta=V'_\beta(\xi_\beta,r_\beta)$, which is usually called the stripping approximation.
+
+We can then write eq. (\ref{eq31}) in the DW approximation as
+\begin{equation}\label{eq4l1}
+ \frac{d\sigma}{d\Omega}=\frac{k_\beta}{k_\alpha}\frac{\mu_\alpha \mu_\beta}{(2 \pi \hbar^2)}\vert\langle
+\psi_\beta(\xi_\beta)\chi^{(-)}(k_\beta,\vec{r}_\beta),V'_\beta(\xi_\beta,r_\beta) \psi_\alpha(\xi_\alpha)\chi^{(+)}(k_\alpha,\vec{r}_\alpha)\rangle\vert^2.
+\end{equation}
+For the case of inelastic scattering $\xi_\alpha=\xi_\beta=\xi$, thus
+\begin{subequations}
+\begin{align}\label{eq4l2}
+\psi_\beta(\xi_\beta)=\psi_{M_{I\beta}}^{I_\beta}(\xi)\\
+\psi_\alpha(\xi_\alpha)=\psi_{M_{I\alpha}}^{I_\alpha}(\xi)\\
+\vec{r}_\alpha=\vec{r}_\beta\;\;\mu_\alpha =\mu_\beta,
+\end{align}
+\end{subequations}
+i.e we are always in the entrance channel.
+
+Equation (\ref{eq4l1}) can now be rewritten as
+\begin{equation}\label{eq4l3}
+ \frac{d\sigma}{d\Omega}=\frac{k_\beta}{k_\alpha}\frac{m_\alpha^2}{(2 \pi \hbar^2)^2}\frac{1}{2 I_\alpha+1}\sum_{M_\alpha M_\beta}
+\vert\langle
+\chi^{(-)}(k_\beta,\vec{r}_\beta),V_{eff}(\vec{r}) \chi^{(+)}(k_\alpha,\vec{r}_\alpha)\rangle\vert^2,
+\end{equation}
+where
+\begin{equation}\label{eq4l4}
+\begin{split}
+ V_{eff}=\int d\xi \,\psi_{M_{I\beta}}^{I_\beta^*}(\xi) V'_\beta(\xi,\vec{r}) \psi_{M_{I\alpha}}^{I_\alpha}(\xi)\\
+= \int d\xi\, \psi_{M_{I\beta}}^{I_\beta^*}(\xi) V_\beta(\xi,\vec{r}) \psi_{M_{I\alpha}}^{I_\alpha}(\xi)
+\end{split}
+\end{equation}
+ as $\psi^{I_\beta}$ and $\psi^{I_\alpha}$ are orthogonal (remember $V'_\beta=V_\beta-\bar{U}(r)$).
+We expand the interaction in spherical harmonics, i.e.
+\begin{equation}\label{eq4l5}
+\begin{split}
+V_\beta(\xi,\vec{r}) =\sum_{LM} V_M^L(\xi,r) Y_M^L(\hat{r})\\
+= \sum_{LM} V_M^L(\xi,\vec{r}).
+\end{split}
+\end{equation}
+Defining
+\begin{equation}\label{eq4l6}
+ \int d\xi \,\psi_{M_{I\beta}}^{I_\beta^*}(\xi) [V_M^L(\xi,r) \psi^{I^\alpha}(\xi)]_{M_{I\beta}}^{I_\beta}
+= F_L(r),
+\end{equation}
+we can write eq.(\ref{eq4l4}) as
+\begin{equation}\label{eq4l7}
+V_{eff}(\vec{r})= \sum_{LM} (LMI_\alpha M_\alpha \vert I_\beta M_\beta) F_L(r) Y_M^L(\hat{r}).
+\end{equation}
+Inserting (\ref{eq4l7}) into (\ref{eq4l3}) we obtain
+
+
+
+\begin{equation}\label{eq4l8}
+\begin{split}
+\frac{d\sigma}{d\Omega}&=\frac{k_\beta}{k_\alpha}\frac{m_\alpha^2}{(2 \pi \hbar^2)^2}\frac{1}{2 I_\alpha+1}
+\sum_{M_\alpha M_\beta}
+\left\vert
+\sum_{LM} (LMI_\alpha M_\alpha \vert I_\beta M_\beta) \times\right.\\
+&\left.\int d\vec r \chi^{(-)*}(k_\beta,\vec{r}_\beta)
+F_L(r) Y_M^{L*}(\hat{r})\chi^{(+)}(k_\beta,\vec{r}_\beta)\right\vert^2=\\
+&\frac{k_\beta}{k_\alpha}\frac{m_\alpha^2}{(2 \pi \hbar^2)^2}\frac{2 I_\beta+1}{2 I_\alpha+1}\times\\
+&\sum_{LM}\frac{1}{2 L+1} \left\vert \int d\vec r \chi^{(-)*}(k_\beta,\vec{r}_\beta)
+F_L(r) Y_M^{L*}(\hat{r})\chi^{(+)}(k_\beta,\vec{r}_\beta)\right\vert^2,
+\end{split}
+\end{equation}
+where we have used he orthogonality relation between Clebsch-Gordan coefficients
+
+\begin{equation}\label{eq4l10}
+\begin{split}
+\sum_{M_\alpha M_\beta}&(LMI_\alpha M_\alpha \vert I_\beta M_\beta)
+ (L' M I_\alpha M_\alpha \vert I_\beta M_\beta)=\\
+& \sqrt{\frac{(2 I_\beta+1)^2}{(2L+1)(2L'+1)}} \sum_{M_\alpha M_\beta}
+(I_\beta -M_\beta  I_\alpha M_\alpha \vert L -M)\times\\
+&(I_\beta -M_\beta  I_\alpha M_\alpha \vert L' -M)=\frac{2 I_\beta+1}{2 L+1} \delta_{L L'}\\
+\text{(fixed $M$)}
+\end{split}
+\end{equation}
+
+
+Let us now discuss the case of inelastic scattering of even spherical nuclei.
+
+
+The macroscopic Hamiltonian describing the dynamics of the multipole surface vibrations in such nuclei can be written, in the harmonic approximation as
+
+\begin{equation}\label{eq4l11}
+\mathrm{H}=\sum_{L,M} \left\{ \frac{B_L}{2} \vert \dot{\alpha}_M^L \vert^2+
+\frac{C_L}{2} \vert \alpha_M^L \vert^2 \right\},
+\end{equation}
+where the collective coordinate $\alpha_M^L$ is defined through the equation of the radius
+
+\begin{equation}\label{eq4l12}
+R(\hat r)= R_0 \left[1+\sum_{L,M} \alpha_M^L Y_M^{L*}(\hat r) \right],
+\end{equation}
+and where $R_0=r_0 A^{1/3}$ fm.
+
+
+
+The collective mode is generated from the interaction of the multipole field carried by each particle and the field of the rest of the particles. In turn this coupling modifies the single-particle motion. In particular the incoming prjectile would feel this coupling. The potential $V'_\beta$ is equal to
+
+\begin{align}\label{eq4l13}
+\begin{split}
+ V'_\beta & (\xi,\vec r)= U(r-R(\hat r))\\
+& = U(r-R_0 -R_0\sum_{L,M} \alpha_M^L Y_M^{L*}(\hat r))\\
+& = U(r-R_0) -R_0\sum_{L,M} \alpha_M^L Y_M^{L*}(\hat r) \frac{d U (r-R_0)}{d r}\\
+& = V_\beta (\xi, r)- \bar{U}_\beta (r)
+\end{split}\\\label{eq4l14}
+\begin{split}
+& \bar{U}_\beta (r)= -U(r-R_0)\\
+& V_\beta (\xi,\vec r)=R_0 \frac{d \bar U_\beta (r)}{d r}\sum_{L,M} \alpha_M^L Y_M^{L*}(\hat r) \\
+\end{split}
+\end{align}
+Comparing with eq. (\ref{eq4l5}) we obtain
+\begin{equation}\label{eq4l15}
+ V^L_M(\alpha,r)=R_0 \frac{d \bar U_\beta (r)}{d r} \alpha_{+M}^L
+\end{equation}
+
+
+Note that the Hamiltonian (\ref{eq4l11}) is the Hamiltonian of a five-dimensional harmonic oscillator, and that $\alpha_M^L$ is a classical variable. One can quantize this Hamiltonian in the standard way (see for example Messiah ``Quantum Mechanics'' Chapter 12)
+\begin{equation}\label{eq4l16}
+\alpha_M^L=\sqrt{\frac{\hbar \omega_L}{2 C_L}}(a_M^L-a^{+L}_{-M})
+\end{equation}
+where $\hbar \omega_L$ is the energy of the vibration, and $a^{+L}_{M}$ is the creation operator of a phonon. For an even nucleus
+\begin{align}\label{eq4l17}
+& \vert \Psi^{I_\alpha}_{M_\alpha}\rangle=\vert 0\rangle \quad (I_\alpha=M_\alpha=0)\\
+& \vert 0\rangle:\quad \text{ground state} \notag
+\end{align}
+The one-phonon state is equal to
+\begin{align}\label{eq4l18}
+& \vert \Psi^{I_\alpha}_{M_\alpha}\rangle=\vert I;LM \rangle =a^{+L}_{M} \vert 0\rangle\\
+& (I_\beta=L;M_{I_\beta}=M) \notag
+\end{align}
+We can now calculate the matrix element of the operator (\ref{eq4l15}), which connects states which differ in one phonon. Starting from the ground state we obtain
+\begin{equation}\label{eq4l19}
+\begin{split}
+\langle  I;LM & \vert V^L_M (\alpha,r)\vert 0\rangle=\\
+&(-1)^{L-M}R_0 \frac{d \bar U_\beta (r)}{d r} \sqrt{\frac{\hbar \omega_L}{2 C_L}}
+\langle  0\vert(a_M^L-a^{+L}_{-M})\vert 0\rangle=\\
+& R_0 \frac{d \bar U_\beta (r)}{d r} \sqrt{\frac{\hbar \omega_L}{2 C_L}}=
+-\frac{R_0}{\sqrt{2L+1}} \frac{d \bar U_\beta (r)}{d r} \beta_L
+\end{split}
+\end{equation}
+where
+\begin{equation}\label{eq4l20}
+ \beta_L=\sqrt{\frac{(2L+1)\hbar \omega_L}{2 C_L}}
+\end{equation}
+
+
+Substituting (\ref{eq4l19}) into eq. (\ref{eq4l8}) and making use of eqs. (\ref{eq4l17}) and (\ref{eq4l18}) we get
+\begin{equation}\label{eq4l21}
+\begin{split}
+\frac{d\sigma}{d\Omega}&=\frac{k_\beta}{k_\alpha}\frac{\mu_\alpha^2}{(2 \pi \hbar^2)^2}(\beta_L R_0)^2\times\\
+&\sum_{M}\frac{1}{2L+1}
+\left\vert
+\int d\vec r \chi^{(-)*}(k_\beta,\vec{r})
+\frac{d  U (r)}{d r} Y_M^{L*}(\hat{r})\chi^{(+)}(k_\alpha,\vec{r}_\beta)\right\vert^2
+\end{split}
+\end{equation}
+
+
+Suppose now that the nucleus has a permanent axially-symmetric deformation. For a $K=0$ band, the nuclear wave function has the form
+\begin{equation}\label{eq4l22}
+\Psi_{I M K=0} = \sqrt{\frac{2I+1}{8\pi^2}} \mathcal{D}_{M0}^I(\omega) \chi_{K=0} \quad \text{(intrinsic)}
+\end{equation}
+where we have used $(\omega)=(\theta,\phi,\psi)$ to label the Eulerian angles which serve as orientation parameters.
+
+
+In the intrinsic frame (which we take to coincide with the space-fixed axis when $\theta=\phi=\psi=0$) the nuclear surface has the shape
+\begin{equation}\label{eq4l23}
+R(\hat r)= R_0 \left[ 1+ \sum_L b_L  Y^L_0(\hat r)\right]
+\end{equation}
+where the $b_L$ introduced here is $\alpha_0^L$ in the intrinsic frame. When the nucleus has orientation $\omega$, this shape is rotated into
+\begin{equation}\label{eq4l24}
+\hat{P}_\omega R(\hat r)= R_0 \left[ 1+ \sum_L b_L \mathcal D_{M0}^L(\omega) Y^L_0(\hat r)\right]
+\end{equation}
+we then have that
+\begin{equation}\label{eq4l25}
+W(r-R(\hat r))=W(r-R_0)-R_0\frac{d  W(r-R_0)}{d r}
+\sum_L b_L \mathcal D_{M0}^L(\omega) Y^L_0(\hat r)
+\end{equation}
+which is the equivalent to eq. (\ref{eq4l13}) for the case of deformed nuclei. Then
+\begin{equation}
+ V_M^L(b,r;\omega)=-\frac{d
+\bar U_\beta (r-R_0)}{d r}b_L \mathcal D_{M0}^L(\omega)
+\end{equation}
+The effective interaction is now equal to
+\begin{equation}
+\begin{split}
+ \langle  \Psi&_{I M K=0} , V_M^L(b,r;\omega) \Psi_{000}\rangle =\\
+& -R_0\frac{d
+\bar U (r-R_0)}{d r}b_L \sqrt{\frac{(2L+1)^2}{8\pi^2}} \int \mathrm{d} \omega \mathcal D_{M0}^{L*}(\omega)
+\mathcal D_{M0}^L(\omega)=\\
+& -R_0\frac{d
+\bar U (r-R_0)}{d r}b_L=-\frac{R_0}{\sqrt{(2L+1)}}\frac{d
+\bar U (r-R_0)}{d r}\beta_L=F_L(r)\\
+& \quad (\beta_L=\sqrt{(2L+1)} b_L)
+\end{split}
+\end{equation}
+in complete analogy to (\ref{eq4l19}). Thus the same formfactor is used for both types of collective excitation.
+
+
+The normalization factor $(\beta_L R_0)^2$ which is the only free parameter what is obtained from the comparison of the experimental and theoretical (DWBA) differential cross section. The quantity $\beta_L$ is known as the multipole deformation (dynamic or static) parameter, and gives a direct measure of the coupling of the projectile to the vibrational field.
+
+
+The value of $\beta_L$ can also be obtained from the $B(E_L)$ reduced transition probability, in whichcase one has a measure of the electric moment, instead of the mass moment.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

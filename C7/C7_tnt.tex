@@ -1,0 +1,2251 @@
+\documentclass[a4paper,14pt]{book}
+%\documentclass[a4paper]{book}
+% \linespread{2.}
+%\documentclass[12pt]{article}
+%\documentclass[12pt]{cmmp}
+
+%%\usepackage{psfig}
+%\usepackage{harvard}
+\usepackage{epsfig}
+%%\usepackage{amsmath}
+\usepackage{amsfonts}
+%%\usepackage{amssymb}
+%%\usepackage{graphicx}
+%%
+%%\usepackage{txfonts}
+%%%\usepackage{mathrsfs}
+%
+%\usepackage{feynmf}     %<------------ Obbligatorio
+\unitlength=1mm         %<------------ Obbligatorio
+%
+\newcommand{\braket}[1]{\langle {#1} \rangle }
+\newcommand{\ket}[1]{|{#1} \rangle }
+\newcommand{\bra}[1]{\langle {#1}|}
+\usepackage{latexsym}
+\usepackage{amssymb}
+\usepackage{amsmath}
+\usepackage[varg]{txfonts}
+\usepackage{mathrsfs}
+\usepackage{upgreek}
+%\usepackage [latin1]{inputenc}
+\usepackage{verbatim}
+\usepackage{array}
+\usepackage{color}
+%\pagestyle{plain}
+\usepackage{graphicx}
+\DeclareMathAlphabet{\mathpzc}{OT1}{pzc}{m}{it}
+
+
+
+\begin{document}
+ \setcounter{chapter}{6}
+ \chapter{Two--particle transfer}
+Cooper pairs are the building blocks of pairing correlations in many-body fermionic systems. In particular in atomic nuclei. As a consequence, nuclear superfluidity can be specifically probed through Cooper pair tunneling.
+
+In the simultaneous transfer of two nucleons, one nucleon goes over from target to projectile, or viceversa, under the influence of the nuclear interaction
+responsible of the existence of a mean field potential,  while the other follows suit by profiting of: 1) pairing correlations (simultaneous transfer); 
+2) the fact that the single-particle wavefunctions describing the motion of Cooper pair partners in both target and projectile are solutions of different 
+single-particle potentials (non-orthogonality transfer). 
+In the limit of independent particle motion, in which all of the nucleon-nucleon interaction is used up in generating a mean field, both contributions
+to the transfer process (simultaneous and non-orthogonality) cancel out exactly (cf. App. A).
+
+In keeping with the fact that nuclear Cooper pairs are weakly bound, this cancellation is, in actual nuclei, quite strong. Consequently, successive transfer, a process in which the mean field acts twice is, as a rule, the main mechanism at the basis of Cooper pair transfer. Because of the same reason (weak binding), the correlation length of Cooper pairs is larger than nuclear dimensions, a fact which allows the two members of a Cooper pair, to move between target and projectile, essentially as a whole, also in the case of successive transfer. 
+
+
+Three appendixes are provided. One in which the cancellations existing between the different contributions to the two--nucleon transfer spectroscopic amplitudes (successive, simultaneous and non--orthogonality) are discussed in detail within the framework of the semi--classical approximation. Another one in which simple estimates of the relative importance of successive and of simultaneous transfer are worked out. Finally a derivation of first order DWBA simultaneous transfer is worked out within a formalism tailored to focus the attention on the nuclear structure correlations aspects of the process leading too effective two--nucleon transfer form factors.  
+
+%The condensation of these extended and thus strongly overlapping, bosonic degrees of freedom gives rise to a highly correlated, coherent, quasiclassical superfluid state, displaying overall phase coherence, and essentially exhausting two-nucleon transfer sum rules. Consequently, they are amenable to an accurate theoretical descriptions in terms of simple models, in particular that resulting from  the BCS approximation.
+
+The present Chapter is structured in the following way. In section \ref{...} we present a summary of two--nucleon transfer reaction theory. These are all the elements needed to calculate the absolute two--nucleon transfer differential cross sections in second order DWBA, and thus to compare theory with experiment. In this way, after reading this section one can go directly to the next Chapter which contains examples of the applications of this formalism.
+
+For the more theoretically oriented readers we provide in section \ref{...} a detailed derivation of the equations presented in section \ref{...} and which are implemented in the software COOPS+... used in the applications
+\section{simultaneous transfer}\label{sim}
+\subsection{distorted waves}
+For a $(t,p)$ reaction, the triton is represented by an incoming wave. We make the assumption that the two transferred neutrons are in the $S=0$ singlet state and that the triton has orbital angular momentum $L=0$, so the spin is entirely due to the spin of the proton. We will explicitly treat it, as, unlike in \cite{Bayman:71}, we will consider a spin--orbit term in the optical potential between the triton and the heavy ion. We use the notation of \cite{Bayman:71}.
+
+
+
+After (\ref{eq33}) we can write the triton distorted wave as
+\begin{equation}\label{eq88}
+    \psi^{(+)}_{m_t}(\mathbf{R},\mathbf{k}_i,\sigma_p)=\sum_{l_t}\exp\left(i\sigma_{l_t}^t\right)g_{l_tj_t}Y_0^{l_t}
+    (\hat{\mathbf{R}})\frac{\sqrt{4\pi(2l_t+1)}}{k_iR}\chi_{m_t}(\sigma_p),
+\end{equation}
+where we have used $Y_0^{l_t}(\hat{\mathbf{k}}_i)=i^{l_t}\sqrt{\tfrac{2l_t+1}{4\pi}}\delta_{m_t,0}$, as $\mathbf{k}_i$ is oriented along the $z$--axis. Note the phase difference with eq. (7) of \cite{Bayman:71}, due to the use of time--reversal rather than Condon--Shortley phase convention. If we write
+\begin{equation}\label{eq89}
+    Y_0^{l_t}(\hat{\mathbf{R}})\chi_{m_t}(\sigma_p)=\sum_{j_t}\langle l_t \;0\;1/2\;m_t|j_t\;m_t\rangle \left[Y^{l_t}(\hat{\mathbf{R}})\chi(\sigma_p)\right]^{j_t}_{m_t},
+\end{equation}
+we have
+\begin{equation}\label{eq90}
+\begin{split}
+    \psi^{(+)}_{m_t}(\mathbf{R},\mathbf{k}_i,\sigma_p)=\sum_{l_t,j_t}&\exp\left(i\sigma_{l_t}^t\right)
+    \frac{\sqrt{4\pi(2l_t+1)}}{k_iR}g_{l_tj_t}(R)\\
+    &\times\langle l_t \;0\;1/2\;m_t|j_t\;m_t\rangle \left[Y^{l_t}(\hat{\mathbf{R}})\chi(\sigma_p)\right]^{j_t}_{m_t}.
+\end{split}
+\end{equation}
+We now turn our attention to the outgoing proton distorted wave, which, after (\ref{eq35}), is
+\begin{equation}\label{eq91}
+    \psi^{(-)}_{m_p}(\boldsymbol{\zeta},\mathbf{k}_f,\sigma_p)=\sum_{l_pj_p}\frac{4\pi}{k_f\zeta}i^{l_p}
+    \exp\left(-i\sigma_{l_p}^p\right)f_{l_pj_p}^*(\zeta)\sum_m Y_m^{l_p}
+    (\hat{\boldsymbol{\zeta}})Y_m^{l_p*}
+    (\hat{\mathbf{k}}_f)\chi_{m_p}(\sigma_p).
+\end{equation}
+Now,
+\begin{equation}\label{eq92}
+\begin{split}
+\sum_m Y_m^{l_p}&
+    (\hat{\boldsymbol{\zeta}})Y_m^{l_p*}
+    (\hat{\mathbf{k}}_f)\chi_{m_p}(\sigma_p)=\sum_{m,j_p} Y_m^{l_p*}
+    (\hat{\mathbf{k}}_f)\langle l_p \;m\;1/2\;m_p|j_p\;m+m_p\rangle \\
+    &\times \left[Y^{l_p}
+    (\hat{\boldsymbol{\zeta}})\chi_{m_p}(\sigma_p)\right]^{j_p}_{m+m_p}\\
+    &=\sum_{m,j_p} Y_{m-m_p}^{l_p*}
+    (\hat{\mathbf{k}}_f)\langle l_p \;m-m_p\;1/2\;m_p|j_p\;m\rangle \left[Y^{l_p}
+    (\hat{\boldsymbol{\zeta}})\chi_{m_p}(\sigma_p)\right]^{j_p}_{m},
+\end{split}
+\end{equation}
+and, finally,
+\begin{equation}\label{eq93}
+\begin{split}
+    \psi^{(-)}_{m_p}(\boldsymbol{\zeta},\mathbf{k}_f,\sigma_p)
+    &=\frac{4\pi}{k_f\zeta}\sum_{l_pj_p,m}i^{l_p}
+    \exp\left(-i\sigma_{l_p}^p\right)f_{l_pj_p}^*(\zeta)Y_{m-m_p}^{l_p*}
+    (\hat{\mathbf{k}}_f)\\
+    &\times \langle l_p \;m-m_p\;1/2\;m_p|j_p\;m\rangle \left[Y^{l_p}
+    (\hat{\boldsymbol{\zeta}})\chi(\sigma_p)\right]^{j_p}_{m}.
+\end{split}
+\end{equation}
+\subsection{matrix element for the transition amplitude (1)}
+We now turn our attention to the evaluation of
+\begin{equation}\label{eq94}
+  \begin{split}
+  \langle \Psi_f^{(-)}&(\mathbf{k}_f)|V(r_{1p})|\Psi_i^{(+)}(k_i,\hat {\mathbf{z}})\rangle=\frac{(4\pi)^{3/2}}{k_ik_f}\sum_{l_pl_tj_pj_tm}\bigl((\lambda \tfrac{1}{2})_k(\lambda \tfrac{1}{2})_k|(\lambda \lambda)_0(\tfrac{1}{2}\tfrac{1}{2})_0\bigr)_0\sqrt{2l_t+1}\\
+  &\times \langle l_p \;m-m_p\;1/2\;m_p|j_p\;m\rangle\langle l_t \;0\;1/2\;m_t|j_t\;m_t\rangle\,i^{-l_p}\exp\bigl[i(\sigma_{l_p}^p+\sigma_{l_t}^t)\bigr]\\
+  &\times 2 Y_{m-m_p}^{l_p}(\hat{\mathbf{k}}_f)\sum_{\sigma_1\sigma_2\sigma_p} \int \frac {d\boldsymbol{\zeta}d\mathbf{r}d\boldsymbol{\eta}}{\zeta R} u_{\lambda k}(r_1)u_{\lambda k}(r_2)\left[Y^{\lambda}(\hat{\mathbf{r}}_1)Y^{\lambda}(\hat{\mathbf{r}}_2)\right]^{0*}_{0}\\
+  &\times f_{l_pj_p}(\zeta)g_{l_tj_t}(R)\Bigl[\chi(\sigma_1)\chi(\sigma_2)\Bigr]^{0*}_{0}\left[Y^{l_p}
+    (\hat{\boldsymbol{\zeta}})\chi(\sigma_p)\right]^{j_p*}_{m} V(r_{1p}) \\
+  &\times \theta_0^0(\mathbf{r},\mathbf{s}) \Bigl[\chi(\sigma_1)\chi(\sigma_2)\Bigr]^{0}_{0}\left[Y^{l_t}(\hat{\mathbf{R}})\chi(\sigma_p)\right]^{j_t}_{m_t},
+  \end{split}
+\end{equation}
+where
+\begin{equation}\label{eq95}
+    \begin{split}
+    \mathbf{r}=&\mathbf{r}_2-\mathbf{r}_1  \\
+    \mathbf{s}=&\frac{1}{2}\left(\mathbf{r}_1+\mathbf{r}_2\right)-\mathbf{r}_p\\
+    \boldsymbol{\eta}=&\frac{1}{2}\left(\mathbf{r}_1+\mathbf{r}_2\right)\\
+    \boldsymbol{\zeta}=&\mathbf{r}_p-\frac{\mathbf{r}_1+\mathbf{r}_2}{A+2}.\\
+    \end{split}
+\end{equation}
+The sum over $\sigma_1,\sigma_2$ in (\ref{eq94}) is readily found to be 1. We will now simplify the term $\left[Y^{l_p}
+    (\hat{\boldsymbol{\zeta}})\chi(\sigma_p)\right]^{j_p*}_{m}\left[Y^{l_t}(\hat{\mathbf{R}})\chi(\sigma_p)\right]^{j_t}_{m_t}$, first noting that, after (\ref{eq13})
+\begin{equation}\label{eq96}
+\left[Y^{l_p}(\hat{\boldsymbol{\zeta}})\chi(\sigma_p)\right]^{j_p*}_{m}=(-1)^{1/2-\sigma_p+j_p-m}
+\left[Y^{l_p}(\hat{\boldsymbol{\zeta}})\chi(-\sigma_p)\right]^{j_p}_{-m}.
+\end{equation}
+On the other hand,
+\begin{equation}\label{eq106}
+\begin{split}
+\left[Y^{l_p}(\hat{\boldsymbol{\zeta}})\right.&\left.\chi(-\sigma_p)\right]^{j_p}_{-m}
+ \left[Y^{l_t}(\hat{\mathbf{R}})\chi(\sigma_p)\right]^{j_t}_{m_t}=\sum_{JM}\langle j_p \;-m\;j_t\;m_t|J\;M\rangle\\
+ &\times\left\{\left[Y^{l_p}
+ (\hat{\boldsymbol{\zeta}})\chi(-\sigma_p)\right]^{j_p}
+ \left[Y^{l_t}(\hat{\mathbf{R}})\chi(\sigma_p)\right]^{j_t}\right\}_{M}^{J}\\
+ \end{split}
+\end{equation}
+
+In order to survive the integration, the angular and spin functions must couple to $L=0,S=0,J=0$, so the only term that remains is
+\begin{equation}\label{eq107}
+\begin{split}
+\langle j_p & \;-m\;j_t\;m_t|0\;0\rangle \left\{\left[Y^{l_p}
+ (\hat{\boldsymbol{\zeta}})\chi(-\sigma_p)\right]^{j_p}
+ \left[Y^{l_t}(\hat{\mathbf{R}})\chi(\sigma_p)\right]^{j_t}\right\}_{0}^{0}\delta_{l_pl_t}\delta_{j_pj_t}\delta_{mm_t}\\
+& =\frac{(-1)^{j_p+m_t}}{\sqrt{2j_p+1}}\left\{\left[Y^{l_p}
+ (\hat{\boldsymbol{\zeta}})\chi(-\sigma_p)\right]^{j_p}
+ \left[Y^{l_t}(\hat{\mathbf{R}})\chi(\sigma_p)\right]^{j_t}\right\}_{0}^{0}\delta_{l_pl_t}\delta_{j_pj_t}\delta_{mm_t}.
+ \end{split}
+\end{equation}
+We couple separately the spin and spatial functions:
+ \begin{equation}\label{eq108}
+\begin{split}
+\left\{\left[Y^{l}
+ (\hat{\boldsymbol{\zeta}})\chi(-\sigma_p)\right]^{j}\right.&\left.
+ \left[Y^{l}(\hat{\mathbf{R}})\chi(\sigma_p)\right]^{j}\right\}_{0}^{0}\\
+& =\bigl((l \tfrac{1}{2})_{j}(l \tfrac{1}{2})_{j}|(l l)_0(\tfrac{1}{2}\tfrac{1}{2})_0\bigr)_0
+\left[\chi(-\sigma_p)\chi(\sigma_p)\right]^{0}_{0}
+ \left[Y^{l}(\hat{\boldsymbol{\zeta}})Y^{l}(\hat{\mathbf{R}})\right]^{0}_{0}.
+ \end{split}
+\end{equation}
+ We substitute (\ref{eq96}),(\ref{eq107}),(\ref{eq108}) in (\ref{eq94}) to obtain
+\begin{equation}\label{eq98}
+  \begin{split}
+  \langle \Psi_f^{(-)}&(\mathbf{k}_f)|V(r_{1p})|\Psi_i^{(+)}(k_i,\hat {\mathbf{z}})\rangle=-\frac{(4\pi)^{3/2}}{k_ik_f}\sum_{lj}\bigl((\lambda \tfrac{1}{2})_k(\lambda \tfrac{1}{2})_k|(\lambda \lambda)_0(\tfrac{1}{2}\tfrac{1}{2})_0\bigr)_0\sqrt{\frac{2l+1}{2j+1}}\\
+  &\times \langle l \;m_t-m_p\;1/2\;m_p|j\;m_t\rangle\langle l \;0\;1/2\;m_t|j\;m_t\rangle\,i^{-l}\exp\bigl[i(\sigma_{l}^p+\sigma_{l}^t)\bigr]\\
+  &\times 2 Y_{m_t-m_p}^{l}(\hat{\mathbf{k}}_f) \int \frac {d\boldsymbol{\zeta}d\mathbf{r}d\boldsymbol{\eta}}{\zeta R} u_{\lambda k}(r_1)u_{\lambda k}(r_2)\left[Y^{\lambda}(\hat{\mathbf{r}}_1)Y^{\lambda}(\hat{\mathbf{r}}_2)\right]^{0*}_{0}\\
+  &\times f_{lj}(\zeta)g_{lj}(R)\left[Y^{l}(\hat{\boldsymbol{\zeta}})Y^{l}(\hat{\mathbf{R}})\right]^{0}_{0} V(r_{1p}) \theta_0^0(\mathbf{r},\mathbf{s})\\
+  &\times \bigl((l \tfrac{1}{2})_{j}(l \tfrac{1}{2})_{j}|(l l)_0(\tfrac{1}{2}\tfrac{1}{2})_0\bigr)_0\sum_{\sigma_p}(-1)^{1/2-\sigma_p}\left[\chi(-\sigma_p)\chi(\sigma_p)\right]^{0}_{0}.
+  \end{split}
+\end{equation}
+The last sum over $\sigma_p$ is
+\begin{equation}\label{eq99}
+  \begin{split}
+  \sum_{\sigma_p}(-1)^{1/2-\sigma_p}&\left[\chi(-\sigma_p)\chi(\sigma_p)\right]^{0}_{0}=
+  \sum_{\sigma_p m}(-1)^{1/2-\sigma_p}\langle 1/2 \;m\;1/2\;-m|0\;0\rangle\\
+  &\times \chi_m(-\sigma_p)\chi_{-m}(\sigma_p)\\
+  &=\frac{1}{\sqrt 2}\sum_{\sigma_p m}(-1)^{1/2-\sigma_p}(-1)^{1/2-m}
+   \delta_{m,-\sigma_p}\delta_{-m,\sigma_p}=-\sqrt 2.\\
+  \end{split}
+\end{equation}
+The $9j$ symbols can be evaluated to find
+\begin{equation}\label{eq100}
+  \begin{split}
+\bigl((\lambda \tfrac{1}{2})_k(\lambda \tfrac{1}{2})_k|(\lambda \lambda)_0(\tfrac{1}{2}\tfrac{1}{2})_0\bigr)_0&=\sqrt{\frac{2k+1}{2(2\lambda+1)}}\\
+\bigl((l \tfrac{1}{2})_{j}(l \tfrac{1}{2})_{j}|(l l)_0(\tfrac{1}{2}\tfrac{1}{2})_0\bigr)_0
+&=\sqrt{\frac{2j+1}{2(2l+1)}},
+  \end{split}
+\end{equation}
+so
+\begin{equation}\label{eq101}
+  \begin{split}
+  \langle \Psi_f^{(-)}&(\mathbf{k}_f)|V(r_{1p})|\Psi_i^{(+)}(k_i,\hat {\mathbf{z}})\rangle=\frac{(4\pi)^{3/2}}{k_ik_f}\sum_{lj}\sqrt{\frac{2k+1}{2\lambda+1}}\\
+  &\times \langle l \;m_t-m_p\;1/2\;m_p|j\;m_t\rangle\langle l \;0\;1/2\;m_t|j\;m_t\rangle\,i^{-l}\exp\bigl[i(\sigma_{l}^p+\sigma_{l}^t)\bigr]\\
+  &\times \sqrt 2 Y_{m_t-m_p}^{l}(\hat{\mathbf{k}}_f) \int \frac {d\boldsymbol{\zeta}d\mathbf{r}d\boldsymbol{\eta}}{\zeta R} u_{\lambda k}(r_1)u_{\lambda k}(r_2)\left[Y^{\lambda}(\hat{\mathbf{r}}_1)Y^{\lambda}(\hat{\mathbf{r}}_2)\right]^{0*}_{0}\\
+  &\times f_{lj}(\zeta)g_{lj}(R)\left[Y^{l}(\hat{\boldsymbol{\zeta}})Y^{l}(\hat{\mathbf{R}})\right]^{0}_{0} V(r_{1p}) \theta_0^0(\mathbf{r},\mathbf{s}).
+  \end{split}
+\end{equation}
+We now check the possible values of the Clebsh--Gordan coefficients, finding, for $j=l-1/2$:
+ \begin{equation}\label{eq102}
+ \begin{split}
+\langle l \;m_t-m_p\;1/2\;m_p|l-1/2\;m_t\rangle & \langle l \;0\;1/2\;m_t|l-1/2\;m_t\rangle\\
+&=\left\{
+\begin{aligned}
+\frac{l}{2l+1} \qquad &\text{if}\; m_t=m_p\\
+-\frac{\sqrt{l(l+1)}}{2l+1}\qquad &\text{if} \;m_t=-m_p
+\end{aligned}
+\right.
+\end{split}
+\end{equation}
+and, for $j=l+1/2$:
+ \begin{equation}\label{eq103}
+ \begin{split}
+\langle l \;m_t-m_p\;1/2\;m_p|l+1/2\;m_t\rangle & \langle l \;0\;1/2\;m_t|l+1/2\;m_t\rangle\\
+&=\left\{
+\begin{aligned}
+\frac{l+1}{2l+1} \qquad &\text{if}\; m_t=m_p\\
+\frac{\sqrt{l(l+1)}}{2l+1}\qquad &\text{if} \;m_t=-m_p
+\end{aligned}
+\right.
+\end{split}
+\end{equation}
+Substituting, we get
+\begin{equation}\label{eq102}
+  \begin{split}
+  \langle \Psi_f^{(-)}&(\mathbf{k}_f)|V(r_{1p})|\Psi_i^{(+)}(k_i,\hat {\mathbf{z}})\rangle=\frac{(4\pi)^{3/2}}{k_ik_f}\sum_{l}
+  \frac{1}{(2l+1)}\sqrt{\frac{(2k+1)}{(2\lambda+1)}}\exp\bigl[i(\sigma_{l}^p+\sigma_{l}^t)\bigr]i^{-l}\\
+  &\times \sqrt 2 Y_{m_t-m_p}^{l}(\hat{\mathbf{k}}_f) \int \frac {d\boldsymbol{\zeta}d\mathbf{r}d\boldsymbol{\eta}}{\zeta R} u_{\lambda k}(r_1)u_{\lambda k}(r_2)\left[Y^{\lambda}(\hat{\mathbf{r}}_1)Y^{\lambda}(\hat{\mathbf{r}}_2)\right]^{0*}_{0}\\
+  &\times  V(r_{1p})\theta_0^0(\mathbf{r},\mathbf{s})
+  \left[Y^{l}(\hat{\boldsymbol{\zeta}})Y^{l}(\hat{\mathbf{R}})\right]^{0}_{0}\\
+  &\times \left[\Bigl(f_{ll+1/2}(\zeta)g_{ll+1/2}(R)(l+1)+f_{ll-1/2}(\zeta)g_{ll-1/2}(R)l\Bigr)\delta_{m_p,m_t}\right.\\
+  &\left.+\Bigl(f_{ll+1/2}(\zeta)g_{ll+1/2}(R)\sqrt{l(l+1)}-f_{ll-1/2}(\zeta)g_{ll-1/2}(R)\sqrt{l(l+1)}\Bigr)\delta_{m_p,-m_t}\right].
+  \end{split}
+\end{equation}
+We can further simplify this expression using
+\begin{equation}\label{eq103}
+  \begin{split}
+\left[Y^{\lambda}(\hat{\mathbf{r}}_1)Y^{\lambda}(\hat{\mathbf{r}}_2)\right]^{0*}_{0}&=
+\left[Y^{\lambda}(\hat{\mathbf{r}}_1)Y^{\lambda}(\hat{\mathbf{r}}_2)\right]^{0}_{0}=\sum_m \langle \lambda \;m\;\lambda\;-m|0\;0\rangle Y^{\lambda}_m(\hat{\mathbf{r}}_1)Y^{\lambda}_{-m}(\hat{\mathbf{r}}_2)\\
+&=\sum_m (-1)^{\lambda-m} \langle \lambda \;m\;\lambda\;-m|0\;0\rangle Y^{\lambda}_m(\hat{\mathbf{r}}_1)Y^{\lambda*}_{m}(\hat{\mathbf{r}}_2)\\
+& =\frac{1}{\sqrt{2\lambda+1}}\sum_m Y^{\lambda}_m(\hat{\mathbf{r}}_1)Y^{\lambda*}_{m}(\hat{\mathbf{r}}_2)\\
+&=\frac{\sqrt{(2\lambda+1)}}{4\pi}P_\lambda(\cos \theta_{12}).
+  \end{split}
+\end{equation}
+Note that when using Condon--Shortley phases this last expression would be multiplied by $(-1)^\lambda$.
+Now,
+\begin{equation}\label{eq114}
+  \begin{split}
+\left[Y^{l}(\hat{\boldsymbol{\zeta}})Y^{l}(\hat{\mathbf{R}})\right]^{0}_{0}&=\sum_m \langle l \;m\;l\;-m|0\;0\rangle Y^{l}_m(\hat{\boldsymbol{\zeta}}) Y^{l}_{-m}(\hat{\mathbf{R}})\\
+&=\frac{1}{\sqrt{(2l+1)}}\sum_m (-1)^{l+m}Y^{l}_m(\hat{\boldsymbol{\zeta}}) Y^{l}_{-m}(\hat{\mathbf{R}}).\\
+  \end{split}
+\end{equation}
+We can see that the integral of the above expression is independent of $m$, so we can drop the sum and multiply by $2l+1$ the $m=0$ term, leaving
+\begin{equation}\label{eq115}
+  \begin{split}
+\left[Y^{l}(\hat{\boldsymbol{\zeta}})Y^{l}(\hat{\mathbf{R}})\right]^{0}_{0}&\Rightarrow(-1)^l\sqrt{(2l+1)}  \, Y^{l}_0(\hat{\boldsymbol{\zeta}})_0Y^{l}(\hat{\mathbf{R}})\\
+&=\sqrt{(2l+1)}Y^{l}_0(\hat{\boldsymbol{\zeta}}) Y_0^{l*}(\hat{\mathbf{R}}).
+\end{split}
+\end{equation}
+We now change the integration variables from $(\boldsymbol{\zeta},\mathbf{r},\boldsymbol{\eta})$ to $(\mathbf{R},\alpha,\beta,\gamma,r_{12},r_{1p},r_{2p})$,
+\begin{equation}\label{eq113}
+\left|\frac{\partial(\mathbf{r},\boldsymbol{\eta},\boldsymbol{\zeta})}
+{\partial(\mathbf{R},\alpha,\beta,\gamma,r_{12},r_{1p},r_{2p})}\right|=r_{12}r_{1p}r_{2p}\sin\beta
+\end{equation}
+being the Jacobian of the transformation.
+%and, similarly,
+%\begin{equation}\label{eq104}
+%\left[Y^{l}(\hat{\boldsymbol{\zeta}})Y^{l}(\hat{\mathbf{R}})\right]^{0}_{0}=\frac{\sqrt{(2l+1)}}{4\pi}P_l(\cos \theta_{\zeta R}).
+%\end{equation}
+Finally,
+\begin{equation}\label{eq114}
+  \begin{split}
+  \langle \Psi_f^{(-)}&(\mathbf{k}_f)|V(r_{1p})|\Psi_i^{(+)}(k_i,\hat {\mathbf{z}})\rangle=\frac{\sqrt{8\pi}}{k_ik_f}\sum_{l}
+  \sqrt{\frac{2k+1}{2l+1}}\exp\bigl[i(\sigma_{l}^p+\sigma_{l}^t)\bigr]i^{-l}\\
+  &\times Y_{m_t-m_p}^{l}(\hat{\mathbf{k}}_f) \int d\mathbf{R} Y_0^{l*}(\hat{\mathbf{R}})\int \frac {d\alpha\, d\beta\, d\gamma \, dr_{12}\,dr_{1p}\,dr_{2p}\,\sin\beta} {\zeta R}Y^{l}_0(\hat{\boldsymbol{\zeta}})\\
+  &\times u_{\lambda k}(r_1)u_{\lambda k}(r_2)V(r_{1p})\theta_0^0(\mathbf{r},\mathbf{s})
+  P_\lambda(\cos \theta_{12})r_{12}r_{1p}r_{2p}\\
+  &\times \left[\Bigl(f_{ll+1/2}(\zeta)g_{ll+1/2}(R)(l+1)+f_{ll-1/2}(\zeta)g_{ll-1/2}(R)l\Bigr)\delta_{m_p,m_t}\right.\\
+  &\left.+\Bigl(f_{ll+1/2}(\zeta)g_{ll+1/2}(R)\sqrt{l(l+1)}-f_{ll-1/2}(\zeta)g_{ll-1/2}(R)
+  \sqrt{l(l+1)}\Bigr)\delta_{m_p,-m_t}\right].
+  \end{split}
+\end{equation}
+We note that the inner integral is a function of $\mathbf{R}$ alone, and that it transforms as $Y_0^{l}(\hat{\mathbf{R}})$ under rotations, because all the dependence on the orientation of $\mathbf{R}$ is contained in the term $Y^{l}_0(\hat{\boldsymbol{\zeta}})$ . The inner integral can thus be cast into the form
+\begin{equation}\label{eq116}
+  \begin{split}
+A(R)Y_0^{l}(\hat{\mathbf{R}})=\int d\alpha\, d\beta\, d\gamma &\, dr_{12}\,dr_{1p}\,dr_{2p}\,\sin\beta \\ &\times F(\alpha,\beta,\gamma,r_{12},r_{1p},r_{2p},R_x,R_y,R_z).
+  \end{split}
+\end{equation}
+To evaluate $A(R)$, we put $\mathbf{R}$ on the $z$--axis
+\begin{equation}\label{eq117}
+  \begin{split}
+A(R)=2\pi i^{-l}\sqrt{\frac{4\pi}{2l+1}}\int  d\beta\, d\gamma &\, dr_{12}\,dr_{1p}\,dr_{2p}\,\sin\beta \\ &\times F(\alpha,\beta,\gamma,r_{12},r_{1p},r_{2p},0,0,R),
+  \end{split}
+\end{equation}
+where a factor $2\pi$ has been included as the result of the integral over $\alpha$, since the integrand clearly does not depend on $\alpha$. We substitute (\ref{eq116}) and (\ref{eq117}) in (\ref{eq114}), and after integrating over the angular variables of $\mathbf{R}$, we obtain
+\begin{equation}\label{eq118}
+  \begin{split}
+  \langle \Psi_f^{(-)}&(\mathbf{k}_f)|V(r_{1p})|\Psi_i^{(+)}(k_i,\hat {\mathbf{z}})\rangle=2\frac{(2\pi)^{3/2}}{k_ik_f}\sum_{l}
+  \sqrt{\frac{2k+1}{2l+1}}\exp\bigl[i(\sigma_{l}^p+\sigma_{l}^t)\bigr]i^{-l}\\
+  &\times Y_{m_t-m_p}^{l}(\hat{\mathbf{k}}_f) \int dR \, d\beta\, d\gamma \, dr_{12}\,dr_{1p}\,dr_{2p}\,R\sin\beta \, r_{12}r_{1p}r_{2p}  \\
+  &\times u_{\lambda k}(r_1)u_{\lambda k}(r_2)V(r_{1p})\theta_0^0(\mathbf{r},\mathbf{s})
+  P_\lambda(\cos \theta_{12})P_l(\cos \theta_\zeta)\\
+  &\times \left[\Bigl(f_{ll+1/2}(\zeta)g_{ll+1/2}(R)(l+1)+f_{ll-1/2}(\zeta)g_{ll-1/2}(R)l\Bigr)\delta_{m_p,m_t}\right.\\
+  &\left.+\Bigl(f_{ll+1/2}(\zeta)g_{ll+1/2}(R)\sqrt{l(l+1)}-f_{ll-1/2}(\zeta)g_{ll-1/2}(R)
+  \sqrt{l(l+1)}\Bigr)\delta_{m_p,-m_t}\right]/\zeta,
+  \end{split}
+\end{equation}
+where we have used
+\begin{equation}\label{eq119}
+Y^{l}_0(\hat{\boldsymbol{\zeta}})=i^l\sqrt{\frac{2l+1}{4\pi}}P_l(\cos \theta_\zeta).
+\end{equation}
+
+
+
+The final expression of the differential cross section involves a sum over the spin orientations:
+\begin{equation}\label{eq106}
+\frac{d\sigma}{d\Omega}(\hat{\mathbf{k}}_f)=\frac{k_f}{k_i}\frac{\mu_i\mu_f}{(2\pi\hbar^2)^2}\frac{1}{2}\sum_{m_tm_p}|\langle \Psi_f^{(-)}(\mathbf{k}_f)|V(r_{1p})|\Psi_i^{(+)}(k_i,\hat {\mathbf{z}})\rangle|^2.
+\end{equation}
+When $m_p=1/2, m_t=1/2$ or $m_p=-1/2, m_t=-1/2$, the terms proportional to $\delta_{m_p,m_t}$  will include the factor
+\begin{equation}\label{eq107}
+|Y_{m_t-m_p}^{l}(\hat{\mathbf{k}}_f)\delta_{m_p,m_t}|=|Y_{0}^{l}(\hat{\mathbf{k}}_f)|=
+\left|i^l \sqrt{\frac{2l+1}{4\pi}}P_l^0(\cos\theta)\right|,
+\end{equation}
+when $m_p=-1/2, m_t=1/2$
+\begin{equation}\label{eq108}
+|Y_{m_t-m_p}^{l}(\hat{\mathbf{k}}_f)\delta_{m_p,-m_t}|=|Y_{1}^{l}(\hat{\mathbf{k}}_f)|=
+\left|i^l \sqrt{\frac{2l+1}{4\pi}\frac{1}{l(l+1)}}P_l^1(\cos\theta)\right|,
+\end{equation}
+and when $m_p=1/2, m_t=-1/2$
+\begin{equation}\label{eq109}
+|Y_{m_t-m_p}^{l}(\hat{\mathbf{k}}_f)\delta_{m_p,-m_t}|=|Y_{-1}^{l}(\hat{\mathbf{k}}_f)|=|Y_{1}^{l}(\hat{\mathbf{k}}_f)|
+=\left|i^l \sqrt{\frac{2l+1}{4\pi}\frac{1}{l(l+1)}}P_l^1(\cos\theta)\right|.
+\end{equation}
+It is easily checked that, after taking the squared modulus of (\ref{eq118}), the sum over $m_t$ and $m_p$ yields a factor 2 multiplying each one of the 2 different terms of the sum ($m_t=m_p$ and $m_t=-m_p$). This is equivalent to multiply each amplitude by $\sqrt{2}$, so the final constant that multiply the amplitudes is
+\begin{equation}\label{eq238}
+\frac{8\pi^{3/2}}{k_ik_f}.
+\end{equation}
+Now, for the tritium we can take
+\begin{equation}\label{eq188}
+\theta_0^0(\mathbf{r},\mathbf{s})=\rho(r_{1p})\rho(r_{2p})\rho(r_{12}),
+\end{equation}
+ $\rho(r)$ being a Tang--Herndon wave function as done in \cite{Bayman:71}.
+We obtain
+\begin{equation}\label{eq110}
+\frac{d\sigma}{d\Omega}(\hat{\mathbf{k}}_f)=\frac{1}{2 E_i^{3/2} E_f^{1/2}}\sqrt{\frac{\mu_f}{\mu_i}}\left(|I_{\lambda k}^{(0)}(\theta)|^2+|I_{\lambda k}^{(1)}(\theta)|^2\right),
+\end{equation}
+with
+\begin{equation}\label{eq111}
+  \begin{split}
+  I_{\lambda k}^{(0)}(\theta)&=\sum_{l}P_l^0(\cos\theta)
+  \sqrt{2k+1}\exp\bigl[i(\sigma_{l}^p+\sigma_{l}^t)\bigr]\\
+  &\times  \int dR \, d\beta\, d\gamma \, dr_{12}\,dr_{1p}\,dr_{2p}\,R\sin\beta\,\rho(r_{1p})\rho(r_{2p})\rho(r_{12})   \\
+  &\times u_{\lambda k}(r_1)u_{\lambda k}(r_2)V(r_{1p})
+  P_\lambda(\cos \theta_{12})P_l(\cos \theta_\zeta)r_{12}r_{1p}r_{2p}\\
+  &\times \Bigl(f_{ll+1/2}(\zeta)g_{ll+1/2}(R)\,(l+1)+f_{ll-1/2}(\zeta)g_{ll-1/2}(R)\,l\Bigr)/\zeta,
+  \end{split}
+\end{equation}
+and
+\begin{equation}\label{eq112}
+  \begin{split}
+  I_{\lambda k}^{(1)}(\theta)&=\sum_{l}P_l^1(\cos\theta)
+  \sqrt{2k+1}\exp\bigl[i(\sigma_{l}^p+\sigma_{l}^t)\bigr]\\
+  &\times  \int dR \, d\beta\, d\gamma \, dr_{12}\,dr_{1p}\,dr_{2p}\,R\sin\beta \,\rho(r_{1p})\rho(r_{2p})\rho(r_{12})  \\
+  &\times u_{\lambda k}(r_1)u_{\lambda k}(r_2)V(r_{1p})
+  P_\lambda(\cos \theta_{12})P_l(\cos \theta_\zeta)r_{12}r_{1p}r_{2p}\\
+  &\times \Bigl(f_{ll+1/2}(\zeta)g_{ll+1/2}(R)-f_{ll-1/2}(\zeta)g_{ll-1/2}(R)\Bigr)/\zeta.
+  \end{split}
+\end{equation}
+Note the absence of the $(-1)^\lambda$ factor with respect to what can be found in \cite{Bayman:71}, due to the use of time--reversed phases instead of Condon--Shortley. This is compensated in the total result with the same difference in the expression of the spectroscopic factors. This ensures that, in either case, the contribution of all the single particle transitions tend to have the same phase for superfluid nuclei, adding coherently to enhance the transfer cross section.
+
+
+ If we are dealing with a heavy ion reaction, $\theta_0^0(\mathbf{r},\mathbf{s})$ will be the spatial part of the wavefunction
+ \begin{equation}\label{eq189}
+ \begin{split}
+\Psi(\mathbf{r}_{b1},\mathbf{r}_{b2},\sigma_1,\sigma_2)&=\left[\psi ^{j_i} (\mathbf{r}_{b1},\sigma_1) \psi ^{j_i} (\mathbf{r}_{b2},\sigma_2) \right] _0^{0}\\
+&=\theta_0^0(\mathbf{r},\mathbf{s})\Bigl[\chi(\sigma_1)\chi(\sigma_2)\Bigr]^{0}_{0},
+ \end{split}
+\end{equation}
+where $\mathbf{r}_{b1},\mathbf{r}_{b2}$ are the positions of the two neutrons with respect to the $b$ core. It can be shown to be
+ \begin{equation}\label{eq190}
+\theta_0^0(\mathbf{r},\mathbf{s})=\frac{u_{l_i j_i}(r_{b1})u_{l_i j_i}(r_{b2})}{4\pi}\sqrt{\frac{2j_i+1}{2}}P_{l_i}(\cos{\theta_i}),
+\end{equation}
+where $\theta_i$ is the angle between $\mathbf{r}_{b1}$ and $\mathbf{r}_{b2}$. If we neglect the spin--orbit term in the optical potential, as is usually done for heavy ion reactions, we obtain
+\begin{equation}\label{eq191}
+\frac{d\sigma}{d\Omega}(\hat{\mathbf{k}}_f)=\frac{\mu_f\mu_i}{16\pi^2\hbar^4k_i^3k_f}| T_l^{j_i,j_f}(\theta)|^2,
+\end{equation}
+with
+\begin{equation}\label{eq192}
+  \begin{split}
+  T_l^{j_i,j_f}(\theta)&=\sum_{l}(2l+1)P_l(\cos\theta)
+  \sqrt{(2j_i+1)(2j_f+1)}\exp\bigl[i(\sigma_{l}^p+\sigma_{l}^t)\bigr]\\
+  &\times  \int dR \, d\beta\, d\gamma \, dr_{12}\,dr_{b1}\,dr_{b2}\,R\sin\beta\,u_{l_i j_i}(r_{b1})u_{l_i j_i}(r_{b2})   \\
+  &\times u_{l_f j_f}(r_{A1})u_{l_f j_f}(r_{A2})V(r_{b1})
+  P_\lambda(\cos \theta_{12})P_l(\cos \theta_\zeta)\\
+  &\times r_{12}r_{b1}r_{b2} P_{l_i}(\cos{\theta_i})\frac{f_{l}(\zeta)g_{l}(R)}{\zeta},
+  \end{split}
+\end{equation}
+where $\mathbf{r}_{A1},\mathbf{r}_{A2}$ are the positions of the two neutrons with respect to the $A$ core.
+\subsubsection{heavy--ion version}
+The distorted waves for a reaction between spinless nuclei are
+\begin{equation}\label{eq206}
+    \psi^{(+)}(\mathbf{r}_{Aa},\mathbf{k}_{Aa})=\sum_{l}\exp\left(i\sigma_{l}^i\right)g_{l}Y_0^{l}
+    (\hat{\mathbf{r}}_{aA})\frac{\sqrt{4\pi(2l+1)}}{k_{aA}r_{aA}},
+\end{equation}
+and
+\begin{equation}\label{eq207}
+\begin{split}
+    \psi^{(-)}(\mathbf{r}_{bB},\mathbf{k}_{bB})
+    =\frac{4\pi}{k_{bB}r_{bB}}\sum_{\tilde l}i^{\tilde l}
+    \exp\left(-i\sigma_{\tilde l}^f\right)f_{\tilde l}^*(r_{bB})\sum_{m}Y_{m}^{\tilde l*}
+    (\hat{\mathbf{k}}_{bB})Y_{m}^{\tilde l}(\hat{\mathbf{r}}_{bB}).
+\end{split}
+\end{equation}
+Matrix element,
+\begin{equation}\label{eq208}
+  \begin{split}
+  \langle \Psi_f^{(-)}&(\mathbf{k}_{bB})|V(r_{1p})|\Psi_i^{(+)}(k_{aA},\hat {\mathbf{z}})\rangle=\frac{(4\pi)^{3/2}}{k_{aA}k_{bB}}\sum_{l \tilde l m}\bigl((l_f \tfrac{1}{2})_{j_f}(l_f \tfrac{1}{2})_{j_f}|(l_f l_f)_0(\tfrac{1}{2}\tfrac{1}{2})_0\bigr)_0\\
+  &\times\bigl((l_i \tfrac{1}{2})_{j_i}(l_i \tfrac{1}{2})_{j_i}|(l_i l_i)_0(\tfrac{1}{2}\tfrac{1}{2})_0\bigr)_0\sqrt{2l+1}
+ i^{-l_p}\exp\bigl[i(\sigma_{\tilde l}^f+\sigma_{l}^i)\bigr]\\
+  &\times 2 Y_{m}^{\tilde l}(\hat{\mathbf{k}}_{bB})\sum_{\sigma_1\sigma_2} \int \frac {d\mathbf{r}_{bB}d\mathbf{r}d\boldsymbol{\eta}}{r_{bB} r_{aA}} u_{l_f j_f}(r_{A1})u_{l_f j_f}(r_{A2})u_{l_i j_i}(r_{b1})u_{l_i j_i}(r_{b2})\\
+  &\times \left[Y^{l_f}(\hat{\mathbf{r}}_{A1})Y^{l_f}(\hat{\mathbf{r}}_{A2})\right]^{0*}_{0}
+  \left[Y^{l_i}(\hat{\mathbf{r}}_{b1})Y^{l_i}(\hat{\mathbf{r}}_{b2})\right]^{0}_{0}\\
+  &\times f_{\tilde l}(r_{bB})g_{l}(r_{aA})\Bigl[\chi(\sigma_1)\chi(\sigma_2)\Bigr]^{0*}_{0}Y_{m}^{\tilde l*}(\hat{\mathbf{r}}_{bB}) V(r_{1p}) \\
+  &\times \Bigl[\chi(\sigma_1)\chi(\sigma_2)\Bigr]^{0}_{0}Y_0^{l}
+    (\hat{\mathbf{r}}_{aA}).
+  \end{split}
+\end{equation}
+Simplifying...
+\begin{equation}\label{eq209}
+  \begin{split}
+  \langle \Psi_f^{(-)}&(\mathbf{k}_{bB})|V(r_{1p})|\Psi_i^{(+)}(k_{aA},\hat {\mathbf{z}})\rangle=\frac{(4\pi)^{3/2}}{k_{aA}k_{bB}}\sum_{l \tilde l m}
+  \sqrt{\frac{(2j_f+1)(2j_i+1)}{(2l_f+1)(2l_i+1)}}\\
+  &\times \sqrt{2l+1}
+ i^{-\tilde l}\exp\bigl[i(\sigma_{\tilde l}^f+\sigma_{l}^i)\bigr]\\
+  &\times  Y_{m}^{\tilde l}(\hat{\mathbf{k}}_{bB}) \int \frac {d\mathbf{r}_{bB}d\mathbf{r}d\boldsymbol{\eta}}{r_{bB} r_{aA}} u_{l_f j_f}(r_{A1})u_{l_f j_f}(r_{A2})u_{l_i j_i}(r_{b1})u_{l_i j_i}(r_{b2})\\
+  &\times \left[Y^{l_f}(\hat{\mathbf{r}}_{A1})Y^{l_f}(\hat{\mathbf{r}}_{A2})\right]^{0*}_{0}
+  \left[Y^{l_i}(\hat{\mathbf{r}}_{b1})Y^{l_i}(\hat{\mathbf{r}}_{b2})\right]^{0}_{0}\\
+  &\times f_{\tilde l}(r_{bB})g_{l}(r_{aA})Y_{m}^{\tilde l*}(\hat{\mathbf{r}}_{bB}) V(r_{1p})Y_0^{l}
+    (\hat{\mathbf{r}}_{aA}).
+  \end{split}
+\end{equation}
+We clearly need $l=\tilde l$ and $m=0$. We also introduce the Legendre polynomials,
+\begin{equation}\label{eq210}
+  \begin{split}
+  \langle \Psi_f^{(-)}&(\mathbf{k}_{bB})|V(r_{1p})|\Psi_i^{(+)}(k_{aA},\hat {\mathbf{z}})\rangle=\frac{(4\pi)^{-1/2}}{k_{aA}k_{bB}}\sum_{l}
+  \sqrt{(2j_f+1)(2j_i+1)}\\
+  &\times \sqrt{2l+1}
+ i^{-l}\exp\bigl[i(\sigma_{l}^f+\sigma_{l}^i)\bigr]Y_{0}^{l}(\hat{\mathbf{k}}_{bB})\\
+  &\times \int \frac {d\mathbf{r}_{bB}d\mathbf{r}d\boldsymbol{\eta}}{r_{bB} r_{aA}} u_{l_f j_f}(r_{A1})u_{l_f j_f}(r_{A2})u_{l_i j_i}(r_{b1})u_{l_i j_i}(r_{b2})\\
+  &\times P_{l_f}(\cos \theta_A)
+  P_{l_i}(\cos \theta_b)\\
+  &\times f_{l}(r_{bB})g_{l}(r_{aA})Y_{0}^{l*}(\hat{\mathbf{r}}_{bB}) V(r_{1p})Y_0^{l}
+    (\hat{\mathbf{r}}_{aA}).
+  \end{split}
+\end{equation}
+We change the integration variables and proceed as in last section, what involves multiplying by $2\pi\sqrt{\frac{4\pi}{2l+1}}$
+\begin{equation}\label{eq211}
+  \begin{split}
+  \langle \Psi_f^{(-)}&(\mathbf{k}_{bB})|V(r_{1p})|\Psi_i^{(+)}(k_{aA},\hat {\mathbf{z}})\rangle=\frac{2\pi}{k_{aA}k_{bB}}\sum_{l}
+  \sqrt{(2j_f+1)(2j_i+1)}\\
+  &\times
+ i^{-l}\exp\bigl[i(\sigma_{l}^f+\sigma_{l}^i)\bigr]Y_{0}^{l}(\hat{\mathbf{k}}_{bB})\\
+  &\times \int dr_{aA} \, d\beta\, d\gamma \, dr_{12}\,dr_{b1}\,dr_{b2}\,r_{aA}\sin\beta \, r_{12}r_{b1}r_{b2} \\
+  &\times P_{l_f}(\cos \theta_A)
+  P_{l_i}(\cos \theta_b)u_{l_f j_f}(r_{A1})u_{l_f j_f}(r_{A2})u_{l_i j_i}(r_{b1})u_{l_i j_i}(r_{b2})\\
+  &\times f_{l}(r_{bB})g_{l}(r_{aA})Y_{0}^{l*}(\hat{\mathbf{r}}_{bB}) V(r_{1p})/r_{bB}.
+  \end{split}
+\end{equation}
+We introduce some more polynomials,
+\begin{equation}\label{eq211}
+  \begin{split}
+  \langle \Psi_f^{(-)}&(\mathbf{k}_{bB})|V(r_{1p})|\Psi_i^{(+)}(k_{aA},\hat {\mathbf{z}})\rangle=\frac{1}{2k_{aA}k_{bB}}\sum_{l}
+  \sqrt{(2j_f+1)(2j_i+1)}\\
+  &\times
+ i^{-l}\exp\bigl[i(\sigma_{l}^f+\sigma_{l}^i)\bigr]P_l(\cos\theta)(2l+1)\\
+  &\times \int dr_{aA} \, d\beta\, d\gamma \, dr_{12}\,dr_{b1}\,dr_{b2}\,r_{aA}\sin\beta \, r_{12}r_{b1}r_{b2} \\
+  &\times P_{l_f}(\cos \theta_A)
+  P_{l_i}(\cos \theta_b)u_{l_f j_f}(r_{A1})u_{l_f j_f}(r_{A2})V(r_{1p})\\
+  &\times u_{l_i j_i}(r_{b1})u_{l_i j_i}(r_{b2})f_{l}(r_{bB})g_{l}(r_{aA})P_l(\cos\theta_{if}) /r_{bB}.
+  \end{split}
+\end{equation}
+\subsection{coordinates for the simultaneous calculation}\label{csc}
+We refer to the notation used in \cite{Bayman:71}. We must find the expression of the variables appearing in the integral as functions of the integration variables $r_{1p},r_{2p},r_{12},R,\beta,\gamma$ (remember that $\mathbf{R}=R\,\hat{\mathbf{z}}$, see last section). $\mathbf{R}$ being the center of mass coordinate, we have
+\begin{equation}\label{eq65}
+    \mathbf{R} =\frac{1}{3}\left(\mathbf{r}_1+ \mathbf{r}_2+ \mathbf{r}_p\right)=\frac{1}{3}\left(\mathbf{R}+ \mathbf{d}_1+ \mathbf{R}+ \mathbf{d}_2+ \mathbf{R}+ \mathbf{d}_p\right),
+\end{equation}
+so
+\begin{equation}\label{eq66}
+     \mathbf{d}_1+ \mathbf{d}_2+ \mathbf{d}_p=0.
+\end{equation}
+Together with
+\begin{equation}\label{eq67}
+   \mathbf{d}_1+\mathbf{r}_{12}=\mathbf{d}_2 \qquad \mathbf{d}_2+ \mathbf{r}_{2p}=\mathbf{d}_p,
+\end{equation}
+we find
+\begin{equation}\label{eq68}
+   \mathbf{d}_1 =\frac{1}{3}\left(2\mathbf{r}_{12}+\mathbf{r}_{2p}\right),
+\end{equation}
+so
+\begin{equation}\label{eq69}
+    d_1^2 =\frac{1}{9}\left(4 r_{12}^2+r_{2p}^2+4\mathbf{r}_{12}\mathbf{r}_{2p}\right).
+\end{equation}
+but
+\begin{equation}\label{eq70}
+\begin{split}
+&\mathbf{r}_{12}+\mathbf{r}_{2p}=\mathbf{r}_{1p}\\
+&r_{1p}^2=r_{12}^2+r_{2p}^2+2\mathbf{r}_{12}\mathbf{r}_{2p}\\
+&2\mathbf{r}_{12}\mathbf{r}_{2p}=r_{1p}^2-r_{12}^2-r_{2p}^2.
+\end{split}
+\end{equation}
+Finally,
+\begin{equation}\label{eq71}
+    d_1=\frac{1}{3}\sqrt{2r_{12}^2+2r_{1p}^2-r_{2p}^2}.
+\end{equation}
+Similarly, we find
+\begin{equation}\label{eq72}
+    d_2=\frac{1}{3}\sqrt{2r_{12}^2+2r_{2p}^2-r_{1p}^2}\qquad d_p=\frac{1}{3}\sqrt{2r_{2p}^2+2r_{1p}^2-r_{12}^2}.
+\end{equation}
+We now express the angle $\alpha$ between $\mathbf{d}_1$ and $\mathbf{r}_{12}$. We have
+\begin{equation}\label{eq73}
+-\mathbf{d}_1\mathbf{r}_{12}=r_{12}d_1\cos(\alpha),
+\end{equation}
+and
+\begin{equation}\label{eq74}
+\begin{split}
+  & \mathbf{d}_1+ \mathbf{r}_{12}=\mathbf{d}_{2}\\
+    & d_1^2+r_{12}^2+2\mathbf{d}_1\mathbf{r}_{12}=d_2^2,
+\end{split}
+\end{equation}
+so
+\begin{equation}\label{eq75}
+\cos(\alpha)=\frac{d_1^2+r_{12}^2-d_2^2}{2r_{12}d_1}.
+\end{equation}
+The complete determination of $\mathbf{r}_1,\mathbf{r}_2,\mathbf{r}_{12}$ can be made by writing their expression in a simple configuration, in which the triangle lies in the $xz$--plane with $\mathbf{d}_1$ pointing along the positive $z$--direction, and $\mathbf{R}=0$. Then, a first rotation $\mathcal{R}_z(\gamma)$ of an angle $\gamma$ around the $z$--axis, a second rotation $\mathcal{R}_y(\beta)$ of an angle $\beta$ around the $y$--axis, and a translation along $\mathbf{R}$ will bring the vectors to the most general configuration. In other words,
+\begin{equation}\label{eq76}
+\begin{split}
+\mathbf{r}_1=&\mathbf{R}+\mathcal{R}_y(\beta)\mathcal{R}_z(\gamma)\mathbf{r}'_1,\\
+\mathbf{r}_{12}=&\mathcal{R}_y(\beta)\mathcal{R}_z(\gamma)\mathbf{r}'_{12},\\
+\mathbf{r}_2=&\mathbf{r}_1+\mathbf{r}_{12},
+\end{split}
+\end{equation}
+with
+\begin{equation}\label{eq77}
+\mathbf{r}'_1=
+\begin{bmatrix}
+  0\\
+ 0\\
+ d_1\\
+\end{bmatrix},
+\end{equation}
+\begin{equation}\label{eq78}
+\mathbf{r}'_{12}=r_{12}
+\begin{bmatrix}
+  \sin(\alpha)\\
+ 0\\
+ -\cos(\alpha)\\
+\end{bmatrix},
+\end{equation}
+and the rotation matrixes are
+\begin{equation}\label{eq80}
+\mathcal{R}_y(\beta)=
+\begin{bmatrix}
+  \cos(\beta)&0&\sin(\beta)\\
+ 0&1&0\\
+ -\sin(\beta)&0&\cos(\beta)\\
+\end{bmatrix},
+\end{equation}
+and
+\begin{equation}\label{eq81}
+\mathcal{R}_z(\gamma)=
+\begin{bmatrix}
+  \cos(\gamma)&-\sin(\gamma)&0\\
+ \sin(\gamma)&\cos(\gamma)&0\\
+ 0&0&1\\
+\end{bmatrix}.
+\end{equation}
+We obtain
+\begin{equation}\label{eq82}
+\mathbf{r}_1=
+\begin{bmatrix}
+  d_1\sin(\beta)\\
+ 0\\
+ R+d_1\cos(\beta)\\
+\end{bmatrix},
+\end{equation}
+\begin{equation}\label{eq83}
+\mathbf{r}_{12}=
+\begin{bmatrix}
+  r_{12}\cos(\beta)\cos(\gamma)\sin(\alpha)-r_{12}\sin(\beta)\cos(\alpha)\\
+ r_{12}\sin(\gamma)\sin(\alpha)\\
+ -r_{12}\sin(\beta)\cos(\gamma)\sin(\alpha)-r_{12}\cos(\alpha)\cos(\beta)\\
+\end{bmatrix},
+\end{equation}
+\begin{equation}\label{eq84}
+\mathbf{r}_{2}=
+\begin{bmatrix}
+  d_1\sin(\beta)+r_{12}\cos(\beta)\cos(\gamma)\sin(\alpha)-r_{12}\sin(\beta)\cos(\alpha)\\
+ r_{12}\sin(\gamma)\sin(\alpha)\\
+ R+d_1\cos(\beta)-r_{12}\sin(\beta)\cos(\gamma)\sin(\alpha)-r_{12}\cos(\alpha)\cos(\beta)\\
+\end{bmatrix}.
+\end{equation}
+We also need $\cos(\theta_{12})$, $\zeta$ and $\cos(\theta_{\zeta})$, $\theta_{12}$ being the angle between $\mathbf{r}_{1}$ and $\mathbf{r}_{2}$, $\boldsymbol{\zeta}=\mathbf{r}_p-\tfrac{\mathbf{r}_1+\mathbf{r}_2}{A+2}$ the position of the proton with respect to the final nucleus, and $\theta_{\zeta}$ the angle between $\boldsymbol{\zeta}$ and the $z$--axis:
+\begin{equation}\label{eq85}
+    \cos(\theta_{12})=\frac{\mathbf{r}_{1}\mathbf{r}_{2}}{r_1r_2},
+\end{equation}
+and
+\begin{equation}\label{eq86}
+    \boldsymbol{\zeta}=3\mathbf{R}-\frac{A+3}{A+2}(\mathbf{r}_1+\mathbf{r}_2),
+\end{equation}
+where we have used (\ref{eq65}).
+
+
+For heavy ions, we find instead
+\begin{equation}\label{eq198}
+    \mathbf{R} =\frac{1}{m_a}\left(\mathbf{r}_{A1}+\mathbf{r}_{A2}+m_b\mathbf{r}_{Ab}\right),
+\end{equation}
+\begin{equation}\label{eq193}
+    \mathbf{d}_1=\frac{1}{m_a}\left(m_b\mathbf{r}_{b2}-(m_b+1)\mathbf{r}_{12}\right),
+\end{equation}
+\begin{equation}\label{eq194}
+    d_1=\frac{1}{m_a}\sqrt{(m_b+1)r_{12}^2+m_b(m_b+1)r_{b1}^2-m_br_{b2}^2},
+\end{equation}
+\begin{equation}\label{eq195}
+    d_2=\frac{1}{m_a}\sqrt{(m_b+1)r_{12}^2+m_b(m_b+1)r_{b2}^2-m_br_{b1}^2},
+\end{equation}
+and
+\begin{equation}\label{eq199}
+    \boldsymbol{\zeta}=\frac{m_a}{m_b}\mathbf{R}-\frac{m_B+m_b}{m_bm_B}(\mathbf{r}_{A1}+\mathbf{r}_{A2}).
+\end{equation}
+The rest of the formulae are identical to $(t,p)$ ones, we list them for reference:
+\begin{equation}\label{eq196}
+\mathbf{r}_{A1}=
+\begin{bmatrix}
+  d_1\sin(\beta)\\
+ 0\\
+ R+d_1\cos(\beta)\\
+\end{bmatrix},
+\end{equation}
+\begin{equation}\label{eq197}
+\mathbf{r}_{A2}=
+\begin{bmatrix}
+  d_1\sin(\beta)+r_{12}\cos(\beta)\cos(\gamma)\sin(\alpha)-r_{12}\sin(\beta)\cos(\alpha)\\
+ r_{12}\sin(\gamma)\sin(\alpha)\\
+ R+d_1\cos(\beta)-r_{12}\sin(\beta)\cos(\gamma)\sin(\alpha)-r_{12}\cos(\alpha)\cos(\beta)\\
+\end{bmatrix}.
+\end{equation}
+We we also find
+\begin{equation}\label{eq200}
+    \mathbf{r}_{b1}=\frac{1}{m_b}(\mathbf{r}_{A2}+(m_b+1)\mathbf{r}_{A1}-m_a\mathbf{R}),
+\end{equation}
+and
+\begin{equation}\label{eq201}
+    \mathbf{r}_{b2}=\frac{1}{m_b}(\mathbf{r}_{A1}+(m_b+1)\mathbf{r}_{A2}-m_a\mathbf{R}).
+\end{equation}
+We easily obtain
+\begin{equation}\label{eq202}
+    \cos\theta_{12}=\frac{r_{A1}^2+r_{A2}^2-r_{12}^2}{2r_{A1}r_{A2}},
+\end{equation}
+and
+\begin{equation}\label{eq203}
+    \cos\theta_{i}=\frac{r_{b1}^2+r_{b2}^2-r_{12}^2}{2r_{b1}r_{b2}}.
+\end{equation}
+\subsection{matrix element for the transition amplitude (2)}
+The simultaneous amplitude can be written  as (see \cite{Bayman:82})
+\begin{equation}\label{eq141}
+ \begin{split}
+T_{2NT}^{1step}=&2\frac{(4\pi)^{3/2}}{k_{Aa}k_{Bb}}\sum_{l_pj_pml_tj_p}i^{-l_p}
+\exp\bigl[i(\sigma_{l_p}^p+\sigma_{l_t}^t)\bigr] \sqrt{2l_t+1}\\
+&\times \langle l_p \;m-m_p\;1/2\;m_p|j_p\;m\rangle\langle l_t \;0\;1/2\;m_t|j_t\;m_t\rangle Y_{m-m_p}^{l_p}(\hat{\mathbf{k}}_{Bb})\\
+ &\times \sum_{\sigma_1 \sigma_2 \sigma_p}\int d\mathbf{r}_{Cc}d\mathbf{r}_{b1}d\mathbf{r}_{A2}\left[ \psi ^{j_f} (\mathbf{r}_{A1},\sigma_1) \psi ^{j_f} (\mathbf{r}_{A2},\sigma_2) \right] _0^{0*}\\
+ &\times  v(r_{b1})
+\left[ \psi ^{j_i} (\mathbf{r}_{b1},\sigma_1) \psi ^{j_i} (\mathbf{r}_{b2},\sigma_2) \right] _0^{0} \frac{g_{l_tj_t}(r_{Aa})f_{l_pj_p}(r_{Bb})}{r_{Aa}r_{Bb}}\\
+ &\times \left[Y^{l_t}(\hat{\mathbf{r}}_{Aa})\chi(\sigma_p)\right]^{j_t}_{m_t}\left[Y^{l_p}
+    (\hat{\mathbf{r}}_{Bb})\chi(\sigma_p)\right]^{j_p*}_{m}.\\
+ \end{split}
+\end{equation}
+As we have shown before, we can write
+\begin{equation}\label{eq142}
+ \begin{split}
+\sum_{\sigma_p}& \langle l_p \;m-m_p\;1/2\;m_p|j_p\;m\rangle\langle l_t \;0\;1/2\;m_t|j_t\;m_t\rangle \left[Y^{l_t}(\hat{\mathbf{r}}_{Aa})\chi(\sigma_p)\right]^{j_t}_{m_t}\left[Y^{l_p}
+    (\hat{\mathbf{r}}_{Bb})\chi(\sigma_p)\right]^{j_p*}_{m}\\
+    &=-\frac{\delta_{l_p,l_t}\delta_{j_p,j_t}\delta_{m,m_t}}{\sqrt{2l+1}}
+    \left[Y^{l}(\hat{\mathbf{r}}_{Aa})Y^{l}(\hat{\mathbf{r}}_{Bb})\right]^{0}_{0}
+    \left\{
+\begin{aligned}
+\frac{l}{2l+1} \qquad &\text{if}\; m_t=m_p\\
+-\frac{\sqrt{l(l+1)}}{2l+1}\qquad &\text{if} \;m_t=-m_p
+\end{aligned}
+\right.
+ \end{split}
+\end{equation}
+when $j=l-1/2$ and
+\begin{equation}\label{eq143}
+ \begin{split}
+\sum_{\sigma_p}& \langle l_p \;m-m_p\;1/2\;m_p|j_p\;m\rangle\langle l_t \;0\;1/2\;m_t|j_t\;m_t\rangle \left[Y^{l_t}(\hat{\mathbf{r}}_{Aa})\chi(\sigma_p)\right]^{j_t}_{m_t}\left[Y^{l_p}
+    (\hat{\mathbf{r}}_{Bb})\chi(\sigma_p)\right]^{j_p*}_{m}\\
+    &=-\frac{\delta_{l_p,l_t}\delta_{j_p,j_t}\delta_{m,m_t}}{\sqrt{2l+1}}
+    \left[Y^{l}(\hat{\mathbf{r}}_{Aa})Y^{l}(\hat{\mathbf{r}}_{Bb})\right]^{0}_{0}
+    \left\{
+\begin{aligned}
+\frac{l+1}{2l+1} \qquad &\text{if}\; m_t=m_p\\
+\frac{\sqrt{l(l+1)}}{2l+1}\qquad &\text{if} \;m_t=-m_p
+\end{aligned}
+\right.
+ \end{split}
+\end{equation}
+if $j=l+1/2$. We get
+\begin{equation}\label{eq144}
+ \begin{split}
+T_{2NT}^{1step}=&2\frac{(4\pi)^{3/2}}{k_{Aa}k_{Bb}}\sum_{l}i^{-l}
+\frac{\exp\bigl[i(\sigma_{l}^p+\sigma_{l}^t)\bigr]}{2l+1}Y_{m_t-m_p}^{l}(\hat{\mathbf{k}}_{Bb})\\
+ &\times \sum_{\sigma_1 \sigma_2}\int \frac{d\mathbf{r}_{Cc}d\mathbf{r}_{b1}d\mathbf{r}_{A2}}{r_{Aa}r_{Bb}}\left[ \psi ^{j_f} (\mathbf{r}_{A1},\sigma_1) \psi ^{j_f} (\mathbf{r}_{A2},\sigma_2) \right] _0^{0*}\\
+ &\times  v(r_{b1})
+\left[ \psi ^{j_i} (\mathbf{r}_{b1},\sigma_1) \psi ^{j_i} (\mathbf{r}_{b2},\sigma_2) \right] _0^{0}
+ \left[Y^{l}(\hat{\mathbf{r}}_{Aa})Y^{l}(\hat{\mathbf{r}}_{Bb})\right]^{0}_{0}\\
+ &\times \left[\Bigl(f_{ll+1/2}(r_{Bb})g_{ll+1/2}(r_{Aa})(l+1)+f_{ll-1/2}(r_{Bb})g_{ll-1/2}(r_{Aa})l\Bigr)\delta_{m_p,m_t}\right.\\
+  &\left.+\Bigl(f_{ll+1/2}(r_{Bb})g_{ll+1/2}(r_{Aa})\sqrt{l(l+1)}-f_{ll-1/2}(r_{Bb})g_{ll-1/2}(r_{Aa})
+  \sqrt{l(l+1)}\Bigr)\delta_{m_p,-m_t}\right].\\
+ \end{split}
+\end{equation}
+Now,
+\begin{equation}\label{eq145}
+ \begin{split}
+\left[ \psi ^{j_f}\right.& \left.(\mathbf{r}_{A1},\sigma_1) \psi ^{j_f} (\mathbf{r}_{A2},\sigma_2) \right] _0^{0*}\\
+&=\bigl ( (l_f \tfrac{1}{2})_{j_f} (l_f \tfrac{1}{2})_{j_f} |(l_f l_f)_0 (\tfrac{1}{2}\tfrac{1}{2})_0 \bigr )_0 u_{l_f}(r_{A1})u_{l_f}(r_{A2})\\
+&\times \left[ Y ^{l_f}(\hat{\mathbf{r}}_{A1})  Y ^{l_f}(\hat{\mathbf{r}}_{A2}) \right] _0^{0*}\left[\chi(\sigma_1)\chi(\sigma_2)\right]^{0*}_{0}\\
+&=\sqrt{\frac{2j_f+1}{2(2l_f+1)}}u_{l_f}(r_{A1})u_{l_f}(r_{A2})\\
+&\times \left[ Y ^{l_f}(\hat{\mathbf{r}}_{A1})  Y ^{l_f}(\hat{\mathbf{r}}_{A2}) \right] _0^{0*}\left[\chi(\sigma_1)\chi(\sigma_2)\right]^{0*}_{0}\\
+&=\sqrt{\frac{2j_f+1}{2}}\frac{u_{l_f}(r_{A1})u_{l_f}(r_{A2})}{4\pi}
+P_{l_f}(\cos\omega_A)\left[\chi(\sigma_1)\chi(\sigma_2)\right]^{0*}_{0}
+\end{split}
+\end{equation}
+and
+\begin{equation}\label{eq146}
+ \begin{split}
+\left[ \psi ^{j_i}\right.& \left.(\mathbf{r}_{b1},\sigma_1) \psi ^{j_i} (\mathbf{r}_{b2},\sigma_2) \right] _0^{0}\\
+&=\bigl ( (l_i \tfrac{1}{2})_{j_i} (l_i \tfrac{1}{2})_{j_i} |(l_i l_i)_0 (\tfrac{1}{2}\tfrac{1}{2})_0 \bigr )_0
+u_{l_i}(r_{b1})u_{l_i}(r_{b2})\\
+&\times \left[ Y ^{l_i}(\hat{\mathbf{r}}_{b1})  Y ^{l_i}(\hat{\mathbf{r}}_{b2}) \right] _0^{0}\left[\chi(\sigma_1)\chi(\sigma_2)\right]^{0}_{0}\\
+&=\sqrt{\frac{2j_i+1}{2(2l_i+1)}}u_{l_i}(r_{b1})u_{l_i}(r_{b2})\\
+&\times\left[ Y ^{l_i}(\hat{\mathbf{r}}_{b1})  Y ^{l_i}(\hat{\mathbf{r}}_{b2}) \right] _0^{0}\left[\chi(\sigma_1)\chi(\sigma_2)\right]^{0}_{0}\\
+&=\sqrt{\frac{2j_i+1}{2}}\frac{u_{l_i}(r_{b1})u_{l_i}(r_{b2})}{4\pi}
+P_{l_i}(\cos\omega_b)\left[\chi(\sigma_1)\chi(\sigma_2)\right]^{0}_{0},
+\end{split}
+\end{equation}
+where $\omega_A$ is the angle between $\mathbf{r}_{A1}$ and $\mathbf{r}_{A2}$, and $\omega_b$ is the angle between $\mathbf{r}_{b1}$ and $\mathbf{r}_{b2}$. So
+\begin{equation}\label{eq147}
+ \begin{split}
+T_{2NT}^{1step}=&(4\pi)^{-3/2}\frac{\sqrt{(2j_i+1)(2j_f+1)}}{k_{Aa}k_{Bb}}\sum_{l}i^{-l}
+\frac{\exp\bigl[i(\sigma_{l}^p+\sigma_{l}^t)\bigr]}{\sqrt{2l+1}}Y_{m_t-m_p}^{l}(\hat{\mathbf{k}}_{Bb})\\
+ &\times \int \frac{d\mathbf{r}_{Cc}d\mathbf{r}_{b1}d\mathbf{r}_{A2}}{r_{Aa}r_{Bb}}P_{l_f}(\cos\omega_A)P_{l_i}(\cos\omega_b)
+ P_{l}(\cos\omega_{if})\\
+ &\times  v(r_{b1})u_{l_i}(r_{b1})u_{l_i}(r_{b2})u_{l_f}(r_{A1})u_{l_f}(r_{A2})
+\\
+ &\times \left[\Bigl(f_{ll+1/2}(r_{Bb})g_{ll+1/2}(r_{Aa})(l+1)+f_{ll-1/2}(r_{Bb})g_{ll-1/2}(r_{Aa})l\Bigr)\delta_{m_p,m_t}\right.\\
+  &\left.+\Bigl(f_{ll+1/2}(r_{Bb})g_{ll+1/2}(r_{Aa})\sqrt{l(l+1)}-f_{ll-1/2}(r_{Bb})g_{ll-1/2}(r_{Aa})
+  \sqrt{l(l+1)}\Bigr)\delta_{m_p,-m_t}\right],\\
+ \end{split}
+\end{equation}
+where $\omega_{if}$ is the angle between $\mathbf{r}_{Aa}$ and $\mathbf{r}_{Bb}$. For heavy ions, we can consider that the the optical potential does not have a spin--orbit term, and the distorted waves are independent of $j$. We thus have
+\begin{equation}\label{eq167}
+ \begin{split}
+T_{2NT}^{1step}=&(4\pi)^{-3/2}\frac{\sqrt{(2j_i+1)(2j_f+1)}}{k_{Aa}k_{Bb}}\sum_{l}i^{-l}
+\exp\bigl[i(\sigma_{l}^p+\sigma_{l}^t)\bigr]Y_{0}^{l}(\hat{\mathbf{k}}_{Bb})\sqrt{2l+1}\\
+ &\times \int \frac{d\mathbf{r}_{Cc}d\mathbf{r}_{b1}d\mathbf{r}_{A2}}{r_{Aa}r_{Bb}}P_{l_f}(\cos\omega_A)P_{l_i}(\cos\omega_b)
+ P_{l}(\cos\omega_{if})\\
+ &\times  v(r_{b1})u_{l_i}(r_{b1})u_{l_i}(r_{b2})u_{l_f}(r_{A1})u_{l_f}(r_{A2})f_{l}(r_{Bb})g_{l}(r_{Aa}).
+ \end{split}
+\end{equation}
+We change the variables:
+\begin{equation}\label{eq168}
+ \begin{split}
+T_{2NT}^{1step}=&(4\pi)^{-1}\frac{\sqrt{(2j_i+1)(2j_f+1)}}{k_{Aa}k_{Bb}}\sum_{l}
+\exp\bigl[i(\sigma_{l}^p+\sigma_{l}^t)\bigr]P_{l}(\cos\theta)(2l+1)\\
+ &\times \int dr_{1A}\,dr_{2A}\,dr_{Aa}\,d(\cos\beta)\,d(\cos\omega_A)\,d\gamma \,r_{1A}^2r_{2A}^2r_{Aa}^2 \\ &\times P_{l_f}(\cos\omega_A)P_{l_i}(\cos\omega_b)
+ P_{l}(\cos\omega_{if})v(r_{b1})\\
+ &\times  u_{l_i}(r_{b1})u_{l_i}(r_{b2})u_{l_f}(r_{A1})u_{l_f}(r_{A2})f_{l}(r_{Bb})g_{l}(r_{Aa}).
+ \end{split}
+\end{equation}
+\subsection{coordinates}
+We determine the relation between the integration variables in (\ref{eq147}) and the coordinates needed to evaluate the quantities in the integrand. Noting that
+\begin{equation}\label{eq177}
+\mathbf{r}_{Aa}=\frac{\mathbf{r}_{A1}+\mathbf{r}_{A2}+m_b\mathbf{r}_{Ab}}{m_b+2},
+\end{equation}
+We have
+\begin{equation}\label{eq148}
+ \begin{split}
+\mathbf{r}_{b1}=\mathbf{r}_{bA}+\mathbf{r}_{A1}=\frac{(m_b+1)\mathbf{r}_{A1}+\mathbf{r}_{A2}-(m_b+2)\mathbf{r}_{Aa}}{m_b},
+ \end{split}
+\end{equation}
+\begin{equation}\label{eq178}
+ \begin{split}
+\mathbf{r}_{b2}=\mathbf{r}_{bA}+\mathbf{r}_{A2}=\frac{(m_b+1)\mathbf{r}_{A2}+\mathbf{r}_{A1}-(m_b+2)\mathbf{r}_{Aa}}{m_b},
+ \end{split}
+\end{equation}
+and
+\begin{equation}\label{eq149}
+\begin{split}
+\mathbf{r}_{Cc}=\mathbf{r}_{CA}+\mathbf{r}_{A1}+&\mathbf{r}_{1c}=
+-\frac{1}{m_A+1}\mathbf{r}_{A2}+\mathbf{r}_{A1}-\frac{m_b}{m_b+1}\mathbf{r}_{b1}\\
+&=\frac{m_b+2}{m_b+1}\mathbf{r}_{Aa}-\frac{m_b+2+m_A}{(m_b+1)(m_A+1)}\mathbf{r}_{A2}
+\end{split}
+\end{equation}
+Now, since
+\begin{equation}\label{eq179}
+\mathbf{r}_{AB}=\frac{\mathbf{r}_{A1}+\mathbf{r}_{A2}}{m_A+2},
+\end{equation}
+\begin{equation}\label{eq180}
+\mathbf{r}_{Bb}=\mathbf{r}_{BA}+\mathbf{r}_{Ab}=\frac{m_b+2}{m_b}\mathbf{r}_{Aa}-\frac{m_A+m_b+2}{(m_A+2)m_b}
+(\mathbf{r}_{A1}+\mathbf{r}_{A2}).
+\end{equation}
+We use the same rotations as in section \ref{csc} to get
+\begin{equation}\label{eq169}
+\mathbf{r}_{A1}=r_{A1}
+\begin{bmatrix}
+  \sin\alpha\\
+ 0\\
+ \cos\alpha\\
+\end{bmatrix},
+\end{equation}
+and
+\begin{equation}\label{eq170}
+\mathbf{r}_{A2}=r_{A2}
+\begin{bmatrix}
+  -\cos\alpha\cos\gamma\sin\omega_A+\sin\alpha\cos\omega_A\\
+ -\sin\gamma\sin\omega_A\\
+\sin\alpha\cos\gamma\sin\omega_A+\cos\alpha\cos\omega_A\\
+\end{bmatrix},
+\end{equation}
+with
+\begin{equation}\label{eq171}
+\cos\alpha=\frac{r_{A1}^2-d_1^2+r_{Aa}^2}{2r_{A1}r_{Aa}},
+\end{equation}
+and
+\begin{equation}\label{eq172}
+d_1=\sqrt{r_{A1}^2-r_{Aa}^2\sin^2\beta}-r_{Aa}\cos\beta.
+\end{equation}
+Note that though $\beta,r_{1A},r_{Aa}$ are independent integration variables, they have to fulfill the condition
+\begin{equation}\label{eq173}
+r_{Aa}\sin\beta\leq r_{A1}, \quad \text{for}\;0\leq\beta\leq\pi.
+\end{equation}
+The expression of the other quantities appearing in the integral is now straightforward:
+\begin{equation}\label{eq174}
+\begin{split}
+r_{b1}&=m_b^{-1}\left|(m_b+1)\mathbf{r}_{A1}+\mathbf{r}_{A2}-(m_b+2)\mathbf{r}_{Aa}\right|\\
+&=m_b^{-1}\Bigl((m_b+2)^2r_{Aa}^2+(m_b+1)^2r_{A1}^2+r_{A2}^2\\
+&-2(m_b+2)(m_b+1)\mathbf{r}_{Aa}\,\mathbf{r}_{A1}-
+2(m_b+2)\mathbf{r}_{Aa}\,\mathbf{r}_{A2}+2(m_b+1)\mathbf{r}_{A1}\mathbf{r}_{A2}\Bigr)^{1/2},
+\end{split}
+\end{equation}
+\begin{equation}\label{eq175}
+\begin{split}
+r_{b2}&=m_b^{-1}\left|(m_b+1)\mathbf{r}_{A2}+\mathbf{r}_{A1}-(m_b+2)\mathbf{r}_{Aa}\right|\\
+&=m_b^{-1}\Bigl((m_b+2)^2r_{Aa}^2+(m_b+1)^2r_{A2}^2+r_{A1}^2\\
+&-2(m_b+2)(m_b+1)\mathbf{r}_{Aa}\,\mathbf{r}_{A2}-
+2(m_b+2)\mathbf{r}_{Aa}\,\mathbf{r}_{A1}+2(m_b+1)\mathbf{r}_{A2}\mathbf{r}_{A1}\Bigr)^{1/2},
+\end{split}
+\end{equation}
+\begin{equation}\label{eq176}
+\begin{split}
+r_{Bb}&=\left|\frac{m_b+2}{m_b}\mathbf{r}_{Aa}-\frac{m_A+m_b+2}{(m_A+2)m_b}
+(\mathbf{r}_{A1}+\mathbf{r}_{A2})\right|\\
+&=\Biggl[\left(\frac{m_b+2}{m_b}\right)^2r_{Aa}^2+
+\left(\frac{m_A+m_b+2}{(m_A+2)m_b}\right)^2(r_{A1}^2+r_{A2}^2+2\mathbf{r}_{A1}\mathbf{r}_{A2})\\
+&-2\frac{(m_b+2)(m_A+m_b+2)}{(m_A+2)m_b^2}\mathbf{r}_{Aa}(\mathbf{r}_{A1}+\mathbf{r}_{A2})\Biggr]^{1/2},
+\end{split}
+\end{equation}
+\begin{equation}\label{eq186}
+\begin{split}
+r_{Cc}&=\left|\frac{m_b+2}{m_b+1}\mathbf{r}_{Aa}-\frac{m_b+2+m_A}{(m_b+1)(m_A+1)}\mathbf{r}_{A2}\right|\\
+&=\Biggl[\left(\frac{m_a}{(m_a-1)}\right)^2r_{Aa}^2+
+\left(\frac{m_A+m_a}{(m_A+1)(m_a-1)}\right)^2r_{A2}^2\\
+&-2\frac{m_Am_a+m_a^2}{(m_A+1)(m_a-1)^2}\mathbf{r}_{Aa}\mathbf{r}_{A2}\Biggr]^{1/2},
+\end{split}
+\end{equation}
+\begin{equation}\label{eq181}
+\begin{split}
+\cos\omega_b=\frac{\mathbf{r}_{b1}\mathbf{r}_{b2}}{r_{b1}r_{b2}},
+\end{split}
+\end{equation}
+\begin{equation}\label{eq182}
+\begin{split}
+\cos\omega_{if}=\frac{\mathbf{r}_{Aa}\mathbf{r}_{Bb}}{r_{Aa}r_{Bb}},
+\end{split}
+\end{equation}
+with
+\begin{equation}\label{eq183}
+\begin{split}
+\mathbf{r}_{Aa}\mathbf{r}_{A1}=r_{Aa}r_{A1}\cos\alpha,
+\end{split}
+\end{equation}
+\begin{equation}\label{eq184}
+\begin{split}
+\mathbf{r}_{Aa}\mathbf{r}_{A2}=r_{Aa}r_{A2}(\sin\alpha\cos\gamma\sin\omega_A+\cos\alpha\cos\omega_A),
+\end{split}
+\end{equation}
+\begin{equation}\label{eq185}
+\begin{split}
+\mathbf{r}_{A1}\mathbf{r}_{A2}=r_{A1}r_{A2}\cos\omega_A.
+\end{split}
+\end{equation}
+\section{successive transfer}
+\emph{Note that we use time--reversed phases for the spherical harmonics} (see (\ref{eq21})) throughout.
+We write the successive transition amplitude (see \cite{Bayman:82}):
+\begin{equation}\label{eq1}
+ \begin{split}
+T_{2NT}^{VV}=&\frac{4\mu_{Cc}}{\hbar^2}\sum_{\substack{\sigma_1 \sigma_2 \\ \sigma_1' \sigma_2' \\ KM}}\int d^3r_{Cc}d^3r_{b1}d^3r_{A2}d^3r_{Cc}'
+d^3r_{b1}'d^3r_{A2}' \,\chi^{(-)*}(\mathbf{k}_{Bb},\mathbf{r}_{Bb})\\
+ & \times \left[ \psi ^{j_f} (\mathbf{r}_{A1},\sigma_1) \psi ^{j_f} (\mathbf{r}_{A2},\sigma_2) \right] _0^{0*} v(r_{b1})
+\left[ \psi ^{j_f} (\mathbf{r}_{A2},\sigma_2) \psi ^{j_i} (\mathbf{r}_{b1},\sigma_1) \right] _M^{K}\\
+& \times G(\mathbf{r}_{Cc},\mathbf{r}_{Cc}')
+\left[ \psi ^{j_f} (\mathbf{r}_{A2}',\sigma_2') \psi ^{j_i} (\mathbf{r}_{b1}',\sigma_1') \right] _M^{K*} v(r_{c2}')\\
+& \times \left[ \psi ^{j_i} (\mathbf{r}_{b1}',\sigma_1') \psi ^{j_i} (\mathbf{r}_{b2}',\sigma_2') \right] _0^{0}
+\chi^{(+)}( \mathbf{r}_{Aa}')
+ \end{split}
+\end{equation}
+Expansion of the Green function and distorted waves in a basis of angular momentum eigenstates:
+\begin{equation}\label{eq2}
+\chi^{(-)*}(\mathbf{k}_{Bb},\mathbf{r}_{Bb})= \sum_{\tilde l}\frac{ 4\pi }{k_{Bb} r_{Bb}} i^{-\tilde l}
+e^{i\sigma_f^{\tilde l}} F_{\tilde l} \sum_m Y_m^{\tilde l} (\hat r_{Bb}) Y_m^{\tilde l*} (\hat k_{Bb})
+\end{equation}
+ but the sum over $m$ is
+\begin{equation}\label{eq3}
+\sum_m (-1)^{\tilde l-m} Y_m^{\tilde l} (\hat r_{Bb}) Y_{-m}^{\tilde l}(\hat k_{Bb})=\sqrt{2\tilde l+1}
+\left[  Y^{\tilde l} (\hat r_{Bb}) Y^{\tilde l} (\hat k_{Bb})\right]_0^0,
+\end{equation}
+where we have used (\ref{eq21}) and (\ref{eq22}), so
+\begin{equation}\label{eq5}
+\chi^{(-)*}(\mathbf{k}_{Bb},\mathbf{r}_{Bb})=  \sum_{\tilde l}\sqrt{2\tilde l+1}\frac{ 4\pi }{k_{Bb} r_{Bb}} i^{-\tilde l}
+e^{i\sigma_f^{\tilde l}} F_{\tilde l}  (r_{Bb})
+\left[  Y^{\tilde l} (\hat r_{Bb}) Y^{\tilde l} (\hat k_{Bb})\right]_0^0
+\end{equation}
+similarly:
+\begin{equation}\label{eq6}
+\chi^{(+)}( \mathbf{r}_{Aa}')= \sum_{ l}i^l \sqrt{2l+1}\frac{ 4\pi }{k_{Aa} r_{Aa}'}
+e^{i\sigma_i^{ l}} F_{ l}  (r_{Aa}')
+\left[  Y^{l} (\hat r_{Aa}') Y^{l} (\hat k_{Aa})\right]_0^0
+\end{equation}
+where we have taken into account that $\hat k_{Aa} \equiv \hat z$.
+ And the Green function is
+\begin{equation}\label{eq7}
+G(\mathbf{r}_{Cc},\mathbf{r}_{Cc}')=i\sum_{l_c}\sqrt{2l_c+1}
+\frac{f_{l_c}(k_{Cc},r_<)P_{l_c}(k_{Cc},r_>)}{k_{Cc}r_{Cc}r_{Cc}'}
+\left[  Y^{l_c} (\hat r_{Cc}) Y^{l_c} (\hat r_{Cc}')\right]_0^0.
+\end{equation}
+Finally
+\begin{equation}\label{eq8}
+ \begin{split}
+T_{2NT}^{VV}=&\frac{4\mu_{Cc}(4\pi)^2 i}{\hbar^2 k_{Aa}k_{Bb}k_{Cc}}\sum_{l,l_c,\tilde l}
+e^{i(\sigma_i^l +\sigma_f^{\tilde l})}  i^{l- \tilde l} \sqrt{(2 l+1)(2 l_c+1)(2 \tilde l+1)}\\
+& \times \sum_{\substack{\sigma_1 \sigma_2 \\ \sigma_1' \sigma_2'}} \int d^3r_{Cc}d^3r_{b1}d^3r_{A2}d^3r_{Cc}'
+d^3r_{b1}'d^3r_{A2}' v(r_{b1}) v(r_{c2}')
+ \left[  Y^{\tilde l} (\hat r_{Bb}) Y^{\tilde l} (\hat k_{Bb})\right]_0^0 \\
+& \times \left[  Y^{ l} (\hat r_{Aa}') Y^{ l} (\hat k_{Aa}')\right]_0^0
+ \left[  Y^{l_c} (\hat r_{Cc}) Y^{l_c} (\hat r_{Cc}')\right]_0^0 \frac{F_{\tilde l}(r_{Bb})}{r_{Bb}}
+\frac{F_{ l}(r_{Aa}')}{r_{Aa}'} \\
+& \times \frac{f_{l_c}(k_{Cc},r_<)P_{l_c}(k_{Cc},r_>)}{r_{Cc}r_{Cc}'}
+\left[ \psi ^{j_f} (\mathbf{r}_{A1},\sigma_1) \psi ^{j_f} (\mathbf{r}_{A2},\sigma_2) \right] _0^{0*} \\
+& \times \left[ \psi ^{j_i} (\mathbf{r}_{b1}',\sigma_1') \psi ^{j_i} (\mathbf{r}_{b2}',\sigma_2') \right] _0^{0}
+\sum_{KM}  \left[ \psi ^{j_f} (\mathbf{r}_{A2},\sigma_2) \psi ^{j_i} (\mathbf{r}_{b1},\sigma_1) \right] _M^{K} \\
+& \times \left[ \psi ^{j_f} (\mathbf{r}_{A2}',\sigma_2') \psi ^{j_i} (\mathbf{r}_{b1}',\sigma_1') \right] _M^{K*}
+ \end{split}
+\end{equation}
+Let us now perform the integration over $\mathbf{r}_{A2}$
+\begin{equation}\label{eq18}
+ \begin{split}
+\sum_{\sigma_1, \sigma_2} &\int d\mathbf{r}_{A2} \left[ \psi ^{j_f} (\mathbf{r}_{A1},\sigma_1) \psi ^{j_f} (\mathbf{r}_{A2},\sigma_2) \right] _0^{0*} \left[ \psi ^{j_f} (\mathbf{r}_{A2},\sigma_2) \psi ^{j_i} (\mathbf{r}_{b1},\sigma_1) \right] _M^{K}\\
+&=\sum_{\sigma_1, \sigma_2} (-1)^{1/2-\sigma_1+1/2-\sigma_2}\int d\mathbf{r}_{A2} \left[ \psi ^{j_f} (\mathbf{r}_{A1},-\sigma_1) \psi ^{j_f} (\mathbf{r}_{A2},-\sigma_2) \right] _0^{0} \left[ \psi ^{j_f} (\mathbf{r}_{A2},\sigma_2) \psi ^{j_i} (\mathbf{r}_{b1},\sigma_1) \right] _M^{K}\\
+&=-\sum_{\sigma_1, \sigma_2} (-1)^{1/2-\sigma_1+1/2-\sigma_2}\int d\mathbf{r}_{A2} \left[ \psi ^{j_f} (\mathbf{r}_{A2},-\sigma_2) \psi ^{j_f} (\mathbf{r}_{A1},-\sigma_1) \right] _0^{0} \left[ \psi ^{j_f} (\mathbf{r}_{A2},\sigma_2) \psi ^{j_i} (\mathbf{r}_{b1},\sigma_1) \right] _M^{K}\\
+&=-\bigl ( (j_f j_f)_0 (j_f j_i)_K |(j_f j_f)_0 (j_f j_i)_K \bigr )_K \sum_{\sigma_1, \sigma_2} (-1)^{1/2-\sigma_1+1/2-\sigma_2}\\
+&\times \int d\mathbf{r}_{A2} \left[ \psi ^{j_f} (\mathbf{r}_{A2},-\sigma_2) \psi ^{j_f} (\mathbf{r}_{A2},\sigma_2) \right] _0^{0} \left[ \psi ^{j_f} (\mathbf{r}_{A1},-\sigma_1) \psi ^{j_i} (\mathbf{r}_{b1},\sigma_1) \right] _M^{K}\\
+&=\frac{1}{2j_f+1}\sqrt{2j_f+1} \bigl ( (l_f \tfrac{1}{2})_{j_f} (l_i \tfrac{1}{2})_{j_i} |(l_f l_i)_K (\tfrac{1}{2} \tfrac{1}{2})_0 \bigr )_K \\
+&\times u_{l_f}(r_{A1})u_{l_i}(r_{b1}) \left[ Y ^{l_f} (\hat r_{A1}) Y ^{l_i} (\hat r_{b1}) \right] _M^{K}
+\sum_{\sigma_1}(-1)^{1/2-\sigma_1}\left[ \chi^{1/2} (-\sigma_1) \chi^{1/2} (\sigma_1) \right] _0^{0}\\
+&=-\sqrt{\frac{2}{2j_f+1}} \bigl ( (l_f \tfrac{1}{2})_{j_f} (l_i \tfrac{1}{2})_{j_i} |(l_f l_i)_K (\tfrac{1}{2} \tfrac{1}{2})_0 \bigr )_K \left[ Y ^{l_f} (\hat r_{A1}) Y ^{l_i} (\hat r_{b1}) \right] _M^{K} u_{l_f}(r_{A1})u_{l_i}(r_{b1}),
+ \end{split}
+\end{equation}
+where we have evaluated the $9j$ symbol
+\begin{equation}\label{eq187}
+    \bigl ( (j_f j_f)_0 (j_f j_i)_K |(j_f j_f)_0 (j_f j_i)_K \bigr )_K=\frac{1}{2j_f+1},
+\end{equation}
+and have also used (\ref{eq16}).
+We proceed in a similar way to evaluate the integral over $\mathbf{r}_{b1}'$
+\begin{equation}\label{eq19}
+ \begin{split}
+\sum_{\sigma_1', \sigma_2'} &\int d\mathbf{r}_{b1}' \left[ \psi ^{j_i} (\mathbf{r}_{b1}',\sigma_1') \psi ^{j_i} (\mathbf{r}_{b2}',\sigma_2') \right] _0^{0} \left[ \psi ^{j_f} (\mathbf{r}_{A2}',\sigma_2') \psi ^{j_i} (\mathbf{r}_{b1}',\sigma_1') \right] _M^{K*}\\
+&=-(-1)^{K-M}\sum_{\sigma_1', \sigma_2'} \int d\mathbf{r}_{b1}'\left[ \psi ^{j_f} (\mathbf{r}_{A2}',-\sigma_2') \psi ^{j_i} (\mathbf{r}_{b1}',-\sigma_1') \right] _{-M}^{K}\\
+&\times \left[  \psi ^{j_i} (\mathbf{r}_{b2}',\sigma_2') \psi ^{j_i} (\mathbf{r}_{b1}',\sigma_1')\right] _0^{0}
+(-1)^{1/2-\sigma_1'+1/2-\sigma_2'}\\
+&= -(-1)^{K-M} \bigl ( (j_f j_i)_K (j_i j_i)_0 |(j_f j_i)_K (j_i j_i)_0 \bigr )_K (-\sqrt{2 j_i+1}) \\
+&\times \bigl ( (l_f \tfrac{1}{2})_{j_f} (l_i \tfrac{1}{2})_{j_i} |(l_f l_i)_K (\tfrac{1}{2} \tfrac{1}{2})_0 \bigr )_K (-\sqrt{2})
+ u_{l_f}(r_{A2}')u_{l_i}(r_{b2}') \left[ Y ^{l_f} (\hat r_{A2}') Y ^{l_i} (\hat r_{b2}') \right] _{-M}^{K}\\
+&= -\sqrt{\frac{2}{2j_i+1}}\bigl ( (l_f \tfrac{1}{2})_{j_f} (l_i \tfrac{1}{2})_{j_i} |(l_f l_i)_K (\tfrac{1}{2} \tfrac{1}{2})_0 \bigr )_K
+\left[ Y ^{l_f} (\hat r_{A2}') Y ^{l_i} (\hat r_{b2}') \right] _{M}^{K*} u_{l_f}(r_{A2}')u_{l_i}(r_{b2}').\\
+ \end{split}
+\end{equation}
+Putting all together
+\begin{equation}\label{eq23}
+ \begin{split}
+T_{2NT}^{VV}=&\frac{4\mu_{Cc}(4\pi)^2 i}{\hbar^2 k_{Aa}k_{Bb}k_{Cc}}\frac{2}{\sqrt{(2j_i+1)(2j_f+1)}}\sum_{K,M}
+\bigl ( (l_f \tfrac{1}{2})_{j_f} (l_i \tfrac{1}{2})_{j_i} |(l_f l_i)_K (\tfrac{1}{2} \tfrac{1}{2})_0 \bigr )_K ^2\\
+& \times \sum_{l_c,l,\tilde l} e^{i(\sigma _i^l+\sigma _f^{\tilde l})} \sqrt{(2l_c+1)(2l+1)(2\tilde l+1)} \, i^{l-\tilde l}\\
+& \times \int d^3 r_{Cc}d^3 r_{b1}d^3 r_{Cc}'d^3 r_{A2}' v(r_{b1})v(r_{c2}') u_{l_f}(r_{A1})u_{l_i}(r_{b1}) u_{l_f}(r_{A2}')u_{l_i}(r_{b2}')\\
+& \times \left[ Y ^{l_f} (\hat r_{A2}') Y ^{l_i} (\hat r_{b2}') \right] _{M}^{K*}
+\left[ Y ^{l_f} (\hat r_{A1}) Y ^{l_i} (\hat r_{b1}) \right] _{M}^{K}
+\frac{F_l(r_{Aa}')F_{\tilde l}(r_{Bb}')f_{l_c}(k_{Cc},r_<)P_{l_c}(k_{Cc},r_>)}{r_{Aa}'r_{Bb}r_{Cc}r_{Cc}'}\\
+& \times \left[ Y ^{\tilde l} (\hat r_{Bb}) Y ^{\tilde l} (\hat k_{Bb}) \right] _{0}^{0}
+\left[ Y ^{ l} (\hat r_{Aa}') Y ^{l} (\hat k_{Aa}) \right] _{0}^{0} \left[ Y ^{ l_c} (\hat r_{Cc}) Y ^{l_c} (\hat r_{Cc}') \right] _{0}^{0}.
+ \end{split}
+\end{equation}
+We can write
+\begin{equation}\label{eq24}
+ \begin{split}
+\left[ Y ^{\tilde l} (\hat r_{Bb}) Y ^{\tilde l} (\hat k_{Bb})  \right]_{0}^{0}&
+\left[ Y ^{ l} (\hat r_{Aa}') Y ^{l} (\hat k_{Aa}) \right] _{0}^{0}=\\
+& \bigl ( (l \, l)_0 (\tilde l \, \tilde l)_0 |(l \, \tilde l)_0 (l \, \tilde l)_0 \bigr )_0
+\left[ Y ^{\tilde l} (\hat r_{Bb}) Y ^{ l} (\hat r_{Aa}') \right] _{0}^{0}
+\left[ Y ^{ \tilde l} (\hat k_{Bb}) Y ^{l} (\hat k_{Aa}) \right] _{0}^{0}\\
+& =\frac{\delta_{\tilde l \, l}}{2l+1}
+\left[ Y ^{l} (\hat r_{Bb}) Y ^{ l} (\hat r_{Aa}') \right] _{0}^{0}
+\left[ Y ^{l} (\hat k_{Bb}) Y ^{l} (\hat k_{Aa}) \right] _{0}^{0}.\\
+ \end{split}
+\end{equation}
+Taking into account that
+\begin{equation}\label{eq25}
+\left[ Y ^{l} (\hat k_{Bb}) Y ^{l} (\hat k_{Aa}) \right] _{0}^{0}=\frac{(-1)^l}{\sqrt{4 \pi}} Y_0^l(\hat k_{Bb}) i^l,
+\end{equation}
+and
+\begin{equation}\label{eq26}
+ \begin{split}
+\left[ Y ^{l} (\hat r_{Bb}) Y ^{ l} (\hat r_{Aa}') \right] _{0}^{0}&
+\left[ Y ^{l_c} (\hat r_{Cc}) Y ^{l_c} (\hat r_{Cc}') \right] _{0}^{0}=\\
+& \bigl ( (l \, l)_0 (l_c \,  l_c)_0 |(l \,l_c)_K (l \, l_c)_K \bigr )_0 \left\lbrace
+\left[Y^{l} (\hat r_{Bb}) Y ^{l_c} (\hat r_{Cc}) \right]^{K}
+\left[Y^{l} (\hat r_{Aa}') Y ^{l_c} (\hat r_{Cc}') \right]^{K}\right\rbrace _0^0\\
+& = \sqrt{\frac{2K+1}{(2l+1)(2l_c+1)}}\\
+& \times \sum_{M'} \frac{(-1)^{K+M'}}{\sqrt{2K+1}}
+\left[Y^{l} (\hat r_{Bb}) Y ^{l_c} (\hat r_{Cc}) \right]^{K}_{-M'} \left[Y^{l} (\hat r_{Aa}') Y ^{l_c} (\hat r_{Cc}') \right]^{K}_{M'}\\
+& = \sqrt{\frac{1}{(2l+1)(2l_c+1)}}\\
+& \times \sum_{M'}
+\left[Y^{l} (\hat r_{Bb}) Y ^{l_c} (\hat r_{Cc}) \right]^{K*}_{M'} \left[Y^{l} (\hat r_{Aa}') Y ^{l_c} (\hat r_{Cc}') \right]^{K}_{M'}.\\
+ \end{split}
+\end{equation}
+It is important to note that the integrals
+\begin{equation}\label{eq29}
+ \begin{split}
+\int d \hat r_{Cc}d \hat r_{b1} \left[Y^{l} (\hat r_{Bb}) Y ^{l_c} (\hat r_{Cc}) \right]^{K*}_{M}
+\left[ Y ^{l_f} (\hat r_{A1}) Y ^{l_i} (\hat r_{b1}) \right] _{M}^{K},
+ \end{split}
+\end{equation}
+and
+\begin{equation}\label{eq30}
+ \begin{split}
+\int d \hat r_{Cc}'d \hat r_{A2}' \left[Y^{l} (\hat r_{Aa}') Y ^{l_c} (\hat r_{Cc}') \right]^{K}_{M}
+\left[ Y ^{l_f} (\hat r_{A2}') Y ^{l_i} (\hat r_{b2}') \right] _{M}^{K*},
+ \end{split}
+\end{equation}
+over the angular variables do not depend on $M$. Let us see why with (\ref{eq29}),
+\begin{equation}\label{eq31}
+ \begin{split}
+\left[Y^{l}(\hat r_{Bb}) Y ^{l_c} (\hat r_{Cc}) \right]^{K*}_{M}&
+\left[ Y ^{l_f}  (\hat r_{A1}) Y ^{l_i} (\hat r_{b1}) \right] _{M}^{K}=
+ (-1)^{K-M}\left[Y^{l} (\hat r_{Bb}) Y ^{l_c} (\hat r_{Cc}) \right]^{K}_{-M} \\
+& \times \left[ Y ^{l_f} (\hat r_{A1}) Y ^{l_i} (\hat r_{b1}) \right] _{M}^{K}=(-1)^{K-M} \sum_J \langle K\;K\;M\;-M|J\;0\rangle \\
+& \times \left\lbrace \left[Y^{l} (\hat r_{Bb}) Y ^{l_c} (\hat r_{Cc}) \right]^{K}
+\left[ Y ^{l_f} (\hat r_{A1}) Y ^{l_i} (\hat r_{b1}) \right]^{K} \right\rbrace ^J_0.
+\end{split}
+\end{equation}
+After integration, only the term
+\begin{equation}\label{eq32}
+ \begin{split}
+(-1)^{K-M} & \langle K\;K\;M\;-M|0\;0\rangle \left\lbrace \left[Y^{l} (\hat r_{Bb}) Y ^{l_c} (\hat r_{Cc}) \right]^{K}
+\left[ Y ^{l_f} (\hat r_{A1}) Y ^{l_i} (\hat r_{b1}) \right]^{K} \right\rbrace ^0_0=.\\
+&\frac{1}{\sqrt{2K+1}} \left\lbrace \left[Y^{l} (\hat r_{Bb}) Y ^{l_c} (\hat r_{Cc}) \right]^{K}
+\left[ Y ^{l_f} (\hat r_{A1}) Y ^{l_i} (\hat r_{b1}) \right]^{K} \right\rbrace ^0_0
+\end{split}
+\end{equation}
+corresponding to $J=0$ survives, which is indeed independent of $M$.
+We can thus omit the sum over $M$ and multiply by $(2K+1)$, obtaining
+\begin{equation}\label{eq27}
+ \begin{split}
+T_{2NT}^{VV}=&\frac{64\mu_{Cc}(\pi)^{3/2} i}{\hbar^2 k_{Aa}k_{Bb}k_{Cc}}\frac{i^{-l}}{\sqrt{(2j_i+1)(2j_f+1)}}\\
+&\times \sum_{K}(2K+1)
+\bigl ( (l_f \tfrac{1}{2})_{j_f} (l_i \tfrac{1}{2})_{j_i} |(l_f l_i)_K (\tfrac{1}{2} \tfrac{1}{2})_0 \bigr )_K ^2\\
+&\times \sum_{l_c,l}\frac{e^{i(\sigma _i^l+\sigma _f^{l})}}{\sqrt{(2l+1)}} Y_0^l (\hat k_{Bb})S_{K,l,l_c},
+ \end{split}
+\end{equation}
+with
+\begin{equation}\label{eq121}
+ \begin{split}
+S_{K,l,l_c}=&\int d^3 r_{Cc}d^3 r_{b1} v(r_{b1}) u_{l_f}(r_{A1})u_{l_i}(r_{b1})\frac{s_{K,l,l_c}(r_{Cc})}{r_{Cc}}\frac{F_l(r_{Bb})}{r_{Bb}} \\
+& \times \left[ Y ^{l_f} (\hat r_{A1}) Y ^{l_i} (\hat r_{b1}) \right] _{M}^{K}
+\left[Y ^{l_c} (\hat r_{Cc}) Y^{l} (\hat r_{Bb})  \right]^{K*}_{M},
+ \end{split}
+\end{equation}
+and
+\begin{equation}\label{eq122}
+ \begin{split}
+s_{K,l,l_c}(r_{Cc})=&\int_{r_{Cc}fixed} d^3 r_{Cc}'d^3 r_{A2}' v(r_{c2}') u_{l_f}(r_{A2}')u_{l_i}(r_{b2}') \frac{F_l(r_{Aa}')}{r_{Aa}'}\frac{f_{l_c}(k_{Cc},r_<)P_{l_c}(k_{Cc},r_>)}{r_{Cc}'}\\
+& \times \left[ Y ^{l_f} (\hat r_{A2}') Y ^{l_i} (\hat r_{b2}') \right] _{M}^{K*}
+\left[Y ^{l_c} (\hat r_{Cc}') Y^{l} (\hat r_{Aa}')  \right]^{K}_{M}.
+ \end{split}
+\end{equation}
+The integrand in (\ref{eq121})  can easily seen to be independent of $M$, so we can sum over $M$ and divide by $(2K+1)$, to get the integrand
+\begin{equation}\label{eq123}
+ \begin{split}
+ \frac{1}{2K+1}v(r_{b1})& u_{l_f}(r_{A1})u_{l_i}(r_{b1})\frac{s_{K,l,l_c}(r_{Cc})}{r_{Cc}}\frac{F_l(r_{Bb})}{r_{Bb}}\\
+ &\times \sum_M \left[ Y ^{l_f} (\hat r_{A1}) Y ^{l_i} (\hat r_{b1}) \right] _{M}^{K}
+\left[Y ^{l_c} (\hat r_{Cc}) Y^{l} (\hat r_{Bb})  \right]^{K*}_{M} .
+ \end{split}
+\end{equation}
+
+This integrand is rotationally invariant (it is proportional to a $T_M^L$ spherical tensor with $L=0$, $M=0$), so we can just evaluate it in the ``standard'' configuration  in which $\mathbf{r}_{Cc}$ is directed along the $z$--axis and multiply by $8\pi^2$ (see \cite{Bayman:82}), obtaining the final expression for $S_{K,l,l_c}$:
+\begin{equation}\label{eq124}
+ \begin{split}
+S_{K,l,l_c}=&\frac{4\pi^{3/2}\sqrt{2l_c+1}}{2K+1}i^{-l_c}\\
+&\times\int r_{Cc}^2 \, d r_{Cc}\,r_{b1}^2\, d r_{b1} \,\sin\theta\, d\theta \, v(r_{b1}) u_{l_f}(r_{A1})u_{l_i}(r_{b1})\\
+& \times \frac{s_{K,l,l_c}(r_{Cc})}{r_{Cc}}\frac{F_l(r_{Bb})}{r_{Bb}}\\
+&\times\sum_M \langle l_c \;0\;l\;M|K\;M\rangle \left[ Y ^{l_f} (\hat r_{A1}) Y ^{l_i} (\theta+\pi,0) \right] _{M}^{K}
+ Y^{l*}_M (\hat r_{Bb}).
+ \end{split}
+\end{equation}
+Similarly, we have
+\begin{equation}\label{eq125}
+ \begin{split}
+s_{K,l,l_c}(r_{Cc})=&\frac{4\pi^{3/2}\sqrt{2l_c+1}}{2K+1}i^{l_c}\\
+&\times\int r_{Cc}^{'2} \, d r'_{Cc}\,r_{A2}^{'2}\, d r'_{A2} \,\sin\theta'\, d\theta' \, v(r_{c2}') u_{l_f}(r_{A2}')u_{l_i}(r_{b2}')  \\
+& \times \frac{F_l(r_{Aa}')}{r_{Aa}'}\frac{f_{l_c}(k_{Cc},r_<)P_{l_c}(k_{Cc},r_>)}{r_{Cc}'}\\
+&\times\sum_M \langle l_c \;0\;l\;M|K\;M\rangle \left[ Y ^{l_f} (\hat r_{A2}') Y ^{l_i} (\hat r_{b2}') \right] _{M}^{K*}
+ Y^{l}_M (\hat r_{Aa}').
+ \end{split}
+\end{equation}
+If we do the further approximations $\mathbf{r}_{A1}\approx\mathbf{r}_{C1}$ and $\mathbf{r}_{b2}\approx\mathbf{r}_{c2}$, we obtain the final expression
+\begin{equation}\label{eq126}
+ \begin{split}
+T_{2NT}^{VV}=&\frac{1024\mu_{Cc}\pi^{9/2} i}{\hbar^2 k_{Aa}k_{Bb}k_{Cc}}\frac{1}{\sqrt{(2j_i+1)(2j_f+1)}}\\
+&\times \sum_{K}\frac{1}{2K+1}
+\bigl ( (l_f \tfrac{1}{2})_{j_f} (l_i \tfrac{1}{2})_{j_i} |(l_f l_i)_K (\tfrac{1}{2} \tfrac{1}{2})_0 \bigr )_K ^2\\
+&\times \sum_{l_c,l}e^{i(\sigma _i^l+\sigma _f^{l})}\frac{(2l_c+1)}{\sqrt{2l+1}} Y_0^l(\hat k_{Bb})S_{K,l,l_c},
+ \end{split}
+\end{equation}
+with
+\begin{equation}\label{eq127}
+ \begin{split}
+S_{K,l,l_c}=&\int r_{Cc}^2 \, d r_{Cc}\,r_{b1}^2\, d r_{b1} \,\sin\theta\, d\theta \, v(r_{b1}) u_{l_f}(r_{C1})u_{l_i}(r_{b1})\\
+& \times \frac{s_{K,l,l_c}(r_{Cc})}{r_{Cc}}\frac{F_l(r_{Bb})}{r_{Bb}}\\
+&\times\sum_M \langle l_c \;0\;l\;M|K\;M\rangle \left[ Y ^{l_f} (\hat r_{C1}) Y ^{l_i} (\theta+\pi,0) \right] _{M}^{K}
+ Y^{l*}_M (\hat r_{Bb}),
+ \end{split}
+\end{equation}
+and
+\begin{equation}\label{eq128}
+ \begin{split}
+s_{K,l,l_c}(r_{Cc})=&\int r_{Cc}^{'2} \, d r'_{Cc}\,r_{A2}^{'2}\, d r'_{A2} \,\sin\theta'\, d\theta' \, v(r_{c2}') u_{l_f}(r_{A2}')u_{l_i}(r_{c2}')  \\
+& \times \frac{F_l(r_{Aa}')}{r_{Aa}'}\frac{f_{l_c}(k_{Cc},r_<)P_{l_c}(k_{Cc},r_>)}{r_{Cc}'}\\
+&\times\sum_M \langle l_c \;0\;l\;M|K\;M\rangle \left[ Y ^{l_f} (\hat r_{A2}') Y ^{l_i} (\hat r_{c2}') \right] _{M}^{K*}
+ Y^{l}_M (\hat r_{Aa}').
+ \end{split}
+\end{equation}
+\subsection{coordinates for the successive transfer}
+In the standard configuration in which the integrals (\ref{eq127}) and (\ref{eq128}) are to be evaluated, we have
+\begin{equation}\label{eq148}
+\mathbf{r}_{Cc}=r_{Cc}\, \hat {\mathbf{z}} \,, \qquad \mathbf{r}_{b1}=r_{b1}(-\cos\theta \, \hat {\mathbf{z}}-\sin\theta \, \hat {\mathbf{x}}).
+\end{equation}
+Now,
+\begin{equation}\label{eq149}
+\begin{split}
+\mathbf{r}_{C1}&=\mathbf{r}_{Cc}+\mathbf{r}_{c1}=\mathbf{r}_{Cc}+\frac{m_b}{m_b+1}\mathbf{r}_{b1}\\
+&=\left(r_{Cc}-\frac{m_b}{m_b+1}r_{b1}\cos\theta \right)\hat {\mathbf{z}}-\frac{m_b}{m_b+1}r_{b1}\sin\theta \hat {\mathbf{x}},
+\end{split}
+\end{equation}
+and
+\begin{equation}\label{eq150}
+\mathbf{r}_{Bb}=\mathbf{r}_{BC}+\mathbf{r}_{Cb}=-\frac{1}{m_B}\mathbf{r}_{C1}+\mathbf{r}_{Cb}.
+\end{equation}
+But
+\begin{equation}\label{eq151}
+\mathbf{r}_{Cb}=\mathbf{r}_{Cc}+\mathbf{r}_{cb}=\mathbf{r}_{Cc}-\frac{1}{m_b+1}\mathbf{r}_{b1},
+\end{equation}
+so, substituting in (\ref{eq150}) we get
+\begin{equation}\label{eq152}
+\mathbf{r}_{Bb}=\left(\frac{m_B-1}{m_B}r_{Cc}+\frac{m_b+m_B}{m_B(m_b+1)}r_{b1}\cos\theta\right)\hat {\mathbf{z}}+\frac{m_b+m_B}{m_B(m_b+1)}r_{b1}\sin\theta\hat {\mathbf{x}}.
+\end{equation}
+The primed variables are arranged in a similar fashion,
+\begin{equation}\label{eq153}
+\mathbf{r}'_{Cc}=r'_{Cc}\, \hat {\mathbf{z}} \,, \qquad \mathbf{r}'_{A2}=r'_{A2}(-\cos\theta' \, \hat {\mathbf{z}}-\sin\theta' \, \hat {\mathbf{x}}).
+\end{equation}
+And we get
+\begin{equation}\label{eq154}
+\mathbf{r}'_{c2}=\left(-r'_{Cc}-\frac{m_A}{m_A+1}r'_{A2}\cos\theta' \right)\hat {\mathbf{z}}-\frac{m_A}{m_A+1}r'_{A2}\sin\theta' \hat {\mathbf{x}},
+\end{equation}
+and
+\begin{equation}\label{eq155}
+\mathbf{r}'_{Aa}=\left(\frac{m_a-1}{m_a}r'_{Cc}-\frac{m_A+m_a}{m_a(m_A+1)}r'_{A2}\cos\theta'\right)\hat {\mathbf{z}}-\frac{m_A+m_a}{m_a(m_A+1)}r'_{A2}\sin\theta'\hat {\mathbf{x}}.
+\end{equation}
+\subsection{simplification of the vector coupling}
+We will now turn our attention to the vector--coupled quantities in (\ref{eq127}) and (\ref{eq128}),
+\begin{equation}\label{eq155}
+\sum_M \langle l_c \;0\;l\;M|K\;M\rangle \left[ Y ^{l_f} (\hat r_{C1}) Y ^{l_i} (\theta+\pi,0) \right] _{M}^{K}
+ Y^{l*}_M (\hat r_{Bb}),
+\end{equation}
+and
+\begin{equation}\label{eq156}
+\sum_M \langle l_c \;0\;l\;M|K\;M\rangle \left[ Y ^{l_f} (\hat r_{A2}') Y ^{l_i} (\hat r_{c2}') \right] _{M}^{K*}
+ Y^{l}_M (\hat r_{Aa}').
+\end{equation}
+We will simplify these expressions in order to ease the computational numerical evaluation. We can express them as
+\begin{equation}\label{eq157}
+\sum_M  f(M),
+\end{equation}
+where for, e.g., (\ref{eq155}), we have
+\begin{equation}\label{eq158}
+\langle l_c \;0\;l\;M|K\;M\rangle \left[ Y ^{l_f} (\hat r_{C1}) Y ^{l_i} (\theta+\pi,0) \right] _{M}^{K}
+ Y^{l*}_M (\hat r_{Bb}).
+\end{equation}
+
+Note that all the vectors that come into play in the above expressions are in the $xz$--plane, and thus the azimuthal angle $\phi$ is always equal to zero. Under these circumstances and for time--reversed phases, $Y^{L*}_M(\theta,0)=(-1)^LY^{L}_M(\theta,0)$, so it is easy to verify that
+\begin{equation}\label{eq164}
+f(-M)=(-1)^{l_c+l_f+l_i+l}f(M).
+\end{equation}
+ From (\ref{eq164}), we have
+\begin{equation}\label{eq166}
+\begin{split}
+\sum_M \langle l_c \;0\;l&\;M|K\;M\rangle f(M)=\langle l_c \;0\;l\;0|K\;0\rangle f(0)\\
+&+\sum_{M>0}\langle l_c \;0\;l\;M|K\;M\rangle f(M)\Bigl(1+(-1)^{l_c+l+l_i+l_f}\Bigr).
+\end{split}
+\end{equation}
+We see that when $l_c+l+l_i+l_f$ is odd we only have to evaluate the $M=0$ contribution. This consideration is useful to restrict the number of numerical operations needed to calculate the transition amplitude.
+\section{non--orthogonality term}
+We write the non--orthogonality contribution to the transition amplitude (see \cite{Bayman:82}):
+\begin{equation}\label{129}
+ \begin{split}
+T_{2NT}^{NO}=&2\sum_{\substack{\sigma_1 \sigma_2 \\ \sigma_1' \sigma_2' \\ KM}}\int d^3r_{Cc}d^3r_{b1}d^3r_{A2}
+d^3r_{b1}'d^3r_{A2}' \,\chi^{(-)*}(\mathbf{k}_{Bb},\mathbf{r}_{Bb})\\
+ & \times \left[ \psi ^{j_f} (\mathbf{r}_{A1},\sigma_1) \psi ^{j_f} (\mathbf{r}_{A2},\sigma_2) \right] _0^{0*} v(r_{b1})
+\left[ \psi ^{j_f} (\mathbf{r}_{A2},\sigma_2) \psi ^{j_i} (\mathbf{r}_{b1},\sigma_1) \right] _M^{K}\\
+& \times
+\left[ \psi ^{j_f} (\mathbf{r}_{A2}',\sigma_2') \psi ^{j_i} (\mathbf{r}_{b1}',\sigma_1') \right] _M^{K*} \left[ \psi ^{j_i} (\mathbf{r}_{b1}',\sigma_1') \psi ^{j_i} (\mathbf{r}_{b2}',\sigma_2') \right] _0^{0}
+\chi^{(+)}( \mathbf{r}_{Aa}').
+ \end{split}
+\end{equation}
+This expression is equivalent to (\ref{eq1}) if we make the replacement
+\begin{equation}\label{eq136}
+    \frac{2\mu_{Cc}}{\hbar^2}G(\mathbf{r}_{Cc},\mathbf{r}'_{Cc})v(r_{A2}')\rightarrow \delta(\mathbf{r}_{Cc}-\mathbf{r}'_{Cc}).
+\end{equation}
+Looking at the partial--wave expansions of $G(\mathbf{r}_{Cc},\mathbf{r}'_{Cc})$ and $\delta(\mathbf{r}_{Cc}-\mathbf{r}'_{Cc})$ (see Section \ref{appendix}), we find that we can use the above expressions for the successive transfer with the replacement
+\begin{equation}\label{eq137}
+    i\frac{2\mu_{Cc}}{\hbar^2}\frac{f_{l_c}(k_{Cc},r_<)P_{l_c}(k_{Cc},r_>)}{k_{Cc}}\rightarrow \delta(r_{Cc}-r'_{Cc}).
+\end{equation}
+We thus have
+\begin{equation}\label{eq138}
+ \begin{split}
+T_{2NT}^{NO}=&\frac{512\pi^{9/2}}{ k_{Aa}k_{Bb}}\frac{1}{\sqrt{(2j_i+1)(2j_f+1)}}\\
+&\times \sum_{K}
+\bigl ( (l_f \tfrac{1}{2})_{j_f} (l_i \tfrac{1}{2})_{j_i} |(l_f l_i)_K (\tfrac{1}{2} \tfrac{1}{2})_0 \bigr )_K ^2\\
+&\times \sum_{l_c,l}e^{i(\sigma _i^l+\sigma _f^{l})}\frac{(2l_c+1)}{\sqrt{2l+1}} Y_0^l(\hat k_{Bb})S_{K,l,l_c},
+ \end{split}
+\end{equation}
+with
+\begin{equation}\label{eq139}
+ \begin{split}
+S_{K,l,l_c}=&\int r_{Cc}^2 \, d r_{Cc}\,r_{b1}^2\, d r_{b1} \,\sin\theta\, d\theta \, v(r_{b1}) u_{l_f}(r_{C1})u_{l_i}(r_{b1})\\
+& \times \frac{s_{K,l,l_c}(r_{Cc})}{r_{Cc}}\frac{F_l(r_{Bb})}{r_{Bb}}\\
+&\times\sum_M \langle l_c \;0\;l\;M|K\;M\rangle \left[ Y ^{l_f} (\hat r_{C1}) Y ^{l_i} (\theta+\pi,0) \right] _{M}^{K}
+ Y^{l*}_M (\hat r_{Bb}),
+ \end{split}
+\end{equation}
+and
+\begin{equation}\label{eq140}
+ \begin{split}
+s_{K,l,l_c}(r_{Cc})=&r_{Cc}\int  d r'_{A2}\, r_{A2}^{'2}\,\sin\theta'\, d\theta' \, u_{l_f}(r_{A2}')u_{l_i}(r_{c2}') \frac{F_l(r_{Aa}')}{r_{Aa}'} \\
+&\times\sum_M \langle l_c \;0\;l\;M|K\;M\rangle \left[ Y ^{l_f} (\hat r_{A2}') Y ^{l_i} (\hat r_{c2}') \right] _{M}^{K*}
+ Y^{l}_M (\hat r_{Aa}').
+ \end{split}
+\end{equation}
+\section{Arbitrary orbital momentum transfer}
+We will now examine the case in which the two transferred nucleons carry an angular momentum $\Lambda$ different from 0. Let us assume that two nucleons coupled to angular momentum $\Lambda$ in the initial nucleus $a$ are transferred into a final state of zero angular momentum in nucleus $B$. The transition amplitude is given by the integral
+ \begin{equation}\label{eq227}
+ \begin{split}
+2\sum_{\sigma_1 \sigma_2} & \int d\mathbf{r}_{cC} d\mathbf{r}_{A2}d\mathbf{r}_{b1} \chi^{(-)*}(\mathbf{r}_{bB}) \left[ \psi^{j_f} (\mathbf{r}_{A1}, \sigma_1) \psi^{j_f} (\mathbf{r}_{A2}, \sigma_2) \right] _{0}^{0*}\\
+& \times v(r_{b1})\Psi^{(+)}(\mathbf{r}_{aA},\mathbf{r}_{b1},\mathbf{r}_{b2},\sigma_1,\sigma_2).
+\end{split}
+\end{equation}
+If we neglect core excitations, the above expression is exact as long as $\Psi^{(+)}(\mathbf{r}_{aA},\mathbf{r}_{b1},\mathbf{r}_{b2},\sigma_1,\sigma_2)$ is the exact wavefunction. We can instead obtain an approximation for the transfer amplitude using
+  \begin{equation}\label{eq228}
+ \begin{split}
+\Psi^{(+)}(\mathbf{r}_{aA},\mathbf{r}_{b1},&\mathbf{r}_{b2},\sigma_1,\sigma_2)\approx \chi^{(+)}(\mathbf{r}_{aA}) \left[ \psi^{j_{i1}} (\mathbf{r}_{b1}, \sigma_1) \psi^{j_{i2}} (\mathbf{r}_{b2}, \sigma_2) \right]_{\mu}^{\Lambda}\\
+ &+\sum_{K,M}\mathcal U_{K,M}(\mathbf{r}_{cC})\left[ \psi^{j_f} (\mathbf{r}_{A2}, \sigma_2) \psi^{j_{i1}} (\mathbf{r}_{b1}, \sigma_1) \right] _{M}^{K}
+\end{split}
+\end{equation}
+as an approximation for the incoming state. The first term of (\ref{eq228}) gives rise to the simultaneous amplitude, while from second one we get the successive and the non-orthogonality contributions.
+To extract the amplitude $\mathcal U_{K,M}(\mathbf{r}_{cC})$, we define $f_{KM}(\mathbf{r}_{cC})$ as the scalar product
+\begin{equation}\label{eq229}
+f_{KM}(\mathbf{r}_{cC})=\left \langle \left[ \psi^{j_f} (\mathbf{r}_{A2}, \sigma_2) \psi^{j_{i1}} (\mathbf{r}_{b1}, \sigma_1) \right] _{M}^{K} \Big | \Psi^{(+)}(\mathbf{r}_{aA},\mathbf{r}_{b1},\mathbf{r}_{b2},\sigma_1,\sigma_2) \right \rangle
+\end{equation}
+for fixed $\mathbf{r}_{cC}$, which can be seen to obey the equation
+  \begin{equation}\label{eq230}
+ \begin{split}
+\left(\frac{\hbar^2}{2\mu_{cC}}k_{cC}^2\right. & \left.+\frac{\hbar^2}{2\mu_{cC}}\nabla^2_{r_{cC}}-U(r_{cC})\right)f_{KM}(\mathbf{r}_{cC})\\
+&=\left \langle \left[ \psi^{j_f} (\mathbf{r}_{A2}, \sigma_2) \psi^{j_{i1}} (\mathbf{r}_{b1}, \sigma_1) \right] _{M}^{K} \Big | v(r_{c2}) \Big| \Psi^{(+)}(\mathbf{r}_{aA},\mathbf{r}_{b1},\mathbf{r}_{b2},\sigma_1,\sigma_2) \right \rangle.
+\end{split}
+\end{equation}
+The solution can be written in terms of the Green function $G(\mathbf{r}_{cC},\mathbf{r}'_{cC})$ defined by
+  \begin{equation}\label{eq231}
+\left(\frac{\hbar^2}{2\mu_{cC}}k_{cC}^2\right.  \left.+\frac{\hbar^2}{2\mu_{cC}}\nabla^2_{r_{cC}}-U(r_{cC})\right)
+G(\mathbf{r}_{cC},\mathbf{r}'_{cC})=\frac{\hbar^2}{2\mu_{cC}}\delta(\mathbf{r}_{cC}-\mathbf{r}'_{cC}).
+\end{equation}
+Thus,
+\begin{equation}\label{eq232}
+ \begin{split}
+f_{KM}(\mathbf{r}_{cC})&=\frac{2\mu_{cC}}{\hbar^2}\int d\mathbf{r}'_{cC} G(\mathbf{r}_{cC},\mathbf{r}'_{cC})\left \langle \left[ \psi^{j_f} (\mathbf{r}'_{A2}, \sigma'_2) \psi^{j_{i1}} (\mathbf{r}'_{b1}, \sigma'_1) \right] _{M}^{K} \Big | v(r_{C2}) \Big| \Psi^{(+)}(\mathbf{r}'_{aA},\mathbf{r}'_{b1},\mathbf{r}'_{b2},\sigma'_1,\sigma'_2) \right \rangle\\
+&\approx \frac{2\mu_{cC}}{\hbar^2}\sum_{\sigma'_1 \sigma'_2} \int d\mathbf{r}'_{cC}d\mathbf{r}'_{A2}d\mathbf{r}'_{b1}G(\mathbf{r}_{cC},\mathbf{r}'_{cC}) \left[ \psi^{j_f} (\mathbf{r}'_{A2}, \sigma'_2) \psi^{j_{i1}} (\mathbf{r}'_{b1}, \sigma'_1) \right] _{M}^{K*}\\
+&\times v(r'_{c2}) \chi^{(+)}(\mathbf{r}'_{aA})\left[ \psi^{j_{i1}} (\mathbf{r}'_{b1}, \sigma'_1) \psi^{j_{i2}} (\mathbf{r}'_{b2}, \sigma'_2) \right]_{\mu}^{\Lambda}=\mathcal U_{K,M}(\mathbf{r}_{cC})\\
+&+\left \langle \left[ \psi^{j_f} (\mathbf{r}'_{A2}, \sigma_2) \psi^{j_{i1}} (\mathbf{r}'_{b1}, \sigma_1) \right] _{M}^{K} \Big | \chi^{(+)}(\mathbf{r}'_{aA})\left[ \psi^{j_{i1}} (\mathbf{r}'_{b1}, \sigma'_1) \psi^{j_{i2}} (\mathbf{r}'_{b2}, \sigma'_2) \right]_{\mu}^{\Lambda} \right \rangle.
+\end{split}
+\end{equation}
+Therefore
+\begin{equation}\label{eq233}
+ \begin{split}
+\mathcal U_{K,M}(\mathbf{r}_{cC})&=\frac{2\mu_{cC}}{\hbar^2}\sum_{\sigma'_1 \sigma'_2} \int d\mathbf{r}'_{cC}d\mathbf{r}'_{A2}d\mathbf{r}'_{b1}G(\mathbf{r}_{cC},\mathbf{r}'_{cC}) \left[ \psi^{j_f} (\mathbf{r}'_{A2}, \sigma'_2) \psi^{j_{i1}} (\mathbf{r}'_{b1}, \sigma'_1) \right] _{M}^{K*}\\
+&\times v(r'_{c2}) \chi^{(+)}(\mathbf{r}'_{aA})\left[ \psi^{j_{i1}} (\mathbf{r}'_{b1}, \sigma'_1) \psi^{j_{i2}} (\mathbf{r}'_{b2}, \sigma'_2) \right]_{\mu}^{\Lambda}\\
+&-\left \langle \left[ \psi^{j_f} (\mathbf{r}'_{A2}, \sigma_2) \psi^{j_{i1}} (\mathbf{r}'_{b1}, \sigma_1) \right] _{M}^{K} \Big | \chi^{(+)}(\mathbf{r}'_{aA})\left[ \psi^{j_{i1}} (\mathbf{r}'_{b1}, \sigma'_1) \psi^{j_{i2}} (\mathbf{r}'_{b2}, \sigma'_2) \right]_{\mu}^{\Lambda} \right \rangle.
+\end{split}
+\end{equation}
+When we substitute $\mathcal U_{K,M}(\mathbf{r}_{cC})$ into (\ref{eq228}) and (\ref{eq227}), the first term gives rise to the successive amplitude for the two--particle transfer, while the second term is responsible for the non--orthogonal contribution.
+\subsection{Successive contribution}
+We need to evaluate the integral
+\begin{equation}\label{eq210}
+ \begin{split}
+T_\mu^{succ}=&\frac{4\mu_{cC}}{\hbar^2}\sum_{\sigma_1 \sigma_2}\sum_{K M} \int d\mathbf{r}_{cC} d\mathbf{r}_{A2}d\mathbf{r}_{b1} d\mathbf{r}'_{cC} d\mathbf{r}'_{A2}d\mathbf{r}'_{b1}  \left[ \psi^{j_f} (\mathbf{r}_{A1}, \sigma_1) \psi^{j_f} (\mathbf{r}_{A2}, \sigma_2) \right] _{0}^{0*} \\
+&\times \chi^{(-)*}(\mathbf{r}_{bB})G(\mathbf{r}_{cC},\mathbf{r}'_{cC})
+\left[ \psi^{j_f} (\mathbf{r}'_{A2}, \sigma'_2) \psi^{j_{i1}} (\mathbf{r}'_{b1}, \sigma'_1) \right] _{M}^{K*}\chi^{(+)}(\mathbf{r}'_{aA})v(r_{c2}')v(r_{b1})\\
+&\times \left[ \psi^{j_{i1}} (\mathbf{r}'_{b1}, \sigma'_1) \psi^{j_{i2}} (\mathbf{r}'_{b2}, \sigma'_2) \right]_{\mu}^{\Lambda}
+ \left[ \psi^{j_{f}} (\mathbf{r}_{A2}, \sigma_2) \psi^{j_{i1}} (\mathbf{r}_{b1}, \sigma_1) \right]_{M}^{K},
+ \end{split}
+\end{equation}
+where we must substitute the Green function and the distorted waves by their partial wave expansions (see Appendix).
+The integral over $\mathbf{r}'_{b1}$ is:
+\begin{multline}\label{eq211}
+\sum_{\sigma'_1} \int  d\mathbf{r}'_{b1}
+\left[ \psi^{j_f} (\mathbf{r}'_{A2}, \sigma'_2) \psi^{j_{i1}} (\mathbf{r}'_{b1}, \sigma'_1) \right] _{M}^{K*}
+\left[ \psi^{j_{i1}} (\mathbf{r}'_{b1}, \sigma'_1) \psi^{j_{i2}} (\mathbf{r}'_{b2}, \sigma'_2) \right]_{\mu}^{\Lambda}\\
+=(-1)^{-M+j_f+j_{i1}-\sigma_1-\sigma_2}\left[\psi^{j_{i1}} (\mathbf{r}'_{b1}, -\sigma'_1)\psi^{j_f} (\mathbf{r}'_{A2}, -\sigma'_2) \right] _{-M}^{K}\left[ \psi^{j_{i1}} (\mathbf{r}'_{b1}, \sigma'_1) \psi^{j_{i2}} (\mathbf{r}'_{b2}, \sigma'_2) \right]_{\mu}^{\Lambda}\\
+=\sum_{\sigma'_1} \int(-1)^{-M+j_f+j_{i1}-\sigma_1-\sigma_2}\sum_{P} \langle K \;\Lambda\;-M\;\mu|P\;\mu-M\rangle \bigl ( (j_{i1} j_f)_K (j_{i1} j_{i2})_\Lambda |(j_{i1} j_{i1})_0 (j_f j_{i2})_P \bigr )_P\\
+\times  \left[ \psi^{j_{i1}} (\mathbf{r}'_{b1}, -\sigma'_1) \psi^{j_{i1}} (\mathbf{r}'_{b1}, \sigma'_1)  \right] ^{0}_0 \left[ \psi^{j_{f}} (\mathbf{r}'_{A2}, -\sigma'_2) \psi^{j_{i2}} (\mathbf{r}'_{b2}, \sigma'_2)  \right] ^{P}_{\mu-M}\\
+=(-1)^{-M+j_f+j_{i1}}\sqrt{2j_{i1}+1}\, u_{l_f}(r_{A2})u_{l_{i2}}(r'_{b2})\sum_{P} \langle K \;\Lambda\;-M\;\mu|P\;\mu-M\rangle\\
+\times \bigl ((j_{i1} j_f)_K (j_{i1} j_{i2})_\Lambda |(j_{i1} j_{i1})_0 (j_f j_{i2})_P \bigr )_P \bigl ( (l_f \tfrac{1}{2})_{j_f} (l_{i2} \tfrac{1}{2})_{j_{i2}} |(l_f l_{i2})_P\; (\tfrac{1}{2} \tfrac{1}{2})_0 \bigr )_P\\
+\times \left[ Y^{l_f} (\hat{\mathbf{r}}'_{A2}) Y^{l_{i2}} (\hat{\mathbf{r}}'_{b2})  \right] ^{P}_{\mu-M}u_{l_{f}}(r_{A2})u_{l_{i2}}(r_{b2}).
+\end{multline}
+Integral over $\mathbf{r}_{A2}$ (see (\ref{eq18})):
+\begin{equation}\label{eq212}
+\begin{split}
+\sum_{\sigma_2} &\int  d\mathbf{r}_{A2}
+\left[ \psi^{j_f} (\mathbf{r}_{A1}, \sigma_1) \psi^{j_f} (\mathbf{r}_{A2}, \sigma_2) \right] _{0}^{0*}
+\left[ \psi^{j_f} (\mathbf{r}_{A2}, \sigma_2) \psi^{j_{i1}} (\mathbf{r}_{b1}, \sigma_1) \right]_{M}^{K}\\
+&=-\sqrt{\frac{2}{2j_f+1}} \bigl ( (l_f \tfrac{1}{2})_{j_f} (l_{i1} \tfrac{1}{2})_{j_{i1}} |(l_f l_{i1})_K\; (\tfrac{1}{2} \tfrac{1}{2})_0 \bigr )_K \left[ Y^{l_f} (\hat{\mathbf{r}}_{A1}) Y^{l_{i1}} (\hat{\mathbf{r}}_{b1})  \right] ^{K}_{M}u_{l_{f}}(r_{A1})u_{l_{i1}}(r_{b1}).
+\end{split}
+\end{equation}
+Let us examine the term
+\begin{equation}\label{eq213}
+\begin{split}
+\sum_M (-1)^M\;\langle K \;\Lambda\;-M\;\mu|P\;\mu-M\rangle  \left[ Y^{l_f} (\hat{\mathbf{r}}_{A1}) Y^{l_{i1}} (\hat{\mathbf{r}}_{b1})  \right] ^{K}_{M} \left[ Y^{l_f} (\hat{\mathbf{r}}'_{A2}) Y^{l_{i2}} (\hat{\mathbf{r}}'_{b2})  \right] ^{P}_{\mu-M}.
+\end{split}
+\end{equation}
+By virtue of the property of Clebsh--Gordan coefficients
+\begin{equation}\label{eq214}
+\langle l_1 \;l_2\;m_1\;m_2|L\;M_L\rangle=(-1)^{l_2-m_2}\sqrt{\frac{2L+1}{2l_1+1}}\langle L \;l_2\;-M_L\;m_2|l_1\;-m_1\rangle,
+\end{equation}
+the expression (\ref{eq214}) is equivalent to
+\begin{equation}\label{eq215}
+(-1)^K \sqrt{\frac{2P+1}{2\Lambda+1}}\left\lbrace \left[Y^{l_f} (\hat{\mathbf{r}}'_{A2}) Y^{l_{i2}} (\hat{\mathbf{r}}'_{b2}) \right]^{P}
+\left[ Y ^{l_f} (\hat{\mathbf{r}}_{A1}) Y ^{l_{i1}} (\hat{\mathbf{r}}_{b1}) \right]^{K} \right\rbrace ^\Lambda_\mu.
+\end{equation}
+We re--couple the following terms arising from the partial wave expansion of the incoming and outgoing distorted waves:
+\begin{equation}\label{eq216}
+\left[ Y ^{l_a} (\hat{\mathbf{r}}'_{aA}) Y ^{l_a} (\hat{\mathbf{k}}_{aA}) \right]^{0}_0 \left[ Y ^{l_b} (\hat{\mathbf{r}}_{bB}) Y ^{l_b} (\hat{\mathbf{k}}_{bB}) \right]^{0}_0
+\end{equation}
+to have
+\begin{equation}\label{eq217}
+\bigl ((l_a l_a)_0 (l_b l_b)_0 |(l_a l_b)_\Lambda (l_a l_b)_\Lambda \bigr )_0 \left\lbrace \left[Y^{la} (\hat{\mathbf{r}}'_{aA}) Y^{l_{b}} (\hat{\mathbf{r}}_{bB}) \right]^{\Lambda}
+\left[ Y ^{l_a} (\hat{\mathbf{k}}_{aA}) Y ^{l_{b}} (\hat{\mathbf{k}}_{bB}) \right]^{\Lambda} \right\rbrace ^0_0.
+\end{equation}
+The only term that survives the integration is
+\begin{equation}\label{eq218}
+\frac{(-1)^{\Lambda-\mu}}{\sqrt{(2l_a+1)(2l_b+1)}} \left[Y^{la} (\hat{\mathbf{r}}'_{aA}) Y^{l_{b}} (\hat{\mathbf{r}}_{bB}) \right]^{\Lambda}_{-\mu}\left[ Y ^{l_a} (\hat{\mathbf{k}}_{aA}) Y ^{l_{b}} (\hat{\mathbf{k}}_{bB}) \right]^{\Lambda}_\mu.
+\end{equation}
+Again, the only term surviving
+\begin{equation}\label{eq219}
+\left\lbrace \left[Y^{l_f} (\hat{\mathbf{r}}'_{A2}) Y^{l_{i2}} (\hat{\mathbf{r}}'_{b2}) \right]^{P}
+\left[ Y ^{l_f} (\hat{\mathbf{r}}_{A1}) Y ^{l_{i1}} (\hat{\mathbf{r}}_{b1}) \right]^{K} \right\rbrace ^\Lambda_\mu\left[Y^{la} (\hat{\mathbf{r}}'_{aA}) Y^{l_{b}} (\hat{\mathbf{r}}_{bB}) \right]^{\Lambda}_{-\mu}
+\end{equation}
+is
+\begin{equation}\label{eq220}
+\begin{split}
+\frac{(-1)^{\Lambda+\mu}}{\sqrt{2  \Lambda+1}}&
+ \left [\left\lbrace \left[Y^{l_f} (\hat{\mathbf{r}}'_{A2})
+  Y^{l_{i2}} (\hat{\mathbf{r}}'_{b2}) \right]^{P} \right. \vphantom{\left.\left[ Y ^{l_{i1}}\right]^{K} \right\rbrace ^\Lambda} \right.\\
+& \left. \left. \left[ Y ^{l_f} (\hat{\mathbf{r}}_{A1}) Y ^{l_{i1}} (\hat{\mathbf{r}}_{b1}) \right]^{K} \right\rbrace ^\Lambda\left[Y^{la} (\hat{\mathbf{r}}'_{aA}) Y^{l_{b}} (\hat{\mathbf{r}}_{bB}) \right]^{\Lambda}\right ]_0^0.
+\end{split}
+\end{equation}
+Now we couple this last term with $\left[ Y ^{l_c} (\hat{\mathbf{r}'}_{cC}) Y ^{l_{c}} (\hat{\mathbf{r}}_{cC}) \right]^{0}_0$, which arises from the partial wave expansion of the Green function,
+\begin{equation}\label{eq221}
+\begin{split}
+\left [\left\lbrace  \vphantom{\left.\left[ Y ^{l_{i1}}\right]^{K}\right\rbrace ^\Lambda} \right. \right.&\left.\left.
+\left[Y^{l_f} (\hat{\mathbf{r}}'_{A2})
+  Y^{l_{i2}} (\hat{\mathbf{r}}'_{b2}) \right]^{P}
+  \left[ Y ^{l_f} (\hat{\mathbf{r}}_{A1}) Y ^{l_{i1}} (\hat{\mathbf{r}}_{b1}) \right]^{K} \right\rbrace ^\Lambda\left[Y^{la} (\hat{\mathbf{r}}'_{aA}) Y^{l_{b}} (\hat{\mathbf{r}}_{bB}) \right]^{\Lambda}\right ]_0^0\left[ Y ^{l_c} (\hat{\mathbf{r}'}_{cC}) Y ^{l_{c}} (\hat{\mathbf{r}}_{cC}) \right]^{0}\\
+  &=\bigl ((l_a l_b)_\Lambda (l_c l_c)_0 |(l_a l_c)_P (l_b l_c)_K \bigr )_\Lambda \left [\left\lbrace  \left[Y^{l_f} (\hat{\mathbf{r}}'_{A2})
+  Y^{l_{i2}} (\hat{\mathbf{r}}'_{b2}) \right]^{P}  \vphantom{\left.\left[ Y ^{l_{i1}}\right]^{K} \right\rbrace ^\Lambda}
+  \left[ Y ^{l_f} (\hat{\mathbf{r}}_{A1}) Y ^{l_{i1}} (\hat{\mathbf{r}}_{b1}) \right]^{K} \right\rbrace ^\Lambda \right.\\
+  &\left.\left\lbrace  \left[Y^{l_a} (\hat{\mathbf{r}}'_{aA})
+  Y^{l_{c}} (\hat{\mathbf{r}}'_{cC}) \right]^{P}  \vphantom{\left.\left[ Y ^{l_{i1}}\right]^{K} \right\rbrace ^\Lambda}
+  \left[ Y ^{l_b} (\hat{\mathbf{r}}_{bB}) Y ^{l_{c}} (\hat{\mathbf{r}}_{cC}) \right]^{K} \right\rbrace ^\Lambda \right]_0^0=\bigl ((l_a l_b)_\Lambda (l_c l_c)_0 |(l_a l_c)_P (l_b l_c)_K \bigr )_\Lambda\\
+  &\times \bigl ((PK)_\Lambda (PK)_\Lambda |(PP)_0 (KK)_0 \bigr )_0\left\lbrace  \left[Y^{l_f} (\hat{\mathbf{r}}'_{A2})
+  Y^{l_{i2}} (\hat{\mathbf{r}}'_{b2}) \right]^{P}
+  \left[ Y ^{l_a} (\hat{\mathbf{r}}'_{aA}) Y ^{l_{c}} (\hat{\mathbf{r}}'_{cC}) \right]^{P} \right\rbrace ^0_0\\
+  &\times\left\lbrace  \left[Y^{l_f} (\hat{\mathbf{r}}_{A1})
+  Y^{l_{i1}} (\hat{\mathbf{r}}_{b1}) \right]^{K}
+  \left[ Y ^{l_b} (\hat{\mathbf{r}}_{bB}) Y ^{l_{c}} (\hat{\mathbf{r}}_{cC}) \right]^{K} \right\rbrace ^0_0=\bigl ((l_a l_b)_\Lambda (l_c l_c)_0 |(l_a l_c)_P (l_b l_c)_K \bigr )_\Lambda\\
+  &\times \sqrt{\frac{2\Lambda+1}{(2K+1)(2P+1)}}\left\lbrace  \left[Y^{l_f} (\hat{\mathbf{r}}'_{A2})
+  Y^{l_{i2}} (\hat{\mathbf{r}}'_{b2}) \right]^{P}
+  \left[ Y ^{l_a} (\hat{\mathbf{r}}'_{aA}) Y ^{l_{c}} (\hat{\mathbf{r}}'_{cC}) \right]^{P} \right\rbrace ^0_0\\
+  &\times\left\lbrace  \left[Y^{l_f} (\hat{\mathbf{r}}_{A1})
+  Y^{l_{i1}} (\hat{\mathbf{r}}_{b1}) \right]^{K}
+  \left[ Y ^{l_b} (\hat{\mathbf{r}}_{bB}) Y ^{l_{c}} (\hat{\mathbf{r}}_{cC}) \right]^{K} \right\rbrace ^0_0.
+ \end{split}
+\end{equation}
+When we collect all the pieces (including the constants and phases coming from the partial wave expansion of the distorted waves and the Green function), we finally get
+\begin{equation}\label{eq222}
+ \begin{split}
+T_\mu^{succ}=&(-1)^{j_f+j_{i1}}\frac{2048\pi^{5}\mu_{Cc}}{ \hbar^2 k_{Aa}k_{Bb}k_{Cc}}\sqrt{\frac{(2j_{i1}+1)}{(2\Lambda+1)(2j_f+1)}}\sum_{K,P}
+\bigl ( (l_f \tfrac{1}{2})_{j_f} (l_{i2} \tfrac{1}{2})_{j_{i2}} |(l_f l_{i2})_P (\tfrac{1}{2} \tfrac{1}{2})_0 \bigr )_P\\
+&\times
+\bigl ( (l_f \tfrac{1}{2})_{j_f} (l_{i1} \tfrac{1}{2})_{j_{i1}} |(l_f l_{i1})_K (\tfrac{1}{2} \tfrac{1}{2})_0 \bigr )_K\;
+\bigl ( (j_{i1} j_f)_K (j_{i1} j_{i2})_\Lambda |(j_{i1}  j_{i1})_0 (j_f j_{i2})_P \bigr )_P\\
+&\times \frac{(-1)^K}{(2K+1)\sqrt{2P+1}} \sum_{l_c,l_a,l_b}\bigl ((l_a l_b)_\Lambda (l_c l_c)_0 |(l_a l_c)_P (l_b l_c)_K \bigr )_\Lambda e^{i(\sigma _i^{l_a}+\sigma _f^{l_b})}i^{l_a-l_b}\\
+&\times (2l_c+1)^{3/2} \left[ Y ^{l_a} (\hat{\mathbf{k}}_{aA}) Y ^{l_{b}} (\hat{\mathbf{k}}_{bB}) \right]^{\Lambda}_\mu S_{K,P,l_a,l_b,l_c}
+ \end{split}
+\end{equation}
+with (note that we have reduced the dimensionality of the integrals in the same fashion as for the 0--angular momentum transfer calculation, see (\ref{eq124}))
+\begin{equation}\label{eq223}
+ \begin{split}
+S_{K,P,l_a,l_b,l_c}=&\int r_{Cc}^2 \, d r_{Cc}\,r_{b1}^2\, d r_{b1} \,\sin\theta\, d\theta \, v(r_{b1}) u_{l_f}(r_{C1})u_{l_i}(r_{b1})\\
+& \times \frac{s_{P,l_a,l_c}(r_{Cc})}{r_{Cc}}\frac{F_{l_b}(r_{Bb})}{r_{Bb}}\\
+&\times\sum_M \langle l_c \;0\;l_b\;M|K\;M\rangle \left[ Y ^{l_f} (\hat r_{C1}) Y ^{l_{i1}} (\theta+\pi,0) \right] _{M}^{K}
+ Y^{l_b}_{-M} (\hat r_{Bb}),
+ \end{split}
+\end{equation}
+and
+\begin{equation}\label{eq224}
+ \begin{split}
+s_{P,l_a,l_c}(r_{Cc})=&\int r_{Cc}^{'2} \, d r'_{Cc}\,r_{A2}^{'2}\, d r'_{A2} \,\sin\theta'\, d\theta' \, v(r_{c2}') u_{l_f}(r_{A2}')u_{l_i}(r_{c2}')  \\
+& \times \frac{F_{l_a}(r_{Aa}')}{r_{Aa}'}\frac{f_{l_c}(k_{Cc},r_<)P_{l_c}(k_{Cc},r_>)}{r_{Cc}'}\\
+&\times\sum_M \langle l_c \;0\;l_a\;M|P\;M\rangle \left[ Y ^{l_f} (\hat r_{A2}') Y ^{l_{i2}} (\hat r_{c2}') \right] _{M}^{P}
+ Y^{l_a}_{-M} (\hat r_{Aa}').
+ \end{split}
+\end{equation}
+Note that we have evaluated the transition matrix element for a particular projection $\mu$ of the initial angular momentum of the two transferred nucleons. If they are coupled to a core of angular momentum $J_f$ to total angular momentum $J_i,M_i$, the fraction of the initial wavefunction with projection $\mu$ is $\langle \Lambda \;\mu\;J_f\;M_i-\mu|J_i\;M_i\rangle$, and the cross section will be
+\begin{equation}\label{eq225_3}
+\frac{d\sigma}{d\Omega}(\hat{\mathbf{k}}_{bB})=\frac{k_{bB}}{k_{aA}}\frac{\mu_{aA}\mu_{bB}}{(2\pi\hbar^2)^2}\left|\sum_\mu
+\langle \Lambda \;\mu\;J_f\;M_i-\mu|J_i\;M_i\rangle T_\mu\right|^2.
+\end{equation}
+For a non polarized incident beam,
+\begin{equation}\label{eq225_2}
+\frac{d\sigma}{d\Omega}(\hat{\mathbf{k}}_{bB})=\frac{k_{bB}}{k_{aA}}\frac{\mu_{aA}\mu_{bB}}{(2\pi\hbar^2)^2}
+\frac{1}{2J_i+1}\sum_{M_i}\left|\sum_{\mu}\langle \Lambda \;\mu\;J_f\;M_i-\mu|J_i\;M_i\rangle T_\mu\right|^2.
+\end{equation}
+This would be the differential cross section for a transition to a definite final state $M_f$. If we don't measure $M_f$ we have to sum for all  $M_f$,
+\begin{equation}\label{eq225_4}
+\frac{d\sigma}{d\Omega}(\hat{\mathbf{k}}_{bB})=\frac{k_{bB}}{k_{aA}}\frac{\mu_{aA}\mu_{bB}}{(2\pi\hbar^2)^2}
+\frac{1}{2J_i+1}\sum_{\mu}|T_{\mu}|^2 \sum_{M_i,M_f}\left|\langle \Lambda \;\mu\;J_f\;M_f|J_i\;M_i\rangle\right|^2.
+\end{equation}
+The sum over $M_i,M_f$ of the Clebsh--Gordan coefficients is $(2J_i+1)/(2\Lambda+1)$ (see \ref{eq241}), so we finally get
+
+\begin{equation}\label{eq225_7}
+\begin{split}
+\frac{d\sigma}{d\Omega}(\hat{\mathbf{k}}_{bB})=\frac{k_{bB}}{k_{aA}}\frac{\mu_{aA}\mu_{bB}}{(2\pi\hbar^2)^2}
+\frac{1}{(2\Lambda+1)}\sum_{\mu}|T_{\mu}|^2.
+\end{split}
+\end{equation}
+where we can write
+\begin{equation}\label{eq226}
+ \begin{split}
+T_\mu &=\sum_{l_a,l_b} C_{l_a,l_b} \left[ Y ^{l_a} (\hat{\mathbf{k}}_{aA}) Y ^{l_{b}} (\hat{\mathbf{k}}_{bB}) \right]^{\Lambda}_\mu\\
+&=\sum_{l_a,l_b} C_{l_a,l_b}i^{l_a} \sqrt{\frac{2l_a+1}{4\pi}}\langle l_a \;l_b\;0\;\mu|\Lambda\;\mu\rangle Y ^{l_{b}}_\mu (\hat{\mathbf{k}}_{bB}).
+ \end{split}
+\end{equation}
+Note that (\ref{eq225_7}) takes into account only the spins of the heavy nucleus. In a $(t,p)$ or $(p,t)$ reaction, we have to sum over the spins of the proton and of the triton and divide by 2. If a spin orbit term is present in the optical potential, the sum yields the combination of terms shown in section (\ref{sim}):
+\begin{equation}\label{eq225_8}
+\begin{split}
+\frac{d\sigma}{d\Omega}(\hat{\mathbf{k}}_{bB})=\frac{k_{bB}}{k_{aA}}\frac{\mu_{aA}\mu_{bB}}{(2\pi\hbar^2)^2}
+\frac{1}{2(2\Lambda+1)}\sum_{\mu}|A_{\mu}|^2+|B_{\mu}|^2.
+\end{split}
+\end{equation}
+\section{Two--nucleon transfer reactions}
+
+Again we assume that the reaction is direct, and that it is adequately described by first--order distorted--wave Born approximation.
+
+
+To be specific, we will concentrate on $(t,p)$ reaction, namely reactions of the type $A(\alpha,\beta)B$ where $\alpha=\beta+2$ and $B=A+2$.
+
+
+The intrinsic wave functions are in this case
+\begin{equation}\label{5lec1}
+\begin{split}
+\psi_\alpha=& \psi_{M_i}^{J_i}(\xi_A) \sum_{s s'_f} \left[ \chi^s(\sigma_\alpha) \chi^{s'_f}(\sigma_\beta) \right] _{M_{s_i}}^{s_i}
+\phi_t^{L=0}(\sum_{i<j}|\vec r_i-\vec r_j|)\\
+&= \psi_{M_i}^{J_i}(\xi_A) \sum_{M_s M'_{s_f}} (s M'_{s_f} s'_f M'_{s_f}| s_i M_{s_i}) \chi^s_{M_s}(\sigma_\alpha) \chi^{s_f}_{M_{s_f}}(\sigma_\beta)\\
+& \times \phi_t^{L=0}\bigl(\sum_{i<j}|\vec r_i-\vec r_j|\bigr)
+\end{split}
+\end{equation}
+
+while
+
+\begin{equation}\label{5lec2}
+\begin{split}
+\psi_\beta=& \psi_{M_f}^{J_f}(\xi_{A+2}) \chi^{s_f}_{M_{s_f}}(\sigma_\beta)\\
+&=\sum_{\substack{n_1 l_1 j_1\\n_2 l_2 j_2}} B(n_1 l_1 j_1,n_2 l_2 j_2);JJ'_iJ_f)
+\left[ \phi^J(j_1 j_2) \phi^{J'_i}(\xi_A)\right]^{J_f}_{M_f}\\
+&\times \chi^{s_f}_{M_{s_f}}(\sigma_\beta)
+\end{split}
+\end{equation}
+
+But from eq. (\ref{5lec2}) is easy to see that the spectroscopic amplitude $B$ is equal to
+
+\begin{equation}\label{5lec3}
+\begin{split}
+B&(n_1 l_1 j_1,n_2 l_2 j_2);JJ'_iJ_f)\\
+&=\left\langle  \psi^{J_f}(\xi_{A+2})\left |\left[ \phi^J(j_1 j_2) \phi^{J_i}(\xi_A)\right]^{J_f}\right. \right\rangle
+\end{split}
+\end{equation}
+
+where
+\begin{equation}\label{5lec4}
+\phi^J(j_1 j_2)=\frac{\left[ \phi_{j_1}(\vec r_1) \phi_{j_2}(\vec r_2)\right]^{J}-
+\left[ \phi_{j_1}(\vec r_2) \phi_{j_2}(\vec r_1)\right]^{J}}{\sqrt{1+\delta(j_1,j_2)}}
+\end{equation}
+
+is an antisymetrized, normalized wave function of the two transferred particles. The function $\chi^{s}_{M_{s}}(\sigma_\beta)$ appearing  both in eq. (\ref{5lec1}) and (\ref{5lec2}) is the spin wave function of the proton while $\chi^{s}(\sigma_\alpha)$
+is equal to
+\begin{equation}\label{5lec5}
+\chi^{s}(\sigma_\alpha)=\left[ \chi^{s_1}(\sigma_{n_1}) \chi^{s_2}(\sigma_{n_2})\right]^{s}
+\end{equation}
+is the spin function of the two--neutron system.
+
+
+The function $\phi_t^{L=0}$ describes the internal degree of freedom of the triton. A good description of this system is obtained by using a wave function symmetric in the coordinates of all particles, i.e.
+
+\begin{equation}\label{5lec6}
+\begin{split}
+\phi_t^{L=0}\bigl(\sum_{i<j}|\vec r_i-\vec r_j|\bigr)&=N_t\,e^{[(r_1-r_2)^2+(r_1-r_p)^2+(r_2-r_p)^2]}\\
+&=\phi_{000}(\vec r)\phi_{000}(\vec \rho)\\
+\phi_{000}(\vec r)&=R_{nl}(\nu^{1/2 }r) Y_{lm}(\hat r)
+\end{split}
+\end{equation}
+
+The coordinate $\vec \rho$ is the radius vector which measures the distance between the center of mass of the dineutron and the proton. The vector $\vec r$ is the dineutron relative coordinate.
+\begin{subequations}\label{eq5th_1}
+\begin{equation}
+\vec{r}=\vec{r}_1-\vec{r}_2\quad\text{(relative distance between the neutrons)}
+\end{equation}
+\begin{equation}
+\vec{R}=\frac{\vec{r}_1+\vec{r}_2}{2}\quad\text{(coord. of the CM of the dineutron)}
+\end{equation}
+\begin{equation}
+\vec{\rho}=\vec{r}_p-\frac{\vec{r}_1+\vec{r}_2}{2}\quad\text{(distance between the CM of the dineutron and the proton)}
+\end{equation}
+\begin{equation}
+\vec{R}_2=\vec{r}_p-\frac{\vec{r}_1+\vec{r}_2}{A+2}\quad\text{(distance of the proton from the CM of the system A+2)}
+\end{equation}
+\begin{equation}
+\vec{R}_1=\frac{\vec{r}_p+\vec{r}_1+\vec{r}_2}{3}\quad\text{(coord. of the CM of the triton)}
+\end{equation}
+\end{subequations}
+
+
+%\begin{figure}
+%\centerline{\includegraphics*[width=6cm,angle=0]{C:/Gregory/Broglia/notas_ricardo/Figures/ricardo_091105/5_1.eps}}
+%\caption{}\label{fig5th_1}
+%\end{figure}
+To obtain the DWBA cross section we have to calculate the integral
+\begin{equation}\label{5lec8}
+T=\int d\xi_A \,d\vec r_1 \,d\vec r_2 \,d\vec r_p \chi^{(-)}_p(\vec R_2) \psi^*_\beta(\xi_{A+2},\sigma_\beta) V'_\beta \psi_\alpha(\xi_{A},\sigma_\alpha,\sigma_\beta)\psi_t^{(+)}(\vec R_1)
+\end{equation}
+
+Instead of integrating over $\xi_{A},\vec r_1,\vec r_2$ and $\vec r_p$ we would integrate over $\xi_{A},\vec {r'},\vec {r'}$ and $\vec r_p$. The Jacobian of the transformation is equal to 1, i.e. $\partial (\vec r_1,\vec r_2)/\partial (\vec {r'},\vec {r'})=1$.
+
+
+To carry out the integral (\ref{5lec8}) we transform the wave function (\ref{5lec4}) into center of mass and relative coordinates. If we assume that both $\phi_{j_1}(\vec r_1)$ and $\phi_{j_2}(\vec r_2)$ are harmonic oscillator wave functions, this transformation can easily carried with the aid of tha Moshinsky brackets. If $| n_1 l_1,n_2 l_2; \lambda \mu \rangle$ is acomplete system of wave functions in the harmonic oscillator basis, depending on $\vec r_1$ and $\vec r_2$ and $| n l,N L; \lambda \mu \rangle$ is the corresponding one depending on $\vec r$ and  $\vec R$, we can write
+
+\begin{equation}\label{5lec9}
+\begin{split}
+| n_1 l_1,n_2 l_2; \lambda \mu \rangle&=\bigl( \sum_{n l N L} | n l,N L; \lambda \mu \rangle \langle n l,N L; \lambda \mu |\bigr )
+| n_1 l_1,n_2 l_2; \lambda \mu \rangle \\
+&=\sum_{n l N L} | n l,N L; \lambda \mu \rangle \langle n l,N L; \lambda \mu | n_1 l_1,n_2 l_2; \lambda  \rangle
+\end{split}
+\end{equation}
+
+The labels $n,l$ are the principal and angular momentum quantum numbers of the relative motion, ehile $N,L$ are the corresponding ones corresponding to the center of mass motion of the two--neutron system. Because of energy and parity conservation we have
+
+
+\begin{equation}\label{5lec10}
+\begin{split}
+2n_1+l_1+2n_2+l_2&=2n+l+2N+L\\
+(-1)^{l_1+l_2}=(-1)^{l+L}
+\end{split}
+\end{equation}
+
+The coefficients $\langle n l,N L, L | n_1 l_1,n_2 l_2, L  \rangle$ are tabulated and were first discussed by M. Moshinsky in Nucl. Physics, \underline{13} (1959) 104.
+
+
+With the help of eq.(\ref{5lec9}) we can write the wave function $\psi_{M_f}^{J_f}(\xi_{A+2})$ as
+
+
+\begin{equation}\label{5lec11}
+\begin{split}
+\psi_{M_f}^{J_f}(\xi_{A+2})&= \sum_{\substack{n_1 l_1 j_1\\n_2 l_2 j_2\\ J J_i}} B(n_1 l_1 j_1,n_2 l_2 j_2;JJ'_i J_f)
+\left[ \phi^J(j_1 j_2) \phi^{J'_i}(\xi_A)\right]^{J_f}_{M_f}\\
+&= \sum_{\substack{n_1 l_1 j_1\\n_2 l_2 j_2}} \sum_{J J_i }B(n_1 l_1 j_1,n_2 l_2 j_2;JJ'_i J_f)\\
+& \times \sum_{M_J M'_{J_i}} \langle J M_J J'_i M_{J_i}|J_f M_{J_f}\rangle \psi_{M'_{J_i}}^{J'_i}(\xi_{A})\\
+& \times \sum_{L S'} \langle S' L J |j_1 j_2 J \rangle \sum_{M_L M'_S} \langle L M_L S' M'_S |J M_J  \rangle \chi^{S'}_{M'_S}(\sigma_\alpha)\\
+& \times \sum_{n l N \Lambda} \langle n l,N \Lambda, L |n_1 l_1,n_2 l_2, L \rangle \\
+& \times \sum_{m_l  M_\Lambda}
+\langle l m_l \Lambda M_\Lambda |L M_L \rangle \phi_{n l m_l}(\vec r) \phi_{N \Lambda M_\Lambda}(\vec R)
+\end{split}
+\end{equation}
+
+Integration over $\vec r$ gives
+
+\begin{equation}\label{5lec12}
+\langle \phi_{n l m_l}(\vec r) | \phi_{000}(\vec r) \rangle = \delta(l,0) \delta(m_l,0) \Omega_n
+\end{equation}
+
+where
+
+
+\begin{equation}\label{5lec13}
+\Omega_n=\int R_{n l} (\nu_1^{1/2} r)R_{00} (\nu_2^{1/2} r) r^2\, dr
+\end{equation}
+
+
+Note that there is no selection rule in the principal quantum number $n$, as the potential in which the two neutrons move in the triton has a frequency $\nu_2$ which is different from the one that the two neutrons are subjected to, when moving in the system $A$.
+
+
+Integration over $\xi_A$ and multiplication of the spin functions gives
+
+\begin{equation}\label{5lec14}
+\begin{split}
+\bigl( \psi_{M_{J_i}}^{J_i},(V(\vec r_1)+V(\vec r_2)+V(\vec r_p)-U) \psi_{M'_{J_i}}^{J'_i}\bigr)&= \delta(J_i,J'_i)
+\delta(M_{J_i},M_{J'_i})V_{eff}(\vec \rho)\\
+\bigl( \chi_{M_S}^{S}(\sigma_\alpha),\chi_{M_{S'}}^{S'}(\sigma_\alpha)\bigr)&= \delta(S,S')
+\delta(M_S,M_{S'})\\
+\bigl( \chi_{M_{S_f}}^{S_f}(\sigma_\beta),\chi_{M_{S'_f}}^{S'_f}(\sigma_\beta)\bigr)&= \delta(S_f,S'_f)
+\delta(M_{S_f},M_{S'_f})\\
+\end{split}
+\end{equation}
+
+The integral (\ref{5lec8}) can now be written as
+
+
+\begin{equation}\label{5lec15}
+\begin{split}
+T&= \sum_{\substack{n_1 l_1 j_1\\n_2 l_2 j_2}}\sum_{J M_J}\sum_{nN}\sum_{S}B(n_1 l_1 j_1,n_2 l_2 j_2;JJ'_i J_f)\\
+&\times \langle J M_J J_i M_{J_i}|J_f M_{J_f} \rangle \langle SLJ|j_1 j_2 J \rangle \\
+&\times \langle L M_L S M_{S}|J M_{J} \rangle \langle n0,NL,L|n_1 l_1,n_2 l_2,L \rangle \\
+&\times \langle S M_S S_f M_{S_f}|S_i M_{S_i}\rangle \Omega_n \\
+&\times \int d\vec R\,d\vec r_p\, \chi^{(+)*}_t(\vec R_1) \phi^*_{NLM_L}(\vec R) V_{eff}(\vec \rho) \phi_{000}(\vec \rho) \chi^{(+)}_t(\vec R_1)
+\end{split}
+\end{equation}
+
+where we have approximated $V'_\beta$ by an effective interaction $V_{eff}$ depending only on $\rho=|\vec \rho|$. It is important to point out that the two--body interaction would act on the two--particle system at once, but the single particle potential would act on each particle independently. The reason why we can neglect the successive transfer of the nucleons (two--step process) is because the two neutrons in the triton are very strongly correlated and they build to a large extent a unity.
+
+We now define the two--nucleon transfer form factor as
+
+
+\begin{equation}\label{5lec16}
+\begin{split}
+u^{j_i J_f}_{LSJ}(R)&=\sum_{n_1l_1j_1} B(n_1 l_1 j_1,n_2 l_2 j_2;JJ_i J_f) \langle S L J|j_1 j_2 J\rangle\\
+&\langle n0,NL,L|n_1 l_1,n_2 l_2;L \rangle \Omega_n R_{nL}(R)
+\end{split}
+\end{equation}
+
+We can now rewrite eq. (\ref{5lec15}) as
+
+
+\begin{equation}\label{5lec17}
+\begin{split}
+T&= \sum_J\sum_L\sum_S \bigl( J M_J J_i M_{J_i}|J_f M_{J_f} \bigr) \bigl( S M_S S_f M_{S_f}|S_i M_{S_i}\bigr)
+ \bigl( L M_L S M_{S}|J M_{J} \bigr) \\
+&\times \int d\vec R\,d\vec r_p\, \chi^{*(-)}_p(\vec R_2)
+ u^{j_i J_f}_{LSJ}(R) Y_{L M_L}^*V(\rho) \phi_{000}(\vec \rho) \chi^{(+)}_t(\vec R_1)
+\end{split}
+\end{equation}
+
+Because the di--neutron has $S=0$, we have that
+
+
+\begin{equation}\label{5lec18}
+ \bigl( L M_L 0 0|J M_{J} \bigr)=\delta(J,L)\delta(M_L,M_J)
+\end{equation}
+
+and the summations over $S$ and $L$ disappear from eq. (\ref{5lec17}).
+
+
+The integral to be carried out in eq. (\ref{5lec17}) is six--dimensional, and is a formidable task to calculate it exactly (one of these integrals takes $\approx 5$ hs in a CDC 6600 computer).
+
+
+One can make also here the zero range approximation, i.e.
+
+
+\begin{equation}\label{5lec19}
+V(\rho) \phi_{000}(\vec \rho)=D_0 \delta(\vec \rho)
+\end{equation}
+
+This means that the proton interacts with the center of mass of the di--neutron, only when they are at the same point in space.
+
+
+From eqs. (\ref{5lec7}) we obtain
+
+
+\begin{equation}\label{5lec20}
+\begin{split}
+\vec R=&\vec R_1=\vec r\\
+\vec R_2=&\frac{A}{A+2}\vec R
+\end{split}
+\end{equation}
+
+Then eq. (\ref{5lec15}) can be written as
+
+\begin{equation}\label{5lec21}
+\begin{split}
+T&= D_0 \sum_L \bigl( L M_L J_i M_{J_i}|J_f M_{J_f} \bigr) \\
+&\times \int d\vec R\, \chi^{*(-)}_p\bigl(\frac{A}{A+2}\vec R\bigr)
+ u^{j_i J_f}_{L}(R) Y_{L M_L}^*(\hat R) \chi^{(+)}_t(\vec R)
+\end{split}
+\end{equation}
+
+
+From eq. (\ref{5lec21}) it is seen that the change in parity implied by the reaction is given by $\Delta\Pi=(-1)^L$. Consequently, the selection rules for $(t,p)$ and  $(p,t)$ reactions are
+
+
+\begin{equation}\label{5lec22}
+\begin{split}
+\Delta S&=0\\
+\Delta J=&\Delta L=L \\
+\Delta\Pi&=(-1)^L
+\end{split}
+\end{equation}
+
+i.e. only normal parity states are excited.
+
+
+The integral appearing in eq. (\ref{5lec21}) has the same structure as the DWBA integral (\ref{36}) (Fourth Lecture) which was derived in the case of one--nucleon transfer reactions.
+
+
+The difference between the two processes manifest itself through the different structure of the two form factors. While $u_l(r)$ appearing in equation (\ref{36a}) is a single--particle bound state wave function, $u_L^{J_i J_f}$ is a coherent summation over the center of mass states of motion of the two transferred neutrons.
+\section{On the relative importance of successive, simultaneous, and pairing induced two--particle transfer}
+Let us denote
+\begin{equation}\label{eq_est_1}
+    H=T+V,
+\end{equation}
+the total hamiltonian describing the nuclear system, where $V$ is the nuclear two--body interaction.
+
+
+The fact that the nuclear quantality parameter has a value of $Q\approx 0.4$ testifies to the validity of independent particle motion in nuclei. This is tantamount to saying that there exist a single--particle potential $U$, such that
+\begin{equation}\label{eq_est_2}
+\langle \Psi_0 | U | \Psi_0 \rangle \ll \langle \Psi_0 |(V- U )| \Psi_0 \rangle,
+\end{equation}
+where $\Psi_0$ is the exact ground state wavefunction, that is, $H\Psi_0=E_0 \Psi_0$. One can the write \ref{eq_est_1} as
+\begin{equation}\label{eq_est_3}
+H=T+V_{eff},
+\end{equation}
+where
+\begin{equation}\label{eq_est_4}
+V_{eff}=U+(V-U).
+\end{equation}
+Let us now consider a reaction in which two nucleons are transferred between target and projectile, that is,
+\begin{equation}\label{eq_est_5}
+a(=b+2)+A\rightarrow b+B(=A+2).
+\end{equation}
+The transfer cross section is proportional to the square of the amplitude
+\begin{equation}\label{eq_est_6}
+\sqrt{\sigma}\sim \langle bB | V_{eff} | aA \rangle = \langle bB | U | aA \rangle + \langle bB | (V-U) | aA \rangle.
+\end{equation}
+Let us assume that the transferred nucleons are e.g. two neutrons moving in time reversal states lying close t othe Fermi energy (Cooper pair). In this case it is natural to assume that the operative component of $(V-U)$ is the pairing interaction
+\begin{equation}\label{eq_est_7}
+V_p=-GP^\dagger P,
+\end{equation}
+where
+\begin{equation}\label{eq_est_8}
+P^\dagger=\sum_{\nu>0}a_\nu^{\dagger}a_{\bar\nu}^{\dagger},
+\end{equation}
+is the pair operator, and
+\begin{equation}\label{eq_est_9}
+G\approx\frac{18}{A}\; \text{MeV},
+\end{equation}
+is the pairing coupling constant for nucleons moving in an extended (2--3 major shell) configuration.
+
+
+One can then write Eq. \ref{eq_est_6} as
+\begin{equation}\label{eq_est_10}
+\sqrt{\sigma}=\sqrt{\sigma_1}+\sqrt{\sigma_2},
+\end{equation}
+where
+\begin{equation}\label{eq_est_11}
+\sqrt{\sigma_1}\sim \langle Bb | U| aA\rangle \approx 2\left(\frac{|V_0|}{2}\right)\mathcal{O}, \; \text{(SUCC+NO)}
+\end{equation}
+and
+\begin{equation}\label{eq_est_12}
+\begin{split}
+\sqrt{\sigma_2}\sim & \langle Bb |V-U| aA\rangle = \langle Bb |H_p| aA\rangle\\
+&\approx GU(b)V(B)\approx\frac{G}{2}, \; \text{(PAIRING)}
+\end{split}
+\end{equation}
+
+In the process described by the transfer amplitude $\langle Bb |U| aA\rangle$, one nucleon is transferred under the effect of the single--particle potential of depth $V_0(\approx -50$ MeV ) while, simultaneously, the second nucleon moves over from a single--particle orbit centered around $b$ to one centered around $A$ profiting of the non--orthogonality of the corresponding wavefunctions $\varphi^{(b)}(r_{1b})$ and $\varphi^{(A)}(r_{1A})$. Within this context, it is then natural that $\mathcal{O}$ stands for the overlap between these two  wavefunctions, that is, (see below simple estimate of $\mathcal{O}$),
+\begin{equation}\label{eq_est_13}
+\mathcal{O}=\langle \varphi^{(b)}|\varphi^{(A)}\rangle \approx 0.3 \times 10^{-2},
+\end{equation}
+and that (\ref{eq_est_11}) is known as the sum of the simultaneous plus non--orthogonality contributions to the two--nucleon transfer amplitude. Of notice that the prefactor 2 in (\ref{eq_est_11}) is associated with the fact that two nucleons can choose to jump from one system to the other through non--orthogonality while the factor $|V_0|/2$ is associated with the fact that transfer takes mainly place at the surface.
+
+
+The term (\ref{eq_est_12}) corresponds to the simultaneous $(t,p)$ transfer via the pairing two--body interaction $V_p$ (see Eq. (\ref{eq_est_7})), $U(A)$ and $V(B)$ being the product of two occupation amplitudes: $U(A)$ measures the availability of free single--particle orbitals around the Fermi energy in the target nucleus, while $V(B)$ reflects the degree of occupancy of levels in the residual system. Close to the Fermi energy $U(b)V(B)\approx (1/\sqrt{2})^2=1/2$, leading to the final expression of (\ref{eq_est_12}).
+
+
+In keeping with the fact that the ratio of transfer amplitudes
+\begin{equation}\label{eq_est_14}
+\begin{split}
+\left(\frac{\sigma_1}{\sigma_2}\right)^{1/2}&\approx 2\frac{|V_0|}{2}\times \mathcal{O}\frac{1}{G/2}\approx 2\times A\times 10^{-2}\\
+& \approx 2 (A\approx 100),
+\end{split}
+\end{equation}
+is larger that one, and that the correlation length of nuclear Cooper pairs ($\xi\approx \hbar v_F/2\Delta \approx 30$ fm) is larger than nuclear dimensions, one can expect  that the successive transfer of two nucleons under the influence of the single--particle field, can give an important contribution to the total transfer amplitude $\sqrt{\sigma}$. In other words, we expect the process
+
+
+\begin{equation}\label{eq_est_15}
+a(=b+2)+A \rightarrow f(=b+1)+F(A+1)\rightarrow b+B(=A+2)
+\end{equation}
+gives a consistent contribution to $\sqrt{\sigma}$. The associated amplitude can be written as
+
+\begin{equation}\label{eq_est_16}
+\begin{split}
+\sqrt{\sigma_3}\sim & \sum_{fF}\frac{\langle bB|U|fF\rangle \langle fF|U|aA\rangle}{E_{aA}-E_{fF}}\\
+& \approx \frac{(V_0/13)(V_0/13)}{\Delta E},
+\end{split}
+\end{equation}
+the factor 1/7 appears in each of the steps (instead of 1/2, see (\ref{eq_est_11})) in keeping with the fact that many other reactions channels and then, absorptive processes will take place at closer distance in two--step channels (of notice that 1/7 corresponds to $r=R_0+2.5 a$).
+
+
+Typical values of the energy denominator in (\ref{eq_est_16}) are $\Delta E=30$ MeV for medium heavy nuclei lying along the stability valley.
+
+\section{Transfer amplitudes}
+Making use of a simplified expression for the elastic scattering amplitude, that is
+
+\begin{equation}\label{eq_est_17}
+\sqrt{\sigma_{el}}\sim \langle aA|U|aA\rangle,
+\end{equation}
+one can calculate the transfer probabilities associated with the different processes discussed above, namely
+\begin{equation}\label{eq_est_18}
+P_i=\left(\frac{\sigma_i}{\sigma_{el}}\right)=\left\{
+\begin{array}{l}
+  \left|\frac{\langle bB|U|aA\rangle}{\langle aA|U|aA\rangle}\right|^2\approx \mathcal{O}^2\approx 0.9 \times 10^{-5}\quad (i=1), \\
+  \left|\frac{\langle bB|V_p|aA\rangle}{\langle aA|U|aA\rangle}\right|^2\approx \left(\frac{G}{2V_0}\right)^2\approx 1.4 \times 10^{-6}\quad (i=2), \\
+    \left|\frac{\langle bB|U|fF\rangle\langle fF|U|aA\rangle}{\Delta E\langle aA|U|aA\rangle}\right|^2\approx \left(\frac{V_0}{170\Delta E}\right)^2\approx 0.96 \times 10^{-4}\quad (i=3).
+\end{array}
+\right.
+\end{equation}
+Because all these probabilities are small, one can write
+\begin{equation}\label{eq_est_19}
+\sigma_i=P_i\sigma_{el},
+\end{equation}
+where
+\begin{equation}\label{eq_est_20}
+\begin{split}
+\sigma_{el}=&\left(\frac{\mu_\alpha}{2\pi\hbar^2}\right)^2|\langle aA|U|aA\rangle|^2\\
+&\approx \left(\left(\frac{\mu_\alpha}{2\pi\hbar^2}\right)(V_0)\right)^2U_0^2\\
+&\approx \left( 1.8 \text{MeV}^{-1}\text{fm}\right)^2 \left( 50 \text{MeV}\right)^2 \\
+&\approx \left( 90\text{fm}\right)^2 =0.8 \text{b}
+\end{split}
+\end{equation}
+where use has been made of the effective volume associated with the reaction process (see   )
+\begin{equation}\label{eq_est_21}
+V_{ol}\approx \frac{4\pi}{3}3R^2a\approx 12 A^{2/3} \text{fm}^3\approx 260 \text{fm}^3,
+\end{equation}
+as well as of $\frac{\mu_\alpha}{2\pi\hbar^2}$ factor of the typical two--nucleon transfer reaction $^{120}$Sn+p$\rightarrow ^{118}$Sn+t, that is (see  ),
+\begin{equation}\label{eq_est_22}
+\frac{\sqrt{\mu_\alpha\mu_\beta}}{2\pi\hbar^2}\approx \frac{\sqrt{3}M}{2\pi\hbar^2}\approx \frac{1}{145} \text{MeV}^{-1}\text{fm}^{-2}.
+\end{equation}
+Summing up, one can write
+\begin{equation}\label{eq_est_23}
+\sigma_i=P_i0.8\text{b}.
+\end{equation}
+Making use of (\ref{eq_est_18}) one obtains
+\begin{equation}\label{eq_est_24}
+\sigma_i=\left\{
+\begin{array}{l}
+  0.7\times 10^{-2} \text{mb}\quad (i=1), \\
+   1.1\times 10^{-3} \text{mb}\quad (i=2), \\
+    8 \,\text{mb}\quad (i=1),\quad (i=3).
+\end{array}
+\right.
+\end{equation}
+These numbers, although worked out for $A$=100 can be rescaled in connection with the reaction $^{11}$Li$(p,t)^9$Li(gs), in which case, microscopic calculation lead to $d\sigma_1(\theta=60^\circ)/d\Omega\approx 0.01$mb/sr and $d\sigma_3(\theta=60^\circ)/d\Omega\approx 5$mb/sr.
+
+\section{Inelastic scattering following two--particle transfer: final state interaction}
+This subject is qualitatively discussed in connection with the $^{11}$Li$(p,t)^9$Li$(1/2^-;2.69)$, but of course is a general question, also in connection with the validity of considering perturbation theory instead of coupled channels.
+
+
+
+In keeping with the fact that the first excited state of $^9$Li can be viewed as
+
+\begin{equation}\label{eq_est_25}
+|^9\text{Li}(1/2^-;2.69 \text{MeV})\rangle\approx|2^+\left(^8\text{Be}\otimes p_{3/2}(\pi)\right)_{1/2^-}\rangle,
+\end{equation}
+this state can, in principle, be excited in a two--step process, namely
+\begin{equation}\label{eq_est_26}
+\text{gs ($^{11}$Li)+t$\;\longrightarrow\;$ gs ($^{9}$Li)+p$\;\longrightarrow \;1/2^-$ ($^{9}$Li)+p}.
+\end{equation}
+
+
+Let us calculate the probability associated with the inelastic scattering of the lowest $2^+$ of $^8$Li. In this case, we are interested in the component of $V-U$ corresponding to $\delta U_C= -KF\alpha=-R_0\frac{\partial U}{\partial r}\beta_L$, namely the field associated with the inelastic excitation of multipole vibrations. Making use of the Saxon--Woos potential one obtains
+\begin{equation}\label{eq_est_27}
+R_0\frac{\partial U}{\partial r}=\frac{R_0}{a}\frac{\exp\left(\frac{(r-R_0)}{a}\right)}{\left(1+\exp\left(\frac{(r-R_0)}{a}\right)\right)^2}.
+\end{equation}
+In keeping with the fact that
+\begin{equation}\label{eq_est_28}
+\left\langle R_0 \left.\frac{\partial U}{\partial r}\right|_{r=R_0}\right\rangle \approx \left\langle \frac{R_0 U_0}{a}\right\rangle \approx 1.2 U_0 \text{MeV} \approx -60 \text{MeV}
+\end{equation}
+and that the main contributions of surface dominated reactions processes is estimated to arize from distances of the order of $r\approx R_0 + 2.5 a$, one obtains
+\begin{equation}\label{eq_est_29}
+\begin{split}
+\left\langle \frac{R_0}{a}\frac{e^{2.5}U_0}{\left(1+\exp 2.5\right)^2}\right\rangle &= \left\langle \frac{R_0 U_0}{a}\right\rangle\frac{e^{2.5}}{\left(1+\exp 2.5\right)^2}\\
+&\approx1.2U_0\times 0.7 \times 10^{-1}=0.84\times 10^{-1}U_0.
+\end{split}
+\end{equation}
+Thus
+\begin{equation}\label{eq_est_30}
+\langle bB^*|\delta U_C|bB\rangle \approx 0.84\times 10^{-1}U_0 \beta_L.
+\end{equation}
+Consequently
+
+\begin{equation}\label{eq_est_31}
+\begin{split}
+P_{inel} \approx &\left|\frac{\langle bB^*|\delta U_C|aA\rangle}{\langle aA|U|aA\rangle}\right|^2=\left(0.84\times 10^{-1} \beta_L\right)^2\\
+&\approx 0.7\times 10^{-2}\beta_L^2.
+\end{split}
+\end{equation}
+In keeping with the fact that the $\beta_L$ associated with the lowest $2^+$ vibrational states of the Sn--isotopes and of $^8$are $\approx 0.1$ and $\approx 1$ respectively one can write
+
+\begin{equation}\label{eq_est_32}
+P_{inel}=\left\{
+\begin{array}{l}
+  0.7\times 10^{-4} \quad \text{(Sn--isotopes)}, \\
+   0.7\times 10^{-2} \quad \text{($^{11}$Li)}. \\
+\end{array}
+\right.
+\end{equation}
+Making use of the results collected in (\ref{eq_est_18}),
+\begin{equation}\label{eq_est_33}
+\begin{split}
+\sqrt{P(p,t)}=&\sqrt{P_1}+\sqrt{P_2}+\sqrt{P_3}\\
+&=\sqrt{0.9\times 10^{-1}}+\sqrt{1.4\times 10^{-6}}+\sqrt{0.96\times 10^{-4}}\\
+&\approx 3\times 10^{-3}+1.2\times 10^{-3}+0.98\times 10^{-2}\\
+&\approx 1.4 \times 10^{-2}.
+\end{split}
+\end{equation}
+Thus
+\begin{equation}\label{eq_est_34}
+P((p,t)\otimes P(\text{inel}))=P(p,t)P(\text{inel})=\left\{
+\begin{array}{l}
+  2\times 10^{-4}\times 10^{-4}\approx 10^{-8} \quad \text{(Sn)}, \\
+   2\times 10^{-4}\times 10^{-2}\approx 10^{-6} \quad \text{($^{11}$Li)}, \\
+\end{array}
+\right.
+\end{equation}
+in overall agreement with th result of microscopic calculations (for $^{11}$Li).
+\section{Simple estimate $\mathcal{O}$}
+The nuclear density can be parametrized according to
+\begin{equation}\label{eq_est_35}
+\rho(r)=\frac{\rho_0}{1+\exp\left(\frac{r-R_0}{a}\right)}.
+\end{equation}
+Let us calculate this function for 
+\begin{equation}\label{eq_est_36}
+r=R_0+3a,
+\end{equation}
+that is 
+\begin{equation}\label{eq_est_37}
+\rho(r=R_0+3a)=\frac{\rho_0}{1+\exp 3}=5\times 10^{-2}\rho_0.
+\end{equation}
+In other words, we assume that the main transfer takes place from densities of the order of 5\% saturation density
+\begin{equation}\label{eq_est_38}
+\mathcal{O}\approx \frac{\rho_A(R_0^A+3a)\rho_a(R_0^a+3a)}{\rho_0^2}=25\times 10^{-4}\approx 0.3 \times 10^{-2}.
+\end{equation}
+another estimate 
+\begin{equation}\label{eq_est_39}
+r=R_0+2.5a,
+\end{equation}
+for which
+\begin{equation}\label{eq_est_40}
+\rho(r=R_0+2.5a)=\frac{\rho_0}{1+\exp 2.5}\approx 0.76\times 10^{-1}\rho_0,
+\end{equation}
+leading to 
+\begin{equation}\label{eq_est_41}
+\mathcal{O}\approx 0.5 \times 10^{-2}.
+\end{equation}
+\section{Simple estimate of $\frac{(\mu_\alpha \mu_\beta)^{1/2}}{2\pi\hbar^2}$.}
+Let us do it for the case of $^{120}$Sn+p $\longrightarrow ^{118}$Sn+t. In this case
+\begin{equation}\label{eq_est_42}
+\begin{split}
+&\mu_\alpha=\frac{120}{121}M\approx M,\\
+&\mu_\beta=\frac{118\times  3}{121} \approx 2.9 M.
+\end{split}
+\end{equation}
+Thus
+\begin{equation}\label{eq_est_43}
+\begin{split}
+\frac{\sqrt{\mu_\alpha\mu_\beta}}{2\pi\hbar^2}&\approx \frac{\sqrt{3}M}{2\pi\hbar^2}=\frac{\sqrt{3}}{2\pi 40 \text{MeV fm}^2}\\
+&\approx \frac{1}{145}\times \text{MeV}^{-1}\times \text{fm}^{-2}
+\end{split}
+\end{equation}
+\section{Simple estimate of $V_{ol}$}
+In keeping with the assumption that transfer processes are expected to take place at the nuclear surface, the effective volume associate with such processes can be estimated to be
+\begin{equation}\label{eq_est_44}
+\begin{split}
+V_{ol}&=\frac{4\pi}{3}(R^3-(R+a)^3)\\
+&\approx \frac{4\pi}{3}3aR^2\approx \frac{4\pi}{3}(2\text{fm})R^2\\
+&\approx \frac{8\pi}{3}(1.2A^{1/3})^2\text{fm}^3\\
+&\approx 1.2 A^{1/3}\text{fm}^3\approx 260 \text{fm}^3 (A\approx 100)
+\end{split}
+\end{equation}
+\section{Calculation of the (p,t) strength function}
+An important component of the interaction which binds the dineutron halo of $^{11}$Li to the core $^9$Li is associated with the exchange, between the two neutrons of dipole (pigmy $1^-$ resonance of $^{11}$Li) and quadrupole ($2^+$ mode of $^9$Li) vibrations. Consequently, it is expected that resonant effects can be observed in the (p,t) strength function in which this neutrons are picked--up from $^{11}$Li. In keeping with the fact that successive transfer plays a central role in the two--particle pick up process, the corresponding transfer amplitude can be written as
+\begin{equation}\label{eq_est_45}
+\begin{split}
+&\left\langle \chi^{(-)}\sum_{fF}\frac{\langle bB|U|fF\rangle\langle fF|U|aA\rangle}{E_{aA}-E_{fF}}\chi^{(+)}\right\rangle\\
+&\approx \left\langle \frac{e^{iqr}}{\hbar \omega_L}\right\rangle\sim \left\langle e^{i(qr-\ln \tau/\omega_L )}\right\rangle\\
+&\sim \cos\left(q(E_{CM})r-\ln \tau/\omega_L\right).
+\end{split}
+\end{equation}
+Of notice that (p,t) strength function measurements can be viewed as a frequency dependent single Cooper pair transfer, and thus in some way connected to $\omega$--dependent Josephson supercurrent measurement.
+\section{Relative importance of successive and simultaneous transfer and non-orthogonality corrections}
+
+
+In what follows we discuss the relative importance of successive and simultaneous two-neutron transfer and of non-orthogonality 
+corrections associated with the reaction 
+
+\begin{equation}
+\alpha \equiv  a(=b+2) + A \to b + B(=A+2) \equiv \beta 
+\label{A1}
+\end{equation}
+in the limits of independent particles and of strongly correlated Cooper pairs, making use for simplicity of the semiclassical approximation (for details cf. \cite{Broglia:04a},\cite{Broglia:75}  and refs. therein), in which case the two-particle transfer differential cross section can be written as
+
+\begin{equation}
+\frac{d \sigma_{\alpha \to \beta} }{d \Omega} = P_{\alpha \to \beta} (t = +\infty) 
+\sqrt{ \left( \frac{d \sigma_{\alpha}}{d \Omega} \right)_{el} }
+\sqrt{ \left( \frac{d \sigma_{\beta}}{d \Omega} \right)_{el}}, 
+\label{A2}
+\end{equation}
+where $P$ is the absolute value squared of a quantum mechanical transition amplitude. It gives the probability that the system at $t = + \infty$ is found in the final channel. The quantities $(d \sigma/d\Omega)_{el}$ are the classical elastic cross sections  in the center of mass system, calculated in terms of the deflection function, namely the functional relating the impact parameter and the scattering angle. 
+
+The transfer amplitude can be written as  
+
+
+\begin{equation}
+a(t = + \infty) = a^{(1)}(\infty) - a^{(NO)}(\infty) + \tilde a^{(2)} ( \infty),
+\label{A3}
+\end{equation}
+where $\tilde a^{(2)}(\infty)$ at $t= + \infty$ 
+labels  the successive transfer amplitude expressed in the post-prior representation (see below).
+The simultaneous transfer amplitude is given by (see Fig. A1(I))
+
+\begin{eqnarray}
+a^{(1)} (\infty) = \frac{1}{i \hbar} \int^{\infty}_{-\infty} dt (\psi^b \psi^B, (V_{bB} - <V_{bB}>) \psi^a \psi^A ) \times 
+{\rm exp} [\frac{i}{\hbar} (E^{bB} - E^{aA}) t] \nonumber \\
+\approx \frac{2}{i \hbar} \int^{\infty}_{- \infty}  dt \left( \phi^{B(A)} (S^B_{(2n)}; \vec r_{1A}, \vec r_{2A}), U(r_{1b}) 
+e^{i (\sigma_1 + \sigma_2)}
+\phi^{a(b)} (S^a_{(2n)}; \vec r_{1b}, \vec r_{2b}) \right) {\rm exp} [\frac{i}{\hbar} (E^{bB} - E^{aA}) t + \gamma(t)] 
+\end{eqnarray}
+where 
+\begin{equation}
+\sigma_1 + \sigma_2 = \frac{1}{\hbar} \frac{m_n}{m_A} ( m_{aA} \vec v_{aA} (t) + m_{bB} v_{bB}(t)) \cdot (\vec r_{1\alpha}
++ \vec r_{2 \alpha}),
+\end{equation}
+in keeping with the fact that ${\rm exp} ( i (\sigma_1 + \sigma_2))$ takes care of recoil 
+effects (Galilean transformation associated with the mismatch between entrance and exit channels). 
+
+The phase $\gamma (t)$ is related  with the effective $Q-$value of the reaction. In the above expression, $\phi$ indicates an antisymmetrized, correlated two-particle (Cooper pair)  wavefunction, $S(2n)$ being the two-neutron separation energy (see Fig. A1), $U(r_{1b})$ being the single particle potential generated by nucleus $b$ ($U(r) = \int d^3 r' \rho^b(r') v(|r-r'|)$). The contribution arising from non-orthogonality effects can be written as (see Fig. A1(II))
+
+\begin{eqnarray}
+a^{(NO)} (\infty) = \frac{1}{i \hbar} \int^{\infty}_{-\infty} dt (\psi^b \psi^B, (V_{bB} - <V_{bB}>) \psi^f \psi^F )
+(\psi^f\psi^F, \psi^a \psi^A) 
+{\rm exp} [\frac{i}{\hbar} (E^{bB} - E^{aA}) t]  \nonumber  \\
+\approx \frac{2}{i \hbar} \int^{\infty}_{- \infty} \phi^{B(F)} (S^B_{(n)}, \vec r_{1A}), U(r_{1b}) 
+e^{i \sigma_1}
+(\phi^{f(b)}(S^f(n), \vec r_{1b})  \phi^{F(A)} (S^F(n),\vec r_{2A}) e^{i \sigma_2} \phi^{a(f)}(S^a(n),\vec r_{2b})) 
+{\rm exp} [\frac{i}{\hbar} (E^{bB} - E^{aA}) t + \gamma(t)] ,
+\end{eqnarray}
+the reaction channel $f= (b+1) + F(=A+1)$ having been introduced, the quantity $S(n)$ being the one-neutron spearation 
+energy (see Fig. A1). The summation over $f(\equiv a'_1,a'_2)$ and $F (\equiv a_1,a_2)$ involves a restricted number of states, namely the valence shells in nuclei $B$ and $a$.
+
+The successive transfer amplitude  $\tilde a^{(2)}_{\infty}$ written making use of the post-prior representation is equal to 
+(see Fig. A1(III))
+
+\begin{eqnarray}
+\tilde a^{(2)} (\infty) = \frac{1}{i \hbar} \int^{\infty}_{-\infty} dt (\psi^b \psi^B, (V_{bB} - <V_{bB}>) e^{i \sigma_1} \psi^f \psi^F ) \times 
+{\rm exp} [\frac{i}{\hbar} (E^{bB} - E^{fF}) t + \gamma_1(t)] \nonumber  \\
+\times \frac{1}{i \hbar} \int^{t}_{-\infty} dt' (\psi^f \psi^F, (V_{fF} - <V_{fF}>) e^{i \sigma_2} \psi^a \psi^A > \times 
+{\rm exp} [\frac{i}{\hbar} (E^{fF} - E^{aA}) t' + \gamma_2(t)].
+\end{eqnarray}
+
+To gain insight into the  relative importance of the three terms contributing to Eq. \ref{A3} we discuss two situations, namely,
+the independent-particle model and the strong-correlation limits.
+
+\subsection{Independent particle limit}
+
+In the independent particle limit, the two transferred particles do not interact among themselves but for antisymmetrization. 
+Thus, the separation energies fulfill the relations (see Fig. A2)
+\begin{equation}
+S^B(2n) = 2 S^B(n) = 2S^F(n),
+\end{equation}
+and 
+\begin{equation}
+S^a(2n) = 2 S^a(n) = 2 S^f(n).
+\end{equation}
+In this case 
+\begin{equation}
+\phi^{B(A)} (S^B(2n), \vec r_{1A},\vec r_{2A}) = \sum_{a_1 a_2} \phi_{a_1}^{B(F)} (S^B(n),\vec r_{1A}) 
+\phi_{a_{2}}^{F(A)} (S^F(n),\vec r_{2a}),
+\end{equation}
+and 
+\begin{equation}
+\phi^{a(b)} (S^a(2n), \vec r_{1b},\vec r_{2b}) = 
+\sum_{a^{'}_{1} a^{'}_{2}} \phi_{a^{'}_1}^{a(f)} (S^a(n),\vec r_{2b}) 
+\phi_{a^{'}_{2}}^{f(b)} (S^f(n),\vec r_{1b}),
+\end{equation}
+where $(a_1, a_2) \equiv F$ and $(a'_1, a'_2) \equiv f$ span, as mentioned above, shells in nuclei $B$ and $a$ respectively. 
+
+Inserting (A9) and (A10) in (A4) one can show that 
+\begin{equation}
+a^{(1)} (\infty) = a^{(NO)}(\infty).
+\end{equation}
+It can be demonstrated  that within the present approximation, $Im \; \tilde a^{(2)} =0,$ and that 
+\begin{eqnarray}
+\tilde a^{(2)} (\infty) = \frac{1}{i \hbar} \int^{\infty}_{-\infty} dt (\psi^b \psi^B, (V_{bB} - <V_{bB}>) e^{i \sigma_1} \psi^f \psi^F > \times 
+{\rm exp} [\frac{i}{\hbar} (E^{bB} - E^{fF}) t + \gamma_1(t)] \nonumber  \\
+\times \frac{1}{i \hbar} \int^{\infty}_{-\infty} dt' (\psi^f \psi^F, (V_{fF} - <V_{fF}>) e^{i \sigma_2} \psi^a \psi^A ) \times 
+{\rm exp} [\frac{i}{\hbar} (E^{fF} - E^{aA}) t' + \gamma_2(t)].
+\label{A12}
+\end{eqnarray}
+The total absolute differential cross section \ref{A2}, where $P = |a(\infty)|^2 = |\tilde a^{(2)}|^2$, is then equal to the product of two one-particle transfer cross sections (see Fig. A3), associated with the (virtual) reaction channels
+\begin{equation}
+\alpha \equiv a+A \to f +F \equiv \gamma,
+\end{equation}
+and 
+\begin{equation}
+\gamma \equiv f +F \to b+B \equiv \beta.
+\end{equation}
+
+In fact, Eq.(\ref{A12}) involves no time ordering and consequently the two processes above are completely independent of each other. 
+This result was expected because being $v_{12}= 0$, the transfer of one nucleon cannot influence, aside form selecting the
+initial state for the second step, the behaviour of the other nucleon.
+
+
+\subsection{Strong correlation (cluster) limit}
+
+The second limit to be considered is the one in which the correlation betwen the two nucleons is so strong that (see Fig. A2)
+\begin{equation}
+S^a(2n) \approx S^a(n) >> S^f(n),
+\label{A15}
+\end{equation}
+and 
+\begin{equation}
+S^B(2n) \approx S^B(n) >> S^F(n).
+\label{A16}
+\end{equation}
+That is, the magnitude of the one-nucleon separation energy is strongly modified by the pair breaking.
+
+There is a different , although equivalent way to express (\ref{A3}) which is the more convenient to discuss the strong coupling limit.
+In fact, making use of the post-prior representation one can write
+\begin{eqnarray}
+a^{(2)}(t) = \tilde a^{(2)}(t) - a^{(NO)}(t) = 
+%\nonumber \\ 
+\frac{1}{i \hbar} \int^{\infty}_{-\infty} dt (\psi^b \psi^B, (V_{bB} - <V_{bB}>) e^{i \sigma_1} \psi^f \psi^F ) \nonumber \\ 
+\times {\rm exp} [\frac{i}{\hbar} (E^{bB} - E^{fF}) t + \gamma_1(t)] \times \nonumber  \\
+\frac{1}{i \hbar} \int^{t}_{-\infty} dt' (\psi^f \psi^F, (V_{aA} - <V_{aA}>) \psi^a \psi^A ) \times 
+{\rm exp} [\frac{i}{\hbar} (E^{fF} - E^{aA}) t' + \gamma_2(t')].
+\end{eqnarray}
+The relations  (\ref{A15}), (\ref{A16}) imply 
+
+\begin{equation}
+E^{fF} - E^{aA} = S^a(n) - S^F(n) >> \frac{\hbar}{\tau},
+\end{equation}
+where $\tau$ is the collision time. Consequently the real part of $a^{(2)}(\infty)$ vanishes exponentially  with the $Q-$value of the intermediate transition, while the imaginary part  vanishes inversely proportional to this energy.
+One can thus write,
+\begin{equation}
+Re \;  a^{(2)} (\infty) \approx 0,
+\end{equation} 
+and 
+\begin{equation}
+a^{(2)}(\infty) \approx \frac{1}{i \hbar} \frac{\tau}{<E^{fF}> - E^{bB}} 
+\sum_{fF} (\psi^b \psi^B, 
+(V_{bB}- <V_{bB}>) 
+\psi^f\psi^F)_{t=0} \times 
+(\psi^f\psi^F,(V_{aA} - <V_{aA}) \psi^a \psi^A)_{t=0},
+\end{equation} 
+where one has utilized the fact that $E^{bB} \approx E^{aA}$. For $v_{12} \to \infty$, $(<E^{fF}> - E^{bB}) \to \infty$
+and, consequently, 
+
+\begin{equation}
+lim_{v_{12} \to \infty} a^{(2)} (\infty) = 0.
+\end{equation} 
+
+Thus the total two-nucleon transfer amplitude is equal, in the strong coupling limit, to the amplitude $a^{(1)} (\infty)$.
+
+
+Summing up, only when successive transfer and non-orthogonal corrections are included in the description of the two-nucleon 
+transfer process, does one obtain a consistent description of the process, which correctly converges to the weak and 
+strong correlation limiting values.
+ \begin{figure}[h!]
+ 	\begin{center}
+\includegraphics*[width=0.75\textwidth]{figs_C7/Reaction1}
+\end{center}
+\end{figure}
+ \begin{figure}[h!]
+ 	\begin{center}
+\includegraphics*[width=0.75\textwidth]{figs_C7/Reaction2}
+\end{center}
+	\caption{Graphical representation of the lowest order ((I),(II) and (III) first and second order in $v$ respectively), two-nucleon transfer processes, which correctly converge to the strong-correlation (only simultaneous transfer), and to the independent-particle (only successive transfer) limits. The time arrow is assumed to point upwards:
+(I) Simultaneous transfer, in which one particle is transferred by the nucleon-nucleon interaction (note that $U(r)=\int d^3 r' \rho(r')v(|\vec r-\vec r'|)$ ) acting either in the entrance $\alpha \equiv a+A$ channel (prior) or in the final $\beta \equiv b + B$ channel (post), while the other particle follows suit making use of the particle-particle correlation (grey area) which binds the Cooper pair (see upper inset labelled (a)), represented by a solid arrow on a double line, to the projectile (curved arrowed lines) or to the target (opened arrowed lines). The above argument provides the explanation why when e.g. $v_{1b}$ acts on one nucleon, the other nucleon also reacts instantaneously. In fact a Cooper pair displays generalized rigidy (emergent property in gauge space).
+A crossed open circle represents the particle-pair vibration coupling. The associated strength, together with an energy denominator, determines the amplitude $X_{a'_1 a'_2}$ (cf. Table 1) with which the pair mode (Cooper pair) is in the (time reversered) two particle configuration $a'_1 a'_2$. In the transfer process, the orbital of relative motion changes, the readjustement of the corresponding trajectory mismatch being operated by a Galilean operator ($\textrm{exp}\{ \vec k \cdot (\vec{r}_{1A}(t)+\vec{r}_{2A}(t))\}$). This phenomenon, known as recoil process, is represented by a jagged line which  provides simultaneous information on the two transferred nucleons (single time appearing as argument of both single-particle coordinates $r_1$ and $r_2$; see inset labeled (b)). In other words, information on the coupling of structure and reaction modes.
+(II) Non-orthogonality contribution. While one of the nucleons of the Cooper pairs is transferred under the action of $v$, the other goes, uncorrelatedly over, profiting of the non-orthogonality of the associated single-particle wavefunctions (see inset (c)). In other words of the non-vanishing values of the overlaps, as shown in the inset.
+(III) Successive transfer. In this case, there are two time dependences associated with the acting of the nucleon-nucleon interaction twice (see inset (d)).}
+\label{fig1}
+\end{figure}
+
+\end{document} 

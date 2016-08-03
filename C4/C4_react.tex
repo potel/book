@@ -1,0 +1,466 @@
+\documentclass[a4paper,14pt]{book}
+%\documentclass[a4paper]{book}
+% \linespread{2.}
+%\documentclass[12pt]{article}
+%\documentclass[12pt]{cmmp}
+
+%%\usepackage{psfig}
+%\usepackage{harvard}
+\usepackage{epsfig}
+%%\usepackage{amsmath}
+\usepackage{amsfonts}
+%%\usepackage{amssymb}
+%%\usepackage{graphicx}
+%%
+%%\usepackage{txfonts}
+%%%\usepackage{mathrsfs}
+%
+%\usepackage{feynmf}     %<------------ Obbligatorio
+\unitlength=1mm         %<------------ Obbligatorio
+%
+\newcommand{\braket}[1]{\langle {#1} \rangle }
+\newcommand{\ket}[1]{|{#1} \rangle }
+\newcommand{\bra}[1]{\langle {#1}|}
+\usepackage{latexsym}
+\usepackage{amssymb}
+\usepackage{amsmath}
+\usepackage[varg]{txfonts}
+\usepackage{mathrsfs}
+\usepackage{upgreek}
+%\usepackage [latin1]{inputenc}
+\usepackage{verbatim}
+\usepackage{array}
+\usepackage{color}
+%\pagestyle{plain}
+\usepackage{graphicx}
+\DeclareMathAlphabet{\mathpzc}{OT1}{pzc}{m}{it}
+
+
+
+\begin{document}
+ \setcounter{chapter}{3}
+ \chapter{Reaction cross section}
+\section{Direct reaction}
+Oversimplifying the situation we can define direct reactions as those scattering processes which can be described in terms of coordinates of the entrance and exit channels, and any few internal coordinates which must be considered because the exit and entrance channels are different. These processes do not go through compound nucleus. The differential cross sections are in general peaked at small angles and often oscillate strongly with angle. But variation with energy is smooth. In future lectures we are going to discuss in more detail the separation between compound and direct reactions. For the time being we assume such separation is possible.
+\section{The reaction cross section}
+As discussed in the previous lecture, $f_{\alpha \beta}(\vec{k}_\alpha, \vec{r}_\beta)$ determines completely the reaction cross section, consequently, we only need to calculate $\Psi^{(+)}(\vec{k}_\alpha)$ in the asymptotic region to obtain the transition matrix. That is we have now to solve the problem
+\begin{equation}\label{eq1}
+ H\Psi^{(+)}=\left[ -\frac{\hbar^2}{2\mu \beta} \nabla^2_{r_ \beta}+ H(\xi_\beta)-E\right] \Psi^{(+)}=-V_\beta \Psi^{(+)}
+\end{equation}
+\begin{equation}\label{eq2}
+\xi_B+\xi_b=\xi_\beta
+\end{equation}
+\begin{subequations}
+ \begin{equation}\label{eq3a}
+\Psi_ \beta=\Psi_ a(\xi_a)\Psi_ B(\xi_B)
+\end{equation}
+
+\begin{equation}\label{eq3b}
+V_\beta=\sum_{\substack{i\in b \\ j\in B}} V(|\vec{r}_i-\vec{r}_j|)
+\end{equation}
+\end{subequations}
+
+\begin{equation}\label{eq4}
+H_\beta(\xi_\beta)\Psi_ \beta(\xi_\beta)=\epsilon_ \beta\Psi_ \beta(\xi_\beta)
+\end{equation}
+
+\begin{equation}\label{eq5}
+\mu_\beta=\frac{M_b M_B}{M_b+M_B}
+\end{equation}
+
+$\epsilon_ \beta$ : intrinsic energy of system ($b,B$).
+
+$E$ : total energy.
+
+$E-\epsilon_ \beta=$ kinetic energy in channel $\beta$. Then we can define
+
+\begin{equation}\label{eq6}
+ E-\epsilon_ \beta=\frac{\hbar^2 k_\beta^2}{2 \mu_\beta}.
+\end{equation}
+Let us introduce an arbitrary potential $U_\beta(r_\beta)$, that is a function of only the magnitude of the channel radius variable $|\vec{r}_\beta|$. This potential is chosen, in general, in such a way that it reproduces the average effect of the interaction $V_\beta$, i.e.  $U_\beta(r_\beta)\approx \int d\xi_\beta \Psi_ \beta^*(\xi_\beta) V_\beta \Psi_ \beta(\xi_\beta)$ (This point is taken up again in more detail later).
+
+With the aid of eqs. (\ref{eq4}) and (\ref{eq6}) we can rewrite (\ref{eq1}) as
+\begin{equation}\label{eq7}
+\left( -\frac{\hbar^2}{2\mu_\beta} \nabla^2_{r_ \beta}+U(r_ \beta)-\frac{\hbar^2 k_\beta^2}{2\mu_\beta}\right) \Psi^{(+)}=-V'_\beta \Psi^{(+)}
+\end{equation}
+
+\begin{subequations}
+ \begin{equation}\label{eq8}
+\frac{\hbar^2}{2\mu_\beta} U(r_ \beta)=\bar U (r_ \beta)
+\end{equation}
+
+\begin{equation}\label{eq8a}
+\left( V_\beta-U(r_ \beta)\right) =V'_\beta (r_ \beta)
+\end{equation}
+
+\begin{equation}\label{eq8b}
+\left(-\nabla^2_{r_ \beta}+\bar U (r_ \beta)-k_\beta^2 \right)\left\langle  \psi(\xi_\beta),\Psi^{(+)}\right\rangle =
+-\frac{2 \mu_\beta}{\hbar^2}\left\langle  \psi(\xi_\beta),V'_\beta \Psi^{(+)}\right\rangle
+\end{equation}
+\end{subequations}
+
+\begin{equation}\label{eq9}
+ \varphi(\vec r_ \beta)=\left\langle  \psi(\xi_\beta),\Psi^{(+)}\right\rangle
+\end{equation}
+
+\begin{equation}\label{eq10}
+\left(-\nabla^2_{r_ \beta}+\bar U (r_ \beta)-k_\beta^2 \right)\varphi(\vec r_ \beta) =
+-\frac{2 \mu_\beta}{\hbar^2}\left\langle  \psi(r_ \beta),V'_\beta \Psi^{(+)}\right\rangle
+\end{equation}
+
+The asymptotic form of $\varphi(\vec r_ \beta)$ will determine the cross section.
+
+
+Let $\chi_\beta^{(+)}(\vec k_ \beta,\vec r_ \beta)$ be the scattering wavefunction governed by the potential $\bar U (r_ \beta)$, so that
+
+\begin{equation}\label{eq11}
+ \left(-\nabla^2_{r_ \beta}+\bar U (r_ \beta)-k_\beta^2 \right) \chi_\beta^{(+)}(\vec k_ \beta,\vec r_ \beta)=0
+\end{equation}
+The magnitude of $k_\beta$ is given by eq. (\ref{eq6}). Let us expand $\chi_\beta^{(+)}(\vec k_ \beta,\vec r_ \beta)$ in partial waves, i.e.
+
+\begin{equation}\label{eq12}
+\chi_\beta^{(+)}( k_ \beta, r_ \beta)=\frac{4\pi}{\vec k_ \beta \vec r_ \beta}\sum_{l,m} i^l f_{\beta l}( k_ \beta, r_ \beta) Y_m^l(\hat r_\beta)Y_m^{l*}(\hat k_\beta)
+\end{equation}
+(we assume we are dealing with neutral particles i.e. the Coulomb field is equal to zero. Otherwise one has to introduce the Coulomb phase $\sigma_{\beta l}=\arg \Gamma(l+1+i\eta_\beta)$ ).
+Replacing the function (\ref{eq12}) in eq. (\ref{eq11}) we obtain
+\begin{equation}\label{eq13}
+\left\lbrace -\frac{d^2}{dr^2_\beta}+\frac{l(l+1)}{r^2_\beta}+\bar U (r_ \beta)-k_\beta^2\right\rbrace f_{\beta l}( k_ \beta, r_ \beta)=0
+\end{equation}
+
+To solve (\ref{eq13}) we impose the following boundary conditions
+
+\begin{subequations}
+ \begin{equation}\label{eq14a}
+\lim_{r_\beta \rightarrow \infty} \chi_\beta^{(+)}(\vec k_ \beta,\vec r_ \beta) \longrightarrow e^{i \vec k_ \beta \vec r_ \beta} +
+\text{outgoing scattered waves}
+\end{equation}
+
+\begin{equation}\label{eq14b}
+f_{\beta l}( k_ \beta, r_ \beta=0)=0
+\end{equation}
+
+\end{subequations}
+
+We can easily see that the boundary condition (\ref{eq14a}) , (\ref{eq14b}) can be recasted, with the help of eq. (\ref{eq12}) into the condition
+
+ \begin{equation}\label{eq15}
+\lim_{r_\beta \rightarrow \infty} f_{\beta l}( k_ \beta, r_ \beta) \longrightarrow
+\frac{1}{2}\left[ e^{-i  (k_ \beta r_ \beta -\frac{l\pi}{2})}-\eta_{\beta l}e^{i  (k_ \beta r_ \beta -\frac{l\pi}{2})}\right]
+\end{equation}
+(see Appendix)
+where $\eta_{\beta l}$ is the reflection coefficient for the $l^{\text{th}}$ partial wave. From the condition (\ref{eq14b}), we see that $f_l$ is a regular solution.
+
+
+The corresponding irregular solution $h_{\beta l}( k_ \beta, r_ \beta)$ to eq. (\ref{eq13}) has the following asymptotic properties
+
+
+ \begin{equation}\label{eq16}
+\lim_{r_\beta \rightarrow 0} h_{\beta l}( k_ \beta, r_ \beta) \longrightarrow
+\frac{1}{(k_ \beta r_ \beta)^{l+2}}
+\end{equation}
+
+ \begin{equation}\label{eq17}
+\lim_{r_\beta \rightarrow \infty} h_{\beta l}( k_ \beta, r_ \beta) \longrightarrow
+e^{i(k_ \beta r_ \beta -\frac{l\pi}{2})}
+\end{equation}
+
+In the appendix it is proved that
+
+ \begin{equation}\label{eq18}
+\hat O G_{\beta l} ( r_ \beta, r'_ \beta)=\delta(r_ \beta-r'_ \beta)
+\end{equation}
+
+where
+ \begin{equation}\label{eq19}
+\hat O=-\frac{d^2}{dr^2_\beta}+\frac{l(l+1)}{r^2_\beta}+\bar U (r_ \beta)-k_\beta^2
+\end{equation}
+and
+
+ \begin{equation}\label{eq20}
+G_{\beta l} ( r_ \beta, r'_ \beta) \equiv \left \lbrace \begin{aligned}
+-\frac{1}{ik} f_{\beta l}( k_ \beta, r_ \beta) h_{\beta l}( k_ \beta, r'_ \beta) &\quad( r_ \beta< r'_ \beta)\\
+-\frac{1}{ik} h_{\beta l}( k_ \beta, r_ \beta) f_{\beta l}( k_ \beta, r'_ \beta) &\quad( r_ \beta>r'_ \beta)
+\end{aligned}
+\right.
+\end{equation}
+
+Then
+
+ \begin{equation}\label{eq21}
+z(r_ \beta) \equiv \int _0^\infty G_{\beta l} ( r_ \beta, r'_ \beta) y(r'_ \beta) dr'_ \beta
+\end{equation}
+
+satisfies
+
+\begin{equation}\label{eq22}
+\left( -\frac{d^2}{dr^2_\beta}+\frac{l(l+1)}{r^2_\beta}+\bar U (r_ \beta)-k_\beta^2\right) z(r_ \beta)= y(r_ \beta)
+\end{equation}
+
+
+Using these results we can prove that, for an arbitrary function $y(\vec r_ \beta)$ (note now the angular dependence $\vec r_ \beta \equiv (r_ \beta ,\hat r_ \beta )$), the function
+
+
+ \begin{equation}\label{eq23}
+z(\vec r_ \beta) \equiv \int _0^\infty G_{\beta l} (\vec r_ \beta,\vec {r'}_ \beta) y(\vec {r'}_ \beta) d\vec {r'}_ \beta
+\end{equation}
+
+
+satisfies
+
+\begin{equation}\label{eq24}
+\left( -\frac{d^2}{dr^2_\beta}+\bar U (r_ \beta)-k_\beta^2\right) z(\vec r_ \beta)= y(\vec r_ \beta)
+\end{equation}
+
+
+where now
+
+
+ \begin{equation}\label{eq25}
+G_{\beta l} (\vec r_ \beta,\vec {r'}_ \beta) \equiv \sum_{l,m} \frac{Y_m^l(\hat r_ \beta)Y_m^{*l}(\hat r'_ \beta)}
+{-i\, k \,r_ \beta\, r'_ \beta}
+\left \lbrace \begin{aligned}
+f_{\beta l}( k_ \beta, r_ \beta) h_{\beta l}( k_ \beta, r'_ \beta) &\quad( r_ \beta< r'_ \beta)\\
+h_{\beta l}( k_ \beta, r_ \beta) f_{\beta l}( k_ \beta, r'_ \beta) &\quad( r_ \beta>r'_ \beta)
+\end{aligned}
+\right.
+\end{equation}
+
+By comparing eqs. (\ref{eq10}) and (\ref{eq23}), (\ref{eq24}) and (\ref{eq25}) we obtain
+
+\begin{equation}\label{eq26}
+\varphi(\vec r_ \beta)=-\frac{2 \mu_\beta}{\hbar^2} \int G (\vec r_ \beta,\vec {r'}_ \beta)\left\langle
+\psi_\beta (\xi_\beta),V'_\beta \Psi^{(+)}\right\rangle  d\vec {r'}_ \beta
+\end{equation}
+
+We are interested in the asymptotic form of this wave function, namely for $r_\beta \longrightarrow \infty \quad (r_\beta \gg r'_\beta)$. Physically $r'_\beta$ has the dimensions of the nuclear system (as both $ U(r'_\beta)$ and $V'_\beta$ go to zero for $r'_\beta \gg R_0$, where $R_0$ is the nuclear radius), and $r_\beta$ stands for the distance of the detector from the target. Then
+
+
+
+
+\begin{equation}\label{eq27}
+\begin{split}
+\varphi(\vec r_{\beta}) \xrightarrow[r_\beta \rightarrow \infty]{} -\frac{2 \mu_{\beta}}{\hbar^2} \int_{r'_{\beta}=0} &
+\sum_{l,m}  \frac{Y_m^l(\hat r_ \beta)Y_m^{*l}(\hat r'_ \beta)}{-i \, k_\beta \, r_ \beta\, r'_ \beta}
+e^{i(k_\beta r_ \beta-l\pi/2)}f_{\beta l}(k_\beta, r'_ \beta) \\
+& \times \left\langle
+\psi_\beta (\xi_\beta),V'_\beta \Psi^{(+)}\right\rangle d^3 r'_ \beta,\quad e^{i l\pi/2}=i^l
+\end{split}
+\end{equation}
+
+
+\begin{equation}\label{eq28}
+\begin{split}
+\varphi(\vec r_{\beta}) \xrightarrow[r_\beta \rightarrow \infty]{} -\frac{2i \mu_{\beta}}{\hbar^2} &
+\frac{e^{i k_\beta r_\beta}}{r_\beta} \sum_{l,m} i^{-l} Y_m^l(\hat r_ \beta)\\
+& \times \int_{r'_{\beta}=0}
+\frac{Y_m^{*l}(\hat r'_ \beta)}{k_\beta r'_\beta} f_{\beta l}(k_\beta, r'_ \beta) \left\langle
+\psi_\beta (\xi_\beta),V'_\beta \Psi^{(+)}\right\rangle d^3 r'_ \beta
+\end{split}
+\end{equation}
+
+Assuming $\hat r_ \beta=\hat k_ \beta$ it is easy to see that
+
+\begin{equation}\label{eq29}
+\begin{split}
+\chi^{*(-)}(\vec k_\beta, \vec {r'}_\beta)& = \chi^{(+)}(-\vec k_\beta,\vec {r'}_\beta)\\
+&=\frac{4\pi}{k_\beta r'_\beta}\sum_{l,m} i^{-l} Y_m^{*l}(\hat r'_ \beta)Y_m^l(\hat k_ \beta) f_{\beta l}(k_\beta, r'_ \beta)
+\end{split}
+\end{equation}
+Equation (\ref{eq28}) can then be rewritten as
+
+\begin{equation}\label{eq30}
+\varphi(\vec r_{\beta}) \xrightarrow[r_\beta \rightarrow \infty]{} -\frac{2i \mu_{\beta}}{4\pi\hbar^2} \frac{e^{i k_\beta r_\beta}}{r_\beta} \left\langle
+\psi_\beta (\xi_\beta)\chi^{(-)}(\vec k_\beta, \vec {r'}_\beta),V'_\beta \Psi^{(+)}\right\rangle
+\end{equation}
+
+Then from eqs. (\ref{eq2nd_2}) and (\ref{eq2nd_3}) (second lecture) we can write
+
+
+\begin{equation}\label{eq31}
+\frac{d\sigma}{d\Omega}= \frac{k_\beta}{k_\alpha} \frac{\mu_\alpha \mu_\beta}{4 \pi^2 \hbar^4} \left|
+\left\langle
+\psi_\beta (\xi_\beta)\chi^{(-)}(\vec k_\beta, \vec {r'}_\beta),V'_\beta \Psi^{(+)}\right\rangle \right|^2
+\end{equation}
+
+
+
+So far the result is exact, if the exact wave function $\Psi^{(+)}$ is used. If reaction processes (other than those represented by the optical potentials) are weak compared to elastic scattering, the scattering function $\Psi^{(+)}$ is well represented by the elastic channel alone, i.e.
+
+ \begin{equation}\label{eq32}
+\Psi^{(+)}=\psi(\xi_\alpha) \chi_\alpha^{(+)} (k_\alpha, r_\alpha)
+\end{equation}
+
+This approximation is known as the DWBA. The transition matrix element is then equal to
+
+\begin{equation}\label{eq33}
+\begin{split}
+T_{\alpha \beta}^{DWBA}&=\left\langle
+\psi_\beta (\xi_\beta)\chi_\beta^{(-)}(\vec k_\beta, \vec r_\beta),V'_\beta \psi_\alpha(\xi_\alpha) \chi_\alpha^{(+)} (\vec k_\alpha,\vec r_\alpha)\right\rangle \\
+& =\int d \vec r_\alpha d \vec r_\beta  \chi_\beta^{*(-)}(\vec k_\beta, \vec r_\beta)
+\left\langle \psi_\beta ,V'_\beta \psi_\alpha \right\rangle \chi_\alpha^{(+)} (\vec k_\alpha,\vec r_\alpha)
+\end{split}
+\end{equation}
+
+The magnitude $V_{eff}(\vec r_\alpha, \vec r_\beta)=\langle \psi_\beta,V'_\beta \psi_\alpha \rangle$ can be considered as an effective interaction (formfactor) connecting the entrance and exit channel scattering states.
+Note that the integral in eq. (\ref{eq33}) is six--dimensional, and that the relative motion is connected to the intrinsic motion. If one deals with inelastic scattering or one neglects the effects of recoil, the integral becomes three dimensional. In fact, one dimensional in the relative motion variable, as the angular integration gives rise to finite summations.
+\section{Appendix. Green's function}
+
+
+Let us assume that $f_l(k,r)$ and $g_l(k,r)$ are the regular and irregular solutions of the differential equation (\ref{eq13}), i.e.
+
+\begin{figure}
+\centerline{\includegraphics*[width=\textwidth]{figs_C4/3_1}}
+\caption{}\label{fig3rd_1}
+\end{figure}
+ \begin{equation}\label{eqA1}
+\left( -\frac{d^2}{dr^2_\beta}+\frac{l(l+1)}{r^2_\beta}+\bar U (r_ \beta)-k_\beta^2\right)
+\left \lbrace \begin{aligned}
+f_l(k,r)=0\\
+g_l(k,r)=0
+\end{aligned}
+\right.
+\end{equation}
+
+We want to prove that the function
+
+ \begin{equation}\label{eqA2}
+G_l(k,r,r')=f_l(k,r_<)g_l(k,r_>)
+\end{equation}
+
+fulfills
+ \begin{equation}\label{eqA3}
+\left( -\frac{d^2}{dr^2_\beta}+\frac{l(l+1)}{r^2_\beta}+\bar U (r_ \beta)-k_\beta^2\right) G_l(k,r,r')=
+\delta(r-r')\times \text{constant}
+\end{equation}
+
+In eq.(\ref{eqA2}), $r_<$ and $r_>$ denote the smallest and largest of the quantities $r$ and $r'$, i.e. we can write (\ref{eqA2}) as
+
+ \begin{equation}\label{eqA4}
+G_l(k,r,r')=
+\left \lbrace \begin{aligned}
+g_l(k,r)f_l(k,r') \quad (r>r')\\
+g_l(k,r')f_l(k,r) \quad (r<r')\end{aligned}
+\right.
+\end{equation}
+
+multiplying the first equation by $g_l(r)$ and the second by $f_l(r)$ and subtracting, we obtain
+
+
+ \begin{equation}\label{eqA5}
+\begin{split}
+g_l(k,r)& \frac{d^2 f_l(k,r)}{dr^2}-f_l(k,r) \frac{d^2 g_l(k,r)}{dr^2}=0\\
+&=\frac{d}{dr}(f'_l(k,r)g_l(k,r)-f_l(k,r)g'_l(k,r))
+\end{split}
+\end{equation}
+
+Then
+ \begin{equation}\label{eqA6}
+f'_l(k,r)g_l(k,r)-f_l(k,r)g'_l(k,r)=\text{constant}
+\end{equation}
+
+But
+
+\begin{subequations}
+ \begin{equation}\label{eqA7a}
+r<r'=r+\epsilon \quad \frac{dG_l(k,r,r+\epsilon)}{dr}=f'_l(k,r)g_l(k,r+\epsilon)
+\end{equation}
+
+
+
+\begin{equation}\label{eqA7b}
+r>r'=r-\epsilon \quad \frac{dG_l(k,r,r-\epsilon)}{dr}=f_l(k,r-\epsilon)g'_l(k,r)
+\end{equation}
+\end{subequations}
+
+where $\epsilon>0$. Let us take the differences between (\ref{eqA7a}) and (\ref{eqA7b}) and make $\epsilon \rightarrow 0$ , i.e.
+
+
+\begin{equation}\label{eqA8}
+\begin{split}
+\lim_{\epsilon \rightarrow 0}& \left( \frac{dG_l(k,r,r+\epsilon)}{dr}-\frac{dG_l(k,r,r-\epsilon)}{dr}\right) \\
+& =\lim_{\epsilon \rightarrow 0} f'_l(k,r)g_l(k,r+\epsilon)-f_l(k,r-\epsilon)g'_l(k,r)\\
+&=f'_l(k,r)g_l(k,r)-f_l(k,r)g'_l(k,r)=\text{constant}
+\end{split}
+\end{equation}
+
+where we have made use of eq. (\ref{eqA6}). Eq. (\ref{eqA8}) says that the function $G_l(k,r,r')$ has a finite discontinuity at $r=r'$.
+
+Note that $G_l(k,r,r')$ is a continuous function as $\lim_{\epsilon \rightarrow 0} G_l(k,r,r+\epsilon)=\lim_{\epsilon \rightarrow 0} G_l(k,r+\epsilon,r)=f_l(k,r)g_l(k,r)$.
+
+
+Let us now assume that $\varphi(r)$ is a continuous function, which has also continuous derivatives to all orders.
+
+We calculate now the integral
+
+\begin{equation}\label{eqA10}
+\begin{split}
+I=& \int_a^b\left\lbrace -\frac{d^2G_l(k,r,r')}{dr^2}+\left( \frac{l(l+1)}{r^2}+\bar U(r)-k^2\right) G_l(k,r,r')\right\rbrace \varphi(r) dr\\
+&=\underbrace{\int_a^{r'-\epsilon}}_{1}+\underbrace{\int_{r'-\epsilon}^{r'+\epsilon}}_{2}+
+\underbrace{\int_{r'+\epsilon}^b}_{\text{3}}
+\end{split}
+\end{equation}
+
+
+We have assumed that the point with coordinate $r'$ is contained in the interval $(a,b)$
+
+In the integral (1) $a\leq r  \leq r'-\epsilon \therefore $
+
+\begin{equation*}
+G_l(k,r,r')=g_l(k,r')f_l(k,r) \quad (r<  r')
+\end{equation*}
+
+
+Then
+
+\begin{equation}\label{eqA11}
+(1)=\int_a^{r'-\epsilon} dr\, \varphi(r) g_l(k,r') \left(-\frac{d^2}{dr^2}+ \frac{l(l+1)}{r^2}+\bar U(r)-k^2\right) f_l(k,r) =0
+\end{equation}
+
+because of eq. (\ref{eqA1}).
+
+The sama can be said of the integral (3), as $g_l(k,r)$ is also solution of the differential equation.
+
+
+We have to consider only the integral (2), i.e.
+
+\begin{equation}\label{eqA12}
+\begin{split}
+(2)=-&\int_{r'-\epsilon}^{r'+\epsilon}  \frac{d^2}{dr^2} G_l(k,r,r') \varphi(r) \,dr \\
+&+\int_{r'-\epsilon}^{r'+\epsilon} \left(-\frac{d^2}{dr^2}+ \frac{l(l+1)}{r^2}+\bar U(r)-k^2\right)
+ G_l(k,r,r') \varphi(r) \,dr
+\end{split}
+\end{equation}
+
+We now take the limit of this integral for $\epsilon \rightarrow 0$. In this case, the second term is equal to zero, as we are integrating a continuous function $G_l(k,r,r') \varphi(r)$ over an interval of zero measure. Then
+
+\begin{equation}\label{eqA13}
+\begin{split}
+I=-&\lim_{\epsilon \rightarrow 0} \int_{r'-\epsilon}^{r'+\epsilon}  \frac{d^2}{dr^2} G_l(k,r,r') \varphi(r) \,dr \\
+&=-\lim_{\epsilon \rightarrow 0} \left[ \frac{d}{dr} G_l(k,r,r') \varphi(r) \right]^{r'+\epsilon}_{r'-\epsilon}\\
+&+\lim_{\epsilon \rightarrow 0} \int_{r'-\epsilon}^{r'+\epsilon}  \frac{d}{dr} G_l(k,r,r') \frac{d\varphi(r)}{dr} \,dr
+\end{split}
+\end{equation}
+
+The first term may be different from zero, as $\frac{d}{dr} G_l(k,r,r')$ has a finite discontinuity and consequently $\frac{d^2}{dr^2} G_l(k,r,r')$ can have an infinite (but measurable) discontinuity. The second term in (\ref{eqA13}) is zero as is the integral of the product of a continuous function $(\varphi(r))$ and a function with a finite discontinuity $(\frac{d}{dr} G_l(k,r,r'))$ over an interval of zero measure. Then
+
+\begin{equation}\label{eqA14}
+\begin{split}
+I=-& \lim_{\epsilon \rightarrow 0} \left[ \frac{d}{dr} G_l(k,r,r') \varphi(r) \right]^{r'+\epsilon}_{r'-\epsilon}\\
+&= \lim_{\epsilon \rightarrow 0} \left\{ \frac{d}{dr} G_l(k,r'+\epsilon,r') \varphi(r'+\epsilon) \right. \\
+&- \left.\frac{d}{dr} G_l(k,r'-\epsilon,r') \varphi(r'-\epsilon)\right\rbrace = \text{constant}\cdot\varphi(r')
+\end{split}
+\end{equation}
+
+where use has been made of eq. (\ref{eqA8}).
+
+
+From eqs.  (\ref{eqA10}) and  (\ref{eqA14}) we obtain
+
+\begin{equation*}
+\int_a^b\left\lbrace -\frac{d^2G_l(k,r,r')}{dr^2}+\left( \frac{l(l+1)}{r^2}+\bar U(r)-k^2\right) G_l(k,r,r')\right\rbrace \varphi(r) dr = \text{constant}\cdot\varphi(r')
+\end{equation*}
+
+which proves eq.(\ref{eqA3}).
+
+
+\end{document} 

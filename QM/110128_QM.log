@@ -1,0 +1,946 @@
+This is pdfTeX, Version 3.1415926-2.4-1.40.13 (MiKTeX 2.9) (preloaded format=pdflatex 2013.12.17)  27 FEB 2014 15:14
+entering extended mode
+**110128_QM.tex
+(C:\Gregory\Articulos\Mios\libro_nuclear\QM\110128_QM.tex
+LaTeX2e <2011/06/27>
+Babel <v3.8m> and hyphenation patterns for english, afrikaans, ancientgreek, ar
+abic, armenian, assamese, basque, bengali, bokmal, bulgarian, catalan, coptic, 
+croatian, czech, danish, dutch, esperanto, estonian, farsi, finnish, french, ga
+lician, german, german-x-2012-05-30, greek, gujarati, hindi, hungarian, iceland
+ic, indonesian, interlingua, irish, italian, kannada, kurmanji, latin, latvian,
+ lithuanian, malayalam, marathi, mongolian, mongolianlmc, monogreek, ngerman, n
+german-x-2012-05-30, nynorsk, oriya, panjabi, pinyin, polish, portuguese, roman
+ian, russian, sanskrit, serbian, slovak, slovenian, spanish, swedish, swissgerm
+an, tamil, telugu, turkish, turkmen, ukenglish, ukrainian, uppersorbian, usengl
+ishmax, welsh, loaded.
+(C:\Users\Gregory\AppData\Roaming\MiKTeX\2.9\tex\latex\revtex\revtex4-1.cls
+Document Class: revtex4-1 2010/07/25/20:33:00 4.1r (http://publish.aps.org/revt
+ex4/ for documentation)
+ Copyright (c) 2009 The American Physical Society.
+ mailto:revtex@aps.org
+ Licensed under the LPPL:
+http://www.ctan.org/tex-archive/macros/latex/base/lppl.txt
+ Arthur Ogawa <arthur_ogawa at sbcglobal dot net>
+ Based on work by David Carlisle <david at dcarlisle.demon.co.uk>.
+ltxutil[2010/07/25/20:33:00 4.1r utilities package (portions licensed from W. E
+. Baxter web at superscript.com)]
+LaTeX Info: Redefining \@centercr on input line 308.
+Class revtex4-1 Info: Repairing broken LaTeX eqnarray on input line 358.
+\eqncolsep=\skip41
+Class revtex4-1 Info: Repairing hyperref-unfriendly LaTeX definition of \mpfoot
+note on input line 433.
+Class revtex4-1 Info: Repairing broken LateX \@sect on input line 755.
+\intertabularlinepenalty=\count79
+\@tbpen=\count80
+\@arstrutbox@hline=\box26
+Class revtex4-1 Info: Repairing broken LaTeX \@xbitor on input line 1786.
+Class revtex4-1 Info: Making \typeout \long on input line 2046.
+ltxfront[2010/07/25/20:33:00 4.1r frontmatter package (AO,DPC)]
+\c@affil=\count81
+\c@collab=\count82
+\absbox=\box27
+ltxgrid[2010/07/25/20:33:00 4.1r page grid package (portions licensed from W. E
+. Baxter web at superscript.com)]
+\c@linecount=\count83
+\output@latex=\toks14
+\box@size@1=\box28
+\box@size@2=\box29
+\@protection@box=\box30
+\@topmark@saved=\toks15
+\footins@saved=\box31
+\footins@recovered=\box32
+\column@recovered=\box33
+\pagesofar=\box34
+\footsofar=\box35
+\pagegrid@col=\count84
+Class revtex4-1 Info: Overriding \@vspace, \@vspacer, \@no@pgbk, \@newline, and
+ \\  on input line 5578.
+\c@part=\count85
+\c@section=\count86
+\c@subsection=\count87
+\c@subsubsection=\count88
+\c@paragraph=\count89
+\c@subparagraph=\count90
+\abovecaptionskip=\skip42
+\belowcaptionskip=\skip43
+\c@figure=\count91
+\fbox@1=\box36
+\c@table=\count92
+\fbox@2=\box37
+\c@video=\count93
+\fbox@4=\box38
+\@bibdataout=\write3
+\widetext@top=\box39
+\widetext@bot=\box40
+
+Class revtex4-1 Warning: No Society specified, using default society aps.
+
+(C:\Users\Gregory\AppData\Roaming\MiKTeX\2.9\tex\latex\revtex\aps4-1.rtx
+File: aps4-1 2010/07/25/20:33:00 4.1r (http://publish.aps.org/revtex4/ for docu
+mentation)
+Class revtex4-1 Info: RevTeX society APS selected on input line 31.
+)
+
+Class revtex4-1 Warning: No journal specified, using default pra.
+
+Class revtex4-1 Info: APS journal PRA selected on input line 7545.
+(C:\Users\Gregory\AppData\Roaming\MiKTeX\2.9\tex\latex\revtex\aps12pt4-1.rtx
+File: aps12pt4-1 2010/07/25/20:33:00 4.1r (http://publish.aps.org/revtex4/ for 
+documentation)
+Class revtex4-1 Info: RevTeX pointsize 12pt selected on input line 30.
+)
+(C:\Users\Gregory\AppData\Roaming\MiKTeX\2.9\tex\latex\textcase\textcase.sty
+Package: textcase 2004/10/07 v0.07 Text only upper/lower case changing (DPC)
+)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\ltxmisc\url.sty"
+\Urlmuskip=\muskip10
+Package: url 2006/04/12  ver 3.3  Verb mode for urls, etc.
+)
+(C:\Users\Gregory\AppData\Roaming\MiKTeX\2.9\tex\latex\natbib\natbib.sty
+Package: natbib 2010/09/13 8.31b (PWD, AO)
+\bibhang=\skip44
+\bibsep=\skip45
+LaTeX Info: Redefining \cite on input line 694.
+\c@NAT@ctr=\count94
+)
+Class revtex4-1 Info: Repairing natbib's \BibitemShut on input line 7549.
+
+(C:\Users\Gregory\AppData\Roaming\MiKTeX\2.9\tex\latex\revtex\revsymb4-1.sty
+Package: revsymb4-1 2010/07/25/20:33:00 4.1r (http://publish.aps.org/revtex4/ f
+or documentation)
+LaTeX Info: Redefining \REV@mathfrak on input line 119.
+))
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsmath\amsbsy.sty"
+Package: amsbsy 1999/11/29 v1.2d
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsmath\amsgen.sty"
+File: amsgen.sty 1999/11/30 v2.0
+\@emptytoks=\toks16
+\ex@=\dimen102
+)
+\pmbraise@=\dimen103
+)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsmath\amsmath.sty"
+Package: amsmath 2013/01/14 v2.14 AMS math features
+\@mathmargin=\skip46
+
+For additional information on amsmath, use the `?' option.
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsmath\amstext.sty"
+Package: amstext 2000/06/29 v2.01
+LaTeX Info: Redefining \text on input line 39.
+)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsmath\amsopn.sty"
+Package: amsopn 1999/12/14 v2.01 operator names
+)
+\inf@bad=\count95
+LaTeX Info: Redefining \frac on input line 210.
+\uproot@=\count96
+\leftroot@=\count97
+LaTeX Info: Redefining \overline on input line 306.
+\classnum@=\count98
+\DOTSCASE@=\count99
+LaTeX Info: Redefining \ldots on input line 378.
+LaTeX Info: Redefining \dots on input line 381.
+LaTeX Info: Redefining \cdots on input line 466.
+\Mathstrutbox@=\box41
+\strutbox@=\box42
+\big@size=\dimen104
+LaTeX Font Info:    Redeclaring font encoding OML on input line 566.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 567.
+\macc@depth=\count100
+\c@MaxMatrixCols=\count101
+\dotsspace@=\muskip11
+\c@parentequation=\count102
+\dspbrk@lvl=\count103
+\tag@help=\toks17
+\row@=\count104
+\column@=\count105
+\maxfields@=\count106
+\andhelp@=\toks18
+\eqnshift@=\dimen105
+\alignsep@=\dimen106
+\tagshift@=\dimen107
+\tagwidth@=\dimen108
+\totwidth@=\dimen109
+\lineht@=\dimen110
+\@envbody=\toks19
+\multlinegap=\skip47
+\multlinetaggap=\skip48
+\mathdisplay@stack=\toks20
+LaTeX Info: Redefining \[ on input line 2665.
+LaTeX Info: Redefining \] on input line 2666.
+)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsfonts\amssymb.sty"
+Package: amssymb 2013/01/14 v3.01 AMS font symbols
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsfonts\amsfonts.sty"
+Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
+\symAMSa=\mathgroup4
+\symAMSb=\mathgroup5
+LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
+(Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
+LaTeX Info: Redefining \frak on input line 111.
+LaTeX Info: Redefining \Bbb on input line 113.
+))
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\babel\babel.sty"
+Package: babel 2008/07/08 v3.8m The Babel package
+
+*************************************
+* Local config file bblopts.cfg used
+*
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\00miktex\bblopts.cfg"
+File: bblopts.cfg 2006/07/31 v1.0 MiKTeX 'babel' configuration
+)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\babel\english.ldf"
+Language: english 2005/03/30 v3.3o English support from the babel system
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\babel\babel.def"
+File: babel.def 2008/07/08 v3.8m Babel common definitions
+\babel@savecnt=\count107
+\U@D=\dimen111
+)
+\l@canadian = a dialect from \language\l@american 
+\l@australian = a dialect from \language\l@british 
+\l@newzealand = a dialect from \language\l@british 
+))
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\oberdiek\ifpdf.sty"
+Package: ifpdf 2011/01/30 v2.3 Provides the ifpdf switch (HO)
+Package ifpdf Info: pdfTeX in PDF mode is detected.
+)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\graphics\graphicx.sty"
+Package: graphicx 1999/02/16 v1.0f Enhanced LaTeX Graphics (DPC,SPQR)
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\graphics\keyval.sty"
+Package: keyval 1999/03/16 v1.13 key=value parser (DPC)
+\KV@toks@=\toks21
+)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\graphics\graphics.sty"
+Package: graphics 2009/02/05 v1.0o Standard LaTeX Graphics (DPC,SPQR)
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\graphics\trig.sty"
+Package: trig 1999/03/16 v1.09 sin cos tan (DPC)
+)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\00miktex\graphics.cfg"
+File: graphics.cfg 2007/01/18 v1.5 graphics configuration of teTeX/TeXLive
+)
+Package graphics Info: Driver file: pdftex.def on input line 91.
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\pdftex-def\pdftex.def"
+File: pdftex.def 2011/05/27 v0.06d Graphics/color for pdfTeX
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\oberdiek\infwarerr.sty"
+Package: infwarerr 2010/04/08 v1.3 Providing info/warning/error messages (HO)
+)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\oberdiek\ltxcmds.sty"
+Package: ltxcmds 2011/11/09 v1.22 LaTeX kernel commands for general use (HO)
+)
+\Gread@gobject=\count108
+))
+\Gin@req@height=\dimen112
+\Gin@req@width=\dimen113
+)
+(C:\Users\Gregory\AppData\Roaming\MiKTeX\2.9\tex\latex\wrapfig\wrapfig.sty
+\wrapoverhang=\dimen114
+\WF@size=\dimen115
+\c@WF@wrappedlines=\count109
+\WF@box=\box43
+\WF@everypar=\toks22
+Package: wrapfig 2003/01/31  v 3.6
+)
+(C:\Users\Gregory\AppData\Roaming\MiKTeX\2.9\tex\latex\sidecap\sidecap.sty
+Package: sidecap 2003/06/06 v1.6f SideCap Package (RN/HjG)
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\ifthen.sty"
+Package: ifthen 2001/05/26 v1.1c Standard LaTeX ifthen package (DPC)
+)
+\SC@BOXWD=\dimen116
+\SC@CAPWD=\dimen117
+\SC@tempdima=\dimen118
+\SC@tempdimb=\dimen119
+\c@SC@C=\count110
+\SC@BOX=\box44
+)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\multirow\multirow.sty"
+\bigstrutjot=\dimen120
+)
+(C:\Users\Gregory\AppData\Roaming\MiKTeX\2.9\tex\latex\ulem\ulem.sty
+\UL@box=\box45
+\UL@hyphenbox=\box46
+\UL@skip=\skip49
+\UL@hook=\toks23
+\UL@height=\dimen121
+\UL@pe=\count111
+\UL@pixel=\dimen122
+\ULC@box=\box47
+Package: ulem 2012/05/18
+\ULdepth=\dimen123
+)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\graphics\color.sty"
+Package: color 2005/11/14 v1.0j Standard LaTeX Color (DPC)
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\00miktex\color.cfg"
+File: color.cfg 2007/01/18 v1.5 color configuration of teTeX/TeXLive
+)
+Package color Info: Driver file: pdftex.def on input line 130.
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\graphics\dvipsnam.def"
+File: dvipsnam.def 1999/02/16 v3.0i Driver-dependant file (DPC,SPQR)
+))
+Package color Info: Redefining color Red on input line 29.
+Package color Info: Redefining color Blue on input line 30.
+Package color Info: Redefining color Green on input line 31.
+Package color Info: Redefining color Black on input line 32.
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\oberdiek\chemarr.sty"
+Package: chemarr 2006/02/20 v1.2 Arrows for chemical reactions (HO)
+)
+(C:\Users\Gregory\AppData\Roaming\MiKTeX\2.9\tex\latex\pgf\frontendlayer\tikz.s
+ty
+(C:\Users\Gregory\AppData\Roaming\MiKTeX\2.9\tex\latex\pgf\basiclayer\pgf.sty
+(C:\Users\Gregory\AppData\Roaming\MiKTeX\2.9\tex\latex\pgf\utilities\pgfrcs.sty
+
+(C:\Users\Gregory\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\utilities\pgfutil-
+common.tex
+\pgfutil@everybye=\toks24
+)
+(C:\Users\Gregory\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\utilities\pgfutil-
+latex.def
+\pgfutil@abb=\box48
+
+(C:\Users\Gregory\AppData\Roaming\MiKTeX\2.9\tex\latex\ms\everyshi.sty
+Package: everyshi 2001/05/15 v3.00 EveryShipout Package (MS)
+))
+(C:\Users\Gregory\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\utilities\pgfrcs.c
+ode.tex
+Package: pgfrcs 2010/10/25 v2.10 (rcs-revision 1.24)
+))
+Package: pgf 2008/01/15 v2.10 (rcs-revision 1.12)
+
+(C:\Users\Gregory\AppData\Roaming\MiKTeX\2.9\tex\latex\pgf\basiclayer\pgfcore.s
+ty
+(C:\Users\Gregory\AppData\Roaming\MiKTeX\2.9\tex\latex\pgf\systemlayer\pgfsys.s
+ty
+(C:\Users\Gregory\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\systemlayer\pgfsys
+.code.tex
+Package: pgfsys 2010/06/30 v2.10 (rcs-revision 1.37)
+
+(C:\Users\Gregory\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\utilities\pgfkeys.
+code.tex
+\pgfkeys@pathtoks=\toks25
+\pgfkeys@temptoks=\toks26
+
+(C:\Users\Gregory\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\utilities\pgfkeysf
+iltered.code.tex
+\pgfkeys@tmptoks=\toks27
+))
+\pgf@x=\dimen124
+\pgf@y=\dimen125
+\pgf@xa=\dimen126
+\pgf@ya=\dimen127
+\pgf@xb=\dimen128
+\pgf@yb=\dimen129
+\pgf@xc=\dimen130
+\pgf@yc=\dimen131
+\w@pgf@writea=\write4
+\r@pgf@reada=\read1
+\c@pgf@counta=\count112
+\c@pgf@countb=\count113
+\c@pgf@countc=\count114
+\c@pgf@countd=\count115
+
+(C:\Users\Gregory\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\systemlayer\pgf.cf
+g
+File: pgf.cfg 2008/05/14  (rcs-revision 1.7)
+)
+Package pgfsys Info: Driver file for pgf: pgfsys-pdftex.def on input line 900.
+
+(C:\Users\Gregory\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\systemlayer\pgfsys
+-pdftex.def
+File: pgfsys-pdftex.def 2009/05/22  (rcs-revision 1.26)
+
+(C:\Users\Gregory\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\systemlayer\pgfsys
+-common-pdf.def
+File: pgfsys-common-pdf.def 2008/05/19  (rcs-revision 1.10)
+)))
+(C:\Users\Gregory\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\systemlayer\pgfsys
+softpath.code.tex
+File: pgfsyssoftpath.code.tex 2008/07/18  (rcs-revision 1.7)
+\pgfsyssoftpath@smallbuffer@items=\count116
+\pgfsyssoftpath@bigbuffer@items=\count117
+)
+(C:\Users\Gregory\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\systemlayer\pgfsys
+protocol.code.tex
+File: pgfsysprotocol.code.tex 2006/10/16  (rcs-revision 1.4)
+))
+(C:\Users\Gregory\AppData\Roaming\MiKTeX\2.9\tex\latex\xcolor\xcolor.sty
+Package: xcolor 2007/01/21 v2.11 LaTeX color extensions (UK)
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\00miktex\color.cfg"
+File: color.cfg 2007/01/18 v1.5 color configuration of teTeX/TeXLive
+)
+Package xcolor Info: Driver file: pdftex.def on input line 225.
+LaTeX Info: Redefining \color on input line 702.
+Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1337.
+Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1341.
+Package xcolor Info: Model `RGB' extended on input line 1353.
+Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1355.
+Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1356.
+Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1357.
+Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1358.
+Package xcolor Info: Model `Gray' substituted by `gray' on input line 1359.
+Package xcolor Info: Model `wave' substituted by `hsb' on input line 1360.
+)
+(C:\Users\Gregory\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\basiclayer\pgfcore
+.code.tex
+Package: pgfcore 2010/04/11 v2.10 (rcs-revision 1.7)
+
+(C:\Users\Gregory\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\math\pgfmath.code.
+tex
+(C:\Users\Gregory\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\math\pgfmathcalc.c
+ode.tex
+(C:\Users\Gregory\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\math\pgfmathutil.c
+ode.tex)
+(C:\Users\Gregory\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\math\pgfmathparser
+.code.tex
+\pgfmath@dimen=\dimen132
+\pgfmath@count=\count118
+\pgfmath@box=\box49
+\pgfmath@toks=\toks28
+\pgfmath@stack@operand=\toks29
+\pgfmath@stack@operation=\toks30
+)
+(C:\Users\Gregory\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\math\pgfmathfuncti
+ons.code.tex
+(C:\Users\Gregory\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\math\pgfmathfuncti
+ons.basic.code.tex)
+(C:\Users\Gregory\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\math\pgfmathfuncti
+ons.trigonometric.code.tex)
+(C:\Users\Gregory\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\math\pgfmathfuncti
+ons.random.code.tex)
+(C:\Users\Gregory\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\math\pgfmathfuncti
+ons.comparison.code.tex)
+(C:\Users\Gregory\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\math\pgfmathfuncti
+ons.base.code.tex)
+(C:\Users\Gregory\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\math\pgfmathfuncti
+ons.round.code.tex)
+(C:\Users\Gregory\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\math\pgfmathfuncti
+ons.misc.code.tex)))
+(C:\Users\Gregory\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\math\pgfmathfloat.
+code.tex
+\c@pgfmathroundto@lastzeros=\count119
+))
+(C:\Users\Gregory\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\basiclayer\pgfcore
+points.code.tex
+File: pgfcorepoints.code.tex 2010/04/09  (rcs-revision 1.20)
+\pgf@picminx=\dimen133
+\pgf@picmaxx=\dimen134
+\pgf@picminy=\dimen135
+\pgf@picmaxy=\dimen136
+\pgf@pathminx=\dimen137
+\pgf@pathmaxx=\dimen138
+\pgf@pathminy=\dimen139
+\pgf@pathmaxy=\dimen140
+\pgf@xx=\dimen141
+\pgf@xy=\dimen142
+\pgf@yx=\dimen143
+\pgf@yy=\dimen144
+\pgf@zx=\dimen145
+\pgf@zy=\dimen146
+)
+(C:\Users\Gregory\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\basiclayer\pgfcore
+pathconstruct.code.tex
+File: pgfcorepathconstruct.code.tex 2010/08/03  (rcs-revision 1.24)
+\pgf@path@lastx=\dimen147
+\pgf@path@lasty=\dimen148
+)
+(C:\Users\Gregory\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\basiclayer\pgfcore
+pathusage.code.tex
+File: pgfcorepathusage.code.tex 2008/04/22  (rcs-revision 1.12)
+\pgf@shorten@end@additional=\dimen149
+\pgf@shorten@start@additional=\dimen150
+)
+(C:\Users\Gregory\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\basiclayer\pgfcore
+scopes.code.tex
+File: pgfcorescopes.code.tex 2010/09/08  (rcs-revision 1.34)
+\pgfpic=\box50
+\pgf@hbox=\box51
+\pgf@layerbox@main=\box52
+\pgf@picture@serial@count=\count120
+)
+(C:\Users\Gregory\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\basiclayer\pgfcore
+graphicstate.code.tex
+File: pgfcoregraphicstate.code.tex 2008/04/22  (rcs-revision 1.9)
+\pgflinewidth=\dimen151
+)
+(C:\Users\Gregory\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\basiclayer\pgfcore
+transformations.code.tex
+File: pgfcoretransformations.code.tex 2009/06/10  (rcs-revision 1.11)
+\pgf@pt@x=\dimen152
+\pgf@pt@y=\dimen153
+\pgf@pt@temp=\dimen154
+)
+(C:\Users\Gregory\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\basiclayer\pgfcore
+quick.code.tex
+File: pgfcorequick.code.tex 2008/10/09  (rcs-revision 1.3)
+)
+(C:\Users\Gregory\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\basiclayer\pgfcore
+objects.code.tex
+File: pgfcoreobjects.code.tex 2006/10/11  (rcs-revision 1.2)
+)
+(C:\Users\Gregory\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\basiclayer\pgfcore
+pathprocessing.code.tex
+File: pgfcorepathprocessing.code.tex 2008/10/09  (rcs-revision 1.8)
+)
+(C:\Users\Gregory\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\basiclayer\pgfcore
+arrows.code.tex
+File: pgfcorearrows.code.tex 2008/04/23  (rcs-revision 1.11)
+)
+(C:\Users\Gregory\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\basiclayer\pgfcore
+shade.code.tex
+File: pgfcoreshade.code.tex 2008/11/23  (rcs-revision 1.13)
+\pgf@max=\dimen155
+\pgf@sys@shading@range@num=\count121
+)
+(C:\Users\Gregory\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\basiclayer\pgfcore
+image.code.tex
+File: pgfcoreimage.code.tex 2010/03/25  (rcs-revision 1.16)
+
+(C:\Users\Gregory\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\basiclayer\pgfcore
+external.code.tex
+File: pgfcoreexternal.code.tex 2010/09/01  (rcs-revision 1.17)
+\pgfexternal@startupbox=\box53
+))
+(C:\Users\Gregory\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\basiclayer\pgfcore
+layers.code.tex
+File: pgfcorelayers.code.tex 2010/08/27  (rcs-revision 1.2)
+)
+(C:\Users\Gregory\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\basiclayer\pgfcore
+transparency.code.tex
+File: pgfcoretransparency.code.tex 2008/01/17  (rcs-revision 1.2)
+)
+(C:\Users\Gregory\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\basiclayer\pgfcore
+patterns.code.tex
+File: pgfcorepatterns.code.tex 2009/07/02  (rcs-revision 1.3)
+)))
+(C:\Users\Gregory\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\modules\pgfmodules
+hapes.code.tex
+File: pgfmoduleshapes.code.tex 2010/09/09  (rcs-revision 1.13)
+\pgfnodeparttextbox=\box54
+)
+(C:\Users\Gregory\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\modules\pgfmodulep
+lot.code.tex
+File: pgfmoduleplot.code.tex 2010/10/22  (rcs-revision 1.8)
+)
+(C:\Users\Gregory\AppData\Roaming\MiKTeX\2.9\tex\latex\pgf\compatibility\pgfcom
+p-version-0-65.sty
+Package: pgfcomp-version-0-65 2007/07/03 v2.10 (rcs-revision 1.7)
+\pgf@nodesepstart=\dimen156
+\pgf@nodesepend=\dimen157
+)
+(C:\Users\Gregory\AppData\Roaming\MiKTeX\2.9\tex\latex\pgf\compatibility\pgfcom
+p-version-1-18.sty
+Package: pgfcomp-version-1-18 2007/07/23 v2.10 (rcs-revision 1.1)
+))
+(C:\Users\Gregory\AppData\Roaming\MiKTeX\2.9\tex\latex\pgf\utilities\pgffor.sty
+
+(C:\Users\Gregory\AppData\Roaming\MiKTeX\2.9\tex\latex\pgf\utilities\pgfkeys.st
+y
+(C:\Users\Gregory\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\utilities\pgfkeys.
+code.tex))
+(C:\Users\Gregory\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\utilities\pgffor.c
+ode.tex
+Package: pgffor 2010/03/23 v2.10 (rcs-revision 1.18)
+\pgffor@iter=\dimen158
+\pgffor@skip=\dimen159
+\pgffor@stack=\toks31
+\pgffor@toks=\toks32
+))
+(C:\Users\Gregory\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\frontendlayer\tikz
+\tikz.code.tex
+Package: tikz 2010/10/13 v2.10 (rcs-revision 1.76)
+
+(C:\Users\Gregory\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\libraries\pgflibra
+ryplothandlers.code.tex
+File: pgflibraryplothandlers.code.tex 2010/05/31 v2.10 (rcs-revision 1.15)
+\pgf@plot@mark@count=\count122
+\pgfplotmarksize=\dimen160
+)
+\tikz@lastx=\dimen161
+\tikz@lasty=\dimen162
+\tikz@lastxsaved=\dimen163
+\tikz@lastysaved=\dimen164
+\tikzleveldistance=\dimen165
+\tikzsiblingdistance=\dimen166
+\tikz@figbox=\box55
+\tikz@tempbox=\box56
+\tikztreelevel=\count123
+\tikznumberofchildren=\count124
+\tikznumberofcurrentchild=\count125
+\tikz@fig@count=\count126
+
+(C:\Users\Gregory\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\modules\pgfmodulem
+atrix.code.tex
+File: pgfmodulematrix.code.tex 2010/08/24  (rcs-revision 1.4)
+\pgfmatrixcurrentrow=\count127
+\pgfmatrixcurrentcolumn=\count128
+\pgf@matrix@numberofcolumns=\count129
+)
+\tikz@expandcount=\count130
+
+(C:\Users\Gregory\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\frontendlayer\tikz
+\libraries\tikzlibrarytopaths.code.tex
+File: tikzlibrarytopaths.code.tex 2008/06/17 v2.10 (rcs-revision 1.2)
+)))
+Class revtex4-1 Info: Patching LaTeX tabular. on input line 79.
+
+
+Class revtex4-1 Warning: Failed to patch the float package.
+
+Class revtex4-1 Info: Robustifying \LaTeX's \boldmath command on input line 79.
+
+Class revtex4-1 Info: cite was not loaded (OK!) on input line 79.
+Class revtex4-1 Info: mcite was not loaded (OK!) on input line 79.
+Class revtex4-1 Info: multicol was not loaded (OK!) on input line 79.
+(C:\Gregory\Articulos\Mios\libro_nuclear\QM\110128_QM.aux)
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 79.
+LaTeX Font Info:    ... okay on input line 79.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 79.
+LaTeX Font Info:    ... okay on input line 79.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 79.
+LaTeX Font Info:    ... okay on input line 79.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 79.
+LaTeX Font Info:    ... okay on input line 79.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 79.
+LaTeX Font Info:    ... okay on input line 79.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 79.
+LaTeX Font Info:    ... okay on input line 79.
+
+(C:\Users\Gregory\AppData\Roaming\MiKTeX\2.9\tex\context\base\supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count131
+\scratchdimen=\dimen167
+\scratchbox=\box57
+\nofMPsegments=\count132
+\nofMParguments=\count133
+\everyMPshowfont=\toks33
+\MPscratchCnt=\count134
+\MPscratchDim=\dimen168
+\MPnumerator=\count135
+\makeMPintoPDFobject=\count136
+\everyMPtoPDFconversion=\toks34
+) (C:\Users\Gregory\AppData\Roaming\MiKTeX\2.9\tex\latex\ms\ragged2e.sty
+Package: ragged2e 2009/05/21 v2.1 ragged2e Package (MS)
+
+(C:\Users\Gregory\AppData\Roaming\MiKTeX\2.9\tex\latex\ms\everysel.sty
+Package: everysel 2011/10/28 v1.2 EverySelectfont Package (MS)
+
+ABD: EverySelectfont initializing macros
+LaTeX Info: Redefining \selectfont on input line 126.
+)
+\CenteringLeftskip=\skip50
+\RaggedLeftLeftskip=\skip51
+\RaggedRightLeftskip=\skip52
+\CenteringRightskip=\skip53
+\RaggedLeftRightskip=\skip54
+\RaggedRightRightskip=\skip55
+\CenteringParfillskip=\skip56
+\RaggedLeftParfillskip=\skip57
+\RaggedRightParfillskip=\skip58
+\JustifyingParfillskip=\skip59
+\CenteringParindent=\skip60
+\RaggedLeftParindent=\skip61
+\RaggedRightParindent=\skip62
+\JustifyingParindent=\skip63
+)
+ABD: EveryShipout initializing macros
+LaTeX Font Info:    Try loading font information for U+msa on input line 111.
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsfonts\umsa.fd"
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+)
+LaTeX Font Info:    Try loading font information for U+msb on input line 111.
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsfonts\umsb.fd"
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+)
+<figs/fig_1.png, id=4, 328.5pt x 328.5pt>
+File: figs/fig_1.png Graphic file (type png)
+ <use figs/fig_1.png>
+Package pdftex.def Info: figs/fig_1.png used on input line 114.
+(pdftex.def)             Requested size: 84.23657pt x 84.23505pt.
+
+Overfull \vbox (59.30176pt too high) has occurred while \output is active []
+
+
+[1{C:/Users/Gregory/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map} <C:/Greg
+ory/Articulos/Mios/libro_nuclear/QM/figs/fig_1.png>] [2] [3] [4]
+<figs/fig_i1.pdf, id=31, 352.1958pt x 330.99661pt>
+File: figs/fig_i1.pdf Graphic file (type pdf)
+ <use figs/fig_i1.pdf>
+Package pdftex.def Info: figs/fig_i1.pdf used on input line 158.
+(pdftex.def)             Requested size: 458.638pt x 431.03796pt.
+
+[5]
+
+pdfTeX warning: pdflatex.exe (file C:/Gregory/Articulos/Mios/libro_nuclear/QM/f
+igs/fig_i2.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1
+.5> allowed
+<figs/fig_i2.pdf, id=35, 307.3884pt x 116.5956pt>
+File: figs/fig_i2.pdf Graphic file (type pdf)
+ <use figs/fig_i2.pdf>
+Package pdftex.def Info: figs/fig_i2.pdf used on input line 164.
+(pdftex.def)             Requested size: 280.80286pt x 106.5149pt.
+
+[6 <C:/Gregory/Articulos/Mios/libro_nuclear/QM/figs/fig_i1.pdf> <C:/Gregory/Art
+iculos/Mios/libro_nuclear/QM/figs/fig_i2.pdf>]
+
+pdfTeX warning: pdflatex.exe (file C:/Gregory/Articulos/Mios/libro_nuclear/QM/f
+igs/fig_i3.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1
+.5> allowed
+<figs/fig_i3.pdf, id=53, 418.20241pt x 238.97281pt>
+File: figs/fig_i3.pdf Graphic file (type pdf)
+ <use figs/fig_i3.pdf>
+Package pdftex.def Info: figs/fig_i3.pdf used on input line 168.
+(pdftex.def)             Requested size: 458.638pt x 262.0869pt.
+
+<figs/fig_i4.pdf, id=54, 241.8636pt x 96.8418pt>
+File: figs/fig_i4.pdf Graphic file (type pdf)
+ <use figs/fig_i4.pdf>
+Package pdftex.def Info: figs/fig_i4.pdf used on input line 173.
+(pdftex.def)             Requested size: 280.80286pt x 112.44145pt.
+ [7 <C:/Gregory/Articulos/Mios/libro_nuclear/QM/figs/fig_i3.pdf> <C:/Gregory/Ar
+ticulos/Mios/libro_nuclear/QM/figs/fig_i4.pdf>]
+<figs/fig_i5.pdf, id=74, 507.3354pt x 738.59943pt>
+File: figs/fig_i5.pdf Graphic file (type pdf)
+ <use figs/fig_i5.pdf>
+Package pdftex.def Info: figs/fig_i5.pdf used on input line 178.
+(pdftex.def)             Requested size: 411.84229pt x 599.59213pt.
+
+<figs/fig_i6.pdf, id=75, 533.83443pt x 774.25258pt>
+File: figs/fig_i6.pdf Graphic file (type pdf)
+ <use figs/fig_i6.pdf>
+Package pdftex.def Info: figs/fig_i6.pdf used on input line 181.
+(pdftex.def)             Requested size: 458.638pt x 665.20628pt.
+
+Overfull \vbox (5.35356pt too high) has occurred while \output is active []
+
+
+[8 <C:/Gregory/Articulos/Mios/libro_nuclear/QM/figs/fig_i5.pdf>]
+<figs/fig_i7.pdf, id=83, 425.91121pt x 642.7212pt>
+File: figs/fig_i7.pdf Graphic file (type pdf)
+ <use figs/fig_i7.pdf>
+Package pdftex.def Info: figs/fig_i7.pdf used on input line 184.
+(pdftex.def)             Requested size: 458.638pt x 692.1083pt.
+
+[9 <C:/Gregory/Articulos/Mios/libro_nuclear/QM/figs/fig_i6.pdf>] [10 <C:/Gregor
+y/Articulos/Mios/libro_nuclear/QM/figs/fig_i7.pdf>]
+<figs/fig_zpf.pdf, id=98, 419.166pt x 177.3024pt>
+File: figs/fig_zpf.pdf Graphic file (type pdf)
+ <use figs/fig_zpf.pdf>
+Package pdftex.def Info: figs/fig_zpf.pdf used on input line 201.
+(pdftex.def)             Requested size: 458.638pt x 194.00244pt.
+
+
+pdfTeX warning: pdflatex.exe (file C:/Gregory/Articulos/Mios/libro_nuclear/QM/f
+igs/fig_zpf1.pdf): PDF inclusion: found PDF version <1.7>, but at most version 
+<1.5> allowed
+<figs/fig_zpf1.pdf, id=99, 299.6796pt x 139.722pt>
+File: figs/fig_zpf1.pdf Graphic file (type pdf)
+ <use figs/fig_zpf1.pdf>
+Package pdftex.def Info: figs/fig_zpf1.pdf used on input line 213.
+(pdftex.def)             Requested size: 458.638pt x 213.84857pt.
+
+[11 <C:/Gregory/Articulos/Mios/libro_nuclear/QM/figs/fig_zpf.pdf>]
+
+pdfTeX warning: pdflatex.exe (file C:/Gregory/Articulos/Mios/libro_nuclear/QM/f
+igs/fig_rotinv.pdf): PDF inclusion: found PDF version <1.7>, but at most versio
+n <1.5> allowed
+<figs/fig_rotinv.pdf, id=107, 410.01181pt x 370.02242pt>
+File: figs/fig_rotinv.pdf Graphic file (type pdf)
+
+<use figs/fig_rotinv.pdf>
+Package pdftex.def Info: figs/fig_rotinv.pdf used on input line 233.
+(pdftex.def)             Requested size: 271.44086pt x 244.9721pt.
+ [12 <C:/Gregory/Articulos/Mios/libro_nuclear/QM/figs/fig_zpf1.pdf>] <figs/fig_
+a3.pdf, id=122, 481.31819pt x 83.83319pt>
+File: figs/fig_a3.pdf Graphic file (type pdf)
+
+<use figs/fig_a3.pdf>
+Package pdftex.def Info: figs/fig_a3.pdf used on input line 259.
+(pdftex.def)             Requested size: 458.638pt x 79.88281pt.
+ [13 <C:/Gregory/Articulos/Mios/libro_nuclear/QM/figs/fig_rotinv.pdf>]
+
+pdfTeX warning: pdflatex.exe (file C:/Gregory/Articulos/Mios/libro_nuclear/QM/f
+igs/fig_diagterm.pdf): PDF inclusion: found PDF version <1.7>, but at most vers
+ion <1.5> allowed
+<figs/fig_diagterm.pdf, id=138, 188.38379pt x 137.7948pt>
+File: figs/fig_diagterm.pdf Graphic file (type pdf)
+
+<use figs/fig_diagterm.pdf>
+Package pdftex.def Info: figs/fig_diagterm.pdf used on input line 272.
+(pdftex.def)             Requested size: 365.03943pt x 267.02089pt.
+ [14 <C:/Gregory/Articulos/Mios/libro_nuclear/QM/figs/fig_a3.pdf> <C:/Gregory/A
+rticulos/Mios/libro_nuclear/QM/figs/fig_diagterm.pdf>] <figs/fig_b1.pdf, id=156
+, 186.45659pt x 87.6876pt>
+File: figs/fig_b1.pdf Graphic file (type pdf)
+ <use figs/fig_b1.pdf>
+Package pdftex.def Info: figs/fig_b1.pdf used on input line 288.
+(pdftex.def)             Requested size: 224.638pt x 105.64471pt.
+
+<figs/fig_b2.pdf, id=157, 573.34201pt x 137.7948pt>
+File: figs/fig_b2.pdf Graphic file (type pdf)
+ <use figs/fig_b2.pdf>
+Package pdftex.def Info: figs/fig_b2.pdf used on input line 292.
+(pdftex.def)             Requested size: 458.638pt x 110.23177pt.
+
+<figs/fig_b3.pdf, id=158, 594.54121pt x 269.3262pt>
+File: figs/fig_b3.pdf Graphic file (type pdf)
+ <use figs/fig_b3.pdf>
+Package pdftex.def Info: figs/fig_b3.pdf used on input line 299.
+(pdftex.def)             Requested size: 458.638pt x 207.764pt.
+
+[15 <C:/Gregory/Articulos/Mios/libro_nuclear/QM/figs/fig_b1.pdf> <C:/Gregory/Ar
+ticulos/Mios/libro_nuclear/QM/figs/fig_b2.pdf>]
+<figs/fig_b4.pdf, id=170, 431.211pt x 265.47182pt>
+File: figs/fig_b4.pdf Graphic file (type pdf)
+ <use figs/fig_b4.pdf>
+Package pdftex.def Info: figs/fig_b4.pdf used on input line 303.
+(pdftex.def)             Requested size: 458.638pt x 282.37096pt.
+
+[16 <C:/Gregory/Articulos/Mios/libro_nuclear/QM/figs/fig_b3.pdf> <C:/Gregory/Ar
+ticulos/Mios/libro_nuclear/QM/figs/fig_b4.pdf>]
+<figs/fig_b5.pdf, id=182, 264.02641pt x 261.61742pt>
+File: figs/fig_b5.pdf Graphic file (type pdf)
+ <use figs/fig_b5.pdf>
+Package pdftex.def Info: figs/fig_b5.pdf used on input line 308.
+(pdftex.def)             Requested size: 318.23657pt x 315.36044pt.
+
+[17 <C:/Gregory/Articulos/Mios/libro_nuclear/QM/figs/fig_b5.pdf>]
+<figs/fig_c1.pdf, id=190, 573.34201pt x 783.40678pt>
+File: figs/fig_c1.pdf Graphic file (type pdf)
+ <use figs/fig_c1.pdf>
+Package pdftex.def Info: figs/fig_c1.pdf used on input line 322.
+(pdftex.def)             Requested size: 458.638pt x 626.70238pt.
+
+[18] <figs/fig_c2.pdf, id=194, 564.18782pt x 822.91443pt>
+File: figs/fig_c2.pdf Graphic file (type pdf)
+
+<use figs/fig_c2.pdf>
+Package pdftex.def Info: figs/fig_c2.pdf used on input line 326.
+(pdftex.def)             Requested size: 458.638pt x 668.99303pt.
+ [19 <C:/Gregory/Articulos/Mios/libro_nuclear/QM/figs/fig_c1.pdf>] <figs/fig_c3
+.pdf, id=203, 458.67358pt x 712.58218pt>
+File: figs/fig_c3.pdf Graphic file (type pdf)
+
+<use figs/fig_c3.pdf>
+Package pdftex.def Info: figs/fig_c3.pdf used on input line 330.
+(pdftex.def)             Requested size: 458.638pt x 712.54782pt.
+ [20 <C:/Gregory/Articulos/Mios/libro_nuclear/QM/figs/fig_c2.pdf>] <figs/fig_c4
+.pdf, id=211, 561.29701pt x 729.44518pt>
+File: figs/fig_c4.pdf Graphic file (type pdf)
+
+<use figs/fig_c4.pdf>
+Package pdftex.def Info: figs/fig_c4.pdf used on input line 334.
+(pdftex.def)             Requested size: 458.638pt x 596.04526pt.
+ [21 <C:/Gregory/Articulos/Mios/libro_nuclear/QM/figs/fig_c3.pdf>] <figs/fig_c5
+.pdf, id=219, 586.35057pt x 806.05138pt>
+File: figs/fig_c5.pdf Graphic file (type pdf)
+
+<use figs/fig_c5.pdf>
+Package pdftex.def Info: figs/fig_c5.pdf used on input line 338.
+(pdftex.def)             Requested size: 458.638pt x 630.48865pt.
+ [22 <C:/Gregory/Articulos/Mios/libro_nuclear/QM/figs/fig_c4.pdf>] <figs/fig_c6
+.pdf, id=227, 568.04218pt x 651.8754pt>
+File: figs/fig_c6.pdf Graphic file (type pdf)
+
+<use figs/fig_c6.pdf>
+Package pdftex.def Info: figs/fig_c6.pdf used on input line 342.
+(pdftex.def)             Requested size: 458.638pt x 526.32521pt.
+ [23 <C:/Gregory/Articulos/Mios/libro_nuclear/QM/figs/fig_c5.pdf>] [24 <C:/Greg
+ory/Articulos/Mios/libro_nuclear/QM/figs/fig_c6.pdf>]
+<figs/fig_appd.pdf, id=242, 473.12758pt x 503.481pt>
+File: figs/fig_appd.pdf Graphic file (type pdf)
+ <use figs/fig_appd.pdf>
+Package pdftex.def Info: figs/fig_appd.pdf used on input line 356.
+(pdftex.def)             Requested size: 458.638pt x 488.061pt.
+
+[25 <C:/Gregory/Articulos/Mios/libro_nuclear/QM/figs/fig_appd.pdf>]
+
+pdfTeX warning: pdflatex.exe (file C:/Gregory/Articulos/Mios/libro_nuclear/QM/f
+igs/fig_e1.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1
+.5> allowed
+<figs/fig_e1.pdf, id=251, 281.3712pt x 124.7862pt>
+File: figs/fig_e1.pdf Graphic file (type pdf)
+ <use figs/fig_e1.pdf>
+Package pdftex.def Info: figs/fig_e1.pdf used on input line 375.
+(pdftex.def)             Requested size: 271.44086pt x 120.39314pt.
+
+[26 <C:/Gregory/Articulos/Mios/libro_nuclear/QM/figs/fig_e1.pdf>]
+
+pdfTeX warning: pdflatex.exe (file C:/Gregory/Articulos/Mios/libro_nuclear/QM/f
+igs/fig_e2.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1
+.5> allowed
+<figs/fig_e2.pdf, id=265, 507.3354pt x 314.6154pt>
+File: figs/fig_e2.pdf Graphic file (type pdf)
+ <use figs/fig_e2.pdf>
+Package pdftex.def Info: figs/fig_e2.pdf used on input line 383.
+(pdftex.def)             Requested size: 458.638pt x 284.4282pt.
+
+[27 <C:/Gregory/Articulos/Mios/libro_nuclear/QM/figs/fig_e2.pdf>] [28] [29]
+[30] [31] <figs/tab_e1_1.pdf, id=294, 533.83443pt x 803.16057pt>
+File: figs/tab_e1_1.pdf Graphic file (type pdf)
+
+<use figs/tab_e1_1.pdf>
+Package pdftex.def Info: figs/tab_e1_1.pdf used on input line 526.
+(pdftex.def)             Requested size: 458.638pt x 690.04285pt.
+ [32] [33 <C:/Gregory/Articulos/Mios/libro_nuclear/QM/figs/tab_e1_1.pdf>] <figs
+/tab_e1_2.pdf, id=305, 524.68018pt x 797.86081pt>
+File: figs/tab_e1_2.pdf Graphic file (type pdf)
+
+<use figs/tab_e1_2.pdf>
+Package pdftex.def Info: figs/tab_e1_2.pdf used on input line 532.
+(pdftex.def)             Requested size: 458.638pt x 697.45691pt.
+ [34] [35 <C:/Gregory/Articulos/Mios/libro_nuclear/QM/figs/tab_e1_2.pdf>] <figs
+/tab_e1_3.pdf, id=316, 527.08919pt x 797.86081pt>
+File: figs/tab_e1_3.pdf Graphic file (type pdf)
+
+<use figs/tab_e1_3.pdf>
+Package pdftex.def Info: figs/tab_e1_3.pdf used on input line 538.
+(pdftex.def)             Requested size: 458.638pt x 694.26723pt.
+ [36] [37 <C:/Gregory/Articulos/Mios/libro_nuclear/QM/figs/tab_e1_3.pdf>] [38] 
+[39] [40] [41] [42]
+No file 110128_QM.bbl.
+[43] (C:\Gregory\Articulos\Mios\libro_nuclear\QM\110128_QM.aux) ) 
+Here is how much of TeX's memory you used:
+ 13329 strings out of 493921
+ 234889 string characters out of 3144869
+ 292822 words of memory out of 3000000
+ 16328 multiletter control sequences out of 15000+200000
+ 11660 words of font info for 46 fonts, out of 3000000 for 9000
+ 841 hyphenation exceptions out of 8191
+ 56i,15n,55p,2491b,319s stack positions out of 5000i,500n,10000p,200000b,50000s
+<C:/Program Fi
+les (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Program File
+s (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Program Files 
+(x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Program Files (x
+86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cmextra/cmex8.pfb><C:/Program Files 
+(x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Program Files (x
+86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Program Files (x86
+)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi6.pfb><C:/Program Files (x86)/M
+iKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Program Files (x86)/MiKT
+eX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Program Files (x86)/MiKTeX 
+2.9/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Program Files (x86)/MiKTeX 2.9
+/fonts/type1/public/amsfonts/cm/cmr6.pfb><C:/Program Files (x86)/MiKTeX 2.9/fon
+ts/type1/public/amsfonts/cm/cmr7.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/t
+ype1/public/amsfonts/cm/cmr8.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1
+/public/amsfonts/cm/cmsy10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/p
+ublic/amsfonts/cm/cmsy6.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/publ
+ic/amsfonts/cm/cmsy8.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/
+amsfonts/cm/cmti12.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/am
+sfonts/symbols/msbm10.pfb>
+Output written on 110128_QM.pdf (43 pages, 18546187 bytes).
+PDF statistics:
+ 407 PDF objects out of 1000 (max. 8388607)
+ 0 named destinations out of 1000 (max. 500000)
+ 163 words of extra memory for PDF output out of 10000 (max. 10000000)
+

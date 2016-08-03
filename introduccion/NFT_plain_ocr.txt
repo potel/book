@@ -1,0 +1,873 @@
+NUCLEAR SUPERFLUIDITY AND FIELD TITEORT 01•' ELE?lfENTARY EX:CIT..ATIONS 107 
+populated in two-nucleon transfer processes, are weaker than predicted by the 
+harmonic model. The residual pairing interactions tend to produce a conden­
+sation of the boson, namely a superconducting state. This tendency drains strength from the excited into the ground state. 
+II: Field theory of elementary excitations in nuclei. 
+In the first p'1rt of these lectures the concept of elementary modes of ex­citation was discussed in terms of simple schematic models. The usefulness of such a concept to describe the nuclear structure was demonstrated in the 
+discussion of selected examples involving pairing modes. 
+Because all the nuclear degrees of freedom are exhausted by the protons and the neutrons, it is an essential feature of descriptions based on elementary modes of excit'1tion to violate the Pauli principle '1nd to requiTe the use of 
+an over-complete basis. 
+In the second pm·t of these lectures we develop a field theory, in which the 
+nuclear elementary modes of excitation are the fermionic n,nd bosonic free 
+fields, and where theiT mutual interweaving takes place through the pu,rticle­
+vibration coupling and the bare model fou.T-point vertex interaction. 
+5. -The concept of elementary modes of excitation. 
+The Hamiltonian of a many-body system of noninteracting particles, bosons 
+or fermions, can be 1vritten as 
+(5.1) H=l;H;, 
+where the snmmation is over all the p'1rticles of the system and where each H; depends only on the vn,ri'1bles of the i-th particle. The single-p'1rticle Schrodinger 
+equation is 
+(5.2) 
+
+where e,, is the single-particle energy eigenvalue and 
+(fJ.3) 
+
+is the eorrespontling ·\yave function. The operator a.: creates a particle in the sta.te k \Vhcn a.cting in the -va.cuun1 state JO). The energy levels of the systen1 
+D. }{. nJ'.:s autl H. ,\_. lHl..OfOLJA 
+a.re then given h~, the equation 
+(;J.·1) 
+
+the corresponding eigenstntcs being 
+II (a.:)"' IO)
+(5.5) IJl; ' = ---= ' 
+,, Vnkt 
+1vhere n1, = 0 or 1 in the case of fermions and 'fl,1r = 01 1, 2, ... in the case of bosons. Nff'iV 1ve consider a system of interacting particles. The Hnn1i1tonian 1vill in this case be 
+(5.6) H = I H, + } I Ho, 
+i,J 
+where i, i label the co-ordinates of the i-th and j-th particle. In some cases it is possible 1io recast the two-body Ha.ntiltonja.n in the torn1 
+(5.7) 
+
+with the associated Sclu·iidinger equation 
+(5.8) 
+
+Crepresenting a generalized variable (e.g. the single-particle co-ordinate, the gap parameter, the shape of the nucleus, etc.). The wave function v»(C) is the '-co-ordina,te representation of the eigenstate a!i5). Tl1e operator ix! creates an excitation V1rith quantum number r when acting in the state 10), the vacun1n of all the excitations T. 
+The energy of the levels of the system, or at any rate of the most important ones to determine the physical response of it to externul probles, c~Hl be '\VTitten in the form 
+(5.9) Em= I ?LrCr. 
+< 
+The corresponding eigenstate can be written in the same '\vay as before, i.e. 
+(5.10) 
+
+. .,._ 
+
+NUOJ,EAR SDPERPLUIDITY AND FIELD THEORY OF ELEMEN'£ARY EX:CITA'rIONS 109 
+Additivity fmctmes similar to (5.9) hold for other physicl11 quantities, i.e. 
+(5.11) <nli!!lm> =IA,vn,o(n., "" +1), 
+(5.12) 
+
+is the opcmtor which specifically excites the eigenstates descrihed by 'l',(C). Because the excit:Ltion energies Em and observables l<m'li!!/m)I' (e.g. two-pm·­
+ticle transfer cross-section, elyctrornagnetic-transition probabilities, etc.) are linear cornbinations of Er and Ar, respectively, the eigensta.tes with energy Er a,nd associated o1Jservab1e A, are called the cleJnenta.ry excitations of the systeni. 
+There lie thus two ideas behind the concept of elementary excitations ('). 
+First, there is the idea that the total binding energy does not have much to do 
+with the behaviom of the physical system. Thus, the state IO) is assumed to 
+exist but to act only as a background whose detailed intrinsic structme one does 
+not need to know to describe the bebaviom of the system. What is important 
+is the belrnv:iom of the lower excited states relative to the ground state. 
+'l'be second idea is that the low-lying states often aJ:'e of a p!1rticular simple 
+character, and are an1enable to a simple and rjgorous mathematical treatment. 
+With the help of ei-perimental probes which couple weakly to the nucleus, 
+i.e. in such a way that the system can be expressed in terms of the properties of the excitation in the absence of probes, it bas been possible to identify the following elementary excitations in systems around closed shells('): 
+a) single particle and boles, 
+b) shape v:ibmtions, 
+a) spin and isospin vibrations and charge exchange modes, 
+il) pairing vibrations. 
+Different probes have been utilized in the process of identification of the dif­ferent modes. In particular two-neutron transfer reactions induced by tritons and protons hrtve played a central role in unr:weling the basic featnres of the pairing modes. This subject bas been cliscussed in detail in part I of these lectnres. 
+('") This concept was first introduced ,by LANDAU [53] to describe the spectrum of Ile II. Tt "\Yil.S subsequently utilized in uuclear physie.s by Baun nnd l\iOTTELSOs [GJ tn obtain n unilied description of the nuclcilr spcctrurn. (••) 'l'he rcstrictiou to closed nuclei is 1nadc to sin1plify the discussion. 'The concept of de1nentary n1odes of excitation applies equallr "\\'ell to 01lcn-shell nuclei (cf. [25]). 
+110 D. n. BES antl IL .:\. BH.OGL!A 
+6. -Nuclear field theory. 
+A field theory can be formulated in which the nuclear elementary modes of excitation play the role of the free fields and in which their mutual inter­weaving tall;es place tlu·ough the pctrticle-vibration coupling vertices [6, 54, 55]. This theory provides a graphical pertmbative approach to obtain the exact solution of the many-body nuclectr-structme problem in the product basis 'P,(CJ1p"(L1J ... 'P,,(I'). 
+Note that the nuclear bosonic fields are built out by utilizing those degrees of freedom (particles and holes) which already exhaust all the nuclear degrees of freedom. It is thus an essential featme of the product basis to be over­complete and to violate the Pauli principle. On the other hand, this basis is directly related to observables of the system. The different experiments pro­ject out only one or two of its components. 
+In what follows we state and apply the nuclear-field-theory rules, to cal­culate the interactions between the nuclear free fields and the reaction processes between the resulting physical states. This is done for a system with one par­ticle outside closed shells and which displays collective vibrations, in the frame­work of a two-level model. 
+6"1. Schematic model. -The model considered consists of two single-par­ticle levels, each with degeneracy Q and with a schematic monopole particle­hole interaction coupling the particles in the two levels. 
+The total Hamiltonian is equal to 
+(6.1) 
+
+
+(6.2) 
+
+No= L aa~.aam,a ' 
+o=±l,m 
+and 
+(6.3) 
+
+At= 2: a~,1am,-1. 
+m 
+The index CJ labels the two levels, while ni labels the degenerate states within each level. The strength of the monopole coupling is denoted by V and the energy difference between the two levels is E. 
+The matrix element of (6.3) is given by 
+
+NUCLEAR SUPERFLUIDITY AND FIEI..D TllEORY OF ELEMENTARY EXCITATIONS 
+6"2. Field-theoretical solutions. -The free nuclea;r and fermion fields n,re the elementa;i·y modes of excitation comprising surface vibrations and single pn,rticles, respectively. The boson fields n,re defined through the random-phase approximation, in terms of particle-hole excitations. The hasis utilized to describe the nuclear systems is a product of the different free fields. This basis is, as a rule, over-complete, nonorthogonal and violates the Pauli principle. 
+The closed-shell system of the schematic model under considemtion cor­responds to the lowest (a= -1) level filled with Q pa;i·ticles, while the upper (ci = 1) level remains empty. The basis pa:rticle tmd hole states a;i·e obtained by adding or removing a single pa:rticle from this closed-shell configuration. The corresponding wave functions and energies, which should include the Hartree-Fock corrections generated by the residual interaction("), are 
+Im, 1) = a;,.,,IO) , E(ni, 1) = !,(c + V), 
+(6.4) 
+{ 
+Im, -1) = am,-1 10), E(m, -1) = !(c + V). 
+Thus the unperturbed energy for producing a particle-hole excitation with respect to the ground state is 
+(6.5) s' = E(m, 1) + E(rn, -1) =, + V. 
+The contribution V in (6.5) is the Hn,rtree-Fock contribution to the pa;i·ticle­
+hole excitation. 
+If we define the creation operator of the normal modes as 
+-a
+(6.6) flt v -"'}ca'm m,-1 l
+.L.., 111,l 
+m 
+the linearization equation 
+(6.7) [H, p;] = w,.f!'. yields 
+
+w,=s:-VQ, 
+(6.8) 
+{ 
+Wv = E ,,, = 2, 3, .. ., Q) . 
+Utilizing (6.7) and the normalization condition 
+(6.9) [{!,., fJ'.·l = /i(,,, '")' 
+(*) The Httrtree-Fock energy associnted 1'rith the Ilarniltonian (6.1) can be obtained frorn tlie lincarization relation [H, a.;1111 ] = E(n1., a)a!,m acting on the Hartree-Fock vacuun1, '\Vhich in U1is case coincides 1vith the single-particln vacnun1 defined by a~1.-110> = a,,,,110> = o. 
+n. l{. BJi,;;; and n. A. nnOGLL\
+112 
+
+(6.10) 
+
+One can also 1vTite thls an1plitude as the ratio bet,veen a coupling matrix elen1ent and an energy denominator, i.e. 
+(6.11) }'m '=~I• 
+W1-G 
+From (6.8), (6.10) and (6.11) we obtain 
+(6.12) .11 1 = -VyQ, 
+which is the strength with which a pa,rticle-holc excitation (rn, 1; vi, -1) couples to the collective phonon (see flg.18). This c!1n '11so be seen by c!1lculating the matTix element of the interaction H!1miltorri!1n (6.3) between tbe norma.J modes and the single pm·ticle-hole state 
+(6.13) ,1,, = (n,. = llHTBlin, l; rn', -1) = -VyQo(in, rn')cl(i•, 1). 
+Note thl1t the pa:r1icle-vibration coupling strengths !1ssociated with the other 
+normal modes lying at an enel'gy £/ a.re equal to zero. 
+m m 
+
+Fig. 18. -Graphical represeni;ation of the amplitude of the collective phonon (-w·ayy line) on f1 given particle-hole excitation ((1n, 1), (ni, -1)). This amplitude can be "\vritteu in terms of the interaction vertex denoted by .11;. and the energy denominator w,-t/. The particles and holes are depicted by arrowed lines. 
+As shown in ref. [54-55], the exact solution of (6.1) is reproduced by utilizing as the basic degrees of freedom both the vibrations (cf. (6.8)) and the particles (cf. (6.4)) coupled through the interactions (6.3a) and (6.13). A sigrrificant pm·t of the original interaction has already been included in genem1ing the collective mode (6.8). This implies that the rules for evaluating the effect of the couplings (6.3a) and (6.13) between fermions and bosons involve a number 
+NUCLEAR SurERFJ,UIDI'rY AND FIELD '.l'IIEORY OF ELEMENTARY EXCITATIONS 113 
+of restrictions as compa;red with the usual rules of perturbation theory that are to be utilized in evaluating the effect of the original interaction (6.3) :10ting in a fermion space. They read as follows: 
+I) In initial and final states, proper diagrams involve collective modes and particle modes, but not any pa;rticle configuration that can be replaced by a combination of collective modes. This restriction permits an initial state comprising the configuration (n, = 1; m, 1), but excludes (111, 1; 11i, -1; 111', 1). 
+II) The couplings (6.3a) and (6.13) are allowed to act in all orders to generate the different diagrams of pertm-bation theory; the restriction I) does not apply to internal lines of these diagrams. 
+III) The internal lines of diagrams are, however, restricted by the ex­clusion of diagrams in which a particle-hole pair is created and subsequently annihilated without having participated in subsequent intemctions. 
+IV) The energies of the uncoupled pa;rticle and phonon fields are to be calculated by utilizing the Hartree-Fock approximation (cf. eq. (6.4)) and the l~PA (cf. eq. (6.8)), respectively. The contributions of all allowed diagrams are ev:i,luated by the usual rules of perturbation theory. 
+We note that the external fields acting on the system a;re allowed to create any state which may generate the different diagrams of perturhation theory. The corresponding matrix elements should be weighted with the amplitude of the component through which the final st'1te is excited. 
+The above rules are also valid for those situations which cannot be treated in pertm-bation theory and where a full diagonalization is called for. Thus, e.g., when the system displays a spurious state (cf. sect. 7). 
+In what follows we discuss the energy of the 2p-lh-like excitations. We distinguish between two types of states, namely 
+W1=E1-V.Q, A1 = -VQV (i = 1; 111 = 1, 2, ... ' Q), 
+(6.14) [n, = 1; m, 1), 
+
+(i=2, ... ,.f2; ni=l,2, ... ,Q), 
+and(") 
+(6.15) lni, 1; 1n, -1; 1n', 1), c' (m, 1n1=1, 2, ... , Q). 
+(•) Since the states (6.lfi) are restricted to be interrnediate stntcs of tho perturbation expansion, the eonfignratioll (rn, 1; 'Jn, -1; 'In, 1) is allff\\'ctl. 
+S~-Rcnl1icouli S.l.P. -LXIX 
+
+D. It. BES and R. A. llltOGLIA
+IH 
+The physica1 stn.tcs are to be \VTitten a.s 
+(6.10) 
+
+as (6.15) cannot be basis states accorcling to rule I), but ouly intermediate states. The quantities ~•om are the amplitudes of the physical sta1;e in the dif­ferent components of the product basis of elementary excitations. 
+The model space contains fl' states, while the correct number is Q -1. Thus the basis In,= 1; ni, 1) contains Q spurious states. Its origin can be tmced back to the violation of the Pauli principle (cf. also sect. 7). 
+To obtain the energy of lqni) we have to allow the states In,= 1; ni, 1) to interact through the vertices (6.3a) and (6.13) and generate all the different perturbation theory diagrams (cl. rule II)} except those containing bubbles 
+(cf. rule III)). The different graphical contributions calculated in the framework of the Brillouin-Wigner perturbation theory am displayed in fig. 19. There is only 
+
+-Aa 3 
+1) 2) 
+
+Fig. 19. -Contributions to the interaction of a fermion and a collective boson w 1 to order l/Q.i.. The secula.r equation E-EW>=.A,La11 (-l)11 is given in terins of the 
+•
+quantities A=4ilV'/(3e'-2E) and a=2V/(3e'-2E). 
+one (diagonal) matrix element given by a single summation, which can be 
+carried to all orders in the interaction vertices, and can be \vritten as 
+(6.17) Xw= A ,2;(-l)"a"o(i, i') = 
+,, 
+= +A o(i, i')o(n, 1) = -K(E)(V1'!V)'o(i, i')o(i, 1),
+1 a where a and A are defined in the caption to the figure and 
+(6.18) K(E) = (ifs' -E + Vt' 
+.\ 
+' 
+
+' . 
+I 
+NUCL'EAR SUPERFLUIDI'l'Y ~\ND FIELD THEORY OF EJ..E!IIENl'ARY EXCI'.I'A'l'IONS 115 
+is the effective coupling strength. The associated secular equation 
+(6.19) J(w,-E)ii(i, i') + X,,.J = 0 
+is equivalent to the dispersion relation 
+
+1 "(VQV)' .
+(6.20) 	= L---Eii(1., 1).
+K(E) i W,-I
+f 
+Thus the energies of the system are determined by the equation 
+QV'
+(6.21) 
+E = w1 + .iJ.l/ -E + V. 
+It 	admits the 1;wo solutions 
+E,m = { ·Je''
+(6.22) 
+!re'+ w, + V= ~•'-QV-!-V, 
+and agree \Vith the exact value ('). Because /], = 0 for i 7" 1, there is no summation in (6.16) and 
+Jqm) = N,mJn, = l; m, 1), 
+.QV' ) 
+
+
+
+"' 	( ax,,)
+
+(6.23) 1 = j_\ rim 1 -~2JE = N' (1
+qm 
+
+Ge' -E + V)' · 
+
+(6.24) 	N' = _£}_ 
+qm 
+
+Q-1' 
+
+\Yhi1e for EQ111=~e' the state is nonnormalizable as the quantity in parentheses 
+in 	(6.23) is either negative (.Q > 1) or zero (Q = 1). The state defined by 
+l/~
+
+(6.25a) Jq,111)= V.Q-lJn,=l;m,l) 
+and 
+(6.251>) 
+
+
+
+(*) The e:xacL solutiolls ca.u be easily obtained by notiug tllnt t;hc operators ..:l t, j1 antl -~ J\T0 a.re generntors of the 8[i']. group. 
+116 D. n. ni:s and R•.-\.. HHOGLL\. 
+exhausts the inelastic sun1 rule in ngr:cen1f~nt ·witll the exact; re;;;nltis. Not,e that (6.25a) is specifically excited in inelastic processes, as mm be seen by direct inspection. 
+The external inelastic field can act in t'vo ways, exciting either a partic1e­hole pair or a phonon, with amplitudes 
+(6.26) (m, l; m', -llA:IO) = o(-m, m') 
+and 
+(6.27) (n, = llA;lo) = VQo(i, 1), 
+
+respectively. The different gra1ihlcal contributions to the inehstic-scattering process are displayed in fig. 20, and can again be summed to all orders in the interaction vertices giving 
+t • ;-A,
+
+(6.28) (n,=l;ni,llAdm,l)=vQ-f-3 , y
+-tr.:: -E<lm -j­
+al b) c) 
+
+
+I x--­
+x--­
+
+x--­
+
+
+Vfl b ba ba' 
+:Pig. 20. -Graphical representation of the different ternis contributing to the mntrix element of the transfer operator V?J.At up to order l/D3• Note that the different contributions b), c), etc. have a one-to-one correspondence v;"ith tlJe different contributions to E (cf. fig. 19). a= -2V/(3e'-2E), b = 2/J,/(3e' -2E). 
+For Earn = %e' this quantity is equal to zero. Thus, the corresponding states do not carry any inelastic strength, a feature which is closely related to the fact that they cannot be normalized '1nd that they do not display any corre­lation energy('). 
+('") Noto that, oven if N(Eam=t:rn)-co, the IDlLtrix elements associated v;.ith the dif. ferent transitions tend to zero 1noro rapidly and the final result converges and is equal to zero as expected. 
+NUCLEAR SUPl~RFLUIDI'fY ..A.l'lD FIELD 'fIIEORY OF ELEJ1IENT.ARY EXCI'fATIONS 117 
+On the other hand, the matrix element associated with (6.25a) is 
+V
+~Q-1 _rn--;
+
+(6.29) (qmlA'lm,1)= -Q ·_ 1_ =vD-1, 
+"-1 v!J 
+
+which agrees with the exact answer. 
+The results (6.25b) 11nd (6.29) can be tr11ced down to P<tuli-principle correc­tions. In fact, the st<tte In, = 1; m, 1) has " nonvanishing matrix element, implying a single particle-vibration coupling vertex, with the state Im, 1; 11i, -1; m, 1). This component, which is spmious, is removed by the dif­ferent gmphs displ<tyed in fig. 19 and 20. The presence of the odd particle (m, 1) hlocks the particle-hole excitation (m, 1; "" -1) which was present in the uncoupled system. Thus the system increases its energy by a quantity V. The reduction of the inelastic amplitude from \IQ to ·vQ -l also indicates that there is one less p'1rticle-hole excitation responding to the external probe. 
+7. -Spm·ious states. 
+While the model space product of elementary modes of excitation discussed in the last section contains !J' states, only Q(Q -1) are physically possible, the number of spurious states being Q. On the other hand, the agreement between the e'rnct and the nuclear-field-theoretical results shows that the ef­fects of those spurious states are eliminated from all the matrix clements as­sociated with physical observables. 
+In what follows we show that, in fact, the spurious states are isolated in 'm explicit way in the nuclear field theory [55]. Their energy coincides with the initial nnperturbed energy, while all physical operators have zero off-diagonal matrix elements between any physical state and a spmious state, in particul'1r the unit operntor, which measures the overlap of the two types of states. 
+For this purpose \\re use again a schema.tic model consisting in a number, Q, 
+of single-p'1rticle levels in which pa;rticles interact by means of a «monopole » 
+force 
+
+
+(7.1) 
+
+
+where 
+n 
+-, t 
+-I­
+
+(7.2) II.I,=~ 2..ern(am,lam,l -a;n,-lam.-1) 
+m=l 
+
+and 
+(7.3) 
+
+
+118 u. n.. l\I~.':i aiul H. A. Lti!OGLrA 
+with
+(7.4) ·' = 2. a,,1,1 a.m,-1 · 
+m=l 
+
+The energy of the £-th phonon is determined by the RPA dispersion relation (cf. rule IV)) 
+(7.5) 
+
+
+('i = 1, 2, ... , Q). 
+The eigenfunction corresponding to the different modes is 
+(7.6) 
+
+
+The particle-vibration coupling constani; is given by 
+
+
+
+
+[ ]-i
+1
+(7.7) .11,=-(n,=lJH,.,Jni,l;m',-l)= };-(----, b(n,n'), 
+m Sm-Wj) 
+whern Jn, = 1) denotes a state containing one phonon, while Jin, 1; m, -1) is the eigenstate associated with particle-hole excitation. The other interaction to be included (rule II)) is the four-point vertex which has the value 
+(7.8) m l·m' -lJH Jm" l·m"' -1)--Vb(m m')b(m" m"')
+<' ' l Int l ' l -I l • 
+The single-particle energies to be used in calculating the different graphs are tsm, as the Hartree-Fock contribution (cf. rule IV)) of H,01 is zero. Similarly to H1nt, the (( ine}a.stic operator »has two clifferent matrix elements, namely 
+
+In whn.t follows 1ve discuss again the system comprising an odd particle, in the orbit (m, 1), in addition to a single phonon excitation of the vacuum. 
+According to rule I) initial and final states may involve both collective mode and particle modes, but not any particle configuration that can be replaced by a combination of collective modes. The exclusion of the states Jni, 1; m', 1; m', -1) eliminates most of the double counting of two-particle, one-hole states. The Q «proper» states of the form Jn,= 1; m, 1) are allowed. However, 
+
+
+NUCI..EAR SUPERFLUIDI'l'Y AND FIELD TIIEOJtY OF ELEJ\fENTARY EXCITATIONS 119 
+there are only Q -1 (two-particle, one-hole) states in which the odd particle is in the state (m, 1). Therefore, a spurious state remains in the spectrum of the elementary modes of excitation. 
+A Aa 
+
+ii 
+m 
+m 
+m 
+m 
+m
+m
+t l~ i' +~
+i
+w; 5 (i, i1) 
+I 
+
+JI 
+
+Fig. 21. -I) Lower-order contributions to the energy matrix element between the basis states /1ii= l; ni, l). The dashed line stands for the model bare interaction (cf. eq. (7.8)). The quantity X,,.(E) =Al:a"=-/1,A,.j(E-<m-V), where A= 
+" 
+
+= -.11,.111./(E-em) and a=Vj(E-em)• is the matrix element iterated to all orders in l/.Q. The secular equation of the prOblem is f(w1-E) t5('i, i1) + Xu•I = 0, and is equivalent to the dispersion relation (7.15). II) Graphical solution of the dispersion relation (7.15), for the crtse wQ = 4. The fuuctio11 F'(E) = 2 .11;/(w,-E) is displayed as a continuous 
+' 
+
+thick line, while the paTallel lines E-e-111 -V have been drawn as thin continuous lines intersecting the ordinate axis at -(e... + V). The intersections bet>vccn the tt\'·o functions give the eigenvalues of the secular equation. li1or ea,ch value of em there arc Q -!-1 roots, the root at E =em being double. 
+D. It. Bl~S and n. A. IlllOGLIA 
+If 1ve displace the zero-point energy of the odd s;ysten1 to ~E,,,, the unper­turbed energy of the ba1;is Rtate In;= l; 1n1l) is ui,. 
+The lower-order corrections to this energy which do not contctin bubbles 
+are dra1vn in fig. 21. Iterating these processes to. infmite order 1ve obtain the secular equation 
+(7.11) \(w, -E)ii(i, i') +X,,.(E)\ = o, 
+il,.11,.
+(7.12) X ii'= -E TT.
+1-£,,,-I 
+
+The different contributions calculated in the framework of the Brillouin-Wigner perturbation theory are energy dependent, and take into l1Ccount renormaliza­tion effects of the states not explicitly included in the calculations. 
+If we utilize the following correspondence 
+(7.13) 
+
+and 
+(7.14) G<-> (E -Em -V)-l, the result (1.3) can be dir·ectly utilized. Thus 
+(7 .15) 
+
+
+is the dispersion relation firing the energies E,m of the physical states. There is one equation for each single-particle level because the monopole force cannot change the m-state of the odd particle. The relation (7.15) can be solved graphically as shown in fig. 21 II. The energy E =Em is always a root of (7.15 ), in fact a double root since 
+(7.16) 
+
+
+
+and the line E -Em -V is at 45'. The remaining intersections of this line and the function F(E) give rise to .Q -1 additional roots denoted by (qm), whose energy E,m agrees with the physical eigenvalues obtained from the exact solution of the model. 
+The eigenvectors associated with the physical states (qm) are 
+(7.17) \qm), = I ~..m\i; m, 1), 
+
+NUCLEAJ?. SUPERl~LUIDITY AND FIELD THEORY OF ELEMENT.ARY EXCITATIONS 
+where 
+
+The normalization conilition which determines N,m is (cf. [56]) 
+(7 .19) '"(o . "') ax...)c• 
+c
+F <qniIqrn)p= 1 = i~ (i, i -OE SiamS"i'am= 
+
+-N' [I lli 1 L llj11i· ] = 
+-om , (w,-E,m}' (E,m -om -V}' ;,;" (w,-E,m)(w,.-E,m} 
+'['°Ai ·]
+= N,m ,:.. ( -E )'-1 ' 
+1 W, am 
+where the ilispersion r·elation (7.15) h11s been utilized, 11nd where x ... is the matrix element appeMing in (7 .11). For E,m = o'" the factor multiplying N;m is zero (cf. eq. (7.16)). Thus, there n,re only Q-1 states which c11n be norm'1l­ized when solving the Hamiltonian (7.1) in the fmmework of the nucleM field theory. The full spuriosity of the elementMy-mode product basis is con­centrated in a single state n. 
+The subscript F has been utilized in (7.17) to inilicate that we aTC dealing with the nucleM-field solution of the Hamiltonian (7 .1). Note that these eigen­vectors .u·e ex-pressed in terms of only the allowed initial or final states (cf. rule I)) 
+(7.20) ji; m, 1) =a'.,)i), 
+which are assumed to form an orthonormal basis, in particular in deriving the 
+relation (7.19). This is equivalent to the basic assumption of the nucle.u· field theory of the independence of the different modes of excitation, i.e., in the 
+
+present case, 
+(7.21) [I'., a:_,] = 0 . 
+Rules I)-IV) iliscussed in the last section give the proper mathematical frame­work to this rmsatz, which has played a basic role in developing a unified theory of nuclear structure (cf. [6]). 
+The above iliscussion can be illuminated by utilizing a conventional treat­ment of the residual intcmction (cf. nlso [62]). Bxpanding the states jn, = 1; 
+r) Note that the n1athen1atieal rela.tioll ~V'! j(E} = 1, Jll'.!. being the nor1n of the state \Yith energy E', in1plies that such state is i;purious if j(E)= 0 or f(E)<O (cf. cq. (6.23) and subsequent discussion). 
+
+122 
+D. IL LIE::; ancl H. A. Bl{()(!LIA 
+ni, .1 ,' in tern1i:; of pal'ticle and hok~. Dta.te, -.,,-e nan 1vrite, l\'ith the help of (7.0), 
+
+The overlap between tbe states In,= J.; 11i, 1) is ·thus given by 
+(7.23) Z(
+i,. i"'J = <"'I ' 1·> =
+·i am,lam,1 J, 
+
+
+where the orthogonality relation 
+(7.24) 
+
+
+of the RPA solutions in the even system has been utilized. Because of the nonorthogonality of the basis, the eigenvalues of the system are determined 
+by the relation 
+(7.25) 
+IZ(E)(H -EJI = 0. 
+This is fulfilled for 
+
+IH-EI =O, which yields the Q -1 physical roots, as well as for 
+(7.26) 
+IZ(EJI = 0. 
+
+Thls solution corresponds to the spurious root Eqm = Em. In fact, 
+
+Note that this solution in terms of the overlap Z gives the exact answer in the present ease, because of the simplicity of the model. In a general case which includes ground-state correlations this may not be true any longer. 
+
+
+NUCLEAR SUPERFLUIDITY A.ND FIELD THEORY OF ELEMEN'rARY EXCITATIONS 
+We now c11lculate the one-particle stripping process leading to the odd system. This calculation illustrates the explicit concentration of the whole spuriosity into a single state which has zero correlation energy n and zero for the different physic11l processes exciting the Q -1 physic11l states. 
+One has first to calculate the amplitude for the tmnsition to a basis com­ponent (n, = l; m, 1) including only those graphs in which all intermedi'1tc states are excluded from appearing as initial or final states. reflects the fact that the diagonalization procedure has included all interaction effects that link these allowed states. The final amplitude for the transition to the state (qin) is obtained by summing the amplitudes to (n, = each weighted by the amplitude ~"m given by eq. (7.18). 
+c Cd 
+
+
+lilg. 22. -Lower-order contributions ~o tho one-particle transfer reaction induced 1~l by a~11 • The result of iterating the different contributions to all orders in l/Q is equal I' 
+~· 
+
+to Tam(ii') = 0 _2 d11 = -A,A,./(wi-em)(E11m-em-V), 0 = -A1A;,/(w1-em)(Eam-em), 
+n 
+I' 
+
+d = V/(Eum-Em)• i
+I
+r: 
+
+The lower-order contributions to the one-particle transfer amplitude he­tween the state In,= 1) and the state lqm) are displayed in fig. 22. They can be summed up to all orders of l/Q, the result being equal to 
+(7.29) (qmla~.,jn, = 1) = 
+1 
+
+= I,.. ~'"m {6(i, i') A,~,. [ ]} = 
+(w;-em)( 1,m-<m) 1-V/(E,m-Em) 
+= L ~i"m{6(i, i')-T,m(i, i')} = 
+i' 
+
+
+Num(Eam -E,,,)Jii -(Eqm -w,)(w; -c:,,,) ' 
+
+
+
+
+
+L::~. ;' 
+
+BU,i 'l 
+---:< 
+
+
+(•) This is because the spurious sliatc has zero phase space to correlate. 
+
+D. IL lJI~~ :ind n. A. lH-:.OGLTA 
+
+~I:his fJlUL11l;ity is zero for the sp1u·ions roots() U.c. E,1"' = Em) and agrees 1vith the exact result for the [) -1 ren1aining phyRieal roots. Utilizing t1hc rela,tionR 
+(7.30)  .:!:_ = TT  2: 1 fll Cm -(0;  
+and  
+(7.31)  1 1 v= 2: E I' mi"'m' S,,i' -qm  
+we  obtain  
+
+
+Utilizing this relation we can derive the one-particle transfer sum rule. Note that (7.30) is the dispersion r·elation for the free phonon field. The second relci­tion is, however, alien to the field theory results. Nevertheless, one can sho\V that the solutions E,,. of (7.31) and of the nuclear-field-theory dispersion rela­tion (7.15) are identical, except for the root E0m =cm. One can, therefore, utilize (7.31) as a mathematical relation without further justifications in the 
+present context. One obtains 
+
+1 ·m~m (c.,.•-Eqm}(Em·-OJ;)' 
+
+
+where use has been made of the orthogonality relation 
+
+(1111, rn11 -¥= 1n) .
+
+(7.36) 
+(0 ) In fact 
+
+
+NUCLE.AR SUPERFLUIDITY A...1\D FIELD 'l'IIBORY OF ELE1\fEN'l'ARY EXCITATIONS 125 
+The result (7.35) coincides with the exact result. Physically it means that the single-particle orbital (m, 1) is blocked by the amount Ai/(sm -w 1)', which is the prob'1bility that the phonon (n1 = 1) is in the particle-hole configum­tion (m,l; ?>1,-1), i.e. with its particle in the orbital (in, 1). 
+ll. -Applications. 
+In wh'1t follows we discuss some aspects of tho low-lying spectrum of the nucleus '"Bi in terms of fermions, surface (/i'(O).)) and pairing (/l'(2,\)) modes. The application to states cont'1ining two or more p'1iring and surface phonons will be discussed by BoI<'I'IGNON [57]. 
+The unperturbed states of the closed-shell-plus-one-particle system can be wTitten in terms of the free fields as 
+(8.1) ln2,\, i; IM)= [/l:(2).)a1],,,JO) 
+and 
+(8.2) 
+
+
+This constitutes the basis set of states {o:,}. All other states give rise to the complementary Hilbert space {a,). The elementary modes of excit'1tion interact through the particle-vibra­tion and folll'-point vertices displayed in fig. 23 giving rise to the matI·ix elements 
+(8.3a) M,(nj, n' i') = ([/l!(0,\) a;.],,, lh,,,(E) IC/l!(O,\) a;],,,) , 
+(8.3b) J1I,(nj, n' i') = ([fi;.(2,\) a,,J,,,,lh,,,(EJI [/1;(2,\) a,Jrn> 
+and 
+
+
+
+They are to be C'1lculated by utilizing the graphic11l techniques of perturb'1tion theory '1nd the rules discussed in sect. 6. 
+There are two p'1r£lmeters on which to exp'1nd upon in c11rrying out l1 per­i;urbative calcul'1tion. The first one is the strength of the interaction vertices measured in terms of the '1Vernge distance between single-particle levels. The second is l/Q, where Q =I (i + tl is the effective degeneracy of the valence 
+I 
+
+shells. These two parameters are in general connected through involved ex­
+pressions. In the schen1atic model discussed in sect. 6, however, their relation is cx:plicit ancl can be expressed as 
+(SA) e = ~1(1), 
+
+and 
+
+
+D. ](.. Bl~S nnd JL A. BJU)(;LJA 
+
+a) b) 
+yA\) yIf\ A 
+
+c) d) e) f) g) h) 
+
+
+\( /)'~ 
+~ A I 
+i) j) k) I) 
+Fig. 23. -Interactions coupling the ferniion fields ·with the pa1r1ng and surface vibrations. 'fhe different ferrnion and boson free fields are f particle, t hole, *pairing vibrn,tion (a= 2), fpairing vibrn.tion (a= -2), ~·surface vibration (a= 0). 'l'he t1vo possible four-point vertices arc given in a) and b). They correspond to the pairing and 
+particle-hole 1nodel bare interactions. In graphs c}-h} all possible couplings between the fermion fields (arrowed lines) and ~;he pairi11g Yibrational fields (double lines a..rro1\•ed) are displayed. Graphs i)-l) a.re all the coupling vertices bet1vccn the surface vibrations (wavy line) and the fer1nion fields. Note th11t there is no direct coupling bet1veen the two boso~ fields, as the field theory 1ve a.re dealing 'i\•ith is linear in the different .field co-ordinates. 
+Another featurn which determines the family of diagrams to select to a given order of pertmbation is the number of internal lines which can be freely sum­med up. Each of these summations introduces a multiplicative factor Q. 
+Because most of the present knowledge on the applicability of the field­theoretical techniques rests upon schematic models, we utilize 1/Q as the expansion parameter, and assume the relations (8.4) to be valid for more general situations. 
+The nucleus '""Bi has been investigated by means of high-resolution inelastic scattering [58] and Coulomb excitation [59]. Through these e>.-periments a septuplet of states around 2.6 JVIeV of excitation was identified, with spins 
+5
+ranging from fr+ to 12+. 
+
+
+NUCLEAR SUPERFLUIDI'l'Y AND :FIELD 'L'IIBOUY OF ELE1.tENTARY EXCITATIONS 127 
+In zeroth order these states can be interpreted in terms of a proton moving in the h, orbital coupled to the lowest octupole vibration of ""Pb. The il+ of 
+' " 
+
+this multiplet displays also a large parentage based on the proton pair addition 
+and proton hole moving in the d1 orbital, as revealed by the (1;, ") reaction 
+on "'Po [60]. 
+The above results indicate that the (two-particle, one-hole) type of states 
+
+in ~00Bi are amenable to a simple description in term of the basis sta,tes 
+(8.5) l2J., i;-'; DlI) =Ii-' @.l("'Po); IM) (J." = o+, 2+, ,1+) 
+and 
+(8.6) !OJ., i,; IM)= Ji, @J."(""Pb); I11I) 
+
+
+Only the lowest states of each spin and parity }." are included in the basis states, whHe all the RPA solutions are included in the intermediate states. The quadrupole surface vibration modes were allowed only as intermediate states. The single hole and particle states i;-' and j,, respectively, correspond to experimentally known levels around the Z = 82 shell closme. 
+In what follows we iliscuss the ilifferent properties of the states generated by the basis spanned by the eigenvectors l2J., i;-'; I11I) and !OJ., i,; nrI). We have divided the discussion in two parts. 
+In the fil'St part the two t states built out of the ld1' 0 gs("'Po)) and lh103-("'Pb)) configurations are studied in this space. This two-state system provides a rich laboratory to study the interplay of surface and pai.riug modes. 
+In. the second part the properties of the entire multiplet and of those states st.rongly excited in either the (t, C<) or (d, d') reactions are studied, in the com­plete configuration space. 
+a) 1.1hc ~+ states. 
+The two states 
+
+(8.7) 
+
+(2.733 Me V) 
+
+and 
+(8.8) 12) = Jh1 @3T"'Pb); ~) (2.615 MeV) 
+are 118 keV apart. They mix strongly through the couplings depicted by the graphs a) and b) of fig. 24. Because of the energy dependence of h,,, there is a different matrix element 
+for each fu1al stale. The dia.gonulization of the matriceR ·,ras earried out self~ consistently, i.e. the energy denon1ina.tors of the different graphs are to be caJeulated by utilizing t,J1e exac1i energies (for 1nore cletails, cf. ref. [61]). 
+The corresponding graphical contributions to the sveetrosropic faetor and inelastic cross-sections are also collected in fig. 2-1. To be noted 
+D. I·t. Bf:s ll!Hl n,. A. HHOGLL\
+128 
+M ( keV) 
+a)
+
+
+
+;tJ/
+I 
+I  TI  
+319  503  
+-93  -103  
+226  4 00  
+
+b) 
+c) 
+
+E (MeV) Ill> E = 3.125 R=l.5; 5= 2.25 
+3.0 
+1 U> 
+E = 2.73 
+1T1t R=O· 5=4
+
+' 
+/r >= -o.s3 I!+> +
+2.B 
+/rr >= Itt> +
+1.02 
+
+. 2.6 
+
+e) 
+= 2.48 
+S= 1.83 
+th912 II d3,2 
+(2lOPo)
+~gs 
+Ir (208 Pb) 
+d) 
+._,experiment 
+E = 2.95 
+R= 1. I ; s=12,20 . I 
+0. 76 
+I+ l> 
+O.BO 
+
+It l> 
+E = 2 .494 
+---R= 4.2; s =1.:ao 
+
+
+
+NUCLEAR SUPERFLUIDITY AND FIELD 'rUEORY OF ELEMENTARY EXCITATIONS 129 
+·V 
+2 
+-0.53 
+0.76 
+2 x 10-2 
+x---­
++ 
+
+= -5
+1.0 2 
+0.80 
+1 x 10 
+-0. 103 
+0.135 
+-o. 103 f) 
+0.135 
+I. 12 
+..{:::[ J IJf " 
+4.16 
+I. 82 
+4 , 
+:::~1 j+,1J+::: [· "fl( 
+
+2.27 
+-0.010 -0.211 0.014 
+1.0 
+-0.011 -0.333 0.0 15 
+h) 
+2 
+
+( 3.3 '/, ) 
+10-2
+1.92 ' 
+{ 0. 76 . 2 3
+J_ 
+eb 
+
+
+t r-x }
+10 
+0.80 10-2
+2.13 ( 3.6"/. ) 
+-0.577 
+i I 
+!l -Rcn.diconti S.I.F'. -LXIX 
+130 D. IL Bl~S a.ncl IL A. BROGLIA 
+-0.53 
+1 
+
++ 
+
++
+10· 
+
+
+;ti+ fl'
+
+1.02 
+-0. 045 0 .127 -0.046 0. 195 2 
+I I _j"-\ 
+l 
++ :::[ r j' 1[V+'7Y'·r I+ X'+r~' 
+0.069 0.003 -0.026 -0.012 -0.011 
+-0.577 
+0.070 0.004 -0.026 -0.013 -0.016 
+0.0216 
+3.7 °/o 
+0.0087 I 1.5 %
+j) 
+Fig. 2•!. -In a), b) and c) we give the two contributions to tlie rnatrix elernent M{E)~(d;;;~@gs(''"Po)Jh,,,(EJlh,1,@:J-(''"Pb); 3/2) in lowest order in J/fJ. Tbe re­sulting wave functions !I) and )fi:) are displayed inc) µormalized according to (7.19). In e) \VG also give the unperturbed, theoretical energies of the levels. The (t, a) spec­troscopic factor corresponding to the reaction 210Pi(t, a:)WDBi is denoted by S, while 
+R ~ da(l1, 1, -> J) 
+da(gs("'Pb) ~3-('"'Pb)) 
+is tho ratio of inelastic cross-sections. In d) 've display the free fields. The zeroth and order 1/Q contributions to the elcctromugnetic excitations are collected in i) and j). The value 0.58c2b3 is the B(E3; 0-+3) ~aluc associated with the 2.615 TufeV stn,to in 208Pb. In g) and h) we give the zeroth and order l/!J contributions to i;ho specliro· scopic factor associated 'vith the 210Po(t, a:)2D11Bi reaction. Finally in /) °\Ve ilisplay the 101vesi; contribution to the spectroscopic factor associated °\vitb the 211BPb(3He, d) reaction, 'vhich gives a ineasure of the ground.state correlations of 2crnpb associn,ted with the existence of an octupole and a pairing vibration. 
+II 
+
+'l'ABLE \'II. -States strongly excited in one or niorc oj the reactions :iospb(3He, d)~OllBi, :i111Po(t, a:):i011Bi and :!o11Bi(d, d1):!00Bi (Jn). In the first colun1n the spin and parity of the states are given. In the second and third columns 1ve give the experimental and theoretical energy difference OEi= (Ei-2015) keV of the members of the septuplet n1easured with respect to the energy of the a-state in :ioa_pb, For the second state 3/2+ (2.951\ie,T) we give instead the absolute excitation energy. In columns 4 :ind 5 1ve collect the cxpcrilnentul n.nd theoretical inel<istic excitation cross-section norn1alized to the 3-e08Pb) cross-section according to 
+du(h,N(""Bi) ~J"(""Bi)) du(gs(''"Pb) ~3-('""Pb)) 
+
+In colnruns G <1.nd 7 the oxJierirncntal and theoretical values of the (t, a:) spectroscopic factor are ilisplayed. In the tn'o final columns \Ye give the spectroscopic factors associated with the (3He, d) reaction. 
+J 8E; (kcV) drr(h,;,(""Bi) ~J"('""Bi)) S(t, •) S('He, d)
+0 
+du(gs('""Pb) ~3-('""Pb)) (Yo) 
+
+experi­n1enta.J [58]  theo­reticn.J  cxpcri­rnental [58]  thco­retical  experi­n1entnl [60]  thco­retical  experi­mental [63]  theo­retica,l  
+:-1;2+  -121  -136  4.2± 0.3  3.7  1.8 ± 0.3  1.81  <0.01  0.02  
+;J/2+  3  46  9.1 ± 0.5  8.6  
+7 /2+  30  30  12.3 ± 0.5  11  
+9/2+  49  90  13.8 ± 0.6  15.8  
+
+11/2+ 15 20 37.4 ± (0.7) (") 18.5 39.2 0.06 0.03 1:3/:?.+ 80 20.7 0.01 
+15/2+ 129 190 23.7 ± 0.7 20 <0.2 <0.02 0.01 
+3/2+ 2.95MeV 3.075 MeV l.1± 0.2 (") 1.3 2.2 ± 0.3 1.96 <0.01 
+(a) Error estimated (not gi-von in original pupor). 
+
+132 D. R. nf;s antl R. _,\. BHOGLL\ 
+ls t:,he very diii'erent; rn.tio of Lhc (d, d1) anll (t, u.) cross-sections. \'{hile 
+R, = B(E3; Gh)/B(.1'J3; (Jj,) is ap11roximately equal to ·l, tile ratio R, = "" a((t, a.); (~),)/a((t, o.); (~),) i, clrmc to one. Becmrnc Lim component, [3} en.r­ries the inelastic-scattering strength, 'vhile the (t, Cl.) l'e~1etion pruecedt:1 111uinly 
+through the component of type [1), the difference between R, and R, e'1n be tmecd baek to the over-completeness of the basis which give rise to rather dif­ferent normalizations of the two physiml states (cf. sect. 7). 
+b) The 11mltiplet. 
+By utilizing all the states of the basis, and the same techniques discussed '1bovc, the states that are stTongly excited in at least one of three reactions (d, d'), (t, Ol) and ('He, d) were calculated. The resulting spectroscopic ampli­tudes and relative cross-sections arc collected in table VJI. 
+The picture of the nuclear states achieved in terms of the elementary modes of excitation ilisplays in a transparent manner the correlation aspects of the nuclear dynan1ics. 
+Resume. 
+We have shown that the nucleacr-field description of the nuclear structure is mathematically correct (cf. sect. 6 and 7) and that it smoothly joins the ranks of quantum electrodynamics and many-body field theories. We have also shown that its predictions are borne out by the experiment. 
+One thus achieves a simple picture of the nuclea;r structure. Each wave function, which is an exact solution of the m'1uy-body problem, contains only few components. Each of these components carry a label which re'1ds: "Only to be excited through inelastic smttering 11 or «Only to be excited in one­particle pickup reactions», i.e. each component corresponds to an observable, associated with '1 concrete experiment one knows how to carry out with the help of '1Ccelerators, detectors and targets. 
+* * * 
+We W'1Ut to '1cknowledgc the help of P. F. BORTIGNON, 0. H. DASSO, 
+R. LIOT'rA '1nd B. S. NILSSON in the preparation of particula;r subjects con­t'1ined in the present lectures. Discussions with 0. DRAGUN, G. G. DussEL, 
+E. MAQUEDA, R. PERAZZO, S. REICH and H. SoFB. are appreciated. 
+REFERENCES 
+[1]  B. BAYl\IAN:  lectures  on  Seniority,  q1tasi-particles,  and  collective  vibrations,  
+Princeton, N. J., 1960, unpublished.  
+[2]  L. N. COOPER: Phys. Rev., 104, 1189 (1956).  
+
+
+I~ f 
+J!i~ ' 
+ii 
+,\1 
+I 
+
+ll 
+li.·1·.
+I
+I~ 
+ii 
+\li 
+Ii.I \¥1 
+·~ 
+R'' 
+IIi '~ iiI 
+'j 
+;J
+l,•;; 
+;I 
+I 
+
+NUCLEAR SUPERFLUIDITY AND FIELD 'rITEOitY OF ELEi\1ENTARY EXCITATIONS 133 
+[3] 	G. RACAIT1 Phys. Rav., 63, 367 (1943), 
+['.!] 	B. R. l\'IOTTELSON: Oours de l'Ecole d'EtC de Physique Th6orig_ne de Les Houches (1958). 
+[5] 	D. R. Bts, R. A. BROGLIA, R. J, PERAZZO and K. KmrAR1 Niial. Phys., H3 A, 1 (1970). 
+[6] 	_I\., Borrn and B. R.11-fOTTELSON: N11clcar Structure, Vol. 2 (Ne...r York, N. Y., 1975). 
+[7] 	J. BARDEEN, L. N. COOPER and J. R. Sc1m1EFFER: Phys. Bev., 106, 162 (1957). 
+[8] 	N. N. BOGOLIUBOV: Nuovo O·inienlo, 7, 794 (1958). 
+[9] 	J. G. VALATIN: Niiovo 0-inicnto, 7, 84-3 (1958). 
+[10] 	_I\., LANE: ltuclear Theorv (Ne>\' York, N. Y., 1904). 
+[11] 	D. R. BEs and R. SORENSEN: .Advances in j_\Tuclear Physics, edited by l\1. BA­R.ANGER and E. VOGT, Vol. 2 (Nevv York, N. Y., 1960), p. 129. 
+[12] 
+B. BAYMAN' Nncl. Phys., 15, 33 (1060). 
+(13] A. I-I. WAPSTRA and N. B. Gov:E: Nuclear Data '.Pablcs, 9, 2G5 (1071). 
+(l 1i] J. II. BJERREGAARD, 0. HANSEN, 0. NATHAN, L. VISTISEN, R. CnAP11Ll..K and 
+
+
+S. 
+HINDSi Niial. Phys., 110 A, 1 (1968). 
+
+
+[15] 	J. I-I. BJERREGAARD, 0. HANSEN, 0. NATHAN, R. CHAPMAN and s. I-IINDS: Nucl. Phys., 131A, 481 (1969); E. R. FLYNN, ,J. G-. BEERY and A. G·. BLAIR: Niwl. Phys., 154 A, 225 (1070). 
+(16] 	D. G. FLEMING, l\f. BLANN, H. W. FULBRIGHT and J. +4-. ROBBINS: Nucl. Phys., 157 A, 1 (1070), 
+[17] 	D.R. Bii:s and R. +4-. BROGLIA: }.T,ucl. Phys., 80, 289 {1066). 
+(18] 	A. BoIIR: Gom.ptcs Rendus du Oo·ngrCs International de Physique j_\Tuclt!a-ire, Pari11, 1964, Vol. 1 (Paris, 1964), p. •!87. 
+[10] 	J. I-IOGAASEN·FELDMAN: Nucl. Phys., 28, 258 (1901). 
+[20] 	R. A. BROGLIA, C. RIEDEL and B. SORENSEN: Nucl. Phys., 107, l (1968). 
+[21] 	R. A. BROGLIA and B. SORENSEN: Nu.cl. Phys., 110 A, 241 (1968). 
+[22] 	R. A. BROGLIA: .An-n. of .Phys., 80, 60 (1072). 
+[23] 	IL A. BROGLIA: in Procecd·ings oj the Eleventh Su1nn1-cr Jlf1~cting of J\1uclear Physi· cists, edited by L. SIPS, Vol. 1 (Herceg Novi, 1966), p. 201. 
+[24] 	R. A ..BROGJ..IA, J\. 1\-fOLINARI and T. REGGE: On the hy<lro(lyna.niics of Fer1ni superfZ.uids (to be published). 
+[25] 	A. BOHR: this volurrie, p. 3. 
+[26] 	R. A. BuoGLIA, 0. HANSEN and C. RIEDEL: Ad-vances ·in J..Tuelear Physics, edited by l\:L BARANGER and E. VOGT, Vol. 6 (Ne"'-York, N. Y., 1973). 
+[27] 	E. R. FLYNN: priv:Lte cornrnunic[Ltion. 
+[28] 	W. A. LANDFORD und J, McGORY' Phys. Lett., 54 B, 238 (1073); W. A. LANDFORD' private communication. 
+[20] 	R. A. BROGLIA und C. RrnDELi Niwl. Phys., 92 A, 145 (1067). 
+[30] 	R •.A. BROGLIA, C. RIEDEL, B. SORENSEN and •r. UDAGAWA: Nitcl. Phys., 115 +~. 273 (1068). . 
+[31] 	R. A. BROGLIA: Syrnpos·iurn on T·wo-Nuclco·n '.11ransfer and Pa.iring ExcilaHons, Argonne Na1;ionul Laboratory, March 20-21, 1972, Report PHY-1972 II, p. 113. 
+[32] 	A. J. LEGGET'" Rev, J1fod. Phys., 47, 331 (1975). 
+[33] 	J. W. WEATLY1 Rev. Mod. Phys., 47, 415 (1975). 
+[34] 	J. H. BJI~RREGAARD, 0. I-IANSEN, 0. NATHAN nnd S. II INDS: .1Vtlcl. Phys., 89, 
+145 (1066). 1:-lfl] G. !Go, .P. D. BAH.::SES anJ E. F~. P.LYN};: .41111-. of Phyi;., G6, GO (lH71). 
+[36] 	D.R. BJ\R und ll. k BROGLTA1 Ph:1Js. Rea. 0, 3, 234H (Hl71). 
+[37] R ...A. HnoGT...L\, D. IL Bi~s 11nd 11. ~lLSSO:K: L~hys..Lett., 50T1, 21:i (107,1). [ilS] I. J{AGNARSSON a.nil IL .A_. BROGLTA: }{ncl. Phys., 263 A, illf5 (lfl7G). f39] I. 1-!A)tAi\IO'l'O: this volnnic, p. 234 and 252. 
+
+ii
+ii 
+l:t 
+134 	D. R. BES and R. A. BROGLI.A. 
+
+!A 
+[40] 	R. A. BROGLIA, R. J. LIO'.l'TA and B. NILSSON: to be published.
+
+le ~ 
+[4J] J. V. 1fAIIER, J. R. ERSKINE, A. 1\f. FRIEDMAN, J. P. SCHIFFER and IL H. = l SIE:i!ISSEN: Phys. Bev. Lett., 25, 302 (1970). ,r-[42] R. A. BROGLIA and P. F. BORTIGNON' Phys. Lett. 65 B, 221 (1976). ly l [43] R. JVI. DE Vnrns' Pliys. Rev. Lett., 35, 835 (1975). 
+[44] 	R. ?vl. DE VRIES, D. SHA.PIRA, l\f. R. CLONER, IT. E. GOVE, G. SORENSEN and
+
+be 
+I 
+G. GARRET1': Phys. Lett., 67 B, 19 (1977).
+
+if" 
+['!5] 	N. STEIN, C. Woons and ,J. SAUNIER: contribution i;o the European Go·nfercnce o·n Nuclear Physics with Heavy Ions, Ga.en, 197(}. 
+[46] 	R. R. BET'l'S: Proceedings of the Second International Oonfcrcnce on Glnslcring 
+
+Pheno1ncna in Nuclear Physics (College Park, Md., 1974). ed 
+[47] 	D. R. B.Es, R. A. BROGI..IA, 0. I-IANSEN and 0. NATHAN: Phys. Bep. (to be 
+published).
+
+ms 
+[48] J. P. PARIKH: }lucl. Phys., 63, 21-! (1965).
+
+Jli­
+[49] 	G. G. DusSEL, E. E. l\fAQUEDA and R. P. J. PERAZZO: N1tcl. Phys., 153 .A_, 469 
+
+(1!!70).les 
+[50] A. BOHR: in Nuclear Structure (Vienna, 1968), p. 179. ihe 
+[51] 	B. R. BAYMAN, D.R. B:Es and R. A. BROGLIA' Phys. Rev. Lett., 23, 299 (1969). 
+[52] 	D. R. BEs: Rev. Brasil. Fis., 2, 255 (1972). 
+[53] 	L. LANDAU' Journ. Phys. USSR, 5, 71 (1941). 
+[54] 	D. R. Bi::s, G. G. DussEL, R. A. BnoGLIA, R. LIO'l''l'A and B. R. l\foTTELSON: 
+
+I 
+Phys. Lett., 52 B, 253 (1974). 
+[55] 	R. A. BnoGLIA, B. R. IvioT'l'EI.SON, D. R. B:Es, R. LIOTTA and IT. SOFIA: Phys.
+
+!
+ure ' I Lett., 64 B, 29 (1976). 
+oJrn 
+
+i 
+I [56] D. R. Bi:s, R. A. BROGLIA, G. G. DussEL, R .•J. LIOTTA and I-I. JlrI. SoFIA: Nuel. 
+Phys., 260A, I, 27 (1976); D. R. B:Es, R. A. BROGLIA, G. G. DussEL, R. J.
+
+clso 
+I 
+''-l 	LIOTTA and R. P. J. PERAZZO: Nucl. Phys., 260.A., 77 (1976). 
+. ·1 
+[57] P. F. BORTIGNON: this volnrnc, p. 519. ave ' [58] J. UNGRIN, R. llrf. DIAl\IOND, P. O. T.TOl\I and B. ELBEK: Mat. Fys. Jlledcl. Dan. m1y Vid. Selsk., 38, No. 8 (1971). 
+\!
+mly 	[59] R. A. BROGLIA, J. S. LI.LLEY, IL PERAZZO and \V. R. PHILLIPS: Phys. Bev. 0, 
+~
+)ne­,ble, the 
+sso, con­
+SEL1 
+lions, 
+1, 1508 (1970). [QO] P. BARNES, E. ROMBERG, C. ELLEGAARD, R. CAS'l'EN, 0. HANSEN, J. MULLIGAN, 
+R. _I\.. BROGLIA ~nd R. LIO'l'TA: Nncl. Phys., 195A, 1146 (1972). 
+[61] 	P. F. BORTIGNON, R. A. I3ROGLIA, D. R. BEs and R. LIOTTA: Phys. Rep., 30 c, 305 (1977). . 
+[62] 	B. R. 1\fO'l"l'ELSON: private cornmunication; I. HAMAMOTO: this volu1ne, p. 234 and 252. 
+[63] 	B. WILDENTHAL, B. PREEDON, E. NE,VMAN and l\.f. CA'l'ES: Phys. Rev. Lelt., 19, 960 (1967); C. ELLEGAARD and P. VEDELSBY' Phys. Lett., 26 B, 155 (1968). 
+Rcvrinted Fro1n lJJlc111c11tary Jfodcs of E:rcilation i11 JYuclei @ 1077, LXIX Corso Soc. Ifr1lia11a di F'isica -Bologna -Ital11 
+
+

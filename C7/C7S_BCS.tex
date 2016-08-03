@@ -1,0 +1,556 @@
+\documentclass[a4paper,14pt]{book}
+%\documentclass[a4paper]{book}
+% \linespread{2.}
+%\documentclass[12pt]{article}
+%\documentclass[12pt]{cmmp}
+
+%%\usepackage{psfig}
+%\usepackage{harvard}
+\usepackage{epsfig}
+%%\usepackage{amsmath}
+\usepackage{amsfonts}
+%%\usepackage{amssymb}
+%%\usepackage{graphicx}
+%%
+%%\usepackage{txfonts}
+%%%\usepackage{mathrsfs}
+%
+%\usepackage{feynmf}     %<------------ Obbligatorio
+\unitlength=1mm         %<------------ Obbligatorio
+%
+\newcommand{\braket}[1]{\langle {#1} \rangle }
+\newcommand{\ket}[1]{|{#1} \rangle }
+\newcommand{\bra}[1]{\langle {#1}|}
+\usepackage{latexsym}
+\usepackage{amssymb}
+\usepackage{amsmath}
+\usepackage[varg]{txfonts}
+\usepackage{mathrsfs}
+\usepackage{upgreek}
+%\usepackage [latin1]{inputenc}
+\usepackage{verbatim}
+\usepackage{array}
+\usepackage{color}
+%\pagestyle{plain}
+\usepackage{graphicx}
+\DeclareMathAlphabet{\mathpzc}{OT1}{pzc}{m}{it}
+
+
+
+\begin{document}
+ \setcounter{chapter}{6}
+
+\chapter{Mean field, BCS solution of pairing}
+%
+%
+%Let us diagonalize the Hamiltonian introduced in Eq.(\ref{eqn:60}) in the mean field approximation (App. O). For this purpose, we have to extract a single-particle field from the two-body interaction
+%
+%\begin{equation}
+%H_p = -GP^{\dagger}P,
+%\label{eqn:65}
+%\end{equation}
+%
+%\noindent where
+%
+%\begin{equation}
+%P^{\dagger} = \sum_{\nu > 0} a_{\nu}^{\dagger} a _{\bar{\nu}}^{\dagger}.
+%\label{eqn:66}
+%\end{equation}
+%
+%\noindent In other words, we have to extract from $H_p$, a bilinear expression in the creation and annhilation operators. For this purpose we define the expectation value
+%
+%\begin{equation}
+%\alpha_0 = \langle BCS|P^{\dagger}|BCS \rangle = \langle BCS|P|BCS \rangle,
+%\label{eqn:67}
+%\end{equation}
+%
+%\noindent where the ground state of the mean field of the Hamiltonian given in Eq.(\ref{eqn:60}) has been denoted $|BCS\rangle$ (the Bardeen, Cooper, Schrieffer ground state of the system [25]). Although we do not know it yet, we assume it exists.
+%
+%One can now write Eq.(\ref{eqn:65}) as
+%
+%\begin{equation}
+%H_p = -G \left[ (P^{\dagger} -\alpha_0) + \alpha_0 \right] \left[ (P-\alpha_0) + \alpha_0 \right],
+%\label{eqn:67a}
+%\end{equation}
+%
+%\noindent and assume that the matrix elements of $(P^{\dagger} -\alpha_0)$ and of $(P-\alpha_0)$ in the state $|BCS\rangle$ are much smaller than $\alpha_0$. In other words, that the average value of the two-particle transfer operators $P^{\dagger}$ and $P$, are larger than the associated fluctuations. Thus, neglecting quadratic terms in these fluctuations, Eq.(\ref{eqn:67}) gives the pairing field
+%
+%\begin{equation}
+%V_p = - \Delta (P^{\dagger} +P),
+%\label{eqn:68}
+%\end{equation}
+%
+%\noindent where
+%
+%\begin{equation}
+%\Delta = G \alpha_0.
+%\label{eqn:69}
+%\end{equation}
+%
+%The Hamiltonian to be diagonalized is then the mean field pairing Hamiltonian
+%
+%\begin{equation}
+%(H_p)_{MF} = H_{sp} + V_p + \frac{\Delta^2}{G}.
+%\label{eqn:70}
+%\end{equation}
+%
+%\noindent Because the Hamiltonian is bilinear in creation and annhilation operators it is a single-particle operator. However, it is not diagonal, that is, it is not written as a product of a creation and of an annihilation operator acting on the same state which count the number of particles occupancy of these states, as e.g. $H_{sp}$ is (cf. Eq.(7.4)). To diagonalize this Hamiltonian we perform a rotation in the space of these operators (cf. Fig. \ref{fig:8.1}, by introducing the quasiparticle operator
+%
+%\begin{equation}
+%\alpha_{\nu}^{\dagger} = U_{\nu} a_{\nu}^{\dagger} - V_{\nu} a_{\bar{\nu}},
+%\label{eqn:71}
+%\end{equation}
+%
+%\begin{figure}[h!]
+%\centerline{
+%%\epsfig{file=figures/fig_8_1, width=10cm, silent}
+%}
+%\caption{Schematic representation of the unitary transformation (rigid rotation between the creation and annihilation particle $(a^\dagger,a)$ and quasiparticle operators $(\alpha^\dagger,\alpha)$ needed to diagonalize the Hamiltonian $(H_p)_{MF}$ (Eq. (8.7)).}
+%\label{fig:8.1}
+%\end{figure}
+%
+%To be able to create a particle in the state $\nu$ the state should be empty. Consequently, $U_{\nu}^2$ is the probability that the state $\nu$ is empty. Viceversa, to annhilate a particle in the state $\nu$, the state should be occupied. Accordingly, this happens with probability $V_{\nu}^2$.
+%
+%Because $a_{\nu}^{\dagger},a_{\nu}$ fulfill
+%
+%\begin{equation}
+%\{a_{\nu},a_{\nu}^{\dagger}\} = \delta(\nu, \nu'),
+%\label{eqn:72}
+%\end{equation}
+%
+%\noindent being fermion operators,
+%
+%\begin{equation}
+%\{\alpha_{\nu},\alpha_{\nu}^{\dagger}\} = (U_{\nu}^2 + V_{\nu}^2) = 1,
+%\label{eqn:73}
+%\end{equation}
+%
+%\noindent in keeping also with the fact that the transformation defined in Eq.(\ref{eqn:72}) is unitary. Inverting this transformation one obtains
+%
+%\begin{equation}
+%a_{\nu}^{\dagger} = U_{\nu}\alpha_{\nu}^{\dagger} + V_{\nu} \alpha_{\bar{\nu}}.
+%\label{eqn:74}
+%\end{equation}
+%
+%Writing the operators $H_{sp}$, $P^+$ and $P$ in terms of quasiparticles, one obtains three terms
+%
+%\begin{equation}
+%(H_p)_{MF} = U + H_{11} + H_{20} ,
+%\label{eqn:75}
+%\end{equation}
+%
+%\noindent where
+%
+%\begin{eqnarray}
+%\nonumber
+%U&=& 2 \sum_{\nu>0} (\varepsilon_{\nu} -\lambda)V_{\nu}^2 - \Delta \sum_{\nu>0} 2 U_{\nu}V_{\nu} +\frac{\Delta^2}{G}, \\
+%\nonumber
+%H_{11} &=& \sum_{\nu} \left\{ (\varepsilon_{\nu} - \lambda)(U_{\nu}^2 - V_{\nu}^2) + \Delta 2 U_{\nu}V_{\nu} \right\} (\alpha_{\nu}^{\dagger}\alpha_{\nu} + \alpha_{\bar{\nu}}^{\dagger} \alpha_{\bar{\nu}}),
+%\end{eqnarray}
+%
+%\noindent and
+%
+%\begin{equation}
+%H_{20} = \sum_{\nu>0} \left\{ (\varepsilon_{\nu} - \lambda) 2 U_{\nu} V_{\nu} - \Delta (U_{\nu}^2 - V_{\nu}^2) \right\} (\alpha_{\nu}^{\dagger}\alpha_{\bar{\nu}}^{\dagger} + \alpha_{\bar{\nu}}\alpha_{\nu}).
+%\label{eqn:76}
+%\end{equation}
+%
+%\noindent Setting
+%
+%\begin{equation}
+%(\varepsilon_{\nu} - \lambda) 2 U_{\nu} V_{\nu} - \Delta (U_{\nu}^2 - V_{\nu}^2) = 0 ,
+%\label{eqn:77}
+%\end{equation}
+%
+%\noindent that is, setting $H_{20} = 0$, a condition which can be shown to be equivalent to an energy minimization $\partial E_0 / \partial U_{\nu} = 0$, where $E_0 = \langle BCS | (H_p)_{MF} | BCS \rangle$ (cf. App. O), one obtains, together with Eq.(\ref{eqn:73}) the equations needed to determine the parameters $U_{\nu}$ and $V_{\nu}$, namely
+%
+%\begin{eqnarray}
+%\nonumber
+%2 U_{\nu} V_{\nu} &=& \frac{\Delta}{E_{\nu}} , \\
+%U_{\nu}^2 - V_{\nu}^2 &=& \frac{\varepsilon_{\nu} - \lambda}{\Delta},
+%\label{eqn:78}
+%\end{eqnarray}
+%
+%\noindent where
+%
+%\begin{equation}
+%E_{\nu} = \sqrt{(\varepsilon_{\nu} - \lambda)^2 + \Delta^2} ,
+%\label{eqn:79}
+%\end{equation}
+%
+%\noindent and where
+%
+%\begin{eqnarray}
+%\nonumber
+%V_{\nu} &=& \frac{1}{\sqrt{2}} \left( 1 - \frac{\varepsilon_{\nu} - \lambda}{E_{\nu}} \right) ^{1/2} , \\
+%U_{\nu} &=& \frac{1}{\sqrt{2}} \left( 1 + \frac{\varepsilon_{\nu} - \lambda}{E_{\nu}} \right) ^{1/2} .
+%\label{eqn:80}
+%\end{eqnarray}
+%
+%\noindent Consequently, $(H_p)_{MF}$ is now diagonal, sum of two terms namely
+%
+%\begin{equation}
+%U = 2 \sum_{\nu > 0} (\varepsilon_{\nu} - \lambda) V_{\nu}^2 - \frac{\Delta^2}{G} ,
+%\label{eqn:81}
+%\end{equation}
+%
+%\noindent and
+%
+%\begin{equation}
+%H_{11} = \sum_{\nu > 0} E_{\nu} \alpha_{\nu}^{\dagger} \alpha_{\nu} .
+%\label{eqn:82}
+%\end{equation}
+%
+%\noindent The parameters $U_{\nu}$ and $V_{\nu}$ which completely define the BCS mean field solution of the pairing Hamiltonian depend on the Fermi energy $\lambda$ and the gap parameter $\Delta$. The equations determining these parameters are the number equation
+%
+%\begin{equation}
+%N = \langle BCS | \hat{N} | BCS \rangle = 2 \sum_{\nu > 0} V_{\nu}^2 ,
+%\label{eqn:83}
+%\end{equation}
+%
+%\noindent where
+%
+%\begin{equation}
+%\hat{N} = \sum_{\nu >0} a_{\nu}^{\dagger} a_{\nu} ,
+%\label{eqn:84}
+%\end{equation}
+%
+%\noindent is the operator number of particles operator, and the gap equation
+%
+%\begin{equation}
+%\Delta = G \langle BCS | P^+ | BCS \rangle = G \sum_{\nu > 0} U_{\nu} V_{\nu} .
+%\label{eqn:85}
+%\end{equation}
+%
+%\noindent In other words
+%
+%\begin{eqnarray}
+%\nonumber
+%N &=& 2 \sum_{\nu > 0} V_{\nu}^2 , \qquad \qquad ({\rm number \;\; equation}) \\
+%\frac{1}{G} &=& \sum_{\nu > 0} \frac{1}{2 E_{\nu}} , \qquad \qquad ({\rm gap \;\; equation})
+%\label{eqn:86}
+%\end{eqnarray}
+%
+%\noindent allow to calculate $\lambda$ and $\Delta$ from the knowledge of $\varepsilon_{\nu}$ and of $G$.
+%
+%While the ground state energy is equal to $U$, the energy of the lowest excited state, that is, that of a two-quasiparticle state, generalization of a particle-hole excitation in the case of normal ($G=0$) systems, is
+%
+%\begin{equation}
+%H_{11}|\nu_1 \nu_2 \rangle = H_{11} \alpha_{\nu_1}^{\dagger} \alpha_{\nu_2}^{\dagger} | BCS \rangle = (E_{\nu_1} + E_{\nu_2}) | \nu_1 \nu_2 \rangle .
+%\label{eqn:87}
+%\end{equation}
+%
+%\noindent Consequently, there are no excited states with energy less than $2 \Delta$, the minimum value of $(E_{\nu_1} + E_{\nu_2})$.
+
+The pairing interaction correlates pairs of nucleons moving in time reversal states (Cooper pairs) over lengths of the order of $\xi=\hbar v_F/E_{corr}$, much larger than nuclear dimensions (cf. e.g. \cite{Bohr:75}), in keeping with the fact that the associated two--nucleon correlation energy is $E_{corr}\approx$ 0.5--2 MeV. The presence of these
+ extended, strongly overlapping virtual objects, known as Cooper pairs, affect most of the properties of nuclei close
+to their ground state, as well as of their decay.
+This is a natural consequence of the fact that Cooper pair formation and their eventual condensation (also virtual), not only introduces a new energy length (pairing gap) over which the Fermi energy becomes blurred like in the case of an effective (quantal) temperature, but above all it changes the statistics of the associated degrees of freedom. An example of the central role pairing correlations have on the properties of atomic nuclei is provided by the exotic decay $^{223}$Ra $\to ^{209}$Pb+ $^{14}C$. The measured decay constant 
+$\lambda= 4.3 \times 10^{-16}$s${^{-1}}$,
+implies that the wavefunction describing the ground state of the superfluid nucleus $^{223}$Ra has a component of amplitude of about $10^{-5}$
+corresponding to a shape closely resembling $^{209}$Pb in contact with $^{14}$C. 
+But this requirement can be fulfilled only if this exotic, strongly deformed system, is superfluid. In other words, if pairs of nucleons are correlated over 
+distances of the order of 20 fm, sum of the Pb and C diameters \cite{Barranco:88}.
+
+
+\subsection{Pairing correlations}
+
+Nuclear superfluidity can be studied at profit in terms  of the mean field, BCS diagonalization
+of the pairing Hamiltonian \cite{Bardeen:57both}, namely,
+\begin{equation}
+H = H_{sp} + V_p,
+\label{H}
+\end{equation}
+where
+\begin{equation}
+H_{sp} = \sum_{\nu} (\epsilon_{\nu} - \lambda) a^+_{\nu} a_{\nu},
+\label{Hsp}
+\end{equation}
+while 
+\begin{equation}
+V_p = - \Delta (P^+ + P) - \frac{\Delta^2}{G},
+\label{Vp}
+\end{equation}
+and
+\begin{equation}
+\Delta = G \alpha_0,
+\label{delta}
+\end{equation}
+is the pairing gap ($\Delta \approx$ 12 MeV/$\sqrt{A}$), $G$ ($\approx 25$ MeV/$A$ ) being the pairing coupling constant \cite{Bohr:75},
+and 
+\begin{equation}
+P^+ = \sum_{\nu>0} P^+_{\nu}= \sum_{\nu>0} a^+_{\nu}a^+_{\bar \nu},
+\label{P+}
+\end{equation}
+\begin{equation}
+P = \sum_{\nu >0} a_{\bar \nu} a_{\nu},
+\label{P-}
+\end{equation}
+are the pair addition and pair removal  operators, $a_{\nu}$ and $a^+_{\nu}$  being single-particle  creation  and annihilation  operators,
+$(\nu \bar \nu)$ labeling pairs of time reversal states.
+
+The BCS ground state wavefunction describing the most favorable configuration  of pairs to profit from the pairing interaction, can be 
+written in terms  of the product of the occupancy probabilities $h_{\nu}$ for individual pairs,
+\begin{equation}
+|BCS> = \Pi_{\nu} ( (1 - h_{\nu})^{1/2} + h_{\nu}^{1/2} a^+_{\nu}a^+_{\bar \nu}) |0>,
+\end{equation}
+where $|0>$ is the fermion vacuum.
+
+Superfluidity is tantamount to the existence of a finite average value of the operators  (\ref{P+}), (\ref{P-})
+in this state, that is, to a finite value of the order parameter
+\begin{equation}
+\alpha_0 = <BCS|P^+|BCS> = <BCS|P|BCS>^*,
+\end{equation}
+ which is equivalent to Cooper pair condensation. In fact, $\alpha_0$ gives  a measure of the 
+number of correlated pairs in the BCS ground state.
+While the pairing gap (\ref{delta}) is an important quantity relating theory with experiment, $\alpha_0$ 
+provides the specific measure  of superfluidity. In fact, the matrix elements of the pairing interaction
+may vanish for specific regions of space,  or in the case of specific pairs of time reversal orbits, but this does not necessarily
+imply a vanishing of the order parameter $\alpha_0$, nor the obliteration of superfluidity.
+
+In keeping with the fact that Cooper pair tunneling is proportional to $|\alpha_0|^2$, this quantity plays also the
+role of a $(L=0)$ two-nucleon
+transfer sum rule, sum rule which is essentially exhausted by the superfluid nuclear $|BCS>$ ground state (see Fig. 3). Within the above context, one can posit that two-nucleon transfer reactions are the specific probes of pairing in nuclei.   
+
+\subsection{Fluctuations}
+The BCS solution of the pairing Hamiltonian was recasted by Bogoliubov \cite{Bogoliubov:58} and Valatin \cite{Valatin:58} in terms of quasiparticles, 
+\begin{equation}
+\alpha^+_{\nu} = U_{\nu} a^+_{\nu} - V_{\nu} a_{\bar \nu},
+\end{equation}
+linear transformation inducing the rotation in  $(a^+,a)$-space which diagonalizes  the Hamiltonian (\ref{H}).
+
+The variational parameters $U_{\nu},V_{\nu}$ appearing in the above
+relation indicate that $\alpha^+_{\nu}$ acting on $|0>$ creates a particle 
+in the state $|\nu>$ which is empty with a probability $U^2_{\nu} \equiv (1 -h_{\nu})$, and annihilates a particle in the time reversal state $|\bar \nu>$
+(creates a hole) which is occupied with probability $V_{\nu}^2 (\equiv h_{\nu})$. Thus, 
+\begin{equation}
+|BCS> = \Pi_{\nu>0} (U_{\nu} +V_{\nu} a^+_{\nu}a^+_{\bar \nu}) |0>,
+\end{equation}
+is the quasiparticle vacuum, as $|BCS> \sim \Pi_{\nu} \alpha_{\nu} |0>$, the order parameter being 
+\begin{equation}
+\alpha_0 = \sum_{\nu>0} U_{\nu}V_{\nu}.
+\label{UV}
+\end{equation}
+Making use of these results (see also App. (Chapter 7 derivation spectroscopic amplitudes)) we collect in Table 1  the spectroscopic amplitudes associated with  the reactions  
+$^{A+2}$Sn(p,t)$^A$ Sn, for $A$ in the interval 112-126, as well as the spectroscopic amplitudes of other pairing vibrational modes (see below as well as \cite{Barranco:01,Gori:04}).
+
+% The relation (\ref{UV}) reflects the fact that the only formal consequence of pair condensation at the level   of mean field,
+% is the modification of the single-particle occupation probabilities in an energy interval of the order of $\Delta = G \sum_{\nu>0} U_{\nu}V_{\nu} (\approx $ 1-2 MeV)
+% around the Fermi energy $\epsilon_F$ ( note that $\epsilon_F/\Delta << 1)$, single-particle energies and  wavefunctions remaining the same,
+% as testified by the BCS number and gap equations, 
+The BCS number and gap equations are,
+\begin{equation}
+N = 2 \sum_{\nu>0} V_{\nu}^2,
+\label{numb}
+\end{equation}  
+\begin{equation}
+\frac{1}{G} = \sum_{\nu>0} \frac{1}{2 E_{\nu}},
+\end{equation}
+where 
+\begin{equation}
+V_{\nu} = \frac{1}{\sqrt{2}} \left( 1 - \frac{\epsilon_{\nu} - \lambda}{\epsilon_{\nu}} \right)^{1/2},
+\end{equation}
+\begin{equation}
+U_{\nu} = \frac{1}{\sqrt{2}} \left( 1 + \frac{\epsilon_{\nu} - \lambda}{\epsilon_{\nu}} \right)^{1/2},
+\end{equation}
+while the quasiparticle energy  is defined as 
+\begin{equation}
+E_{\nu} = \sqrt{(\epsilon_{\nu} - \lambda)^2 + \Delta^2}.
+\label{eqp}
+\end{equation}
+
+
+\subsection{Pairing rotations}
+
+The phase of the ground state BCS wavefunction may be chosen so that $U_{\nu} = |U_{\nu}| = U'_{\nu}$
+is real and $V_{\nu} = V_{\nu}' e^{2 i \phi}$ $(V'_{\nu} \equiv |V_{\nu}|)$. Thus \cite{Bardeen:57both,Schrieffer:64,Schrieffer:72},
+\begin{equation}
+|BCS(\phi)>_{\cal K}  = \Pi_{\nu>0} (U'_{\nu} + V'_{\nu} e^{-2 i \phi} a^+_{\nu} a^+_{\bar \nu}) |0> = 
+\Pi_{\nu>0} (U'_{\nu} + V'_{\nu} a^{'+}_{\nu} a^{'+}_{\bar \nu}) |0> = |BCS(\phi =0)>_{\cal K'},
+\label{mean}
+\end{equation}
+where $a^{'+}_{\nu} = e^{-i \phi}a^+_{\nu}$ and   $a^{'+}_{\bar \nu} = e^{-i \phi}a^+_{\bar \nu}$.
+This is in keeping with the fact that $a^+_{\nu}$ and $a^+_{\bar \nu}$ are single-particle  creation 
+operators which under gauge transformations (rotations
+in the 2D-gauge space of angle $\phi$) induced by the operator $G(\phi) = e^{- i \hat N (\phi)}$ and connecting the intrinsic and the laboratory frames of reference ${\cal K}$ and ${\cal K'}$ respectively, behave according to 
+$a^{'+}_{\nu} = {\cal G} (\phi) a^+_{\nu} {\cal G}^{-1} (\phi)= e^{- i \phi} a^+_{\nu}$ and 
+$a^{'+}_{\bar \nu} = {\cal G} (\phi) a^+_{\bar \nu} {\cal G}^{-1} (\phi)= e^{- i \phi} a^+_{\bar \nu}$, a consequence of the fact that $\hat N$ is the number operator and that $[\hat N, a^+_{\nu}] = a^+_{\nu}$.
+
+
+The fact that the  mean field ground state  ($|BCS(\phi)\rangle_{\cal K}$) is a product of operators - one for each pair state - acting on the vacuum,
+implies that (\ref{mean}) represents an ensemble of ground state wavefunctions averaged over systems with $... N-2,N,N+2 ...$ even number of particles.
+In fact, (\ref{mean}) can also be written in the form 
+
+%\newpage
+
+\begin{equation}
+|BCS>_{\cal K} = \left( \Pi_{\nu>0} U'_{\nu} \right ) 
+( 1 + ... + 
+\frac{e^{-(N-2)i \phi}}{\left(\frac{N-2}{2}\right)!} 
+\left( \sum_{\nu>0} c_{\nu} a^+_{\nu}a^+_{\bar \nu} \right)^{\frac{N-2}{2}} +  \\
+\frac{e^{-Ni \phi}}{\left(\frac{N}{2}\right)!} 
+\left(\sum_{\nu>0}c_{\nu} a^+_{\nu}a^+_{\bar \nu}\right)^{\frac {N}{2}}   \\
+\nonumber
+\end{equation}
+\begin{equation}
+ + \frac{e^{-(N+2)i \phi}}{\left(\frac{N+2}{2}\right)!} 
+\left(\sum_{\nu>0} c_{\nu} a^+_{\nu}a^+_{\bar \nu} \right)^{\frac {N+2}{2}} + ... 
+)|0\rangle,
+\end{equation} 
+where $c_{\nu} = V'_{\nu}/U'_{\nu}$.
+
+
+Adjusting the Lagrange multiplier $\lambda$ (chemical potential, see Eqs. (\ref{numb}-\ref{eqp})), one can ensure that the mean number of fermions 
+(Eq. (\ref{numb})) has the desired value $N_0$.
+Summing up, the BCS ground state is a wavepacket in the number of particles. In other words, it is a deformed state in gauge space  defining a privileged 
+orientation in this space, and thus an intrinsic coordinate system ${\cal K'}$ \cite{Anderson:58, Bohr:88,Bes:66}.
+The magnitude of this deformation is measured by $\alpha_0$.
+
+\subsection{Pairing vibrations}
+ 
+All the above arguments, point to a static picture of nuclear superfluidity which results from BCS theory. This is quite 
+natural, as one is dealing with a mean field approximation.
+The situation is radically changed  taking into account the interaction 
+acting among the Cooper pairs (quasiparticles) which has been neglected until now, that is the term
+$- G (P^+ -\alpha_0)(P-\alpha_0)$ left out in the mean field (BCS) approximation leading to (\ref{Vp}) \cite{Anderson:58,Bes:66}.
+This interaction can essentially be written as (for details see e.g. \cite{Brink:05} App. J)
+\begin{equation}
+H_{residual} = H^{'}_p + H^{''}_p,
+\end{equation} 
+where 
+\begin{equation}
+H^{'}_p = - \frac{G}{4} 
+\left( \sum_{\nu>0} (U^2_{\nu} - V^2_{\nu})(P^+_{\nu} + P_{\nu}) \right)^2,
+\end{equation}
+and 
+\begin{equation}
+H_p^{''} = \frac{G}{4} \left( \sum_{\nu>0} (P^+ - P) \right)^2.
+\end{equation}
+The term $H'_p$ gives rise to vibrations of the pairing gap  which (virtually) change particle number in $\pm$ 2 units. The energy
+of these pairing vibrations cannot be lower than 2$\Delta$. They are, as a rule, little collective, corresponding  essentially 
+to almost pure two-quasiparticle excitations (see excited $0^+$ states of Fig. 3).
+% (within this context, we refer to the two-nucleon  transfer cross section
+%of the excited $0^+$ states shown in ref. \cite{BB}).
+
+The term $H_p^{''}$ leads to a solution of particular interest, displaying exactly zero energy, thus being degenerate with
+the ground state. The associated wavefunction is proportional to the particle number operator and thus to the gauge operator inducing 
+an infinitesimal rotation in gauge space. The fluctuations associated with this zero frequency mode diverge, although the Hamiltonian 
+defines a finite inertia. 
+A proper inclusion of these  fluctuations (of the orientation angle $\phi$ in gauge space) restores gauge invariance in the $|BCS(\phi)>_{\cal K}$
+state leading to states with fixed particle number 
+\begin{equation}
+|N_0\rangle \sim \int_0^{2 \pi} d \phi e^{i N_0 \phi} |BCS(\phi)>_{\cal K} \sim 
+(\sum_{\nu>0} c_{\nu} a^+_{\nu}a^+_{\bar \nu})^{N_0/2} |0>.
+\end{equation}
+These are the members of the pairing rotational band, e.g. the ground states of the superfluid Sn-isotope nuclei. These states provide 
+the nuclear embodiment of Schrieffer's ensemble of ground state wavefunctions which is at the basis of the BCS theory of superconductivity. 
+
+Summing up, while the correlations associated with $H_p^{''}$ lead to divergent fluctuations  which eventually restore symmetry
+($[H_{sp} + H_p^{''}, \hat N] =0$),
+$H_p'$ gives essentially rise  to non-collective particle number fluctuations, which are essentially pure two-quasiparticle states.
+
+The situation is quite different in the case of normal systems, where pairing vibrations, namely the pair addition and pair removal modes \cite{Bohr:64,Bohr:75,Bes:66},
+are strongly excited in two--particle  transfer reactions (see Fig. 4). Let us elaborate on this point, making use of the so called two-level 
+model, in wihch the single-particle levels associated  with occupied (empty) states are assumed to be degenerate and separated by an energy $D$. 
+The parameter which measures the interplay between pairing correlations and shell effects is
+\begin{equation}
+x = \frac{2 G \Omega}{D},
+\end{equation}
+where $G (\approx 25 $/A MeV) is the pairing coupling constant , while $\Omega = (2 j+1)/2$ is the pair degeneracy
+of each of the two levels, assumed to be equal. Making use of the simple estimate of the spacing $D=2/\rho$ between levels close to the Fermi energy
+in terms of the level density  (for one type of nucleons, e.g. neutrons) $\rho = 3A/2 \epsilon_F$ \cite{Bohr:69}, one obtains $D= 4 \epsilon_F/3A$ which 
+ for $^{120}$Sn leads to $D \sim 0.4 MeV$ (cf. e.g. \cite{Brink:05} Ch. 2 and refs therein). Making use of the fact that the average pair degeneracy of the valence orbitals of $^{120}$Sn is
+approximately 3,  one obtains $x \approx 3$, implying that pairing  effects overwhelm shell effects  and the static (pairing rotational) 
+view of Cooper pair condensation is operative. 
+
+On the other hand, in a closed shell system like, e.g., $^{208}$Pb, $D \approx 3.4$ MeV. Making use of the fact that the last occupied orbit
+in $^{206}$Pb is a $p_{1/2}$ orbit, the first unoccupied being a $g_{9/2}$ level, one can use $\Omega =5$ in calculating  the value of $x$, which
+becomes $x =0.35$. This value indicates that, in the present case,  shell effects are dominant. 
+
+This does not mean that Cooper pairs are not present in the ground state  of $^{208}$Pb. It means that  they break as soon as they are created as virtual states through ground state correlations. Testifying to this scenario is the fact that  the expected $2p-2h$ $0^+$ state in $^{208}$Pb  at an energy of $ 2 D  \approx 6.8$ MeV, is observed at
+4.9 MeV. The difference between these two numbers corresponds almost exactly  to the sum of the  correlation energy of $^{208}$Pb (gs) (0.640 MeV)
+and of $^{210}$Pb (gs) (1.237 MeV). Thus, the first $0^+$ excited state of $^{208}$Pb corresponds to a two-phonons pairing vibrational state, product of the pair addition ($|^{210}$Pb$(gs)\rangle$) and of the pair removal ($|^{206}$Pb$(gs)\rangle$) modes of ($|^{208}$Pb$(gs)\rangle$).
+
+In other words, we are in  presence of an incipient attempt of condensation in terms of two  correlated Cooper pairs, which, forced to be separated  
+in two different nuclides
+by particle conservation, get together in the highly correlated two-phonon pairing vibrational state of $^{208}$Pb. 
+No surprise that  its microscopic structure can also be, rather easily, calculated almost exactly, by diagonalizing a schematic pairing force 
+$H_p = - G P^+P$, in the harmonic approximation (RPA). The two-nucleon transfer spectroscopic amplitudes associated with the  reactions 
+$^{206}$Pb(t,p)$^{208}$Pb(gs), $^{206}$Pb($^{18}$O,$^{16}$O)$^{208}$Pb(gs), $^{48}$Ca(t,p)$^{50}$Ca(gs), $^{10}$Be(p,t)$^8$Be(gs) and $^9$Li(p,t)$^7$Li(gs), and thus with the excitation (deexcitation) of pair addition and pair subtraction modes, are collected in Table 1. 
+For details, cf. \cite{Broglia:73a}. 
+
+
+Properly adjusting $G$ for a given value of particles $N$, one can make this excitation to coincide with twice the value given in Eq.(\ref{eqn:59}). Also to correlate the ground state, by the amount needed to reproduce the odd-even staggering expressed by Eq.(\ref{eqn:59}). This value is
+
+\begin{equation}
+G \approx \frac{25}{A} {\rm MeV}.
+\label{eqn:88}
+\end{equation}
+
+\noindent Making use of this value and of the empirical relation $\Delta = 12/\sqrt{A} {\rm MeV}$ one can write
+
+\begin{equation}
+\nonumber
+\frac{\Delta^2}{G} \approx 5 {\rm MeV},
+\end{equation}
+
+\noindent for the second term in Eq.(\ref{eqn:81}). To be noted that this gain in binding energy, is partially compensated by and increase in single-particle energy associated with the first term and due to the fractional occupation of the single-particle levels around the Fermi surface. The summed effect amounts to only about 1 MeV $(\approx \Delta)$ of extra binding energy acquired by the even-even system due to pairing with respect to the odd-even system. This quantity, {\it which is very important to characterize the structure of a nucleus close to the ground state}, is still very small compared to the total binding energy of the system ($\approx A \times 8 {\rm MeV} \approx 1 {\rm GeV}$).
+
+\begin{figure}[h!]
+\centerline{
+\includegraphics*[width=0.75\textwidth]{figs_C7S/fig_8_2}
+}
+\caption{Schematic representation of the occupation of single particles of a non-interacting and of a superficial Fermi system, like e.g. nucleons.}
+\label{fig:8.2}
+\end{figure}
+
+In other words, a system of independent particles is affected only on a small region ($\approx 2 \Delta$) around the Fermi energy as compared to this energy ($2\Delta/\lambda = 2\Delta/\varepsilon_F \approx 2-3 {\rm MeV}/36 {\rm MeV} \approx 0.1$). What is actually modified is the occupation of the single-particle levels around $\lambda$ (cf. Fig. \ref{fig:8.2}). For single-particle states fulfilling $|\varepsilon_{\nu} - \lambda| \gg 1.5 \Delta$, the system retains the single-particle properties\footnote{In connection with the discussion carried out after Eq. (100), we note that one can produce a particle-hole excitation based on the states with $|\varepsilon_{\nu} - \lambda| \gg 1.5 \Delta$. Such an excitation would have an energy which is at least $3 \Delta$, larger than that associated with the breaking of a Cooper pair.}. For single-particle states such that $|\varepsilon_{\nu} - \lambda| \lesssim 1.5 \Delta$, the occupancy of the levels are strongly modified and the system is composed of nucleons coupled to angular momentum $J=0$ (singlet states, i.e. $S=0$ and $L=0$, $J=L+S$). These pairs are known as Cooper pairs, and behave like bosons (cf. Apps. A and \AA , and Fig. \ref{fig:8.3}). In nuclei, the number of Cooper pairs is small, typically $4-6$ \footnote{Making use of the BCS solution for a single j-shell, $\Delta = G\Omega/2$, $\Omega = j+1/2$, for $N=\Omega$ (maximum value of $\Delta$ (cf. Ch. 12)). From the empirical values given in Eqs.(\ref{eqn:59}) and (\ref{eqn:63}), $\Omega = 2\Delta/G = (24/\sqrt{A} \;{\rm MeV})/(25/A \; {\rm MeV}) \approx \sqrt{A} \approx 10$ for medium heavy nuclei. Because $N=\Omega = 10$, one concludes that about $\approx 5$ Cooper pairs participate in the nuclear pairing condensation.}. One would thus expect strong fluctuations of the associated pairing gap (cf. Ch. 10 and Ch. 13), fluctuations which may blur many of the sharp properties found in the case of infinite systems (bulk matter, thermodynamic limit).
+
+
+\begin{figure}[h!]
+\centerline{
+\includegraphics*[width=0.75\textwidth]{figs_C7S/fig_8_3}
+}
+\caption{.}
+\label{fig:8.3}
+\end{figure}
+
+Cooper pairs are strongly overlapping and, as befits bosons they occupy the same (lowest energy) state, known also as condensate (cf. Fig. \ref{fig:8.4}). The only way to excite this condensate is by breaking a pair,
+\begin{figure}[h!]
+\centerline{
+\includegraphics*[width=0.75\textwidth]{figs_C7S/fig_8_4}
+}
+\caption{Schematic representation of the distribution of Cooper pairs (close dashed areas) in a superconducting (superfluid made out of fermions) system. To the left we display the so called Schafroth (independent) pair picture. To the right the (right) coherent picture, where Cooper pairs are strongly overlapping.}
+\label{fig:8.4}
+\end{figure}
+that is, by providing the system with, at least, and energy of $2 \Delta$. On the other hand, acting with an external field but providing an energy less than $2 \Delta$, the condensed phase will not react, as the first quantal excited state has an energy of at least $2 \Delta$.
+
+In particular, if we set a deformed nucleus (cf. Sect. 2.1) into rotation ($\hbar \omega_{rot} < 2 \Delta$) one would expect from the above picture the moment of inertia to be about $\frac{1}{2} {\cal I}_{{\rm rig}}$, where ${\cal I}_{{\rm rig}}$ is the rigid (independent particle motion, situation in which the orbitals of the nucleon are strongly anchored to the mean field) moment of inertia. This is because only the matter which is pushed directly by the walls will be set into motion, while the core which should be set into motion by "viscosity" will not react (cf. Fig. \ref{fig:8.5}), as the system cannot be excited but by breaking a pair, thus by receiving at least an energy $2 \Delta$.
+
+\begin{figure}[h!]
+\centerline{
+\includegraphics*[width=0.75\textwidth]{figs_C7S/fig_8_5}
+}
+\caption{Schematic representation of the reaction to rotation of the superfluid matter filling a deformed nucleus.}
+\label{fig:8.5}
+\end{figure}
+
+From the energy difference between members of a rotational band, which can be accurately parametrized according to the relation (cf. Fig. \ref{fig:2.5})
+
+\begin{equation}
+{\cal E}_I = \frac{\hbar^2}{2 {\cal I}} I(I+1),
+\label{eqn:89}
+\end{equation}
+
+\noindent one obtains a value of ${\cal I}$ which, at low angular momenta, is as predicted by pairing theory, that is, about one half the rigid moment of inertia. In other words, the system can be viewed as a spheroidal container filled with a non-viscous fluid, that is, a superfluid. If one sets the nucleus into rotation, one would then expect to observe a phase transition from the superfluid phase to the normal phase at a rotational frequency in which $\hbar \omega_{rot}$ approximates the value $2 \Delta$ needed to break a Cooper pair (cf. Fig. \ref{fig:8.6}). In fact, rotational bands have been observed, at very large values of the spin, displaying a rigid moment of inertia.
+
+As we discuss below, the situation is however more subtle than just stated, and is associated with the fact that the nucleus is a zero-dimension superfluid (cf. Chapter 9), displaying strong quantal size effects (QSE), that is, a discrete single-particle spectrum close to the Fermi energy (cf. e.q. Fig. \ref{fig:2.9}).
+
+\begin{figure}[h!]
+\centerline{
+\includegraphics*[width=0.75\textwidth]{figs_C7S/fig_8_6}
+}
+\caption{.}
+\label{fig:8.6}
+\end{figure}
+\end{document}

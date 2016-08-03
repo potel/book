@@ -1,0 +1,117 @@
+\documentclass[a4paper,11pt]{book}
+%\usepackage{chapterbib}
+\usepackage{dsfont}
+\usepackage[title]{appendix}
+\usepackage{slashbox}
+%\documentclass[a4paper]{book}
+% \linespread{2.}
+%\numberwithin{section}
+%\documentclass[12pt]{article}
+%\documentclass[12pt]{cmmp}
+
+%%\usepackage{psfig}
+%\usepackage{harvard}
+\usepackage{epsfig}
+\usepackage{amsmath}
+\usepackage{amsfonts}
+%\counterwithin{figure}{section}
+\usepackage{amssymb}
+\numberwithin{equation}{section}
+\numberwithin{figure}{section}
+\numberwithin{table}{section}
+%%\usepackage{graphicx}
+%%
+%%\usepackage{txfonts}
+%%%\usepackage{mathrsfs}
+%
+%\usepackage{feynmf}     %<------------ Obbligatorio
+\unitlength=1mm         %<------------ Obbligatorio
+%
+\newsavebox{\fmbox}
+\newenvironment{fmpage}[1]
+{\begin{lrbox}{\fmbox}\begin{minipage}{#1}}
+{\end{minipage}\end{lrbox}\fbox{\usebox{\fmbox}}}
+\newcommand{\braket}[1]{\langle {#1} \rangle }
+\newcommand{\ket}[1]{|{#1} \rangle }
+\newcommand{\bra}[1]{\langle {#1}|}
+\usepackage{latexsym}
+\usepackage[varg]{txfonts}
+\usepackage{mathrsfs}
+\usepackage{upgreek}
+\usepackage[round]{natbib}
+%\usepackage [latin1]{inputenc}
+\usepackage{verbatim}
+\usepackage{array}
+\usepackage{color}
+%\pagestyle{plain}
+\usepackage{graphicx}
+\DeclareMathAlphabet{\mathpzc}{OT1}{pzc}{m}{it}
+
+
+\begin{document}
+In the calculation of absolute reaction cross section two elements melt together: reaction and structure.
+
+
+In the case of weakly coupled probes like, as a rule, one--particle transfer processes are, the first element can be divided into two essentially separated components: elastic scattering (optical potentials), and transfer amplitudes connecting entrance and exit channels. In other words, the habitat of DWBA.
+
+
+In Fig. \ref{fig6.2.1} (a) a concrete embodiment of the formalism presented in the first part of this Chapter, worked out with the help of the software \textsc{one} (\cite{Potel:12b}), of global optical parameters (\cite{Dickey:82}) and of NFT spectroscopic amplitudes (cf. Table \ref{tab6.2.1}), is given. In it, the absolute differential cross section associated with the population of the low--lying state $|^{119}\text{Sn}(11/2^-;88 \text{keV})\rangle$ in the one particle pick up process $^{120}$Sn$(p,d)^{119}$Sn is compared with the experimental data. In Fig. \ref{fig6.2.1} (b) the theoretical predictions obtained with the help of \textsc{one} 	are compared to those calculated making use of the same spectroscopic amplitude and   optical potentials the software \textsc{fresco} \cite{Thompson:88}. 
+
+  \begin{figure}
+  \centerline{\includegraphics*[width=\textwidth,angle=0]{figs_C6/cross_teor_exp.pdf}}
+  \caption{}\label{fig6.2.1}
+  \end{figure}
+Similar calculations (\textsc{one}, NFT spectroscopic amplitudes and global optical parameters), have been carried for the reaction $^{120}$Sn$(d,p)^{121}$Sn $(j^{\pi};E_x)$ in connection with the population 	of the $|3/2^+; \text{gs}\rangle$ and $|11/2^-;E_x\approx 0 \text{MeV}\rangle$ states.
+
+
+In the stripping (\cite{Bechara:75}) experiment the 	ground state and the $11/2^-$ state where not resolved in energy. This is the reason why theory and experiment are only compared to the data for the summed $l=0+5$ differential cross section (cf. Fig. \ref{fig6.2.2} (a)), the separate theoretical predictions been displayed in Figs. \ref{fig6.2.2} (b) and (c).
+
+
+Let us now turn to the most fragmented low--lying quasiparticle state around $^{120}$Sn, namely that associated with the $d_{5/2}$ orbital 	(cf. \cite{Idini:13}, \cite{Idini:12}) In fact, five low--lying $5/2^+$ states have been populated in the 	reaction  $^{120}$Sn$(p,d)^{119}$Sn with a summed cross section $\sum_{i=1}^5 \sigma(2^\circ-25^\circ)\approx 8$ mb$\pm 2$ mb (\cite{Dickey:82}) while four are theoretically predicted with $\sum_{i=1}^4\sigma(2^\circ-25^\circ)= 6.2$ mb (see Fig. \ref{fig6.2.3}) (cf. also \cite{Idini:14}).
+
+
+This present context, namely that of probing the single--particle 	content of an elementary excitation, a rather trying situation, and provides a measure of the limitations encountered by such a quest.
+
+
+Analysis of the type presented above allows one to posit that structure and reactions are but just two aspects of the same physics. If one adds to this picture the fact that the optical potential -that is, the energy and momentum dependent nuclear dielectric function describing the medium 	where direct chemistry takes place- can be calculated microscopically (cf. \cite{Mahaux:85}, \cite{Broglia:71}, \cite{Fernandez:10}, \cite{Fernandez:10b}, \cite{Broglia:81b}, \cite{Pollarolo:83}, \cite{Dickhoff:05}, \cite{Jenning:11} ) in terms of the same elements entering structure calculations (i.e. spectroscopic amplitudes, single--particle wavefunctions, transition densities and eventually effective formfactors), the structure reaction loop closes itself.
+
+
+
+If one allows to the halos to be part of the daily nuclear structure paradigm, the equivalence between structure and reactions becomes even stronger, explaining in simple terms why one--particle transfer is likely to be, as a rule, the main channel contributing to the entrance channel depopulation (absorptive optical potential), in keeping with the large overlap displayed the corresponding single--particle wavefunctions, as compared to particle--hole configuration controlling inelastic processes (cf. Fig. \ref{fig2.B.3}).
+  \begin{figure}
+  \centerline{\includegraphics*[width=\textwidth,angle=0]{figs_C6/cross_teor_exp.pdf}}
+  \caption{}\label{fig6.2.2}
+  \end{figure}
+
+Searching for further contact points between structure and reactions, one can posit that the above parlance, although being essentially correct, does not emphasize enough the central role virtual, correlated particle--hole excitations play in the single--particle transfer process. In fact, as a result of the interweaving of single--particle (quasiparticle) motion and e.g. collective surface vibrations, particles become dressed, being able to contribute less (differently) to the direct transfer process but, eventually, opening new doorway channels (states) (cf. \cite{Feshbach:58}, \cite{Rawitscher:87}, \cite{Bortignon:81b}) to depopulate the entrance channel (cf. figura 1D4 de la introduccion), similar to those responsible for the breaking of the single--particle strength ($Z_\omega(=m/m_\omega)$) and damping giant resonances and renormalize low--lying collective 	states (cf. \ref{fig6_C2x}, \ref{fig6_C3x}, \ref{fig6_E1}, \ref{fig6_E2}).
+  \begin{figure}
+  \centerline{\includegraphics*[width=\textwidth,angle=0]{figs_C6/cross_teor_exp.pdf}}
+  \caption{}\label{fig6.2.3}
+  \end{figure}
+
+It seems then fair to say that the importance of the coupled channels approach to reactions (cf. e.g. \cite{Thompson:88}, \cite{Thompson:13}, \cite{Tamura:70}, \cite{Ascuitto:69}, \cite{Ascuitto:70}, \cite{Ascuitto:71}, \cite{Ascuitto:72}; cf. also \cite{Fernandez:10}, \cite{Fernandez:10b}) is not so much, or at least not only, that it is able to handle situations like for example one--particle transfer to members of a rotational band, alas at the expenses of eventually adjusting the optical potential, but that it reminds us how intimately connected in nuclei, probed and probe are.
+
+
+On the other hand for most of the situations dealt in the present monography, it is transparent te power, also reflects the physics, of perturbative DWBA (e.g. 1st for one--nucleon transfer and 2nd for Cooper pair tunneling), coupled together 
+with NFT elementary modes of nuclear excitation approach.
+
+
+To which extent a \textsc{fresco} like software built on a NFT basis will ever be attempted is an open question. Note in any case the serious attempts made at incorporating so called core excitations within the \textsc{fresco} framework (\cite{Fernandez:10}, \cite{Fernandez:10b}). 
+
+
+\begin{table}
+\begin{tabular}{|c|c|c|c|}
+\hline  &  & $^{120}$Sn$(p,d)^{119}$Sn($j$) & $^{120}$Sn$(d,p)^{121}$Sn($j$) \\ 
+\hline $j$ & $E_j$ (MeV) & $\bar V_j^2$ & $\bar U_j^2$ \\ 
+\hline $h_{11/2}$ & 1.54 &  (1.34) 0.25 (0.28) & (1.25) 0.55 (0.49) \\ 
+\hline $d_{3/2}$ & 1.27  & (1.27) 0.35 (0.41) & (1.25) 0.41 (0.44)  \\ 
+\hline 
+\end{tabular}\caption{The properties of the main peaks of the $h_{11/2}$ and $d_{5/2}$ strength functions of $^{120}$ calculated taking into account the interweaving of fermionic and bosonic elementary modes of excitation with NFT and their consequences in both the normal and abnormal densities (cf. \cite{Idini:12}; \cite{Idini:13} see also \cite{Idini:14} where the spin degrees of freedom, solely repulsive pairing channel ($^1S_0$) in finite nuclei, has also been included). In parenthesis, experimental (energies) and empirical (single--particle strength) data are given (\cite{Bechara:75}, \cite{Dickey:82}).}\label{tab6.2.1}
+\end{table}
+
+
+
+
+ \bibliographystyle{abbrvnat}
+ \bibliography{C:/Gregory/Broglia/notas_ricardo/nuclear_bib}
+\end{document} 

@@ -1,0 +1,505 @@
+\documentclass[a4paper,14pt]{article}
+%\documentclass[a4paper]{book}
+% \linespread{2.}
+%\documentclass[12pt]{article}
+%\documentclass[12pt]{cmmp}
+
+%%\usepackage{psfig}
+%\usepackage{harvard}
+\usepackage{epsfig}
+%%\usepackage{amsmath}
+\usepackage{amsfonts}
+%%\usepackage{amssymb}
+%%\usepackage{graphicx}
+%%
+%%\usepackage{txfonts}
+%%%\usepackage{mathrsfs}
+%
+%\usepackage{feynmf}     %<------------ Obbligatorio
+\unitlength=1mm         %<------------ Obbligatorio
+%
+\newcommand{\braket}[1]{\langle {#1} \rangle }
+\newcommand{\ket}[1]{|{#1} \rangle }
+\newcommand{\bra}[1]{\langle {#1}|}
+\usepackage{latexsym}
+\usepackage{amssymb}
+\usepackage{amsmath}
+\usepackage[varg]{txfonts}
+\usepackage{mathrsfs}
+\usepackage{upgreek}
+%\usepackage [latin1]{inputenc}
+\usepackage{verbatim}
+\usepackage{array}
+\usepackage{color}
+%\pagestyle{plain}
+\usepackage{graphicx}
+\DeclareMathAlphabet{\mathpzc}{OT1}{pzc}{m}{it}
+
+
+
+\begin{document}
+\section{On the relative importance of successive, simultaneous, and pairing induced two--particle transfer}
+Let us denote
+\begin{equation}\label{eq_est_1}
+    H=T+V,
+\end{equation}
+the total hamiltonian describing the nuclear system, where $V$ is the nuclear two--body interaction.
+
+
+The fact that the nuclear quantality parameter has a value of $Q\approx 0.4$ testifies to the validity of independent particle motion in nuclei. This is tantamount to saying that there exist a single--particle potential $U$, such that
+\begin{equation}\label{eq_est_2}
+\langle \Psi_0 | U | \Psi_0 \rangle \ll \langle \Psi_0 |(V- U )| \Psi_0 \rangle,
+\end{equation}
+where $\Psi_0$ is the exact ground state wavefunction, that is, $H\Psi_0=E_0 \Psi_0$. One can the write \ref{eq_est_1} as
+\begin{equation}\label{eq_est_3}
+H=T+V_{eff},
+\end{equation}
+where
+\begin{equation}\label{eq_est_4}
+V_{eff}=U+(V-U).
+\end{equation}
+Let us now consider a reaction in which two nucleons are transferred between target and projectile, that is,
+\begin{equation}\label{eq_est_5}
+a(=b+2)+A\rightarrow b+B(=A+2).
+\end{equation}
+The transfer cross section is proportional to the square of the amplitude
+\begin{equation}\label{eq_est_6}
+\sqrt{\sigma}\sim \langle bB | V_{eff} | aA \rangle = \langle bB | U | aA \rangle + \langle bB | (V-U) | aA \rangle.
+\end{equation}
+Let us assume that the transferred nucleons are e.g. two neutrons moving in time reversal states lying close t othe Fermi energy (Cooper pair). In this case it is natural to assume that the operative component of $(V-U)$ is the pairing interaction
+\begin{equation}\label{eq_est_7}
+V_p=-GP^\dagger P,
+\end{equation}
+where
+\begin{equation}\label{eq_est_8}
+P^\dagger=\sum_{\nu>0}a_\nu^{\dagger}a_{\bar\nu}^{\dagger},
+\end{equation}
+is the pair operator, and
+\begin{equation}\label{eq_est_9}
+G\approx\frac{18}{A}\; \text{MeV},
+\end{equation}
+is the pairing coupling constant for nucleons moving in an extended (2--3 major shell) configuration.
+
+
+One can then write Eq. \ref{eq_est_6} as
+\begin{equation}\label{eq_est_10}
+\sqrt{\sigma}=\sqrt{\sigma_1}+\sqrt{\sigma_2},
+\end{equation}
+where
+\begin{equation}\label{eq_est_11}
+\sqrt{\sigma_1}\sim \langle Bb | U| aA\rangle \approx 2\left(\frac{|V_0|}{2}\right)\mathcal{O}, \; \text{(SUCC+NO)}
+\end{equation}
+and
+\begin{equation}\label{eq_est_12}
+\begin{split}
+\sqrt{\sigma_2}\sim & \langle Bb |V-U| aA\rangle = \langle Bb |H_p| aA\rangle\\
+&\approx GU(b)V(B)\approx\frac{G}{2}, \; \text{(PAIRING)}
+\end{split}
+\end{equation}
+
+In the process described by the transfer amplitude $\langle Bb |U| aA\rangle$, one nucleon is transferred under the effect of the single--particle potential of depth $V_0(\approx -50$ MeV ) while, simultaneously, the second nucleon moves over from a single--particle orbit centered around $b$ to one centered around $A$ profiting of the non--orthogonality of the corresponding wavefunctions $\varphi^{(b)}(r_{1b})$ and $\varphi^{(A)}(r_{1A})$. Within this context, it is then natural that $\mathcal{O}$ stands for the overlap between these two  wavefunctions, that is, (see below simple estimate of $\mathcal{O}$),
+\begin{equation}\label{eq_est_13}
+\mathcal{O}=\langle \varphi^{(b)}|\varphi^{(A)}\rangle \approx 0.3 \times 10^{-2},
+\end{equation}
+and that (\ref{eq_est_11}) is known as the sum of the simultaneous plus non--orthogonality contributions to the two--nucleon transfer amplitude. Of notice that the prefactor 2 in (\ref{eq_est_11}) is associated with the fact that two nucleons can choose to jump from one system to the other through non--orthogonality while the factor $|V_0|/2$ is associated with the fact that transfer takes mainly place at the surface.
+
+
+The term (\ref{eq_est_12}) corresponds to the simultaneous $(t,p)$ transfer via the pairing two--body interaction $V_p$ (see Eq. (\ref{eq_est_7})), $U(A)$ and $V(B)$ being the product of two occupation amplitudes: $U(A)$ measures the availability of free single--particle orbitals around the Fermi energy in the target nucleus, while $V(B)$ reflects the degree of occupancy of levels in the residual system. Close to the Fermi energy $U(b)V(B)\approx (1/\sqrt{2})^2=1/2$, leading to the final expression of (\ref{eq_est_12}).
+
+
+In keeping with the fact that the ratio of transfer amplitudes
+\begin{equation}\label{eq_est_14}
+\begin{split}
+\left(\frac{\sigma_1}{\sigma_2}\right)^{1/2}&\approx 2\frac{|V_0|}{2}\times \mathcal{O}\frac{1}{G/2}\approx 2\times A\times 10^{-2}\\
+& \approx 2 (A\approx 100),
+\end{split}
+\end{equation}
+is larger that one, and that the correlation length of nuclear Cooper pairs ($\xi\approx \hbar v_F/2\Delta \approx 30$ fm) is larger than nuclear dimensions, one can expect  that the successive transfer of two nucleons under the influence of the single--particle field, can give an important contribution to the total transfer amplitude $\sqrt{\sigma}$. In other words, we expect the process
+
+
+\begin{equation}\label{eq_est_15}
+a(=b+2)+A \rightarrow f(=b+1)+F(A+1)\rightarrow b+B(=A+2)
+\end{equation}
+gives a consistent contribution to $\sqrt{\sigma}$. The associated amplitude can be written as
+
+\begin{equation}\label{eq_est_16}
+\begin{split}
+\sqrt{\sigma_3}\sim & \sum_{fF}\frac{\langle bB|U|fF\rangle \langle fF|U|aA\rangle}{E_{aA}-E_{fF}}\\
+& \approx \frac{(V_0/13)(V_0/13)}{\Delta E},
+\end{split}
+\end{equation}
+the factor 1/7 appears in each of the steps (instead of 1/2, see (\ref{eq_est_11})) in keeping with the fact that many other reactions channels and then, absorptive processes will take place at closer distance in two--step channels (of notice that 1/7 corresponds to $r=R_0+2.5 a$).
+
+
+Typical values of the energy denominator in (\ref{eq_est_16}) are $\Delta E=30$ MeV for medium heavy nuclei lying along the stability valley.
+
+\section{Transfer amplitudes}
+Making use of a simplified expression for the elastic scattering amplitude, that is
+
+\begin{equation}\label{eq_est_17}
+\sqrt{\sigma_{el}}\sim \langle aA|U|aA\rangle,
+\end{equation}
+one can calculate the transfer probabilities associated with the different processes discussed above, namely
+\begin{equation}\label{eq_est_18}
+P_i=\left(\frac{\sigma_i}{\sigma_{el}}\right)=\left\{
+\begin{array}{l}
+  \left|\frac{\langle bB|U|aA\rangle}{\langle aA|U|aA\rangle}\right|^2\approx \mathcal{O}^2\approx 0.9 \times 10^{-5}\quad (i=1), \\
+  \left|\frac{\langle bB|V_p|aA\rangle}{\langle aA|U|aA\rangle}\right|^2\approx \left(\frac{G}{2V_0}\right)^2\approx 1.4 \times 10^{-6}\quad (i=2), \\
+    \left|\frac{\langle bB|U|fF\rangle\langle fF|U|aA\rangle}{\Delta E\langle aA|U|aA\rangle}\right|^2\approx \left(\frac{V_0}{170\Delta E}\right)^2\approx 0.96 \times 10^{-4}\quad (i=3).
+\end{array}
+\right.
+\end{equation}
+Because all these probabilities are small, one can write
+\begin{equation}\label{eq_est_19}
+\sigma_i=P_i\sigma_{el},
+\end{equation}
+where
+\begin{equation}\label{eq_est_20}
+\begin{split}
+\sigma_{el}=&\left(\frac{\mu_\alpha}{2\pi\hbar^2}\right)^2|\langle aA|U|aA\rangle|^2\\
+&\approx \left(\left(\frac{\mu_\alpha}{2\pi\hbar^2}\right)(V_0)\right)^2U_0^2\\
+&\approx \left( 1.8 \text{MeV}^{-1}\text{fm}\right)^2 \left( 50 \text{MeV}\right)^2 \\
+&\approx \left( 90\text{fm}\right)^2 =0.8 \text{b}
+\end{split}
+\end{equation}
+where use has been made of the effective volume associated with the reaction process (see   )
+\begin{equation}\label{eq_est_21}
+V_{ol}\approx \frac{4\pi}{3}3R^2a\approx 12 A^{2/3} \text{fm}^3\approx 260 \text{fm}^3,
+\end{equation}
+as well as of $\frac{\mu_\alpha}{2\pi\hbar^2}$ factor of the typical two--nucleon transfer reaction $^{120}$Sn+p$\rightarrow ^{118}$Sn+t, that is (see  ),
+\begin{equation}\label{eq_est_22}
+\frac{\sqrt{\mu_\alpha\mu_\beta}}{2\pi\hbar^2}\approx \frac{\sqrt{3}M}{2\pi\hbar^2}\approx \frac{1}{145} \text{MeV}^{-1}\text{fm}^{-2}.
+\end{equation}
+Summing up, one can write
+\begin{equation}\label{eq_est_23}
+\sigma_i=P_i0.8\text{b}.
+\end{equation}
+Making use of (\ref{eq_est_18}) one obtains
+\begin{equation}\label{eq_est_24}
+\sigma_i=\left\{
+\begin{array}{l}
+  0.7\times 10^{-2} \text{mb}\quad (i=1), \\
+   1.1\times 10^{-3} \text{mb}\quad (i=2), \\
+    8 \,\text{mb}\quad (i=1),\quad (i=3).
+\end{array}
+\right.
+\end{equation}
+These numbers, although worked out for $A$=100 can be rescaled in connection with the reaction $^{11}$Li$(p,t)^9$Li(gs), in which case, microscopic calculation lead to $d\sigma_1(\theta=60^\circ)/d\Omega\approx 0.01$mb/sr and $d\sigma_3(\theta=60^\circ)/d\Omega\approx 5$mb/sr.
+
+\section{Inelastic scattering following two--particle transfer: final state interaction}
+This subject is qualitatively discussed in connection with the $^{11}$Li$(p,t)^9$Li$(1/2^-;2.69)$, but of course is a general question, also in connection with the validity of considering perturbation theory instead of coupled channels.
+
+
+
+In keeping with the fact that the first excited state of $^9$Li can be viewed as
+
+\begin{equation}\label{eq_est_25}
+|^9\text{Li}(1/2^-;2.69 \text{MeV})\rangle\approx|2^+\left(^8\text{Be}\otimes p_{3/2}(\pi)\right)_{1/2^-}\rangle,
+\end{equation}
+this state can, in principle, be excited in a two--step process, namely
+\begin{equation}\label{eq_est_26}
+\text{gs ($^{11}$Li)+t$\;\longrightarrow\;$ gs ($^{9}$Li)+p$\;\longrightarrow \;1/2^-$ ($^{9}$Li)+p}.
+\end{equation}
+
+
+Let us calculate the probability associated with the inelastic scattering of the lowest $2^+$ of $^8$Li. In this case, we are interested in the component of $V-U$ corresponding to $\delta U_C= -KF\alpha=-R_0\frac{\partial U}{\partial r}\beta_L$, namely the field associated with the inelastic excitation of multipole vibrations. Making use of the Saxon--Woos potential one obtains
+\begin{equation}\label{eq_est_27}
+R_0\frac{\partial U}{\partial r}=\frac{R_0}{a}\frac{\exp\left(\frac{(r-R_0)}{a}\right)}{\left(1+\exp\left(\frac{(r-R_0)}{a}\right)\right)^2}.
+\end{equation}
+In keeping with the fact that
+\begin{equation}\label{eq_est_28}
+\left\langle R_0 \left.\frac{\partial U}{\partial r}\right|_{r=R_0}\right\rangle \approx \left\langle \frac{R_0 U_0}{a}\right\rangle \approx 1.2 U_0 \text{MeV} \approx -60 \text{MeV}
+\end{equation}
+and that the main contributions of surface dominated reactions processes is estimated to arize from distances of the order of $r\approx R_0 + 2.5 a$, one obtains
+\begin{equation}\label{eq_est_29}
+\begin{split}
+\left\langle \frac{R_0}{a}\frac{e^{2.5}U_0}{\left(1+\exp 2.5\right)^2}\right\rangle &= \left\langle \frac{R_0 U_0}{a}\right\rangle\frac{e^{2.5}}{\left(1+\exp 2.5\right)^2}\\
+&\approx1.2U_0\times 0.7 \times 10^{-1}=0.84\times 10^{-1}U_0.
+\end{split}
+\end{equation}
+Thus
+\begin{equation}\label{eq_est_30}
+\langle bB^*|\delta U_C|bB\rangle \approx 0.84\times 10^{-1}U_0 \beta_L.
+\end{equation}
+Consequently
+
+\begin{equation}\label{eq_est_31}
+\begin{split}
+P_{inel} \approx &\left|\frac{\langle bB^*|\delta U_C|aA\rangle}{\langle aA|U|aA\rangle}\right|^2=\left(0.84\times 10^{-1} \beta_L\right)^2\\
+&\approx 0.7\times 10^{-2}\beta_L^2.
+\end{split}
+\end{equation}
+In keeping with the fact that the $\beta_L$ associated with the lowest $2^+$ vibrational states of the Sn--isotopes and of $^8$are $\approx 0.1$ and $\approx 1$ respectively one can write
+
+\begin{equation}\label{eq_est_32}
+P_{inel}=\left\{
+\begin{array}{l}
+  0.7\times 10^{-4} \quad \text{(Sn--isotopes)}, \\
+   0.7\times 10^{-2} \quad \text{($^{11}$Li)}. \\
+\end{array}
+\right.
+\end{equation}
+Making use of the results collected in (\ref{eq_est_18}),
+\begin{equation}\label{eq_est_33}
+\begin{split}
+\sqrt{P(p,t)}=&\sqrt{P_1}+\sqrt{P_2}+\sqrt{P_3}\\
+&=\sqrt{0.9\times 10^{-1}}+\sqrt{1.4\times 10^{-6}}+\sqrt{0.96\times 10^{-4}}\\
+&\approx 3\times 10^{-3}+1.2\times 10^{-3}+0.98\times 10^{-2}\\
+&\approx 1.4 \times 10^{-2}.
+\end{split}
+\end{equation}
+Thus
+\begin{equation}\label{eq_est_34}
+P((p,t)\otimes P(\text{inel}))=P(p,t)P(\text{inel})=\left\{
+\begin{array}{l}
+  2\times 10^{-4}\times 10^{-4}\approx 10^{-8} \quad \text{(Sn)}, \\
+   2\times 10^{-4}\times 10^{-2}\approx 10^{-6} \quad \text{($^{11}$Li)}, \\
+\end{array}
+\right.
+\end{equation}
+in overall agreement with th result of microscopic calculations (for $^{11}$Li).
+\section{Simple estimate $\mathcal{O}$}
+The nuclear density can be parametrized according to
+\begin{equation}\label{eq_est_35}
+\rho(r)=\frac{\rho_0}{1+\exp\left(\frac{r-R_0}{a}\right)}.
+\end{equation}
+Let us calculate this function for 
+\begin{equation}\label{eq_est_36}
+r=R_0+3a,
+\end{equation}
+that is 
+\begin{equation}\label{eq_est_37}
+\rho(r=R_0+3a)=\frac{\rho_0}{1+\exp 3}=5\times 10^{-2}\rho_0.
+\end{equation}
+In other words, we assume that the main transfer takes place from densities of the order of 5\% saturation density
+\begin{equation}\label{eq_est_38}
+\mathcal{O}\approx \frac{\rho_A(R_0^A+3a)\rho_a(R_0^a+3a)}{\rho_0^2}=25\times 10^{-4}\approx 0.3 \times 10^{-2}.
+\end{equation}
+another estimate 
+\begin{equation}\label{eq_est_39}
+r=R_0+2.5a,
+\end{equation}
+for which
+\begin{equation}\label{eq_est_40}
+\rho(r=R_0+2.5a)=\frac{\rho_0}{1+\exp 2.5}\approx 0.76\times 10^{-1}\rho_0,
+\end{equation}
+leading to 
+\begin{equation}\label{eq_est_41}
+\mathcal{O}\approx 0.5 \times 10^{-2}.
+\end{equation}
+\section{Simple estimate of $\frac{(\mu_\alpha \mu_\beta)^{1/2}}{2\pi\hbar^2}$.}
+Let us do it for the case of $^{120}$Sn+p $\longrightarrow ^{118}$Sn+t. In this case
+\begin{equation}\label{eq_est_42}
+\begin{split}
+&\mu_\alpha=\frac{120}{121}M\approx M,\\
+&\mu_\beta=\frac{118\times  3}{121} \approx 2.9 M.
+\end{split}
+\end{equation}
+Thus
+\begin{equation}\label{eq_est_43}
+\begin{split}
+\frac{\sqrt{\mu_\alpha\mu_\beta}}{2\pi\hbar^2}&\approx \frac{\sqrt{3}M}{2\pi\hbar^2}=\frac{\sqrt{3}}{2\pi 40 \text{MeV fm}^2}\\
+&\approx \frac{1}{145}\times \text{MeV}^{-1}\times \text{fm}^{-2}
+\end{split}
+\end{equation}
+\section{Simple estimate of $V_{ol}$}
+In keeping with the assumption that transfer processes are expected to take place at the nuclear surface, the effective volume associate with such processes can be estimated to be
+\begin{equation}\label{eq_est_44}
+\begin{split}
+V_{ol}&=\frac{4\pi}{3}(R^3-(R+a)^3)\\
+&\approx \frac{4\pi}{3}3aR^2\approx \frac{4\pi}{3}(2\text{fm})R^2\\
+&\approx \frac{8\pi}{3}(1.2A^{1/3})^2\text{fm}^3\\
+&\approx 1.2 A^{1/3}\text{fm}^3\approx 260 \text{fm}^3 (A\approx 100)
+\end{split}
+\end{equation}
+\section{Calculation of the (p,t) strength function}
+An important component of the interaction which binds the dineutron halo of $^{11}$Li to the core $^9$Li is associated with the exchange, between the two neutrons of dipole (pigmy $1^-$ resonance of $^{11}$Li) and quadrupole ($2^+$ mode of $^9$Li) vibrations. Consequently, it is expected that resonant effects can be observed in the (p,t) strength function in which this neutrons are picked--up from $^{11}$Li. In keeping with the fact that successive transfer plays a central role in the two--particle pick up process, the corresponding transfer amplitude can be written as
+\begin{equation}\label{eq_est_45}
+\begin{split}
+&\left\langle \chi^{(-)}\sum_{fF}\frac{\langle bB|U|fF\rangle\langle fF|U|aA\rangle}{E_{aA}-E_{fF}}\chi^{(+)}\right\rangle\\
+&\approx \left\langle \frac{e^{iqr}}{\hbar \omega_L}\right\rangle\sim \left\langle e^{i(qr-\ln \tau/\omega_L )}\right\rangle\\
+&\sim \cos\left(q(E_{CM})r-\ln \tau/\omega_L\right).
+\end{split}
+\end{equation}
+Of notice that (p,t) strength function measurements can be viewed as a frequency dependent single Cooper pair transfer, and thus in some way connected to $\omega$--dependent Josephson supercurrent measurement.
+\section{Relative importance of successive and simultaneous transfer and non-orthogonality corrections}
+
+
+In what follows we discuss the relative importance of successive and simultaneous two-neutron transfer and of non-orthogonality 
+corrections associated with the reaction 
+
+\begin{equation}
+\alpha \equiv  a(=b+2) + A \to b + B(=A+2) \equiv \beta 
+\label{A1}
+\end{equation}
+in the limits of independent particles and of strongly correlated Cooper pairs, making use for simplicity of the semiclassical approximation (for details cf. \cite{Broglia:04a},\cite{Broglia:75}  and refs. therein), in which case the two-particle transfer differential cross section can be written as
+
+\begin{equation}
+\frac{d \sigma_{\alpha \to \beta} }{d \Omega} = P_{\alpha \to \beta} (t = +\infty) 
+\sqrt{ \left( \frac{d \sigma_{\alpha}}{d \Omega} \right)_{el} }
+\sqrt{ \left( \frac{d \sigma_{\beta}}{d \Omega} \right)_{el}}, 
+\label{A2}
+\end{equation}
+where $P$ is the absolute value squared of a quantum mechanical transition amplitude. It gives the probability that the system at $t = + \infty$ is found in the final channel. The quantities $(d \sigma/d\Omega)_{el}$ are the classical elastic cross sections  in the center of mass system, calculated in terms of the deflection function, namely the functional relating the impact parameter and the scattering angle. 
+
+The transfer amplitude can be written as  
+
+
+\begin{equation}
+a(t = + \infty) = a^{(1)}(\infty) - a^{(NO)}(\infty) + \tilde a^{(2)} ( \infty),
+\label{A3}
+\end{equation}
+where $\tilde a^{(2)}(\infty)$ at $t= + \infty$ 
+labels  the successive transfer amplitude expressed in the post-prior representation (see below).
+The simultaneous transfer amplitude is given by (see Fig. A1(I))
+
+\begin{eqnarray}
+a^{(1)} (\infty) = \frac{1}{i \hbar} \int^{\infty}_{-\infty} dt (\psi^b \psi^B, (V_{bB} - <V_{bB}>) \psi^a \psi^A ) \times 
+{\rm exp} [\frac{i}{\hbar} (E^{bB} - E^{aA}) t] \nonumber \\
+\approx \frac{2}{i \hbar} \int^{\infty}_{- \infty}  dt \left( \phi^{B(A)} (S^B_{(2n)}; \vec r_{1A}, \vec r_{2A}), U(r_{1b}) 
+e^{i (\sigma_1 + \sigma_2)}
+\phi^{a(b)} (S^a_{(2n)}; \vec r_{1b}, \vec r_{2b}) \right) {\rm exp} [\frac{i}{\hbar} (E^{bB} - E^{aA}) t + \gamma(t)] 
+\end{eqnarray}
+where 
+\begin{equation}
+\sigma_1 + \sigma_2 = \frac{1}{\hbar} \frac{m_n}{m_A} ( m_{aA} \vec v_{aA} (t) + m_{bB} v_{bB}(t)) \cdot (\vec r_{1\alpha}
++ \vec r_{2 \alpha}),
+\end{equation}
+in keeping with the fact that ${\rm exp} ( i (\sigma_1 + \sigma_2))$ takes care of recoil 
+effects (Galilean transformation associated with the mismatch between entrance and exit channels). 
+
+The phase $\gamma (t)$ is related  with the effective $Q-$value of the reaction. In the above expression, $\phi$ indicates an antisymmetrized, correlated two-particle (Cooper pair)  wavefunction, $S(2n)$ being the two-neutron separation energy (see Fig. A1), $U(r_{1b})$ being the single particle potential generated by nucleus $b$ ($U(r) = \int d^3 r' \rho^b(r') v(|r-r'|)$). The contribution arising from non-orthogonality effects can be written as (see Fig. A1(II))
+
+\begin{eqnarray}
+a^{(NO)} (\infty) = \frac{1}{i \hbar} \int^{\infty}_{-\infty} dt (\psi^b \psi^B, (V_{bB} - <V_{bB}>) \psi^f \psi^F )
+(\psi^f\psi^F, \psi^a \psi^A) 
+{\rm exp} [\frac{i}{\hbar} (E^{bB} - E^{aA}) t]  \nonumber  \\
+\approx \frac{2}{i \hbar} \int^{\infty}_{- \infty} \phi^{B(F)} (S^B_{(n)}, \vec r_{1A}), U(r_{1b}) 
+e^{i \sigma_1}
+(\phi^{f(b)}(S^f(n), \vec r_{1b})  \phi^{F(A)} (S^F(n),\vec r_{2A}) e^{i \sigma_2} \phi^{a(f)}(S^a(n),\vec r_{2b})) 
+{\rm exp} [\frac{i}{\hbar} (E^{bB} - E^{aA}) t + \gamma(t)] ,
+\end{eqnarray}
+the reaction channel $f= (b+1) + F(=A+1)$ having been introduced, the quantity $S(n)$ being the one-neutron spearation 
+energy (see Fig. A1). The summation over $f(\equiv a'_1,a'_2)$ and $F (\equiv a_1,a_2)$ involves a restricted number of states, namely the valence shells in nuclei $B$ and $a$.
+
+The successive transfer amplitude  $\tilde a^{(2)}_{\infty}$ written making use of the post-prior representation is equal to 
+(see Fig. A1(III))
+
+\begin{eqnarray}
+\tilde a^{(2)} (\infty) = \frac{1}{i \hbar} \int^{\infty}_{-\infty} dt (\psi^b \psi^B, (V_{bB} - <V_{bB}>) e^{i \sigma_1} \psi^f \psi^F ) \times 
+{\rm exp} [\frac{i}{\hbar} (E^{bB} - E^{fF}) t + \gamma_1(t)] \nonumber  \\
+\times \frac{1}{i \hbar} \int^{t}_{-\infty} dt' (\psi^f \psi^F, (V_{fF} - <V_{fF}>) e^{i \sigma_2} \psi^a \psi^A > \times 
+{\rm exp} [\frac{i}{\hbar} (E^{fF} - E^{aA}) t' + \gamma_2(t)].
+\end{eqnarray}
+
+To gain insight into the  relative importance of the three terms contributing to Eq. \ref{A3} we discuss two situations, namely,
+the independent-particle model and the strong-correlation limits.
+
+\subsection{Independent particle limit}
+
+In the independent particle limit, the two transferred particles do not interact among themselves but for antisymmetrization. 
+Thus, the separation energies fulfill the relations (see Fig. A2)
+\begin{equation}
+S^B(2n) = 2 S^B(n) = 2S^F(n),
+\end{equation}
+and 
+\begin{equation}
+S^a(2n) = 2 S^a(n) = 2 S^f(n).
+\end{equation}
+In this case 
+\begin{equation}
+\phi^{B(A)} (S^B(2n), \vec r_{1A},\vec r_{2A}) = \sum_{a_1 a_2} \phi_{a_1}^{B(F)} (S^B(n),\vec r_{1A}) 
+\phi_{a_{2}}^{F(A)} (S^F(n),\vec r_{2a}),
+\end{equation}
+and 
+\begin{equation}
+\phi^{a(b)} (S^a(2n), \vec r_{1b},\vec r_{2b}) = 
+\sum_{a^{'}_{1} a^{'}_{2}} \phi_{a^{'}_1}^{a(f)} (S^a(n),\vec r_{2b}) 
+\phi_{a^{'}_{2}}^{f(b)} (S^f(n),\vec r_{1b}),
+\end{equation}
+where $(a_1, a_2) \equiv F$ and $(a'_1, a'_2) \equiv f$ span, as mentioned above, shells in nuclei $B$ and $a$ respectively. 
+
+Inserting (A9) and (A10) in (A4) one can show that 
+\begin{equation}
+a^{(1)} (\infty) = a^{(NO)}(\infty).
+\end{equation}
+It can be demonstrated  that within the present approximation, $Im \; \tilde a^{(2)} =0,$ and that 
+\begin{eqnarray}
+\tilde a^{(2)} (\infty) = \frac{1}{i \hbar} \int^{\infty}_{-\infty} dt (\psi^b \psi^B, (V_{bB} - <V_{bB}>) e^{i \sigma_1} \psi^f \psi^F > \times 
+{\rm exp} [\frac{i}{\hbar} (E^{bB} - E^{fF}) t + \gamma_1(t)] \nonumber  \\
+\times \frac{1}{i \hbar} \int^{\infty}_{-\infty} dt' (\psi^f \psi^F, (V_{fF} - <V_{fF}>) e^{i \sigma_2} \psi^a \psi^A ) \times 
+{\rm exp} [\frac{i}{\hbar} (E^{fF} - E^{aA}) t' + \gamma_2(t)].
+\label{A12}
+\end{eqnarray}
+The total absolute differential cross section \ref{A2}, where $P = |a(\infty)|^2 = |\tilde a^{(2)}|^2$, is then equal to the product of two one-particle transfer cross sections (see Fig. A3), associated with the (virtual) reaction channels
+\begin{equation}
+\alpha \equiv a+A \to f +F \equiv \gamma,
+\end{equation}
+and 
+\begin{equation}
+\gamma \equiv f +F \to b+B \equiv \beta.
+\end{equation}
+
+In fact, Eq.(\ref{A12}) involves no time ordering and consequently the two processes above are completely independent of each other. 
+This result was expected because being $v_{12}= 0$, the transfer of one nucleon cannot influence, aside form selecting the
+initial state for the second step, the behaviour of the other nucleon.
+
+
+\subsection{Strong correlation (cluster) limit}
+
+The second limit to be considered is the one in which the correlation betwen the two nucleons is so strong that (see Fig. A2)
+\begin{equation}
+S^a(2n) \approx S^a(n) >> S^f(n),
+\label{A15}
+\end{equation}
+and 
+\begin{equation}
+S^B(2n) \approx S^B(n) >> S^F(n).
+\label{A16}
+\end{equation}
+That is, the magnitude of the one-nucleon separation energy is strongly modified by the pair breaking.
+
+There is a different , although equivalent way to express (\ref{A3}) which is the more convenient to discuss the strong coupling limit.
+In fact, making use of the post-prior representation one can write
+\begin{eqnarray}
+a^{(2)}(t) = \tilde a^{(2)}(t) - a^{(NO)}(t) = 
+%\nonumber \\ 
+\frac{1}{i \hbar} \int^{\infty}_{-\infty} dt (\psi^b \psi^B, (V_{bB} - <V_{bB}>) e^{i \sigma_1} \psi^f \psi^F ) \nonumber \\ 
+\times {\rm exp} [\frac{i}{\hbar} (E^{bB} - E^{fF}) t + \gamma_1(t)] \times \nonumber  \\
+\frac{1}{i \hbar} \int^{t}_{-\infty} dt' (\psi^f \psi^F, (V_{aA} - <V_{aA}>) \psi^a \psi^A ) \times 
+{\rm exp} [\frac{i}{\hbar} (E^{fF} - E^{aA}) t' + \gamma_2(t')].
+\end{eqnarray}
+The relations  (\ref{A15}), (\ref{A16}) imply 
+
+\begin{equation}
+E^{fF} - E^{aA} = S^a(n) - S^F(n) >> \frac{\hbar}{\tau},
+\end{equation}
+where $\tau$ is the collision time. Consequently the real part of $a^{(2)}(\infty)$ vanishes exponentially  with the $Q-$value of the intermediate transition, while the imaginary part  vanishes inversely proportional to this energy.
+One can thus write,
+\begin{equation}
+Re \;  a^{(2)} (\infty) \approx 0,
+\end{equation} 
+and 
+\begin{equation}
+a^{(2)}(\infty) \approx \frac{1}{i \hbar} \frac{\tau}{<E^{fF}> - E^{bB}} 
+\sum_{fF} (\psi^b \psi^B, 
+(V_{bB}- <V_{bB}>) 
+\psi^f\psi^F)_{t=0} \times 
+(\psi^f\psi^F,(V_{aA} - <V_{aA}) \psi^a \psi^A)_{t=0},
+\end{equation} 
+where one has utilized the fact that $E^{bB} \approx E^{aA}$. For $v_{12} \to \infty$, $(<E^{fF}> - E^{bB}) \to \infty$
+and, consequently, 
+
+\begin{equation}
+lim_{v_{12} \to \infty} a^{(2)} (\infty) = 0.
+\end{equation} 
+
+Thus the total two-nucleon transfer amplitude is equal, in the strong coupling limit, to the amplitude $a^{(1)} (\infty)$.
+
+
+Summing up, only when successive transfer and non-orthogonal corrections are included in the description of the two-nucleon 
+transfer process, does one obtain a consistent description of the process, which correctly converges to the weak and 
+strong correlation limiting values.
+
+
+\end{document} 

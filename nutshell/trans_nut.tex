@@ -1,0 +1,202 @@
+\documentclass[a4paper,11pt]{book}
+\usepackage[sectionbib]{chapterbib}
+%\usepackage{chapterbib}
+\usepackage[title]{appendix}
+\usepackage{slashbox}
+%\documentclass[a4paper]{book}
+% \linespread{2.}
+%\numberwithin{section}
+%\documentclass[12pt]{article}
+%\documentclass[12pt]{cmmp}
+
+%%\usepackage{psfig}
+%\usepackage{harvard}
+\usepackage{epsfig}
+\usepackage{amsmath}
+\usepackage{amsfonts}
+%\counterwithin{figure}{section}
+\usepackage{amssymb}
+\numberwithin{equation}{section}
+\numberwithin{figure}{section}
+\numberwithin{table}{section}
+%%\usepackage{graphicx}
+%%
+%%\usepackage{txfonts}
+%%%\usepackage{mathrsfs}
+%
+%\usepackage{feynmf}     %<------------ Obbligatorio
+\unitlength=1mm         %<------------ Obbligatorio
+%
+\newcommand{\braket}[1]{\langle {#1} \rangle }
+\newcommand{\ket}[1]{|{#1} \rangle }
+\newcommand{\bra}[1]{\langle {#1}|}
+\usepackage{latexsym}
+\usepackage[varg]{txfonts}
+\usepackage{mathrsfs}
+\usepackage{upgreek}
+\usepackage[round]{natbib}
+%\usepackage [latin1]{inputenc}
+\usepackage{verbatim}
+\usepackage{array}
+\usepackage{color}
+%\pagestyle{plain}
+\usepackage{graphicx}
+\DeclareMathAlphabet{\mathpzc}{OT1}{pzc}{m}{it}
+
+
+\begin{document}
+\section[Simultaneous versus successive transfer]{Simultaneous versus successive Cooper pair transfer in nuclei}
+Cooper pair transfer is commonly thought to be tantamount to simultaneous transfer. In this process a nucleon goes over through the $NN$--interaction $v$, the second one does it making use of the correlations with its partner (Fig. \ref{fig_alpha}). Consequently, in the independent particle limit, simultaneous  transfer should not be possible. Nonetheless, it remains operative. This is because the particle transferred through $v$ is followed by a second one which profits of the non--orthogonality of the wavefunctions describing the single--particle motion in target and projectile (Fig. \ref{fig_beta}). This is the reason why this (non--orthogonality) transfer amplitude has to be substracted from the previous one, representing a spurious contribution to simultaneous transfer arising from the overcompletness of the basis employed. In other words, $T^{(1)}$ gives the wrong cross section, even at the level of simultaneous transfer, as it violates two--nucleon transfer sum rules. The resulting cancellation is quite conspicuous in actual nuclei, in keeping with the fact that Cooper pairs are weakly correlated systems (Fig. \ref{fig_gamma}). This is the reason why, the successive transfer process in which $v$ acts twice, is the dominant mechanism in pair transfer reactions (Fig. \ref{fig_beta}). While this mechanism seems antithetical to the transfer of strongly correlated fermion pairs (bosons), it probes, in the nuclear case, the same pairing correlations as simultaneous transfer does (App. \ref{trans_nutAppA}). This is because, nuclear Cooper pairs (quasi--bosons) are quite extended objects, the two nucleons being (virtually) correlated over distances much larger than typical nuclear dimensions. In a two--nucleon transfer process this virtual property becomes real, the difference between the character of simultaneity and of succession becoming strongly blurred.
+
+\begin{figure}
+\centerline{\includegraphics*[width=\textwidth,angle=0]{figs/fig_alpha.pdf}}
+\caption{Simultaneous transfer associated with the reaction $A(t,p)B(\equiv A+2)$. The nucleus $A$ is schematically assumed to contain four nucleons, the triton being composed of two neutrons and one proton. The set of coordinates used to describe the entrance and exit channels are shown in the upper part, while in the lower part the simultaneous two--nucleon transfer amplitude is written in detail (cf. \cite{Potel:13b}). Of notice that the expression of $T^{(1)}$ violates two--nucleon transfer by exactly $T^{(1)}_{NO}$, channel operative also in lowest order of $v$ in the case of independent particle motion.}\label{fig_alpha}
+\end{figure}
+\begin{figure}
+\centerline{\includegraphics*[width=\textwidth,angle=0]{figs/fig_beta.pdf}}
+\caption{Successive and non--orthogonality contributions to the  amplitude describing two--nucleon transfer in second order DWBA, entering in the expression of the absolute differential cross section $d\sigma/d\Omega=\tfrac{\mu_i\mu_f}{(4\pi\hbar^2)^2}\tfrac{k_f}{k_i}\left|T^{(1)}+T_{succ}^{(2)}-T^{(2)}_{NO}\right|$. Concerning $T^{(1)}$ we refer to Fig. \ref{fig_alpha}. In the upper part of the figure the coordinates used to describe the intermediate channel $d+F(\equiv A+1)$ are given, while in the lower part the corresponding expressions are displayed \citep{Potel:13b} in the case of a ($t,p$) process. Schematically, the three contributions $T^{(1)}, T^{(2)}_{succ}$ and $T^{(2)}_{NO}$ to the transfer amplitude can be written as $\langle pB|v|tA\rangle$, $\sum \langle pB|v|dF\rangle\langle dF|v|tA\rangle$ and $\sum \langle pB|v|dF\rangle\langle dF|\mathbb I|tA\rangle$ respectively, where $v$ is the proton--neutron interaction and $\mathbb I$ the unit oprerator. Within this context, while $T^{(2)}_{NO}$ receives contributions from the intermediate (virtual) closed ($d+F$) channel as $T^{(2)}_{succ}$ does, it is first order in $v$ as $T^{(1)}$.}\label{fig_beta}
+\end{figure}
+\begin{figure}
+\centerline{\includegraphics*[width=0.85\textwidth,angle=0]{figs/fig_gamma.pdf}}
+\caption{The correlation length associated with a nuclear Cooper pair is of the order of $\xi\approx \hbar v_F/\Delta\approx 36 $ fm (see App. \ref{trans_nutAppA}). In other words, in (\textbf{a}) neutron matter at typical densities of the order of 0.5--0.8 saturation density, the $NN$--$^{1}S_0$ short range force, eventually renormalized by medium polarization effects, makes pairs of nucleons moving in time reversal states to communicate over distances of the order of 5--6 times typical nuclear radii. How can one get evidence for such a extended object? Certainly not when the Cooper bag (balloon) is introduced in (\textbf{b}) the mean field of superfluid nuclei which, acting as an external field, constrains the Cooper pair to be within the nuclear radius with some spill out (long tail of Cooper pair, grey, shaded area extending outside the nuclear surface defined by $R_0=1.2A^{1/3}$ fm). But yes in a (\textbf{b}), (\textbf{c}) (\textbf{d}), two--nucleon transfer process (e.g. ($p,t$) reaction) in which the absolute cross section can change by orders of magnitude in going from pure two--particle (uncorrelated configurations) to long tail Cooper pair spill outs. This effect is expected to become stronger by allowing (\textbf{e}), (\textbf{f}), (\textbf{g}), pair transfer between similar superfluid nuclei, in which case one profits by the same type of correlations (superfluidity) as resulting from very similar external (mean) fields.
+Within this context, it is apparent that pairs of nucleons will feel equally well pairing correlations whether they are transferred simultaneously or one after the other. (cf. (\textbf{c}) and (\textbf{f})).}\label{fig_gamma}
+\end{figure}
+\begin{subappendices}
+\section{Pair transfer}\label{trans_nutAppA}
+The semiclassical two--nucleon transfer amplitudes fulfill, in the \textbf{independent particle limit}, the relations \citep{Potel:13},
+\begin{equation}
+a_{sim}^{(1)}=a_{NO}^{(1)},
+\end{equation}
+and
+\begin{equation}
+a_{succ}^{(2)}=a_{one-part}^{(1)}\times a_{one-part}^{(1)},
+\end{equation}
+\vspace{0.2cm}
+with
+\begin{equation}
+a+A\rightarrow f+F \rightarrow b+B,
+\end{equation}         
+corresponding to the product of two single nucleon transfer processes.
+On the other hand, in the \textbf{strong correlation limit} one can write, making use of the
+post--prior representation
+\begin{equation}
+\tilde a_{succ}^{(2)}= a_{succ}^{(2)}-a_{NO}^{(1)}.
+\end{equation}
+Thus
+\begin{equation}
+\lim_{E_{corr}\rightarrow \infty} \tilde a_{succ}^{(2)}=0,
+\end{equation}
+all transfer being due in the present case to simultaneous transfer.
+Actual nuclei are close to the independent particle limit $(E_{corr}$ (1--2 MeV) $\ll \epsilon_F\approx$ 37 MeV). Then successive transfer is the major contribution to pair transfer processes. But successive transfer seems to break the pair \textit{right?} \textit{Wrong}, as we shall see below.
+\subsection{Cooper pair dimensions}
+Typical correlation energies of Cooper pairs are 1--2 MeV. Now, such a system (dineutron or diproton) is not bound and needs of an external field to be confined. This is the role played by the single--particle field (cf. Fig. \ref{fig_gamma}). Let us now calculate the dimensions of a Cooper pair (correlation length),
+\begin{equation}
+\delta_x\delta_p\ge \hbar\quad \delta\epsilon\approx 2E_{corr},
+\end{equation}
+\begin{equation}
+\epsilon=\frac{p^2}{2m}\quad\delta\epsilon=\frac{2p\delta p}{m}\approx v_F\delta p,
+\end{equation}
+\begin{equation}
+\delta\epsilon\approx 2 E_{corr}\approx v_F\delta p,
+\end{equation}
+\begin{equation}
+\xi=\delta x=\frac{\hbar}{\delta p}\approx \frac{\hbar v_F}{2 E_{corr}}\quad \text{(correlation lenfth)},
+\end{equation}
+\begin{equation}
+\frac{v_F}{c}\approx 0.3 \quad \hbar c=200 \text{ MeV fm},
+\end{equation}
+\begin{equation}
+\xi\approx \frac{200\text{ MeV fm }0.3}{2 \text{ MeV}}\approx 30 \text{ fm}.
+\end{equation}
+\begin{figure}
+\centerline{\includegraphics*[width=0.5\textwidth,angle=0]{figs/fig_1.pdf}}
+\caption{Schematic representation of two tin isotopes (radius $R_0\approx 6$ fm) at the distance of closest approach in a heavy ion collision.}\label{fig_1}
+\end{figure}
+
+Consequently, successive and simultaneous transfer feel equally well the pairing correlations giving rise to long range order. This virtual property becomes real in e.g. a pair transfer between two superfluid tin isotopes (Fig. \ref{fig_1}).
+\subsection*{Objection}
+What about $v_{pairing}(=G)$ becoming zero, e.g. between the two nuclei?
+\subsection*{Answer}
+\begin{equation}
+\frac{d\sigma(a(=b+2)+A\rightarrow b+B(=A+2))}{d\Omega}\sim |\alpha_0|^2,
+\end{equation}
+\begin{equation}\label{eqtrans_nut1}
+\alpha_0=\langle BCS(A+2) |P^\dagger|BCS(A)\rangle=\sum_{\nu>0}U_{\nu}(A)V_{\nu}(A+2).
+\end{equation}
+\subsection*{Objection}
+Relation (\ref{eqtrans_nut1}) is only valid for simultaneous transfer, \textit{right?} \textit{Wrong}.
+\subsection*{Answer}
+The order parameter can be also written as,
+\begin{multline}
+\alpha_0=\sum_{\nu,\nu'>0}\langle BCS |a^\dagger_{\nu}|int(\nu')\rangle\langle int(\nu')|a^\dagger_{\bar\nu}|BCS\rangle\\
+\approx\sum_{\nu,\nu'>0}\langle BCS |a^\dagger_{\nu}\alpha^\dagger_{\nu'}|BCS\rangle\langle BCS|\alpha_{\nu'}a^\dagger_{\bar\nu}|BCS\rangle \\
+=\sum_{\nu,\nu'>0}\langle BCS(A+2) |V(A+1)\alpha_{\bar\nu}\alpha^\dagger_{\nu'}|BCS(A+1)\rangle\langle BCS(A+1)|\alpha_{\nu'}U_\nu(A)\alpha^\dagger_{\bar\nu}|BCS(A)\rangle\\
+=\sum_{\nu>0}V_\nu(A+1)U_{\nu}(A),
+\end{multline}
+where the (inverse) quasiparticle transformation relation $a^{\dagger}_\nu=U_{\nu}\alpha^{\dagger}_{\nu}+V_{\nu}\alpha_{\bar{\nu}}$ was used. An example of the two--nucleon spectroscopic amplitudes associated with the reaction $^{124}$Sn($p,t)^{122}$Sn(gs) is given in Table (\ref{transnutT1})
+\section{Comments on the optical potential}
+As a rule, the depopulation of the entrance, elastic channel $\alpha (a,A)$ (see Fig. \ref{fig_2}) is mainly due to one--particle transfer channels $\phi (f(=a-1),F(=A+1))$.
+\begin{figure}
+\centerline{\includegraphics*[width=0.5\textwidth,angle=0]{figs/fig_2.pdf}}
+\caption{Schematic representation of entrance and exit channels of a nuclear reaction as well as of the interaction region.}\label{fig_2}
+\end{figure}
+\begin{figure}
+\centerline{\includegraphics*[width=0.4\textwidth,angle=0]{figs/fig_3.pdf}}
+\caption{Schematic representation of the changing role of the one--nucleon transfer channel $\phi$ from being an open (scattering process, Fig. \ref{fig_2}) to acting as virtual channel contributing to the optical potential.}\label{fig_3}
+\end{figure}
+Other channels, like e.g. inelastic ones $\beta(a^*,A),\,\gamma(a,A^*)$ being operative in particular situations, as a rule, when deformed nuclei are involved in the reaction process. Let us assume that this is not the case. Thus, quite likely, the one--particle transfer channel $\phi$ is expected to be the main depopulating channel of the entrance channel $\alpha$. This is also in keeping with the fact that the tail of the corresponding form factor, reaches further away than that of any other channel (cf. Fig. \ref{fig_4}). In this case, the calculation of the optical potential, \footnote{It is of notice that the optical potential can be viewed as the complex ``dielectric'' function of direct nuclear reactions. In other words, the function describing the properties of the medium (vacuum) in which incoming and outgoing distorted waves propagate, properties which are, as a rule determined through the analysis of elastic scattering processes, under the assumption that the coupling between the relative motion(reaction) and intrinsic (structure) coordinate occur only  through a Galilean transformation (recoil effect) which smoothly matches the incoming with te outgoing waves (trajectories). Now, within the present context, namely that of the microscopic calculation of $U+iW$, non--locality and $\omega$--dependence are microscopically treated on equal footing through the calculation of structure properties. In particular within the framework of NFT, taking into account the variety of correlations and coupling between single--particle and collective motion, elementary modes of nuclear excitation. Such an approach to structure and reaction provides the elements and rules for  an \emph{ab initio} calculations of the texture of the corresponding vacuum states, and thus of the bound and continuum properties of the nuclear quantal system by itself and in interaction. It is of notice that such a scenario includes also limiting situations like sub--barrier fusion processes (cf. e.g. \cite{Sargsyan:13} and refs. therein) and, arguably, also exotic decay (cf. e.g. \cite{Barranco:88,Barranco:90}), and eventually compound nucleus formation} is quite reminiscent to the calculation of two--particle transfer (2nd order process), and can be carried out with essentially the same tools. In fact, 
+\begin{equation}
+\begin{split}
+T^{(2)}_{succ}&\sim \langle fin|v|int\rangle\langle int |v|in\rangle\\
+T^{(2)}_{NO}&\sim \langle fin|v|int\rangle\langle int |\mathbb{I}|in\rangle,
+\end{split}
+\end{equation}
+where $|in\rangle=|a,A\rangle,\,|int\rangle=|f,F\rangle$ and $|fin\rangle=|b,B\rangle$ are the initial, intermediate, and final channels in a two--nucleon transfer reactions (cf. Fig. \ref{fig_3}), which become
+\begin{equation}
+\begin{split}
+&\langle in|v|int\rangle\langle int |v|in\rangle\\
+&\langle in|v|int\rangle\langle int |\mathbb{I}|in\rangle,
+\end{split}
+\end{equation}
+as contributions to the optical potential (Fig. \ref{fig_3}).
+\begin{table}[h!]
+{\begin{tabular}{|c|c|c|c|}
+\cline{2-4} 
+\multicolumn{1}{c|}{ }& \multicolumn{3}{|c|}{2n spectr. ampls. $^{124}$Sn($p,t)^{122}$Sn(gs)} \\
+\hline
+$nlj^{a)}$ & BCS$^{b)}$ & NuShell$^{c)}$ & $V_{low-k}^{d)}$\\
+\hline
+$1g_{7/2}$ & 0.44 & 0.63 & \\
+$2d_{5/2}$ & 0.35 & 0.60 & \\
+$2d_{3/2}$ & 0.58 & 0.72 & \\
+$3s_{1/2}$ & 0.36 & 0.52 & \\
+$1h_{11/2}$ & 1.22 & -1.24 & \\
+\hline 
+\end{tabular}}
+\caption{\textbf{a}) quantum numbers of the two--particle configurations $(nlj)^2_{J=0}$ coupled to angular momentum $J=0$. \textbf{b}) $\langle BCS|P_\nu|BCS\rangle=\sqrt{2j_\nu+1}U_\nu(A) V_\nu(A+2)\;(A+2=124)$ where $P_\nu=a_{\bar\nu}a_\nu (\nu\equiv nlj)$ (cf. \cite{Potel:11,Potel:13,Potel:13b}). \textbf{c}) Two--neutron overlap functions obtained making use of the shell--model wavefunctions for the ground state of $^{122}$Sn and $^{124}$Sn and the code NuShell \citep{Brown:07} (cf. also \cite{Brown:05}). The wavefunctions were obtained starting with a $G$ matrix derived from the $CD$--Bonn nucleon--nucleon interaction \cite{Machleidt:96}. These amplitudes were used in the calculation of $^{124}$Sn$(p,t)^{122}$Sn absolute cross sections carried out by I.J. Thompson \citep{Thompson:13}.}\label{transnutT1}
+\end{table}
+\begin{figure}
+\centerline{\includegraphics*[width=\textwidth,angle=0]{figs/fig_4.pdf}}
+\caption{}\label{fig_4}
+\end{figure}
+\end{subappendices}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ \bibliographystyle{abbrvnat}
+ \bibliography{C:/Gregory/Broglia/notas_ricardo/nuclear_bib}
+\end{document} 

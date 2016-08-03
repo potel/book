@@ -1,0 +1,199 @@
+\documentclass[a4paper,11pt]{book}
+\usepackage[sectionbib]{chapterbib}
+%\usepackage{chapterbib}
+\usepackage[title]{appendix}
+\usepackage{slashbox}
+%\documentclass[a4paper]{book}
+% \linespread{2.}
+%\numberwithin{section}
+%\documentclass[12pt]{article}
+%\documentclass[12pt]{cmmp}
+
+%%\usepackage{psfig}
+%\usepackage{harvard}
+\usepackage{epsfig}
+\usepackage{amsmath}
+\usepackage{amsfonts}
+%\counterwithin{figure}{section}
+\usepackage{amssymb}
+\numberwithin{equation}{section}
+\numberwithin{figure}{section}
+\numberwithin{table}{section}
+%%\usepackage{graphicx}
+%%
+%%\usepackage{txfonts}
+%%%\usepackage{mathrsfs}
+%
+%\usepackage{feynmf}     %<------------ Obbligatorio
+\unitlength=1mm         %<------------ Obbligatorio
+%
+\newcommand{\braket}[1]{\langle {#1} \rangle }
+\newcommand{\ket}[1]{|{#1} \rangle }
+\newcommand{\bra}[1]{\langle {#1}|}
+\usepackage{latexsym}
+\usepackage[varg]{txfonts}
+\usepackage{mathrsfs}
+\usepackage{upgreek}
+\usepackage[round]{natbib}
+%\usepackage [latin1]{inputenc}
+\usepackage{verbatim}
+\usepackage{array}
+\usepackage{color}
+%\pagestyle{plain}
+\usepackage{graphicx}
+\DeclareMathAlphabet{\mathpzc}{OT1}{pzc}{m}{it}
+
+
+\begin{document}
+\section{Nuclear Structure in a nutshell}
+The low--energy properties of quantal, many--body, Fermi systems displaying sizable values of zero--point--motion (kinetic energy) of localization compared to the strength of the $NN$--interaction and quantified by a quantality parameter $Q\gtrsim 0.15$, are determined by the laws which control independent particle motion close to the Fermi energy $\epsilon_F$ (on--the--energy shell), and by the correlations operating among them.
+
+
+First of all, the Pauli principle, implying orbitals solidly anchored to the singl--particle mean field, as testified by the Hartree--Fock ground state $|HF\rangle=\Pi_i a^\dagger_i|0\rangle$, describing a step function separation in the probability of occupied ($\epsilon_i \leq \epsilon_F$) and empty ($\epsilon_k \geq \epsilon_F$) states (box 1).
+
+
+Pairing acting on fermions moving in time reversal states lying close to $\epsilon_F$ alters this picture in a conspicuous way. In particular, in the case of $S=0$ configurations, in which case the radial component of the pair wavefunction does not display nodes. Within an energy range of the pair correlation energy $E_{corr} (\approx 2\Delta$ within BCS) centered around $\epsilon_F (E_{corr}/\epsilon_F\ll 1)$ the system is now made out of pairs of fermions which flicker in and out of the correlated ($L=0,S=0$) configuration (Cooper pairs, box 2). For temperatures (intrinsic excitation energies) or stress regimes (magnetic field in metals, Coriolis force in nuclei, etc.) smaller than $\approx E_{corr}/2$ (critical value), Cooper pairs respect Bose--Einstein statistics, the single--particle orbits on which they are correlated become dynamically detached from the mean field, leading to a bosonic condensate and, at the same time, reducing in a conspicuous way the inertia of the system (e.g. the moment of inertia $\mathcal{I}$ of quadrupole rotational bands is much smaller than the rigid moment of inertia ($\mathcal{I}\approx \mathcal{I}/3$) expected from independent particle motion). Cooper pairs exist also in situation in which the environmental condition are above critical, e.g. in metals at room temperature or nuclei at high values of the angular momentum, although they break as soon as they are generates (pairing vibrations). While these pair addition and substraction fluctuations have little effect on condensed systems, they play an important role in mesoscopic systems, in particular in nuclei (box 3).
+
+
+Within the rfamework of the above picture, one can introduce at profit a collective coordinate $\alpha_0$ (order parameter) which measures the number of Cooper pairs participating in the pairing condensate, and define a wavefunction for each pair $\left(U_\nu+V_\nu a^\dagger_\nu a^\dagger_{\bar\nu}\right)|0\rangle$ (independent pair motion, BCS approximation), adjusting the occupation parameters $V_\nu$ and $U_\nu$ (probability amplitudes that the two--fold (Kramer's--)degenerate pair state ($\nu,\bar{\nu}$) is either occupied or empty), so as to minimize the energy of the system under the condition that the average number of nucleons is equal to $N_0$ (Coriolis force felt, in the inrinsic system, by the pairs, equal to $-\lambda N_0$). Thus, $|BCS\rangle=\Pi_{\nu>0}\left(U_\nu+V_\nu a^\dagger_\nu a^\dagger_{\bar\nu}\right)|0\rangle$ provides a valid description of the paired mean field ground state, and of the associated order parameter $\alpha_0=\langle BCS|P^{\dagger}|BCS\rangle, P^{\dagger}=\sum_{\nu>0}a^\dagger_\nu a^\dagger_{\bar \nu}$ being the pair creation operator (box 2).
+
+
+It is then natural to posit that two--nucleon transfer reactions are specific to probe pairing correlations in many--body fermionic systems. Examples are provided by the Josephson effect in e.g. metallic superconductors, and ($t,p$) and ($p,t$) reactions in atomic nuclei.
+
+Because away from the Fermi energy pair independent motion becomes independent particle motion, in particular in the nuclear case $|BCS\rangle\rightarrow|\text{Nilsson}\rangle$, one--particle transfer reactions like e.g. ($d,p$) and ($p,d$) can be used together with ($t,p$) and ($p,t$) processes as a valid tool to cross check pair correlation predictions. In particular, to shed light on the origin of pairing in nuclei: in a nutshell, the relative importance of the bare $NN$--interaction and the induced pairing interaction (box 4).
+
+While the calculation of two--nucleon transfer spectroscopic amplitudes and differential cross sections are, a priori, more involved to be worked out than those associated with one--nucleon transfer reactions, the former are, as a rule, more intrinsically accurate than the later ones. This is because in the first case, the actual value of the variety of quantities reflect coherence, and thus the averaging over many contributions $\sqrt{j+1/2}\,U_\nu V_\nu$ thus the averaging which, in spite of the fact that each of them may be somewhat inaccurate, they overall sum leads to $\alpha_0(d\sigma(\text{2n--transfer})/d\Omega\sim|\alpha_0|^2)$. On the other hand, $(d\sigma(\text{1n--transfer})/d\Omega\sim|U_\nu|^4$ or $\sim |V_\nu|^2$ thus depending on the accuracy with which one is able to calculate the occupancy of a pure configuration (box 4).
+
+The above parlance is reflected in the calculation of the elements resulting from the encounter of structure and reaction, namely one-- and two--nucleon modified transfer formfactors. While it is usually considered that these quantities carry all the structure information associated with the calculation of the corresponding cross sections, a consistent NFT calculation of structure and reaction will posit that equally much is contained in the distorted waves describing the relative motion of the colliding systems. This is because the optical potential ($U+iW$) which determines these scattering waves, emerges from the same modified formfactors, eventually including also inelastic processes. In other words, setting detectors in e.g. a definite two--particle transfer channel like $A+t\rightarrow B(=A+2)+p$, one needs to know what the single--particle states and collective modes of the systems $F(=A+1)$ and $A$ and $B$ are respectively, as well as their interweaving leading to dressed particle states (quasiparticles; fermions) are renormalized normal modes of excitation (bosons) are. But these are essentially all the elements needed to calculate the processes leading to the depopulation of the flux of the incoming channel ($A+t$ in the case under discussion). In particular, and assuming to work with spherical nuclei, so as to avoid strong inelastic processes, one--particle transfer is, as a rule (in particular $Q$--value closed channels) the main depopulation process, in keeping with the long range tail of the associated formfactor as compared to that of other processes. 
+
+
+In keeping with this fact, and because $U$ and $W$ are connected by the Kramers--Kr\"onig generalized dispersion relation (fluctuation dissipation theorem), it is possible to calculate the nuclear dielectric function (optical potential) needed to describe the $A+a\rightarrow B+p$ process in question.
+
+
+Concerning the modified formfactor associated with this process, we shall see in the next Chapter that it can be written as
+\begin{equation*}
+\begin{split}
+U_{LSJ}^{J_iJ_f}(R)&=\sum_{\substack{n_1l_1j_1\\n_2l_2j_2}}B(n_1l_1j_1,n_2l_2j_2;JJ_iJ_f)\\
+\langle SLJ|j_1j_2J\rangle & \langle no, NL,L|n_1l_1,n_2l_2;L\rangle\\
+&\Omega_n R_{NL}(R)
+\end{split}
+\end{equation*}
+where the overlaps
+\begin{equation*}
+\begin{split}
+B&(n_1l_1j_1,n_2l_2j_2;JJ_iJ_f)\\
+=&\langle \Psi^{J_f}(\xi_{A+2})|\left[\phi^J(n_1l_1j_1,n_2l_2j_2),\Psi^{J_i}(\xi_A)\right]^{J_f}\rangle
+\end{split}
+\end{equation*}
+and 
+\begin{equation*}
+\Omega_n=\langle \phi_{nlm_l}(\mathbf r)|\phi_{000}(\mathbf r)\rangle
+\end{equation*}
+
+encodes for the physics of particle--particle (but also, to a large extent, particle--hole) correlations in nuclei, $\langle SLT|j_1j_2J\rangle$ and $\langle no,NL,L|n_1 l_1,n_2l_2;L\rangle$ being $LS-jj$ and Moshinsky transformation brackets, keeping track of symmetry and number of degrees conservation. In fact, the two--nucleon spectroscopic amplitude (B--coefficient) and the overlap $\Omega_n$ reflect the parentage in which the nucleus $B$ can be written in terms of the system $A$ and a Cooper pair,
+\begin{equation*}
+\Psi_{exit}=\Psi_{M_f}^{J_f}(\xi_{A+2})\chi^{S_f}_{M_{sf}}(\sigma_p),
+\end{equation*}
+where
+\begin{equation*}
+\begin{split}
+\Psi_{M_f}^{J_f}(\xi_{A+2})&=\sum_{\substack{n_1l_1j_1\\n_2l_2j_2\\J,J'_i}}B(n_1l_1j_1,n_2l_2j_2;JJ_iJ_f)\\
+=&\left[\phi^J(n_1l_1j_1,n_2l_2j_2)\Psi^{J'_i}(\xi_A)\right]_{M_f}^{J_f}
+\end{split}
+\end{equation*}
+and
+\begin{equation*}
+\Psi_{entrance}=\Psi_{M_i}^{J_i}(\xi_A)\phi_t(\mathbf r_{n1},\mathbf r_{n2},r_p;\sigma_{n1},\sigma_{n2},\sigma_p)
+\end{equation*}
+with
+\begin{equation*}
+\phi_t=\left[\chi^S(\sigma_{n1},\sigma_{n2})\chi^{S'_f}(\sigma_p)
+\right]_{M_si}^{S_i}\phi_t^{L=0}\Big(\sum_{i>j}|\mathbf r_i-\mathbf r_j|\Big)
+\end{equation*}
+Assuming for simplicity a symmetric di--neutron radial wavefunction of the triton, i.e. neglecting the $d$--component of the corresponding wavefunction, for the relative and center of mass wavefunctions $P_{nlm}(\mathbf{r})$ and $\Phi_{N\Lambda M}(R)$ ($n=l=m=0, N=\Lambda=M=0$), leads to $\Omega_n$, a quantity that reflects both the non--orthogonality existing between the di--neutron wavefunctions in the final nucleus (Cooper pair) and in the triton. Another way to say the same thing is that dineutron correlations in these two systems are different, a fact which underscores the limitations of the light ion reactions to probe specifically pairing correlations in nuclei.
+
+
+One can then conclude that, provided one makes use of a (sensible) complete single--particle basis (eventually including also the continuum), one can capture through $U_{LSJ}^{J_iJ_f}(R)$ most of the coherence of Cooper pair transfer, in keeping with ht fact that major aspects of the associated di--neutron non--locality are taken care of by the n--summation weighted by the non--orthogonal overlaps $\Omega_n$. This is in keeping with the fact that, making use of a more refined triton wavefunction than employed above, the $n-p$ (deuteron--like) correlations of this particle can be described with reasonable accuracy and thus the emergence of successive transfer. On the other hand, being the deuteron a bound system, this effective treatment of the associated resonances is not particular economic. Furthermore, zero--range approximation ($V(\rho)\phi_{000}(\rho)=D_0\delta(\vec \rho)$) blocks such a possibility.
+
+Nonetheless, the fact that one can still work out a detailed and consistent picture of two--nucleon transfer reactions in nuclei in terms of absolute cross sections with the help of a single parameter ($D_0^2\approx(31.6\pm 9.3)10^4 \text{MeV}^2\text{fm}^2$) testifies to the fact that the above picture of Cooper pair transfer is a powerful picture, as it contains a large fraction of the physics which is at the basis of Cooper pair transfer in nuclei (\cite{Broglia:73}; Ch. 2). This is the reason why,treating explicitly the intermediate deuteron channel in terms of successive transfer, correcting both this and the simultaneous transfer channel for non--orthogonality contributions, makes the above picture the quantitative probe of Cooper pair correlations in nuclei (\cite{Potel:13}; Ch. 4 and 5), as testified by Fig. \ref{cs} and Table \ref{cst}. Within this context, we provide below two examples of $B$--coefficients. One for the case in which $A$ and $B(=A+2)$ are members of a pairing rotational ... 
+\begin{equation*}
+B(nlj,nlj;000)=\langle BCS(N+2)|[a^\dagger_{nlj}a^\dagger_{nlj}]^0_0|BCS(N)\rangle=\sqrt{j+1/2}U_{nlj}(N)V_{nlj}(N+2)
+\end{equation*}
+and
+\begin{equation*}
+\begin{split}
+B(nlj,nlj;000)=&\langle N_0+2(gs)|[a^\dagger_{nlj}a^\dagger_{nlj}]^0_0|N_0(gs)\rangle \\
+&=\left\{\begin{array}{c}
+ \sqrt{j+1/2}X_a(n_kl_kj_k)\quad (\epsilon_{j_k}>\epsilon_F) \\ 
+\sqrt{j+1/2}Y_a(n_il_ij_i)\quad (\epsilon_{j_k}\leq\epsilon_F)
+\end{array} \right.
+\end{split}
+\end{equation*}
+For actual numerical values see box 3 and Tables
+\begin{figure}
+\centerline{\includegraphics*[width=\textwidth,angle=0]{figs/box1.pdf}}
+\caption{}\label{box1}
+\end{figure}
+\begin{figure}
+\centerline{\includegraphics*[width=\textwidth,angle=0]{figs/box2_1.pdf}}
+\end{figure}
+\begin{figure}
+\centerline{\includegraphics*[width=\textwidth,angle=0]{figs/box2_2.pdf}}
+\caption{}\label{box2}
+\end{figure}
+\begin{figure}
+\centerline{\includegraphics*[width=\textwidth,angle=0]{figs/box3_1.pdf}}
+\end{figure}
+\begin{figure}
+\centerline{\includegraphics*[width=\textwidth,angle=0]{figs/box3_2.pdf}}
+\end{figure}
+\begin{figure}
+\centerline{\includegraphics*[width=\textwidth,angle=0]{figs/box3_3.pdf}}
+\end{figure}
+\begin{figure}
+\centerline{\includegraphics*[width=\textwidth,angle=0]{figs/box3_4.pdf}}
+\end{figure}
+\begin{figure}
+\centerline{\includegraphics*[width=\textwidth,angle=0]{figs/box3_5.pdf}}
+\caption{}\label{box3}
+\end{figure}
+\begin{figure}
+\centerline{\includegraphics*[width=\textwidth,angle=0]{figs/box4_1.pdf}}
+\end{figure}
+\begin{figure}
+\centerline{\includegraphics*[width=\textwidth,angle=0]{figs/box4_3.pdf}}
+\end{figure}
+\begin{figure}
+\centerline{\includegraphics*[width=\textwidth,angle=0]{figs/box4_10.pdf}}
+\end{figure}
+\begin{figure}
+\centerline{\includegraphics*[width=\textwidth,angle=0]{figs/box4_4.pdf}}
+\end{figure}
+\begin{figure}
+\centerline{\includegraphics*[width=\textwidth,angle=0]{figs/box4_5.pdf}}
+\end{figure}
+\begin{figure}
+\centerline{\includegraphics*[width=\textwidth,angle=0]{figs/box4_7.pdf}}
+\end{figure}
+\begin{figure}
+\centerline{\includegraphics*[width=\textwidth,angle=0]{figs/box4_8.pdf}}
+\end{figure}
+\begin{figure}
+\centerline{\includegraphics*[width=\textwidth,angle=0]{figs/box4_2.pdf}}
+\end{figure}
+\begin{figure}
+\centerline{\includegraphics*[width=\textwidth,angle=0]{figs/box4_6.pdf}}
+\end{figure}
+\begin{figure}
+\centerline{\includegraphics*[width=\textwidth,angle=0]{figs/box4_9.pdf}}
+\caption{}\label{box4}
+\end{figure}
+
+
+
+
+
+
+ \bibliographystyle{abbrvnat}
+ \bibliography{C:/Gregory/Broglia/notas_ricardo/nuclear_bib}
+\end{document} 

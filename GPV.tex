@@ -1,0 +1,624 @@
+\documentclass[a4paper,11pt]{article}
+%\usepackage{chapterbib}
+\usepackage{dsfont}
+\usepackage[title]{appendix}
+%\usepackage{slashbox}
+\usepackage{enumerate}
+%\documentclass[a4paper]{book}
+% \linespread{2.}
+%\numberwithin{section}
+%\documentclass[12pt]{article}
+%\documentclass[12pt]{cmmp}
+
+%%\usepackage{psfig}
+%\usepackage{harvard}
+\usepackage{epsfig}
+\usepackage{amsmath}
+\usepackage{amsfonts}
+%\counterwithin{figure}{section}
+\usepackage{amssymb}
+\usepackage{bbold}
+\usepackage{bbm}
+\numberwithin{equation}{section}
+\numberwithin{figure}{section}
+\numberwithin{table}{section}
+%%\usepackage{graphicx}
+%%
+%%\usepackage{txfonts}
+%%%\usepackage{mathrsfs}
+%
+%\usepackage{feynmf}     %<------------ Obbligatorio
+\unitlength=1mm         %<------------ Obbligatorio
+%
+\newsavebox{\fmbox}
+\newenvironment{fmpage}[1]
+{\begin{lrbox}{\fmbox}\begin{minipage}{#1}}
+{\end{minipage}\end{lrbox}\fbox{\usebox{\fmbox}}}
+\newcommand{\braket}[1]{\langle {#1} \rangle }
+\newcommand{\ket}[1]{|{#1} \rangle }
+\newcommand{\bra}[1]{\langle {#1}|}
+\newcommand\idop{\mathds 1}
+\usepackage{dsfont}
+\usepackage{latexsym}
+\usepackage[varg]{txfonts}
+\usepackage{mathrsfs}
+\usepackage{upgreek}
+%\usepackage[round]{natbib}
+%\usepackage [latin1]{inputenc}
+\usepackage{verbatim}
+\usepackage{array}
+\usepackage{color}
+%\pagestyle{plain}
+\usepackage{graphicx}
+\DeclareMathAlphabet{\mathpzc}{OT1}{pzc}{m}{it}
+\title{Elastic response of the atomic nucleus in gauge space: Giant Pairing Vibrations}
+\author{P. F. Bortignon\\Department of Physics\\University of Milan, Italy and\\ INFN Sez. di Milano, Italy\\R. A. Broglia\\ Department of Physics\\University of Milan, Italy and\\ The Niels Bohr Institute\\ University of Copenhagen
+\\Copenhagen, Denmark}
+%\author{G. Potel and R. A. Broglia}
+
+\begin{document}
+\maketitle
+\begin{abstract}
+Due to quantal fluctuations, the ground state of a closed shell system $A_0$ can become virtually excited in a state made out of the ground state of the neighbour nucleus $\ket{gs(A_0+2)}$ ($\ket{gs(A_0-2)}$ ) and of two uncorrelated holes (particles) below (above) the Fermi surface.  These $J^\pi=0^+$ pairing vibrational states have been extensively studied with  two--nucleon transfer reactions. Away from  closed shells, these modes  eventually  condense, leading to nuclear superfluidity and thus to pairing rotational bands with excitation energies much smaller than  $\hbar\omega_0$, the energy separation between major shells. Pairing vibrations are the plastic response of the nucleus in gauge space, in a similar way in which low--lying quadrupole vibrations, i.e. surface vibrations with energies much smaller than $\hbar\omega_0$ whose eventual condensation leads to quadrupole deformed nuclei, provide an example of the plastic nuclear response in 3D--space.
+While much is known, in particular concerning its damping, regarding the counterpart of quadrupole plastic  modes, i.e. regarding the giant quadrupole resonances (GQR), $J^\pi=2^+$ elastic response of the nucleus  with energies of the order of $\hbar\omega_0$, little is known regarding this subject concerning pairing modes (giant pairing vibrations, GPV). Consequently, the recently reported observation of $L=0$ resonances, populated in the reactions $^{12}$C($^{18}$O,$^{16}$O)$^{14}$C  and $^{13}$C($^{18}$O,$^{16}$O)$^{15}$C  and lying at an excitation energy of the order of $\hbar\omega_0$, likely constitutes the starting point of a new field of  research. That of the study of the elastic response of nuclei in gauge space. Not only, the fact that the GPV have likely been serendipitously observed in these light nuclei when it has failed to show up in more propitious nuclei like Pb, provides unexpected and fundamental insight into the relation existing between basic mechanisms -Landau, doorway, compound damping- through which giant resonances acquire a finite lifetime, let alone the radical difference regarding these phenomena displayed by correlated $(ph)$ and $(pp)$ modes.
+\end{abstract}
+Systems displaying many degrees of freedom can be described at profit in terms of field theories of fermions and of bosons and of their interweaving \cite{Weinberg:96,Weinberg:96b}. Examples are provided by Quantum Electro Dynamics (QED) \cite{Feynman:61} and by Nuclear Field Theory (NFT) \cite{Bes:74,Bortignon:77}. In QED, electrons and positrons are the fermions, photons the bosons. In NFT, taylored after Feynman's version of QED in order to describe the nuclear structure in general, and  that around closed shells in particular, the nucleons, namely particles ($p$) and holes ($h$) are the fermions, while correlated particle--hole ($ph$), ($pp$) and ($hh$) collective vibrations are the (composite) bosons.
+
+In QED the photon field and the electron field are in interaction (fine structure constant). As a consequence, the identification of each field by these names is only an approximate one. What one calls physically an electron is only partially to be associated with the electron field alone. It is also partially to be associated with the photon field. Physically, an electron can sometimes radiate a photon and, at a later time reabsorb it. Conversely, what one calls a photon, propagating through empty space can occasionally materialize itself in space and become replaced by an electron and a positron (particle ($e^-$)--hole ($e^+$) pair). Each of these fermions can radiate and reabsorb a photon (self energy) or exchange it (vertex correction), and then, in the course of time, recombine to reform a photon. In other occasions, before the electron reabsorbs the  radiated photon it can annihilate with the positron producing  a second photon. These three--point--vertex processes measure the scattering of light by light. 
+
+In NFT, the nucleon field and the vibrational fields are in interaction through the particle--vibration coupling vertices. A physical nucleon propagating in the nuclear medium can change orbital by bouncing inelastically off the nuclear surface and setting it into a ($ph$) vibration, eventually reabsorbing it at a later time (self--energy process). Conversely, a correlated particle--hole can decay into one of its ($ph$)--components and eventually couple to $2p$--$2h$ states containing an uncorrelated ($ph$) pair and a  ($ph$) collective vibration (doorway state). This vibration can either be reabsorbed by the same fermion which virtually excited it (self energy) or be exchanged with the other fermion (vertex correction) before the particle ($p$) falls into the hole ($h$) and reconstitutes the collective vibration \cite{Bertsch:83}. It can also propagate asymptotically and be joined by a second ($ph$)--collective vibration produced by the annihilation of the $p$ by the $h$, a process giving a measure of the interaction between one-- and two-- phonon vibrational states. It is at this point that the analogy between NFT and QED ends up.
+
+In QED the entire effect of the scattering of light by an electric field is, to lowest order, zero (Furry theorem). In a nutshell, any loop with an odd number of quanta in it is zero (\cite{Schweber:94}, p.450). The above results are a consequence of the symmetry existing between particle (electron) and hole (positron) states.
+
+If this was the case in nuclei, ($p,h$) giant resonances in general, and Giant Dipole Resonances (GDR) in particular, will display a damping width (lifetime) due solely to neutron-- and $\gamma$--decay. Furthermore, multiphonon spectra will be harmonic. As a consequence, no ($p,h$) vibrational state will display a finite value of the static quadrupole moment.
+
+%In QED the coupling between one-- and two-- photon states is exactly zero (Furry theorem), and there is a complete cancellation between self--energy and vertex corrections, the photon being an elementary particle with infinite lifetime. The above results are a direct consequence of the exact symmetry existing between particle (electron) and hole (positron) states.
+
+
+%If this was also the case in nuclei, no ($ph$) collective vibrational state, in particular the Giant Dipole Resonance (GDR), will display a damping width (finite lifetime). Furthermore, all multiphonon spectra will be harmonic, let alone the fact that no vibrational state will display a finite value of the quadrupole moment. Applied to low--lying collective $2^+$ states, the above results imply that no shape phase transition could take place and, as a consequence, no quadrupole rotational bands should be observed in nuclei.
+
+
+The above expectations are clearly contradicted by the experimental findings \cite{Bohr:75,Soloviev:92,Bortignon:98}. Giant resonances (the elastic response of nuclei to impulsive fields) in general, and GDR in particular damp out, through coupling to doorway states, after few periods of oscillations, the associated width $\Gamma$ of few MeV, being a direct measure of the asymmetry existing in nuclei between particle and hole states. In fact, if the damping mechanism was that resulting from $n$-- and $\gamma$--decay alone ($\Gamma^\uparrow_n/\Gamma\lesssim10^{-1},\Gamma_{\gamma_0}/\Gamma\lesssim10^{-2}$, \cite{Aumann:98}), the damping width of a resonance will be a factor of at least 10 smaller than experimentally observed. Similarly, and again due to the asymmetry existing in nuclei between particle and hole states, low--lying ($ph$) collective vibrations (the plastic response of the nucleus to long lasting forces) in general, and $2^+$ modes in particular, display sizable reorientation effects (\cite{deBoer:68}), while multiphonon states show conspicuous anharmonicities (\cite{Bohr:75}). This is in keeping with the fact that although the contributions arising from clockwise and anti clockwise three--point--vertex processes describing the coupling between one-- and two-- phonon states have opposite signs their summed value is finite\footnote{Self energy processes associated with the coupling of ($ph$) giant resonances to doorway states containing e.g. a low--lying quadrupole collective vibration lead to contributions of the same sign both for the particle as well as the hole, and to the opposite sign for vertex correction contributions (\cite{Bortignon:83}). This is because particles and holes have opposite signs of the quadrupole moment, in keeping with the fact that  closed shell systems being spherical,  have zero value of the quadrupole moment.}.   
+
+
+Let us now turn to an example related to tunneling processes. In particular to the one--particle tunneling between a normal and a superconducting metal in weak contact, as compared to a $(d,p) $ reaction on a superfluid target nucleus. While the condensed matter expression of the associated current does not depend on the occupation factors $U^2_k$ (\cite{Cohen:62,Schrieffer:64} p. 81), the nuclear one--particle transfer amplitude does (\cite{Idini:15}). This is in keeping with the fact in condensed matter, for a state $k$ above  $\epsilon_F$ with energy $\epsilon_k$, there is a state $k'$ below $\epsilon_F$ with $\epsilon_{k'}\equiv-\epsilon_k$. Thus $U^2_k=V_{k'}^2$ and $U_k^2+U^2_{k'}=1$, a situation not encountered in the nucleus. 
+
+Summing up, in nuclei there is no symmetry between particle and hole states as the last sentence of the abstract of \cite{Cappuzzello:15} paper seem to imply, and at the basis of their research. Nonetheless, to learn about Giant Pairing Vibrations (GPV) \cite{Broglia:77,Cappuzzello:15} is physically very important. Comparable in relevance to that which is at the basis of studies of  Giant Dipole (Pygmy) Resonances and low--energy $E1$ modes in nuclei \cite{Savran:13}.
+
+
+A large number of excited $0^+$ states are known in the low--energy nuclear spectrum. Several mechanisms may produce collective states of this spin and parity. The best studied ones correspond to oscillations in the shape or in the size of the nucleus (so called $(ph)\, \beta$-- vibrations in quadrupole deformed nuclei, and (two--quasiparticle) monopole states in superfluid spherical  nuclei). These modes are associated with changes in the binding field of each particle, i.e. a field which conserves the number of particles. A special case of this type of modes is provided by the so called coexistence states in $N=Z$ nuclei, in particular in $^{16}$O. The $0^+$ state observed at 6.05 MeV contains a large component of $4p-4h$ admixture of deformed configurations \cite{Brown:64,Engeland:65}.
+
+
+In addition to the previous modes, nuclei display vibrations based on fields which create or annihilate two particles. Namely, vibrations in gauge space (pair addition and pair substraction modes) based on pairing fields associated with the pairing interaction and corresponding to two--particle ($pp$) (two--hole ($hh$)) correlated modes. Because  all of the associated configurations contribute in phase to the two--nucleon transfer formfactors, these reactions are the specific tools to probe pairing vibrations. Suggested by Bohr in terms of the baryon (transfer) quantum number in early versions of \cite{Bohr:75}\footnote{Within the context of the asymmetry between particles and holes states discussed above, it can be mentioned that the zero point amplitudes of the pair addition and pair removal modes differ from each other, since there is no symmetry connecting the two modes with transfer numbers $\pm 2$ (see \cite{Bohr:75} p. 392).}, see also \cite{Bohr:64}, studied in terms of a simple model \cite{Hogassen:61}, implicitly included in spectroscopic studies of single--closed nuclei \cite{Arvieu:63} and of $\beta$--vibrations in deformed nuclei \cite{Bes:63}, collective modes in gauge space were eventually formulated in detail in terms of pairing rotational and pairing vibrational bands \cite{Bes:66}. The predicted 4.95 MeV two--phonon state of $^{208}$Pb, product of the monopole pair removal and pair addition modes ($\ket{^{206}\text{Pb(gs)}}\otimes \ket{^{210}\text{Pb(gs)}}$) was observed in the $^{206}$Pb($t,p$) reaction, and the expected properties confirmed (\cite{Bjerregaard:66b,Broglia:67}, cf. also \cite{Mottelson:76}). Within this context, it is to be noted that the low--lying $0^+$ (coexistence) state of $^{16}$O mentioned above, is opposite to a multi--phonon pairing vibrational state, in keeping with the fact that deformation (low level density, Jahn--Teller--like phenomenon) opposes pairing (high level density phenomenon, \cite{Bohr:75}, p.386 and 641, \cite{Mottelson:76}).
+
+
+The low--lying collective pairing vibrations around closed shells, i.e. pairs of particles ($pp$) and of holes ($hh$), moving and correlating in the valence orbitals, have been studied in detail, and states made up to three pairing vibrational excitations observed \cite{Flynn:72,Broglia:73}.
+These vibrations also dress the valence nucleons, mixing particle with hole states, and giving rise to retarded contributions to the state dependent effective mass   \cite{Bes:71,Flynn:71,Bes:71d,Broglia:74,Perazzo:80}, and to dealignments in deformed, rotating nuclei \cite{Barranco:87b,Shimizu:89}.
+
+Now, because of spatial quantization, single--particle levels in nuclei are bunched in major shells separated by an average energy $\hbar \omega_0\approx\frac{41}{A^{1/3}}$MeV$\approx \frac{50\,\text{MeV fm}}{R}$, where $R=1.2 A^{1/3}$ fm is the nuclear radius. This is the origin of Giant Pairing Vibrations (GPV). That is (elastic) vibrations adding (removing) two nucleons and based on correlated $2p$ ($2h$) excitations across major shells\footnote{The frequency of elastic quadrupole vibrations of a solid sphere made out of particles of mass $m$ and density $\rho$ can be written as $\omega_{el,Q}=(6\mu/m\rho)^{1/2}/\braket{r^2}^{1/2}$, where $\mu$ is the Lam\'e shear modulus of elasticity, and $\braket{r^2}^{1/2}$ the mean square radius (\cite{Bertsch:05}, see also \cite{Bertsch:83b}). In nuclei, rigidity is provided by the energy difference $\hbar\omega_0(\approx 41$ MV $/A^{1/3}$) between major shells. Within this context, the centroid of the giant quadrupole resonance can be written as $\hbar\omega_{GQR}=\sqrt{2}\hbar\omega_0\approx 56 $ MeV $/\braket{r^2}^{1/2} (\approx 70/A^{1/3})$ (\cite{Bortignon:98}), equal to the corresponding expression of $\hbar\omega_{GPV}$ (\cite{Broglia:77}). While the coincidence of the numerical factor is accidental, the $A$--dependence testifies to the inverse dependence with the nuclear radius.
+	
+	Both the low--lying quadrupole $(ph)$ and pairing ($(pp),(hh)$) vibrations are mainly built out of $\Delta N=0$ jumps, $N$ indicating the major shell principal quantum number. Because the associated energies are rather small as compared to $\hbar\omega_0$, let alone $\epsilon_F$, it is not possible to write down an analytic expression which quantitatively reproduces the data as in the case of giant resonances, and one needs to make used of detailed microscopic (RPA, QRPA) calculations. Moving away from closed shell in both $N$ and $Z$, the energy of quadrupole vibrations  decreases, and eventually no solution with positive energy is found (quadrupole deformation, phase transition, plastic behaviour). Coulomb excitation of a number of quadrupole phonons may eventually lead to fusion (\cite{Beyer:69}, \cite{Kruse:80}).
+	
+	Concerning the case of (low--lying) pairing vibrations, let us consider the modes based on $^{208}$Pb. While the single pair removal mode ($\ket{gs (^{206}\text{Pb})}$) is well described in term of RPA, the three phonon states corrected by Pauli principle violation terms, and properly normalized, essentially coincides with the $n_h=3$ projection of the $\ket{BCS (^{202}\text{Pb})}$ state ($n_h$ indicating the number of hole pairs). Thus, deformation (plasticity) in gauge space. Within this context we refer to the large anharmonicities found in the analysis of the multiphonon pairing vibrational spectrum in \cite{Clark:06}.}. One  thus expects these vibrations to be found in all nuclei, disregarding whether they are normal or superfluid, spherical or deformed. GPV are expected to lie at an excitation energy of $\hbar\omega_{GPV}\approx 1.7 \hbar\omega_0$, and to carry a two--nucleon transfer cross section of the order of that associated with the low--lying (plastic) pairing vibrations. Predicted almost four decades ago\footnote{Pairing vibrations are expected to be observed as distinct modes excited in two--nucleon transfer reactions with probabilities similar to those associated with single--particle transfer reactions exciting single--particle states, each time one can distiguish between particle and hole states, namely in the case of normal systems ($\braket{gs|P^\dagger|gs}=0$, i.e. no static deformation in gauge space). This was the physical argument at the basis of the prediction of a universal giant pairing vibrational mode expected in all nuclei, in keeping with the fact that $\Delta\ll\hbar\omega_0$. This argument should not be confused with any symmetry between particle and hole states. Furthermore, the above physical argument makes it clear that nothing is gained (in principle only losed) in studying superfluid nuclei in the search for GPV.} \cite{Broglia:77}, serious experimental candidate to the role of pair addition GPV have been found in a recently reported experiment (\cite{Cappuzzello:15}; within this context, see also  \cite{Crawley:77,Crawley:80,Mouginot:11}), as the result of an experimental \textit{tour de force}, backed by a systematic and less than straightforward theoretical calculation of the background. The importance of this work is that it ushers the experimental probing of the elastic response of the atomic nucleus in gauge space to state of the art level, providing information about the associated elastic modulus, as well as concerning the effective two--nucleon transfer amplitudes (cf. Fig. 1 of \cite{Broglia:77}), which  parallel  the nucleon effective charges associated with ($ph$) giant resonances, in particular with the GDR\footnote{The possibility to carry out similar studies is denied to Cooper pair  transfer between metallic superconductors (no major shells; \cite{Josephson:62}).} (cf. e.g. p. 486 of ref. \cite{Bohr:75}).
+
+Before proceeding further let us make an assessment of the evidence for GPV presented by \cite{Cappuzzello:15}. They have a sensible point on the oscillation of the angular distributions associated with the peaks at $13.7\pm0.1$ MeV ($^{15}$C) and $16.9\pm0.1$ MeV ($^{14}$C). While heavy ion reactions are, as a rule, not the best probes to observe quantal effects, light heavy ions at the selected energy ($E=84$ MeV) allows for a healthy interference between the distorted waves and an $L=0$ angular momentum transfer pattern emerges. This is a fingerprint of the monopole GPV. An insight further corroborated by the absolute cross section of the resonance as compared with that associated with the ground state. For example, in the case of $^{14}$C, $\sigma$ (GPV) $\approx 0.66$ mb while $\sigma$ (gs) $\approx 0.92$ mb, again consistent with GPV although on the low side.
+
+There are at least two objections one can level against the above arguments. The first concerns the fact that the observed resonance may correspond to a monopole ($ph$)--like excitation. However, arguably, only that of a correlated ($ph$) excitation can carry a sizable two--nucleon transfer cross section of the order of that observed. But the monopole giant resonance (breathing mode) is expected at higher energies than observed (\cite{Lebrun:80}). Inelastic scattering (see e.g. \cite{Bortignon:98}), in particular inelastic electron scattering (\cite{Wakasugi:13}) could provide important information on the above issue, in particular concerning the volume--surface structure of the form factor, to help clarify the question.
+
+
+The second objection is likely more serious and reads somewhat as follows: why is that one can observe such an elusive mode as the GPV in light systems as $^{14}$C and $^{15}$C and not in heavy systems, where the phase space for the correlation of the two nucleons is much larger than in light nuclei, and where extensive search has been carried out without success. It is within this context that the results of \cite{Cappuzzello:15} gets further strength by connecting, unexpectedly, with a number of fundamental issues within the field of nuclear many--body physics.
+
+
+Because of spatial quantization, shell effects are more important in light than in heavy nuclei. This is the reason why giant resonances suffer much stronger Landau damping\footnote{Landau damping in nuclei leads only to a dephasing of the different states in which the collective mode breaks at the level of (time dependent) mean field.} (breaking of strength) in the first than in the second type of systems (see e.g. \cite{Bortignon:98}, Fig. 3.6).
+
+On the other hand, actual damping (finite lifetime) is due to the coupling to doorway states and eventually to compound states\footnote{The corresponding mechanism is illustrated in Fig. 4.18 of \cite{Bortignon:98}. Within the present context, it applies to each of the states in which the giant resonance breaks in due to Landau damping, i.e. to the splitting of the collective mode due to accidental degeneracies with unperturbed $ph$ roots (excitations).}. And in this case the density of doorway states is much higher in heavy than in light nuclei\footnote{For example, in the case of the GQR this density of $2p-2h$ states (containing an uncorrelated $ph$ excitation and a collective low--lying vibration all coupled to the right angular momentum and parity, i.e. $2^+$ in the present case) is $\approx$ 20 MeV$^{-1}$ (see \cite{Bortignon:98} pp. 87, 88 in particular Fig. 4,16). The corresponding one in $^{14}$C is almost an order of magnitude smaller. Concerning the density of CN states, the end point in the damping process, the difference amounts to $\rho (A=208, E^*=10 $ MeV)/$\rho(A=14, E^*=10$ MeV)$\approx \exp[2(\sqrt{208}-\sqrt{14})]\approx 2\times 10^9$ (see \cite{Bortignon:98} p. 109). Important as these effects are, they can be overwhelmed by the fact that $V^2_{a\alpha}=V^2_p+V^2_n+V_pV_n\times$ (recoupling), $V_{a\alpha}$ indicating the coupling between the collective state $\ket{a}$ and the doorway state $\ket{\alpha}$ (see \cite{Bortignon:98}).}. Now, in the case of correlated $pp$ or $hh$ modes like the GPV, the damping widths of the two fermions add up instead of substracting as it happens in the case of correlated ($ph$)--giant pairing modes. Thus, GPV in heavy systems may acquire a very large width, incompatible with their detection as well defined states.
+
+
+In the case of lighter systems, in particular of $^{14}$C, one may hypothize that the $L=0$ resonance at 16.9 MeV is a low--lying fragment of the GPV (after Landau damping), carrying a non--negligible fraction of the total two--nucleon transfer strength and having undergone a modest amount of doorway damping.
+
+
+Recently, the question of the population of the GPV has been addressed (\cite{Laskin:16}). The main conclusion of the paper is that ``hot'', in the two--nucleon transfer sense, configurations namely $s^2_{1/2}(0)$ (also $p^2_{1/2}$ and eventually $p^2_{3/2}$ in the case of $^{14}$C) at threshold provide the largest effect which may cause dilution of the GPV strength, and not coupling to the continuum. This result is important for at least two reasons. The first, because it is consistent with experiment. This is in keeping with the fact that ($ph$) giant resonances, which will be similarly affected by continuum effects as GPV, have been systematically observed throughout the mass table. The second reason is that the low--$l$ orbital effect is very similar to the so--called pairing anti--halo effect (\cite{Bennaceur:00}). In the formulation of \cite{Hamamoto:03,Hamamoto:04}    it takes place when $s,p$ states at threshold become unavailable for the HFB mean field. Because nuclei fulfilling such condition exist, e.g. $^{11}$Li, although with ms lifetime, a long--range, eventually bootstrap--generated, pairing interaction is needed to stabilize the system (\cite{Barranco:01,Tanihata:08,Potel:10}). Namely that arising from the exchange of the low--energy dipole mode and resulting in the binding, by 380 keV, of the two halo neutrons. In the process, a new elementary mode of excitation have been found: the (neutron) pair addition mode, which can be used as a building block in the construction of the nuclear spectrum. For example, as pairing excitation of the ground state of $^{10}$Be. In other words, arguably, the first excited $0^+$ halo state ($E_x=2.25$ MeV) of $^{12}$Be can be viewed as the $\ket{gs (^{11}\text{Li})}$ in a new environment (see \cite{Broglia:16}, Fig. A5).
+
+It is possible that the reason why a pairing mode has been observed at $\approx$ 15 MeV of excitation energy in C--isotopes is that these modes are actually GPV (or Landau chunks of it) which, based mainly on the $s^2_{1/2}(0)$ and $p^2_{1/2}(0)$ configurations\footnote{Within this context, it is of notice that the two neutron separation energies are $S_{2n}=13.1$ MeV and 9.4 MeV in $^{14}$C and $^{15}$C respectively.} have somewhat become neutron halo pair addition modes. Thus, a much more extended and diffuse two neutron correlated configuration than that associated with the corresponding ground state. As a consequence, these extended states are expected to be resilient to coupling to other states and thus to damping or dilution. A tantalising question.
+
+
+How to proceed? Likely, inelastic scattering ($^{14}$C($x,x')^{14}$C$^*$), one--particle transfer (e.g. $^{13}$C$(d,p)^{14}$C) as well as two--particle transfer (e.g. $^{12}$C$(t,p)^{14}$C). In this way one may be able to learn whether there are particularly collective ($ph$) states on top of the $0^+$ (dipole modes?), how important the $p^2_{1/2}(0)$ configuration in the GPV state is and eventually make clearer the $L=0$ oscillating pattern, respectively\footnote{It does not escape our attention that the abundance of $^{13}$C is only 1.07\% and that tritium beams are past remembrance. On the other hand, inverse beam kinematics, gas targets and above all experimentalists ingenuity may help.}.
+
+   The possibility to carry out systematic studies of GPV are expected to be  instrumental in the test of two--nucleon transfer reaction mechanisms. Among other things, to get quantitative information concerning the relative role successive and simultaneous transfer play in the calculation of the absolute value of two--nucleon transfer differential cross sections in a situation in which few single particle $j^2(0)$ configurations contribute. Such information will in turn help shedding light on the spatial correlation of the nuclear Cooper pair partners  \cite{Bertsch:67,Ferreira:84,Herzog:85,Lotti:89}, correlations which can also be estimated in terms of the Cooper pair quantality parameter $Q_{pair}$, generalization of the single--particle quantality parameter (cf. \cite{Mottelson:02}). Namely, the ratio between the kinetic energy of localization within the correlation length ($\xi$) and the correlation energy $E_{corr}$. That is $Q_{pair}=\frac{\hbar^2}{(2m)\,\xi^2}\frac{1}{2E_{corr}}\approx0.03\,(\xi=\hbar v_F/2E_{corr}\approx20\,\text{fm}, E_{corr}\approx 1.5 \,\text{MeV}, v_F/c\approx 0.3)$. The above value implies a strong correlation between the Cooper pair partners. All these effects are rather subtle  \cite{Josephson:62,Bardeen:62,Pippard:12,Anderson:64b,Cohen:62,Brink:05} and, at the same time, fundamental subjects needed to understand BCS superconductivity and superfluidity in fermionic systems at large and the GPV in particular.
+
+
+The extension of monopole ($J^\pi=0^+$) GPV to other multipolarities and parities ($J^\pi=1^-,2^+,3^-,4^+$, etc.) may likely be of importance in connection with the background and thus the intensity of the monopole GPV \footnote{It is of notice that in the present case, in which the doorway states leading to the breaking of the GPV strength consists in two uncorrelated particles and a collective low--lying vibration, both self--energy and exchange processes have the same sign \cite{Bortignon:83}. Thus, the resulting width is expected to be much larger than that associated with e.g. the GDR. Within the context of the GPV background see also \cite{Bortignon:86}.} reported in \cite{Cappuzzello:15}, and will likely match that carried out in connection with the low--lying multipole pairing vibrations (cf. \cite{Brink:05} p. 108). It is of notice that these (plastic) vibrations renormalized by the GPV may play a central role in double charge exchange reactions like $^{40}$Ca($^{18}$O,$^{18}$Ne)$^{40}$Ar (\cite{Cappuzzello:15b}), of interest in the quest to determine the value of the matrix element involved in the neutrinoless double $\beta$--decay, an important test of the standard model \cite{Suhonen:98,Frekers:13,Rodin:09,Guess:11}.
+
+
+The existence of major shells with alternating parity and separated by energies of the order of $\hbar\omega_0$ (8--10 MeV), is also at the basis of ($ph$) giant resonances. In particular of the GDR, namely the sloshing back and forth of neutrons against protons in an antenna--like motion with which an atomic nucleus absorbs energy from a $\gamma$--beam. This nuclear excitation has been observed in essentially all nuclei throughout the mass table. Because one has to pay a conspicuous energetic price to separate protons from neutrons (symmetry potential), the energy centroid of the GDR lies at high energy in the nuclear spectrum, estimated to be $\hbar\omega_D\approx 2\hbar\omega_0$ ($\approx\frac{100\,\text{MeV fm}}{R}$). Its inverse proportionality to the nuclear radius  testifies to the elastic character of the GDR.
+
+
+It is interesting to note that one of todays growing points in nuclear research regards the study of low--energy $E_1$ strength found in nuclei with large neutron excess. That is, the study of the plastic response of the atomic nucleus to a dipole external field \cite{Savran:13}. New and unexpected roles are found to be played by the associated low--energy fraction of the Thomas--Reiche--Kuhn sum rule (\cite{Reiche:25,Kuhn:25}) namely  the giant dipole pygmy resonance (GDPR). A much studied example is provided by the low--lying dipole mode of $^{11}$Li (\cite{Kanungo:15} and refs. therein). This state acting as intermediate boson glues the halo neutron Cooper pair of $^{11}$Li to the core $^9$Li \cite{Barranco:01,Potel:10}. It also provides  new possibilities to test the Axel--Brink hypothesis. Hypothesis which posits that all nuclear states have a dipole mode on top of it \cite{Brink:55,Axel:67}, and which plays an important role not only in the study of the nuclear structure, but also of the compound nucleus decay \cite{Bertsch:86,Bortignon:98}. Last, but not least, the GDPR of $^{11}$Li can be viewed as a correlated Cooper pair\footnote{In this discussion, the ground state and the  GDPR of $^{11}$Li are described as a $p_{3/2}(\pi)$ proton, playing the role of spectator, and a pair of correlated halo neutrons coupled to $J^{\pi}=0^+$ and $J^{\pi}=1^-$, respectively. That is, $\ket{^{11}\text{Li}(gs;0^+_\nu)}=\ket{\tilde 0_{\nu}}\otimes\ket{p_{3/2}(\pi)}$ and $\ket{^{11}\text{Li}(1^-;0.4\,\text{MeV})}=\ket{1^-_\nu}\otimes\ket{p_{3/2}(\pi)}$ \cite{Barranco:01}.} with quantum numbers $J^{\pi}=1^-$, arguably, the scenario of  quantum vortex in nuclei (\cite{Bertsch:88,Brink:05}, App. K; \cite{Avogadro:07}). Insight into this question may be shed with the help of the $^9_3$Li$_6(t,p)^{11}_3$Li$_8(1^-$;1 MeV) two--nucleon transfer reaction, specific probe of pair addition modes in closed shell nuclei. Namely, in this case that associated with the magic number $N=6$, as a result of parity inversion.
+
+
+
+ Summing up, it may seem fair to state that the work of \cite{Cappuzzello:15} have unlocked the doors of what, arguably, can become a precious laboratory to study nuclear many--body effects at large and pairing in particular, in a rather ``clean'' (few levels) light mass environment, similar to the one discovered by \cite{Tanihata:08} in connection with two--nucleon transfer on $^{11}$Li (see also \cite{Tanihata:13}). Within this context,  there exist a surprising and unexpected connection and physical unity of the studies of GPV (GDPR) lying at the forefront of today nuclear research. That is, the mapping in gauge  (isospin) space of the	 elastic (plastic) properties of this ever surprising drop of non Newtonian fluid, namely the atomic nucleus. 
+ 
+ 
+ Discussions with Gregory Potel, Francisco Barranco, Enrico Vigezzi, Francesco Cappuzzello, Clementina Agodi, Manuela Cavallaro and Diana Carbone   are gratefully acknowledged. 
+
+%\bibliographystyle{unsrt}
+%\bibliography{C:/Gregory/Broglia/notas_ricardo/nuclear_bib}
+\begin{thebibliography}{10}
+	
+	\bibitem{Weinberg:96}
+	S.~Weinberg.
+	\newblock {\em The Quantum Theory of Fields}, volume~1.
+	\newblock Cambridge University Press, Cambridge, 1996.
+	
+	\bibitem{Weinberg:96b}
+	S.~Weinberg.
+	\newblock {\em The Quantum Theory of Fields}, volume~2.
+	\newblock Cambridge University Press, Cambridge, 1996.
+	
+	\bibitem{Feynman:61}
+	R.~P. Feynman.
+	\newblock {\em Quantum Electrodynamics}.
+	\newblock Benjamin, Reading, Mass., 1962.
+	
+	\bibitem{Bes:74}
+	D.~R. B\`{e}s, G.~G. Dussel, R.~A. Broglia, R.~Liotta, and B.~R. Mottelson.
+	\newblock Nuclear field theory as a method of treating the problem of
+	overcompleteness in descriptions involving elementary modes of both
+	quasi--particles and collective type.
+	\newblock {\em Phys. Lett. B}, 52:253, 1974.
+	
+	\bibitem{Bortignon:77}
+	{Bortignon, P. F.}, R.~A. Broglia, D.~R. B{\`{e}}s, and R.~Liotta.
+	\newblock Nuclear field theory.
+	\newblock {\em Physics Reports}, 30:305, 1977.
+	
+	\bibitem{Bertsch:83}
+	G.~F. Bertsch, P.~F. Bortignon, and R.~A. Broglia.
+	\newblock Damping of nuclear excitations.
+	\newblock {\em Rev. Mod. Phys.}, 55:287, 1983.
+	
+	\bibitem{Schweber:94}
+	S.S. Schweber.
+	\newblock {\em QED}.
+	\newblock Princeton University Press, Princeton, New Jersey, 1994.
+	
+	\bibitem{Bohr:75}
+	{Bohr, A.} and B.~R. Mottelson.
+	\newblock {\em Nuclear Structure, Vol.II}.
+	\newblock Benjamin, New York, 1975.
+	
+	\bibitem{Soloviev:92}
+	V.~G. Soloviev.
+	\newblock {\em The theory of atomic nuclei}.
+	\newblock Institute of Physics Publishing, 1992.
+	
+	\bibitem{Bortignon:98}
+	{Bortignon, P. F.}, A.~Bracco, and R.~A. Broglia.
+	\newblock {\em Giant Resonances}.
+	\newblock Harwood Academic Publishers, Amsterdam, 1998.
+	
+	\bibitem{Aumann:98}
+	T.~Aumann, P.~F. Bortignon, and H.~Emling.
+	\newblock Multiphonon giant resonances in nuclei.
+	\newblock {\em Annual Review of Nuclear and Particle Science}, 48:351, 1998.
+	
+	\bibitem{deBoer:68}
+	J~de~Boer and J~Eichler.
+	\newblock The reorientation effect.
+	\newblock {\em Adv. Nucl. Phys.}, 1:1, 1968.
+	
+	\bibitem{Bortignon:83}
+	P.~F. Bortignon, R.~A. Broglia, and C.~H. Dasso.
+	\newblock Quenching of the mass operator associated with collective states in
+	many--body systems.
+	\newblock {\em Nuclear Physics A}, 398:221, 1983.
+	
+	\bibitem{Cohen:62}
+	M.~H. Cohen, L.~M. Falicov, and J.~C. Phillips.
+	\newblock Superconductive tunneling.
+	\newblock {\em Phys. Rev. Lett.}, 8:316, 1962.
+	
+	\bibitem{Schrieffer:64}
+	J.R. Schrieffer.
+	\newblock {\em Superconductivity}.
+	\newblock Benjamin, New York, 1964.
+	
+	\bibitem{Idini:15}
+	A.~Idini, G.~Potel, F.~Barranco, E.~Vigezzi, and R.~A. Broglia.
+	\newblock Interweaving of elementary modes of excitation in superfluid nuclei
+	through particle-vibration coupling: Quantitative account of the variety of
+	nuclear structure observables.
+	\newblock {\em Phys. Rev. C}, 92:031304, 2015.
+	
+	\bibitem{Cappuzzello:15}
+	F~Cappuzzello, D~Carbone, M~Cavallaro, M~{Bond\'i}, C~Agodi, F~Azaiez,
+	A~Bonaccorso, A~Cunsolo, L~Fortunato, A~Foti, S~Franchoo, E~Khan, R~Linares,
+	J~Lubian, J~A Scarpaci, and A~Vitturi.
+	\newblock {Signatures of the Giant Pairing Vibration in the $^{14}$C and
+		$^{15}$C atomic nuclei.}
+	\newblock {\em Nature Communications}, 6:6743, 2015.
+	
+	\bibitem{Broglia:77}
+	R.~A. Broglia and D.~R. Bes.
+	\newblock High-lying pairing resonances.
+	\newblock {\em Physics Letters B}, 69:129, 1977.
+	
+	\bibitem{Savran:13}
+	D.~Savran, T.~Aumann, and A.~Zilges.
+	\newblock Experimental studies of the pygmy dipole resonance.
+	\newblock {\em Progress in Particle and Nuclear Physics}, 70:210, 2013.
+	
+	\bibitem{Brown:64}
+	G.~E. Brown.
+	\newblock In {\em {Comptes Rendus du Congr\`{e}s International de Physique
+			Nucl\'{e}aire}}, volume~1, page 129. Centre National de la Recherche
+	Scientifique, 1964.
+	
+	\bibitem{Engeland:65}
+	T.~Engeland.
+	\newblock Core excitation in {$^{18}$O}.
+	\newblock {\em Nuclear Physics}, 72:68, 1965.
+	
+	\bibitem{Bohr:64}
+	A.~Bohr.
+	\newblock Elementary modes of excitation and their coupling.
+	\newblock In {\em {Comptes Rendus du Congr\`{e}s International de Physique
+			Nucl\'{e}aire}}, volume~1, page 487. Centre National de la Recherche
+	Scientifique, 1964.
+	
+	\bibitem{Hogassen:61}
+	J.~H\"ogaasen-Feldman.
+	\newblock A study of some approximations of the pairing force.
+	\newblock {\em Nuclear Physics}, 28:258, 1961.
+	
+	\bibitem{Arvieu:63}
+	R.~Arvieu, E.~Baranger, M.~Veneroni, M.~Baranger, and V.~Gillet.
+	\newblock {Description des noyaux $Z = 50$ par un mod\`{e}le de
+		quasi--particules en int\'{e}raction}.
+	\newblock {\em Physics Letters}, 4:119, 1963.
+	
+	\bibitem{Bes:63}
+	D.~R. B{\`{e}}s.
+	\newblock Beta--vibrations in even nuclei.
+	\newblock {\em Nuclear Physics}, 49:544 -- 565, 1963.
+	
+	\bibitem{Bes:66}
+	{B{\`{e}}s, D. R.} and R.~A. Broglia.
+	\newblock Pairing vibrations.
+	\newblock {\em Nucl. Phys.}, 80:289, 1966.
+	
+	\bibitem{Bjerregaard:66b}
+	{Bjerregaard, J. H.}, O.~Hansen, Nathan, and S.~Hinds.
+	\newblock States of {$^{208}$Pb} from double triton stripping.
+	\newblock {\em {Nucl. Phys.}}, 89:337, 1966.
+	
+	\bibitem{Broglia:67}
+	R.~A. Broglia and C.~Riedel.
+	\newblock Pairing vibration and particle-hole states excited in the reaction
+	$^{206}${P}b(t, p)$^{208}${P}b.
+	\newblock {\em Nucl. Phys.}, 92:145, 1967.
+	
+	\bibitem{Mottelson:76}
+	B.~R. Mottelson.
+	\newblock {\em Elementary Modes of Excitation in Nuclei, Le Prix Nobel en
+		1975}.
+	\newblock Imprimerie Royale Norstedts Tryckeri, Stockholm, 1976.
+	\newblock p. 80.
+	
+	\bibitem{Flynn:72}
+	{Flynn, E. R.}, G.~J. Igo, and R:~A. Broglia.
+	\newblock {Three--phonon monopole and qudrupole pairing vibrational states in
+		$^{206}$Pb}.
+	\newblock {\em Phys. Lett. B}, 41:397, 1972.
+	
+	\bibitem{Broglia:73}
+	{Broglia, R.A.}, O.~Hansen, and C.~Riedel.
+	\newblock Two--neutron transfer reactions and the pairing model.
+	\newblock {\em Advances in Nuclear Physics}, 6:287, 1973.
+	
+	\bibitem{Bes:71}
+	D.~R. B{\`{e}}s and R.~A. Broglia.
+	\newblock Effect of the multipole pairing and particle-hole fields in the
+	particle-vibration coupling of $^{209}${P}b. {I}.
+	\newblock {\em Physical Review C}, 3:2349, 1971.
+	
+	\bibitem{Flynn:71}
+	E.R. Flynn, G.~Igo, P.D. Barnes, D.~Kovar, D.~R. B\`{e}s, and R.A. Broglia.
+	\newblock {Effect of multipole pairing particle--hole fields in the
+		particle--vibration couplig of $^{208}$Pb (II). The $^{207}$Pb$(t,p)^{209}$Pb
+		reaction at 20 MeV}.
+	\newblock {\em Phys. Rev. C}, 3:2371, 1971.
+	
+	\bibitem{Bes:71d}
+	D.~R. B{\`{e}}s and R.~A. Broglia.
+	\newblock Effective operators in the analysis of single--nucleon tansfer
+	reactions on closed shell nuclei.
+	\newblock {\em Physical Review C}, 3:2389, 1971.
+	
+	\bibitem{Broglia:74}
+	R.~A. Broglia, D.~R. B{\`{e}}s, and B.~S. Nilsson.
+	\newblock Strength of the multipole pairing coupling constant.
+	\newblock {\em Physics Letters B}, 50:213, 1974.
+	
+	\bibitem{Perazzo:80}
+	R.P.J. Perazzo, S.L. Reich, and H.M. Sofía.
+	\newblock Renormalization of particle and hole states in {$^{208}$}{Pb}.
+	\newblock {\em Nuclear Physics A}, 339:23, 1980.
+	
+	\bibitem{Barranco:87b}
+	F.~Barranco, M.~Gallardo, and R.~A. Broglia.
+	\newblock Nuclear field theory of spin dealignment in strongly rotating nuclei
+	and the vacuum polarization induced by pairing vibrations.
+	\newblock {\em Phys. Lett. B}, 198:19, 1987.
+	
+	\bibitem{Shimizu:89}
+	{Shimizu, Y. R.}, J.~D. Garrett, R.~A. Broglia, M.~Gallardo, and E.~Vigezzi.
+	\newblock Pairing fluctuations in rapidly rotating nuclei.
+	\newblock {\em Reviews of Modern Physics}, 61:131, 1989.
+	
+	\bibitem{Bertsch:05}
+	G.F. Bertsch and R.A. Broglia.
+	\newblock {\em Oscillations in Finite Quantum Systems}.
+	\newblock Cambridge University Press, Cambridge, 2005.
+	
+	\bibitem{Bertsch:83b}
+	G.~F. Bertsch.
+	\newblock Vibrations of the atomic nucleus.
+	\newblock {\em Scientific American}, 248:62, 1983.
+	
+	\bibitem{Beyer:69}
+	Karin Beyer and Aa. Winther.
+	\newblock On {Coulomb} induced fission.
+	\newblock {\em Physics Letters B}, 30:296, 1969.
+	
+	\bibitem{Kruse:80}
+	Hans Kruse, W.~T. Pinkston, Walter Greiner, and Volker Oberacker.
+	\newblock Dynamics of coulomb fission.
+	\newblock {\em Phys. Rev. C}, 22:2465, 1980.
+	
+	\bibitem{Clark:06}
+	{Clark, R. M.}, A.~O. Macchiavelli, L.~Fortunato, and R.~Kr\"ucken.
+	\newblock Critical-point description of the transition from vibrational to
+	rotational regimes in the pairing phase.
+	\newblock {\em Phys. Rev. Lett.}, 96:032501, 2006.
+	
+	\bibitem{Crawley:77}
+	G.~M. Crawley, W.~Benenson, D.~Weber, and B.~Zwieglinski.
+	\newblock Observation of hole states at high excitation in ($p, t$) reactions.
+	\newblock {\em Phys. Rev. Lett.}, 39:1451, 1977.
+	
+	\bibitem{Crawley:80}
+	G.~M. Crawley, S.~Gales, D.~Weber, B.~Zwieglinski, W.~Benenson, D.~Friesel,
+	A.~Bacher, and B.~M. Spicer.
+	\newblock Deep hole states observed in ($p, t$) reactions.
+	\newblock {\em Phys. Rev. C}, 22:316, 1980.
+	
+	\bibitem{Mouginot:11}
+	B.~Mouginot, E.~Khan, R.~Neveling, F.~Azaiez, E.~Z. Buthelezi, S.~V. F\"ortsch,
+	S.~Franchoo, H.~Fujita, J.~Mabiala, J.~P. Mira, P.~Papka, A.~Ramus, J.~A.
+	Scarpaci, F.~D. Smit, I.~Stefan, J.~A. Swartz, and I.~Usman.
+	\newblock Search for the giant pairing vibration through ($p$,$t$) reactions
+	around 50 and 60 {MeV}.
+	\newblock {\em Phys. Rev. C}, 83:037302, 2011.
+	
+	\bibitem{Josephson:62}
+	B.~D. Josephson.
+	\newblock Possible new effects in superconductive tunnelling.
+	\newblock {\em Phys. Lett.}, 1:251, 1962.
+	
+	\bibitem{Lebrun:80}
+	D.~Lebrun, M.~Buenerd, P.~Martin, P.~de~Saintignon, and G.~Perrin.
+	\newblock Is there a giant monopole resonance in light nuclei?
+	\newblock {\em Physics Letters B}, 97:358, 1980.
+	
+	\bibitem{Wakasugi:13}
+	M.~Wakasugi, T.~Ohnishi, S.~Wang, Y.~Miyashita, T.~Adachi, T.~Amagai,
+	A.~Enokizono, A.~Enomoto, Y.~Haraguchi, M.~Hara, T.~Hori, S.~Ichikawa,
+	T.~Kikuchi, R.~Kitazawa, K.~Koizumi, K.~Kurita, T.~Miyamoto, R.~Ogawara,
+	Y.~Shimakura, H.~Takehara, T.~Tamae, S.~Tamaki, M.~Togasaki, T.~Yamaguchi,
+	K.~Yanagi, and T.~Suda.
+	\newblock Construction of the \{SCRIT\} electron scattering facility at the
+	\{RIKEN\} \{RI\} beam factory.
+	\newblock {\em Nuclear Instruments and Methods in Physics Research Section B:
+		Beam Interactions with Materials and Atoms}, 317, Part B:668, 2013.
+	
+	\bibitem{Laskin:16}
+	M.~Laskin, R.~F. Casten, A.~O. Macchiavelli, R.~M. Clark, and D.~Bucurescu.
+	\newblock Population of the giant pairing vibration.
+	\newblock {\em Phys. Rev. C}, 93:034321, 2016.
+	
+	\bibitem{Bennaceur:00}
+	{Bennaceur, K.}, J.~Dobaczewski, and M.~Ploszajczak.
+	\newblock Pairing anti-halo effect.
+	\newblock {\em Physics Letters B}, 496:154, 2000.
+	
+	\bibitem{Hamamoto:03}
+	Ikuko Hamamoto and Ben~R. Mottelson.
+	\newblock Pair correlation in neutron drip line nuclei.
+	\newblock {\em Phys. Rev. C}, 68:034312, 2003.
+	
+	\bibitem{Hamamoto:04}
+	{Hamamoto, I.} and B.~R. Mottelson.
+	\newblock {Weakly bound ${s}_{1/2}$ neutrons in the many-body pair correlation
+		of neutron drip line nuclei}.
+	\newblock {\em Phys. Rev. C}, 69:064302, 2004.
+	
+	\bibitem{Barranco:01}
+	{Barranco, F.}, P.~F. Bortignon, R.~A. Broglia, G.~Col{\`{o}}, and E.~Vigezzi.
+	\newblock The halo of the exotic nucleus $^{11}${Li}: a single {C}ooper pair.
+	\newblock {\em Europ. Phys. J. A}, 11:385, 2001.
+	
+	\bibitem{Tanihata:08}
+	{Tanihata, I.}, M.~Alcorta, D.~Bandyopadhyay, R.~Bieri, L.~Buchmann, B.~Davids,
+	N.~Galinski, D.~Howell, W.~Mills, S.~Mythili, R.~Openshaw, E.~Padilla-Rodal,
+	G.~Ruprecht, G.~Sheffer, A.~C. Shotter, M.~Trinczek, P.~Walden, H.~Savajols,
+	T.~Roger, M.~Caamano, W.~Mittig, P.~Roussel-Chomaz, R.~Kanungo, A.~Gallant,
+	M.~Notani, G.~Savard, and I.~J. Thompson.
+	\newblock Measurement of the two-halo neutron transfer reaction
+	{$^1$H($^{11}$Li,$^{9}$Li)$^3$H} at {3A} {MeV}.
+	\newblock {\em Phys. Rev. Lett.}, 100:192502, 2008.
+	
+	\bibitem{Potel:10}
+	G.~Potel, F.~Barranco, E.~Vigezzi, and R.~A. Broglia.
+	\newblock {Evidence for phonon mediated pairing interaction in the halo of the
+		nucleus $^{11}$Li}.
+	\newblock {\em Phys. Rev. Lett.}, 105:172502, 2010.
+	
+	\bibitem{Broglia:16}
+	R.~A. Broglia, P.~F. Bortignon, F.~Barranco, E.~Vigezzi, A.~Idini, and
+	G.~Potel.
+	\newblock {Unified description of structure and reactions: implementing the
+		Nuclear Field Theory program}.
+	\newblock {\em Phys. Scr.}, 91:063012, 2016.
+	
+	\bibitem{Bertsch:67}
+	{Bertsch, G. F.}, R.~A. Broglia, and C.~Riedel.
+	\newblock {Qualitative description of nuclear collectivity}.
+	\newblock {\em Nucl. Phys. A}, 91:123, 1967.
+	
+	\bibitem{Ferreira:84}
+	{Ferreira, L.}, R.~Liotta, C.H. Dasso, R.~A. Broglia, and A.~Winther.
+	\newblock Spatial correlations of pairing collective states.
+	\newblock {\em Nuclear Physics A}, 426:276, 1984.
+	
+	\bibitem{Herzog:85}
+	M.~W. Herzog, R.~J. Liotta, and L.~J. Sibanda.
+	\newblock Pair clustering and giant pairing resonances.
+	\newblock {\em Phys. Rev. C}, 31:259, 1985.
+	
+	\bibitem{Lotti:89}
+	P.~Lotti, F.~Cazzola, P.~F. Bortignon, R.~A. Broglia, and A.~Vitturi.
+	\newblock Spatial correlation of pairing modes in nuclei at finite temperature.
+	\newblock {\em Phys. Rev. C}, 40:1791, 1989.
+	
+	\bibitem{Mottelson:02}
+	B.R. Mottelson.
+	\newblock Elementary features of nuclear structure.
+	\newblock In Niefnecker, Blaizot, Bertsch, Weise, and David, editors, {\em
+		{Trends in Nuclear Physics, 100 years later, Les Houches, Session LXVI}},
+	page~25, Amsterdam, 1998. Elsevier.
+	
+	\bibitem{Bardeen:62}
+	John Bardeen.
+	\newblock Tunneling into superconductors.
+	\newblock {\em Physical Review Letters}, 9:147, 1962.
+	
+	\bibitem{Pippard:12}
+	A.~B. Pippard.
+	\newblock {The historical context of Josephson discovery}.
+	\newblock In H.~Rogalla and P.~H. Kes, editors, {\em 100 years of
+		superconductivity}, page~30. CRC Press, Taylor and Francis, FL, 2012.
+	
+	\bibitem{Anderson:64b}
+	P.~W. Anderson.
+	\newblock Special effects in suprconductivity.
+	\newblock In E.~R. Caianello, editor, {\em The Many--Body Problem, Vol.2}, page
+	113. Academic Press, New York, 1964.
+	
+	\bibitem{Brink:05}
+	{Brink, D.} and R.~A. Broglia.
+	\newblock {\em Nuclear Superfluidity}.
+	\newblock Cambridge University Press, Cambridge, 2005.
+	
+	\bibitem{Bortignon:86}
+	P.~F. Bortignon, E.~Maglione, A.~Vitturi, F.~Zardi, and R.~A. Broglia.
+	\newblock {Probing the Nuclear Response with One-- and Two--Nucleon Pick--Up
+		Reactions}.
+	\newblock {\em Physica Scripta}, 34:678, 1986.
+	
+	\bibitem{Cappuzzello:15b}
+	F~Cappuzzello, C~Agodi, M~Bondì, D~Carbone, M~Cavallaro, and A~Foti.
+	\newblock The role of nuclear reactions in the problem of $0\nu\beta\beta$
+	decay and the {NUMEN} project at {INFN--LNS}.
+	\newblock {\em Journal of Physics: Conference Series}, 630:012018, 2015.
+	
+	\bibitem{Suhonen:98}
+	J.~Suhonen and O.~Civitarese.
+	\newblock Weak--interaction and nuclear--structure aspects of nuclear double
+	beta decay.
+	\newblock {\em Phys. Rep.}, 300:123, 1998.
+	
+	\bibitem{Frekers:13}
+	D.~Frekers, P.~Puppe, J.H. Thies, and H.~Ejiri.
+	\newblock {Gamow--Teller strength extraction from ($^3$He, $t$) reactions}.
+	\newblock {\em Nuclear Physics A}, 916:219, 2013.
+	
+	\bibitem{Rodin:09}
+	Vadim Rodin and Amand Faessler.
+	\newblock Can one measure nuclear matrix elements of neutrinoless double
+	$\ensuremath{\beta}$ decay?
+	\newblock {\em Phys. Rev. C}, 80:041302, 2009.
+	
+	\bibitem{Guess:11}
+	C.~J. Guess, T.~Adachi, H.~Akimune, A.~Algora, Sam~M. Austin, D.~Bazin, B.~A.
+	Brown, C.~Caesar, J.~M. Deaven, H.~Ejiri, E.~Estevez, D.~Fang, A.~Faessler,
+	D.~Frekers, H.~Fujita, Y.~Fujita, M.~Fujiwara, G.~F. Grinyer, M.~N. Harakeh,
+	K.~Hatanaka, C.~Herlitzius, K.~Hirota, G.~W. Hitt, D.~Ishikawa, H.~Matsubara,
+	R.~Meharchand, F.~Molina, H.~Okamura, H.~J. Ong, G.~Perdikakis, V.~Rodin,
+	B.~Rubio, Y.~Shimbara, G.~S\"usoy, T.~Suzuki, A.~Tamii, J.~H. Thies, C.~Tur,
+	N.~Verhanovitz, M.~Yosoi, J.~Yurkon, R.~G.~T. Zegers, and J.~Zenihiro.
+	\newblock The $^{150}\mathrm{Nd}$($^{3}\mathrm{He}$,$t$) and
+	$^{150}\mathrm{Sm}$($t$,$^{3}\mathrm{He}$) reactions with applications to
+	$\ensuremath{\beta}\ensuremath{\beta}$ decay of $^{150}\mathrm{Nd}$.
+	\newblock {\em Phys. Rev. C}, 83:064318, 2011.
+	
+	\bibitem{Reiche:25}
+	F.~Reiche and W.~Thomas.
+	\newblock {\"{U}ber die Zahl der Dispersionselektronen, die einem
+		station\"{a}ren Zustand zugeordnet sind}.
+	\newblock {\em Z. Phys.}, 34:510, 1925.
+	
+	\bibitem{Kuhn:25}
+	W.~Kuhn.
+	\newblock {\"{U}ber die Gesamtst\"{a}rke der von einem Zustande ausgehenden
+		Absorptionslinien}.
+	\newblock {\em Z. Phys.}, 33:408, 1925.
+	
+	\bibitem{Kanungo:15}
+	R.~Kanungo, A.~Sanetullaev, J.~Tanaka, S.~Ishimoto, G.~Hagen, T.~Myo,
+	T.~Suzuki, C.~Andreoiu, P.~Bender, A.~A. Chen, B.~Davids, J.~Fallis, J.~P.
+	Fortin, N.~Galinski, A.~T. Gallant, P.~E. Garrett, G.~Hackman, B.~Hadinia,
+	G.~Jansen, M.~Keefe, R.~Kr\"ucken, J.~Lighthall, E.~McNeice, D.~Miller,
+	T.~Otsuka, J.~Purcell, J.~S. Randhawa, T.~Roger, A.~Rojas, H.~Savajols,
+	A.~Shotter, I.~Tanihata, I.~J. Thompson, C.~Unsworth, P.~Voss, and Z.~Wang.
+	\newblock Evidence of soft dipole resonance in $^{11}\mathrm{Li}$ with
+	isoscalar character.
+	\newblock {\em Phys. Rev. Lett.}, 114:192502, 2015.
+	
+	\bibitem{Brink:55}
+	D.~M Brink.
+	\newblock {\em {PhD Thesis}}.
+	\newblock Oxford University, 1955.
+	
+	\bibitem{Axel:67}
+	P.~Axel, D.~M. Drake, S.~Whetstone, and S.~S. Hanna.
+	\newblock Evidence for the isobaric splitting of the giant resonance from the
+	reaction $^{89}\mathrm{Y}(p, {\ensuremath{\gamma}}_{0})^{90}\mathrm{Zr}$.
+	\newblock {\em Phys. Rev. Lett.}, 19:1343, 1967.
+	
+	\bibitem{Bertsch:86}
+	{Bertsch, G. F.} and R.~A. Broglia.
+	\newblock Giant resonances in hot nuclei.
+	\newblock {\em Physics Today}, 39 (8):44, 1986.
+	
+	\bibitem{Bertsch:88}
+	G.~F. Bertsch, R.~A. Broglia, and J.~R. Schrieffer.
+	\newblock Rotating superfluidity in nuclei.
+	\newblock {\em Nuovo Cimento}, 100:283, 1988.
+	
+	\bibitem{Avogadro:07}
+	P.~Avogadro, F.~Barranco, R.~A. Broglia, and E.~Vigezzi.
+	\newblock Quantum calculation of vortices in the inner crust of neutron stars.
+	\newblock {\em Phys. Rev. C}, 75:012805, 2007.
+	
+	\bibitem{Tanihata:13}
+	I.~Tanihata, H.~Savajols, and R.~Kanungo.
+	\newblock Recent experimental progress in nuclear halo structure studies.
+	\newblock {\em Progress in Particle and Nuclear Physics}, 68:215, 2013.
+	
+\end{thebibliography}
+
+
+
+\end{document} 

@@ -8,7 +8,7 @@ Illegal, another \bibstyle command---line 542 of file introduccion/introduccion.
 I'm skipping whatever remains of this command
 Illegal, another \bibdata command---line 543 of file introduccion/introduccion.aux
  : \bibdata
- :         {C:/Gregory/Broglia/notas_ricardo/nuclear_bib}
+ :         {C:/Gregory/book/nuclear_bib}
 I'm skipping whatever remains of this command
 A level-1 auxiliary file: nutshell/include_struct_nut.aux
 Illegal, another \bibstyle command---line 393 of file nutshell/include_struct_nut.aux
@@ -17,7 +17,7 @@ Illegal, another \bibstyle command---line 393 of file nutshell/include_struct_nu
 I'm skipping whatever remains of this command
 Illegal, another \bibdata command---line 394 of file nutshell/include_struct_nut.aux
  : \bibdata
- :         {C:/Gregory/Broglia/notas_ricardo/nuclear_bib}
+ :         {C:/Gregory/book/nuclear_bib}
 I'm skipping whatever remains of this command
 A level-1 auxiliary file: nutshell/include_trans_nut.aux
 Case mismatch error between cite keys deGennes:94 and DeGennes:94
@@ -25,13 +25,13 @@ Case mismatch error between cite keys deGennes:94 and DeGennes:94
  : \citation{deGennes:94
  :                      }
 I'm skipping whatever remains of this command
-Illegal, another \bibstyle command---line 331 of file nutshell/include_trans_nut.aux
+Illegal, another \bibstyle command---line 334 of file nutshell/include_trans_nut.aux
  : \bibstyle
  :          {abbrvnat}
 I'm skipping whatever remains of this command
-Illegal, another \bibdata command---line 332 of file nutshell/include_trans_nut.aux
+Illegal, another \bibdata command---line 335 of file nutshell/include_trans_nut.aux
  : \bibdata
- :         {C:/Gregory/Broglia/notas_ricardo/nuclear_bib}
+ :         {C:/Gregory/book/nuclear_bib}
 I'm skipping whatever remains of this command
 A level-1 auxiliary file: C6/includeC6.aux
 Illegal, another \bibstyle command---line 333 of file C6/includeC6.aux
@@ -40,7 +40,7 @@ Illegal, another \bibstyle command---line 333 of file C6/includeC6.aux
 I'm skipping whatever remains of this command
 Illegal, another \bibdata command---line 334 of file C6/includeC6.aux
  : \bibdata
- :         {C:/Gregory/Broglia/notas_ricardo/nuclear_bib}
+ :         {C:/Gregory/book/nuclear_bib}
 I'm skipping whatever remains of this command
 A level-1 auxiliary file: C7/includeC7.aux
 Illegal, another \bibstyle command---line 409 of file C7/includeC7.aux
@@ -49,7 +49,7 @@ Illegal, another \bibstyle command---line 409 of file C7/includeC7.aux
 I'm skipping whatever remains of this command
 Illegal, another \bibdata command---line 410 of file C7/includeC7.aux
  : \bibdata
- :         {C:/Gregory/Broglia/notas_ricardo/nuclear_bib}
+ :         {C:/Gregory/book/nuclear_bib}
 I'm skipping whatever remains of this command
 A level-1 auxiliary file: C8/includeC8.aux
 Illegal, another \bibstyle command---line 189 of file C8/includeC8.aux
@@ -58,7 +58,7 @@ Illegal, another \bibstyle command---line 189 of file C8/includeC8.aux
 I'm skipping whatever remains of this command
 Illegal, another \bibdata command---line 190 of file C8/includeC8.aux
  : \bibdata
- :         {C:/Gregory/Broglia/notas_ricardo/nuclear_bib}
+ :         {C:/Gregory/book/nuclear_bib}
 I'm skipping whatever remains of this command
 Illegal, another \bibstyle command---line 23 of file main_libro.aux
  : \bibstyle
@@ -66,63 +66,61 @@ Illegal, another \bibstyle command---line 23 of file main_libro.aux
 I'm skipping whatever remains of this command
 Illegal, another \bibdata command---line 24 of file main_libro.aux
  : \bibdata
- :         {C:/Gregory/Broglia/notas_ricardo/nuclear_bib}
+ :         {C:/Gregory/book/nuclear_bib}
 I'm skipping whatever remains of this command
-Database file #1: C:/Gregory/Broglia/notas_ricardo/nuclear_bib.bib
-Repeated entry---line 2669 of file C:/Gregory/Broglia/notas_ricardo/nuclear_bib.bib
+Database file #1: C:/Gregory/book/nuclear_bib.bib
+Repeated entry---line 2669 of file C:/Gregory/book/nuclear_bib.bib
  : @book{Mayer:55
  :               ,
 I'm skipping whatever remains of this entry
-You're missing a field name---line 2893 of file C:/Gregory/Broglia/notas_ricardo/nuclear_bib.bib
+You're missing a field name---line 2893 of file C:/Gregory/book/nuclear_bib.bib
  : year = {1973},
  :               ,
 I'm skipping whatever remains of this entry
-I was expecting a `,' or a `}'---line 3490 of file C:/Gregory/Broglia/notas_ricardo/nuclear_bib.bib
+I was expecting a `,' or a `}'---line 3490 of file C:/Gregory/book/nuclear_bib.bib
  :   
  :   year = 1975,
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
 Warning--I'm ignoring Pauli:47's extra "year" field
---line 3660 of file C:/Gregory/Broglia/notas_ricardo/nuclear_bib.bib
+--line 3660 of file C:/Gregory/book/nuclear_bib.bib
 Warning--I'm ignoring Shimizu:13's extra "year" field
---line 3887 of file C:/Gregory/Broglia/notas_ricardo/nuclear_bib.bib
-I was expecting a `,' or a `}'---line 3920 of file C:/Gregory/Broglia/notas_ricardo/nuclear_bib.bib
+--line 3887 of file C:/Gregory/book/nuclear_bib.bib
+I was expecting a `,' or a `}'---line 3920 of file C:/Gregory/book/nuclear_bib.bib
  :   pages = 117
  :              ;
 I'm skipping whatever remains of this entry
-Repeated entry---line 4126 of file C:/Gregory/Broglia/notas_ricardo/nuclear_bib.bib
+Repeated entry---line 4126 of file C:/Gregory/book/nuclear_bib.bib
  : @article{Thompson:88
  :                     ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 4149 of file C:/Gregory/Broglia/notas_ricardo/nuclear_bib.bib
+Repeated entry---line 4149 of file C:/Gregory/book/nuclear_bib.bib
  : @article{Barranco:99
  :                     ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 4368 of file C:/Gregory/Broglia/notas_ricardo/nuclear_bib.bib
+Repeated entry---line 4368 of file C:/Gregory/book/nuclear_bib.bib
  : @article{Bortignon:83
  :                      ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 4456 of file C:/Gregory/Broglia/notas_ricardo/nuclear_bib.bib
+Repeated entry---line 4456 of file C:/Gregory/book/nuclear_bib.bib
  : @article{Sackett:93
  :                    ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 4598 of file C:/Gregory/Broglia/notas_ricardo/nuclear_bib.bib
+Repeated entry---line 4598 of file C:/Gregory/book/nuclear_bib.bib
  : @book{DeGennes:94
  :                  ,
 I'm skipping whatever remains of this entry
-I was expecting a `,' or a `}'---line 4656 of file C:/Gregory/Broglia/notas_ricardo/nuclear_bib.bib
+I was expecting a `,' or a `}'---line 4656 of file C:/Gregory/book/nuclear_bib.bib
  :   pages = 210
  :              (R),
 I'm skipping whatever remains of this entry
-Repeated entry---line 5165 of file C:/Gregory/Broglia/notas_ricardo/nuclear_bib.bib
+Repeated entry---line 5165 of file C:/Gregory/book/nuclear_bib.bib
  : @article{Lanford:73
  :                    ,
 I'm skipping whatever remains of this entry
 Warning--I didn't find a database entry for "Nasanov:76"
 Warning--I didn't find a database entry for "Anderson:84"
 Warning--I didn't find a database entry for "Anderson:97"
-Warning--I didn't find a database entry for "Kadini:07"
-Warning--I didn't find a database entry for "Ambegaokar:69"
 Warning--I didn't find a database entry for "Ketterson:99"
 Warning--I didn't find a database entry for "Stenft:80"
 Name 1 in "R. A. Broglia, and P. F. Bortignon, and F. Barranco, and E. Vigezzi, and A. Idini, and G. Potel" has a comma at the end for entry Broglia:16
@@ -184,6 +182,7 @@ while executing---line 1347 of file abbrvnat.bst
 Name 2 in "Born, M. and Jordan, and Heisenberg, W." has a comma at the end for entry Born:25b
 while executing---line 1347 of file abbrvnat.bst
 Warning--empty title in Abrahams:68
+Warning--can't use both author and editor fields in Ambegaokar:69
 Warning--can't use both author and editor fields in Ashcroft:87
 Warning--empty title in Barnes:72
 Name 1 in "R. A. Broglia, and R. A. Ricci, and C. H. Dasso" has a comma at the end for entry Bernard:81

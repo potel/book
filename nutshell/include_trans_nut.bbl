@@ -1,9 +1,14 @@
-\begin{thebibliography}{77}
+\begin{thebibliography}{81}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \expandafter\ifx\csname urlstyle\endcsname\relax
   \providecommand{\doi}[1]{doi: #1}\else
   \providecommand{\doi}{doi: \begingroup \urlstyle{rm}\Url}\fi
+
+\bibitem[Ambegaokar(1969)]{Ambegaokar:69}
+V.~Ambegaokar.
+\newblock \emph{{The Green's function method in superconductivity, Vol I}}.
+\newblock Marcel Dekker, 1969.
 
 \bibitem[Ambegaokar and Baratoff(1963)]{Ambegaokar:63}
 V.~Ambegaokar and A.~Baratoff.
@@ -20,6 +25,11 @@ P.~W. Anderson.
 \newblock Special effects in suprconductivity.
 \newblock In E.~R. Caianello, editor, \emph{The Many--Body Problem, Vol.2},
   page 113. Academic Press, New York, 1964.
+
+\bibitem[Anderson(1972)]{Anderson:72}
+P.~W. Anderson.
+\newblock More is different.
+\newblock \emph{Science}, 177:\penalty0 393, 1972.
 
 \bibitem[Ashcroft and Mermin(1987)]{Ashcroft:87}
 N.~W. Ashcroft and N.~D. Mermin.
@@ -163,6 +173,12 @@ R.~A. Broglia and A.~Winther.
 \newblock \emph{Heavy Ion Reactions}.
 \newblock Westview Press, Boulder, CO., 2004.
 
+\bibitem[Broglia et~al.(1971)Broglia, Riedel, and Udagawa]{Broglia:71}
+R.~A. Broglia, C.~Riedel, and T.~Udagawa.
+\newblock Coherence properties of two-neutron transfer reactions and their
+  relation to inelastic scattering.
+\newblock \emph{Nuclear Physics A}, 169:\penalty0 225, 1971.
+
 \bibitem[{Broglia, R. A.}(2002)]{Broglia:02d}
 {Broglia, R. A.}
 \newblock The surfaces of compact systems: from nuclei to stars.
@@ -287,6 +303,12 @@ J.~G. Johansen, V.~Bildstein, M.~J.~G. Borge, M.~Cubero, J.~Diriken,
 B.~D. Josephson.
 \newblock Possible new effects in superconductive tunnelling.
 \newblock \emph{Phys. Lett.}, 1:\penalty0 251, 1962.
+
+\bibitem[Kadin(2007)]{Kadin:07}
+A.~M. Kadin.
+\newblock Spatial structure of the cooper pair.
+\newblock \emph{Journal of Superconductivity and Novel Magnetism}, 20:\penalty0
+  285, 2007.
 
 \bibitem[Kittel(1996)]{Kittel:96}
 C.~Kittel.

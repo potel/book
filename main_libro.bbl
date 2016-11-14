@@ -1,9 +1,14 @@
-\begin{thebibliography}{81}
+\begin{thebibliography}{85}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \expandafter\ifx\csname urlstyle\endcsname\relax
   \providecommand{\doi}[1]{doi: #1}\else
   \providecommand{\doi}{doi: \begingroup \urlstyle{rm}\Url}\fi
+
+\bibitem[{ Kisslinger,L. S. and S\o{}rensen,R. A.}(1963)]{Kisslinger:63}
+{ Kisslinger,L. S. and S\o{}rensen,R. A.}
+\newblock Spherical nuclei with simple residual forces.
+\newblock \emph{Review of Modern Physics}, 35:\penalty0 853, 1963.
 
 \bibitem[Ambegaokar(1969)]{Ambegaokar:69}
 V.~Ambegaokar.
@@ -345,6 +350,12 @@ E.~Lipparini.
   Quantum Fluids,}}.
 \newblock World Scientific, Singapore, 2003.
 
+\bibitem[Lotti et~al.(1989)Lotti, Cazzola, Bortignon, Broglia, and
+  Vitturi]{Lotti:89}
+P.~Lotti, F.~Cazzola, P.~F. Bortignon, R.~A. Broglia, and A.~Vitturi.
+\newblock Spatial correlation of pairing modes in nuclei at finite temperature.
+\newblock \emph{Phys. Rev. C}, 40:\penalty0 1791, 1989.
+
 \bibitem[{Mahaux, C.} et~al.(1985){Mahaux, C.}, Bortignon, Broglia, and
   Dasso]{Mahaux:85}
 {Mahaux, C.}, P.~F. Bortignon, R.~A. Broglia, and C.~H. Dasso.
@@ -375,6 +386,13 @@ D.~Montanari, L.~Corradi, S.~Szilner, G.~Pollarolo, E.~Fioretto, G.~Montagnoli,
 \newblock {Neutron Pair Transfer in $^{60}\mathrm{Ni}+^{116}\mathrm{Sn}$ Far
   below the Coulomb Barrier}.
 \newblock \emph{Phys. Rev. Lett.}, 113:\penalty0 052501, 2014.
+
+\bibitem[Mottelson(1998)]{Mottelson:02}
+B.~Mottelson.
+\newblock Elementary features of nuclear structure.
+\newblock In Niefnecker, Blaizot, Bertsch, Weise, and David, editors,
+  \emph{{Trends in Nuclear Physics, 100 years later, Les Houches, Session
+  LXVI}}, page~25, Amsterdam, 1998. Elsevier.
 
 \bibitem[Mottelson(1962)]{Mottelson:62}
 B.~R. Mottelson.
@@ -447,6 +465,12 @@ G.~Satchler.
 J.~Schrieffer.
 \newblock \emph{Superconductivity}.
 \newblock Benjamin, New York, 1964.
+
+\bibitem[Soloviev(1965)]{Soloviev:65}
+V.~G. Soloviev.
+\newblock Quasi--particle and collective structure of the states of even,
+  strongly-deformed nuclei.
+\newblock \emph{Nuclear Physics}, 69\penalty0 (1):\penalty0 1, 1965.
 
 \bibitem[{Tanihata, I.} et~al.(2008){Tanihata, I.}, Alcorta, Bandyopadhyay,
   Bieri, Buchmann, Davids, Galinski, Howell, Mills, Mythili, Openshaw,

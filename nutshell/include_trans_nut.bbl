@@ -1,14 +1,21 @@
-\begin{thebibliography}{81}
+\begin{thebibliography}{84}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \expandafter\ifx\csname urlstyle\endcsname\relax
   \providecommand{\doi}[1]{doi: #1}\else
   \providecommand{\doi}{doi: \begingroup \urlstyle{rm}\Url}\fi
 
+\bibitem[{ Kisslinger,Leonard S. and S\o{}rensen,Raymond
+  A.}(1963)]{Kisslinger:63}
+{ Kisslinger,Leonard S. and S\o{}rensen,Raymond A.}
+\newblock Spherical nuclei with simple residual forces.
+\newblock \emph{Review of Modern Physics}, 35:\penalty0 853, 1963.
+
 \bibitem[Ambegaokar(1969)]{Ambegaokar:69}
 V.~Ambegaokar.
-\newblock \emph{{The Green's function method in superconductivity, Vol I}}.
-\newblock Marcel Dekker, 1969.
+\newblock \emph{{The Green's function method in superconductivity, Vol I}},
+  page 259.
+\newblock Marcel Dekker, New York, 1969.
 
 \bibitem[Ambegaokar and Baratoff(1963)]{Ambegaokar:63}
 V.~Ambegaokar and A.~Baratoff.
@@ -375,6 +382,13 @@ D.~Montanari, L.~Corradi, S.~Szilner, G.~Pollarolo, E.~Fioretto, G.~Montagnoli,
   below the Coulomb Barrier}.
 \newblock \emph{Phys. Rev. Lett.}, 113:\penalty0 052501, 2014.
 
+\bibitem[Mottelson(1998)]{Mottelson:02}
+B.~Mottelson.
+\newblock Elementary features of nuclear structure.
+\newblock In Niefnecker, Blaizot, Bertsch, Weise, and David, editors,
+  \emph{{Trends in Nuclear Physics, 100 years later, Les Houches, Session
+  LXVI}}, page~25, Amsterdam, 1998. Elsevier.
+
 \bibitem[Mottelson(1962)]{Mottelson:62}
 B.~R. Mottelson.
 \newblock Selected topics in the theory of collective phenomena in nuclei.
@@ -446,6 +460,12 @@ G.~Satchler.
 J.~Schrieffer.
 \newblock \emph{Superconductivity}.
 \newblock Benjamin, New York, 1964.
+
+\bibitem[Soloviev(1965)]{Soloviev:65}
+V.~G. Soloviev.
+\newblock Quasi--particle and collective structure of the states of even,
+  strongly-deformed nuclei.
+\newblock \emph{Nuclear Physics}, 69\penalty0 (1):\penalty0 1, 1965.
 
 \bibitem[{Tanihata, I.} et~al.(2008){Tanihata, I.}, Alcorta, Bandyopadhyay,
   Bieri, Buchmann, Davids, Galinski, Howell, Mills, Mythili, Openshaw,

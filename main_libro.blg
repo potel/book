@@ -1,4 +1,6 @@
-This is BibTeX, Version 0.99dThe top-level auxiliary file: main_libro.aux
+This is BibTeX, Version 0.99d (TeX Live 2015/Debian)
+Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
+The top-level auxiliary file: main_libro.aux
 A level-1 auxiliary file: nutshell/include_trans_nut.aux
 The style file: abbrvnat.bst
 Illegal, another \bibstyle command---line 5 of file main_libro.aux
@@ -7,35 +9,39 @@ Illegal, another \bibstyle command---line 5 of file main_libro.aux
 I'm skipping whatever remains of this command
 Illegal, another \bibdata command---line 6 of file main_libro.aux
  : \bibdata
- :         {C:/Gregory/book/nuclear_bib}
+ :         {/home/gpotel/Desktop/Gregory/Articulos/Mios/libro_nuclear/nuclear_bib}
 I'm skipping whatever remains of this command
-Database file #1: C:/Gregory/book/nuclear_bib.bib
-You're missing a field name---line 2893 of file C:/Gregory/book/nuclear_bib.bib
+Database file #1: /home/gpotel/Desktop/Gregory/Articulos/Mios/libro_nuclear/nuclear_bib.bib
+You're missing a field name---line 2893 of file /home/gpotel/Desktop/Gregory/Articulos/Mios/libro_nuclear/nuclear_bib.bib
  : year = {1973},
  :               ,
 I'm skipping whatever remains of this entry
-I was expecting a `,' or a `}'---line 3490 of file C:/Gregory/book/nuclear_bib.bib
+I was expecting a `,' or a `}'---line 3490 of file /home/gpotel/Desktop/Gregory/Articulos/Mios/libro_nuclear/nuclear_bib.bib
  :   
  :   year = 1975,
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
-I was expecting a `,' or a `}'---line 3920 of file C:/Gregory/book/nuclear_bib.bib
+I was expecting a `,' or a `}'---line 3920 of file /home/gpotel/Desktop/Gregory/Articulos/Mios/libro_nuclear/nuclear_bib.bib
  :   pages = 117
  :              ;
 I'm skipping whatever remains of this entry
-Repeated entry---line 4368 of file C:/Gregory/book/nuclear_bib.bib
+Repeated entry---line 4368 of file /home/gpotel/Desktop/Gregory/Articulos/Mios/libro_nuclear/nuclear_bib.bib
  : @article{Bortignon:83
  :                      ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 4598 of file C:/Gregory/book/nuclear_bib.bib
+Repeated entry---line 4598 of file /home/gpotel/Desktop/Gregory/Articulos/Mios/libro_nuclear/nuclear_bib.bib
  : @book{DeGennes:94
  :                  ,
 I'm skipping whatever remains of this entry
-I was expecting a `,' or a `}'---line 4656 of file C:/Gregory/book/nuclear_bib.bib
+I was expecting a `,' or a `}'---line 4656 of file /home/gpotel/Desktop/Gregory/Articulos/Mios/libro_nuclear/nuclear_bib.bib
  :   pages = 210
  :              (R),
 I'm skipping whatever remains of this entry
+Warning--I didn't find a database entry for "Becha:70"
+Warning--I didn't find a database entry for "Weisskopf:81"
+Warning--I didn't find a database entry for "VanWitsen:14"
 Warning--I didn't find a database entry for "Ketterson:99"
+Warning--I didn't find a database entry for "Matsuo:06"
 Warning--I didn't find a database entry for "Stenft:80"
 Name 3 in "{Bjerregaard, J. H.} and Hansen, O. and Nathan, and Hinds, S." has a comma at the end for entry Bjerregaard:66b
 while executing---line 1347 of file abbrvnat.bst
@@ -50,4 +56,45 @@ Warning--empty publisher in Brink:55
 Warning--empty title in Cooper:11
 Warning--empty title in LeTourneaux:65
 Warning--empty title in Lindhard:53
+You've used 85 entries,
+            2773 wiz_defined-function locations,
+            1158 strings with 17346 characters,
+and the built_in function-call counts, 39369 in all, are:
+= -- 3217
+> -- 2705
+< -- 67
++ -- 920
+- -- 834
+* -- 3131
+:= -- 6354
+add.period$ -- 265
+call.type$ -- 85
+change.case$ -- 500
+chr.to.int$ -- 84
+cite$ -- 177
+duplicate$ -- 1844
+empty$ -- 3078
+format.name$ -- 955
+if$ -- 8158
+int.to.chr$ -- 2
+int.to.str$ -- 1
+missing$ -- 105
+newline$ -- 430
+num.names$ -- 366
+pop$ -- 1078
+preamble$ -- 1
+purify$ -- 439
+quote$ -- 0
+skip$ -- 1363
+stack$ -- 0
+substring$ -- 749
+swap$ -- 155
+text.length$ -- 11
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 835
+warning$ -- 7
+while$ -- 326
+width$ -- 0
+write$ -- 1127
 (There were 11 error messages)

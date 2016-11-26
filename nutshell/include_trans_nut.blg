@@ -28,9 +28,9 @@ I was expecting a `,' or a `}'---line 4656 of file /home/gpotel/Desktop/Gregory/
  :   pages = 210
  :              (R),
 I'm skipping whatever remains of this entry
-Warning--I didn't find a database entry for "Weisskopf:81"
+Warning--I didn't find a database entry for "Becha:70"
 Warning--I didn't find a database entry for "VanWitsen:14"
-Warning--I didn't find a database entry for "Ketterson:99"
+Warning--I didn't find a database entry for "Matsuo:06"
 Warning--I didn't find a database entry for "Stenft:80"
 Name 3 in "{Bjerregaard, J. H.} and Hansen, O. and Nathan, and Hinds, S." has a comma at the end for entry Bjerregaard:66b
 while executing---line 1347 of file abbrvnat.bst
@@ -45,45 +45,45 @@ Warning--empty publisher in Brink:55
 Warning--empty title in Cooper:11
 Warning--empty title in LeTourneaux:65
 Warning--empty title in Lindhard:53
-You've used 84 entries,
+You've used 88 entries,
             2773 wiz_defined-function locations,
-            1147 strings with 17135 characters,
-and the built_in function-call counts, 38808 in all, are:
-= -- 3172
-> -- 2657
-< -- 67
-+ -- 904
-- -- 819
-* -- 3078
-:= -- 6263
-add.period$ -- 262
-call.type$ -- 84
-change.case$ -- 492
-chr.to.int$ -- 83
-cite$ -- 175
-duplicate$ -- 1823
-empty$ -- 3041
-format.name$ -- 939
-if$ -- 8045
+            1171 strings with 17700 characters,
+and the built_in function-call counts, 40896 in all, are:
+= -- 3338
+> -- 2829
+< -- 69
++ -- 962
+- -- 873
+* -- 3261
+:= -- 6604
+add.period$ -- 274
+call.type$ -- 88
+change.case$ -- 521
+chr.to.int$ -- 87
+cite$ -- 183
+duplicate$ -- 1905
+empty$ -- 3184
+format.name$ -- 999
+if$ -- 8467
 int.to.chr$ -- 2
 int.to.str$ -- 1
-missing$ -- 104
-newline$ -- 425
-num.names$ -- 362
-pop$ -- 1064
+missing$ -- 109
+newline$ -- 445
+num.names$ -- 378
+pop$ -- 1121
 preamble$ -- 1
-purify$ -- 432
+purify$ -- 458
 quote$ -- 0
-skip$ -- 1346
+skip$ -- 1413
 stack$ -- 0
-substring$ -- 735
-swap$ -- 154
+substring$ -- 782
+swap$ -- 158
 text.length$ -- 11
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 824
+type$ -- 863
 warning$ -- 7
-while$ -- 322
+while$ -- 337
 width$ -- 0
-write$ -- 1114
+write$ -- 1166
 (There were 9 error messages)

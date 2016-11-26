@@ -1,13 +1,12 @@
-\begin{thebibliography}{84}
+\begin{thebibliography}{88}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \expandafter\ifx\csname urlstyle\endcsname\relax
   \providecommand{\doi}[1]{doi: #1}\else
   \providecommand{\doi}{doi: \begingroup \urlstyle{rm}\Url}\fi
 
-\bibitem[{ Kisslinger,Leonard S. and S\o{}rensen,Raymond
-  A.}(1963)]{Kisslinger:63}
-{ Kisslinger,Leonard S. and S\o{}rensen,Raymond A.}
+\bibitem[{ Kisslinger,L. S. and S\o{}rensen,R. A.}(1963)]{Kisslinger:63}
+{ Kisslinger,L. S. and S\o{}rensen,R. A.}
 \newblock Spherical nuclei with simple residual forces.
 \newblock \emph{Review of Modern Physics}, 35:\penalty0 853, 1963.
 
@@ -267,6 +266,15 @@ G.~Gori, F.~Barranco, E.~Vigezzi, and R.~A. Broglia.
   {$^{112}$}{S}n{$(p,t)$} {$^{110}$}{S}n reaction.
 \newblock \emph{Phys. Rev. C}, 74:\penalty0 054605, 2006.
 
+\bibitem[{Guazzoni, P.} et~al.(2008){Guazzoni, P.}, Zetta, Covello, Gargano,
+  Bayman, Faestermann, Graw, Hertenberger, Wirth, and Jaskola]{Guazzoni:08}
+{Guazzoni, P.}, L.~Zetta, A.~Covello, A.~Gargano, B.~F. Bayman, T.~Faestermann,
+  G.~Graw, R.~Hertenberger, H.-F. Wirth, and M.~Jaskola.
+\newblock {$^{118}$Sn levels studied by the $^{120}$Sn($p$, $t$) reaction:
+  High-resolution measurements, shell model, and distorted-wave Born
+  approximation calculations}.
+\newblock \emph{Phys. Rev. C}, 78:\penalty0 064608, 2008.
+
 \bibitem[{Guazzoni, P.} et~al.(2011){Guazzoni, P.}, Zetta, Covello, Gargano,
   Bayman, Faestermann, Graw, Hertenberger, Wirth, and Jaskola]{Guazzoni:11}
 {Guazzoni, P.}, L.~Zetta, A.~Covello, A.~Gargano, B.~F. Bayman, T.~Faestermann,
@@ -317,6 +325,11 @@ A.~M. Kadin.
 \newblock \emph{Journal of Superconductivity and Novel Magnetism}, 20:\penalty0
   285, 2007.
 
+\bibitem[Ketterson and Song(1999)]{Ketterson:99}
+J.~B. Ketterson and S.~N. Song.
+\newblock \emph{{Superconductivity}}.
+\newblock Cambridge University Press, Cambridge, 1999.
+
 \bibitem[Kittel(1996)]{Kittel:96}
 C.~Kittel.
 \newblock \emph{{Introduction to solid state physics}}.
@@ -350,6 +363,12 @@ E.~Lipparini.
 \newblock \emph{{Modern Many--Particle Physics: Atomic gases, Quantum Dots and
   Quantum Fluids,}}.
 \newblock World Scientific, Singapore, 2003.
+
+\bibitem[Lotti et~al.(1989)Lotti, Cazzola, Bortignon, Broglia, and
+  Vitturi]{Lotti:89}
+P.~Lotti, F.~Cazzola, P.~F. Bortignon, R.~A. Broglia, and A.~Vitturi.
+\newblock Spatial correlation of pairing modes in nuclei at finite temperature.
+\newblock \emph{Phys. Rev. C}, 40:\penalty0 1791, 1989.
 
 \bibitem[{Mahaux, C.} et~al.(1985){Mahaux, C.}, Bortignon, Broglia, and
   Dasso]{Mahaux:85}
@@ -509,6 +528,12 @@ L.~Weinberg.
 \newblock Bcs: 50 years.
 \newblock In L.~Cooper and D.~Feldman, editors, \emph{BCS: 50 years}. World
   Scientific, Singapore, 2011.
+
+\bibitem[Weisskopf(1981)]{Weisskopf:81}
+V.~F. Weisskopf.
+\newblock The formation of superconducting pairs and the nature of
+  superconducting currents.
+\newblock \emph{Contemporary Physics}, 22:\penalty0 375, 1981.
 
 \bibitem[Young and Stokes(1971)]{Young:71}
 P.~G. Young and R.~H. Stokes.

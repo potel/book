@@ -1,4 +1,4 @@
-\begin{thebibliography}{89}
+\begin{thebibliography}{92}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \expandafter\ifx\csname urlstyle\endcsname\relax
@@ -85,6 +85,13 @@ J.~L. Basdevant and J.~Dalibard.
 {Bayman, B. F.} and C.~F. Clement.
 \newblock Sum rules for {two--nucleon} transfer reactions.
 \newblock \emph{Phys. Rev. Lett.}, 29:\penalty0 1020, 1972.
+
+\bibitem[Beck and Claus(1970)]{Beck:70}
+P.~A. Beck and H.~Claus.
+\newblock {Density of States Information from Low Temperature Specific Heat
+  Measurements}.
+\newblock \emph{Journal of research of the National Bureau of Standards A.
+  Physics and Chemistry}, 74A:\penalty0 449, 1970.
 
 \bibitem[Bertsch(1988)]{Bertsch:88b}
 G.~Bertsch.
@@ -382,6 +389,12 @@ P.~Lotti, F.~Cazzola, P.~F. Bortignon, R.~A. Broglia, and A.~Vitturi.
 \newblock Dynamics of the shell model.
 \newblock \emph{Physics Reports}, 120:\penalty0 1--274, 1985.
 
+\bibitem[Matsuo(2006)]{Matsuo:06}
+M.~Matsuo.
+\newblock Spatial structure of neutron cooper pair in low density uniform
+  matter.
+\newblock \emph{Phys. Rev. C}, 73:\penalty0 044309, 2006.
+
 \bibitem[{Matsuo, M.}(2013)]{Matsuo:13}
 {Matsuo, M.}
 \newblock {Spatial Structure of Cooper Pairs in Nuclei}.
@@ -516,6 +529,11 @@ V.~G. Soloviev.
 M.~Tinkham.
 \newblock \emph{Introduction to Superconductivity}.
 \newblock Mc Graw-Hill, New York, 1996.
+
+\bibitem[van Witsen(2014)]{VanWitsen:14}
+M.~van Witsen.
+\newblock \emph{{Superconductivity in real space}}.
+\newblock University of Twente (unpublished), 2014.
 
 \bibitem[von Oertzen and Vitturi(2001)]{vonOertzen:01}
 W.~von Oertzen and A.~Vitturi.

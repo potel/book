@@ -37,9 +37,6 @@ I was expecting a `,' or a `}'---line 4656 of file /home/gpotel/Desktop/Gregory/
  :   pages = 210
  :              (R),
 I'm skipping whatever remains of this entry
-Warning--I didn't find a database entry for "Beck:70"
-Warning--I didn't find a database entry for "VanWitsen:14"
-Warning--I didn't find a database entry for "Matsuo:06"
 Name 3 in "{Bjerregaard, J. H.} and Hansen, O. and Nathan, and Hinds, S." has a comma at the end for entry Bjerregaard:66b
 while executing---line 1347 of file abbrvnat.bst
 Warning--can't use both author and editor fields in Ambegaokar:69
@@ -53,45 +50,45 @@ Warning--empty publisher in Brink:55
 Warning--empty title in Cooper:11
 Warning--empty title in LeTourneaux:65
 Warning--empty title in Lindhard:53
-You've used 89 entries,
+You've used 92 entries,
             2773 wiz_defined-function locations,
-            1176 strings with 17762 characters,
-and the built_in function-call counts, 41267 in all, are:
-= -- 3370
-> -- 2843
-< -- 70
-+ -- 967
-- -- 877
-* -- 3282
-:= -- 6665
-add.period$ -- 278
-call.type$ -- 89
-change.case$ -- 525
-chr.to.int$ -- 88
-cite$ -- 185
-duplicate$ -- 1929
-empty$ -- 3225
-format.name$ -- 1004
-if$ -- 8548
+            1189 strings with 18125 characters,
+and the built_in function-call counts, 42325 in all, are:
+= -- 3461
+> -- 2884
+< -- 73
++ -- 982
+- -- 889
+* -- 3350
+:= -- 6833
+add.period$ -- 287
+call.type$ -- 92
+change.case$ -- 537
+chr.to.int$ -- 91
+cite$ -- 191
+duplicate$ -- 1989
+empty$ -- 3330
+format.name$ -- 1021
+if$ -- 8771
 int.to.chr$ -- 2
 int.to.str$ -- 1
-missing$ -- 110
-newline$ -- 450
-num.names$ -- 384
-pop$ -- 1133
+missing$ -- 114
+newline$ -- 465
+num.names$ -- 396
+pop$ -- 1160
 preamble$ -- 1
-purify$ -- 461
+purify$ -- 471
 quote$ -- 0
-skip$ -- 1424
+skip$ -- 1465
 stack$ -- 0
-substring$ -- 784
-swap$ -- 159
+substring$ -- 817
+swap$ -- 162
 text.length$ -- 11
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 874
+type$ -- 902
 warning$ -- 7
-while$ -- 341
+while$ -- 352
 width$ -- 0
-write$ -- 1180
+write$ -- 1218
 (There were 11 error messages)

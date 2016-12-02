@@ -28,6 +28,10 @@ I was expecting a `,' or a `}'---line 4656 of file /home/gpotel/Desktop/Gregory/
  :   pages = 210
  :              (R),
 I'm skipping whatever remains of this entry
+Repeated entry---line 5642 of file /home/gpotel/Desktop/Gregory/Articulos/Mios/libro_nuclear/nuclear_bib.bib
+ : @book{Gunnarsson:04
+ :                    ,
+I'm skipping whatever remains of this entry
 Name 3 in "{Bjerregaard, J. H.} and Hansen, O. and Nathan, and Hinds, S." has a comma at the end for entry Bjerregaard:66b
 while executing---line 1347 of file abbrvnat.bst
 Warning--can't use both author and editor fields in Ambegaokar:69
@@ -41,45 +45,45 @@ Warning--empty publisher in Brink:55
 Warning--empty title in Cooper:11
 Warning--empty title in LeTourneaux:65
 Warning--empty title in Lindhard:53
-You've used 92 entries,
+You've used 94 entries,
             2773 wiz_defined-function locations,
-            1188 strings with 18109 characters,
-and the built_in function-call counts, 42325 in all, are:
-= -- 3461
-> -- 2884
-< -- 73
-+ -- 982
-- -- 889
-* -- 3350
-:= -- 6833
-add.period$ -- 287
-call.type$ -- 92
-change.case$ -- 537
-chr.to.int$ -- 91
-cite$ -- 191
-duplicate$ -- 1989
-empty$ -- 3330
-format.name$ -- 1021
-if$ -- 8771
+            1197 strings with 18371 characters,
+and the built_in function-call counts, 42945 in all, are:
+= -- 3512
+> -- 2904
+< -- 75
++ -- 990
+- -- 895
+* -- 3388
+:= -- 6934
+add.period$ -- 293
+call.type$ -- 94
+change.case$ -- 544
+chr.to.int$ -- 93
+cite$ -- 195
+duplicate$ -- 2029
+empty$ -- 3396
+format.name$ -- 1029
+if$ -- 8901
 int.to.chr$ -- 2
 int.to.str$ -- 1
-missing$ -- 114
-newline$ -- 465
-num.names$ -- 396
-pop$ -- 1160
+missing$ -- 117
+newline$ -- 475
+num.names$ -- 404
+pop$ -- 1178
 preamble$ -- 1
-purify$ -- 471
+purify$ -- 477
 quote$ -- 0
-skip$ -- 1465
+skip$ -- 1490
 stack$ -- 0
-substring$ -- 817
-swap$ -- 162
+substring$ -- 824
+swap$ -- 164
 text.length$ -- 11
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 902
+type$ -- 919
 warning$ -- 7
-while$ -- 352
+while$ -- 359
 width$ -- 0
-write$ -- 1218
-(There were 9 error messages)
+write$ -- 1244
+(There were 10 error messages)

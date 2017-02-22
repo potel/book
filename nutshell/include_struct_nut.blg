@@ -1,45 +1,46 @@
-This is BibTeX, Version 0.99dThe top-level auxiliary file: include_struct_nut.aux
+This is BibTeX, Version 0.99d (TeX Live 2015/Debian)
+Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
+The top-level auxiliary file: include_struct_nut.aux
 The style file: abbrvnat.bst
-Database file #1: C:/Gregory/Broglia/notas_ricardo/nuclear_bib.bib
-You're missing a field name---line 2893 of file C:/Gregory/Broglia/notas_ricardo/nuclear_bib.bib
+Database file #1: ../nuclear_bib.bib
+You're missing a field name---line 2893 of file ../nuclear_bib.bib
  : year = {1973},
  :               ,
 I'm skipping whatever remains of this entry
-I was expecting a `,' or a `}'---line 3490 of file C:/Gregory/Broglia/notas_ricardo/nuclear_bib.bib
+I was expecting a `,' or a `}'---line 3490 of file ../nuclear_bib.bib
  :   
  :   year = 1975,
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
 Warning--I'm ignoring Shimizu:13's extra "year" field
---line 3880 of file C:/Gregory/Broglia/notas_ricardo/nuclear_bib.bib
-I was expecting a `,' or a `}'---line 3913 of file C:/Gregory/Broglia/notas_ricardo/nuclear_bib.bib
+--line 3887 of file ../nuclear_bib.bib
+I was expecting a `,' or a `}'---line 3920 of file ../nuclear_bib.bib
  :   pages = 117
  :              ;
 I'm skipping whatever remains of this entry
-Repeated entry---line 4142 of file C:/Gregory/Broglia/notas_ricardo/nuclear_bib.bib
+Repeated entry---line 4149 of file ../nuclear_bib.bib
  : @article{Barranco:99
  :                     ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 4449 of file C:/Gregory/Broglia/notas_ricardo/nuclear_bib.bib
+Repeated entry---line 4456 of file ../nuclear_bib.bib
  : @article{Sackett:93
  :                    ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 4582 of file C:/Gregory/Broglia/notas_ricardo/nuclear_bib.bib
+Repeated entry---line 4598 of file ../nuclear_bib.bib
  : @book{DeGennes:94
  :                  ,
 I'm skipping whatever remains of this entry
-I was expecting a `,' or a `}'---line 4640 of file C:/Gregory/Broglia/notas_ricardo/nuclear_bib.bib
+I was expecting a `,' or a `}'---line 4656 of file ../nuclear_bib.bib
  :   pages = 210
  :              (R),
 I'm skipping whatever remains of this entry
-Repeated entry---line 5149 of file C:/Gregory/Broglia/notas_ricardo/nuclear_bib.bib
+Repeated entry---line 5165 of file ../nuclear_bib.bib
  : @article{Lanford:73
  :                    ,
 I'm skipping whatever remains of this entry
 Warning--I didn't find a database entry for "Nasanov:76"
 Warning--I didn't find a database entry for "Anderson:84"
 Warning--I didn't find a database entry for "Anderson:97"
-Warning--I didn't find a database entry for "Kanungo:15"
 Name 3 in "{Bjerregaard, J. H.} and Hansen, O. and Nathan, and Hinds, S." has a comma at the end for entry Bjerregaard:66b
 while executing---line 1347 of file abbrvnat.bst
 Name 2 in "{Guazzoni, P.} and M. Jaskola, and L. Zetta, and A. Covello, and A. Gargano, and Y. Eisermann, and G. Graw, and R. Hertenberger, and A. Metz, and F. Nuoffer, and G. Staudt" has a comma at the end for entry Guazzoni:99
@@ -144,4 +145,45 @@ Name 2 in "{Tarpanov, D.}, and J. Dobaczewski, and J. Toivanen, and B. G. Carlss
 while executing---line 1429 of file abbrvnat.bst
 Name 3 in "{Tarpanov, D.}, and J. Dobaczewski, and J. Toivanen, and B. G. Carlsson" has a comma at the end for entry Tarpanov:14
 while executing---line 1429 of file abbrvnat.bst
+You've used 145 entries,
+            2773 wiz_defined-function locations,
+            1489 strings with 28482 characters,
+and the built_in function-call counts, 73191 in all, are:
+= -- 5987
+> -- 5502
+< -- 105
++ -- 1858
+- -- 1708
+* -- 6118
+:= -- 11800
+add.period$ -- 455
+call.type$ -- 145
+change.case$ -- 972
+chr.to.int$ -- 140
+cite$ -- 298
+duplicate$ -- 3154
+empty$ -- 5322
+format.name$ -- 1925
+if$ -- 15077
+int.to.chr$ -- 6
+int.to.str$ -- 1
+missing$ -- 160
+newline$ -- 731
+num.names$ -- 618
+pop$ -- 1930
+preamble$ -- 1
+purify$ -- 846
+quote$ -- 0
+skip$ -- 2466
+stack$ -- 0
+substring$ -- 1553
+swap$ -- 278
+text.length$ -- 22
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 1515
+warning$ -- 8
+while$ -- 574
+width$ -- 0
+write$ -- 1916
 (There were 56 error messages)

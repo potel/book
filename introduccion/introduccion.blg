@@ -1,28 +1,26 @@
-This is BibTeX, Version 0.99dThe top-level auxiliary file: introduccion.aux
+This is BibTeX, Version 0.99d (TeX Live 2015/Debian)
+Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
+The top-level auxiliary file: introduccion.aux
 The style file: abbrvnat.bst
-Database file #1: C:/Gregory/Broglia/notas_ricardo/nuclear_bib.bib
-I was expecting a `,' or a `}'---line 427 of file C:/Gregory/Broglia/notas_ricardo/nuclear_bib.bib
- :   pages = 2389
- :               s
-I'm skipping whatever remains of this entry
-Repeated entry---line 2669 of file C:/Gregory/Broglia/notas_ricardo/nuclear_bib.bib
+Database file #1: ../nuclear_bib.bib
+Repeated entry---line 2669 of file ../nuclear_bib.bib
  : @book{Mayer:55
  :               ,
 I'm skipping whatever remains of this entry
-You're missing a field name---line 2872 of file C:/Gregory/Broglia/notas_ricardo/nuclear_bib.bib
+You're missing a field name---line 2893 of file ../nuclear_bib.bib
  : year = {1973},
  :               ,
 I'm skipping whatever remains of this entry
-I was expecting a `,' or a `}'---line 3459 of file C:/Gregory/Broglia/notas_ricardo/nuclear_bib.bib
+I was expecting a `,' or a `}'---line 3490 of file ../nuclear_bib.bib
  :   
  :   year = 1975,
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
-I was expecting a `,' or a `}'---line 3873 of file C:/Gregory/Broglia/notas_ricardo/nuclear_bib.bib
+I was expecting a `,' or a `}'---line 3920 of file ../nuclear_bib.bib
  :   pages = 117
  :              ;
 I'm skipping whatever remains of this entry
-I was expecting a `,' or a `}'---line 4583 of file C:/Gregory/Broglia/notas_ricardo/nuclear_bib.bib
+I was expecting a `,' or a `}'---line 4656 of file ../nuclear_bib.bib
  :   pages = 210
  :              (R),
 I'm skipping whatever remains of this entry
@@ -86,4 +84,45 @@ while executing---line 1429 of file abbrvnat.bst
 Name 3 in "G. Col\`{o}, and N. Van Giai, and P. F. Bortignon, and M. R. Quaglia" has a comma at the end for entry Colo:00
 while executing---line 1429 of file abbrvnat.bst
 Warning--empty title in Landau:41
-(There were 34 error messages)
+You've used 92 entries,
+            2773 wiz_defined-function locations,
+            1164 strings with 18232 characters,
+and the built_in function-call counts, 40701 in all, are:
+= -- 3374
+> -- 2681
+< -- 59
++ -- 914
+- -- 816
+* -- 3263
+:= -- 6552
+add.period$ -- 286
+call.type$ -- 92
+change.case$ -- 521
+chr.to.int$ -- 86
+cite$ -- 188
+duplicate$ -- 1933
+empty$ -- 3250
+format.name$ -- 958
+if$ -- 8421
+int.to.chr$ -- 7
+int.to.str$ -- 1
+missing$ -- 111
+newline$ -- 469
+num.names$ -- 382
+pop$ -- 1049
+preamble$ -- 1
+purify$ -- 451
+quote$ -- 0
+skip$ -- 1418
+stack$ -- 0
+substring$ -- 792
+swap$ -- 135
+text.length$ -- 6
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 917
+warning$ -- 4
+while$ -- 349
+width$ -- 0
+write$ -- 1215
+(There were 33 error messages)

@@ -2,36 +2,35 @@ This is BibTeX, Version 0.99d (TeX Live 2015/Debian)
 Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
 The top-level auxiliary file: include_trans_nut.aux
 The style file: abbrvnat.bst
-Database file #1: /home/gpotel/Desktop/Gregory/Articulos/Mios/libro_nuclear/nuclear_bib.bib
-You're missing a field name---line 2893 of file /home/gpotel/Desktop/Gregory/Articulos/Mios/libro_nuclear/nuclear_bib.bib
+Database file #1: ../nuclear_bib.bib
+You're missing a field name---line 2893 of file ../nuclear_bib.bib
  : year = {1973},
  :               ,
 I'm skipping whatever remains of this entry
-I was expecting a `,' or a `}'---line 3490 of file /home/gpotel/Desktop/Gregory/Articulos/Mios/libro_nuclear/nuclear_bib.bib
+I was expecting a `,' or a `}'---line 3490 of file ../nuclear_bib.bib
  :   
  :   year = 1975,
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
-I was expecting a `,' or a `}'---line 3920 of file /home/gpotel/Desktop/Gregory/Articulos/Mios/libro_nuclear/nuclear_bib.bib
+I was expecting a `,' or a `}'---line 3920 of file ../nuclear_bib.bib
  :   pages = 117
  :              ;
 I'm skipping whatever remains of this entry
-Repeated entry---line 4368 of file /home/gpotel/Desktop/Gregory/Articulos/Mios/libro_nuclear/nuclear_bib.bib
+Repeated entry---line 4368 of file ../nuclear_bib.bib
  : @article{Bortignon:83
  :                      ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 4598 of file /home/gpotel/Desktop/Gregory/Articulos/Mios/libro_nuclear/nuclear_bib.bib
+Repeated entry---line 4598 of file ../nuclear_bib.bib
  : @book{DeGennes:94
  :                  ,
 I'm skipping whatever remains of this entry
-I was expecting a `,' or a `}'---line 4656 of file /home/gpotel/Desktop/Gregory/Articulos/Mios/libro_nuclear/nuclear_bib.bib
+I was expecting a `,' or a `}'---line 4656 of file ../nuclear_bib.bib
  :   pages = 210
  :              (R),
 I'm skipping whatever remains of this entry
-Repeated entry---line 5642 of file /home/gpotel/Desktop/Gregory/Articulos/Mios/libro_nuclear/nuclear_bib.bib
- : @book{Gunnarsson:04
- :                    ,
-I'm skipping whatever remains of this entry
+Warning--I didn't find a database entry for "Beck:70"
+Warning--I didn't find a database entry for "VanWitsen:14"
+Warning--I didn't find a database entry for "Matsuo:06"
 Name 3 in "{Bjerregaard, J. H.} and Hansen, O. and Nathan, and Hinds, S." has a comma at the end for entry Bjerregaard:66b
 while executing---line 1347 of file abbrvnat.bst
 Warning--can't use both author and editor fields in Ambegaokar:69
@@ -45,45 +44,45 @@ Warning--empty publisher in Brink:55
 Warning--empty title in Cooper:11
 Warning--empty title in LeTourneaux:65
 Warning--empty title in Lindhard:53
-You've used 94 entries,
+You've used 91 entries,
             2773 wiz_defined-function locations,
-            1197 strings with 18371 characters,
-and the built_in function-call counts, 42945 in all, are:
-= -- 3512
-> -- 2904
-< -- 75
-+ -- 990
-- -- 895
-* -- 3388
-:= -- 6934
-add.period$ -- 293
-call.type$ -- 94
-change.case$ -- 544
-chr.to.int$ -- 93
-cite$ -- 195
-duplicate$ -- 2029
-empty$ -- 3396
-format.name$ -- 1029
-if$ -- 8901
+            1184 strings with 17955 characters,
+and the built_in function-call counts, 41887 in all, are:
+= -- 3421
+> -- 2863
+< -- 72
++ -- 975
+- -- 883
+* -- 3320
+:= -- 6766
+add.period$ -- 284
+call.type$ -- 91
+change.case$ -- 532
+chr.to.int$ -- 90
+cite$ -- 189
+duplicate$ -- 1969
+empty$ -- 3291
+format.name$ -- 1012
+if$ -- 8678
 int.to.chr$ -- 2
 int.to.str$ -- 1
-missing$ -- 117
-newline$ -- 475
-num.names$ -- 404
-pop$ -- 1178
+missing$ -- 113
+newline$ -- 460
+num.names$ -- 392
+pop$ -- 1151
 preamble$ -- 1
-purify$ -- 477
+purify$ -- 467
 quote$ -- 0
-skip$ -- 1490
+skip$ -- 1449
 stack$ -- 0
-substring$ -- 824
-swap$ -- 164
+substring$ -- 791
+swap$ -- 161
 text.length$ -- 11
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 919
+type$ -- 891
 warning$ -- 7
-while$ -- 359
+while$ -- 348
 width$ -- 0
-write$ -- 1244
-(There were 10 error messages)
+write$ -- 1206
+(There were 9 error messages)

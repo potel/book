@@ -1,14 +1,9 @@
-\begin{thebibliography}{75}
+\begin{thebibliography}{74}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \expandafter\ifx\csname urlstyle\endcsname\relax
   \providecommand{\doi}[1]{doi: #1}\else
   \providecommand{\doi}{doi: \begingroup \urlstyle{rm}\Url}\fi
-
-\bibitem[Anderson(1984)]{Anderson:84}
-P.~W. Anderson.
-\newblock \emph{Basic notions of condensed matter physics}.
-\newblock Benjamin, Menlo Park, California, 1984.
 
 \bibitem[Ascuitto and Glendenning(1969)]{Ascuitto:69}
 R.~J. Ascuitto and N.~K. Glendenning.
@@ -95,16 +90,17 @@ D.~R. B{\`{e}}s and R.~A. Broglia.
 
 \bibitem[B{\`{e}}s and Broglia(1977)]{Bes:77}
 D.~R. B{\`{e}}s and R.~A. Broglia.
-\newblock In A.~Bohr and R.~Broglia, editors, \emph{International School of
+\newblock Nuclear superfluidity and field theory of elementary excitations.
+\newblock In A.~Bohr and R.~A. Broglia, editors, \emph{International School of
   Physics ``Enrico Fermi'' Course LXIX, Elementary Modes of Excitation in
   Nuclei}, page~55, Amsterdam, 1977. North Holland.
 
 \bibitem[B\`{e}s et~al.(1974)B\`{e}s, Dussel, Broglia, Liotta, and
   Mottelson]{Bes:74}
-D.~R. B\`{e}s, G.~G. Dussel, R.~Broglia, R.~Liotta, and B.~R. Mottelson.
+D.~R. B\`{e}s, G.~G. Dussel, R.~A. Broglia, R.~Liotta, and B.~R. Mottelson.
 \newblock Nuclear field theory as a method of treating the problem of
   overcompleteness in descriptions involving elementary modes of both
-  quasi-particles and collective type.
+  quasi--particles and collective type.
 \newblock \emph{Phys. Lett. B}, 52:\penalty0 253, 1974.
 
 \bibitem[B{\`{e}}s et~al.(1976{\natexlab{a}})B{\`{e}}s, Broglia, Dussel,
@@ -175,9 +171,9 @@ P.~F. Bortignon, R.~A. Broglia, and C.~H. Dasso.
 \newblock Nuclear field theory.
 \newblock \emph{Physics Reports}, 30:\penalty0 305, 1977.
 
-\bibitem[{Bortignon, P.F.} et~al.(1998){Bortignon, P.F.}, Bracco, and
+\bibitem[{Bortignon, P. F.} et~al.(1998){Bortignon, P. F.}, Bracco, and
   Broglia]{Bortignon:98}
-{Bortignon, P.F.}, A.~Bracco, and R.~Broglia.
+{Bortignon, P. F.}, A.~Bracco, and R.~A. Broglia.
 \newblock \emph{Giant Resonances}.
 \newblock Harwood Academic Publishers, Amsterdam, 1998.
 
@@ -191,17 +187,17 @@ D.~Brink and G.~R. Satchler.
 \newblock \emph{Nuclear Superfluidity}.
 \newblock Cambridge University Press, Cambridge, 2005.
 
-\bibitem[Broglia and Winther(2004)]{Broglia:04a}
-R.~Broglia and A.~Winther.
-\newblock \emph{Heavy Ion Reactions}.
-\newblock Westview Press, Boulder, CO., 2004.
-
 \bibitem[Broglia et~al.(2004)Broglia, Col{\'{o}}, Onida, and
   Roman]{Broglia:04b}
 R.~Broglia, G.~Col{\'{o}}, G.~Onida, and H.~Roman.
 \newblock \emph{Solid State Physics of Finite Systems: metal clusters,
   fullerenes, atomic wires}.
 \newblock Springer Verlag, Berlin, Heidelberg, 2004.
+
+\bibitem[Broglia and Winther(2004)]{Broglia:04a}
+R.~A. Broglia and A.~Winther.
+\newblock \emph{Heavy Ion Reactions}.
+\newblock Westview Press, Boulder, CO., 2004.
 
 \bibitem[Broglia et~al.(1976)Broglia, Mottelson, B{\`{e}}s, Liotta, and
   Sof{\'{\i}}a]{Broglia:76}

@@ -1,11 +1,11 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2016.10.7)  18 FEB 2017 12:38
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2017.2.28)  12 JUN 2017 16:11
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
 **main_libro.tex
 (./main_libro.tex
 LaTeX2e <2016/02/01>
-Babel <3.9q> and hyphenation patterns for 81 language(s) loaded.
+Babel <3.9q> and hyphenation patterns for 3 language(s) loaded.
 (/usr/share/texlive/texmf-dist/tex/latex/base/book.cls
 Document Class: book 2014/09/29 v1.4h Standard LaTeX document class
 (/usr/share/texlive/texmf-dist/tex/latex/base/bk11.clo
@@ -963,8 +963,25 @@ LaTeX Font Info:    Font shape `U/lasy/b/n' in size <6> not available
  [102] [103] [104] [105] (./introduccion/introduccion.bbl [106
 
 ] [107]
+Underfull \hbox (badness 2469) in paragraph at lines 264--270
+[]\OT1/txr/m/n/10.95 R. A. Broglia.  Heavy ion re-ac-tion, notes of lec-tures d
+e-liv-ered dur-ing
+ []
+
+
+Underfull \hbox (badness 2717) in paragraph at lines 264--270
+\OT1/txr/m/n/10.95 the aca-demic years 1974--1976 at SUNY, Stony Brook at Brook
+haven
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 264--270
+\OT1/txr/m/n/10.95 Na-tional Lab-o-ra-tory, and at Niels Bohr In-sti-tute, un-p
+ub-lished.
+ []
+
 [108]
-LaTeX Font Info:    Try loading font information for OT1+txtt on input line 338
+LaTeX Font Info:    Try loading font information for OT1+txtt on input line 341
 .
  (/usr/share/texlive/texmf-dist/tex/latex/txfonts/ot1txtt.fd
 File: ot1txtt.fd 2000/12/15 v3.1
@@ -1911,24 +1928,10 @@ File: C6/figs_C6/fig6_C2.pdf Graphic file (type pdf)
 <use C6/figs_C6/fig6_C2.pdf>
 Package pdftex.def Info: C6/figs_C6/fig6_C2.pdf used on input line 572.
 (pdftex.def)             Requested size: 284.52756pt x 65.19165pt.
+ [292 <./C6/figs_C6/fig6_C1.pdf>]
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
-
-Package natbib Warning: Citation `Anderson:84' on page 292 undefined on input l
-ine 573.
-
-
-Package natbib Warning: Citation `Anderson:84' on page 292 undefined on input l
-ine 573.
-
-
-Package natbib Warning: Citation `Anderson:84' on page 292 undefined on input l
-ine 573.
-
-
-Package natbib Warning: Citation `Anderson:84' on page 292 undefined on input l
-ine 573.
-
-[292 <./C6/figs_C6/fig6_C1.pdf>] [293 <./C6/figs_C6/fig6_C2.pdf>]
+ [293 <./C6/figs_C6/fig6_C2.pdf>]
 <C6/figs_C6/fig6_E1.pdf, id=3810, 406.12195pt x 334.84251pt>
 File: C6/figs_C6/fig6_E1.pdf Graphic file (type pdf)
 
@@ -2036,8 +2039,12 @@ File: C6/figs_C6/fig4I1.pdf Graphic file (type pdf)
 <use C6/figs_C6/fig4I1.pdf>
 Package pdftex.def Info: C6/figs_C6/fig4I1.pdf used on input line 1273.
 (pdftex.def)             Requested size: 426.79134pt x 261.42966pt.
- (./C6/includeC6.bbl [317] [318 <./C6/figs_C6/fig4I1.pdf>] [319] [320]
-Underfull \hbox (badness 1062) in paragraph at lines 230--234
+ (./C6/includeC6.bbl
+Underfull \vbox (badness 1005) has occurred while \output is active []
+
+ [317]
+[318 <./C6/figs_C6/fig4I1.pdf>] [319] [320]
+Underfull \hbox (badness 1062) in paragraph at lines 235--239
 []\OT1/txr/m/n/10.95 W. R. Cobb and D. B. Guthe.  An-gu-lar dis-tri-bu-tion of 
 pro-tons from the
  []
@@ -2556,8 +2563,26 @@ T1/txr/m/n/10.95 -- and long range in-duced in-ter-ac-tion changes
 
 
 ]
-[423] [424] [425] [426] [427] [428] [429] [430]
-Underfull \hbox (badness 1062) in paragraph at lines 801--805
+[423] [424] [425] [426] [427] [428]
+Underfull \hbox (badness 2469) in paragraph at lines 620--626
+[]\OT1/txr/m/n/10.95 R. A. Broglia.  Heavy ion re-ac-tion, notes of lec-tures d
+e-liv-ered dur-ing
+ []
+
+
+Underfull \hbox (badness 2717) in paragraph at lines 620--626
+\OT1/txr/m/n/10.95 the aca-demic years 1974--1976 at SUNY, Stony Brook at Brook
+haven
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 620--626
+\OT1/txr/m/n/10.95 Na-tional Lab-o-ra-tory, and at Niels Bohr In-sti-tute, un-p
+ub-lished.
+ []
+
+[429] [430]
+Underfull \hbox (badness 1062) in paragraph at lines 792--796
 []\OT1/txr/m/n/10.95 W. R. Cobb and D. B. Guthe.  An-gu-lar dis-tri-bu-tion of 
 pro-tons from the
  []
@@ -2565,7 +2590,7 @@ pro-tons from the
 [431] [432] [433] [434] [435] [436]
 Missing character: There is no ü in font txr!
  [437]
-Underfull \hbox (badness 10000) in paragraph at lines 1424--1427
+Underfull \hbox (badness 10000) in paragraph at lines 1416--1419
 []\OT1/txr/m/n/10.95 Meissner, U. G.  An-thropic con-sid-er-a-tions in nu-clear
  physics.
  []
@@ -2587,13 +2612,13 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 8766 strings out of 493029
- 132708 string characters out of 6136234
- 231071 words of memory out of 5000000
- 11887 multiletter control sequences out of 15000+600000
+ 8763 strings out of 494953
+ 132645 string characters out of 6180977
+ 225169 words of memory out of 5000000
+ 11633 multiletter control sequences out of 15000+600000
  91790 words of font info for 240 fonts, out of 8000000 for 9000
- 1141 hyphenation exceptions out of 8191
- 38i,26n,50p,3423b,886s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 14 hyphenation exceptions out of 8191
+ 38i,26n,50p,3423b,882s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/share/texliv
 e/texmf-dist/fonts/type1/public/doublestroke/dsrom10.pfb></usr/share/texlive/te
 xmf-dist/fonts/type1/public/amsfonts/latxfont/line10.pfb></usr/share/texlive/te
@@ -2612,7 +2637,7 @@ exlive/texmf-dist/fonts/type1/public/txfonts/txtt.pfb></usr/share/texlive/texmf
 -dist/fonts/type1/urw/times/utmb8a.pfb></usr/share/texlive/texmf-dist/fonts/typ
 e1/urw/times/utmr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/ut
 mr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on main_libro.pdf (444 pages, 11766417 bytes).
+Output written on main_libro.pdf (444 pages, 11767033 bytes).
 PDF statistics:
  5212 PDF objects out of 6186 (max. 8388607)
  3227 compressed objects within 33 object streams

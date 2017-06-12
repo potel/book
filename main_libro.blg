@@ -70,54 +70,49 @@ Illegal, another \bibdata command---line 24 of file main_libro.aux
  : \bibdata
  :         {./nuclear_bib}
 I'm skipping whatever remains of this command
-Reallocated field_info (elt_size=4) to 14100 items from 5000.
+Reallocated field_info (elt_size=4) to 14044 items from 5000.
 Database file #1: ./nuclear_bib.bib
-Repeated entry---line 2679 of file ./nuclear_bib.bib
+Repeated entry---line 2667 of file ./nuclear_bib.bib
  : @book{Mayer:55
  :               ,
 I'm skipping whatever remains of this entry
-You're missing a field name---line 2903 of file ./nuclear_bib.bib
+You're missing a field name---line 2891 of file ./nuclear_bib.bib
  : year = {1973},
  :               ,
 I'm skipping whatever remains of this entry
-I was expecting a `,' or a `}'---line 3500 of file ./nuclear_bib.bib
- :   
- :   year = 1975,
-(Error may have been on previous line)
-I'm skipping whatever remains of this entry
 Warning--I'm ignoring Pauli:47's extra "year" field
---line 3670 of file ./nuclear_bib.bib
+--line 3651 of file ./nuclear_bib.bib
 Warning--I'm ignoring Shimizu:13's extra "year" field
---line 3897 of file ./nuclear_bib.bib
-I was expecting a `,' or a `}'---line 3930 of file ./nuclear_bib.bib
+--line 3879 of file ./nuclear_bib.bib
+I was expecting a `,' or a `}'---line 3912 of file ./nuclear_bib.bib
  :   pages = 117
  :              ;
 I'm skipping whatever remains of this entry
-Repeated entry---line 4136 of file ./nuclear_bib.bib
+Repeated entry---line 4118 of file ./nuclear_bib.bib
  : @article{Thompson:88
  :                     ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 4159 of file ./nuclear_bib.bib
+Repeated entry---line 4141 of file ./nuclear_bib.bib
  : @article{Barranco:99
  :                     ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 4378 of file ./nuclear_bib.bib
+Repeated entry---line 4359 of file ./nuclear_bib.bib
  : @article{Bortignon:83
  :                      ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 4466 of file ./nuclear_bib.bib
+Repeated entry---line 4447 of file ./nuclear_bib.bib
  : @article{Sackett:93
  :                    ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 4600 of file ./nuclear_bib.bib
+Repeated entry---line 4581 of file ./nuclear_bib.bib
  : @book{DeGennes:94
  :                  ,
 I'm skipping whatever remains of this entry
-I was expecting a `,' or a `}'---line 4658 of file ./nuclear_bib.bib
+I was expecting a `,' or a `}'---line 4639 of file ./nuclear_bib.bib
  :   pages = 210
  :              (R),
 I'm skipping whatever remains of this entry
-Repeated entry---line 5167 of file ./nuclear_bib.bib
+Repeated entry---line 5148 of file ./nuclear_bib.bib
  : @article{Lanford:73
  :                    ,
 I'm skipping whatever remains of this entry
@@ -183,8 +178,6 @@ Name 1 in "Saperstein, E. E., and Baldo, M." has a comma at the end for entry Sa
 while executing---line 1347 of file abbrvnat.bst
 Name 1 in "Saperstein, E. E., and Baldo, M." has a comma at the end for entry Saperstein:12
 while executing---line 1347 of file abbrvnat.bst
-Name 2 in "Born, M. and Jordan, and Heisenberg, W." has a comma at the end for entry Born:25b
-while executing---line 1347 of file abbrvnat.bst
 Warning--empty title in Abrahams:68
 Warning--can't use both author and editor fields in Ambegaokar:69
 Warning--can't use both author and editor fields in Ashcroft:87
@@ -198,14 +191,7 @@ while executing---line 1429 of file abbrvnat.bst
 Name 3 in "{Bjerregaard, J. H.} and Hansen, O. and Nathan, and Hinds, S." has a comma at the end for entry Bjerregaard:66b
 while executing---line 1429 of file abbrvnat.bst
 Warning--empty note in Bohr:63
-Name 2 in "Born, M. and Jordan, and Heisenberg, W." has a comma at the end for entry Born:25b
-while executing---line 1429 of file abbrvnat.bst
-Name 2 in "Born, M. and Jordan, and Heisenberg, W." has a comma at the end for entry Born:25b
-while executing---line 1429 of file abbrvnat.bst
 Warning--empty publisher in Brink:55
-Warning--empty journal in Broglia:75
-Warning--empty year in Broglia:75
-Warning--empty year in Broglia:75
 Warning--empty booktitle in Broglia:81c
 Name 1 in "R. A. Broglia, and P. F. Bortignon, and F. Barranco, and E. Vigezzi, and A. Idini, and G. Potel" has a comma at the end for entry Broglia:16
 while executing---line 1429 of file abbrvnat.bst
@@ -245,10 +231,8 @@ Name 2 in "G. Col\`{o}, and N. Van Giai, and P. F. Bortignon, and M. R. Quaglia"
 while executing---line 1429 of file abbrvnat.bst
 Name 3 in "G. Col\`{o}, and N. Van Giai, and P. F. Bortignon, and M. R. Quaglia" has a comma at the end for entry Colo:00
 while executing---line 1429 of file abbrvnat.bst
-Warning--empty title in Cooper:11
 Warning--empty booktitle in deBoer:57
 Warning--empty publisher in deBoer:57
-Warning--empty journal in Ebran:14
 Warning--empty title in Glauber:69
 Name 2 in "{Guazzoni, P.} and M. Jaskola, and L. Zetta, and A. Covello, and A. Gargano, and Y. Eisermann, and G. Graw, and R. Hertenberger, and A. Metz, and F. Nuoffer, and G. Staudt" has a comma at the end for entry Guazzoni:99
 while executing---line 1429 of file abbrvnat.bst
@@ -305,45 +289,45 @@ Name 2 in "{Tarpanov, D.}, and J. Dobaczewski, and J. Toivanen, and B. G. Carlss
 while executing---line 1429 of file abbrvnat.bst
 Name 3 in "{Tarpanov, D.}, and J. Dobaczewski, and J. Toivanen, and B. G. Carlsson" has a comma at the end for entry Tarpanov:14
 while executing---line 1429 of file abbrvnat.bst
-You've used 319 entries,
+You've used 317 entries,
             2773 wiz_defined-function locations,
-            2420 strings with 51420 characters,
-and the built_in function-call counts, 146178 in all, are:
-= -- 12114
-> -- 9846
-< -- 239
-+ -- 3357
-- -- 3025
-* -- 11689
-:= -- 23505
-add.period$ -- 990
-call.type$ -- 319
-change.case$ -- 1889
-chr.to.int$ -- 306
-cite$ -- 658
-duplicate$ -- 6806
-empty$ -- 11475
-format.name$ -- 3506
-if$ -- 30276
+            2415 strings with 51290 characters,
+and the built_in function-call counts, 145536 in all, are:
+= -- 12068
+> -- 9804
+< -- 237
++ -- 3343
+- -- 3013
+* -- 11646
+:= -- 23405
+add.period$ -- 986
+call.type$ -- 317
+change.case$ -- 1881
+chr.to.int$ -- 304
+cite$ -- 649
+duplicate$ -- 6768
+empty$ -- 11421
+format.name$ -- 3488
+if$ -- 30147
 int.to.chr$ -- 14
 int.to.str$ -- 1
-missing$ -- 363
-newline$ -- 1597
-num.names$ -- 1344
-pop$ -- 3794
+missing$ -- 360
+newline$ -- 1589
+num.names$ -- 1336
+pop$ -- 3759
 preamble$ -- 1
-purify$ -- 1624
+purify$ -- 1616
 quote$ -- 0
-skip$ -- 5080
+skip$ -- 5052
 stack$ -- 0
-substring$ -- 3061
+substring$ -- 3075
 swap$ -- 536
 text.length$ -- 34
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 3284
-warning$ -- 20
-while$ -- 1240
+type$ -- 3267
+warning$ -- 15
+while$ -- 1235
 width$ -- 0
-write$ -- 4185
-(There were 105 error messages)
+write$ -- 4169
+(There were 101 error messages)

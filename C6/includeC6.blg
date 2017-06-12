@@ -1,75 +1,74 @@
-This is BibTeX, Version 0.99d (TeX Live 2015/Debian)
+This is BibTeX, Version 0.99d (TeX Live 2013/Debian)
 Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
 The top-level auxiliary file: includeC6.aux
 The style file: abbrvnat.bst
 Database file #1: ../nuclear_bib.bib
-You're missing a field name---line 2893 of file ../nuclear_bib.bib
+You're missing a field name---line 2890 of file ../nuclear_bib.bib
  : year = {1973},
  :               ,
 I'm skipping whatever remains of this entry
-I was expecting a `,' or a `}'---line 3490 of file ../nuclear_bib.bib
+I was expecting a `,' or a `}'---line 3487 of file ../nuclear_bib.bib
  :   
  :   year = 1975,
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
 Warning--I'm ignoring Pauli:47's extra "year" field
---line 3660 of file ../nuclear_bib.bib
-I was expecting a `,' or a `}'---line 3920 of file ../nuclear_bib.bib
+--line 3657 of file ../nuclear_bib.bib
+I was expecting a `,' or a `}'---line 3917 of file ../nuclear_bib.bib
  :   pages = 117
  :              ;
 I'm skipping whatever remains of this entry
-Repeated entry---line 4126 of file ../nuclear_bib.bib
+Repeated entry---line 4123 of file ../nuclear_bib.bib
  : @article{Thompson:88
  :                     ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 4368 of file ../nuclear_bib.bib
+Repeated entry---line 4365 of file ../nuclear_bib.bib
  : @article{Bortignon:83
  :                      ,
 I'm skipping whatever remains of this entry
-I was expecting a `,' or a `}'---line 4656 of file ../nuclear_bib.bib
+I was expecting a `,' or a `}'---line 4645 of file ../nuclear_bib.bib
  :   pages = 210
  :              (R),
 I'm skipping whatever remains of this entry
-Warning--I didn't find a database entry for "Anderson:84"
-You've used 74 entries,
+You've used 75 entries,
             2773 wiz_defined-function locations,
-            1072 strings with 16051 characters,
-and the built_in function-call counts, 32970 in all, are:
-= -- 2703
-> -- 2250
-< -- 45
-+ -- 765
-- -- 689
-* -- 2657
-:= -- 5337
-add.period$ -- 229
-call.type$ -- 74
-change.case$ -- 430
-chr.to.int$ -- 72
-cite$ -- 148
-duplicate$ -- 1536
-empty$ -- 2587
-format.name$ -- 801
-if$ -- 6785
+            1076 strings with 16087 characters,
+and the built_in function-call counts, 33307 in all, are:
+= -- 2733
+> -- 2260
+< -- 46
++ -- 769
+- -- 692
+* -- 2678
+:= -- 5391
+add.period$ -- 232
+call.type$ -- 75
+change.case$ -- 434
+chr.to.int$ -- 73
+cite$ -- 150
+duplicate$ -- 1556
+empty$ -- 2622
+format.name$ -- 805
+if$ -- 6856
 int.to.chr$ -- 3
 int.to.str$ -- 1
-missing$ -- 93
-newline$ -- 380
-num.names$ -- 304
-pop$ -- 876
+missing$ -- 94
+newline$ -- 385
+num.names$ -- 308
+pop$ -- 883
 preamble$ -- 1
-purify$ -- 375
+purify$ -- 378
 quote$ -- 0
-skip$ -- 1143
+skip$ -- 1156
 stack$ -- 0
-substring$ -- 622
-swap$ -- 92
+substring$ -- 633
+swap$ -- 93
 text.length$ -- 3
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 719
+type$ -- 730
 warning$ -- 0
-while$ -- 276
+while$ -- 280
 width$ -- 0
-write$ -- 974
+write$ -- 987
 (There were 6 error messages)

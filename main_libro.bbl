@@ -1,4 +1,4 @@
-\begin{thebibliography}{319}
+\begin{thebibliography}{317}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \expandafter\ifx\csname urlstyle\endcsname\relax
@@ -47,11 +47,16 @@ P.~W. Anderson.
 \newblock New method in the theory of superconductivity.
 \newblock \emph{Phys. Rev.}, 110:\penalty0 985, 1958{\natexlab{b}}.
 
-\bibitem[Anderson(1964)]{Anderson:64b}
+\bibitem[Anderson(1964{\natexlab{a}})]{Anderson:64}
+P.~W. Anderson.
+\newblock Superconductivity.
+\newblock \emph{Science}, 144:\penalty0 373, 1964{\natexlab{a}}.
+
+\bibitem[Anderson(1964{\natexlab{b}})]{Anderson:64b}
 P.~W. Anderson.
 \newblock Special effects in suprconductivity.
 \newblock In E.~R. Caianello, editor, \emph{The Many--Body Problem, Vol.2},
-  page 113. Academic Press, New York, 1964.
+  page 113. Academic Press, New York, 1964{\natexlab{b}}.
 
 \bibitem[Anderson(1972)]{Anderson:72}
 P.~W. Anderson.
@@ -317,7 +322,7 @@ G.~Bertsch.
   Many--Body Particle Physics}}, page~41, Amsterdam, 1988. North Holland.
 
 \bibitem[Bertsch and Broglia(2005)]{Bertsch:05}
-G.~Bertsch and R.~Broglia.
+G.~Bertsch and R.~A. Broglia.
 \newblock \emph{Oscillations in Finite Quantum Systems}.
 \newblock Cambridge University Press, Cambridge, 2005.
 
@@ -542,26 +547,20 @@ M.~Born.
 \newblock \emph{Zeitschr. f. Phys.}, 37:\penalty0 863, 1926.
 
 \bibitem[Born and Jordan(1925)]{Born:25a}
-M.~Born and Jordan.
+M.~Born and P.~Jordan.
 \newblock Zur quantenmechanik.
 \newblock \emph{{Zeitschr. Phys.}}, 34:\penalty0 858, 1925.
 
 \bibitem[Born et~al.(1926)Born, Jordan, and Heisenberg]{Born:25b}
-M.~Born, Jordan, and W.~Heisenberg.
+M.~Born, P.~Jordan, and W.~Heisenberg.
 \newblock {Zur Quantenmechanik II}.
 \newblock \emph{{Zeitschr. Phys.}}, 35:\penalty0 557, 1926.
 
-\bibitem[Bortignon and Broglia(1981{\natexlab{a}})]{Bortignon:81}
+\bibitem[Bortignon and Broglia(1981)]{Bortignon:81}
 P.~F. Bortignon and R.~A. Broglia.
 \newblock Role of the nuclear surface in an unified description of the damping
   of single--particle states and giant resonances.
-\newblock \emph{{Nucl. Phys. A}}, 371:\penalty0 405, 1981{\natexlab{a}}.
-
-\bibitem[Bortignon and Broglia(1981{\natexlab{b}})]{Bortignon:81b}
-P.~F. Bortignon and R.~A. Broglia.
-\newblock Role of the nuclear surface in a unified description of the damping
-  of single--particle states and giant resonances.
-\newblock \emph{{Nucl. Phys. A}}, 371:\penalty0 405, 1981{\natexlab{b}}.
+\newblock \emph{{Nucl. Phys. A}}, 371:\penalty0 405, 1981.
 
 \bibitem[Bortignon et~al.(1976)Bortignon, Broglia, B{\`{e}}s, Liotta, and
   Paar]{Bortignon:76}
@@ -610,11 +609,6 @@ D.~M. Brink.
 \newblock \emph{Nuclear Superfluidity}.
 \newblock Cambridge University Press, Cambridge, 2005.
 
-\bibitem[Broglia and Winther(2005)]{Broglia:05c}
-R.~Broglia and A.~Winther.
-\newblock \emph{Heavy Ion Reactions, 2nd ed.}
-\newblock Westview Press, Perseus Books, Boulder, 2005.
-
 \bibitem[Broglia et~al.(2004)Broglia, Col{\'{o}}, Onida, and
   Roman]{Broglia:04b}
 R.~Broglia, G.~Col{\'{o}}, G.~Onida, and H.~Roman.
@@ -622,11 +616,13 @@ R.~Broglia, G.~Col{\'{o}}, G.~Onida, and H.~Roman.
   fullerenes, atomic wires}.
 \newblock Springer Verlag, Berlin, Heidelberg, 2004.
 
-\bibitem[Broglia()]{Broglia:75}
+\bibitem[Broglia(1975)]{Broglia:75}
 R.~A. Broglia.
 \newblock {Heavy ion reaction, notes of lectures delivered during the academic
   years 1974--1976 at SUNY, Stony Brook at Brookhaven National Laboratory, and
   at Niels Bohr Institute, unpublished.}
+\newblock \emph{http://www.mi.infn.it/~vigezzi/HIR/HeavyIonReactions.pdf},
+  1975.
 
 \bibitem[Broglia(1981)]{Broglia:81c}
 R.~A. Broglia.
@@ -690,11 +686,6 @@ R.~A. Broglia, P.~F. Bortignon, F.~Barranco, E.~Vigezzi, A.~Idini, and
   Nuclear Field Theory program}.
 \newblock \emph{Phys. Scr.}, 91:\penalty0 063012, 2016.
 
-\bibitem[{Broglia, R. A.}(1979)]{Broglia:79b}
-{Broglia, R. A.}
-\newblock {Heavy Ion Reactions}.
-\newblock \emph{{Lecture notes, Brookhaven National Lab. (unpublished)}}, 1979.
-
 \bibitem[{Broglia, R. A.}(2002)]{Broglia:02d}
 {Broglia, R. A.}
 \newblock The surfaces of compact systems: from nuclei to stars.
@@ -748,7 +739,7 @@ R.~A. Broglia, P.~F. Bortignon, F.~Barranco, E.~Vigezzi, A.~Idini, and
 
 \bibitem[{Broglia, R. A. and Zelevinsky, V.}(2013)]{Broglia:13}
 {Broglia, R. A. and Zelevinsky, V.}
-\newblock {}.
+\newblock {Preface}.
 \newblock In R.~A. Broglia and V.~Zelevinsky, editors, \emph{50 Years of
   Nuclear BCS}. World Scientific, Singapore, 2013.
 
@@ -813,15 +804,16 @@ G.~Col\`{o}, N.~V. Giai, P.~F. Bortignon, and M.~R. Quaglia.
 \newblock On dipole compression modes in nuclei.
 \newblock \emph{Physics Letters B}, 485:\penalty0 362, 2000.
 
-\bibitem[Cooper(2011)]{Cooper:11}
-L.~Cooper.
-\newblock In L.~Cooper and D.~Feldman, editors, \emph{BCS: 50 years}. World
-  Scientific, Singapore, 2011.
-
 \bibitem[Cooper(1956)]{Cooper:56}
 L.~N. Cooper.
 \newblock Bound electron pairs in a degenerate fermi gas.
 \newblock \emph{Phys. Rev.}, 104:\penalty0 1189, 1956.
+
+\bibitem[Cooper(2011)]{Cooper:11}
+L.~N. Cooper.
+\newblock {Rememberance of Superconductivity Past, p.3}.
+\newblock In L.~Cooper and D.~Feldman, editors, \emph{BCS: 50 years}. World
+  Scientific, Singapore, 2011.
 
 \bibitem[de~Boer(1948)]{deBoer:48}
 J.~de~Boer.
@@ -831,8 +823,8 @@ J.~de~Boer.
 
 \bibitem[de~Boer(1957)]{deBoer:57}
 J.~de~Boer.
-\newblock Chapter i quantum effects and exchange effects on the thermodynamic
-  properties of liquid helium.
+\newblock {Chapter I Quantum Effects and Exchange Effects on the Thermodynamic
+  Properties of Liquid Helium}.
 \newblock volume~2 of \emph{Progress in Low Temperature Physics}, page~1. 1957.
 
 \bibitem[de~Boer and Lundbeck(1948)]{deBoer:48b}
@@ -894,7 +886,7 @@ F.~D\"{o}nau, K.~Hehl, C.~Riedel, R.~A. Broglia, and P.~Federman.
   Vretenar]{Ebran:14}
 J.~Ebran, E.~Khan, T.~Niksic, and D.~Vretenar.
 \newblock {Density Functional Theory studies of cluster states in nuclei}.
-\newblock 2014{\natexlab{a}}.
+\newblock \emph{Phys. Rev. C}, 90:\penalty0 054329, 2014{\natexlab{a}}.
 
 \bibitem[Ebran et~al.(2012)Ebran, Khan, Nik\ifmmode \check{s}\else
   \v{s}\fi{}i\ifmmode~\acute{c}\else \'{c}\fi{}, and Vretenar]{Ebran:12}
@@ -921,7 +913,7 @@ J.-P. Ebran, E.~Khan, T.~Nik\ifmmode \check{s}\else
 \bibitem[Edmonds(1960)]{Edmonds:60}
 A.~R. Edmonds.
 \newblock \emph{Angular momentum in quantum mechanics}.
-\newblock Princeton University Press, 1960.
+\newblock Princeton University Press, Princeton, 1960.
 
 \bibitem[{Egido, J. L.}(2013)]{Egido:13}
 {Egido, J. L.}
@@ -975,7 +967,7 @@ R.~Feynman.
 
 \bibitem[Flynn et~al.(1971)Flynn, Igo, Barnes, Kovar, B\`{e}s, and
   Broglia]{Flynn:71}
-E.~Flynn, G.~Igo, P.~Barnes, D.~Kovar, D.~R. B\`{e}s, and R.~Broglia.
+E.~Flynn, G.~Igo, P.~Barnes, D.~Kovar, D.~R. B\`{e}s, and R.~A. Broglia.
 \newblock {Effect of multipole pairing particle--hole fields in the
   particle--vibration couplig of $^{208}$Pb (II). The $^{207}$Pb$(t,p)^{209}$Pb
   reaction at 20 MeV}.
@@ -1236,7 +1228,7 @@ B.~D. Josephson.
 
 \bibitem[Kadin(2007)]{Kadin:07}
 A.~M. Kadin.
-\newblock Spatial structure of the cooper pair.
+\newblock {Spatial Structure of the Cooper Pair}.
 \newblock \emph{Journal of Superconductivity and Novel Magnetism}, 20:\penalty0
   285, 2007.
 
@@ -1299,19 +1291,19 @@ C.~Kittel.
 \newblock \emph{Nucl. Phys. A}, 679:\penalty0 267, 2001.
 
 \bibitem[Kubo et~al.(1970)Kubo, Broglia, and Riedel]{Kubo:70}
-K.~Kubo, R.~Broglia, and T.~Riedel, C.~Udagawa.
+K.~Kubo, R.~A. Broglia, and T.~Riedel, C.~Udagawa.
 \newblock {Determination of the $Y_4$ deformation parameter from $(p,t)$
   reactions}.
 \newblock \emph{Phys. Lett. B}, 32:\penalty0 29, 1970.
 
 \bibitem[Landau(1941)]{Landau:41}
 L.~Landau.
-\newblock \emph{Joun. Phys. USSR}, 5:\penalty0 71, 1941.
+\newblock \emph{Journ. Phys. USSR}, 5:\penalty0 71, 1941.
 
-\bibitem[Landau and Lifshitz(1981)]{Landau:81}
+\bibitem[Landau and Lifshitz(1965)]{Landau:81}
 L.~Landau and L.~Lifshitz.
 \newblock \emph{Quantum Mechanics, 3rd ed.}
-\newblock Butterworth-Heinemann, 1981.
+\newblock Bergamon Press, London, 1965.
 
 \bibitem[Lanford(1977)]{Lanford:77}
 W.~A. Lanford.
@@ -1707,16 +1699,16 @@ G.~Satchler.
 
 \bibitem[{Schmidt, H.}(1968)]{Schmidt:68}
 {Schmidt, H.}
-\newblock The onset of superconductivity in the time dependent ginzburg-landau
-  theory.
+\newblock {The onset of superconductivity in the time dependent
+  Ginzburg--Landau theory}.
 \newblock \emph{Zeits. Phys.}, 216:\penalty0 336, 1968.
 
 \bibitem[{Schmidt, H.}(1972)]{Schmidt:72}
 {Schmidt, H.}
 \newblock Pairing vibrations in nuclei and solids.
 \newblock In {Morinaga H.}, editor, \emph{Proceedings of the International
-  School of Physics ``Enrico Fermi'' Course LIII}, page 144, NY, 1972. Academic
-  Press.
+  School of Physics ``Enrico Fermi'' Course LIII, Developments and Borderlines
+  on Nuclear Physics}, page 144, NY, 1972. Academic Press.
 
 \bibitem[Schrieffer(1964)]{Schrieffer:64}
 J.~Schrieffer.
@@ -1802,8 +1794,8 @@ F.~H. Stillinger and D.~K. Stillinger.
 \bibitem[{Tamura, T.} et~al.(1970){Tamura, T.}, {B\`{e}s}, Broglia, and
   Landowne]{Tamura:70}
 {Tamura, T.}, D.~R. {B\`{e}s}, R.~A. Broglia, and S.~Landowne.
-\newblock Coupled--channel born--approximation calculation of two-nucleon
-  transfer reactions in deformed nuclei.
+\newblock {Coupled--channel Born--approximation calculation of two-nucleon
+  transfer reactions in deformed nuclei}.
 \newblock \emph{Physical Review Letters}, 25:\penalty0 1507, 1970.
 
 \bibitem[Tang and Herndon(1965)]{Tang:65}
@@ -1857,7 +1849,7 @@ M.~Tinkham.
 
 \bibitem[Tobocman(1961)]{Tobocman:61}
 W.~Tobocman.
-\newblock \emph{Theory of direct eactions}.
+\newblock \emph{Theory of direct reactions}.
 \newblock Oxford University Press, Oxford, 1961.
 
 \bibitem[Ungrin et~al.(1971)Ungrin, Diamond, {Tj\o{}m}, and Elbek]{Ungrin:71}
@@ -1894,7 +1886,7 @@ W.~von Oertzen and A.~Vitturi.
 
 \bibitem[Weinberg(2011)]{Weinberg:11}
 L.~Weinberg.
-\newblock Bcs: 50 years.
+\newblock {From BCS to the LHC}.
 \newblock In L.~Cooper and D.~Feldman, editors, \emph{BCS: 50 years}. World
   Scientific, Singapore, 2011.
 

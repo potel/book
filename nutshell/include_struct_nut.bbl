@@ -7,6 +7,8 @@
 
 \bibitem[{Abrahams, E.} and Woo(1968)]{Abrahams:68}
 {Abrahams, E.} and J.~W.~F. Woo.
+\newblock Phenomenological theory of the rounding of the resistive transition
+  of superconductors.
 \newblock \emph{{Phys. Lett. A}}, 27:\penalty0 117, 1968.
 
 \bibitem[Avdeenkov and Kamerdzhiev(2013)]{Avdenkov:12}
@@ -19,7 +21,7 @@ A.~Avdeenkov and S.~Kamerdzhiev.
 \bibitem[Axel(1962)]{Axel:62}
 P.~Axel.
 \newblock {Electric Dipole Ground-State Transition Width Strength Function and
-  7--Mev Photon Interactions}.
+  7--MeV Photon Interactions}.
 \newblock \emph{Phys. Rev.}, 126:\penalty0 671, 1962.
 
 \bibitem[{Barbieri, C.}(2009)]{Barbieri:09}
@@ -120,17 +122,18 @@ S.~T. Belyaev.
 
 \bibitem[Bertsch(1988)]{Bertsch:88b}
 G.~Bertsch.
-\newblock In R.~Broglia and J.~R. Schrieffer, editors, \emph{International
-  School of Physics ``Enrico Fermi'' Collective motion in Fermi droplets},
-  page~41, Amsterdam, 1988. North Holland.
+\newblock Collective motion in {Fermi} droplets.
+\newblock In R.~A. Broglia and J.~R. Schrieffer, editors, \emph{{International
+  School of Physics ``Enrico Fermi'' Course CIV, Frontiers and Borders in
+  Many--Body Particle Physics}}, page~41, Amsterdam, 1988. North Holland.
 
 \bibitem[Bertsch and Broglia(2005)]{Bertsch:05}
-G.~Bertsch and R.~Broglia.
+G.~Bertsch and R.~A. Broglia.
 \newblock \emph{Oscillations in Finite Quantum Systems}.
 \newblock Cambridge University Press, Cambridge, 2005.
 
-\bibitem[Bertsch et~al.(1987)Bertsch, Barranco, and R.A.]{Bertsch:87}
-G.~Bertsch, F.~Barranco, and B.~R.A.
+\bibitem[Bertsch et~al.(1987)Bertsch, Barranco, and Broglia]{Bertsch:87}
+G.~Bertsch, F.~Barranco, and R.~A. Broglia.
 \newblock {How nuclei change shape}.
 \newblock In T.~Kuo and I.~Speth, editors, \emph{Windsurfing the Fermi sea},
   page~33. Elsevier, 1987.
@@ -224,7 +227,7 @@ A.~Bohr and B.~R. Mottelson.
 \bibitem[Bortignon et~al.(1976)Bortignon, Broglia, B{\`{e}}s, Liotta, and
   Paar]{Bortignon:76}
 P.~F. Bortignon, R.~A. Broglia, D.~R. B{\`{e}}s, R.~Liotta, and V.~Paar.
-\newblock {Of the role of the pairing modes in the $(h_{9/2}\otimes3^-)$
+\newblock {On the role of the pairing modes in the $(h_{9/2}\otimes3^-)$
   multiplet of $^{209}$Bi}.
 \newblock \emph{Phys. Lett. B}, 64:\penalty0 24, 1976.
 
@@ -247,10 +250,10 @@ P.~F. Bortignon, R.~A. Broglia, D.~R. B{\`{e}}s, R.~Liotta, and V.~Paar.
 \newblock \emph{Giant Resonances}.
 \newblock Harwood Academic Publishers, Amsterdam, 1998.
 
-\bibitem[Brink(1955)]{Brink:55}
+\bibitem[Brink(1955 (unpublished))]{Brink:55}
 D.~M. Brink.
 \newblock \emph{{PhD Thesis}}.
-\newblock Oxford University, 1955.
+\newblock Oxford University, 1955 (unpublished).
 
 \bibitem[{Brink, D.} and Broglia(2005)]{Brink:05}
 {Brink, D.} and R.~A. Broglia.
@@ -281,7 +284,7 @@ R.~A. Broglia, J.~Terasaki, and N.~Giovanardi.
 
 \bibitem[{Broglia, R. A. and Zelevinsky, V.}(2013)]{Broglia:13}
 {Broglia, R. A. and Zelevinsky, V.}
-\newblock {}.
+\newblock {Preface}.
 \newblock In R.~A. Broglia and V.~Zelevinsky, editors, \emph{50 Years of
   Nuclear BCS}. World Scientific, Singapore, 2013.
 
@@ -327,8 +330,8 @@ J.~de~Boer.
 
 \bibitem[de~Boer(1957)]{deBoer:57}
 J.~de~Boer.
-\newblock Chapter i quantum effects and exchange effects on the thermodynamic
-  properties of liquid helium.
+\newblock {Quantum Effects and Exchange Effects on the Thermodynamic Properties
+  of Liquid Helium}.
 \newblock volume~2 of \emph{Progress in Low Temperature Physics}, page~1. 1957.
 
 \bibitem[de~Boer and Lundbeck(1948)]{deBoer:48b}
@@ -372,7 +375,7 @@ F.~D\"{o}nau, K.~Hehl, C.~Riedel, R.~A. Broglia, and P.~Federman.
   Vretenar]{Ebran:14}
 J.~Ebran, E.~Khan, T.~Niksic, and D.~Vretenar.
 \newblock {Density Functional Theory studies of cluster states in nuclei}.
-\newblock 2014{\natexlab{a}}.
+\newblock \emph{Phys. Rev. C}, 90:\penalty0 054329, 2014{\natexlab{a}}.
 
 \bibitem[Ebran et~al.(2012)Ebran, Khan, Nik\ifmmode \check{s}\else
   \v{s}\fi{}i\ifmmode~\acute{c}\else \'{c}\fi{}, and Vretenar]{Ebran:12}
@@ -605,7 +608,7 @@ T.~Lesinski, K.~Hebeler, T.~Duguet, and A.~Schwenk.
 
 \bibitem[Lindemann(1910)]{Lindemann:10}
 F.~A. Lindemann.
-\newblock The calculation of molecular vibration frequancies.
+\newblock The calculation of molecular vibration frequencies.
 \newblock \emph{Physik. Z.}, 11:\penalty0 609, 1910.
 
 \bibitem[Lombardo et~al.(2013)Lombardo, Schulze, and Zuo]{Lombardo:12}
@@ -643,10 +646,10 @@ J.~E. Lynn.
 \newblock Dynamics of the shell model.
 \newblock \emph{Physics Reports}, 120:\penalty0 1--274, 1985.
 
-\bibitem[{Meissner, U. G.}(2014)]{Meissner:14}
-{Meissner, U. G.}
+\bibitem[{Mei{\ss}ner}(2015)]{Meissner:14}
+U.~G. {Mei{\ss}ner}.
 \newblock Anthropic considerations in nuclear physics.
-\newblock \emph{arXiv:1409.2959v1[hep-th]}, 2014.
+\newblock \emph{Science Bulletin}, 60:\penalty0 43, 2015.
 
 \bibitem[Montanari et~al.(2014)Montanari, Corradi, Szilner, Pollarolo,
   Fioretto, Montagnoli, Scarlassara, Stefanini, Courtin, Goasduff, Haas,
@@ -784,16 +787,16 @@ E.~E. Saperstein and M.~Baldo.
 
 \bibitem[{Schmidt, H.}(1968)]{Schmidt:68}
 {Schmidt, H.}
-\newblock The onset of superconductivity in the time dependent ginzburg-landau
-  theory.
+\newblock {The onset of superconductivity in the time dependent
+  Ginzburg--Landau theory}.
 \newblock \emph{Zeits. Phys.}, 216:\penalty0 336, 1968.
 
 \bibitem[{Schmidt, H.}(1972)]{Schmidt:72}
 {Schmidt, H.}
 \newblock Pairing vibrations in nuclei and solids.
 \newblock In {Morinaga H.}, editor, \emph{Proceedings of the International
-  School of Physics ``Enrico Fermi'' Course LIII}, page 144, NY, 1972. Academic
-  Press.
+  School of Physics ``Enrico Fermi'' Course LIII, Developments and Borderlines
+  on Nuclear Physics}, page 144, NY, 1972. Academic Press.
 
 \bibitem[Schrieffer(1964)]{Schrieffer:64}
 J.~Schrieffer.
@@ -860,12 +863,12 @@ F.~H. Stillinger and D.~K. Stillinger.
   Nucleus $^{11}$Li}.
 \newblock \emph{Phys. Rev. Lett.}, 96:\penalty0 252502, 2006.
 
-\bibitem[{Tarpanov, D.} et~al.(2014){Tarpanov, D.}, Dobaczewski, Toivanen, and
+\bibitem[Tarpanov et~al.(2014)Tarpanov, Dobaczewski, Toivanen, and
   Carlsson]{Tarpanov:14}
-{Tarpanov, D.}, J.~Dobaczewski, J.~Toivanen, and B.~G. Carlsson.
-\newblock {Spectroscopic properties of nuclear Skyrme energy density
-  functionals}.
-\newblock \emph{arXiv:1405.4823v1 [nucl-th]}, 2014.
+D.~Tarpanov, J.~Dobaczewski, J.~Toivanen, and B.~G. Carlsson.
+\newblock Spectroscopic properties of nuclear skyrme energy density
+  functionals.
+\newblock \emph{Phys. Rev. Lett.}, 113:\penalty0 252501, 2014.
 
 \bibitem[{Thompson, I.J.}(2013)]{Thompson:13}
 {Thompson, I.J.}
@@ -873,10 +876,10 @@ F.~H. Stillinger and D.~K. Stillinger.
 \newblock In R.~A. Broglia and V.~Zelevinsky, editors, \emph{50 Years of
   Nuclear BCS}, page 455. World Scientific, Singapore, 2013.
 
-\bibitem[Vaquero et~al.(2013)Vaquero, Egido, and {Rodr\'iguez}]{Vaquero:13}
-N.~L. Vaquero, J.~L. Egido, and T.~R. {Rodr\'iguez}.
-\newblock Large amplitude pairing fluctuations in atomic nuclei.
-\newblock \emph{arXiv:1311.7573[nucl-th]}, 2013.
+\bibitem[Vaquero et~al.(2013)Vaquero, Egido, and Rodr\'{\i}guez]{Vaquero:13}
+N.~L. Vaquero, J.~L. Egido, and T.~R. Rodr\'{\i}guez.
+\newblock Large-amplitude pairing fluctuations in atomic nuclei.
+\newblock \emph{Phys. Rev. C}, 88:\penalty0 064311, 2013.
 
 \bibitem[von Oertzen and Vitturi(2001)]{vonOertzen:01}
 W.~von Oertzen and A.~Vitturi.

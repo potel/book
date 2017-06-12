@@ -3,38 +3,29 @@ Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
 The top-level auxiliary file: include_struct_nut.aux
 The style file: abbrvnat.bst
 Database file #1: ../nuclear_bib.bib
-You're missing a field name---line 2893 of file ../nuclear_bib.bib
+You're missing a field name---line 2891 of file ../nuclear_bib.bib
  : year = {1973},
  :               ,
 I'm skipping whatever remains of this entry
-I was expecting a `,' or a `}'---line 3490 of file ../nuclear_bib.bib
- :   
- :   year = 1975,
-(Error may have been on previous line)
-I'm skipping whatever remains of this entry
 Warning--I'm ignoring Shimizu:13's extra "year" field
---line 3887 of file ../nuclear_bib.bib
-I was expecting a `,' or a `}'---line 3920 of file ../nuclear_bib.bib
- :   pages = 117
- :              ;
-I'm skipping whatever remains of this entry
-Repeated entry---line 4149 of file ../nuclear_bib.bib
+--line 3879 of file ../nuclear_bib.bib
+Repeated entry---line 4142 of file ../nuclear_bib.bib
  : @article{Barranco:99
  :                     ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 4456 of file ../nuclear_bib.bib
+Repeated entry---line 4460 of file ../nuclear_bib.bib
  : @article{Sackett:93
  :                    ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 4598 of file ../nuclear_bib.bib
+Repeated entry---line 4594 of file ../nuclear_bib.bib
  : @book{DeGennes:94
  :                  ,
 I'm skipping whatever remains of this entry
-I was expecting a `,' or a `}'---line 4656 of file ../nuclear_bib.bib
+I was expecting a `,' or a `}'---line 4652 of file ../nuclear_bib.bib
  :   pages = 210
  :              (R),
 I'm skipping whatever remains of this entry
-Repeated entry---line 5165 of file ../nuclear_bib.bib
+Repeated entry---line 5161 of file ../nuclear_bib.bib
  : @article{Lanford:73
  :                    ,
 I'm skipping whatever remains of this entry
@@ -61,14 +52,6 @@ Name 9 in "{Guazzoni, P.} and M. Jaskola, and L. Zetta, and A. Covello, and A. G
 while executing---line 1347 of file abbrvnat.bst
 Name 10 in "{Guazzoni, P.} and M. Jaskola, and L. Zetta, and A. Covello, and A. Gargano, and Y. Eisermann, and G. Graw, and R. Hertenberger, and A. Metz, and F. Nuoffer, and G. Staudt" has a comma at the end for entry Guazzoni:99
 while executing---line 1347 of file abbrvnat.bst
-Name 1 in "{Tarpanov, D.}, and J. Dobaczewski, and J. Toivanen, and B. G. Carlsson" has a comma at the end for entry Tarpanov:14
-while executing---line 1347 of file abbrvnat.bst
-Name 1 in "{Tarpanov, D.}, and J. Dobaczewski, and J. Toivanen, and B. G. Carlsson" has a comma at the end for entry Tarpanov:14
-while executing---line 1347 of file abbrvnat.bst
-Name 2 in "{Tarpanov, D.}, and J. Dobaczewski, and J. Toivanen, and B. G. Carlsson" has a comma at the end for entry Tarpanov:14
-while executing---line 1347 of file abbrvnat.bst
-Name 3 in "{Tarpanov, D.}, and J. Dobaczewski, and J. Toivanen, and B. G. Carlsson" has a comma at the end for entry Tarpanov:14
-while executing---line 1347 of file abbrvnat.bst
 Name 1 in "{Broglia, R.A.}, and C. Riedel and B. {S\o{}rensen}" has a comma at the end for entry Broglia:68
 while executing---line 1347 of file abbrvnat.bst
 Name 1 in "{Broglia, R.A.}, and C. Riedel and B. {S\o{}rensen}" has a comma at the end for entry Broglia:68
@@ -77,8 +60,6 @@ Name 1 in "Saperstein, E. E., and Baldo, M." has a comma at the end for entry Sa
 while executing---line 1347 of file abbrvnat.bst
 Name 1 in "Saperstein, E. E., and Baldo, M." has a comma at the end for entry Saperstein:12
 while executing---line 1347 of file abbrvnat.bst
-Warning--empty title in Abrahams:68
-Warning--empty title in Bertsch:88b
 Name 3 in "{Bjerregaard, J. H.} and Hansen, O. and Nathan, and Hinds, S." has a comma at the end for entry Bjerregaard:66b
 while executing---line 1429 of file abbrvnat.bst
 Name 3 in "{Bjerregaard, J. H.} and Hansen, O. and Nathan, and Hinds, S." has a comma at the end for entry Bjerregaard:66b
@@ -92,7 +73,6 @@ while executing---line 1429 of file abbrvnat.bst
 Warning--empty title in Brown:07
 Warning--empty booktitle in deBoer:57
 Warning--empty publisher in deBoer:57
-Warning--empty journal in Ebran:14
 Name 2 in "{Guazzoni, P.} and M. Jaskola, and L. Zetta, and A. Covello, and A. Gargano, and Y. Eisermann, and G. Graw, and R. Hertenberger, and A. Metz, and F. Nuoffer, and G. Staudt" has a comma at the end for entry Guazzoni:99
 while executing---line 1429 of file abbrvnat.bst
 Name 3 in "{Guazzoni, P.} and M. Jaskola, and L. Zetta, and A. Covello, and A. Gargano, and Y. Eisermann, and G. Graw, and R. Hertenberger, and A. Metz, and F. Nuoffer, and G. Staudt" has a comma at the end for entry Guazzoni:99
@@ -132,58 +112,46 @@ while executing---line 1429 of file abbrvnat.bst
 Name 1 in "Saperstein, E. E., and Baldo, M." has a comma at the end for entry Saperstein:12
 while executing---line 1429 of file abbrvnat.bst
 Name 1 in "Saperstein, E. E., and Baldo, M." has a comma at the end for entry Saperstein:12
-while executing---line 1429 of file abbrvnat.bst
-Name 1 in "{Tarpanov, D.}, and J. Dobaczewski, and J. Toivanen, and B. G. Carlsson" has a comma at the end for entry Tarpanov:14
-while executing---line 1429 of file abbrvnat.bst
-Name 2 in "{Tarpanov, D.}, and J. Dobaczewski, and J. Toivanen, and B. G. Carlsson" has a comma at the end for entry Tarpanov:14
-while executing---line 1429 of file abbrvnat.bst
-Name 3 in "{Tarpanov, D.}, and J. Dobaczewski, and J. Toivanen, and B. G. Carlsson" has a comma at the end for entry Tarpanov:14
-while executing---line 1429 of file abbrvnat.bst
-Name 1 in "{Tarpanov, D.}, and J. Dobaczewski, and J. Toivanen, and B. G. Carlsson" has a comma at the end for entry Tarpanov:14
-while executing---line 1429 of file abbrvnat.bst
-Name 2 in "{Tarpanov, D.}, and J. Dobaczewski, and J. Toivanen, and B. G. Carlsson" has a comma at the end for entry Tarpanov:14
-while executing---line 1429 of file abbrvnat.bst
-Name 3 in "{Tarpanov, D.}, and J. Dobaczewski, and J. Toivanen, and B. G. Carlsson" has a comma at the end for entry Tarpanov:14
 while executing---line 1429 of file abbrvnat.bst
 You've used 145 entries,
             2773 wiz_defined-function locations,
-            1489 strings with 28482 characters,
-and the built_in function-call counts, 73191 in all, are:
-= -- 5987
+            1495 strings with 28673 characters,
+and the built_in function-call counts, 73430 in all, are:
+= -- 6016
 > -- 5502
 < -- 105
 + -- 1858
 - -- 1708
-* -- 6118
-:= -- 11800
-add.period$ -- 455
+* -- 6144
+:= -- 11833
+add.period$ -- 457
 call.type$ -- 145
-change.case$ -- 972
+change.case$ -- 974
 chr.to.int$ -- 140
-cite$ -- 298
-duplicate$ -- 3154
-empty$ -- 5322
+cite$ -- 295
+duplicate$ -- 3158
+empty$ -- 5350
 format.name$ -- 1925
-if$ -- 15077
+if$ -- 15134
 int.to.chr$ -- 6
 int.to.str$ -- 1
 missing$ -- 160
-newline$ -- 731
+newline$ -- 733
 num.names$ -- 618
-pop$ -- 1930
+pop$ -- 1918
 preamble$ -- 1
 purify$ -- 846
 quote$ -- 0
 skip$ -- 2466
 stack$ -- 0
-substring$ -- 1553
-swap$ -- 278
+substring$ -- 1613
+swap$ -- 279
 text.length$ -- 22
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 1515
-warning$ -- 8
-while$ -- 574
+warning$ -- 5
+while$ -- 578
 width$ -- 0
-write$ -- 1916
-(There were 56 error messages)
+write$ -- 1925
+(There were 44 error messages)

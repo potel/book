@@ -84,35 +84,31 @@ Warning--I'm ignoring Pauli:47's extra "year" field
 --line 3651 of file ./nuclear_bib.bib
 Warning--I'm ignoring Shimizu:13's extra "year" field
 --line 3879 of file ./nuclear_bib.bib
-I was expecting a `,' or a `}'---line 3912 of file ./nuclear_bib.bib
- :   pages = 117
- :              ;
-I'm skipping whatever remains of this entry
-Repeated entry---line 4118 of file ./nuclear_bib.bib
+Repeated entry---line 4119 of file ./nuclear_bib.bib
  : @article{Thompson:88
  :                     ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 4141 of file ./nuclear_bib.bib
+Repeated entry---line 4142 of file ./nuclear_bib.bib
  : @article{Barranco:99
  :                     ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 4359 of file ./nuclear_bib.bib
+Repeated entry---line 4367 of file ./nuclear_bib.bib
  : @article{Bortignon:83
  :                      ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 4447 of file ./nuclear_bib.bib
+Repeated entry---line 4460 of file ./nuclear_bib.bib
  : @article{Sackett:93
  :                    ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 4581 of file ./nuclear_bib.bib
+Repeated entry---line 4594 of file ./nuclear_bib.bib
  : @book{DeGennes:94
  :                  ,
 I'm skipping whatever remains of this entry
-I was expecting a `,' or a `}'---line 4639 of file ./nuclear_bib.bib
+I was expecting a `,' or a `}'---line 4652 of file ./nuclear_bib.bib
  :   pages = 210
  :              (R),
 I'm skipping whatever remains of this entry
-Repeated entry---line 5148 of file ./nuclear_bib.bib
+Repeated entry---line 5161 of file ./nuclear_bib.bib
  : @article{Lanford:73
  :                    ,
 I'm skipping whatever remains of this entry
@@ -162,14 +158,6 @@ Name 9 in "{Guazzoni, P.} and M. Jaskola, and L. Zetta, and A. Covello, and A. G
 while executing---line 1347 of file abbrvnat.bst
 Name 10 in "{Guazzoni, P.} and M. Jaskola, and L. Zetta, and A. Covello, and A. Gargano, and Y. Eisermann, and G. Graw, and R. Hertenberger, and A. Metz, and F. Nuoffer, and G. Staudt" has a comma at the end for entry Guazzoni:99
 while executing---line 1347 of file abbrvnat.bst
-Name 1 in "{Tarpanov, D.}, and J. Dobaczewski, and J. Toivanen, and B. G. Carlsson" has a comma at the end for entry Tarpanov:14
-while executing---line 1347 of file abbrvnat.bst
-Name 1 in "{Tarpanov, D.}, and J. Dobaczewski, and J. Toivanen, and B. G. Carlsson" has a comma at the end for entry Tarpanov:14
-while executing---line 1347 of file abbrvnat.bst
-Name 2 in "{Tarpanov, D.}, and J. Dobaczewski, and J. Toivanen, and B. G. Carlsson" has a comma at the end for entry Tarpanov:14
-while executing---line 1347 of file abbrvnat.bst
-Name 3 in "{Tarpanov, D.}, and J. Dobaczewski, and J. Toivanen, and B. G. Carlsson" has a comma at the end for entry Tarpanov:14
-while executing---line 1347 of file abbrvnat.bst
 Name 1 in "{Broglia, R.A.}, and C. Riedel and B. {S\o{}rensen}" has a comma at the end for entry Broglia:68
 while executing---line 1347 of file abbrvnat.bst
 Name 1 in "{Broglia, R.A.}, and C. Riedel and B. {S\o{}rensen}" has a comma at the end for entry Broglia:68
@@ -178,7 +166,6 @@ Name 1 in "Saperstein, E. E., and Baldo, M." has a comma at the end for entry Sa
 while executing---line 1347 of file abbrvnat.bst
 Name 1 in "Saperstein, E. E., and Baldo, M." has a comma at the end for entry Saperstein:12
 while executing---line 1347 of file abbrvnat.bst
-Warning--empty title in Abrahams:68
 Warning--can't use both author and editor fields in Ambegaokar:69
 Warning--can't use both author and editor fields in Ashcroft:87
 Warning--empty title in Barnes:72
@@ -277,57 +264,45 @@ Name 1 in "Saperstein, E. E., and Baldo, M." has a comma at the end for entry Sa
 while executing---line 1429 of file abbrvnat.bst
 Name 1 in "Saperstein, E. E., and Baldo, M." has a comma at the end for entry Saperstein:12
 while executing---line 1429 of file abbrvnat.bst
-Name 1 in "{Tarpanov, D.}, and J. Dobaczewski, and J. Toivanen, and B. G. Carlsson" has a comma at the end for entry Tarpanov:14
-while executing---line 1429 of file abbrvnat.bst
-Name 2 in "{Tarpanov, D.}, and J. Dobaczewski, and J. Toivanen, and B. G. Carlsson" has a comma at the end for entry Tarpanov:14
-while executing---line 1429 of file abbrvnat.bst
-Name 3 in "{Tarpanov, D.}, and J. Dobaczewski, and J. Toivanen, and B. G. Carlsson" has a comma at the end for entry Tarpanov:14
-while executing---line 1429 of file abbrvnat.bst
-Name 1 in "{Tarpanov, D.}, and J. Dobaczewski, and J. Toivanen, and B. G. Carlsson" has a comma at the end for entry Tarpanov:14
-while executing---line 1429 of file abbrvnat.bst
-Name 2 in "{Tarpanov, D.}, and J. Dobaczewski, and J. Toivanen, and B. G. Carlsson" has a comma at the end for entry Tarpanov:14
-while executing---line 1429 of file abbrvnat.bst
-Name 3 in "{Tarpanov, D.}, and J. Dobaczewski, and J. Toivanen, and B. G. Carlsson" has a comma at the end for entry Tarpanov:14
-while executing---line 1429 of file abbrvnat.bst
 You've used 317 entries,
             2773 wiz_defined-function locations,
-            2415 strings with 51290 characters,
-and the built_in function-call counts, 145536 in all, are:
-= -- 12068
+            2416 strings with 51336 characters,
+and the built_in function-call counts, 145703 in all, are:
+= -- 12087
 > -- 9804
 < -- 237
 + -- 3343
 - -- 3013
-* -- 11646
-:= -- 23405
-add.period$ -- 986
+* -- 11666
+:= -- 23427
+add.period$ -- 987
 call.type$ -- 317
-change.case$ -- 1881
+change.case$ -- 1882
 chr.to.int$ -- 304
-cite$ -- 649
-duplicate$ -- 6768
-empty$ -- 11421
+cite$ -- 648
+duplicate$ -- 6771
+empty$ -- 11441
 format.name$ -- 3488
-if$ -- 30147
+if$ -- 30186
 int.to.chr$ -- 14
 int.to.str$ -- 1
 missing$ -- 360
-newline$ -- 1589
+newline$ -- 1590
 num.names$ -- 1336
-pop$ -- 3759
+pop$ -- 3752
 preamble$ -- 1
 purify$ -- 1616
 quote$ -- 0
 skip$ -- 5052
 stack$ -- 0
-substring$ -- 3075
+substring$ -- 3117
 swap$ -- 536
 text.length$ -- 34
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 3267
-warning$ -- 15
-while$ -- 1235
+warning$ -- 14
+while$ -- 1238
 width$ -- 0
-write$ -- 4169
-(There were 101 error messages)
+write$ -- 4174
+(There were 90 error messages)

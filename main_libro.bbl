@@ -7,6 +7,8 @@
 
 \bibitem[{Abrahams, E.} and Woo(1968)]{Abrahams:68}
 {Abrahams, E.} and J.~W.~F. Woo.
+\newblock Phenomenological theory of the rounding of the resistive transition
+  of superconductors.
 \newblock \emph{{Phys. Lett. A}}, 27:\penalty0 117, 1968.
 
 \bibitem[Alder and Winther(1975)]{Alder:75}
@@ -112,7 +114,7 @@ A.~Avdeenkov and S.~Kamerdzhiev.
 \bibitem[Axel(1962)]{Axel:62}
 P.~Axel.
 \newblock {Electric Dipole Ground-State Transition Width Strength Function and
-  7--Mev Photon Interactions}.
+  7--MeV Photon Interactions}.
 \newblock \emph{Phys. Rev.}, 126:\penalty0 671, 1962.
 
 \bibitem[Bang et~al.(1980)Bang, Ershov, Gareev, and Kazacha]{Bang:80}
@@ -565,7 +567,7 @@ P.~F. Bortignon and R.~A. Broglia.
 \bibitem[Bortignon et~al.(1976)Bortignon, Broglia, B{\`{e}}s, Liotta, and
   Paar]{Bortignon:76}
 P.~F. Bortignon, R.~A. Broglia, D.~R. B{\`{e}}s, R.~Liotta, and V.~Paar.
-\newblock {Of the role of the pairing modes in the $(h_{9/2}\otimes3^-)$
+\newblock {On the role of the pairing modes in the $(h_{9/2}\otimes3^-)$
   multiplet of $^{209}$Bi}.
 \newblock \emph{Phys. Lett. B}, 64:\penalty0 24, 1976.
 
@@ -599,10 +601,10 @@ D.~Brink and G.~R. Satchler.
 \newblock \emph{Angular Momentum}.
 \newblock Clarendon Press, 1968.
 
-\bibitem[Brink(1955)]{Brink:55}
+\bibitem[Brink(1955 (unpublished))]{Brink:55}
 D.~M. Brink.
 \newblock \emph{{PhD Thesis}}.
-\newblock Oxford University, 1955.
+\newblock Oxford University, 1955 (unpublished).
 
 \bibitem[{Brink, D.} and Broglia(2005)]{Brink:05}
 {Brink, D.} and R.~A. Broglia.
@@ -823,8 +825,8 @@ J.~de~Boer.
 
 \bibitem[de~Boer(1957)]{deBoer:57}
 J.~de~Boer.
-\newblock {Chapter I Quantum Effects and Exchange Effects on the Thermodynamic
-  Properties of Liquid Helium}.
+\newblock {Quantum Effects and Exchange Effects on the Thermodynamic Properties
+  of Liquid Helium}.
 \newblock volume~2 of \emph{Progress in Low Temperature Physics}, page~1. 1957.
 
 \bibitem[de~Boer and Lundbeck(1948)]{deBoer:48b}
@@ -1335,7 +1337,7 @@ T.~Lesinski, K.~Hebeler, T.~Duguet, and A.~Schwenk.
 
 \bibitem[Lindemann(1910)]{Lindemann:10}
 F.~A. Lindemann.
-\newblock The calculation of molecular vibration frequancies.
+\newblock The calculation of molecular vibration frequencies.
 \newblock \emph{Physik. Z.}, 11:\penalty0 609, 1910.
 
 \bibitem[Lindhard(1953)]{Lindhard:53}
@@ -1412,10 +1414,10 @@ M.~H. McFarlane.
   International school of physics ``E. Fermi'' XL course Nuclear Structure and
   Nuclear Reactions}, page 457. Academic Press, New York, 1969.
 
-\bibitem[{Meissner, U. G.}(2014)]{Meissner:14}
-{Meissner, U. G.}
+\bibitem[{Mei{\ss}ner}(2015)]{Meissner:14}
+U.~G. {Mei{\ss}ner}.
 \newblock Anthropic considerations in nuclear physics.
-\newblock \emph{arXiv:1409.2959v1[hep-th]}, 2014.
+\newblock \emph{Science Bulletin}, 60:\penalty0 43, 2015.
 
 \bibitem[Migdal(1958)]{Migdal:58}
 A.~Migdal.
@@ -1824,12 +1826,12 @@ I.~Tanihata, H.~Savajols, and R.~Kanungo.
   {$^1$H($^{11}$Li,$^{9}$Li)$^3$H} at {3A} {MeV}.
 \newblock \emph{Phys. Rev. Lett.}, 100:\penalty0 192502, 2008.
 
-\bibitem[{Tarpanov, D.} et~al.(2014){Tarpanov, D.}, Dobaczewski, Toivanen, and
+\bibitem[Tarpanov et~al.(2014)Tarpanov, Dobaczewski, Toivanen, and
   Carlsson]{Tarpanov:14}
-{Tarpanov, D.}, J.~Dobaczewski, J.~Toivanen, and B.~G. Carlsson.
-\newblock {Spectroscopic properties of nuclear Skyrme energy density
-  functionals}.
-\newblock \emph{arXiv:1405.4823v1 [nucl-th]}, 2014.
+D.~Tarpanov, J.~Dobaczewski, J.~Toivanen, and B.~G. Carlsson.
+\newblock Spectroscopic properties of nuclear skyrme energy density
+  functionals.
+\newblock \emph{Phys. Rev. Lett.}, 113:\penalty0 252501, 2014.
 
 \bibitem[Thompson(1988)]{Thompson:88}
 I.~J. Thompson.
@@ -1867,10 +1869,10 @@ J.~Valatin.
 \newblock {Comments on the theory of superconductivity}.
 \newblock \emph{Il Nuovo Cimento}, 7:\penalty0 843, 1958.
 
-\bibitem[Vaquero et~al.(2013)Vaquero, Egido, and {Rodr\'iguez}]{Vaquero:13}
-N.~L. Vaquero, J.~L. Egido, and T.~R. {Rodr\'iguez}.
-\newblock Large amplitude pairing fluctuations in atomic nuclei.
-\newblock \emph{arXiv:1311.7573[nucl-th]}, 2013.
+\bibitem[Vaquero et~al.(2013)Vaquero, Egido, and Rodr\'{\i}guez]{Vaquero:13}
+N.~L. Vaquero, J.~L. Egido, and T.~R. Rodr\'{\i}guez.
+\newblock Large-amplitude pairing fluctuations in atomic nuclei.
+\newblock \emph{Phys. Rev. C}, 88:\penalty0 064311, 2013.
 
 \bibitem[von Oertzen and Vitturi(2001)]{vonOertzen:01}
 W.~von Oertzen and A.~Vitturi.

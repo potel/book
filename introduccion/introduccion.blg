@@ -1,24 +1,22 @@
-This is BibTeX, Version 0.99d (TeX Live 2013/Debian)
+This is BibTeX, Version 0.99d (TeX Live 2015/Debian)
 Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
 The top-level auxiliary file: introduccion.aux
 The style file: abbrvnat.bst
 Database file #1: ../nuclear_bib.bib
-Repeated entry---line 2666 of file ../nuclear_bib.bib
+Repeated entry---line 2667 of file ../nuclear_bib.bib
  : @book{Mayer:55
  :               ,
 I'm skipping whatever remains of this entry
-You're missing a field name---line 2890 of file ../nuclear_bib.bib
+You're missing a field name---line 2882 of file ../nuclear_bib.bib
  : year = {1973},
  :               ,
 I'm skipping whatever remains of this entry
-I was expecting a `,' or a `}'---line 3909 of file ../nuclear_bib.bib
- :   pages = 117
- :              ;
-I'm skipping whatever remains of this entry
-I was expecting a `,' or a `}'---line 4637 of file ../nuclear_bib.bib
+I was expecting a `,' or a `}'---line 4665 of file ../nuclear_bib.bib
  :   pages = 210
  :              (R),
 I'm skipping whatever remains of this entry
+Warning--I didn't find a database entry for "Barranco:17"
+Warning--I didn't find a database entry for "Potel:17"
 Name 1 in "R. A. Broglia, and P. F. Bortignon, and F. Barranco, and E. Vigezzi, and A. Idini, and G. Potel" has a comma at the end for entry Broglia:16
 while executing---line 1347 of file abbrvnat.bst
 Name 1 in "R. A. Broglia, and P. F. Bortignon, and F. Barranco, and E. Vigezzi, and A. Idini, and G. Potel" has a comma at the end for entry Broglia:16
@@ -81,43 +79,43 @@ while executing---line 1429 of file abbrvnat.bst
 Warning--empty title in Landau:41
 You've used 92 entries,
             2773 wiz_defined-function locations,
-            1163 strings with 18391 characters,
-and the built_in function-call counts, 40701 in all, are:
-= -- 3374
+            1168 strings with 18443 characters,
+and the built_in function-call counts, 40742 in all, are:
+= -- 3381
 > -- 2681
 < -- 59
 + -- 914
 - -- 816
-* -- 3263
-:= -- 6552
+* -- 3268
+:= -- 6557
 add.period$ -- 286
 call.type$ -- 92
-change.case$ -- 521
+change.case$ -- 522
 chr.to.int$ -- 86
 cite$ -- 188
 duplicate$ -- 1933
-empty$ -- 3250
+empty$ -- 3253
 format.name$ -- 958
-if$ -- 8421
+if$ -- 8430
 int.to.chr$ -- 7
 int.to.str$ -- 1
-missing$ -- 111
+missing$ -- 110
 newline$ -- 469
 num.names$ -- 382
-pop$ -- 1049
+pop$ -- 1045
 preamble$ -- 1
 purify$ -- 451
 quote$ -- 0
-skip$ -- 1418
+skip$ -- 1419
 stack$ -- 0
-substring$ -- 792
+substring$ -- 801
 swap$ -- 135
 text.length$ -- 6
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 917
+type$ -- 922
 warning$ -- 4
-while$ -- 349
+while$ -- 350
 width$ -- 0
 write$ -- 1215
-(There were 32 error messages)
+(There were 31 error messages)

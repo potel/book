@@ -18,7 +18,7 @@ For intrinsic\footnote{As opposed to collective excitations, excitations which d
  Cooper pairs exist also in situations in which the environmental conditions are above critical. For example, in metals at room temperature, in closed shell nuclei as well as in deformed open shell ones at high values of the angular momentum. However, in such circumstances, they break as soon as they are generated (pairing vibrations). While these pair addition and substraction fluctuations have little effect in condensed matter systems with the exception than at\footnote{\cite{Schmid:66}, \cite{Schmidt:68}, \cite{Schmid:69} \cite{Abrahams:68}; concerning superfluid $^3$He cf. \cite{Wolfe:78}.} $T\approx T_c$, they play an important role in nuclei. In particular in nuclei around closed shells (Fig. \ref{fig1.1}), and specially in the case of light, highly polarizable, exotic halo nuclei\footnote{See Sects. \ref{App1E} and \ref{App1AF}; \cite{Bohr:75} , \cite{Bes:66}, \cite{Hogassen:61}, \cite{Schmidt:72}, \cite{Schmidt:68}, \cite{Barranco:01}, \cite{Potel:13}, \cite{Potel:14}.}. From this vantage point one can posit that it is not so much, or, at least not only, the superfluid state which is abnormal in the nuclear case, but the normal state associated with closed shell systems\footnote{See \cite{Potel:13} and refs. therein. Also \cite{Potel:13b} in connection with the closed shell system $^{132}$Sn.}. It is of notice nonetheless, the role pairing vibrations play in the  transition between superfluid and normal nuclear phases (cf. Fig. \ref{fig1.2}) as a function of the rotational frequency (angular momentum) as emerged from the experimental studies of high spin states carried out by, among others, Garrett and collaborators\footnote{cf. \cite{Shimizu:89}; cf. also \cite{Brink:05}, Ch. 6 and references therein.}.
  
  
-  From Fig. \ref{fig1.2} it is seen that while the dynamic pairing gap associated with pairing vibrations leads to a $\approx$ 20\% increase of the static pairing gap for low rotational frequencies, it becomes the overwhelming contribution above the critical frequency\footnote{\cite{Shimizu:89}, \cite{Shimizu:90}, \cite{Shimizu:13},  \cite{Donau:99} \cite{Shimizu:00}.}. In any case, the central role played by pairing vibrations within the present circumstances is that to restore particle--number conservation, another example after that provided by the quantality parameter and by its generalization to pair motion, of the fact that potential functionals are, as a rule, best profited by special arrangements of fermions (spontaneous symmetry breaking), while fluctuations restore symmetry\footnote{\cite{Anderson:84,Anderson:97}.}. 
+  From Fig. \ref{fig1.2} it is seen that while the dynamic pairing gap associated with pairing vibrations leads to a $\approx$ 20\% increase of the static pairing gap for low rotational frequencies, it becomes the overwhelming contribution above the critical frequency\footnote{\cite{Shimizu:89}, \cite{Shimizu:90}, \cite{Shimizu:13},  \cite{Donau:99} \cite{Shimizu:00}.}. In any case, the central role played by pairing vibrations within the present circumstances is that to restore particle--number conservation, another example after that provided by the quantality parameter and by its generalization to pair motion, of the fact that potential functionals are, as a rule, best profited by special arrangements of fermions (spontaneous symmetry breaking), while fluctuations restore symmetry\footnote{\cite{Anderson:84,Anderson:76}.}. 
   
   
   Within this context, there are a number of methods which allows one to go beyond mean--field approximation (HFB). Generally referred to as number projection methods\footnote{cf. \cite{Ring:80}, \cite{Egido:13}, \cite{Robledo:13}; cf. also \cite{Frauendorf:13}, \cite{Ring:13}, \cite{Heenen:13}, and references therein.}(NP), they make use of a variety of techniques (Generator Coordinate Method, Pfaffians, etc.) as well as protocols (variation after projection, gradient method, etc.). The advantages of NP methods over the RPA is to lead to smooth functions for both the correlation energy and the pairing gap at the pairing phase transition between normal and superfluid phases. That is, between the pairing vibrational and pairing rotational schemes\footnote{Figs. \ref{fig1.1}, \ref{fig1.3}, \ref{fig1.4}, see also Fig. \ref{fig1D1} and Sects. \ref{C1AppDS2} and \ref{App1E}; cf. \cite{Bes:66}, \cite{Bohr:75} and references therein.}.
@@ -995,6 +995,97 @@ and\\
 \vspace{0.2cm}
 \centerline{ pygmy on top of it ($L=1$, arguably the state at $E_x=2.70$ MeV is part of it).}
 \section{Lindemann criterion and connection with quantality parameter}\label{C2AppC}
+The original Lindemann criterion (\cite{Lindemann:10}) compares the atomic fluctuation amplitude $\langle\Delta r^2\rangle^{1/2}$ with the lattice constant $a$ of a crystal. If this ratio, which is defined as the disorder parameter $\Delta L$, reaches a certain value, fluctuations cannot increase without damaging or destroying the crystal lattice. The results of experiments and simulations show that the critical value for $\Delta_L$ for simple solids is in the range of 0.10 to 0.15, relatively independent of the type of substance, the nature of the interaction potential, and the crystal structure (\cite{Bilgram:87,Lowen:94,Stillinger:95}). Applications of this criterion to an inhomogeneous finite system like a protein in its native state (aperiodic crystal, \cite{Schrodinger:44}) requires evaluation of the generalized Lindemann parameter (\cite{Stillinger:90})
+\begin{align}
+\Delta_L=\frac{\sqrt{\sum_i\langle r_i^2\rangle/N}}{a'},
+\end{align}  
+where $N$ is the number of atoms and $a'$ the most probable non--bonded near--neighbor distance, $\mathbf r_i$ is the position of atom $i$, $\Delta r_i^2=(\mathbf r_i-\langle \mathbf r_i^2\rangle)$, and $\langle\rangle$ denotes configurational averages at the conditions of measurement of simulations (e.g. biological in which case $T\approx 310$ K, PH$\approx 7$, etc.\footnote{Fluctuations, classical (thermal) or quantal imply a probabilistic description, while one can only predict the odds for a given outcome of an experiment, probabilities themselves evolve in a deterministic fashion.}). The dynamics as a function of the distance from the geometric center of the protein is characterized by defining interior ($int$) Lindemann parameter 
+\begin{align}
+\Delta^{int}_L(r_{cut})=\frac{\sqrt{\sum_{i,r_i<r_{cut}}\langle r_i^2\rangle/N}}{a'},
+\end{align}  
+which is obtained by averaging over the atoms that are within a chosen cutoff distance, $r_{cut}$, from the center of mass of the protein.
+
+Simulations and experimental data for a number of proteins, in particular Barnase, Myoglobin, Crambin and Ribonuclease A indicate 0.14 as the critical value distinguishing between solid--like and liquid--like behaviour and $r_{cut}\approx 6$ \AA. As can be seen from Table \ref{tab2C1}, the interior of a protein is solid--like  ($\Delta_L<0.14$), while its surface is liquid--like ($\Delta_L>0.14$) under physiological conditions. The beginning of thermal denaturation in the simulations appears to be related to the melting of its interior (i.e. $\Delta^{int}_L>0.14$), so that the entire protein becomes liquid--like.
+
+
+
+\begin{table}[h]
+ \begin{tabular}{|c|c|c|c|c|}
+ \hline
+ &\multicolumn{4}{|c|}{$\Delta_L(\Delta_L^{int}(6\;\text{\AA}))(300$ K)}\\
+ \cline{2-5}
+ &\multicolumn{3}{|c|}{MD simulations}&X--ray data\\
+ \hline
+ Proteins&Barnase&Myoglobin&Crambin&Ribonuclease A\\
+ \hline
+ all atoms&0.21(0.12)&0.16(0.11)&0.16(0.09)&0.16(0.12)\\
+ backbone atoms only&0.16(0.10)&0.12(0.09)&0.12(0.08)&0.13(0.10)\\
+ side--chain atoms only&0.25(0.14)&0.18(0.12)&0.19(0.10)&0.19(0.13)\\
+ \hline
+ \end{tabular}
+ \caption{The heavy--atom $\Delta_L(\Delta_L^{int})$ value, for four prteins at 300 K. After \cite{Zhou:99}.}\label{tab2C1}
+ \end{table}
+
+\subsection{Lindemann (``disorder'') parameter for a nucleus}
+Making use of the harmonic oscillator approximation for the single--particle potential (c.f. Fig 2-22 \cite{Bohr:69}), one can write (cf. Eq. (2-130) of the above reference),
+\begin{align}
+\sum_{k=1}^{A}\langle r^2_k\rangle=\frac{\hbar}{M\omega_0}\sum_{k=1}^A\left(N_k+\frac{3}{2}\right)=\frac{3}{5}AR^2
+\end{align}  
+where $A=N+Z$ is the nuclear mass number, while the nuclear radius $R=r_0A^{1/3}$, with $r_0=1.2$ fm. It is of notice that $N_k$ is the oscillator principal quantum number associated with the state $k$ (c.f. Fig. 2-23 \cite{Bohr:69}).
+
+
+The average internucleon distance can be determined from the relation (\cite{Brink:05}, App. C)
+\begin{align}
+a'=\left(\frac{V}{A}\right)^{1/3}=\left(\frac{\frac{4\pi}{3}R^3}{A}\right)^{1/3}=\left(\frac{4\pi}{3}\right)^{1/3}\times 1.2\; \text{fm}\approx 2\;\text{fm}
+\end{align} 
+Thus,
+\begin{align}
+\Delta_L=\frac{\sqrt{\frac{3}{5}}R}{2\;\text{fm}}\approx2.3,\quad(A\approx120).
+\end{align} 
+
+while it is difficult to compare crystal, aperiodic finite crystal and atomic nuclei, arguably, the above value indicates that a nucleus is liquid--like. More precisely, it is made out of a non--Newtonian fluid, which reacts elastically to sudden solicitations,  and plastically to strain. In any case, one expects from $\Delta_L\approx2.3$ that the nucleon mean free path is long, larger than nuclear dimensions.
+\subsection{Quantality parameter}
+In quantum mechanics, the zero--point kinetic energy, $\sim\hbar^2/Ma^2$, involved in the localization of a particle within a volume of radius $a$ implies that in the lowest energy state the particles may be delocalized because the potential energy gain of the single classical configuration of fixed particles which minimize $U$ is overwhelmed by the quantal kinetic energy. Such delocalized quantal fluids provide the basis for discussing the state of electrons in atoms, and metals, of the he atoms in the ground state of atomic nuclei, a (non--newtonian) quantum fluid.
+
+\begin{table}[h]
+ \begin{tabular}{|c|c|c|c|c|c|c|}
+ \hline  \multicolumn{2}{|c|}{constituents} & $M^{a)}$  & $a$(cm) &$v_0$(eV)  &q&phase($T=0$)    \\ 
+ \hline  \multicolumn{2}{|c|}{ $^{3}$He}  &3& 2.9(-8)  &8.6(-4)  &0.19  &liquid    \\ 
+ \hline  \multicolumn{2}{|c|}{$^{4}$He}  &4&  2.9(-8)&  8.6(-4)&  0.14& liquid   \\ 
+ \hline  \multicolumn{2}{|c|}{  H$_2$}&2&  3.3(-8)&  32(-4)&  0.06&solid   \\ 
+ \hline    \multicolumn{2}{|c|}{$^{20}$Ne}&20& 3.1(-8) &  31(-4)&  0.007&solid    \\ 
+ \hline    nucleons&bare&1&  9(-14)& 100(+6)$^{b)}$ &  0.4&liquid  \\ 
+ \cline{2-7} &ind.&1&60(-14)&0.5(
+ +6)&2.0&liquid\\
+ \hline
+ \end{tabular}
+ \caption{Quantality parameter. After \cite{Mottelson:02}.$^{a)}$ units of nucleon mass, $^{b)}$ $^1S_0 NN$--Argonne $v_{14}$.}\label{tab2C2}
+ \end{table}
+The relative magnitude of the quantal kinetic energy of the localized state compared with the potential energy can be qualitatively characterized by the quantality parameter (\cite{Mottelson:02})
+\begin{align}
+K=\frac{\hbar^2}{Ma^2}\frac{1}{|v_0|},
+\end{align} 
+where $M$ is the mass of the individual particles, while $v_0$ and $a$ measure  the strength of the attraction and the range corresponding to the minimum of the potential, respectively. When $K$ is small, quantal effects are small and the lowest state of the system is expected to have a crystalline structure, while for sufficiently large values of $K$, the system will remain a quantum fluid even in its ground state.
+
+
+The values of the force parameters and the resulting quantality parameters for several condensed matter systems are collected in Table \ref{tab2C2}. For nuclei we have two sets. One associated with the bare $NN$--interaction ($^1S_0$ channel),
+\begin{align}
+a_0\approx 1\;\text{fm};\quad v_0=-100\;\text{MeV},
+\end{align}  
+and another with the induced pairing interaction
+\begin{align}
+a_0\approx R(=1.2 A^{1/3}\;\text{fm})\quad v_0=-0.5\;\text{MeV}.
+\end{align}  
+It is seen that the transition between quantum liquid and crystalline solid occurs at $K\approx0.1$ (between He and H$_2$). Thus nuclei] are expected to display a (non--newtonian) quantum liquid structure.
+
+
+In keeping with the fact that $K$ is of the order of 1 
+ in the nuclear case, it is likely that mean field theory is applicable to the description of the nucleons in the ground state of the system. The marked variation of the binding energy per particle as a function of mass number $A=N+Z$ for specific values of $N$ and $Z$ (magic numbers), testifies to the fact that nucleons display, in states lying close to the Fermi energy, a long mean free path as compared with nuclear dimensions ($R\approx1.2 A^{1/3}$ fm $\approx 6-7$ fm).
+ 
+ 
+ The results discussed above, namely that $K\ll1$ implies localization, that is fixed relations between the constituents, and thus spontaneous symmetry breaking, while $K\gtrsim0.14$ implies delocalization and thus homogeneity is an example of the fact that while potential energy always prefer spatial arrangements, fluctuations, classical or quantal, favour symmetry. 
+
+
 \section{The van der Waals interaction}\label{C2AppD}
 
 

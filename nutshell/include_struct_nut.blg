@@ -3,35 +3,32 @@ Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
 The top-level auxiliary file: include_struct_nut.aux
 The style file: abbrvnat.bst
 Database file #1: ../nuclear_bib.bib
-You're missing a field name---line 2891 of file ../nuclear_bib.bib
+You're missing a field name---line 2881 of file ../nuclear_bib.bib
  : year = {1973},
  :               ,
 I'm skipping whatever remains of this entry
 Warning--I'm ignoring Shimizu:13's extra "year" field
---line 3879 of file ../nuclear_bib.bib
-Repeated entry---line 4142 of file ../nuclear_bib.bib
+--line 3891 of file ../nuclear_bib.bib
+Repeated entry---line 4154 of file ../nuclear_bib.bib
  : @article{Barranco:99
  :                     ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 4460 of file ../nuclear_bib.bib
+Repeated entry---line 4472 of file ../nuclear_bib.bib
  : @article{Sackett:93
  :                    ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 4594 of file ../nuclear_bib.bib
+Repeated entry---line 4606 of file ../nuclear_bib.bib
  : @book{DeGennes:94
  :                  ,
 I'm skipping whatever remains of this entry
-I was expecting a `,' or a `}'---line 4652 of file ../nuclear_bib.bib
+I was expecting a `,' or a `}'---line 4664 of file ../nuclear_bib.bib
  :   pages = 210
  :              (R),
 I'm skipping whatever remains of this entry
-Repeated entry---line 5161 of file ../nuclear_bib.bib
+Repeated entry---line 5173 of file ../nuclear_bib.bib
  : @article{Lanford:73
  :                    ,
 I'm skipping whatever remains of this entry
-Warning--I didn't find a database entry for "Nasanov:76"
-Warning--I didn't find a database entry for "Anderson:84"
-Warning--I didn't find a database entry for "Anderson:97"
 Name 3 in "{Bjerregaard, J. H.} and Hansen, O. and Nathan, and Hinds, S." has a comma at the end for entry Bjerregaard:66b
 while executing---line 1347 of file abbrvnat.bst
 Name 2 in "{Guazzoni, P.} and M. Jaskola, and L. Zetta, and A. Covello, and A. Gargano, and Y. Eisermann, and G. Graw, and R. Hertenberger, and A. Metz, and F. Nuoffer, and G. Staudt" has a comma at the end for entry Guazzoni:99
@@ -113,45 +110,45 @@ Name 1 in "Saperstein, E. E., and Baldo, M." has a comma at the end for entry Sa
 while executing---line 1429 of file abbrvnat.bst
 Name 1 in "Saperstein, E. E., and Baldo, M." has a comma at the end for entry Saperstein:12
 while executing---line 1429 of file abbrvnat.bst
-You've used 145 entries,
+You've used 147 entries,
             2773 wiz_defined-function locations,
-            1495 strings with 28673 characters,
-and the built_in function-call counts, 73430 in all, are:
-= -- 6016
-> -- 5502
-< -- 105
-+ -- 1858
-- -- 1708
-* -- 6144
-:= -- 11833
-add.period$ -- 457
-call.type$ -- 145
-change.case$ -- 974
-chr.to.int$ -- 140
-cite$ -- 295
-duplicate$ -- 3158
-empty$ -- 5350
-format.name$ -- 1925
-if$ -- 15134
+            1506 strings with 29072 characters,
+and the built_in function-call counts, 74409 in all, are:
+= -- 6107
+> -- 5545
+< -- 109
++ -- 1872
+- -- 1720
+* -- 6202
+:= -- 11978
+add.period$ -- 465
+call.type$ -- 147
+change.case$ -- 983
+chr.to.int$ -- 142
+cite$ -- 299
+duplicate$ -- 3219
+empty$ -- 5438
+format.name$ -- 1941
+if$ -- 15360
 int.to.chr$ -- 6
 int.to.str$ -- 1
-missing$ -- 160
-newline$ -- 733
-num.names$ -- 618
-pop$ -- 1918
+missing$ -- 162
+newline$ -- 743
+num.names$ -- 630
+pop$ -- 1943
 preamble$ -- 1
-purify$ -- 846
+purify$ -- 853
 quote$ -- 0
-skip$ -- 2466
+skip$ -- 2510
 stack$ -- 0
-substring$ -- 1613
-swap$ -- 279
-text.length$ -- 22
+substring$ -- 1629
+swap$ -- 295
+text.length$ -- 24
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 1515
+type$ -- 1537
 warning$ -- 5
-while$ -- 578
+while$ -- 588
 width$ -- 0
-write$ -- 1925
+write$ -- 1955
 (There were 44 error messages)

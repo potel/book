@@ -1,4 +1,4 @@
-\begin{thebibliography}{92}
+\begin{thebibliography}{97}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \expandafter\ifx\csname urlstyle\endcsname\relax
@@ -49,6 +49,13 @@ F.~Barranco, P.~F. Bortignon, R.~A. Broglia, G.~Col\`o, P.~Schuck, E.~Vigezzi,
 \newblock Pairing matrix elements and pairing gaps with bare, effective, and
   induced interactions.
 \newblock \emph{Phys. Rev. C}, 72:\penalty0 054314, 2005.
+
+\bibitem[Barranco et~al.(2017)Barranco, Potel, Broglia, and
+  Vigezzi]{Barranco:17}
+F.~Barranco, G.~Potel, R.~A. Broglia, and E.~Vigezzi.
+\newblock {Structure and reactions of $^{11}$Be: many--body basis for
+  single--neutron halo}.
+\newblock \emph{arXiv:1702.01207v1 [nucl-th]}, 2017.
 
 \bibitem[{Barranco, F.} et~al.(2001){Barranco, F.}, Bortignon, Broglia,
   Col{\`{o}}, and Vigezzi]{Barranco:01}
@@ -200,6 +207,13 @@ D.~Bohm and D.~Pines.
 \newblock {A Collective Description of Electron Interactions: III. Coulomb
   Interactions in a Degenerate Electron Gas}.
 \newblock \emph{Phys. Rev.}, 92:\penalty0 609, 1953.
+
+\bibitem[Bohr(1964)]{Bohr:64}
+A.~Bohr.
+\newblock Elementary modes of excitation and their coupling.
+\newblock In \emph{{Comptes Rendus du Congr\`{e}s International de Physique
+  Nucl\'{e}aire}}, volume~1, page 487. Centre National de la Recherche
+  Scientifique, 1964.
 
 \bibitem[Bohr(1976)]{Bohr:76}
 A.~Bohr.
@@ -367,10 +381,21 @@ G.~Col\`{o}, N.~V. Giai, P.~F. Bortignon, and M.~R. Quaglia.
 \newblock The {$^{120}$Sn$(p, d)^{119}$Sn} reaction at 26.3 {MeV}.
 \newblock \emph{Nuclear Physics A}, 377:\penalty0 137, 1982.
 
+\bibitem[{Dickhoff, W.} and Van~Neck(2005)]{Dickhoff:05}
+{Dickhoff, W.} and D.~Van~Neck.
+\newblock \emph{{Many--Body Theory Exposed: Propagator description of quantum
+  mechanics in many--body systems}}.
+\newblock World Scientific, Singapore, 2005.
+
 \bibitem[Feshbach(1958)]{Feshbach:58}
 H.~Feshbach.
 \newblock {Unified Theory of Nuclear Reactions}.
 \newblock \emph{Annals of Physics}, 5:\penalty0 357, 1958.
+
+\bibitem[Feynman(1975)]{Feynman:75}
+R.~Feynman.
+\newblock \emph{Theory of fundamental processes}.
+\newblock Benjamin, Reading, Mass., 1975.
 
 \bibitem[Flynn et~al.(1971)Flynn, Igo, Barnes, Kovar, B\`{e}s, and
   Broglia]{Flynn:71}
@@ -490,6 +515,13 @@ G.~Potel, F.~Barranco, E.~Vigezzi, and R.~A. Broglia.
 \newblock {Evidence for phonon mediated pairing interaction in the halo of the
   nucleus $^{11}$Li}.
 \newblock \emph{Phys. Rev. Lett.}, 105:\penalty0 172502, 2010.
+
+\bibitem[Potel et~al.(2017)Potel, Idini, Barranco, Vigezzi, and
+  Broglia]{Potel:17}
+G.~Potel, A.~Idini, F.~Barranco, E.~Vigezzi, and R.~A. Broglia.
+\newblock {From bare to renormalized order parameter in gauge space: structure
+  and reactions}.
+\newblock \emph{arXiv:1705.11083v1 [nucl-th]}, 2017.
 
 \bibitem[{Potel, G.} et~al.(2013){Potel, G.}, Idini, Barranco, Vigezzi, and
   Broglia]{Potel:13}

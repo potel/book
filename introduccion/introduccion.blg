@@ -11,12 +11,14 @@ You're missing a field name---line 2882 of file ../nuclear_bib.bib
  : year = {1973},
  :               ,
 I'm skipping whatever remains of this entry
-I was expecting a `,' or a `}'---line 4665 of file ../nuclear_bib.bib
+"{" immediately follows a field name---line 3787 of file ../nuclear_bib.bib
+ : @article{Schmid:66,@article
+ :                            {Jenning:11,
+I'm skipping whatever remains of this entry
+I was expecting a `,' or a `}'---line 4670 of file ../nuclear_bib.bib
  :   pages = 210
  :              (R),
 I'm skipping whatever remains of this entry
-Warning--I didn't find a database entry for "Barranco:17"
-Warning--I didn't find a database entry for "Potel:17"
 Name 1 in "R. A. Broglia, and P. F. Bortignon, and F. Barranco, and E. Vigezzi, and A. Idini, and G. Potel" has a comma at the end for entry Broglia:16
 while executing---line 1347 of file abbrvnat.bst
 Name 1 in "R. A. Broglia, and P. F. Bortignon, and F. Barranco, and E. Vigezzi, and A. Idini, and G. Potel" has a comma at the end for entry Broglia:16
@@ -77,45 +79,45 @@ while executing---line 1429 of file abbrvnat.bst
 Name 3 in "G. Col\`{o}, and N. Van Giai, and P. F. Bortignon, and M. R. Quaglia" has a comma at the end for entry Colo:00
 while executing---line 1429 of file abbrvnat.bst
 Warning--empty title in Landau:41
-You've used 92 entries,
+You've used 97 entries,
             2773 wiz_defined-function locations,
-            1168 strings with 18443 characters,
-and the built_in function-call counts, 40742 in all, are:
-= -- 3381
-> -- 2681
-< -- 59
-+ -- 914
-- -- 816
-* -- 3268
-:= -- 6557
-add.period$ -- 286
-call.type$ -- 92
-change.case$ -- 522
-chr.to.int$ -- 86
-cite$ -- 188
-duplicate$ -- 1933
-empty$ -- 3253
-format.name$ -- 958
-if$ -- 8430
+            1191 strings with 19213 characters,
+and the built_in function-call counts, 42808 in all, are:
+= -- 3552
+> -- 2809
+< -- 64
++ -- 958
+- -- 855
+* -- 3417
+:= -- 6884
+add.period$ -- 302
+call.type$ -- 97
+change.case$ -- 548
+chr.to.int$ -- 91
+cite$ -- 198
+duplicate$ -- 2043
+empty$ -- 3423
+format.name$ -- 1004
+if$ -- 8866
 int.to.chr$ -- 7
 int.to.str$ -- 1
-missing$ -- 110
-newline$ -- 469
-num.names$ -- 382
-pop$ -- 1045
+missing$ -- 117
+newline$ -- 494
+num.names$ -- 402
+pop$ -- 1109
 preamble$ -- 1
-purify$ -- 451
+purify$ -- 474
 quote$ -- 0
-skip$ -- 1419
+skip$ -- 1501
 stack$ -- 0
-substring$ -- 801
-swap$ -- 135
-text.length$ -- 6
+substring$ -- 817
+swap$ -- 149
+text.length$ -- 8
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 922
+type$ -- 967
 warning$ -- 4
-while$ -- 350
+while$ -- 366
 width$ -- 0
-write$ -- 1215
-(There were 31 error messages)
+write$ -- 1280
+(There were 32 error messages)

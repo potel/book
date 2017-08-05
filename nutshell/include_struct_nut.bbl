@@ -1,9 +1,12 @@
-\begin{thebibliography}{147}
+\begin{thebibliography}{148}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \expandafter\ifx\csname urlstyle\endcsname\relax
   \providecommand{\doi}[1]{doi: #1}\else
   \providecommand{\doi}{doi: \begingroup \urlstyle{rm}\Url}\fi
+
+\bibitem[Sch()]{Schmid:66}
+
 
 \bibitem[{Abrahams, E.} and Woo(1968)]{Abrahams:68}
 {Abrahams, E.} and J.~W.~F. Woo.
@@ -763,6 +766,13 @@ D.~Rogovin and M.~Scully.
 \newblock Superconductivity and macroscopic quantum phenomena.
 \newblock \emph{Physics Reports}, 25:\penalty0 175, 1976.
 
+\bibitem[{R\"osner} et~al.(2017){R\"osner}, Caldarini, Prestel, Vanoni,
+  Broglia, Aliverti, Tiana, , and Kragelund]{Rosner:17}
+H.~I. {R\"osner}, M.~Caldarini, A.~Prestel, M.~A. Vanoni, R.~A. Broglia,
+  A.~Aliverti, G.~Tiana, , and B.~B. Kragelund.
+\newblock Cold denaturation of the {HIV--1} protease monomer.
+\newblock \emph{Biochemistry}, 156:\penalty0 1029, 2017.
+
 \bibitem[Sackett et~al.(1993)Sackett, Ieki, Galonsky, Bertulani, Esbensen,
   Kruse, Lynch, Morrissey, Orr, Sherrill, Schulz, Sustich, Winger, De\'ak,
   Horv\'ath, Kiss, Seres, Kolata, Warner, and Humphrey]{Sackett:93}
@@ -786,12 +796,6 @@ E.~E. Saperstein and M.~Baldo.
   Thomas.
 \newblock Test of sum rules in nucleon transfer reactions.
 \newblock \emph{Phys. Rev. Lett.}, 108:\penalty0 022501, 2012.
-
-\bibitem[{Schmid, A.}(1966)]{Schmid:66}
-{Schmid, A.}
-\newblock {A time dependent Ginzburg--Landau equation and its application to
-  the problem of resistivity in the mixed state}.
-\newblock \emph{Phys. d. Kond. Materie}, 5:\penalty0 302, 1966.
 
 \bibitem[{Schmid, A.}(1969)]{Schmid:69}
 {Schmid, A.}

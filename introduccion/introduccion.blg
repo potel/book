@@ -79,45 +79,45 @@ while executing---line 1429 of file abbrvnat.bst
 Name 3 in "G. Col\`{o}, and N. Van Giai, and P. F. Bortignon, and M. R. Quaglia" has a comma at the end for entry Colo:00
 while executing---line 1429 of file abbrvnat.bst
 Warning--empty title in Landau:41
-You've used 97 entries,
+You've used 101 entries,
             2773 wiz_defined-function locations,
-            1191 strings with 19213 characters,
-and the built_in function-call counts, 42808 in all, are:
-= -- 3552
-> -- 2809
-< -- 64
-+ -- 958
-- -- 855
-* -- 3417
-:= -- 6884
-add.period$ -- 302
-call.type$ -- 97
-change.case$ -- 548
-chr.to.int$ -- 91
-cite$ -- 198
-duplicate$ -- 2043
-empty$ -- 3423
-format.name$ -- 1004
-if$ -- 8866
+            1217 strings with 19575 characters,
+and the built_in function-call counts, 44381 in all, are:
+= -- 3691
+> -- 2880
+< -- 67
++ -- 983
+- -- 876
+* -- 3533
+:= -- 7132
+add.period$ -- 314
+call.type$ -- 101
+change.case$ -- 567
+chr.to.int$ -- 95
+cite$ -- 206
+duplicate$ -- 2124
+empty$ -- 3569
+format.name$ -- 1031
+if$ -- 9196
 int.to.chr$ -- 7
 int.to.str$ -- 1
-missing$ -- 117
-newline$ -- 494
-num.names$ -- 402
-pop$ -- 1109
+missing$ -- 121
+newline$ -- 514
+num.names$ -- 418
+pop$ -- 1141
 preamble$ -- 1
-purify$ -- 474
+purify$ -- 489
 quote$ -- 0
-skip$ -- 1501
+skip$ -- 1558
 stack$ -- 0
-substring$ -- 817
-swap$ -- 149
+substring$ -- 876
+swap$ -- 153
 text.length$ -- 8
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 967
+type$ -- 1011
 warning$ -- 4
-while$ -- 366
+while$ -- 382
 width$ -- 0
-write$ -- 1280
+write$ -- 1332
 (There were 32 error messages)

@@ -4,11 +4,11 @@ The top-level auxiliary file: main_libro.aux
 A level-1 auxiliary file: C1/includeC1.aux
 The style file: abbrvnat.bst
 A level-1 auxiliary file: introduccion/introduccion.aux
-Illegal, another \bibstyle command---line 557 of file introduccion/introduccion.aux
+Illegal, another \bibstyle command---line 565 of file introduccion/introduccion.aux
  : \bibstyle
  :          {abbrvnat}
 I'm skipping whatever remains of this command
-Illegal, another \bibdata command---line 558 of file introduccion/introduccion.aux
+Illegal, another \bibdata command---line 566 of file introduccion/introduccion.aux
  : \bibdata
  :         {../nuclear_bib}
 I'm skipping whatever remains of this command
@@ -36,11 +36,11 @@ Illegal, another \bibdata command---line 399 of file nutshell/include_trans_nut.
  :         {../nuclear_bib}
 I'm skipping whatever remains of this command
 A level-1 auxiliary file: C6/includeC6.aux
-Illegal, another \bibstyle command---line 334 of file C6/includeC6.aux
+Illegal, another \bibstyle command---line 337 of file C6/includeC6.aux
  : \bibstyle
  :          {abbrvnat}
 I'm skipping whatever remains of this command
-Illegal, another \bibdata command---line 335 of file C6/includeC6.aux
+Illegal, another \bibdata command---line 338 of file C6/includeC6.aux
  : \bibdata
  :         {../nuclear_bib}
 I'm skipping whatever remains of this command
@@ -70,7 +70,7 @@ Illegal, another \bibdata command---line 24 of file main_libro.aux
  : \bibdata
  :         {./nuclear_bib}
 I'm skipping whatever remains of this command
-Reallocated field_info (elt_size=4) to 14128 items from 5000.
+Reallocated field_info (elt_size=4) to 14212 items from 5000.
 Database file #1: ./nuclear_bib.bib
 Repeated entry---line 2667 of file ./nuclear_bib.bib
  : @book{Mayer:55
@@ -116,7 +116,6 @@ Repeated entry---line 5179 of file ./nuclear_bib.bib
  : @article{Lanford:73
  :                    ,
 I'm skipping whatever remains of this entry
-Warning--I didn't find a database entry for "Wolynes:16"
 Warning--I didn't find a database entry for "Beck:70"
 Warning--I didn't find a database entry for "VanWitsen:14"
 Warning--I didn't find a database entry for "Matsuo:06"
@@ -316,45 +315,45 @@ Name 1 in "Saperstein, E. E., and Baldo, M." has a comma at the end for entry Sa
 while executing---line 1429 of file abbrvnat.bst
 Name 1 in "Saperstein, E. E., and Baldo, M." has a comma at the end for entry Saperstein:12
 while executing---line 1429 of file abbrvnat.bst
-You've used 322 entries,
+You've used 326 entries,
             2773 wiz_defined-function locations,
-            2441 strings with 52259 characters,
-and the built_in function-call counts, 148323 in all, are:
-= -- 12300
-> -- 10008
-< -- 240
-+ -- 3411
-- -- 3076
-* -- 11892
-:= -- 23823
-add.period$ -- 1002
-call.type$ -- 322
-change.case$ -- 1916
-chr.to.int$ -- 309
-cite$ -- 665
-duplicate$ -- 6892
-empty$ -- 11626
-format.name$ -- 3557
-if$ -- 30737
+            2463 strings with 52598 characters,
+and the built_in function-call counts, 149896 in all, are:
+= -- 12439
+> -- 10079
+< -- 243
++ -- 3436
+- -- 3097
+* -- 12008
+:= -- 24071
+add.period$ -- 1014
+call.type$ -- 326
+change.case$ -- 1935
+chr.to.int$ -- 313
+cite$ -- 673
+duplicate$ -- 6973
+empty$ -- 11772
+format.name$ -- 3584
+if$ -- 31067
 int.to.chr$ -- 14
 int.to.str$ -- 1
-missing$ -- 365
-newline$ -- 1613
-num.names$ -- 1356
-pop$ -- 3839
+missing$ -- 369
+newline$ -- 1633
+num.names$ -- 1372
+pop$ -- 3871
 preamble$ -- 1
-purify$ -- 1646
+purify$ -- 1661
 quote$ -- 0
-skip$ -- 5149
+skip$ -- 5206
 stack$ -- 0
-substring$ -- 3143
-swap$ -- 554
+substring$ -- 3202
+swap$ -- 558
 text.length$ -- 36
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 3322
+type$ -- 3366
 warning$ -- 20
-while$ -- 1254
+while$ -- 1270
 width$ -- 0
-write$ -- 4234
+write$ -- 4286
 (There were 113 error messages)

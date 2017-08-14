@@ -3,22 +3,25 @@ Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
 The top-level auxiliary file: introduccion.aux
 The style file: abbrvnat.bst
 Database file #1: ../nuclear_bib.bib
-Repeated entry---line 2667 of file ../nuclear_bib.bib
+Repeated entry---line 2685 of file ../nuclear_bib.bib
  : @book{Mayer:55
  :               ,
 I'm skipping whatever remains of this entry
-You're missing a field name---line 2882 of file ../nuclear_bib.bib
+You're missing a field name---line 2900 of file ../nuclear_bib.bib
  : year = {1973},
  :               ,
 I'm skipping whatever remains of this entry
-"{" immediately follows a field name---line 3787 of file ../nuclear_bib.bib
+"{" immediately follows a field name---line 3805 of file ../nuclear_bib.bib
  : @article{Schmid:66,@article
  :                            {Jenning:11,
 I'm skipping whatever remains of this entry
-I was expecting a `,' or a `}'---line 4670 of file ../nuclear_bib.bib
+I was expecting a `,' or a `}'---line 4688 of file ../nuclear_bib.bib
  :   pages = 210
  :              (R),
 I'm skipping whatever remains of this entry
+Warning--I didn't find a database entry for "Pais"
+Warning--I didn't find a database entry for "Kroll"
+Warning--I didn't find a database entry for "Feynman:49"
 Name 1 in "R. A. Broglia, and P. F. Bortignon, and F. Barranco, and E. Vigezzi, and A. Idini, and G. Potel" has a comma at the end for entry Broglia:16
 while executing---line 1347 of file abbrvnat.bst
 Name 1 in "R. A. Broglia, and P. F. Bortignon, and F. Barranco, and E. Vigezzi, and A. Idini, and G. Potel" has a comma at the end for entry Broglia:16
@@ -79,45 +82,45 @@ while executing---line 1429 of file abbrvnat.bst
 Name 3 in "G. Col\`{o}, and N. Van Giai, and P. F. Bortignon, and M. R. Quaglia" has a comma at the end for entry Colo:00
 while executing---line 1429 of file abbrvnat.bst
 Warning--empty title in Landau:41
-You've used 101 entries,
+You've used 104 entries,
             2773 wiz_defined-function locations,
-            1217 strings with 19575 characters,
-and the built_in function-call counts, 44381 in all, are:
-= -- 3691
-> -- 2880
-< -- 67
-+ -- 983
-- -- 876
-* -- 3533
-:= -- 7132
-add.period$ -- 314
-call.type$ -- 101
-change.case$ -- 567
-chr.to.int$ -- 95
-cite$ -- 206
-duplicate$ -- 2124
-empty$ -- 3569
-format.name$ -- 1031
-if$ -- 9196
+            1241 strings with 19849 characters,
+and the built_in function-call counts, 45375 in all, are:
+= -- 3773
+> -- 2921
+< -- 70
++ -- 998
+- -- 888
+* -- 3594
+:= -- 7293
+add.period$ -- 323
+call.type$ -- 104
+change.case$ -- 578
+chr.to.int$ -- 98
+cite$ -- 212
+duplicate$ -- 2184
+empty$ -- 3668
+format.name$ -- 1048
+if$ -- 9405
 int.to.chr$ -- 7
 int.to.str$ -- 1
-missing$ -- 121
-newline$ -- 514
-num.names$ -- 418
-pop$ -- 1141
+missing$ -- 126
+newline$ -- 529
+num.names$ -- 430
+pop$ -- 1171
 preamble$ -- 1
-purify$ -- 489
+purify$ -- 499
 quote$ -- 0
-skip$ -- 1558
+skip$ -- 1598
 stack$ -- 0
-substring$ -- 876
-swap$ -- 153
+substring$ -- 891
+swap$ -- 156
 text.length$ -- 8
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 1011
+type$ -- 1034
 warning$ -- 4
-while$ -- 382
+while$ -- 392
 width$ -- 0
-write$ -- 1332
+write$ -- 1371
 (There were 32 error messages)

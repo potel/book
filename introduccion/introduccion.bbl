@@ -1,4 +1,4 @@
-\begin{thebibliography}{104}
+\begin{thebibliography}{106}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \expandafter\ifx\csname urlstyle\endcsname\relax
@@ -248,6 +248,12 @@ M.~Born.
 \newblock \emph{Natural philosophy of cause and chance}.
 \newblock Oxford University Press, Oxford, 1948.
 
+\bibitem[Bortignon and Broglia(1981)]{Bortignon:81}
+P.~F. Bortignon and R.~A. Broglia.
+\newblock Role of the nuclear surface in an unified description of the damping
+  of single--particle states and giant resonances.
+\newblock \emph{{Nucl. Phys. A}}, 371:\penalty0 405, 1981.
+
 \bibitem[Bortignon et~al.(1976)Bortignon, Broglia, B{\`{e}}s, Liotta, and
   Paar]{Bortignon:76}
 P.~F. Bortignon, R.~A. Broglia, D.~R. B{\`{e}}s, R.~Liotta, and V.~Paar.
@@ -458,7 +464,13 @@ W.~E. Lamb and R.~C. Retherford.
 
 \bibitem[Landau(1941)]{Landau:41}
 L.~Landau.
+\newblock {The theory of superfluidity in $^2$He}.
 \newblock \emph{Journ. Phys. USSR}, 5:\penalty0 71, 1941.
+
+\bibitem[Landau(1959)]{Landau:59}
+L.~Landau.
+\newblock On analytic properties of vertex parts in quantum field theory.
+\newblock \emph{Nuclear Physics}, 13:\penalty0 181, 1959.
 
 \bibitem[Lanford(1977)]{Lanford:77}
 W.~A. Lanford.

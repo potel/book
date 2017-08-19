@@ -1,4 +1,4 @@
-\begin{thebibliography}{329}
+\begin{thebibliography}{330}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \expandafter\ifx\csname urlstyle\endcsname\relax
@@ -1339,7 +1339,13 @@ W.~E. Lamb and R.~C. Retherford.
 
 \bibitem[Landau(1941)]{Landau:41}
 L.~Landau.
+\newblock {The theory of superfluidity in $^2$He}.
 \newblock \emph{Journ. Phys. USSR}, 5:\penalty0 71, 1941.
+
+\bibitem[Landau(1959)]{Landau:59}
+L.~Landau.
+\newblock On analytic properties of vertex parts in quantum field theory.
+\newblock \emph{Nuclear Physics}, 13:\penalty0 181, 1959.
 
 \bibitem[Landau and Lifshitz(1965)]{Landau:81}
 L.~Landau and L.~Lifshitz.

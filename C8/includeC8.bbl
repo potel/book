@@ -1,4 +1,4 @@
-\begin{thebibliography}{47}
+\begin{thebibliography}{60}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \expandafter\ifx\csname urlstyle\endcsname\relax
@@ -20,6 +20,18 @@ P.~W. Anderson.
 R.~J. Ascuitto and N.~K. Glendenning.
 \newblock Inelastic processes in particle transfer reactions.
 \newblock \emph{Physical Review}, 181:\penalty0 1396, 1969.
+
+\bibitem[Avogadro et~al.(2007)Avogadro, Barranco, Broglia, and
+  Vigezzi]{Avogadro:07}
+P.~Avogadro, F.~Barranco, R.~A. Broglia, and E.~Vigezzi.
+\newblock Quantum calculation of vortices in the inner crust of neutron stars.
+\newblock \emph{Phys. Rev. C}, 75:\penalty0 012805, 2007.
+
+\bibitem[Axel(1962)]{Axel:62}
+P.~Axel.
+\newblock {Electric Dipole Ground-State Transition Width Strength Function and
+  7--MeV Photon Interactions}.
+\newblock \emph{Phys. Rev.}, 126:\penalty0 671, 1962.
 
 \bibitem[Barranco et~al.(1999)Barranco, Broglia, Gori, Vigezzi, Bortignon, and
   Terasaki]{Barranco:99}
@@ -74,10 +86,25 @@ B.~F. Bayman and B.~H. Feng.
 \newblock {Qualitative description of nuclear collectivity}.
 \newblock \emph{Nucl. Phys. A}, 91:\penalty0 123, 1967.
 
-\bibitem[{B{\`{e}}s,D. R.} and Broglia(1966)]{Bes:66}
-{B{\`{e}}s,D. R.} and R.~A. Broglia.
+\bibitem[B{\`{e}}s and Broglia(1975)]{Bes:75}
+D.~R. B{\`{e}}s and R.~A. Broglia.
+\newblock {Equivalence between Feynman--Goldstone and particle--phonon diagrams
+  for finite many body systems}.
+\newblock In G.~Alaga, V.~Paar, and L.~Sips, editors, \emph{{Problems of
+  Vibrational Nuclei, in Procs. of the topical Conference on Problems of
+  Vibrational Nuclei}}, page~1, Amsterdam, 1975. North Holland.
+
+\bibitem[B{\`{e}}s and Broglia(1977)]{Bes:77}
+D.~R. B{\`{e}}s and R.~A. Broglia.
+\newblock Nuclear superfluidity and field theory of elementary excitations.
+\newblock In A.~Bohr and R.~A. Broglia, editors, \emph{International School of
+  Physics ``Enrico Fermi'' Course LXIX, Elementary Modes of Excitation in
+  Nuclei}, page~55, Amsterdam, 1977. North Holland.
+
+\bibitem[{B{\`{e}}s, D. R.} and Broglia(1966)]{Bes:66}
+{B{\`{e}}s, D. R.} and R.~A. Broglia.
 \newblock Pairing vibrations.
-\newblock \emph{Nucl. Phys.}, 80:\penalty0 289, 1966.
+\newblock \emph{Nucl. Phydwells.}, 80:\penalty0 289, 1966.
 
 \bibitem[{Bjerregaard, J. H.} et~al.(1966){Bjerregaard, J. H.}, Hansen, Nathan,
   and Hinds]{Bjerregaard:66b}
@@ -92,6 +119,7 @@ N.~Bogoljubov.
 
 \bibitem[Bohr(1964)]{Bohr:64}
 A.~Bohr.
+\newblock Elementary modes of excitation and their coupling.
 \newblock In \emph{{Comptes Rendus du Congr\`{e}s International de Physique
   Nucl\'{e}aire}}, volume~1, page 487. Centre National de la Recherche
   Scientifique, 1964.
@@ -101,26 +129,21 @@ A.~Bohr.
 \newblock \emph{Nuclear Structure, Vol.II}.
 \newblock Benjamin, New York, 1975.
 
-\bibitem[{Bortignon, P.F.} et~al.(1998){Bortignon, P.F.}, Bracco, and
+\bibitem[{Bortignon, P. F.} et~al.(1998){Bortignon, P. F.}, Bracco, and
   Broglia]{Bortignon:98}
-{Bortignon, P.F.}, A.~Bracco, and R.~Broglia.
+{Bortignon, P. F.}, A.~Bracco, and R.~A. Broglia.
 \newblock \emph{Giant Resonances}.
 \newblock Harwood Academic Publishers, Amsterdam, 1998.
 
-\bibitem[Brink(1955)]{Brink:55}
+\bibitem[Brink(1955 (unpublished))]{Brink:55}
 D.~M. Brink.
 \newblock \emph{{PhD Thesis}}.
-\newblock Oxford University, 1955.
+\newblock Oxford University, 1955 (unpublished).
 
 \bibitem[{Brink, D.} and Broglia(2005)]{Brink:05}
 {Brink, D.} and R.~A. Broglia.
 \newblock \emph{Nuclear Superfluidity}.
 \newblock Cambridge University Press, Cambridge, 2005.
-
-\bibitem[Broglia and Winther(2004)]{Broglia:04a}
-R.~Broglia and A.~Winther.
-\newblock \emph{Heavy Ion Reactions}.
-\newblock Westview Press, Boulder, CO., 2004.
 
 \bibitem[Broglia and Riedel(1967)]{Broglia:67}
 R.~A. Broglia and C.~Riedel.
@@ -128,12 +151,36 @@ R.~A. Broglia and C.~Riedel.
   $^{206}${P}b(t, p)$^{208}${P}b.
 \newblock \emph{Nucl. Phys.}, 92:\penalty0 145, 1967.
 
+\bibitem[Broglia and Winther(2004)]{Broglia:04a}
+R.~A. Broglia and A.~Winther.
+\newblock \emph{Heavy Ion Reactions}.
+\newblock Westview Press, Boulder, CO., 2004.
+
+\bibitem[Broglia et~al.(1971)Broglia, Riedel, and Udagawa]{Broglia:71}
+R.~A. Broglia, C.~Riedel, and T.~Udagawa.
+\newblock Coherence properties of two-neutron transfer reactions and their
+  relation to inelastic scattering.
+\newblock \emph{Nuclear Physics A}, 169:\penalty0 225, 1971.
+
+\bibitem[Broglia et~al.(2016)Broglia, Bortignon, Barranco, Vigezzi, Idini, and
+  Potel]{Broglia:16}
+R.~A. Broglia, P.~F. Bortignon, F.~Barranco, E.~Vigezzi, A.~Idini, and
+  G.~Potel.
+\newblock {Unified description of structure and reactions: implementing the
+  Nuclear Field Theory program}.
+\newblock \emph{Phys. Scr.}, 91:\penalty0 063012, 2016.
+
 \bibitem[{Broglia, R. A.} et~al.(1972){Broglia, R. A.}, Riedel, and
   Udagawa]{Broglia:72b}
 {Broglia, R. A.}, C.~Riedel, and T.~Udagawa.
 \newblock Sum rules and two-particle units in the analysis of two-neutron
   transfer reactions.
 \newblock \emph{Nuclear Physics A}, 184:\penalty0 23, 1972.
+
+\bibitem[Fortune et~al.(1994)Fortune, Liu, and Alburger]{Fortune:94}
+H.~T. Fortune, G.-B. Liu, and D.~E. Alburger.
+\newblock {( \textit{sd} ${)}^{2}$ states in $^{12}\mathrm{Be}$}.
+\newblock \emph{Phys. Rev. C}, 50:\penalty0 1355, 1994.
 
 \bibitem[Gori et~al.(2004)Gori, Barranco, Vigezzi, and Broglia]{Gori:04}
 G.~Gori, F.~Barranco, E.~Vigezzi, and R.~A. Broglia.
@@ -202,6 +249,19 @@ I.~Hamamoto and B.~R. Mottelson.
   of neutron drip line nuclei}.
 \newblock \emph{Phys. Rev. C}, 69:\penalty0 064302, 2004.
 
+\bibitem[Han et~al.(2006)Han, Shi, and Shen]{Han:06}
+Y.~Han, Y.~Shi, and Q.~Shen.
+\newblock Deuteron global optical model potential for energies up to 200 mev.
+\newblock \emph{Phys. Rev. C}, 74:\penalty0 044615, 2006.
+
+\bibitem[Idini et~al.(2015)Idini, Potel, Barranco, Vigezzi, and
+  Broglia]{Idini:15}
+A.~Idini, G.~Potel, F.~Barranco, E.~Vigezzi, and R.~A. Broglia.
+\newblock Interweaving of elementary modes of excitation in superfluid nuclei
+  through particle-vibration coupling: Quantitative account of the variety of
+  nuclear structure observables.
+\newblock \emph{Phys. Rev. C}, 92:\penalty0 031304, 2015.
+
 \bibitem[Igarashi et~al.(1991)Igarashi, Kubo, and Yagi]{Igarashi:91}
 M.~Igarashi, K.~Kubo, and K.~Yagi.
 \newblock Two--nucleon transfer mechanisms.
@@ -219,10 +279,20 @@ D.~T. Khoa and W.~von Oertzen.
   reaction}.
 \newblock \emph{Physics Letters B}, 595:\penalty0 193, 2004.
 
-\bibitem[Landau and Lifshitz(1981)]{Landau:81}
+\bibitem[Koning and Delaroche(2003)]{Koning:03}
+A.~J. Koning and J.~P. Delaroche.
+\newblock {Local and global nucleon optical models from 1 keV to 200 MeV}.
+\newblock \emph{Nucl. Phys. A}, 713:\penalty0 231, 2003.
+
+\bibitem[Landau and Lifshitz(1965)]{Landau:81}
 L.~Landau and L.~Lifshitz.
 \newblock \emph{Quantum Mechanics, 3rd ed.}
-\newblock Butterworth-Heinemann, 1981.
+\newblock Bergamon Press, London, 1965.
+
+\bibitem[Mattuck(1976)]{Mattuck:76}
+R.~D. Mattuck.
+\newblock \emph{{A Guide to Feynman Diagrams in the Many-- Body Problem}}.
+\newblock Dover, New York, 1976.
 
 \bibitem[Potel et~al.(2010)Potel, Barranco, Vigezzi, and Broglia]{Potel:10}
 G.~Potel, F.~Barranco, E.~Vigezzi, and R.~A. Broglia.
@@ -235,7 +305,14 @@ G.~Potel, F.~Barranco, E.~Vigezzi, and R.~A. Broglia.
 G.~Potel, A.~Idini, F.~Barranco, E.~Vigezzi, and R.~A. Broglia.
 \newblock {Nuclear Field Theory predictions for $^{11}$Li and $^{12}$Be:
   shedding light on the origin of pairing in nuclei}.
-\newblock \emph{Yad. Fiz., in press: arXiv:1210.5085 [nucl-th]}, 2014.
+\newblock \emph{Phys. At. Nucl.}, 77:\penalty0 941, 2014.
+
+\bibitem[Potel et~al.(2017)Potel, Idini, Barranco, Vigezzi, and
+  Broglia]{Potel:17}
+G.~Potel, A.~Idini, F.~Barranco, E.~Vigezzi, and R.~A. Broglia.
+\newblock {From bare to renormalized order parameter in gauge space: structure
+  and reactions}.
+\newblock \emph{arXiv:1705.11083v1 [nucl-th]}, 2017.
 
 \bibitem[{Potel, G.} et~al.(2013{\natexlab{a}}){Potel, G.}, Idini, Barranco,
   Vigezzi, and Broglia]{Potel:13}
@@ -249,6 +326,11 @@ G.~Potel, A.~Idini, F.~Barranco, E.~Vigezzi, and R.~A. Broglia.
 \newblock {Quantitative study of coherent pairing modes with two--neutron
   transfer: Sn isotopes}.
 \newblock \emph{{Phys. Rev. C}}, 87:\penalty0 054321, 2013{\natexlab{b}}.
+
+\bibitem[Repko et~al.(2013)Repko, Reinhard, Nestrenko, and Kvasil]{Repko:13}
+A.~Repko, P.~G. Reinhard, V.~O. Nestrenko, and J.~Kvasil.
+\newblock {Toroidal nature of the low--energy E1 mode}.
+\newblock \emph{Phys. Rev. C}, 87:\penalty0 04305, 2013.
 
 \bibitem[Satchler(1980)]{Satchler:80}
 G.~Satchler.
@@ -268,8 +350,8 @@ J.~Schrieffer.
 \bibitem[{Tamura, T.} et~al.(1970){Tamura, T.}, {B\`{e}s}, Broglia, and
   Landowne]{Tamura:70}
 {Tamura, T.}, D.~R. {B\`{e}s}, R.~A. Broglia, and S.~Landowne.
-\newblock Coupled--channel born--approximation calculation of two-nucleon
-  transfer reactions in deformed nuclei.
+\newblock {Coupled--channel Born--approximation calculation of two-nucleon
+  transfer reactions in deformed nuclei}.
 \newblock \emph{Physical Review Letters}, 25:\penalty0 1507, 1970.
 
 \bibitem[{Tanihata, I.} et~al.(2008){Tanihata, I.}, Alcorta, Bandyopadhyay,

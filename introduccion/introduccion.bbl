@@ -1,4 +1,4 @@
-\begin{thebibliography}{106}
+\begin{thebibliography}{111}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \expandafter\ifx\csname urlstyle\endcsname\relax
@@ -27,13 +27,15 @@ M.~Baranger.
 \newblock {Recent progress in the understanding of finite nuclei from the
   two--nucleon interaction}.
 \newblock In M.~Jean and R.~A. Ricci, editors, \emph{Proceedings of the
-  International school of physics ``E. Fermi'' XL course Nuclear Structure and
+  International school of physics ``E. Fermi'' Course XL Nuclear Structure and
   Nuclear Reactions}, page 511. Academic Press, New York, 1969.
 
 \bibitem[{Barnes, P.} et~al.(1972){Barnes, P.}, Romberg, Ellegard, Casten,
   Hansen, and Mulligan]{Barnes:72}
 {Barnes, P.}, E.~Romberg, C.~Ellegard, R.~Casten, O.~Hansen, and J.~Mulligan.
-\newblock \emph{Nucl. Phys. A}, 195:\penalty0 1146, 1972.
+\newblock {Proton--hole states in $^{209}$Bi From the $^{210}$Po $(t,\alpha)$
+  reaction}.
+\newblock \emph{Nucl. Phys. A}, 195:\penalty0 146, 1972.
 
 \bibitem[Barranco et~al.(2004)Barranco, Broglia, Col{\`{o}}, Gori, Vigezzi, and
   Bortignon]{Barranco:04}
@@ -55,7 +57,7 @@ F.~Barranco, P.~F. Bortignon, R.~A. Broglia, G.~Col\`o, P.~Schuck, E.~Vigezzi,
 F.~Barranco, G.~Potel, R.~A. Broglia, and E.~Vigezzi.
 \newblock {Structure and reactions of $^{11}$Be: many--body basis for
   single--neutron halo}.
-\newblock \emph{arXiv:1702.01207v1 [nucl-th]}, 2017.
+\newblock \emph{Phys. Rev. Lett.}, 119:\penalty0 082501, 2017.
 
 \bibitem[{Barranco, F.} et~al.(2001){Barranco, F.}, Bortignon, Broglia,
   Col{\`{o}}, and Vigezzi]{Barranco:01}
@@ -196,6 +198,11 @@ D.~R. B{\`{e}}s, R.~A. Broglia, G.~G. Dussel, R.~J. Liotta, and H.~M.
 \newblock Simultaneous treatment of surface and pairing nuclear fields.
 \newblock \emph{Phys. Lett. B}, 56:\penalty0 109, 1975.
 
+\bibitem[Bjorken and Drell(1998)]{Bjorken:98}
+J.~B. Bjorken and S.~D. Drell.
+\newblock \emph{Relativistic quantum mechanics}.
+\newblock {Mc Graw--Hill}, New York, 1998.
+
 \bibitem[Bohm and Pines(1951)]{Bohm:51}
 D.~Bohm and D.~Pines.
 \newblock {A Collective Description of Electron Interactions. I. Magnetic
@@ -328,6 +335,8 @@ R.~A. Broglia, P.~F. Bortignon, F.~Barranco, E.~Vigezzi, A.~Idini, and
 \bibitem[{Broglia, R. A.} et~al.(1970){Broglia, R. A.}, Lilley, Perazzo, and
   Phillips]{Broglia:70}
 {Broglia, R. A.}, J.~S. Lilley, R.~Perazzo, and W.~R. Phillips.
+\newblock Coulomb excitation of $^{209}\mathrm{Bi}$ and the weak-coupling
+  model.
 \newblock \emph{Phys. Rev. C}, 1:\penalty0 1508, 1970.
 
 \bibitem[{Broglia, R. A.} et~al.(1971{\natexlab{a}}){Broglia, R. A.}, Paar, and
@@ -451,16 +460,21 @@ A.~Idini, G.~Potel, F.~Barranco, E.~Vigezzi, and R.~A. Broglia.
 \newblock Dual origin of pairing in nuclei.
 \newblock \emph{arXiv:1404.7365v1 [nucl-th]}, 2014.
 
+\bibitem[Kroll and Lamb(1949)]{Kroll:49}
+N.~M. Kroll and W.~E. Lamb.
+\newblock On the self-energy of a bound electron.
+\newblock \emph{Phys. Rev.}, 75:\penalty0 388, 1949.
+
 \bibitem[Kubo et~al.(1970)Kubo, Broglia, and Riedel]{Kubo:70}
 K.~Kubo, R.~A. Broglia, and T.~Riedel, C.~Udagawa.
 \newblock {Determination of the $Y_4$ deformation parameter from $(p,t)$
   reactions}.
 \newblock \emph{Phys. Lett. B}, 32:\penalty0 29, 1970.
 
-\bibitem[Lamb and Retherford(1950)]{Lamb:50}
+\bibitem[Lamb and Retherford(1947)]{Lamb:47}
 W.~E. Lamb and R.~C. Retherford.
-\newblock Fine structure of the hydrogen atom. {P}art {I}.
-\newblock \emph{Phys. Rev.}, 79:\penalty0 549, 1950.
+\newblock Fine structure of the hydrogen atom by a microwave method.
+\newblock \emph{Phys. Rev.}, 72:\penalty0 241, 1947.
 
 \bibitem[Landau(1941)]{Landau:41}
 L.~Landau.
@@ -493,8 +507,13 @@ M.~Mayer and J.~Jensen.
 M.~H. McFarlane.
 \newblock {The reaction matrix in nuclear shell theory}.
 \newblock In M.~Jean and R.~A. Ricci, editors, \emph{Proceedings of the
-  International school of physics ``E. Fermi'' XL course Nuclear Structure and
+  International school of physics ``E. Fermi'' Course XL Nuclear Structure and
   Nuclear Reactions}, page 457. Academic Press, New York, 1969.
+
+\bibitem[Mehra(1996)]{Mehra:96}
+J.~Mehra.
+\newblock \emph{The beat of a different drum}.
+\newblock Clarendon Press, Oxford, 1996.
 
 \bibitem[Mottelson(1962)]{Mottelson:62}
 B.~R. Mottelson.
@@ -524,6 +543,11 @@ S.~G. Nilsson.
 A.~Pais.
 \newblock \emph{Inward bound}.
 \newblock Oxford University Press, Oxford, 1986.
+
+\bibitem[Pais(2000)]{Pais:00}
+A.~Pais.
+\newblock \emph{The genius of science}.
+\newblock Oxford University Press, Oxford, 2000.
 
 \bibitem[Perey and Buck(1962)]{Perey:62}
 F.~Perey and B.~Buck.
@@ -622,6 +646,11 @@ I.~Tanihata, H.~Savajols, and R.~Kanungo.
 \newblock Measurement of the two-halo neutron transfer reaction
   {$^1$H($^{11}$Li,$^{9}$Li)$^3$H} at {3A} {MeV}.
 \newblock \emph{Phys. Rev. Lett.}, 100:\penalty0 192502, 2008.
+
+\bibitem[ter Haar(1969)]{terHaar:69}
+D.~ter Haar.
+\newblock \emph{{Men of Physics: L. D. Landau II}}.
+\newblock Bergamon Press, Oxford, 1969.
 
 \bibitem[Transtrum and Qiu(2014)]{Transtrum:14}
 M.~K. Transtrum and P.~Qiu.

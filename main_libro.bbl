@@ -1,4 +1,4 @@
-\begin{thebibliography}{330}
+\begin{thebibliography}{340}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \expandafter\ifx\csname urlstyle\endcsname\relax
@@ -128,6 +128,12 @@ A.~Avdeenkov and S.~Kamerdzhiev.
 \newblock In R.~A. Broglia and V.~Zelevinsky, editors, \emph{50 Years of
   Nuclear BCS}, page 274. World Scientific, Singapore, 2013.
 
+\bibitem[Avogadro et~al.(2007)Avogadro, Barranco, Broglia, and
+  Vigezzi]{Avogadro:07}
+P.~Avogadro, F.~Barranco, R.~A. Broglia, and E.~Vigezzi.
+\newblock Quantum calculation of vortices in the inner crust of neutron stars.
+\newblock \emph{Phys. Rev. C}, 75:\penalty0 012805, 2007.
+
 \bibitem[Axel(1962)]{Axel:62}
 P.~Axel.
 \newblock {Electric Dipole Ground-State Transition Width Strength Function and
@@ -144,7 +150,7 @@ M.~Baranger.
 \newblock {Recent progress in the understanding of finite nuclei from the
   two--nucleon interaction}.
 \newblock In M.~Jean and R.~A. Ricci, editors, \emph{Proceedings of the
-  International school of physics ``E. Fermi'' XL course Nuclear Structure and
+  International school of physics ``E. Fermi'' Course XL Nuclear Structure and
   Nuclear Reactions}, page 511. Academic Press, New York, 1969.
 
 \bibitem[{Barbieri, C.}(2009)]{Barbieri:09}
@@ -183,7 +189,9 @@ J.~Bardeen, L.~N. Cooper, and J.~R. Schrieffer.
 \bibitem[{Barnes, P.} et~al.(1972){Barnes, P.}, Romberg, Ellegard, Casten,
   Hansen, and Mulligan]{Barnes:72}
 {Barnes, P.}, E.~Romberg, C.~Ellegard, R.~Casten, O.~Hansen, and J.~Mulligan.
-\newblock \emph{Nucl. Phys. A}, 195:\penalty0 1146, 1972.
+\newblock {Proton--hole states in $^{209}$Bi From the $^{210}$Po $(t,\alpha)$
+  reaction}.
+\newblock \emph{Nucl. Phys. A}, 195:\penalty0 146, 1972.
 
 \bibitem[{Baroni, S.} et~al.(2004){Baroni, S.}, Armati, Barranco, Broglia,
   Col\`{o}, Gori, and Vigezzi]{Baroni:04}
@@ -232,7 +240,7 @@ F.~Barranco, P.~F. Bortignon, R.~A. Broglia, G.~Col\`o, P.~Schuck, E.~Vigezzi,
 F.~Barranco, G.~Potel, R.~A. Broglia, and E.~Vigezzi.
 \newblock {Structure and reactions of $^{11}$Be: many--body basis for
   single--neutron halo}.
-\newblock \emph{arXiv:1702.01207v1 [nucl-th]}, 2017.
+\newblock \emph{Phys. Rev. Lett.}, 119:\penalty0 082501, 2017.
 
 \bibitem[{Barranco, F.} et~al.(1988){Barranco, F.}, Broglia, and
   Bertsch]{Barranco:88}
@@ -490,6 +498,11 @@ J.~H. Bilgram.
 \newblock States of {$^{208}$Pb} from double triton stripping.
 \newblock \emph{{Nucl. Phys.}}, 89:\penalty0 337, 1966.
 
+\bibitem[Bjorken and Drell(1998)]{Bjorken:98}
+J.~B. Bjorken and S.~D. Drell.
+\newblock \emph{Relativistic quantum mechanics}.
+\newblock {Mc Graw--Hill}, New York, 1998.
+
 \bibitem[Bogoljubov(1958)]{Bogoljubov:58}
 N.~Bogoljubov.
 \newblock On a new method in the theory of superconductivity.
@@ -731,6 +744,8 @@ R.~A. Broglia, P.~F. Bortignon, F.~Barranco, E.~Vigezzi, A.~Idini, and
 \bibitem[{Broglia, R. A.} et~al.(1970){Broglia, R. A.}, Lilley, Perazzo, and
   Phillips]{Broglia:70}
 {Broglia, R. A.}, J.~S. Lilley, R.~Perazzo, and W.~R. Phillips.
+\newblock Coulomb excitation of $^{209}\mathrm{Bi}$ and the weak-coupling
+  model.
 \newblock \emph{Phys. Rev. C}, 1:\penalty0 1508, 1970.
 
 \bibitem[{Broglia, R. A.} et~al.(1971{\natexlab{a}}){Broglia, R. A.}, Paar, and
@@ -1151,6 +1166,11 @@ I.~Hamamoto and S.~Shimoura.
   of neutron drip line nuclei}.
 \newblock \emph{Phys. Rev. C}, 69:\penalty0 064302, 2004.
 
+\bibitem[Han et~al.(2006)Han, Shi, and Shen]{Han:06}
+Y.~Han, Y.~Shi, and Q.~Shen.
+\newblock Deuteron global optical model potential for energies up to 200 mev.
+\newblock \emph{Phys. Rev. C}, 74:\penalty0 044615, 2006.
+
 \bibitem[Hansen(2013)]{Hansen:12}
 O.~Hansen.
 \newblock {Experimental establishment of the nuclear pairing phases}.
@@ -1320,11 +1340,21 @@ C.~Kittel.
   neutron-dripline nucleus {$^{11}$Li}.
 \newblock \emph{Physics Letters B}, 232:\penalty0 51, 1989.
 
+\bibitem[Koning and Delaroche(2003)]{Koning:03}
+A.~J. Koning and J.~P. Delaroche.
+\newblock {Local and global nucleon optical models from 1 keV to 200 MeV}.
+\newblock \emph{Nucl. Phys. A}, 713:\penalty0 231, 2003.
+
 \bibitem[{Kramer, G. J.} et~al.(2001){Kramer, G. J.}, Blok, and
   Lapik\'as]{Kramer:01}
 {Kramer, G. J.}, H.~P. Blok, and L.~Lapik\'as.
 \newblock {A consistence analisys of $(e,e'p)$ and $(d,^3$He) experiments}.
 \newblock \emph{Nucl. Phys. A}, 679:\penalty0 267, 2001.
+
+\bibitem[Kroll and Lamb(1949)]{Kroll:49}
+N.~M. Kroll and W.~E. Lamb.
+\newblock On the self-energy of a bound electron.
+\newblock \emph{Phys. Rev.}, 75:\penalty0 388, 1949.
 
 \bibitem[Kubo et~al.(1970)Kubo, Broglia, and Riedel]{Kubo:70}
 K.~Kubo, R.~A. Broglia, and T.~Riedel, C.~Udagawa.
@@ -1332,10 +1362,10 @@ K.~Kubo, R.~A. Broglia, and T.~Riedel, C.~Udagawa.
   reactions}.
 \newblock \emph{Phys. Lett. B}, 32:\penalty0 29, 1970.
 
-\bibitem[Lamb and Retherford(1950)]{Lamb:50}
+\bibitem[Lamb and Retherford(1947)]{Lamb:47}
 W.~E. Lamb and R.~C. Retherford.
-\newblock Fine structure of the hydrogen atom. {P}art {I}.
-\newblock \emph{Phys. Rev.}, 79:\penalty0 549, 1950.
+\newblock Fine structure of the hydrogen atom by a microwave method.
+\newblock \emph{Phys. Rev.}, 72:\penalty0 241, 1947.
 
 \bibitem[Landau(1941)]{Landau:41}
 L.~Landau.
@@ -1442,6 +1472,11 @@ J.~E. Lynn.
 \newblock In R.~A. Broglia and V.~Zelevinsky, editors, \emph{50 Years of
   Nuclear BCS}, page~66. World Scientific, Singapore, 2013.
 
+\bibitem[Mattuck(1976)]{Mattuck:76}
+R.~D. Mattuck.
+\newblock \emph{{A Guide to Feynman Diagrams in the Many-- Body Problem}}.
+\newblock Dover, New York, 1976.
+
 \bibitem[Mayer and Jensen(1955)]{Mayer:55}
 M.~Mayer and J.~Jensen.
 \newblock \emph{{Elementary Theory of Nuclear Structure}}.
@@ -1456,8 +1491,13 @@ D.~G. McDonald.
 M.~H. McFarlane.
 \newblock {The reaction matrix in nuclear shell theory}.
 \newblock In M.~Jean and R.~A. Ricci, editors, \emph{Proceedings of the
-  International school of physics ``E. Fermi'' XL course Nuclear Structure and
+  International school of physics ``E. Fermi'' Course XL Nuclear Structure and
   Nuclear Reactions}, page 457. Academic Press, New York, 1969.
+
+\bibitem[Mehra(1996)]{Mehra:96}
+J.~Mehra.
+\newblock \emph{The beat of a different drum}.
+\newblock Clarendon Press, Oxford, 1996.
 
 \bibitem[{Mei{\ss}ner}(2015)]{Meissner:14}
 U.~G. {Mei{\ss}ner}.
@@ -1536,6 +1576,11 @@ A.~Pais.
 \newblock \emph{Inward bound}.
 \newblock Oxford University Press, Oxford, 1986.
 
+\bibitem[Pais(2000)]{Pais:00}
+A.~Pais.
+\newblock \emph{The genius of science}.
+\newblock Oxford University Press, Oxford, 2000.
+
 \bibitem[Pankratov et~al.(2011)Pankratov, Zverev, Baldo, Lombardo, and
   Saperstein]{Pankratov:11}
 S.~S. Pankratov, M.~V. Zverev, M.~Baldo, U.~Lombardo, and E.~E. Saperstein.
@@ -1597,7 +1642,7 @@ G.~Potel, F.~Barranco, E.~Vigezzi, and R.~A. Broglia.
 G.~Potel, A.~Idini, F.~Barranco, E.~Vigezzi, and R.~A. Broglia.
 \newblock {Nuclear Field Theory predictions for $^{11}$Li and $^{12}$Be:
   shedding light on the origin of pairing in nuclei}.
-\newblock \emph{Phys. At. Nucl.}, 7:\penalty0 941, 2014.
+\newblock \emph{Phys. At. Nucl.}, 77:\penalty0 941, 2014.
 
 \bibitem[Potel et~al.(2017)Potel, Idini, Barranco, Vigezzi, and
   Broglia]{Potel:17}
@@ -1670,6 +1715,11 @@ H.~Reinhardt.
 \newblock {Application of the nuclear--field theory to superfluid
   nuclei--quaisparticle--phonon multiplet}.
 \newblock \emph{Nucl. Phys. A}, 251:\penalty0 176, 1980.
+
+\bibitem[Repko et~al.(2013)Repko, Reinhard, Nestrenko, and Kvasil]{Repko:13}
+A.~Repko, P.~G. Reinhard, V.~O. Nestrenko, and J.~Kvasil.
+\newblock {Toroidal nature of the low--energy E1 mode}.
+\newblock \emph{Phys. Rev. C}, 87:\penalty0 04305, 2013.
 
 \bibitem[{Ring, P.}(2013)]{Ring:13}
 {Ring, P.}
@@ -1890,6 +1940,11 @@ D.~Tarpanov, J.~Dobaczewski, J.~Toivanen, and B.~G. Carlsson.
 \newblock Spectroscopic properties of nuclear skyrme energy density
   functionals.
 \newblock \emph{Phys. Rev. Lett.}, 113:\penalty0 252501, 2014.
+
+\bibitem[ter Haar(1969)]{terHaar:69}
+D.~ter Haar.
+\newblock \emph{{Men of Physics: L. D. Landau II}}.
+\newblock Bergamon Press, Oxford, 1969.
 
 \bibitem[Thompson(1988)]{Thompson:88}
 I.~J. Thompson.

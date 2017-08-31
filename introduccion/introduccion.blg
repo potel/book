@@ -3,26 +3,26 @@ Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
 The top-level auxiliary file: introduccion.aux
 The style file: abbrvnat.bst
 Database file #1: ../nuclear_bib.bib
-Repeated entry---line 2685 of file ../nuclear_bib.bib
+"{" immediately follows a field name---line 291 of file ../nuclear_bib.bib
+ :   journal = {Physical Review},@article
+ :                                       {PhysRev.75.388,
+I'm skipping whatever remains of this entry
+Repeated entry---line 2725 of file ../nuclear_bib.bib
  : @book{Mayer:55
  :               ,
 I'm skipping whatever remains of this entry
-You're missing a field name---line 2900 of file ../nuclear_bib.bib
+You're missing a field name---line 2940 of file ../nuclear_bib.bib
  : year = {1973},
  :               ,
 I'm skipping whatever remains of this entry
-"{" immediately follows a field name---line 3806 of file ../nuclear_bib.bib
+"{" immediately follows a field name---line 3846 of file ../nuclear_bib.bib
  : @article{Schmid:66,@article
  :                            {Jenning:11,
 I'm skipping whatever remains of this entry
-I was expecting a `,' or a `}'---line 4689 of file ../nuclear_bib.bib
+I was expecting a `,' or a `}'---line 4737 of file ../nuclear_bib.bib
  :   pages = 210
  :              (R),
 I'm skipping whatever remains of this entry
-Warning--I didn't find a database entry for "terHaar:69"
-Warning--I didn't find a database entry for "Pais"
-Warning--I didn't find a database entry for "Kroll"
-Warning--I didn't find a database entry for "Feynman:49"
 Name 1 in "R. A. Broglia, and P. F. Bortignon, and F. Barranco, and E. Vigezzi, and A. Idini, and G. Potel" has a comma at the end for entry Broglia:16
 while executing---line 1347 of file abbrvnat.bst
 Name 1 in "R. A. Broglia, and P. F. Bortignon, and F. Barranco, and E. Vigezzi, and A. Idini, and G. Potel" has a comma at the end for entry Broglia:16
@@ -43,7 +43,6 @@ Name 2 in "G. Col\`{o}, and N. Van Giai, and P. F. Bortignon, and M. R. Quaglia"
 while executing---line 1347 of file abbrvnat.bst
 Name 3 in "G. Col\`{o}, and N. Van Giai, and P. F. Bortignon, and M. R. Quaglia" has a comma at the end for entry Colo:00
 while executing---line 1347 of file abbrvnat.bst
-Warning--empty title in Barnes:72
 Name 1 in "R. A. Broglia, and R. A. Ricci, and C. H. Dasso" has a comma at the end for entry Bernard:81
 while executing---line 1429 of file abbrvnat.bst
 Name 2 in "R. A. Broglia, and R. A. Ricci, and C. H. Dasso" has a comma at the end for entry Bernard:81
@@ -69,7 +68,6 @@ Name 4 in "R. A. Broglia, and P. F. Bortignon, and F. Barranco, and E. Vigezzi, 
 while executing---line 1429 of file abbrvnat.bst
 Name 5 in "R. A. Broglia, and P. F. Bortignon, and F. Barranco, and E. Vigezzi, and A. Idini, and G. Potel" has a comma at the end for entry Broglia:16
 while executing---line 1429 of file abbrvnat.bst
-Warning--empty title in Broglia:70
 Name 1 in "G. Col\`{o}, and N. Van Giai, and P. F. Bortignon, and M. R. Quaglia" has a comma at the end for entry Colo:00
 while executing---line 1429 of file abbrvnat.bst
 Name 2 in "G. Col\`{o}, and N. Van Giai, and P. F. Bortignon, and M. R. Quaglia" has a comma at the end for entry Colo:00
@@ -82,45 +80,45 @@ Name 2 in "G. Col\`{o}, and N. Van Giai, and P. F. Bortignon, and M. R. Quaglia"
 while executing---line 1429 of file abbrvnat.bst
 Name 3 in "G. Col\`{o}, and N. Van Giai, and P. F. Bortignon, and M. R. Quaglia" has a comma at the end for entry Colo:00
 while executing---line 1429 of file abbrvnat.bst
-You've used 106 entries,
+You've used 111 entries,
             2773 wiz_defined-function locations,
-            1257 strings with 20200 characters,
-and the built_in function-call counts, 46119 in all, are:
-= -- 3841
-> -- 2952
-< -- 72
-+ -- 1009
-- -- 897
-* -- 3641
-:= -- 7412
-add.period$ -- 330
-call.type$ -- 106
-change.case$ -- 588
-chr.to.int$ -- 100
-cite$ -- 215
-duplicate$ -- 2224
-empty$ -- 3738
-format.name$ -- 1061
-if$ -- 9563
+            1274 strings with 20635 characters,
+and the built_in function-call counts, 47837 in all, are:
+= -- 3985
+> -- 3024
+< -- 77
++ -- 1035
+- -- 918
+* -- 3744
+:= -- 7691
+add.period$ -- 347
+call.type$ -- 111
+change.case$ -- 608
+chr.to.int$ -- 105
+cite$ -- 223
+duplicate$ -- 2325
+empty$ -- 3908
+format.name$ -- 1091
+if$ -- 9927
 int.to.chr$ -- 7
 int.to.str$ -- 1
-missing$ -- 128
-newline$ -- 540
-num.names$ -- 438
-pop$ -- 1185
+missing$ -- 137
+newline$ -- 567
+num.names$ -- 458
+pop$ -- 1234
 preamble$ -- 1
-purify$ -- 506
+purify$ -- 523
 quote$ -- 0
-skip$ -- 1627
+skip$ -- 1694
 stack$ -- 0
-substring$ -- 913
-swap$ -- 158
+substring$ -- 947
+swap$ -- 163
 text.length$ -- 8
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 1056
-warning$ -- 3
-while$ -- 400
+type$ -- 1091
+warning$ -- 1
+while$ -- 417
 width$ -- 0
-write$ -- 1399
-(There were 32 error messages)
+write$ -- 1469
+(There were 33 error messages)

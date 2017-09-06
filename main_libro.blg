@@ -54,11 +54,11 @@ Illegal, another \bibdata command---line 410 of file C7/includeC7.aux
  :         {../nuclear_bib}
 I'm skipping whatever remains of this command
 A level-1 auxiliary file: C8/includeC8.aux
-Illegal, another \bibstyle command---line 258 of file C8/includeC8.aux
+Illegal, another \bibstyle command---line 284 of file C8/includeC8.aux
  : \bibstyle
  :          {abbrvnat}
 I'm skipping whatever remains of this command
-Illegal, another \bibdata command---line 259 of file C8/includeC8.aux
+Illegal, another \bibdata command---line 285 of file C8/includeC8.aux
  : \bibdata
  :         {../nuclear_bib}
 I'm skipping whatever remains of this command
@@ -70,72 +70,68 @@ Illegal, another \bibdata command---line 24 of file main_libro.aux
  : \bibdata
  :         {./nuclear_bib}
 I'm skipping whatever remains of this command
-Reallocated field_info (elt_size=4) to 14968 items from 5000.
+Reallocated field_info (elt_size=4) to 15500 items from 5000.
 Database file #1: ./nuclear_bib.bib
 "{" immediately follows a field name---line 291 of file ./nuclear_bib.bib
  :   journal = {Physical Review},@article
  :                                       {PhysRev.75.388,
 I'm skipping whatever remains of this entry
-Repeated entry---line 2725 of file ./nuclear_bib.bib
+Repeated entry---line 2739 of file ./nuclear_bib.bib
  : @book{Mayer:55
  :               ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 2748 of file ./nuclear_bib.bib
+Repeated entry---line 2762 of file ./nuclear_bib.bib
  : @article{Koning:03
  :                   ,
 I'm skipping whatever remains of this entry
-You're missing a field name---line 2940 of file ./nuclear_bib.bib
+You're missing a field name---line 2954 of file ./nuclear_bib.bib
  : year = {1973},
  :               ,
 I'm skipping whatever remains of this entry
 Warning--I'm ignoring Pauli:47's extra "year" field
---line 3723 of file ./nuclear_bib.bib
-"{" immediately follows a field name---line 3846 of file ./nuclear_bib.bib
+--line 3745 of file ./nuclear_bib.bib
+"{" immediately follows a field name---line 3868 of file ./nuclear_bib.bib
  : @article{Schmid:66,@article
  :                            {Jenning:11,
 I'm skipping whatever remains of this entry
 Warning--I'm ignoring Shimizu:13's extra "year" field
---line 3956 of file ./nuclear_bib.bib
-Repeated entry---line 4204 of file ./nuclear_bib.bib
+--line 3978 of file ./nuclear_bib.bib
+Repeated entry---line 4226 of file ./nuclear_bib.bib
  : @article{Thompson:88
  :                     ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 4227 of file ./nuclear_bib.bib
+Repeated entry---line 4249 of file ./nuclear_bib.bib
  : @article{Barranco:99
  :                     ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 4452 of file ./nuclear_bib.bib
+Repeated entry---line 4474 of file ./nuclear_bib.bib
  : @article{Bortignon:83
  :                      ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 4545 of file ./nuclear_bib.bib
+Repeated entry---line 4567 of file ./nuclear_bib.bib
  : @article{Sackett:93
  :                    ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 4687 of file ./nuclear_bib.bib
+Repeated entry---line 4709 of file ./nuclear_bib.bib
  : @book{DeGennes:94
  :                  ,
 I'm skipping whatever remains of this entry
-I was expecting a `,' or a `}'---line 4745 of file ./nuclear_bib.bib
+I was expecting a `,' or a `}'---line 4767 of file ./nuclear_bib.bib
  :   pages = 210
  :              (R),
 I'm skipping whatever remains of this entry
-Repeated entry---line 5254 of file ./nuclear_bib.bib
+Repeated entry---line 5276 of file ./nuclear_bib.bib
  : @article{Lanford:73
  :                    ,
 I'm skipping whatever remains of this entry
 Warning--I didn't find a database entry for "Beck:70"
 Warning--I didn't find a database entry for "VanWitsen:14"
 Warning--I didn't find a database entry for "Matsuo:06"
-Warning--I didn't find a database entry for "1-8"
-Warning--I didn't find a database entry for "9-25"
-Warning--I didn't find a database entry for "Pais"
-Warning--I didn't find a database entry for "Physica"
-Warning--I didn't find a database entry for "Poteltrans"
+Warning--I didn't find a database entry for "VanderWaerden"
 Warning--I didn't find a database entry for "Bohr"
 Warning--I didn't find a database entry for "Holstein"
-Warning--I didn't find a database entry for "BMI:69"
-Warning--I didn't find a database entry for "physscripta"
+Warning--I didn't find a database entry for "BrogliaandWinther1991"
+Warning--I didn't find a database entry for "Born:54"
 Warning--I didn't find a database entry for "Poteletal2010"
 Warning--I didn't find a database entry for "Potelphysat2014"
 Warning--I didn't find a database entry for "Young1971"
@@ -347,45 +343,45 @@ Name 1 in "Saperstein, E. E., and Baldo, M." has a comma at the end for entry Sa
 while executing---line 1429 of file abbrvnat.bst
 Name 1 in "Saperstein, E. E., and Baldo, M." has a comma at the end for entry Saperstein:12
 while executing---line 1429 of file abbrvnat.bst
-You've used 340 entries,
+You've used 363 entries,
             2773 wiz_defined-function locations,
-            2551 strings with 54206 characters,
-and the built_in function-call counts, 155176 in all, are:
-= -- 12884
-> -- 10341
-< -- 254
-+ -- 3528
-- -- 3175
-* -- 12375
-:= -- 24921
-add.period$ -- 1059
-call.type$ -- 340
-change.case$ -- 1999
-chr.to.int$ -- 327
-cite$ -- 698
-duplicate$ -- 7257
-empty$ -- 12259
-format.name$ -- 3684
-if$ -- 32173
-int.to.chr$ -- 14
+            2660 strings with 59629 characters,
+and the built_in function-call counts, 172959 in all, are:
+= -- 14217
+> -- 12310
+< -- 261
++ -- 4188
+- -- 3811
+* -- 14147
+:= -- 27897
+add.period$ -- 1128
+call.type$ -- 363
+change.case$ -- 2281
+chr.to.int$ -- 349
+cite$ -- 744
+duplicate$ -- 7733
+empty$ -- 13111
+format.name$ -- 4349
+if$ -- 35651
+int.to.chr$ -- 15
 int.to.str$ -- 1
-missing$ -- 390
-newline$ -- 1706
-num.names$ -- 1428
-pop$ -- 4009
+missing$ -- 412
+newline$ -- 1821
+num.names$ -- 1520
+pop$ -- 4525
 preamble$ -- 1
-purify$ -- 1715
+purify$ -- 1973
 quote$ -- 0
-skip$ -- 5401
+skip$ -- 5893
 stack$ -- 0
-substring$ -- 3332
-swap$ -- 572
+substring$ -- 3678
+swap$ -- 597
 text.length$ -- 36
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 3485
+type$ -- 3743
 warning$ -- 17
-while$ -- 1320
+while$ -- 1413
 width$ -- 0
-write$ -- 4475
+write$ -- 4774
 (There were 122 error messages)

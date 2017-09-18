@@ -7,39 +7,34 @@ Database file #1: ../nuclear_bib.bib
  :   journal = {Physical Review},@article
  :                                       {PhysRev.75.388,
 I'm skipping whatever remains of this entry
-Repeated entry---line 2762 of file ../nuclear_bib.bib
+I was expecting a `,' or a `}'---line 557 of file ../nuclear_bib.bib
+ :   volume = 16
+ :              C,
+I'm skipping whatever remains of this entry
+Repeated entry---line 2771 of file ../nuclear_bib.bib
  : @article{Koning:03
  :                   ,
 I'm skipping whatever remains of this entry
-You're missing a field name---line 2954 of file ../nuclear_bib.bib
+You're missing a field name---line 2963 of file ../nuclear_bib.bib
  : year = {1973},
  :               ,
 I'm skipping whatever remains of this entry
-"{" immediately follows a field name---line 3868 of file ../nuclear_bib.bib
+"{" immediately follows a field name---line 3884 of file ../nuclear_bib.bib
  : @article{Schmid:66,@article
  :                            {Jenning:11,
 I'm skipping whatever remains of this entry
-Repeated entry---line 4226 of file ../nuclear_bib.bib
+Repeated entry---line 4242 of file ../nuclear_bib.bib
  : @article{Thompson:88
  :                     ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 4249 of file ../nuclear_bib.bib
+Repeated entry---line 4265 of file ../nuclear_bib.bib
  : @article{Barranco:99
  :                     ,
 I'm skipping whatever remains of this entry
-I was expecting a `,' or a `}'---line 4767 of file ../nuclear_bib.bib
+I was expecting a `,' or a `}'---line 4783 of file ../nuclear_bib.bib
  :   pages = 210
  :              (R),
 I'm skipping whatever remains of this entry
-Warning--I didn't find a database entry for "VanderWaerden"
-Warning--I didn't find a database entry for "Bohr"
-Warning--I didn't find a database entry for "Holstein"
-Warning--I didn't find a database entry for "BrogliaandWinther1991"
-Warning--I didn't find a database entry for "Born:54"
-Warning--I didn't find a database entry for "Poteletal2010"
-Warning--I didn't find a database entry for "Potelphysat2014"
-Warning--I didn't find a database entry for "Young1971"
-Warning--I didn't find a database entry for "Avogadro:08"
 Name 2 in "{Guazzoni, P.} and M. Jaskola, and L. Zetta, and A. Covello, and A. Gargano, and Y. Eisermann, and G. Graw, and R. Hertenberger, and A. Metz, and F. Nuoffer, and G. Staudt" has a comma at the end for entry Guazzoni:99
 while executing---line 1347 of file abbrvnat.bst
 Name 3 in "{Guazzoni, P.} and M. Jaskola, and L. Zetta, and A. Covello, and A. Gargano, and Y. Eisermann, and G. Graw, and R. Hertenberger, and A. Metz, and F. Nuoffer, and G. Staudt" has a comma at the end for entry Guazzoni:99
@@ -57,6 +52,18 @@ while executing---line 1347 of file abbrvnat.bst
 Name 9 in "{Guazzoni, P.} and M. Jaskola, and L. Zetta, and A. Covello, and A. Gargano, and Y. Eisermann, and G. Graw, and R. Hertenberger, and A. Metz, and F. Nuoffer, and G. Staudt" has a comma at the end for entry Guazzoni:99
 while executing---line 1347 of file abbrvnat.bst
 Name 10 in "{Guazzoni, P.} and M. Jaskola, and L. Zetta, and A. Covello, and A. Gargano, and Y. Eisermann, and G. Graw, and R. Hertenberger, and A. Metz, and F. Nuoffer, and G. Staudt" has a comma at the end for entry Guazzoni:99
+while executing---line 1347 of file abbrvnat.bst
+Name 1 in "R. A. Broglia, and P. F. Bortignon, and F. Barranco, and E. Vigezzi, and A. Idini, and G. Potel" has a comma at the end for entry Broglia:16
+while executing---line 1347 of file abbrvnat.bst
+Name 1 in "R. A. Broglia, and P. F. Bortignon, and F. Barranco, and E. Vigezzi, and A. Idini, and G. Potel" has a comma at the end for entry Broglia:16
+while executing---line 1347 of file abbrvnat.bst
+Name 2 in "R. A. Broglia, and P. F. Bortignon, and F. Barranco, and E. Vigezzi, and A. Idini, and G. Potel" has a comma at the end for entry Broglia:16
+while executing---line 1347 of file abbrvnat.bst
+Name 3 in "R. A. Broglia, and P. F. Bortignon, and F. Barranco, and E. Vigezzi, and A. Idini, and G. Potel" has a comma at the end for entry Broglia:16
+while executing---line 1347 of file abbrvnat.bst
+Name 4 in "R. A. Broglia, and P. F. Bortignon, and F. Barranco, and E. Vigezzi, and A. Idini, and G. Potel" has a comma at the end for entry Broglia:16
+while executing---line 1347 of file abbrvnat.bst
+Name 5 in "R. A. Broglia, and P. F. Bortignon, and F. Barranco, and E. Vigezzi, and A. Idini, and G. Potel" has a comma at the end for entry Broglia:16
 while executing---line 1347 of file abbrvnat.bst
 Name 1 in "A. Repko, and P. G. Reinhard, and V. O. Nestrenko and J. Kvasil" has a comma at the end for entry Repko:13
 while executing---line 1347 of file abbrvnat.bst
@@ -65,6 +72,26 @@ while executing---line 1347 of file abbrvnat.bst
 Name 2 in "A. Repko, and P. G. Reinhard, and V. O. Nestrenko and J. Kvasil" has a comma at the end for entry Repko:13
 while executing---line 1347 of file abbrvnat.bst
 Warning--empty publisher in Brink:55
+Name 1 in "R. A. Broglia, and P. F. Bortignon, and F. Barranco, and E. Vigezzi, and A. Idini, and G. Potel" has a comma at the end for entry Broglia:16
+while executing---line 1429 of file abbrvnat.bst
+Name 2 in "R. A. Broglia, and P. F. Bortignon, and F. Barranco, and E. Vigezzi, and A. Idini, and G. Potel" has a comma at the end for entry Broglia:16
+while executing---line 1429 of file abbrvnat.bst
+Name 3 in "R. A. Broglia, and P. F. Bortignon, and F. Barranco, and E. Vigezzi, and A. Idini, and G. Potel" has a comma at the end for entry Broglia:16
+while executing---line 1429 of file abbrvnat.bst
+Name 4 in "R. A. Broglia, and P. F. Bortignon, and F. Barranco, and E. Vigezzi, and A. Idini, and G. Potel" has a comma at the end for entry Broglia:16
+while executing---line 1429 of file abbrvnat.bst
+Name 5 in "R. A. Broglia, and P. F. Bortignon, and F. Barranco, and E. Vigezzi, and A. Idini, and G. Potel" has a comma at the end for entry Broglia:16
+while executing---line 1429 of file abbrvnat.bst
+Name 1 in "R. A. Broglia, and P. F. Bortignon, and F. Barranco, and E. Vigezzi, and A. Idini, and G. Potel" has a comma at the end for entry Broglia:16
+while executing---line 1429 of file abbrvnat.bst
+Name 2 in "R. A. Broglia, and P. F. Bortignon, and F. Barranco, and E. Vigezzi, and A. Idini, and G. Potel" has a comma at the end for entry Broglia:16
+while executing---line 1429 of file abbrvnat.bst
+Name 3 in "R. A. Broglia, and P. F. Bortignon, and F. Barranco, and E. Vigezzi, and A. Idini, and G. Potel" has a comma at the end for entry Broglia:16
+while executing---line 1429 of file abbrvnat.bst
+Name 4 in "R. A. Broglia, and P. F. Bortignon, and F. Barranco, and E. Vigezzi, and A. Idini, and G. Potel" has a comma at the end for entry Broglia:16
+while executing---line 1429 of file abbrvnat.bst
+Name 5 in "R. A. Broglia, and P. F. Bortignon, and F. Barranco, and E. Vigezzi, and A. Idini, and G. Potel" has a comma at the end for entry Broglia:16
+while executing---line 1429 of file abbrvnat.bst
 Name 2 in "{Guazzoni, P.} and M. Jaskola, and L. Zetta, and A. Covello, and A. Gargano, and Y. Eisermann, and G. Graw, and R. Hertenberger, and A. Metz, and F. Nuoffer, and G. Staudt" has a comma at the end for entry Guazzoni:99
 while executing---line 1429 of file abbrvnat.bst
 Name 3 in "{Guazzoni, P.} and M. Jaskola, and L. Zetta, and A. Covello, and A. Gargano, and Y. Eisermann, and G. Graw, and R. Hertenberger, and A. Metz, and F. Nuoffer, and G. Staudt" has a comma at the end for entry Guazzoni:99
@@ -109,45 +136,45 @@ Name 1 in "A. Repko, and P. G. Reinhard, and V. O. Nestrenko and J. Kvasil" has 
 while executing---line 1429 of file abbrvnat.bst
 Name 2 in "A. Repko, and P. G. Reinhard, and V. O. Nestrenko and J. Kvasil" has a comma at the end for entry Repko:13
 while executing---line 1429 of file abbrvnat.bst
-You've used 87 entries,
+You've used 98 entries,
             2773 wiz_defined-function locations,
-            1170 strings with 20732 characters,
-and the built_in function-call counts, 50012 in all, are:
-= -- 3933
-> -- 4469
-< -- 45
-+ -- 1505
-- -- 1416
-* -- 4535
-:= -- 8207
-add.period$ -- 263
-call.type$ -- 87
-change.case$ -- 720
-chr.to.int$ -- 85
-cite$ -- 175
-duplicate$ -- 1800
-empty$ -- 3154
-format.name$ -- 1545
-if$ -- 10036
+            1214 strings with 22021 characters,
+and the built_in function-call counts, 54894 in all, are:
+= -- 4332
+> -- 4800
+< -- 48
++ -- 1618
+- -- 1518
+* -- 4949
+:= -- 8994
+add.period$ -- 295
+call.type$ -- 98
+change.case$ -- 785
+chr.to.int$ -- 96
+cite$ -- 197
+duplicate$ -- 2021
+empty$ -- 3540
+format.name$ -- 1660
+if$ -- 11030
 int.to.chr$ -- 3
 int.to.str$ -- 1
-missing$ -- 99
-newline$ -- 443
-num.names$ -- 350
-pop$ -- 1371
+missing$ -- 113
+newline$ -- 498
+num.names$ -- 392
+pop$ -- 1494
 preamble$ -- 1
-purify$ -- 645
+purify$ -- 702
 quote$ -- 0
-skip$ -- 1550
+skip$ -- 1716
 stack$ -- 0
-substring$ -- 1094
-swap$ -- 103
-text.length$ -- 3
+substring$ -- 1219
+swap$ -- 111
+text.length$ -- 2
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 897
+type$ -- 1003
 warning$ -- 1
-while$ -- 336
+while$ -- 376
 width$ -- 0
-write$ -- 1140
-(There were 41 error messages)
+write$ -- 1281
+(There were 58 error messages)

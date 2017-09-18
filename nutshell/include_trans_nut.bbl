@@ -1,14 +1,9 @@
-\begin{thebibliography}{91}
+\begin{thebibliography}{96}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \expandafter\ifx\csname urlstyle\endcsname\relax
   \providecommand{\doi}[1]{doi: #1}\else
   \providecommand{\doi}{doi: \begingroup \urlstyle{rm}\Url}\fi
-
-\bibitem[{ Kisslinger,L. S. and S\o{}rensen,R. A.}(1963)]{Kisslinger:63}
-{ Kisslinger,L. S. and S\o{}rensen,R. A.}
-\newblock Spherical nuclei with simple residual forces.
-\newblock \emph{Review of Modern Physics}, 35:\penalty0 853, 1963.
 
 \bibitem[Ambegaokar(1969)]{Ambegaokar:69}
 V.~Ambegaokar.
@@ -26,11 +21,16 @@ P.~W. Anderson.
 \newblock New method in the theory of superconductivity.
 \newblock \emph{Phys. Rev.}, 110:\penalty0 985, 1958.
 
-\bibitem[Anderson(1964)]{Anderson:64b}
+\bibitem[Anderson(1964{\natexlab{a}})]{Anderson:64}
+P.~W. Anderson.
+\newblock Superconductivity.
+\newblock \emph{Science}, 144:\penalty0 373, 1964{\natexlab{a}}.
+
+\bibitem[Anderson(1964{\natexlab{b}})]{Anderson:64b}
 P.~W. Anderson.
 \newblock Special effects in suprconductivity.
 \newblock In E.~R. Caianello, editor, \emph{The Many--Body Problem, Vol.2},
-  page 113. Academic Press, New York, 1964.
+  page 113. Academic Press, New York, 1964{\natexlab{b}}.
 
 \bibitem[Anderson(1972)]{Anderson:72}
 P.~W. Anderson.
@@ -45,7 +45,7 @@ N.~W. Ashcroft and N.~D. Mermin.
 \bibitem[Axel(1962)]{Axel:62}
 P.~Axel.
 \newblock {Electric Dipole Ground-State Transition Width Strength Function and
-  7--Mev Photon Interactions}.
+  7--MeV Photon Interactions}.
 \newblock \emph{Phys. Rev.}, 126:\penalty0 671, 1962.
 
 \bibitem[Bardeen(1961)]{Bardeen:61}
@@ -88,12 +88,13 @@ J.~L. Basdevant and J.~Dalibard.
 
 \bibitem[Bertsch(1988)]{Bertsch:88b}
 G.~Bertsch.
-\newblock In R.~Broglia and J.~R. Schrieffer, editors, \emph{International
-  School of Physics ``Enrico Fermi'' Collective motion in Fermi droplets},
-  page~41, Amsterdam, 1988. North Holland.
+\newblock Collective motion in {Fermi} droplets.
+\newblock In R.~A. Broglia and J.~R. Schrieffer, editors, \emph{{International
+  School of Physics ``Enrico Fermi'' Course CIV, Frontiers and Borders in
+  Many--Body Particle Physics}}, page~41, Amsterdam, 1988. North Holland.
 
 \bibitem[Bertsch and Broglia(2005)]{Bertsch:05}
-G.~Bertsch and R.~Broglia.
+G.~Bertsch and R.~A. Broglia.
 \newblock \emph{Oscillations in Finite Quantum Systems}.
 \newblock Cambridge University Press, Cambridge, 2005.
 
@@ -147,20 +148,15 @@ P.~F. Bortignon, R.~A. Broglia, and C.~H. Dasso.
 \newblock \emph{Giant Resonances}.
 \newblock Harwood Academic Publishers, Amsterdam, 1998.
 
-\bibitem[Brink(1955)]{Brink:55}
+\bibitem[Brink(1955 (unpublished))]{Brink:55}
 D.~M. Brink.
 \newblock \emph{{PhD Thesis}}.
-\newblock Oxford University, 1955.
+\newblock Oxford University, 1955 (unpublished).
 
 \bibitem[{Brink, D.} and Broglia(2005)]{Brink:05}
 {Brink, D.} and R.~A. Broglia.
 \newblock \emph{Nuclear Superfluidity}.
 \newblock Cambridge University Press, Cambridge, 2005.
-
-\bibitem[Broglia and Winther(2005)]{Broglia:05c}
-R.~Broglia and A.~Winther.
-\newblock \emph{Heavy Ion Reactions, 2nd ed.}
-\newblock Westview Press, Perseus Books, Boulder, 2005.
 
 \bibitem[Broglia et~al.(2004)Broglia, Col{\'{o}}, Onida, and
   Roman]{Broglia:04b}
@@ -212,7 +208,7 @@ R.~A. Broglia, C.~Riedel, and T.~Udagawa.
 
 \bibitem[{Broglia, R. A. and Zelevinsky, V.}(2013)]{Broglia:13}
 {Broglia, R. A. and Zelevinsky, V.}
-\newblock {}.
+\newblock {Preface}.
 \newblock In R.~A. Broglia and V.~Zelevinsky, editors, \emph{50 Years of
   Nuclear BCS}. World Scientific, Singapore, 2013.
 
@@ -228,20 +224,27 @@ M.~H. Cohen, L.~M. Falicov, and J.~C. Phillips.
 \newblock Superconductive tunneling.
 \newblock \emph{Phys. Rev. Lett.}, 8:\penalty0 316, 1962.
 
-\bibitem[Cooper(2011)]{Cooper:11}
-L.~Cooper.
-\newblock In L.~Cooper and D.~Feldman, editors, \emph{BCS: 50 years}. World
-  Scientific, Singapore, 2011.
-
 \bibitem[Cooper(1956)]{Cooper:56}
 L.~N. Cooper.
 \newblock Bound electron pairs in a degenerate fermi gas.
 \newblock \emph{Phys. Rev.}, 104:\penalty0 1189, 1956.
 
+\bibitem[Cooper(2011)]{Cooper:11}
+L.~N. Cooper.
+\newblock {Rememberance of Superconductivity Past, p.3}.
+\newblock In L.~Cooper and D.~Feldman, editors, \emph{BCS: 50 years}. World
+  Scientific, Singapore, 2011.
+
 \bibitem[de~Gennes(1994)]{deGennes:94}
 P.~G. de~Gennes.
 \newblock \emph{{Les objets fragiles}}.
 \newblock Plon, Paris, 1994.
+
+\bibitem[{Dickhoff, W.} and Van~Neck(2005)]{Dickhoff:05}
+{Dickhoff, W.} and D.~Van~Neck.
+\newblock \emph{{Many--Body Theory Exposed: Propagator description of quantum
+  mechanics in many--body systems}}.
+\newblock World Scientific, Singapore, 2005.
 
 \bibitem[{Ferreira, L.} et~al.(1984){Ferreira, L.}, Liotta, Dasso, Broglia, and
   Winther]{Ferreira:84}
@@ -259,17 +262,16 @@ G.~Gori, F.~Barranco, E.~Vigezzi, and R.~A. Broglia.
 \newblock {Parity inversion and breakdown of shell closure in Be isotopes}.
 \newblock \emph{Phys. Rev. C}, 69:\penalty0 041302, 2004.
 
+\bibitem[Gor'kov(1958)]{Gorkov:58}
+L.~P. Gor'kov.
+\newblock About the energy spectrum of superconductors.
+\newblock \emph{Soviet Phys. JETP}, 7:\penalty0 505, 1958.
+
 \bibitem[{Gor'kov, L.P.}(1959)]{Gorkov:59}
 {Gor'kov, L.P.}
 \newblock {Microscopic derivation of the Ginzburg--Landau eqautions in the
   theory of superconductivity}.
 \newblock \emph{Soviet Phys. JETP}, 9:\penalty0 1364, 1959.
-
-\bibitem[{G.S. Stent}(1980)]{Stent:80}
-{G.S. Stent}.
-\newblock {}.
-\newblock In G.~Stent, editor, \emph{The double helix}. Norton and Co., New
-  York, 1980.
 
 \bibitem[{Guazzoni, P.} et~al.(2006){Guazzoni, P.}, Zetta, Covello, Gargano,
   Bayman, Graw, Hertenberger, Wirth, and Jaskola]{Guazzoni:06}
@@ -340,7 +342,7 @@ B.~D. Josephson.
 
 \bibitem[Kadin(2007)]{Kadin:07}
 A.~M. Kadin.
-\newblock Spatial structure of the cooper pair.
+\newblock {Spatial Structure of the Cooper Pair}.
 \newblock \emph{Journal of Superconductivity and Novel Magnetism}, 20:\penalty0
   285, 2007.
 
@@ -348,6 +350,11 @@ A.~M. Kadin.
 J.~B. Ketterson and S.~N. Song.
 \newblock \emph{{Superconductivity}}.
 \newblock Cambridge University Press, Cambridge, 1999.
+
+\bibitem[Kisslinger and {S\o{}rensen}(1963)]{Kisslinger:63}
+L.~S. Kisslinger and R.~A. {S\o{}rensen}.
+\newblock Spherical nuclei with simple residual forces.
+\newblock \emph{Review of Modern Physics}, 35:\penalty0 853, 1963.
 
 \bibitem[Kittel(1996)]{Kittel:96}
 C.~Kittel.
@@ -364,8 +371,8 @@ C.~Kittel.
   neutron-dripline nucleus {$^{11}$Li}.
 \newblock \emph{Physics Letters B}, 232:\penalty0 51, 1989.
 
-\bibitem[{Le Tourneaux}(1965)]{LeTourneaux:65}
-{Le Tourneaux}.
+\bibitem[Le~Tourneaux(1965)]{LeTourneaux:65}
+J.~Le~Tourneaux.
 \newblock \emph{Mat. Fys. Medd. Dan. Vid. Selsk.}, 34, 1965.
 
 \bibitem[Leggett(2006)]{Leggett:06}
@@ -405,6 +412,17 @@ P.~Lotti, F.~Cazzola, P.~F. Bortignon, R.~A. Broglia, and A.~Vitturi.
 D.~G. McDonald.
 \newblock The nobel laureate versus the graduate student.
 \newblock \emph{Physics Today}, page~46, July 2001.
+
+\bibitem[{M{\o{}}ller, P. \textit{et al.}}(1995)]{Moller:95}
+{M{\o{}}ller, P. \textit{et al.}}
+\newblock About the energy spectrum of superconductors.
+\newblock \emph{Atom. Data Nucl. Data, Nuclear Data Table}, 59:\penalty0 185,
+  1995.
+
+\bibitem[Monod(1970)]{Monod:70}
+J.~Monod.
+\newblock \emph{Le hasard et la n\'ec\'essit\'e}.
+\newblock Editions du seuil, Paris, 1970.
 
 \bibitem[Montanari et~al.(2014)Montanari, Corradi, Szilner, Pollarolo,
   Fioretto, Montagnoli, Scarlassara, Stefanini, Courtin, Goasduff, Haas,
@@ -457,7 +475,14 @@ G.~Potel, F.~Barranco, E.~Vigezzi, and R.~A. Broglia.
 G.~Potel, A.~Idini, F.~Barranco, E.~Vigezzi, and R.~A. Broglia.
 \newblock {Nuclear Field Theory predictions for $^{11}$Li and $^{12}$Be:
   shedding light on the origin of pairing in nuclei}.
-\newblock \emph{Phys. At. Nucl.}, 7:\penalty0 941, 2014.
+\newblock \emph{Phys. At. Nucl.}, 77:\penalty0 941, 2014.
+
+\bibitem[Potel et~al.(2017)Potel, Idini, Barranco, Vigezzi, and
+  Broglia]{Potel:17}
+G.~Potel, A.~Idini, F.~Barranco, E.~Vigezzi, and R.~A. Broglia.
+\newblock {From bare to renormalized order parameter in gauge space: structure
+  and reactions}.
+\newblock \emph{Phys. Rev C}, 96:\penalty0 034606, 2017.
 
 \bibitem[{Potel, G.} et~al.(2013{\natexlab{a}}){Potel, G.}, Idini, Barranco,
   Vigezzi, and Broglia]{Potel:13}
@@ -483,11 +508,11 @@ J.~J. Sakurai.
 \newblock \emph{{Modern Quantum Mechanics}}.
 \newblock Addison-Wesley, Cambridge, MA, 1994.
 
-\bibitem[{Sargsyan, V. V.} et~al.(2013){Sargsyan, V. V.}, Scamps, Adamian,
-  Antonenko, and Lacroix]{Sargsyan:13}
-{Sargsyan, V. V.}, G.~Scamps, G.~G. Adamian, N.~V. Antonenko, and D.~Lacroix.
-\newblock Neutron pair transfer in sub--barrier capture processes.
-\newblock \emph{arXiv:1311.4353v1}, 2013.
+\bibitem[Sargsyan et~al.(2013)Sargsyan, Scamps, Adamian, Antonenko, and
+  Lacroix]{Sargsyan:13}
+V.~V. Sargsyan, G.~Scamps, G.~G. Adamian, N.~V. Antonenko, and D.~Lacroix.
+\newblock Neutron-pair transfer in the sub-barrier capture process.
+\newblock \emph{Phys. Rev. C}, 88:\penalty0 064601, 2013.
 
 \bibitem[Satchler(1980)]{Satchler:80}
 G.~Satchler.
@@ -504,6 +529,11 @@ V.~G. Soloviev.
 \newblock Quasi--particle and collective structure of the states of even,
   strongly-deformed nuclei.
 \newblock \emph{Nuclear Physics}, 69\penalty0 (1):\penalty0 1, 1965.
+
+\bibitem[Stent(1980)]{Stent:80}
+G.~S. Stent.
+\newblock In G.~Stent, editor, \emph{The double helix}. Norton and Co., New
+  York, 1980.
 
 \bibitem[{Tanihata, I.} et~al.(2008){Tanihata, I.}, Alcorta, Bandyopadhyay,
   Bieri, Buchmann, Davids, Galinski, Howell, Mills, Mythili, Openshaw,
@@ -544,7 +574,7 @@ W.~von Oertzen and A.~Vitturi.
 
 \bibitem[Weinberg(2011)]{Weinberg:11}
 L.~Weinberg.
-\newblock Bcs: 50 years.
+\newblock {From BCS to the LHC}.
 \newblock In L.~Cooper and D.~Feldman, editors, \emph{BCS: 50 years}. World
   Scientific, Singapore, 2011.
 

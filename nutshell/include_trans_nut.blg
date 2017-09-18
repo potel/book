@@ -3,28 +3,31 @@ Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
 The top-level auxiliary file: include_trans_nut.aux
 The style file: abbrvnat.bst
 Database file #1: ../nuclear_bib.bib
-You're missing a field name---line 2893 of file ../nuclear_bib.bib
+"{" immediately follows a field name---line 298 of file ../nuclear_bib.bib
+ :   journal = {Physical Review},@article
+ :                                       {PhysRev.75.388,
+I'm skipping whatever remains of this entry
+I was expecting a `,' or a `}'---line 564 of file ../nuclear_bib.bib
+ :   volume = 16
+ :              C,
+I'm skipping whatever remains of this entry
+You're missing a field name---line 2970 of file ../nuclear_bib.bib
  : year = {1973},
  :               ,
 I'm skipping whatever remains of this entry
-I was expecting a `,' or a `}'---line 3490 of file ../nuclear_bib.bib
- :   
- :   year = 1975,
-(Error may have been on previous line)
+"{" immediately follows a field name---line 3891 of file ../nuclear_bib.bib
+ : @article{Schmid:66,@article
+ :                            {Jenning:11,
 I'm skipping whatever remains of this entry
-I was expecting a `,' or a `}'---line 3920 of file ../nuclear_bib.bib
- :   pages = 117
- :              ;
-I'm skipping whatever remains of this entry
-Repeated entry---line 4368 of file ../nuclear_bib.bib
+Repeated entry---line 4497 of file ../nuclear_bib.bib
  : @article{Bortignon:83
  :                      ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 4598 of file ../nuclear_bib.bib
+Repeated entry---line 4731 of file ../nuclear_bib.bib
  : @book{DeGennes:94
  :                  ,
 I'm skipping whatever remains of this entry
-I was expecting a `,' or a `}'---line 4656 of file ../nuclear_bib.bib
+I was expecting a `,' or a `}'---line 4789 of file ../nuclear_bib.bib
  :   pages = 210
  :              (R),
 I'm skipping whatever remains of this entry
@@ -35,54 +38,53 @@ Name 3 in "{Bjerregaard, J. H.} and Hansen, O. and Nathan, and Hinds, S." has a 
 while executing---line 1347 of file abbrvnat.bst
 Warning--can't use both author and editor fields in Ambegaokar:69
 Warning--can't use both author and editor fields in Ashcroft:87
-Warning--empty title in Bertsch:88b
 Name 3 in "{Bjerregaard, J. H.} and Hansen, O. and Nathan, and Hinds, S." has a comma at the end for entry Bjerregaard:66b
 while executing---line 1429 of file abbrvnat.bst
 Name 3 in "{Bjerregaard, J. H.} and Hansen, O. and Nathan, and Hinds, S." has a comma at the end for entry Bjerregaard:66b
 while executing---line 1429 of file abbrvnat.bst
 Warning--empty publisher in Brink:55
-Warning--empty title in Cooper:11
 Warning--empty title in LeTourneaux:65
 Warning--empty title in Lindhard:53
-You've used 91 entries,
+Warning--empty title in Stent:80
+You've used 96 entries,
             2773 wiz_defined-function locations,
-            1184 strings with 17955 characters,
-and the built_in function-call counts, 41887 in all, are:
-= -- 3421
-> -- 2863
-< -- 72
-+ -- 975
-- -- 883
-* -- 3320
-:= -- 6766
-add.period$ -- 284
-call.type$ -- 91
-change.case$ -- 532
-chr.to.int$ -- 90
-cite$ -- 189
-duplicate$ -- 1969
-empty$ -- 3291
-format.name$ -- 1012
-if$ -- 8678
-int.to.chr$ -- 2
+            1216 strings with 18614 characters,
+and the built_in function-call counts, 43913 in all, are:
+= -- 3596
+> -- 2962
+< -- 76
++ -- 1011
+- -- 913
+* -- 3472
+:= -- 7089
+add.period$ -- 300
+call.type$ -- 96
+change.case$ -- 557
+chr.to.int$ -- 94
+cite$ -- 198
+duplicate$ -- 2071
+empty$ -- 3475
+format.name$ -- 1049
+if$ -- 9101
+int.to.chr$ -- 3
 int.to.str$ -- 1
-missing$ -- 113
-newline$ -- 460
-num.names$ -- 392
-pop$ -- 1151
+missing$ -- 119
+newline$ -- 486
+num.names$ -- 412
+pop$ -- 1195
 preamble$ -- 1
-purify$ -- 467
+purify$ -- 487
 quote$ -- 0
-skip$ -- 1449
+skip$ -- 1517
 stack$ -- 0
-substring$ -- 791
-swap$ -- 161
+substring$ -- 864
+swap$ -- 168
 text.length$ -- 11
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 891
-warning$ -- 7
-while$ -- 348
+type$ -- 941
+warning$ -- 6
+while$ -- 368
 width$ -- 0
-write$ -- 1206
-(There were 9 error messages)
+write$ -- 1274
+(There were 10 error messages)

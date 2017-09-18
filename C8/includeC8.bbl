@@ -1,9 +1,17 @@
-\begin{thebibliography}{87}
+\begin{thebibliography}{98}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \expandafter\ifx\csname urlstyle\endcsname\relax
   \providecommand{\doi}[1]{doi: #1}\else
   \providecommand{\doi}{doi: \begingroup \urlstyle{rm}\Url}\fi
+
+\bibitem[Ajzenberg-Selove et~al.(1978)Ajzenberg-Selove, Flynn, and
+  Hansen]{AjzenbergSelove:78}
+F.~Ajzenberg-Selove, E.~R. Flynn, and O.~Hansen.
+\newblock ($t,p$) reactions on $^{4}\mathrm{He}$, $^{6}\mathrm{Li}$,
+  $^{7}\mathrm{Li}$, $^{9}\mathrm{Be}$, $^{10}\mathrm{B}$, $^{11}\mathrm{B}$,
+  and $^{12}\mathrm{C}$.
+\newblock \emph{Phys. Rev. C}, 17:\penalty0 1283, 1978.
 
 \bibitem[An and Cai(2006)]{An:06}
 H.~An and C.~Cai.
@@ -31,6 +39,12 @@ D.~Auton.
 P.~Avogadro, F.~Barranco, R.~A. Broglia, and E.~Vigezzi.
 \newblock Quantum calculation of vortices in the inner crust of neutron stars.
 \newblock \emph{Phys. Rev. C}, 75:\penalty0 012805, 2007.
+
+\bibitem[Avogadro et~al.(2008)Avogadro, Barranco, Broglia, and
+  Vigezzi]{Avogadro:08}
+P.~Avogadro, F.~Barranco, R.~Broglia, and E.~Vigezzi.
+\newblock Vortex nucleus interaction in the inner crust of neutron stars.
+\newblock \emph{Nuclear Physics A}, 811\penalty0 (3):\penalty0 378, 2008.
 
 \bibitem[Axel(1962)]{Axel:62}
 P.~Axel.
@@ -92,18 +106,22 @@ B.~F. Bayman and B.~H. Feng.
 \newblock Giant resonances in hot nuclei.
 \newblock \emph{Physics Today}, 39 (8):\penalty0 44, 1986.
 
-\bibitem[B{\`{e}}s and Broglia(1975)]{Bes:75}
-D.~R. B{\`{e}}s and R.~A. Broglia.
-\newblock {Equivalence between Feynman--Goldstone and particle--phonon diagrams
-  for finite many body systems}.
-\newblock In G.~Alaga, V.~Paar, and L.~Sips, editors, \emph{{Problems of
-  Vibrational Nuclei, in Procs. of the topical Conference on Problems of
-  Vibrational Nuclei}}, page~1, Amsterdam, 1975. North Holland.
+\bibitem[B{\`{e}}s et~al.(1972)B{\`{e}}s, Broglia, and Nilsson]{Bes:72}
+D.~R. B{\`{e}}s, R.~A. Broglia, and B.~Nilsson.
+\newblock Importance of the quadrupole pairing field in the {J}$^\pi = 0^+$
+  vibrations of shape deformed nuclei.
+\newblock \emph{Physics Letters B}, 40:\penalty0 338, 1972.
+
+\bibitem[B{\`{e}}s et~al.(1975)B{\`{e}}s, Broglia, and Nilsson]{Bes:75c}
+D.~R. B{\`{e}}s, R.~A. Broglia, and B.~Nilsson.
+\newblock Microscopic description of isoscalar and isovector giant quadrupole
+  resonances.
+\newblock \emph{Phys. Rep.}, 16, 1975.
 
 \bibitem[{B{\`{e}}s, D. R.} and Broglia(1966)]{Bes:66}
 {B{\`{e}}s, D. R.} and R.~A. Broglia.
 \newblock Pairing vibrations.
-\newblock \emph{Nucl. Phydwells.}, 80:\penalty0 289, 1966.
+\newblock \emph{Nucl. Phys.}, 80:\penalty0 289, 1966.
 
 \bibitem[Bjorken and Drell(1998)]{Bjorken:98}
 J.~B. Bjorken and S.~D. Drell.
@@ -142,6 +160,12 @@ M.~Born.
 \newblock \emph{Natural philosophy of cause and chance}.
 \newblock Oxford University Press, Oxford, 1948.
 
+\bibitem[Born(1964)]{Born:64}
+M.~Born.
+\newblock \emph{{Nobel Lecture, (1954), The statistical interpretation of
+  quantum mechanics, Nobel Lectures, Physics 1942-1962, p. 256}}.
+\newblock Elsevier, 1964.
+
 \bibitem[{Bortignon, P. F.} et~al.(1978){Bortignon, P. F.}, Broglia, and
   B{\`{e}}s]{Bortignon:78}
 {Bortignon, P. F.}, R.~A. Broglia, and D.~R. B{\`{e}}s.
@@ -176,6 +200,14 @@ R.~A. Broglia, C.~Riedel, and T.~Udagawa.
   relation to inelastic scattering.
 \newblock \emph{Nuclear Physics A}, 169:\penalty0 225, 1971.
 
+\bibitem[Broglia et~al.(2016)Broglia, Bortignon, Barranco, Vigezzi, Idini, and
+  Potel]{Broglia:16}
+R.~A. Broglia, P.~F. Bortignon, F.~Barranco, E.~Vigezzi, A.~Idini, and
+  G.~Potel.
+\newblock {Unified description of structure and reactions: implementing the
+  Nuclear Field Theory program}.
+\newblock \emph{Phys. Scr.}, 91:\penalty0 063012, 2016.
+
 \bibitem[{Broglia, R. A.}(2002)]{Broglia:02d}
 {Broglia, R. A.}
 \newblock The surfaces of compact systems: from nuclei to stars.
@@ -187,6 +219,14 @@ A.~Calci, P.~Navr\'atil, R.~Roth, J.~Dohet-Eraly, S.~Quaglioni, and G.~Hupin.
 \newblock Can ab initio theory explain the phenomenon of parity inversion in
   $^{11}\mathrm{Be}$?
 \newblock \emph{Phys. Rev. Lett.}, 117:\penalty0 242501, 2016.
+
+\bibitem[Casten et~al.(1972)Casten, Flynn, Garrett, Hansen, Mulligan,
+  B{\`{e}}s, Broglia, and Nilsson]{Casten:72}
+R.~Casten, E.~Flynn, J.~Garrett, O.~Hansen, T.~Mulligan, D.~B{\`{e}}s,
+  R.~Broglia, and B.~Nilsson.
+\newblock {Search for $(t, p)$ transitions to excited $0^+$ states in the
+  actinide region}.
+\newblock \emph{Physics Letters B}, 40:\penalty0 333, 1972.
 
 \bibitem[de~Diego et~al.(2014)de~Diego, Arias, Lay, and Moro]{deDiego:14}
 R.~de~Diego, J.~M. Arias, J.~A. Lay, and A.~M. Moro.
@@ -205,6 +245,12 @@ A.~Deltuva.
 \newblock Faddeev-type calculation of three-body nuclear reactions including
   core excitation.
 \newblock \emph{Phys. Rev. C}, 88:\penalty0 011601, 2013.
+
+\bibitem[{Flynn, E. R.} et~al.(1972){Flynn, E. R.}, Igo, and Broglia]{Flynn:72}
+{Flynn, E. R.}, G.~J. Igo, and R.~A. Broglia.
+\newblock {Three--phonon monopole and qudrupole pairing vibrational states in
+  $^{206}$Pb}.
+\newblock \emph{Phys. Lett. B}, 41:\penalty0 397, 1972.
 
 \bibitem[Fortier et~al.(1999)Fortier, Pita, Winfield, Catford, Orr, de~Wiele,
   Blumenfeld, Chapman, Chappell, Clarke, Curtis, Freer, Galès, Jones,
@@ -413,6 +459,11 @@ J.~A. Lay, A.~M. Moro, J.~M. Arias, and Y.~Kanada-En'yo.
   nuclei.
 \newblock \emph{Phys. Rev. C}, 89:\penalty0 014333, 2014.
 
+\bibitem[Mehra(1996)]{Mehra:96}
+J.~Mehra.
+\newblock \emph{The beat of a different drum}.
+\newblock Clarendon Press, Oxford, 1996.
+
 \bibitem[N\"ortersh\"auser et~al.(2009)N\"ortersh\"auser, Tiedemann,
   \ifmmode~\check{Z}\else \v{Z}\fi{}\'akov\'a, Andjelkovic, Blaum, Bissell,
   Cazan, Drake, Geppert, Kowalska, Kr\"amer, Krieger, Neugart, S\'anchez,
@@ -458,7 +509,7 @@ G.~Potel, A.~Idini, F.~Barranco, E.~Vigezzi, and R.~A. Broglia.
 G.~Potel, A.~Idini, F.~Barranco, E.~Vigezzi, and R.~A. Broglia.
 \newblock {From bare to renormalized order parameter in gauge space: structure
   and reactions}.
-\newblock \emph{arXiv:1705.11083v1 [nucl-th]}, 2017.
+\newblock \emph{Phys. Rev C}, 96:\penalty0 034606, 2017.
 
 \bibitem[{Potel, G.} et~al.(2013{\natexlab{a}}){Potel, G.}, Idini, Barranco,
   Vigezzi, and Broglia]{Potel:13}
@@ -472,6 +523,11 @@ G.~Potel, A.~Idini, F.~Barranco, E.~Vigezzi, and R.~A. Broglia.
 \newblock {Quantitative study of coherent pairing modes with two--neutron
   transfer: Sn isotopes}.
 \newblock \emph{{Phys. Rev. C}}, 87:\penalty0 054321, 2013{\natexlab{b}}.
+
+\bibitem[Ragnarsson and Broglia(1976)]{Ragnarsson:76}
+I.~Ragnarsson and R.~A. Broglia.
+\newblock Pairing isomers.
+\newblock \emph{Nuclear Physics A}, 263:\penalty0 315, 1976.
 
 \bibitem[Repko et~al.(2013)Repko, Reinhard, Nestrenko, and Kvasil]{Repko:13}
 A.~Repko, P.~G. Reinhard, V.~O. Nestrenko, and J.~Kvasil.
@@ -500,7 +556,7 @@ K.~T. Schmitt, K.~L. Jones, S.~Ahn, D.~W. Bardayan, A.~Bey, J.~C. Blackmon,
   C.~D. Nesaraja, F.~M. Nunes, P.~D. O'Malley, S.~D. Pain, W.~A. Peters, S.~T.
   Pittman, A.~Roberts, D.~Shapira, J.~F. Shriner, M.~S. Smith, I.~Spassova,
   D.~W. Stracener, N.~J. Upadhyay, A.~N. Villano, and G.~L. Wilson.
-\newblock Reactions of a ${}^{10}$be beam on proton and deuteron targets.
+\newblock {Reactions of a ${}^{10}$Be beam on proton and deuteron targets}.
 \newblock \emph{Phys. Rev. C}, 88:\penalty0 064612, 2013.
 
 \bibitem[Schrieffer(1964)]{Schrieffer:64}
@@ -515,7 +571,8 @@ J.~Schrieffer.
 
 \bibitem[Talmi and Unna(1960)]{Talmi:60}
 I.~Talmi and I.~Unna.
-\newblock Order of levels in the shell model and spin of ${\mathrm{be}}^{11}$.
+\newblock {Order of Levels in the Shell Model and Spin of
+  ${\mathrm{Be}}^{11}$}.
 \newblock \emph{Phys. Rev. Lett.}, 4:\penalty0 469, 1960.
 
 \bibitem[{Tamura, T.} et~al.(1970){Tamura, T.}, {B\`{e}s}, Broglia, and
@@ -554,6 +611,11 @@ J.~Valatin.
 \newblock {Comments on the theory of superconductivity}.
 \newblock \emph{Il Nuovo Cimento}, 7:\penalty0 843, 1958.
 
+\bibitem[{Van der Waerden}(1967)]{VanderWaerden:67}
+V.~L. {Van der Waerden}.
+\newblock \emph{Sources of quantum mechanics}.
+\newblock Dover, New York, 1967.
+
 \bibitem[Vinh~Mau(1995)]{Vinh:95}
 N.~Vinh~Mau.
 \newblock Particle-vibration coupling in one neutron halo nuclei.
@@ -570,6 +632,12 @@ J.~Winfield, S.~Fortier, W.~Catford, S.~Pita, N.~Orr, J.~V. de~Wiele,
 \newblock {Single-neutron transfer from $^{11}$Be$_{gs}$ via the $(p,d)$
   reaction with a radioactive beam}.
 \newblock \emph{Nuclear Physics A}, 683:\penalty0 48, 2001.
+
+\bibitem[Young and Stokes(1971)]{Young:71}
+P.~G. Young and R.~H. Stokes.
+\newblock {New States in $^{9}\mathrm{Li}$ from the Reaction
+  $^{7}\mathrm{Li}(t,p)^{9}\mathrm{Li}$}.
+\newblock \emph{Phys. Rev. C}, 4:\penalty0 1597, 1971.
 
 \bibitem[Zwieglinski et~al.(1979)Zwieglinski, Benenson, Robertson, and
   Coker]{Zwieglinski:79}

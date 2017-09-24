@@ -13,11 +13,11 @@ Illegal, another \bibdata command---line 600 of file introduccion/introduccion.a
  :         {../nuclear_bib}
 I'm skipping whatever remains of this command
 A level-1 auxiliary file: nutshell/include_struct_nut.aux
-Illegal, another \bibstyle command---line 413 of file nutshell/include_struct_nut.aux
+Illegal, another \bibstyle command---line 429 of file nutshell/include_struct_nut.aux
  : \bibstyle
  :          {abbrvnat}
 I'm skipping whatever remains of this command
-Illegal, another \bibdata command---line 414 of file nutshell/include_struct_nut.aux
+Illegal, another \bibdata command---line 430 of file nutshell/include_struct_nut.aux
  : \bibdata
  :         {../nuclear_bib}
 I'm skipping whatever remains of this command
@@ -36,11 +36,11 @@ Illegal, another \bibdata command---line 411 of file nutshell/include_trans_nut.
  :         {../nuclear_bib}
 I'm skipping whatever remains of this command
 A level-1 auxiliary file: C6/includeC6.aux
-Illegal, another \bibstyle command---line 337 of file C6/includeC6.aux
+Illegal, another \bibstyle command---line 354 of file C6/includeC6.aux
  : \bibstyle
  :          {abbrvnat}
 I'm skipping whatever remains of this command
-Illegal, another \bibdata command---line 338 of file C6/includeC6.aux
+Illegal, another \bibdata command---line 355 of file C6/includeC6.aux
  : \bibdata
  :         {../nuclear_bib}
 I'm skipping whatever remains of this command
@@ -70,7 +70,7 @@ Illegal, another \bibdata command---line 24 of file main_libro.aux
  : \bibdata
  :         {./nuclear_bib}
 I'm skipping whatever remains of this command
-Reallocated field_info (elt_size=4) to 15500 items from 5000.
+Reallocated field_info (elt_size=4) to 15556 items from 5000.
 Database file #1: ./nuclear_bib.bib
 "{" immediately follows a field name---line 298 of file ./nuclear_bib.bib
  :   journal = {Physical Review},@article
@@ -339,45 +339,45 @@ while executing---line 1429 of file abbrvnat.bst
 Name 1 in "Saperstein, E. E., and Baldo, M." has a comma at the end for entry Saperstein:12
 while executing---line 1429 of file abbrvnat.bst
 Warning--empty title in Stent:80
-You've used 372 entries,
+You've used 374 entries,
             2773 wiz_defined-function locations,
-            2683 strings with 60589 characters,
-and the built_in function-call counts, 176731 in all, are:
-= -- 14525
-> -- 12534
-< -- 266
-+ -- 4266
-- -- 3880
-* -- 14452
-:= -- 28504
-add.period$ -- 1154
-call.type$ -- 372
-change.case$ -- 2327
-chr.to.int$ -- 358
-cite$ -- 763
-duplicate$ -- 7918
-empty$ -- 13434
-format.name$ -- 4427
-if$ -- 36427
+            2693 strings with 61088 characters,
+and the built_in function-call counts, 178271 in all, are:
+= -- 14642
+> -- 12702
+< -- 267
++ -- 4322
+- -- 3934
+* -- 14603
+:= -- 28760
+add.period$ -- 1160
+call.type$ -- 374
+change.case$ -- 2351
+chr.to.int$ -- 360
+cite$ -- 767
+duplicate$ -- 7959
+empty$ -- 13509
+format.name$ -- 4485
+if$ -- 36730
 int.to.chr$ -- 15
 int.to.str$ -- 1
-missing$ -- 424
-newline$ -- 1865
-num.names$ -- 1556
-pop$ -- 4622
+missing$ -- 426
+newline$ -- 1875
+num.names$ -- 1564
+pop$ -- 4666
 preamble$ -- 1
-purify$ -- 2014
+purify$ -- 2036
 quote$ -- 0
-skip$ -- 6022
+skip$ -- 6066
 stack$ -- 0
-substring$ -- 3780
-swap$ -- 606
+substring$ -- 3814
+swap$ -- 608
 text.length$ -- 36
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 3827
+type$ -- 3849
 warning$ -- 18
-while$ -- 1447
+while$ -- 1455
 width$ -- 0
-write$ -- 4890
+write$ -- 4916
 (There were 123 error messages)

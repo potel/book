@@ -1,74 +1,77 @@
-This is BibTeX, Version 0.99d (TeX Live 2013/Debian)
+This is BibTeX, Version 0.99d (TeX Live 2015/Debian)
 Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
 The top-level auxiliary file: includeC6.aux
 The style file: abbrvnat.bst
 Database file #1: ../nuclear_bib.bib
-You're missing a field name---line 2890 of file ../nuclear_bib.bib
+"{" immediately follows a field name---line 298 of file ../nuclear_bib.bib
+ :   journal = {Physical Review},@article
+ :                                       {PhysRev.75.388,
+I'm skipping whatever remains of this entry
+I was expecting a `,' or a `}'---line 564 of file ../nuclear_bib.bib
+ :   volume = 16
+ :              C,
+I'm skipping whatever remains of this entry
+You're missing a field name---line 2970 of file ../nuclear_bib.bib
  : year = {1973},
  :               ,
 I'm skipping whatever remains of this entry
-I was expecting a `,' or a `}'---line 3487 of file ../nuclear_bib.bib
- :   
- :   year = 1975,
-(Error may have been on previous line)
-I'm skipping whatever remains of this entry
 Warning--I'm ignoring Pauli:47's extra "year" field
---line 3657 of file ../nuclear_bib.bib
-I was expecting a `,' or a `}'---line 3917 of file ../nuclear_bib.bib
- :   pages = 117
- :              ;
+--line 3768 of file ../nuclear_bib.bib
+"{" immediately follows a field name---line 3891 of file ../nuclear_bib.bib
+ : @article{Schmid:66,@article
+ :                            {Jenning:11,
 I'm skipping whatever remains of this entry
-Repeated entry---line 4123 of file ../nuclear_bib.bib
+Repeated entry---line 4249 of file ../nuclear_bib.bib
  : @article{Thompson:88
  :                     ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 4365 of file ../nuclear_bib.bib
+Repeated entry---line 4497 of file ../nuclear_bib.bib
  : @article{Bortignon:83
  :                      ,
 I'm skipping whatever remains of this entry
-I was expecting a `,' or a `}'---line 4645 of file ../nuclear_bib.bib
+I was expecting a `,' or a `}'---line 4789 of file ../nuclear_bib.bib
  :   pages = 210
  :              (R),
 I'm skipping whatever remains of this entry
-You've used 75 entries,
+You've used 77 entries,
             2773 wiz_defined-function locations,
-            1076 strings with 16087 characters,
-and the built_in function-call counts, 33307 in all, are:
-= -- 2733
-> -- 2260
+            1091 strings with 16552 characters,
+and the built_in function-call counts, 34419 in all, are:
+= -- 2825
+> -- 2347
 < -- 46
-+ -- 769
-- -- 692
-* -- 2678
-:= -- 5391
-add.period$ -- 232
-call.type$ -- 75
-change.case$ -- 434
-chr.to.int$ -- 73
-cite$ -- 150
-duplicate$ -- 1556
-empty$ -- 2622
-format.name$ -- 805
-if$ -- 6856
++ -- 798
+- -- 719
+* -- 2783
+:= -- 5569
+add.period$ -- 238
+call.type$ -- 77
+change.case$ -- 449
+chr.to.int$ -- 75
+cite$ -- 154
+duplicate$ -- 1598
+empty$ -- 2700
+format.name$ -- 834
+if$ -- 7082
 int.to.chr$ -- 3
 int.to.str$ -- 1
-missing$ -- 94
-newline$ -- 385
-num.names$ -- 308
-pop$ -- 883
+missing$ -- 96
+newline$ -- 395
+num.names$ -- 316
+pop$ -- 908
 preamble$ -- 1
-purify$ -- 378
+purify$ -- 391
 quote$ -- 0
-skip$ -- 1156
+skip$ -- 1189
 stack$ -- 0
-substring$ -- 633
-swap$ -- 93
+substring$ -- 673
+swap$ -- 95
 text.length$ -- 3
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 730
+type$ -- 752
 warning$ -- 0
-while$ -- 280
+while$ -- 288
 width$ -- 0
-write$ -- 987
-(There were 6 error messages)
+write$ -- 1014
+(There were 7 error messages)

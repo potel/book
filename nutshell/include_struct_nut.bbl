@@ -1,4 +1,4 @@
-\begin{thebibliography}{148}
+\begin{thebibliography}{153}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \expandafter\ifx\csname urlstyle\endcsname\relax
@@ -58,6 +58,11 @@ J.~Bardeen, L.~N. Cooper, and J.~R. Schrieffer.
 J.~Bardeen, L.~N. Cooper, and J.~R. Schrieffer.
 \newblock Theory of superconductivity.
 \newblock \emph{Physical Review}, 108:\penalty0 1175, 1957{\natexlab{b}}.
+
+\bibitem[Barranco and Broglia(1987)]{Barranco:87a}
+F.~Barranco and R.~A. Broglia.
+\newblock Effect of surface fluctuations on the nuclear density.
+\newblock \emph{Phys. Rev. Lett.}, 59:\penalty0 2724, 1987.
 
 \bibitem[Barranco et~al.(1987)Barranco, Gallardo, and Broglia]{Barranco:87b}
 F.~Barranco, M.~Gallardo, and R.~A. Broglia.
@@ -236,6 +241,12 @@ A.~Bohr and B.~R. Mottelson.
 \newblock \emph{Nuclear Structure, Vol.I}.
 \newblock Benjamin, New York, 1969.
 
+\bibitem[Bohr et~al.(1958)Bohr, Mottelson, and Pines]{Bohr:58}
+A.~Bohr, B.~R. Mottelson, and D.~Pines.
+\newblock Possible analogy between the excitation spectra of nuclei and those
+  of the superconducting metallic state.
+\newblock \emph{Physical Review}, 110:\penalty0 936, 1958.
+
 \bibitem[{Bohr, A.} and Mottelson(1975)]{Bohr:75}
 {Bohr, A.} and B.~R. Mottelson.
 \newblock \emph{Nuclear Structure, Vol.II}.
@@ -326,6 +337,16 @@ R.~A. Broglia, J.~Terasaki, and N.~Giovanardi.
 {C. Bachelet {et al.}}
 \newblock {New Binding Energy for the Two-Neutron Halo of $^{11}$Li}.
 \newblock \emph{Phys. Rev. Lett.}, 100:\penalty0 182501, 2008.
+
+\bibitem[Cavallaro et~al.(2017)Cavallaro, De~Napoli, Cappuzzello, Orrigo,
+  Agodi, Bond\'{\i}, Carbone, Cunsolo, Davids, Davinson, Foti, Galinski,
+  Kanungo, Lenske, Ruiz, and Sanetullaev]{Cavallaro:17}
+M.~Cavallaro, M.~De~Napoli, F.~Cappuzzello, S.~E.~A. Orrigo, C.~Agodi,
+  M.~Bond\'{\i}, D.~Carbone, A.~Cunsolo, B.~Davids, T.~Davinson, A.~Foti,
+  N.~Galinski, R.~Kanungo, H.~Lenske, C.~Ruiz, and A.~Sanetullaev.
+\newblock Investigation of the $^{10}\mathrm{Li}$ shell inversion by neutron
+  continuum transfer reaction.
+\newblock \emph{Phys. Rev. Lett.}, 118:\penalty0 012701, 2017.
 
 \bibitem[{Clark, R. M.} et~al.(2006){Clark, R. M.}, Macchiavelli, Fortunato,
   and Kr\"ucken]{Clark:06}
@@ -569,6 +590,18 @@ K.~Ieki, D.~Sackett, A.~Galonsky, C.~A. Bertulani, J.~J. Kruse, W.~G. Lynch,
 \newblock {Coulomb dissociation of $^{11}\mathrm{Li}$}.
 \newblock \emph{Phys. Rev. Lett.}, 70:\penalty0 730, 1993.
 
+\bibitem[Iwasaki et~al.(2000)Iwasaki, Motobayashi, Akiyoshi, Ando, Fukuda,
+  Fujiwara, Fülöp, Hahn, Higurashi, Hirai, Hisanaga, Iwasa, Kijima, Minemura,
+  Nakamura, Notani, Ozawa, Sakurai, Shimoura, Takeuchi, Teranishi, Yanagisawa,
+  and Ishihara]{Iwasaki:00}
+H.~Iwasaki, T.~Motobayashi, H.~Akiyoshi, Y.~Ando, N.~Fukuda, H.~Fujiwara,
+  Z.~Fülöp, K.~Hahn, Y.~Higurashi, M.~Hirai, I.~Hisanaga, N.~Iwasa, T.~Kijima,
+  T.~Minemura, T.~Nakamura, M.~Notani, S.~Ozawa, H.~Sakurai, S.~Shimoura,
+  S.~Takeuchi, T.~Teranishi, Y.~Yanagisawa, and M.~Ishihara.
+\newblock {Quadrupole deformation of $^{12}$Be studied by proton inelastic
+  scattering}.
+\newblock \emph{Physics Letters B}, 481:\penalty0 7, 2000.
+
 \bibitem[{Jenning, B.}(2011)]{Jenning:11}
 {Jenning, B.}
 \newblock Non observability of spectroscopic factors.
@@ -716,7 +749,14 @@ G.~Pollarolo, R.~Broglia, and A.~Winther.
 G.~Potel, A.~Idini, F.~Barranco, E.~Vigezzi, and R.~A. Broglia.
 \newblock {Nuclear Field Theory predictions for $^{11}$Li and $^{12}$Be:
   shedding light on the origin of pairing in nuclei}.
-\newblock \emph{Phys. At. Nucl.}, 7:\penalty0 941, 2014.
+\newblock \emph{Phys. At. Nucl.}, 77:\penalty0 941, 2014.
+
+\bibitem[Potel et~al.(2017)Potel, Idini, Barranco, Vigezzi, and
+  Broglia]{Potel:17}
+G.~Potel, A.~Idini, F.~Barranco, E.~Vigezzi, and R.~A. Broglia.
+\newblock {From bare to renormalized order parameter in gauge space: structure
+  and reactions}.
+\newblock \emph{Phys. Rev C}, 96:\penalty0 034606, 2017.
 
 \bibitem[{Potel, G.} et~al.(2011){Potel, G.}, Barranco, Marini, Idini, Vigezzi,
   and Broglia]{Potel:11}

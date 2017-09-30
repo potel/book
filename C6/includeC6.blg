@@ -35,43 +35,43 @@ I was expecting a `,' or a `}'---line 4789 of file ../nuclear_bib.bib
 I'm skipping whatever remains of this entry
 You've used 77 entries,
             2773 wiz_defined-function locations,
-            1091 strings with 16552 characters,
-and the built_in function-call counts, 34419 in all, are:
-= -- 2825
+            1093 strings with 16597 characters,
+and the built_in function-call counts, 34485 in all, are:
+= -- 2832
 > -- 2347
 < -- 46
 + -- 798
 - -- 719
-* -- 2783
-:= -- 5569
+* -- 2792
+:= -- 5577
 add.period$ -- 238
 call.type$ -- 77
 change.case$ -- 449
 chr.to.int$ -- 75
 cite$ -- 154
-duplicate$ -- 1598
-empty$ -- 2700
+duplicate$ -- 1599
+empty$ -- 2708
 format.name$ -- 834
-if$ -- 7082
+if$ -- 7097
 int.to.chr$ -- 3
 int.to.str$ -- 1
 missing$ -- 96
 newline$ -- 395
 num.names$ -- 316
-pop$ -- 908
+pop$ -- 906
 preamble$ -- 1
 purify$ -- 391
 quote$ -- 0
 skip$ -- 1189
 stack$ -- 0
-substring$ -- 673
+substring$ -- 691
 swap$ -- 95
 text.length$ -- 3
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 752
 warning$ -- 0
-while$ -- 288
+while$ -- 289
 width$ -- 0
-write$ -- 1014
+write$ -- 1015
 (There were 7 error messages)

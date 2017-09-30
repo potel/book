@@ -1,27 +1,68 @@
-This is BibTeX, Version 0.99dThe top-level auxiliary file: includeC7.aux
+This is BibTeX, Version 0.99d (TeX Live 2015/Debian)
+Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
+The top-level auxiliary file: includeC7.aux
 The style file: abbrvnat.bst
-Database file #1: C:/Gregory/Broglia/notas_ricardo/nuclear_bib.bib
-You're missing a field name---line 2762 of file C:/Gregory/Broglia/notas_ricardo/nuclear_bib.bib
+Database file #1: ../nuclear_bib.bib
+"{" immediately follows a field name---line 298 of file ../nuclear_bib.bib
+ :   journal = {Physical Review},@article
+ :                                       {PhysRev.75.388,
+I'm skipping whatever remains of this entry
+I was expecting a `,' or a `}'---line 564 of file ../nuclear_bib.bib
+ :   volume = 16
+ :              C,
+I'm skipping whatever remains of this entry
+You're missing a field name---line 2970 of file ../nuclear_bib.bib
  : year = {1973},
  :               ,
 I'm skipping whatever remains of this entry
-I was expecting a `,' or a `}'---line 3349 of file C:/Gregory/Broglia/notas_ricardo/nuclear_bib.bib
- :   
- :   year = 1975,
-(Error may have been on previous line)
+"{" immediately follows a field name---line 3891 of file ../nuclear_bib.bib
+ : @article{Schmid:66,@article
+ :                            {Jenning:11,
 I'm skipping whatever remains of this entry
-I was expecting a `,' or a `}'---line 3740 of file C:/Gregory/Broglia/notas_ricardo/nuclear_bib.bib
- :   pages = 117
- :              ;
+I was expecting a `,' or a `}'---line 4789 of file ../nuclear_bib.bib
+ :   pages = 210
+ :              (R),
 I'm skipping whatever remains of this entry
-Name 2 in "Born, M. and Jordan, and Heisenberg, W." has a comma at the end for entry Born:25b
-while executing---line 1347 of file abbrvnat.bst
-Name 2 in "Born, M. and Jordan, and Heisenberg, W." has a comma at the end for entry Born:25b
-while executing---line 1429 of file abbrvnat.bst
-Name 2 in "Born, M. and Jordan, and Heisenberg, W." has a comma at the end for entry Born:25b
-while executing---line 1429 of file abbrvnat.bst
-Warning--empty journal in Broglia:75
-Warning--empty year in Broglia:75
-Warning--empty year in Broglia:75
 Warning--empty title in Glauber:69
-(There were 6 error messages)
+You've used 27 entries,
+            2773 wiz_defined-function locations,
+            785 strings with 7986 characters,
+and the built_in function-call counts, 10139 in all, are:
+= -- 878
+> -- 455
+< -- 26
++ -- 161
+- -- 134
+* -- 694
+:= -- 1618
+add.period$ -- 83
+call.type$ -- 27
+change.case$ -- 119
+chr.to.int$ -- 27
+cite$ -- 55
+duplicate$ -- 558
+empty$ -- 947
+format.name$ -- 179
+if$ -- 2135
+int.to.chr$ -- 1
+int.to.str$ -- 1
+missing$ -- 32
+newline$ -- 143
+num.names$ -- 112
+pop$ -- 243
+preamble$ -- 1
+purify$ -- 98
+quote$ -- 0
+skip$ -- 390
+stack$ -- 0
+substring$ -- 245
+swap$ -- 37
+text.length$ -- 2
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 272
+warning$ -- 1
+while$ -- 104
+width$ -- 0
+write$ -- 361
+(There were 5 error messages)

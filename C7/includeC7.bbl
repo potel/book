@@ -1,4 +1,4 @@
-\begin{thebibliography}{26}
+\begin{thebibliography}{27}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \expandafter\ifx\csname urlstyle\endcsname\relax
@@ -42,12 +42,12 @@ M.~Born.
 \newblock \emph{Zeitschr. f. Phys.}, 37:\penalty0 863, 1926.
 
 \bibitem[Born and Jordan(1925)]{Born:25a}
-M.~Born and Jordan.
+M.~Born and P.~Jordan.
 \newblock Zur quantenmechanik.
 \newblock \emph{{Zeitschr. Phys.}}, 34:\penalty0 858, 1925.
 
 \bibitem[Born et~al.(1926)Born, Jordan, and Heisenberg]{Born:25b}
-M.~Born, Jordan, and W.~Heisenberg.
+M.~Born, P.~Jordan, and W.~Heisenberg.
 \newblock {Zur Quantenmechanik II}.
 \newblock \emph{{Zeitschr. Phys.}}, 35:\penalty0 557, 1926.
 
@@ -62,22 +62,24 @@ P.~F. Bortignon and R.~A. Broglia.
 \newblock \emph{Nuclear Superfluidity}.
 \newblock Cambridge University Press, Cambridge, 2005.
 
-\bibitem[Broglia and Winther(2004)]{Broglia:04a}
-R.~Broglia and A.~Winther.
-\newblock \emph{Heavy Ion Reactions}.
-\newblock Westview Press, Boulder, CO., 2004.
-
-\bibitem[Broglia()]{Broglia:75}
+\bibitem[Broglia(1975)]{Broglia:75}
 R.~A. Broglia.
 \newblock {Heavy ion reaction, notes of lectures delivered during the academic
   years 1974--1976 at SUNY, Stony Brook at Brookhaven National Laboratory, and
   at Niels Bohr Institute, unpublished.}
+\newblock \emph{http://www.mi.infn.it/~vigezzi/HIR/HeavyIonReactions.pdf},
+  1975.
 
 \bibitem[Broglia and Riedel(1967)]{Broglia:67}
 R.~A. Broglia and C.~Riedel.
 \newblock Pairing vibration and particle-hole states excited in the reaction
   $^{206}${P}b(t, p)$^{208}${P}b.
 \newblock \emph{Nucl. Phys.}, 92:\penalty0 145, 1967.
+
+\bibitem[Broglia and Winther(2004)]{Broglia:04a}
+R.~A. Broglia and A.~Winther.
+\newblock \emph{Heavy Ion Reactions}.
+\newblock Westview Press, Boulder, CO., 2004.
 
 \bibitem[{Broglia, R.A.} et~al.(1973){Broglia, R.A.}, Hansen, and
   Riedel]{Broglia:73}
@@ -97,6 +99,11 @@ R.~J. Glauber.
   ``Enrico Fermi'' Course XLII on Quantum Optics}, page~15, Academic Press,
   1969. New York.
 
+\bibitem[{Glendenning, N. K.}(1965)]{Glendenning:65}
+{Glendenning, N. K.}
+\newblock {Nuclear Spectroscopy with Two--Nucleon Transfer Reactions}.
+\newblock \emph{Phys. Rev.}, 137:\penalty0 B102, 1965.
+
 \bibitem[Heisenberg(1925)]{Heisenberg:25}
 W.~Heisenberg.
 \newblock {\"{U}ber} quantentheoretische umdeutung kinematischer und
@@ -115,7 +122,7 @@ M.~Moshinsky.
 \newblock \emph{{Nucl. Phys.}}, 13:\penalty0 104, 1959.
 
 \bibitem[Mottelson(1962)]{Mottelson:62}
-B.~Mottelson.
+B.~R. Mottelson.
 \newblock Selected topics in the theory of collective phenomena in nuclei.
 \newblock In G.~Racah, editor, \emph{International School of Physics ``Enrico
   Fermi'' Course {XV} , Nuclear Spectroscopy}, page~44, New York, 1962.

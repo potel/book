@@ -1,4 +1,4 @@
-\begin{thebibliography}{77}
+\begin{thebibliography}{87}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \expandafter\ifx\csname urlstyle\endcsname\relax
@@ -67,6 +67,14 @@ F.~Barranco, M.~Gallardo, and R.~A. Broglia.
 \newblock Nuclear field theory of spin dealignment in strongly rotating nuclei
   and the vacuum polarization induced by pairing vibrations.
 \newblock \emph{Phys. Lett. B}, 198:\penalty0 19, 1987.
+
+\bibitem[Barranco et~al.(2005)Barranco, Bortignon, Broglia, Col\`o, Schuck,
+  Vigezzi, and Vi\~nas]{Barranco:05}
+F.~Barranco, P.~F. Bortignon, R.~A. Broglia, G.~Col\`o, P.~Schuck, E.~Vigezzi,
+  and X.~Vi\~nas.
+\newblock Pairing matrix elements and pairing gaps with bare, effective, and
+  induced interactions.
+\newblock \emph{Phys. Rev. C}, 72:\penalty0 054314, 2005.
 
 \bibitem[Barranco et~al.(2017)Barranco, Potel, Broglia, and
   Vigezzi]{Barranco:17}
@@ -238,6 +246,16 @@ R.~A. Broglia, B.~R. Mottelson, D.~R. B{\`{e}}s, R.~Liotta, and H.~M.
 \newblock \emph{Advances in Nuclear Physics}, 6:\penalty0 287, 1973.
 \newblock URL \url{www.mi.infn.it/?vigezzi/BHR/ BrogliaHansenRiedel.pdf}.
 
+\bibitem[Cavallaro et~al.(2017)Cavallaro, De~Napoli, Cappuzzello, Orrigo,
+  Agodi, Bond\'{\i}, Carbone, Cunsolo, Davids, Davinson, Foti, Galinski,
+  Kanungo, Lenske, Ruiz, and Sanetullaev]{Cavallaro:17}
+M.~Cavallaro, M.~De~Napoli, F.~Cappuzzello, S.~E.~A. Orrigo, C.~Agodi,
+  M.~Bond\'{\i}, D.~Carbone, A.~Cunsolo, B.~Davids, T.~Davinson, A.~Foti,
+  N.~Galinski, R.~Kanungo, H.~Lenske, C.~Ruiz, and A.~Sanetullaev.
+\newblock Investigation of the $^{10}\mathrm{Li}$ shell inversion by neutron
+  continuum transfer reaction.
+\newblock \emph{Phys. Rev. Lett.}, 118:\penalty0 012701, 2017.
+
 \bibitem[Cobb and Guthe(1957)]{Cobb:57}
 W.~R. Cobb and D.~B. Guthe.
 \newblock Angular distribution of protons from the {$^{44}$Ca$(d,p)^{45}$Ca}
@@ -301,6 +319,13 @@ R.~Feynman.
 \newblock \emph{Theory of fundamental processes}.
 \newblock Benjamin, Reading, Mass., 1975.
 
+\bibitem[Flynn et~al.(1972)Flynn, Igo, Broglia, Landowne, Paar, and
+  Nilsson]{Flynn:72b}
+E.~Flynn, G.~Igo, R.~Broglia, S.~Landowne, V.~Paar, and B.~Nilsson.
+\newblock {An experimental and theoretical investigation of the structure of
+  $^{210}$Pb}.
+\newblock \emph{Nuclear Physics A}, 195:\penalty0 97, 1972.
+
 \bibitem[{Fr\"{o}hlich, H.}(1952)]{Frohlich:52}
 {Fr\"{o}hlich, H.}
 \newblock Interaction of electrons with lattice vibrations.
@@ -346,11 +371,26 @@ A.~Idini, G.~Potel, F.~Barranco, E.~Vigezzi, and R.~A. Broglia.
 \newblock {Experimental investigation of the $^9$Li+d reaction at REX-ISOLDE}.
 \newblock \emph{Nucl. Phys. A}, 738:\penalty0 511, 2004.
 
+\bibitem[Kroll and Lamb(1949)]{Kroll:49}
+N.~M. Kroll and W.~E. Lamb.
+\newblock On the self-energy of a bound electron.
+\newblock \emph{Phys. Rev.}, 75:\penalty0 388, 1949.
+
+\bibitem[Lamb and Retherford(1947)]{Lamb:47}
+W.~E. Lamb and R.~C. Retherford.
+\newblock Fine structure of the hydrogen atom by a microwave method.
+\newblock \emph{Phys. Rev.}, 72:\penalty0 241, 1947.
+
 \bibitem[{Mahaux, C.} et~al.(1985){Mahaux, C.}, Bortignon, Broglia, and
   Dasso]{Mahaux:85}
 {Mahaux, C.}, P.~F. Bortignon, R.~A. Broglia, and C.~H. Dasso.
 \newblock Dynamics of the shell model.
 \newblock \emph{Physics Reports}, 120:\penalty0 1--274, 1985.
+
+\bibitem[Mehra(1996)]{Mehra:96}
+J.~Mehra.
+\newblock \emph{The beat of a different drum}.
+\newblock Clarendon Press, Oxford, 1996.
 
 \bibitem[Migdal(1958)]{Migdal:58}
 A.~Migdal.
@@ -394,11 +434,12 @@ G.~Pollarolo, R.~Broglia, and A.~Winther.
 \newblock Calculation of the imaginary part of the heavy ion potential.
 \newblock \emph{Nuclear Physics A}, 406:\penalty0 369, 1983.
 
-\bibitem[Potel et~al.(2010)Potel, Barranco, Vigezzi, and Broglia]{Potel:10}
-G.~Potel, F.~Barranco, E.~Vigezzi, and R.~A. Broglia.
-\newblock {Evidence for phonon mediated pairing interaction in the halo of the
-  nucleus $^{11}$Li}.
-\newblock \emph{Phys. Rev. Lett.}, 105:\penalty0 172502, 2010.
+\bibitem[Potel et~al.(2014)Potel, Idini, Barranco, Vigezzi, and
+  Broglia]{Potel:14}
+G.~Potel, A.~Idini, F.~Barranco, E.~Vigezzi, and R.~A. Broglia.
+\newblock {Nuclear Field Theory predictions for $^{11}$Li and $^{12}$Be:
+  shedding light on the origin of pairing in nuclei}.
+\newblock \emph{Phys. At. Nucl.}, 77:\penalty0 941, 2014.
 
 \bibitem[Potel et~al.(2017)Potel, Idini, Barranco, Vigezzi, and
   Broglia]{Potel:17}
@@ -425,6 +466,28 @@ G.~Potel, A.~Idini, F.~Barranco, E.~Vigezzi, and R.~A. Broglia.
   channel example}.
 \newblock \emph{Nuclear Physics A}, 475:\penalty0 519, 1987.
 
+\bibitem[Rotureau et~al.(2017)Rotureau, Danielewicz, Hagen, Nunes, and
+  Papenbrock]{Rotureau:17}
+J.~Rotureau, P.~Danielewicz, G.~Hagen, F.~M. Nunes, and T.~Papenbrock.
+\newblock Optical potential from first principles.
+\newblock \emph{Phys. Rev. C}, 95:\penalty0 024315, 2017.
+
+\bibitem[Sanetullaev et~al.(2016)Sanetullaev, Kanungo, Tanaka, Alcorta,
+  Andreoiu, Bender, Chen, Christian, Davids, Fallis, Fortin, Galinski, Gallant,
+  Garrett, Hackman, Hadinia, Ishimoto, Keefe, Krücken, Lighthall, McNeice,
+  Miller, Purcell, Randhawa, Roger, Rojas, Savajols, Shotter, Tanihata,
+  Thompson, Unsworth, Voss, and Wang]{Sanetullaev:16}
+A.~Sanetullaev, R.~Kanungo, J.~Tanaka, M.~Alcorta, C.~Andreoiu, P.~Bender,
+  A.~Chen, G.~Christian, B.~Davids, J.~Fallis, J.~Fortin, N.~Galinski,
+  A.~Gallant, P.~Garrett, G.~Hackman, B.~Hadinia, S.~Ishimoto, M.~Keefe,
+  R.~Krücken, J.~Lighthall, E.~McNeice, D.~Miller, J.~Purcell, J.~Randhawa,
+  T.~Roger, A.~Rojas, H.~Savajols, A.~Shotter, I.~Tanihata, I.~Thompson,
+  C.~Unsworth, P.~Voss, and Z.~Wang.
+\newblock {Investigation of the role of $^{10}$Li resonances in the halo
+  structure of $^{11}$Li through the $^{11}$Li$(p,d)^{10}$Li transfer
+  reaction}.
+\newblock \emph{Physics Letters B}, 755:\penalty0 481, 2016.
+
 \bibitem[Satchler(1980)]{Satchler:80}
 G.~Satchler.
 \newblock \emph{Introduction to Nuclear Reactions}.
@@ -447,6 +510,12 @@ J.~Schrieffer.
   transfer reactions in deformed nuclei}.
 \newblock \emph{Physical Review Letters}, 25:\penalty0 1507, 1970.
 
+\bibitem[Tanihata et~al.(2013)Tanihata, Savajols, and Kanungo]{Tanihata:13}
+I.~Tanihata, H.~Savajols, and R.~Kanungo.
+\newblock Recent experimental progress in nuclear halo structure studies.
+\newblock \emph{Progress in Particle and Nuclear Physics}, 68:\penalty0 215,
+  2013.
+
 \bibitem[{Tanihata, I.} et~al.(2008){Tanihata, I.}, Alcorta, Bandyopadhyay,
   Bieri, Buchmann, Davids, Galinski, Howell, Mills, Mythili, Openshaw,
   Padilla-Rodal, Ruprecht, Sheffer, Shotter, Trinczek, Walden, Savajols, Roger,
@@ -465,6 +534,11 @@ J.~Schrieffer.
 I.~J. Thompson.
 \newblock Coupled reaction channels calculations in nuclear physics.
 \newblock \emph{Computer Physics Reports}, 7\penalty0 (4):\penalty0 167, 1988.
+
+\bibitem[Thompson and Nunes(2009)]{Thompson:09}
+I.~J. Thompson and F.~M. Nunes.
+\newblock \emph{{Nuclear Reactions for Astrophysics}}.
+\newblock Cambridge University Press, Cambridge, 2009.
 
 \bibitem[{Thompson, I.J.}(2013)]{Thompson:13}
 {Thompson, I.J.}

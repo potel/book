@@ -1,4 +1,4 @@
-\begin{thebibliography}{96}
+\begin{thebibliography}{100}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \expandafter\ifx\csname urlstyle\endcsname\relax
@@ -85,6 +85,13 @@ J.~L. Basdevant and J.~Dalibard.
 {Bayman, B. F.} and C.~F. Clement.
 \newblock Sum rules for {two--nucleon} transfer reactions.
 \newblock \emph{Phys. Rev. Lett.}, 29:\penalty0 1020, 1972.
+
+\bibitem[Beck and Claus(1970)]{Beck:70}
+P.~A. Beck and H.~Claus.
+\newblock {Density of states information from low temperature specific heat
+  measurements}.
+\newblock \emph{Journal of Research of the National Bureau of Standards A,
+  Physics and Chemistry}, 74 A:\penalty0 449, 1970.
 
 \bibitem[Bertsch(1988)]{Bertsch:88b}
 G.~Bertsch.
@@ -351,8 +358,8 @@ J.~B. Ketterson and S.~N. Song.
 \newblock \emph{{Superconductivity}}.
 \newblock Cambridge University Press, Cambridge, 1999.
 
-\bibitem[Kisslinger and {S\o{}rensen}(1963)]{Kisslinger:63}
-L.~S. Kisslinger and R.~A. {S\o{}rensen}.
+\bibitem[Kisslinger and {Sorensen}(1963)]{Kisslinger:63}
+L.~S. Kisslinger and R.~A. {Sorensen}.
 \newblock Spherical nuclei with simple residual forces.
 \newblock \emph{Review of Modern Physics}, 35:\penalty0 853, 1963.
 
@@ -380,6 +387,11 @@ A.~Leggett.
 \newblock \emph{Quantum Liquids}.
 \newblock Oxford University Press, Oxford, 2006.
 
+\bibitem[Leggett(1987)]{Leggett:87}
+A.~J. Leggett.
+\newblock \emph{The problems of Physics}.
+\newblock {Oxford University Press}, Oxford, 1987.
+
 \bibitem[Lindhard(1953)]{Lindhard:53}
 J.~Lindhard.
 \newblock \emph{Kgl. Danske Videnshab. Selskab, Mat. Fys. Medd.}, 28, 1953.
@@ -401,6 +413,12 @@ P.~Lotti, F.~Cazzola, P.~F. Bortignon, R.~A. Broglia, and A.~Vitturi.
 {Mahaux, C.}, P.~F. Bortignon, R.~A. Broglia, and C.~H. Dasso.
 \newblock Dynamics of the shell model.
 \newblock \emph{Physics Reports}, 120:\penalty0 1--274, 1985.
+
+\bibitem[Matsuo(2006)]{Matsuo:06}
+M.~Matsuo.
+\newblock Spatial structure of neutron cooper pair in low density uniform
+  matter.
+\newblock \emph{Phys. Rev. C}, 73:\penalty0 044309, 2006.
 
 \bibitem[{Matsuo, M.}(2013)]{Matsuo:13}
 {Matsuo, M.}
@@ -559,6 +577,11 @@ G.~S. Stent.
 M.~Tinkham.
 \newblock \emph{Introduction to Superconductivity}.
 \newblock Mc Graw-Hill, New York, 1996.
+
+\bibitem[van Witsen(2014)]{VanWitsen:14}
+M.~van Witsen.
+\newblock Superconductivity in real space.
+\newblock \emph{University Twente (unpublished)}, 2014.
 
 \bibitem[von Oertzen and Vitturi(2001)]{vonOertzen:01}
 W.~von Oertzen and A.~Vitturi.

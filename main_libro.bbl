@@ -1,12 +1,9 @@
-\begin{thebibliography}{378}
+\begin{thebibliography}{388}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \expandafter\ifx\csname urlstyle\endcsname\relax
   \providecommand{\doi}[1]{doi: #1}\else
   \providecommand{\doi}{doi: \begingroup \urlstyle{rm}\Url}\fi
-
-\bibitem[Sch()]{Schmid:66}
-
 
 \bibitem[{Abrahams, E.} and Woo(1968)]{Abrahams:68}
 {Abrahams, E.} and J.~W.~F. Woo.
@@ -171,6 +168,11 @@ M.~Baranger.
 \newblock In M.~Jean and R.~A. Ricci, editors, \emph{Proceedings of the
   International school of physics ``E. Fermi'' Course XL Nuclear Structure and
   Nuclear Reactions}, page 511. Academic Press, New York, 1969.
+
+\bibitem[Barbieri and Jennings(2005)]{Barbieri:05}
+C.~Barbieri and B.~K. Jennings.
+\newblock Nucleon-nucleus optical potential in the particle-hole approach.
+\newblock \emph{Phys. Rev. C}, 72:\penalty0 014613, 2005.
 
 \bibitem[{Barbieri, C.}(2009)]{Barbieri:09}
 {Barbieri, C.}
@@ -352,6 +354,13 @@ S.~{Beceiro--Novo}, T.~Ahn, D.~Bazin, and W.~Mittig.
 \newblock States in $^{121}\mathrm{Sn}$ from the $^{120}\mathrm{Sn}(d,
   p)^{121}\mathrm{Sn}$ reaction at 17 {MeV}.
 \newblock \emph{Phys. Rev. C}, 12:\penalty0 90, 1975.
+
+\bibitem[Beck and Claus(1970)]{Beck:70}
+P.~A. Beck and H.~Claus.
+\newblock {Density of states information from low temperature specific heat
+  measurements}.
+\newblock \emph{Journal of Research of the National Bureau of Standards A,
+  Physics and Chemistry}, 74 A:\penalty0 449, 1970.
 
 \bibitem[Belyaev(1959)]{Belyaev:59}
 S.~T. Belyaev.
@@ -993,6 +1002,12 @@ W.~H. Dickhoff and C.~Barbieri.
 \newblock \emph{Progress in Particle and Nuclear Physics}, 52:\penalty0 377,
   2004.
 
+\bibitem[Dickhoff et~al.(2017)Dickhoff, Charity, and Mahzoon]{Dickhoff:17}
+W.~H. Dickhoff, R.~J. Charity, and M.~H. Mahzoon.
+\newblock Novel applications of the dispersive optical model.
+\newblock \emph{Journal of Physics G: Nuclear and Particle Physics},
+  44:\penalty0 033001, 2017.
+
 \bibitem[{Dickhoff, W.} and Van~Neck(2005)]{Dickhoff:05}
 {Dickhoff, W.} and D.~Van~Neck.
 \newblock \emph{{Many--Body Theory Exposed: Propagator description of quantum
@@ -1115,6 +1130,13 @@ E.~Flynn, G.~Igo, P.~Barnes, D.~Kovar, D.~R. B\`{e}s, and R.~A. Broglia.
   reaction at 20 MeV}.
 \newblock \emph{Phys. Rev. C}, 3:\penalty0 2371, 1971.
 
+\bibitem[Flynn et~al.(1972)Flynn, Igo, Broglia, Landowne, Paar, and
+  Nilsson]{Flynn:72b}
+E.~Flynn, G.~Igo, R.~Broglia, S.~Landowne, V.~Paar, and B.~Nilsson.
+\newblock {An experimental and theoretical investigation of the structure of
+  $^{210}$Pb}.
+\newblock \emph{Nuclear Physics A}, 195:\penalty0 97, 1972.
+
 \bibitem[{Flynn, E. R.} et~al.(1972){Flynn, E. R.}, Igo, and Broglia]{Flynn:72}
 {Flynn, E. R.}, G.~J. Igo, and R.~A. Broglia.
 \newblock {Three--phonon monopole and qudrupole pairing vibrational states in
@@ -1167,6 +1189,11 @@ R.~J. Glauber.
 \newblock In R.~J. Glauber, editor, \emph{International School of Physics
   ``Enrico Fermi'' Course XLII on Quantum Optics}, page~15, Academic Press,
   1969. New York.
+
+\bibitem[Glauber(2007)]{Glauber:07}
+R.~J. Glauber.
+\newblock \emph{Quantum theory of optical coherence}.
+\newblock Wiley, Weinheim, 2007.
 
 \bibitem[{Glendenning, N. K.}(1965)]{Glendenning:65}
 {Glendenning, N. K.}
@@ -1321,6 +1348,11 @@ J.~H\"ogaasen-Feldman.
 \newblock A study of some approximations of the pairing force.
 \newblock \emph{Nuclear Physics}, 28:\penalty0 258, 1961.
 
+\bibitem[Holstein(1989)]{Holstein:89}
+B.~R. Holstein.
+\newblock \emph{Weak interaction in nuclei}.
+\newblock Princeton University Press, New Jersey, 1989.
+
 \bibitem[Idini et~al.(2015)Idini, Potel, Barranco, Vigezzi, and
   Broglia]{Idini:15}
 A.~Idini, G.~Potel, F.~Barranco, E.~Vigezzi, and R.~A. Broglia.
@@ -1452,8 +1484,8 @@ D.~T. Khoa and W.~von Oertzen.
   reaction}.
 \newblock \emph{Physics Letters B}, 595:\penalty0 193, 2004.
 
-\bibitem[Kisslinger and {S\o{}rensen}(1963)]{Kisslinger:63}
-L.~S. Kisslinger and R.~A. {S\o{}rensen}.
+\bibitem[Kisslinger and {Sorensen}(1963)]{Kisslinger:63}
+L.~S. Kisslinger and R.~A. {Sorensen}.
 \newblock Spherical nuclei with simple residual forces.
 \newblock \emph{Review of Modern Physics}, 35:\penalty0 853, 1963.
 
@@ -1563,6 +1595,11 @@ A.~Leggett.
 \newblock \emph{Quantum Liquids}.
 \newblock Oxford University Press, Oxford, 2006.
 
+\bibitem[Leggett(1987)]{Leggett:87}
+A.~J. Leggett.
+\newblock \emph{The problems of Physics}.
+\newblock {Oxford University Press}, Oxford, 1987.
+
 \bibitem[Lesinski et~al.(2012)Lesinski, Hebeler, Duguet, and
   Schwenk]{Lesinski:12}
 T.~Lesinski, K.~Hebeler, T.~Duguet, and A.~Schwenk.
@@ -1631,6 +1668,12 @@ P.~Magierski, K.~Sekizawa, and G.~Wlaz\l{}owski.
 {Mahaux, C.}, P.~F. Bortignon, R.~A. Broglia, and C.~H. Dasso.
 \newblock Dynamics of the shell model.
 \newblock \emph{Physics Reports}, 120:\penalty0 1--274, 1985.
+
+\bibitem[Matsuo(2006)]{Matsuo:06}
+M.~Matsuo.
+\newblock Spatial structure of neutron cooper pair in low density uniform
+  matter.
+\newblock \emph{Phys. Rev. C}, 73:\penalty0 044309, 2006.
 
 \bibitem[{Matsuo, M.}(2013)]{Matsuo:13}
 {Matsuo, M.}
@@ -1950,6 +1993,12 @@ H.~I. {R\"osner}, M.~Caldarini, A.~Prestel, M.~A. Vanoni, R.~A. Broglia,
 \newblock Cold denaturation of the {HIV--1} protease monomer.
 \newblock \emph{Biochemistry}, 156:\penalty0 1029, 2017.
 
+\bibitem[Rotureau et~al.(2017)Rotureau, Danielewicz, Hagen, Nunes, and
+  Papenbrock]{Rotureau:17}
+J.~Rotureau, P.~Danielewicz, G.~Hagen, F.~M. Nunes, and T.~Papenbrock.
+\newblock Optical potential from first principles.
+\newblock \emph{Phys. Rev. C}, 95:\penalty0 024315, 2017.
+
 \bibitem[Sackett et~al.(1993)Sackett, Ieki, Galonsky, Bertulani, Esbensen,
   Kruse, Lynch, Morrissey, Orr, Sherrill, Schulz, Sustich, Winger, De\'ak,
   Horv\'ath, Kiss, Seres, Kolata, Warner, and Humphrey]{Sackett:93}
@@ -2192,6 +2241,11 @@ I.~J. Thompson.
 \newblock Coupled reaction channels calculations in nuclear physics.
 \newblock \emph{Computer Physics Reports}, 7\penalty0 (4):\penalty0 167, 1988.
 
+\bibitem[Thompson and Nunes(2009)]{Thompson:09}
+I.~J. Thompson and F.~M. Nunes.
+\newblock \emph{{Nuclear Reactions for Astrophysics}}.
+\newblock Cambridge University Press, Cambridge, 2009.
+
 \bibitem[{Thompson, I.J.}(2013)]{Thompson:13}
 {Thompson, I.J.}
 \newblock {Reaction mechanism of pair transfer}.
@@ -2240,6 +2294,11 @@ J.~Valatin.
 V.~L. {Van der Waerden}.
 \newblock \emph{Sources of quantum mechanics}.
 \newblock Dover, New York, 1967.
+
+\bibitem[van Witsen(2014)]{VanWitsen:14}
+M.~van Witsen.
+\newblock Superconductivity in real space.
+\newblock \emph{University Twente (unpublished)}, 2014.
 
 \bibitem[Vaquero et~al.(2013)Vaquero, Egido, and Rodr\'{\i}guez]{Vaquero:13}
 N.~L. Vaquero, J.~L. Egido, and T.~R. Rodr\'{\i}guez.

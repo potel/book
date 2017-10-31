@@ -1,12 +1,9 @@
-\begin{thebibliography}{153}
+\begin{thebibliography}{155}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \expandafter\ifx\csname urlstyle\endcsname\relax
   \providecommand{\doi}[1]{doi: #1}\else
   \providecommand{\doi}{doi: \begingroup \urlstyle{rm}\Url}\fi
-
-\bibitem[Sch()]{Schmid:66}
-
 
 \bibitem[{Abrahams, E.} and Woo(1968)]{Abrahams:68}
 {Abrahams, E.} and J.~W.~F. Woo.
@@ -40,6 +37,11 @@ P.~Axel.
 \newblock {Electric Dipole Ground-State Transition Width Strength Function and
   7--MeV Photon Interactions}.
 \newblock \emph{Phys. Rev.}, 126:\penalty0 671, 1962.
+
+\bibitem[Barbieri and Jennings(2005)]{Barbieri:05}
+C.~Barbieri and B.~K. Jennings.
+\newblock Nucleon-nucleus optical potential in the particle-hole approach.
+\newblock \emph{Phys. Rev. C}, 72:\penalty0 014613, 2005.
 
 \bibitem[{Barbieri, C.}(2009)]{Barbieri:09}
 {Barbieri, C.}
@@ -382,6 +384,12 @@ J.~de~Boer and R.~J. Lundbeck.
 P.~G. de~Gennes.
 \newblock \emph{{Les objets fragiles}}.
 \newblock Plon, Paris, 1994.
+
+\bibitem[Dickhoff et~al.(2017)Dickhoff, Charity, and Mahzoon]{Dickhoff:17}
+W.~H. Dickhoff, R.~J. Charity, and M.~H. Mahzoon.
+\newblock Novel applications of the dispersive optical model.
+\newblock \emph{Journal of Physics G: Nuclear and Particle Physics},
+  44:\penalty0 033001, 2017.
 
 \bibitem[{Dickhoff, W.} and Van~Neck(2005)]{Dickhoff:05}
 {Dickhoff, W.} and D.~Van~Neck.
@@ -812,6 +820,12 @@ H.~I. {R\"osner}, M.~Caldarini, A.~Prestel, M.~A. Vanoni, R.~A. Broglia,
   A.~Aliverti, G.~Tiana, , and B.~B. Kragelund.
 \newblock Cold denaturation of the {HIV--1} protease monomer.
 \newblock \emph{Biochemistry}, 156:\penalty0 1029, 2017.
+
+\bibitem[Rotureau et~al.(2017)Rotureau, Danielewicz, Hagen, Nunes, and
+  Papenbrock]{Rotureau:17}
+J.~Rotureau, P.~Danielewicz, G.~Hagen, F.~M. Nunes, and T.~Papenbrock.
+\newblock Optical potential from first principles.
+\newblock \emph{Phys. Rev. C}, 95:\penalty0 024315, 2017.
 
 \bibitem[Sackett et~al.(1993)Sackett, Ieki, Galonsky, Bertulani, Esbensen,
   Kruse, Lynch, Morrissey, Orr, Sherrill, Schulz, Sustich, Winger, De\'ak,

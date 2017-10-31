@@ -4,43 +4,43 @@ The top-level auxiliary file: main_libro.aux
 A level-1 auxiliary file: C1/includeC1.aux
 The style file: abbrvnat.bst
 A level-1 auxiliary file: introduccion/introduccion.aux
-Illegal, another \bibstyle command---line 608 of file introduccion/introduccion.aux
+Illegal, another \bibstyle command---line 611 of file introduccion/introduccion.aux
  : \bibstyle
  :          {abbrvnat}
 I'm skipping whatever remains of this command
-Illegal, another \bibdata command---line 609 of file introduccion/introduccion.aux
+Illegal, another \bibdata command---line 612 of file introduccion/introduccion.aux
  : \bibdata
  :         {../nuclear_bib}
 I'm skipping whatever remains of this command
 A level-1 auxiliary file: nutshell/include_struct_nut.aux
-Illegal, another \bibstyle command---line 429 of file nutshell/include_struct_nut.aux
+Illegal, another \bibstyle command---line 424 of file nutshell/include_struct_nut.aux
  : \bibstyle
  :          {abbrvnat}
 I'm skipping whatever remains of this command
-Illegal, another \bibdata command---line 430 of file nutshell/include_struct_nut.aux
+Illegal, another \bibdata command---line 425 of file nutshell/include_struct_nut.aux
  : \bibdata
  :         {../nuclear_bib}
 I'm skipping whatever remains of this command
 A level-1 auxiliary file: nutshell/include_trans_nut.aux
 Case mismatch error between cite keys deGennes:94 and DeGennes:94
----line 228 of file nutshell/include_trans_nut.aux
+---line 229 of file nutshell/include_trans_nut.aux
  : \citation{deGennes:94
  :                      }
 I'm skipping whatever remains of this command
-Illegal, another \bibstyle command---line 410 of file nutshell/include_trans_nut.aux
+Illegal, another \bibstyle command---line 412 of file nutshell/include_trans_nut.aux
  : \bibstyle
  :          {abbrvnat}
 I'm skipping whatever remains of this command
-Illegal, another \bibdata command---line 411 of file nutshell/include_trans_nut.aux
+Illegal, another \bibdata command---line 413 of file nutshell/include_trans_nut.aux
  : \bibdata
  :         {../nuclear_bib}
 I'm skipping whatever remains of this command
 A level-1 auxiliary file: C6/includeC6.aux
-Illegal, another \bibstyle command---line 353 of file C6/includeC6.aux
+Illegal, another \bibstyle command---line 365 of file C6/includeC6.aux
  : \bibstyle
  :          {abbrvnat}
 I'm skipping whatever remains of this command
-Illegal, another \bibdata command---line 354 of file C6/includeC6.aux
+Illegal, another \bibdata command---line 366 of file C6/includeC6.aux
  : \bibdata
  :         {../nuclear_bib}
 I'm skipping whatever remains of this command
@@ -54,11 +54,11 @@ Illegal, another \bibdata command---line 410 of file C7/includeC7.aux
  :         {../nuclear_bib}
 I'm skipping whatever remains of this command
 A level-1 auxiliary file: C8/includeC8.aux
-Illegal, another \bibstyle command---line 289 of file C8/includeC8.aux
+Illegal, another \bibstyle command---line 297 of file C8/includeC8.aux
  : \bibstyle
  :          {abbrvnat}
 I'm skipping whatever remains of this command
-Illegal, another \bibdata command---line 290 of file C8/includeC8.aux
+Illegal, another \bibdata command---line 298 of file C8/includeC8.aux
  : \bibdata
  :         {../nuclear_bib}
 I'm skipping whatever remains of this command
@@ -70,71 +70,70 @@ Illegal, another \bibdata command---line 24 of file main_libro.aux
  : \bibdata
  :         {./nuclear_bib}
 I'm skipping whatever remains of this command
-Reallocated field_info (elt_size=4) to 15668 items from 5000.
+Reallocated field_info (elt_size=4) to 15920 items from 5000.
 Database file #1: ./nuclear_bib.bib
-"{" immediately follows a field name---line 298 of file ./nuclear_bib.bib
+"{" immediately follows a field name---line 321 of file ./nuclear_bib.bib
  :   journal = {Physical Review},@article
  :                                       {PhysRev.75.388,
 I'm skipping whatever remains of this entry
-I was expecting a `,' or a `}'---line 564 of file ./nuclear_bib.bib
+I was expecting a `,' or a `}'---line 587 of file ./nuclear_bib.bib
  :   volume = 16
  :              C,
 I'm skipping whatever remains of this entry
-Repeated entry---line 2417 of file ./nuclear_bib.bib
+Repeated entry---line 2440 of file ./nuclear_bib.bib
  : @article{Zinser:95
  :                   ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 2755 of file ./nuclear_bib.bib
+Repeated entry---line 2788 of file ./nuclear_bib.bib
  : @book{Mayer:55
  :               ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 2778 of file ./nuclear_bib.bib
+Repeated entry---line 2811 of file ./nuclear_bib.bib
  : @article{Koning:03
  :                   ,
 I'm skipping whatever remains of this entry
-You're missing a field name---line 2970 of file ./nuclear_bib.bib
+You're missing a field name---line 3003 of file ./nuclear_bib.bib
  : year = {1973},
  :               ,
 I'm skipping whatever remains of this entry
 Warning--I'm ignoring Pauli:47's extra "year" field
---line 3768 of file ./nuclear_bib.bib
-"{" immediately follows a field name---line 3891 of file ./nuclear_bib.bib
+--line 3801 of file ./nuclear_bib.bib
+"{" immediately follows a field name---line 3924 of file ./nuclear_bib.bib
  : @article{Schmid:66,@article
  :                            {Jenning:11,
 I'm skipping whatever remains of this entry
 Warning--I'm ignoring Shimizu:13's extra "year" field
---line 4001 of file ./nuclear_bib.bib
-Repeated entry---line 4249 of file ./nuclear_bib.bib
+--line 4034 of file ./nuclear_bib.bib
+Repeated entry---line 4282 of file ./nuclear_bib.bib
  : @article{Thompson:88
  :                     ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 4274 of file ./nuclear_bib.bib
+Repeated entry---line 4307 of file ./nuclear_bib.bib
  : @article{Barranco:99
  :                     ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 4499 of file ./nuclear_bib.bib
+Repeated entry---line 4532 of file ./nuclear_bib.bib
  : @article{Bortignon:83
  :                      ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 4592 of file ./nuclear_bib.bib
+Repeated entry---line 4625 of file ./nuclear_bib.bib
  : @article{Sackett:93
  :                    ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 4733 of file ./nuclear_bib.bib
+Repeated entry---line 4766 of file ./nuclear_bib.bib
  : @book{DeGennes:94
  :                  ,
 I'm skipping whatever remains of this entry
-I was expecting a `,' or a `}'---line 4791 of file ./nuclear_bib.bib
+I was expecting a `,' or a `}'---line 4824 of file ./nuclear_bib.bib
  :   pages = 210
  :              (R),
 I'm skipping whatever remains of this entry
-Repeated entry---line 5300 of file ./nuclear_bib.bib
+Repeated entry---line 5333 of file ./nuclear_bib.bib
  : @article{Lanford:73
  :                    ,
 I'm skipping whatever remains of this entry
-Warning--I didn't find a database entry for "Beck:70"
-Warning--I didn't find a database entry for "VanWitsen:14"
-Warning--I didn't find a database entry for "Matsuo:06"
+Warning--I didn't find a database entry for "Holstein"
+Warning--I didn't find a database entry for "Bohr"
 Name 1 in "R. A. Broglia, and P. F. Bortignon, and F. Barranco, and E. Vigezzi, and A. Idini, and G. Potel" has a comma at the end for entry Broglia:16
 while executing---line 1347 of file abbrvnat.bst
 Name 1 in "R. A. Broglia, and P. F. Bortignon, and F. Barranco, and E. Vigezzi, and A. Idini, and G. Potel" has a comma at the end for entry Broglia:16
@@ -161,7 +160,6 @@ Name 3 in "G. Col\`{o}, and N. Van Giai, and P. F. Bortignon, and M. R. Quaglia"
 while executing---line 1347 of file abbrvnat.bst
 Name 3 in "{Bjerregaard, J. H.} and Hansen, O. and Nathan, and Hinds, S." has a comma at the end for entry Bjerregaard:66b
 while executing---line 1347 of file abbrvnat.bst
-Warning--to sort, need author or key in Schmid:66
 Name 2 in "{Guazzoni, P.} and M. Jaskola, and L. Zetta, and A. Covello, and A. Gargano, and Y. Eisermann, and G. Graw, and R. Hertenberger, and A. Metz, and F. Nuoffer, and G. Staudt" has a comma at the end for entry Guazzoni:99
 while executing---line 1347 of file abbrvnat.bst
 Name 3 in "{Guazzoni, P.} and M. Jaskola, and L. Zetta, and A. Covello, and A. Gargano, and Y. Eisermann, and G. Graw, and R. Hertenberger, and A. Metz, and F. Nuoffer, and G. Staudt" has a comma at the end for entry Guazzoni:99
@@ -206,11 +204,6 @@ Name 1 in "A. Repko, and P. G. Reinhard, and V. O. Nestrenko and J. Kvasil" has 
 while executing---line 1347 of file abbrvnat.bst
 Name 2 in "A. Repko, and P. G. Reinhard, and V. O. Nestrenko and J. Kvasil" has a comma at the end for entry Repko:13
 while executing---line 1347 of file abbrvnat.bst
-Warning--empty author in Schmid:66
-Warning--empty title in Schmid:66
-Warning--empty journal in Schmid:66
-Warning--empty year in Schmid:66
-Warning--empty year in Schmid:66
 Warning--can't use both author and editor fields in Ambegaokar:69
 Warning--can't use both author and editor fields in Ashcroft:87
 Name 1 in "R. A. Broglia, and R. A. Ricci, and C. H. Dasso" has a comma at the end for entry Bernard:81
@@ -343,45 +336,46 @@ while executing---line 1429 of file abbrvnat.bst
 Name 1 in "Saperstein, E. E., and Baldo, M." has a comma at the end for entry Saperstein:12
 while executing---line 1429 of file abbrvnat.bst
 Warning--empty title in Stent:80
-You've used 378 entries,
+Reallocated str_pool (elt_size=1) to 130000 items from 65000.
+You've used 388 entries,
             2773 wiz_defined-function locations,
-            2715 strings with 62855 characters,
-and the built_in function-call counts, 183069 in all, are:
-= -- 14974
-> -- 13353
-< -- 266
-+ -- 4540
-- -- 4147
-* -- 15130
-:= -- 29583
-add.period$ -- 1172
-call.type$ -- 378
-change.case$ -- 2434
-chr.to.int$ -- 363
-cite$ -- 775
-duplicate$ -- 8044
-empty$ -- 13658
-format.name$ -- 4700
-if$ -- 37640
+            2765 strings with 64104 characters,
+and the built_in function-call counts, 187221 in all, are:
+= -- 15322
+> -- 13601
+< -- 274
++ -- 4625
+- -- 4222
+* -- 15431
+:= -- 30272
+add.period$ -- 1204
+call.type$ -- 388
+change.case$ -- 2486
+chr.to.int$ -- 373
+cite$ -- 788
+duplicate$ -- 8247
+empty$ -- 14007
+format.name$ -- 4792
+if$ -- 38499
 int.to.chr$ -- 16
 int.to.str$ -- 1
-missing$ -- 430
-newline$ -- 1895
-num.names$ -- 1580
-pop$ -- 4824
+missing$ -- 444
+newline$ -- 1947
+num.names$ -- 1624
+pop$ -- 4924
 preamble$ -- 1
-purify$ -- 2115
+purify$ -- 2160
 quote$ -- 0
-skip$ -- 6180
+skip$ -- 6327
 stack$ -- 0
-substring$ -- 3870
-swap$ -- 614
+substring$ -- 3976
+swap$ -- 625
 text.length$ -- 36
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 3893
-warning$ -- 18
-while$ -- 1471
+type$ -- 3983
+warning$ -- 12
+while$ -- 1510
 width$ -- 0
-write$ -- 4968
+write$ -- 5104
 (There were 124 error messages)

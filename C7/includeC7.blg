@@ -3,66 +3,66 @@ Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
 The top-level auxiliary file: includeC7.aux
 The style file: abbrvnat.bst
 Database file #1: ../nuclear_bib.bib
-"{" immediately follows a field name---line 298 of file ../nuclear_bib.bib
+"{" immediately follows a field name---line 321 of file ../nuclear_bib.bib
  :   journal = {Physical Review},@article
  :                                       {PhysRev.75.388,
 I'm skipping whatever remains of this entry
-I was expecting a `,' or a `}'---line 564 of file ../nuclear_bib.bib
+I was expecting a `,' or a `}'---line 587 of file ../nuclear_bib.bib
  :   volume = 16
  :              C,
 I'm skipping whatever remains of this entry
-You're missing a field name---line 2970 of file ../nuclear_bib.bib
+You're missing a field name---line 3003 of file ../nuclear_bib.bib
  : year = {1973},
  :               ,
 I'm skipping whatever remains of this entry
-"{" immediately follows a field name---line 3891 of file ../nuclear_bib.bib
+"{" immediately follows a field name---line 3924 of file ../nuclear_bib.bib
  : @article{Schmid:66,@article
  :                            {Jenning:11,
 I'm skipping whatever remains of this entry
-I was expecting a `,' or a `}'---line 4789 of file ../nuclear_bib.bib
+I was expecting a `,' or a `}'---line 4824 of file ../nuclear_bib.bib
  :   pages = 210
  :              (R),
 I'm skipping whatever remains of this entry
 Warning--empty title in Glauber:69
 You've used 27 entries,
             2773 wiz_defined-function locations,
-            785 strings with 7986 characters,
-and the built_in function-call counts, 10139 in all, are:
-= -- 878
+            786 strings with 7784 characters,
+and the built_in function-call counts, 10137 in all, are:
+= -- 875
 > -- 455
 < -- 26
 + -- 161
 - -- 134
-* -- 694
+* -- 695
 := -- 1618
 add.period$ -- 83
 call.type$ -- 27
-change.case$ -- 119
+change.case$ -- 118
 chr.to.int$ -- 27
 cite$ -- 55
-duplicate$ -- 558
-empty$ -- 947
+duplicate$ -- 559
+empty$ -- 949
 format.name$ -- 179
 if$ -- 2135
 int.to.chr$ -- 1
 int.to.str$ -- 1
-missing$ -- 32
+missing$ -- 33
 newline$ -- 143
 num.names$ -- 112
-pop$ -- 243
+pop$ -- 245
 preamble$ -- 1
 purify$ -- 98
 quote$ -- 0
-skip$ -- 390
+skip$ -- 389
 stack$ -- 0
 substring$ -- 245
 swap$ -- 37
 text.length$ -- 2
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 272
+type$ -- 267
 warning$ -- 1
 while$ -- 104
 width$ -- 0
-write$ -- 361
+write$ -- 362
 (There were 5 error messages)

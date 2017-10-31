@@ -3,37 +3,34 @@ Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
 The top-level auxiliary file: include_trans_nut.aux
 The style file: abbrvnat.bst
 Database file #1: ../nuclear_bib.bib
-"{" immediately follows a field name---line 298 of file ../nuclear_bib.bib
+"{" immediately follows a field name---line 313 of file ../nuclear_bib.bib
  :   journal = {Physical Review},@article
  :                                       {PhysRev.75.388,
 I'm skipping whatever remains of this entry
-I was expecting a `,' or a `}'---line 564 of file ../nuclear_bib.bib
+I was expecting a `,' or a `}'---line 579 of file ../nuclear_bib.bib
  :   volume = 16
  :              C,
 I'm skipping whatever remains of this entry
-You're missing a field name---line 2970 of file ../nuclear_bib.bib
+You're missing a field name---line 2995 of file ../nuclear_bib.bib
  : year = {1973},
  :               ,
 I'm skipping whatever remains of this entry
-"{" immediately follows a field name---line 3891 of file ../nuclear_bib.bib
+"{" immediately follows a field name---line 3916 of file ../nuclear_bib.bib
  : @article{Schmid:66,@article
  :                            {Jenning:11,
 I'm skipping whatever remains of this entry
-Repeated entry---line 4497 of file ../nuclear_bib.bib
+Repeated entry---line 4524 of file ../nuclear_bib.bib
  : @article{Bortignon:83
  :                      ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 4731 of file ../nuclear_bib.bib
+Repeated entry---line 4758 of file ../nuclear_bib.bib
  : @book{DeGennes:94
  :                  ,
 I'm skipping whatever remains of this entry
-I was expecting a `,' or a `}'---line 4789 of file ../nuclear_bib.bib
+I was expecting a `,' or a `}'---line 4816 of file ../nuclear_bib.bib
  :   pages = 210
  :              (R),
 I'm skipping whatever remains of this entry
-Warning--I didn't find a database entry for "Beck:70"
-Warning--I didn't find a database entry for "VanWitsen:14"
-Warning--I didn't find a database entry for "Matsuo:06"
 Name 3 in "{Bjerregaard, J. H.} and Hansen, O. and Nathan, and Hinds, S." has a comma at the end for entry Bjerregaard:66b
 while executing---line 1347 of file abbrvnat.bst
 Warning--can't use both author and editor fields in Ambegaokar:69
@@ -46,45 +43,45 @@ Warning--empty publisher in Brink:55
 Warning--empty title in LeTourneaux:65
 Warning--empty title in Lindhard:53
 Warning--empty title in Stent:80
-You've used 96 entries,
+You've used 100 entries,
             2773 wiz_defined-function locations,
-            1216 strings with 18614 characters,
-and the built_in function-call counts, 43913 in all, are:
-= -- 3596
-> -- 2962
-< -- 76
-+ -- 1011
-- -- 913
-* -- 3472
-:= -- 7089
-add.period$ -- 300
-call.type$ -- 96
-change.case$ -- 557
-chr.to.int$ -- 94
-cite$ -- 198
-duplicate$ -- 2071
-empty$ -- 3475
-format.name$ -- 1049
-if$ -- 9101
+            1233 strings with 19054 characters,
+and the built_in function-call counts, 45273 in all, are:
+= -- 3714
+> -- 3013
+< -- 80
++ -- 1030
+- -- 928
+* -- 3556
+:= -- 7307
+add.period$ -- 312
+call.type$ -- 100
+change.case$ -- 573
+chr.to.int$ -- 98
+cite$ -- 206
+duplicate$ -- 2150
+empty$ -- 3610
+format.name$ -- 1070
+if$ -- 9387
 int.to.chr$ -- 3
 int.to.str$ -- 1
-missing$ -- 119
-newline$ -- 486
-num.names$ -- 412
-pop$ -- 1195
+missing$ -- 124
+newline$ -- 506
+num.names$ -- 428
+pop$ -- 1230
 preamble$ -- 1
-purify$ -- 487
+purify$ -- 500
 quote$ -- 0
-skip$ -- 1517
+skip$ -- 1571
 stack$ -- 0
-substring$ -- 864
-swap$ -- 168
+substring$ -- 899
+swap$ -- 172
 text.length$ -- 11
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 941
+type$ -- 980
 warning$ -- 6
-while$ -- 368
+while$ -- 382
 width$ -- 0
-write$ -- 1274
+write$ -- 1325
 (There were 10 error messages)

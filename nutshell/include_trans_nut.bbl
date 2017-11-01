@@ -1,4 +1,4 @@
-\begin{thebibliography}{100}
+\begin{thebibliography}{101}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \expandafter\ifx\csname urlstyle\endcsname\relax
@@ -469,6 +469,11 @@ B.~R. Mottelson.
 \newblock In G.~Racah, editor, \emph{International School of Physics ``Enrico
   Fermi'' Course {XV} , Nuclear Spectroscopy}, page~44, New York, 1962.
   Academic Press.
+
+\bibitem[Pinkston and Satchler(1982)]{Pinkston:82}
+W.~Pinkston and G.~Satchler.
+\newblock Properties of simultaneous and sequential two-nucleon transfer.
+\newblock \emph{Nuclear Physics A}, 383:\penalty0 61, 1982.
 
 \bibitem[Pippard(2012)]{Pippard:12}
 A.~B. Pippard.

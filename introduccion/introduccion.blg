@@ -3,31 +3,31 @@ Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
 The top-level auxiliary file: introduccion.aux
 The style file: abbrvnat.bst
 Database file #1: ../nuclear_bib.bib
-"{" immediately follows a field name---line 298 of file ../nuclear_bib.bib
+"{" immediately follows a field name---line 321 of file ../nuclear_bib.bib
  :   journal = {Physical Review},@article
  :                                       {PhysRev.75.388,
 I'm skipping whatever remains of this entry
-I was expecting a `,' or a `}'---line 564 of file ../nuclear_bib.bib
+I was expecting a `,' or a `}'---line 587 of file ../nuclear_bib.bib
  :   volume = 16
  :              C,
 I'm skipping whatever remains of this entry
-Repeated entry---line 2417 of file ../nuclear_bib.bib
+Repeated entry---line 2440 of file ../nuclear_bib.bib
  : @article{Zinser:95
  :                   ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 2755 of file ../nuclear_bib.bib
+Repeated entry---line 2788 of file ../nuclear_bib.bib
  : @book{Mayer:55
  :               ,
 I'm skipping whatever remains of this entry
-You're missing a field name---line 2970 of file ../nuclear_bib.bib
+You're missing a field name---line 3003 of file ../nuclear_bib.bib
  : year = {1973},
  :               ,
 I'm skipping whatever remains of this entry
-"{" immediately follows a field name---line 3891 of file ../nuclear_bib.bib
+"{" immediately follows a field name---line 3924 of file ../nuclear_bib.bib
  : @article{Schmid:66,@article
  :                            {Jenning:11,
 I'm skipping whatever remains of this entry
-I was expecting a `,' or a `}'---line 4791 of file ../nuclear_bib.bib
+I was expecting a `,' or a `}'---line 4824 of file ../nuclear_bib.bib
  :   pages = 210
  :              (R),
 I'm skipping whatever remains of this entry
@@ -96,45 +96,45 @@ Name 2 in "G. Col\`{o}, and N. Van Giai, and P. F. Bortignon, and M. R. Quaglia"
 while executing---line 1429 of file abbrvnat.bst
 Name 3 in "G. Col\`{o}, and N. Van Giai, and P. F. Bortignon, and M. R. Quaglia" has a comma at the end for entry Colo:00
 while executing---line 1429 of file abbrvnat.bst
-You've used 118 entries,
+You've used 120 entries,
             2773 wiz_defined-function locations,
-            1318 strings with 23537 characters,
-and the built_in function-call counts, 56251 in all, are:
-= -- 4569
-> -- 4159
+            1329 strings with 23938 characters,
+and the built_in function-call counts, 57509 in all, are:
+= -- 4669
+> -- 4273
 < -- 77
-+ -- 1415
-- -- 1290
-* -- 4658
-:= -- 9135
-add.period$ -- 368
-call.type$ -- 118
-change.case$ -- 753
-chr.to.int$ -- 111
-cite$ -- 237
-duplicate$ -- 2473
-empty$ -- 4173
-format.name$ -- 1468
-if$ -- 11525
++ -- 1453
+- -- 1326
+* -- 4780
+:= -- 9339
+add.period$ -- 374
+call.type$ -- 120
+change.case$ -- 771
+chr.to.int$ -- 113
+cite$ -- 241
+duplicate$ -- 2515
+empty$ -- 4251
+format.name$ -- 1506
+if$ -- 11777
 int.to.chr$ -- 8
 int.to.str$ -- 1
-missing$ -- 144
-newline$ -- 602
-num.names$ -- 486
-pop$ -- 1509
+missing$ -- 146
+newline$ -- 612
+num.names$ -- 494
+pop$ -- 1541
 preamble$ -- 1
-purify$ -- 661
+purify$ -- 677
 quote$ -- 0
-skip$ -- 1897
+skip$ -- 1933
 stack$ -- 0
-substring$ -- 1057
-swap$ -- 172
+substring$ -- 1097
+swap$ -- 174
 text.length$ -- 8
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 1168
+type$ -- 1190
 warning$ -- 1
-while$ -- 446
+while$ -- 454
 width$ -- 0
-write$ -- 1561
+write$ -- 1587
 (There were 39 error messages)

@@ -4,11 +4,11 @@ The top-level auxiliary file: main_libro.aux
 A level-1 auxiliary file: C1/includeC1.aux
 The style file: abbrvnat.bst
 A level-1 auxiliary file: introduccion/introduccion.aux
-Illegal, another \bibstyle command---line 611 of file introduccion/introduccion.aux
+Illegal, another \bibstyle command---line 613 of file introduccion/introduccion.aux
  : \bibstyle
  :          {abbrvnat}
 I'm skipping whatever remains of this command
-Illegal, another \bibdata command---line 612 of file introduccion/introduccion.aux
+Illegal, another \bibdata command---line 614 of file introduccion/introduccion.aux
  : \bibdata
  :         {../nuclear_bib}
 I'm skipping whatever remains of this command
@@ -23,15 +23,15 @@ Illegal, another \bibdata command---line 425 of file nutshell/include_struct_nut
 I'm skipping whatever remains of this command
 A level-1 auxiliary file: nutshell/include_trans_nut.aux
 Case mismatch error between cite keys deGennes:94 and DeGennes:94
----line 229 of file nutshell/include_trans_nut.aux
+---line 230 of file nutshell/include_trans_nut.aux
  : \citation{deGennes:94
  :                      }
 I'm skipping whatever remains of this command
-Illegal, another \bibstyle command---line 412 of file nutshell/include_trans_nut.aux
+Illegal, another \bibstyle command---line 413 of file nutshell/include_trans_nut.aux
  : \bibstyle
  :          {abbrvnat}
 I'm skipping whatever remains of this command
-Illegal, another \bibdata command---line 413 of file nutshell/include_trans_nut.aux
+Illegal, another \bibdata command---line 414 of file nutshell/include_trans_nut.aux
  : \bibdata
  :         {../nuclear_bib}
 I'm skipping whatever remains of this command
@@ -54,11 +54,11 @@ Illegal, another \bibdata command---line 410 of file C7/includeC7.aux
  :         {../nuclear_bib}
 I'm skipping whatever remains of this command
 A level-1 auxiliary file: C8/includeC8.aux
-Illegal, another \bibstyle command---line 297 of file C8/includeC8.aux
+Illegal, another \bibstyle command---line 298 of file C8/includeC8.aux
  : \bibstyle
  :          {abbrvnat}
 I'm skipping whatever remains of this command
-Illegal, another \bibdata command---line 298 of file C8/includeC8.aux
+Illegal, another \bibdata command---line 299 of file C8/includeC8.aux
  : \bibdata
  :         {../nuclear_bib}
 I'm skipping whatever remains of this command
@@ -70,7 +70,7 @@ Illegal, another \bibdata command---line 24 of file main_libro.aux
  : \bibdata
  :         {./nuclear_bib}
 I'm skipping whatever remains of this command
-Reallocated field_info (elt_size=4) to 15920 items from 5000.
+Reallocated field_info (elt_size=4) to 15948 items from 5000.
 Database file #1: ./nuclear_bib.bib
 "{" immediately follows a field name---line 321 of file ./nuclear_bib.bib
  :   journal = {Physical Review},@article
@@ -132,8 +132,6 @@ Repeated entry---line 5333 of file ./nuclear_bib.bib
  : @article{Lanford:73
  :                    ,
 I'm skipping whatever remains of this entry
-Warning--I didn't find a database entry for "Holstein"
-Warning--I didn't find a database entry for "Bohr"
 Name 1 in "R. A. Broglia, and P. F. Bortignon, and F. Barranco, and E. Vigezzi, and A. Idini, and G. Potel" has a comma at the end for entry Broglia:16
 while executing---line 1347 of file abbrvnat.bst
 Name 1 in "R. A. Broglia, and P. F. Bortignon, and F. Barranco, and E. Vigezzi, and A. Idini, and G. Potel" has a comma at the end for entry Broglia:16
@@ -214,6 +212,7 @@ Name 3 in "{Bjerregaard, J. H.} and Hansen, O. and Nathan, and Hinds, S." has a 
 while executing---line 1429 of file abbrvnat.bst
 Name 3 in "{Bjerregaard, J. H.} and Hansen, O. and Nathan, and Hinds, S." has a comma at the end for entry Bjerregaard:66b
 while executing---line 1429 of file abbrvnat.bst
+Reallocated str_pool (elt_size=1) to 130000 items from 65000.
 Warning--empty note in Bohr:63
 Warning--empty publisher in Brink:55
 Warning--empty booktitle in Broglia:81c
@@ -336,46 +335,45 @@ while executing---line 1429 of file abbrvnat.bst
 Name 1 in "Saperstein, E. E., and Baldo, M." has a comma at the end for entry Saperstein:12
 while executing---line 1429 of file abbrvnat.bst
 Warning--empty title in Stent:80
-Reallocated str_pool (elt_size=1) to 130000 items from 65000.
-You've used 388 entries,
+You've used 391 entries,
             2773 wiz_defined-function locations,
-            2765 strings with 64104 characters,
-and the built_in function-call counts, 187221 in all, are:
-= -- 15322
-> -- 13601
-< -- 274
-+ -- 4625
-- -- 4222
-* -- 15431
-:= -- 30272
-add.period$ -- 1204
-call.type$ -- 388
-change.case$ -- 2486
-chr.to.int$ -- 373
-cite$ -- 788
-duplicate$ -- 8247
-empty$ -- 14007
-format.name$ -- 4792
-if$ -- 38499
+            2775 strings with 64591 characters,
+and the built_in function-call counts, 188872 in all, are:
+= -- 15457
+> -- 13736
+< -- 275
++ -- 4670
+- -- 4264
+* -- 15581
+:= -- 30538
+add.period$ -- 1213
+call.type$ -- 391
+change.case$ -- 2509
+chr.to.int$ -- 376
+cite$ -- 794
+duplicate$ -- 8309
+empty$ -- 14119
+format.name$ -- 4839
+if$ -- 38834
 int.to.chr$ -- 16
 int.to.str$ -- 1
-missing$ -- 444
-newline$ -- 1947
-num.names$ -- 1624
-pop$ -- 4924
+missing$ -- 447
+newline$ -- 1962
+num.names$ -- 1636
+pop$ -- 4964
 preamble$ -- 1
-purify$ -- 2160
+purify$ -- 2180
 quote$ -- 0
-skip$ -- 6327
+skip$ -- 6379
 stack$ -- 0
-substring$ -- 3976
-swap$ -- 625
+substring$ -- 4024
+swap$ -- 628
 text.length$ -- 36
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 3983
+type$ -- 4016
 warning$ -- 12
-while$ -- 1510
+while$ -- 1522
 width$ -- 0
-write$ -- 5104
+write$ -- 5143
 (There were 124 error messages)

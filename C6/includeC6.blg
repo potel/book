@@ -3,75 +3,75 @@ Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
 The top-level auxiliary file: includeC6.aux
 The style file: abbrvnat.bst
 Database file #1: ../nuclear_bib.bib
-"{" immediately follows a field name---line 313 of file ../nuclear_bib.bib
+"{" immediately follows a field name---line 328 of file ../nuclear_bib.bib
  :   journal = {Physical Review},@article
  :                                       {PhysRev.75.388,
 I'm skipping whatever remains of this entry
-I was expecting a `,' or a `}'---line 579 of file ../nuclear_bib.bib
+I was expecting a `,' or a `}'---line 594 of file ../nuclear_bib.bib
  :   volume = 16
  :              C,
 I'm skipping whatever remains of this entry
-You're missing a field name---line 2995 of file ../nuclear_bib.bib
+You're missing a field name---line 3010 of file ../nuclear_bib.bib
  : year = {1973},
  :               ,
 I'm skipping whatever remains of this entry
 Warning--I'm ignoring Pauli:47's extra "year" field
---line 3793 of file ../nuclear_bib.bib
-"{" immediately follows a field name---line 3916 of file ../nuclear_bib.bib
+--line 3808 of file ../nuclear_bib.bib
+"{" immediately follows a field name---line 3931 of file ../nuclear_bib.bib
  : @article{Schmid:66,@article
  :                            {Jenning:11,
 I'm skipping whatever remains of this entry
-Repeated entry---line 4274 of file ../nuclear_bib.bib
+Repeated entry---line 4289 of file ../nuclear_bib.bib
  : @article{Thompson:88
  :                     ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 4524 of file ../nuclear_bib.bib
+Repeated entry---line 4539 of file ../nuclear_bib.bib
  : @article{Bortignon:83
  :                      ,
 I'm skipping whatever remains of this entry
-I was expecting a `,' or a `}'---line 4816 of file ../nuclear_bib.bib
+I was expecting a `,' or a `}'---line 4831 of file ../nuclear_bib.bib
  :   pages = 210
  :              (R),
 I'm skipping whatever remains of this entry
-You've used 87 entries,
+You've used 88 entries,
             2773 wiz_defined-function locations,
-            1150 strings with 18776 characters,
-and the built_in function-call counts, 41353 in all, are:
-= -- 3348
-> -- 3077
-< -- 50
-+ -- 1042
-- -- 953
-* -- 3453
-:= -- 6724
-add.period$ -- 268
-call.type$ -- 87
-change.case$ -- 555
-chr.to.int$ -- 85
-cite$ -- 174
-duplicate$ -- 1805
-empty$ -- 3063
-format.name$ -- 1084
-if$ -- 8450
+            1156 strings with 18872 characters,
+and the built_in function-call counts, 41649 in all, are:
+= -- 3371
+> -- 3087
+< -- 51
++ -- 1046
+- -- 956
+* -- 3469
+:= -- 6773
+add.period$ -- 271
+call.type$ -- 88
+change.case$ -- 558
+chr.to.int$ -- 86
+cite$ -- 176
+duplicate$ -- 1825
+empty$ -- 3095
+format.name$ -- 1088
+if$ -- 8512
 int.to.chr$ -- 3
 int.to.str$ -- 1
-missing$ -- 108
-newline$ -- 445
-num.names$ -- 356
-pop$ -- 1111
+missing$ -- 110
+newline$ -- 450
+num.names$ -- 360
+pop$ -- 1122
 preamble$ -- 1
-purify$ -- 489
+purify$ -- 492
 quote$ -- 0
-skip$ -- 1391
+skip$ -- 1403
 stack$ -- 0
-substring$ -- 798
-swap$ -- 105
+substring$ -- 800
+swap$ -- 106
 text.length$ -- 3
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 852
+type$ -- 858
 warning$ -- 0
-while$ -- 327
+while$ -- 330
 width$ -- 0
-write$ -- 1145
+write$ -- 1158
 (There were 7 error messages)

@@ -3,31 +3,31 @@ Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
 The top-level auxiliary file: include_trans_nut.aux
 The style file: abbrvnat.bst
 Database file #1: ../nuclear_bib.bib
-"{" immediately follows a field name---line 321 of file ../nuclear_bib.bib
+"{" immediately follows a field name---line 328 of file ../nuclear_bib.bib
  :   journal = {Physical Review},@article
  :                                       {PhysRev.75.388,
 I'm skipping whatever remains of this entry
-I was expecting a `,' or a `}'---line 587 of file ../nuclear_bib.bib
+I was expecting a `,' or a `}'---line 594 of file ../nuclear_bib.bib
  :   volume = 16
  :              C,
 I'm skipping whatever remains of this entry
-You're missing a field name---line 3003 of file ../nuclear_bib.bib
+You're missing a field name---line 3010 of file ../nuclear_bib.bib
  : year = {1973},
  :               ,
 I'm skipping whatever remains of this entry
-"{" immediately follows a field name---line 3924 of file ../nuclear_bib.bib
+"{" immediately follows a field name---line 3931 of file ../nuclear_bib.bib
  : @article{Schmid:66,@article
  :                            {Jenning:11,
 I'm skipping whatever remains of this entry
-Repeated entry---line 4532 of file ../nuclear_bib.bib
+Repeated entry---line 4539 of file ../nuclear_bib.bib
  : @article{Bortignon:83
  :                      ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 4766 of file ../nuclear_bib.bib
+Repeated entry---line 4773 of file ../nuclear_bib.bib
  : @book{DeGennes:94
  :                  ,
 I'm skipping whatever remains of this entry
-I was expecting a `,' or a `}'---line 4824 of file ../nuclear_bib.bib
+I was expecting a `,' or a `}'---line 4831 of file ../nuclear_bib.bib
  :   pages = 210
  :              (R),
 I'm skipping whatever remains of this entry

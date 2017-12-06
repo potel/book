@@ -1,4 +1,4 @@
-\begin{thebibliography}{120}
+\begin{thebibliography}{125}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \expandafter\ifx\csname urlstyle\endcsname\relax
@@ -205,6 +205,12 @@ D.~R. B{\`{e}}s, R.~A. Broglia, G.~G. Dussel, R.~J. Liotta, and H.~M.
 \newblock Simultaneous treatment of surface and pairing nuclear fields.
 \newblock \emph{Phys. Lett. B}, 56:\penalty0 109, 1975.
 
+\bibitem[{Bjerregaard, J. H.} et~al.(1966){Bjerregaard, J. H.}, Hansen, Nathan,
+  and Hinds]{Bjerregaard:66b}
+{Bjerregaard, J. H.}, O.~Hansen, Nathan, and S.~Hinds.
+\newblock States of {$^{208}$Pb} from double triton stripping.
+\newblock \emph{{Nucl. Phys.}}, 89:\penalty0 337, 1966.
+
 \bibitem[Bjorken and Drell(1998)]{Bjorken:98}
 J.~B. Bjorken and S.~D. Drell.
 \newblock \emph{Relativistic quantum mechanics}.
@@ -299,6 +305,11 @@ P.~F. Bortignon, R.~A. Broglia, D.~R. B{\`{e}}s, R.~Liotta, and V.~Paar.
 \newblock \emph{Nuclear Superfluidity}.
 \newblock Cambridge University Press, Cambridge, 2005.
 
+\bibitem[{Brink, D. M.}(1985)]{Brink:85}
+{Brink, D. M.}
+\newblock \emph{{Semi--classical methods in nucleus--nucleus scattering}}.
+\newblock Cambridge University Press, Cambridge, 1985.
+
 \bibitem[Broglia(1975)]{Broglia:75}
 R.~A. Broglia.
 \newblock {Heavy ion reaction, notes of lectures delivered during the academic
@@ -313,6 +324,12 @@ R.~A. Broglia.
 \newblock Interacting Bose--Fermi systems in nuclei, page~95. Plenum Press, New
   York, 1981.
 \newblock Iachello, F., Ed.
+
+\bibitem[Broglia and Riedel(1967)]{Broglia:67}
+R.~A. Broglia and C.~Riedel.
+\newblock Pairing vibration and particle-hole states excited in the reaction
+  $^{206}${P}b(t, p)$^{208}${P}b.
+\newblock \emph{Nucl. Phys.}, 92:\penalty0 145, 1967.
 
 \bibitem[Broglia and Winther(2004)]{Broglia:04a}
 R.~A. Broglia and A.~Winther.
@@ -496,6 +513,11 @@ A.~Idini, G.~Potel, F.~Barranco, E.~Vigezzi, and R.~A. Broglia.
 \newblock Dual origin of pairing in nuclei.
 \newblock \emph{Physics of Atomic Nuclei}, 79:\penalty0 807, 2014.
 
+\bibitem[Jackson(1970)]{Jackson:70}
+D.~F. Jackson.
+\newblock \emph{Nuclear reactions}.
+\newblock Methuen, London, 1970.
+
 \bibitem[Kanungo et~al.(2015)Kanungo, Sanetullaev, Tanaka, Ishimoto, Hagen,
   Myo, Suzuki, Andreoiu, Bender, Chen, Davids, Fallis, Fortin, Galinski,
   Gallant, Garrett, Hackman, Hadinia, Jansen, Keefe, Kr\"ucken, Lighthall,
@@ -637,11 +659,18 @@ G.~Potel, A.~Idini, F.~Barranco, E.~Vigezzi, and R.~A. Broglia.
   and reactions}.
 \newblock \emph{Phys. Rev C}, 96:\penalty0 034606, 2017.
 
-\bibitem[{Potel, G.} et~al.(2013){Potel, G.}, Idini, Barranco, Vigezzi, and
-  Broglia]{Potel:13}
+\bibitem[{Potel, G.} et~al.(2013{\natexlab{a}}){Potel, G.}, Idini, Barranco,
+  Vigezzi, and Broglia]{Potel:13}
 {Potel, G.}, A.~Idini, F.~Barranco, E.~Vigezzi, and R.~A. Broglia.
 \newblock Cooper pair transfer in nuclei.
-\newblock \emph{{Rep. Prog. Phys.}}, 76:\penalty0 106301, 2013.
+\newblock \emph{{Rep. Prog. Phys.}}, 76:\penalty0 106301, 2013{\natexlab{a}}.
+
+\bibitem[{Potel, G.} et~al.(2013{\natexlab{b}}){Potel, G.}, Idini, Barranco,
+  Vigezzi, and Broglia]{Potel:13b}
+{Potel, G.}, A.~Idini, F.~Barranco, E.~Vigezzi, and R.~A. Broglia.
+\newblock {Quantitative study of coherent pairing modes with two--neutron
+  transfer: Sn isotopes}.
+\newblock \emph{{Phys. Rev. C}}, 87:\penalty0 054321, 2013{\natexlab{b}}.
 
 \bibitem[Ragnarsson and Broglia(1976)]{Ragnarsson:76}
 I.~Ragnarsson and R.~A. Broglia.

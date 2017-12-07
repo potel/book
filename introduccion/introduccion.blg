@@ -102,45 +102,45 @@ Name 2 in "G. Col\`{o}, and N. Van Giai, and P. F. Bortignon, and M. R. Quaglia"
 while executing---line 1429 of file abbrvnat.bst
 Name 3 in "G. Col\`{o}, and N. Van Giai, and P. F. Bortignon, and M. R. Quaglia" has a comma at the end for entry Colo:00
 while executing---line 1429 of file abbrvnat.bst
-You've used 125 entries,
+You've used 126 entries,
             2773 wiz_defined-function locations,
-            1358 strings with 24525 characters,
-and the built_in function-call counts, 59588 in all, are:
-= -- 4839
-> -- 4401
-< -- 80
-+ -- 1498
-- -- 1365
-* -- 4946
-:= -- 9674
-add.period$ -- 389
-call.type$ -- 125
-change.case$ -- 797
-chr.to.int$ -- 117
-cite$ -- 251
-duplicate$ -- 2617
-empty$ -- 4425
-format.name$ -- 1552
-if$ -- 12205
+            1362 strings with 24584 characters,
+and the built_in function-call counts, 59884 in all, are:
+= -- 4862
+> -- 4411
+< -- 81
++ -- 1502
+- -- 1368
+* -- 4962
+:= -- 9723
+add.period$ -- 392
+call.type$ -- 126
+change.case$ -- 800
+chr.to.int$ -- 118
+cite$ -- 253
+duplicate$ -- 2637
+empty$ -- 4457
+format.name$ -- 1556
+if$ -- 12267
 int.to.chr$ -- 9
 int.to.str$ -- 1
-missing$ -- 153
-newline$ -- 637
-num.names$ -- 514
-pop$ -- 1597
+missing$ -- 155
+newline$ -- 642
+num.names$ -- 518
+pop$ -- 1608
 preamble$ -- 1
-purify$ -- 700
+purify$ -- 703
 quote$ -- 0
-skip$ -- 2003
+skip$ -- 2015
 stack$ -- 0
-substring$ -- 1143
-swap$ -- 181
+substring$ -- 1145
+swap$ -- 182
 text.length$ -- 8
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 1235
+type$ -- 1241
 warning$ -- 1
-while$ -- 472
+while$ -- 475
 width$ -- 0
-write$ -- 1652
+write$ -- 1665
 (There were 42 error messages)

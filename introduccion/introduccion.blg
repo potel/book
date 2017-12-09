@@ -27,6 +27,10 @@ I'm skipping whatever remains of this entry
  : @article{Schmid:66,@article
  :                            {Jenning:11,
 I'm skipping whatever remains of this entry
+Repeated entry---line 4638 of file ../nuclear_bib.bib
+ : @article{Sackett:93
+ :                    ,
+I'm skipping whatever remains of this entry
 I was expecting a `,' or a `}'---line 4837 of file ../nuclear_bib.bib
  :   pages = 210
  :              (R),
@@ -102,45 +106,45 @@ Name 2 in "G. Col\`{o}, and N. Van Giai, and P. F. Bortignon, and M. R. Quaglia"
 while executing---line 1429 of file abbrvnat.bst
 Name 3 in "G. Col\`{o}, and N. Van Giai, and P. F. Bortignon, and M. R. Quaglia" has a comma at the end for entry Colo:00
 while executing---line 1429 of file abbrvnat.bst
-You've used 126 entries,
+You've used 129 entries,
             2773 wiz_defined-function locations,
-            1362 strings with 24584 characters,
-and the built_in function-call counts, 59884 in all, are:
-= -- 4862
-> -- 4411
-< -- 81
-+ -- 1502
-- -- 1368
-* -- 4962
-:= -- 9723
-add.period$ -- 392
-call.type$ -- 126
-change.case$ -- 800
-chr.to.int$ -- 118
-cite$ -- 253
-duplicate$ -- 2637
-empty$ -- 4457
-format.name$ -- 1556
-if$ -- 12267
+            1380 strings with 25708 characters,
+and the built_in function-call counts, 63634 in all, are:
+= -- 5119
+> -- 4931
+< -- 82
++ -- 1676
+- -- 1539
+* -- 5364
+:= -- 10372
+add.period$ -- 401
+call.type$ -- 129
+change.case$ -- 866
+chr.to.int$ -- 121
+cite$ -- 259
+duplicate$ -- 2699
+empty$ -- 4565
+format.name$ -- 1730
+if$ -- 12976
 int.to.chr$ -- 9
 int.to.str$ -- 1
-missing$ -- 155
-newline$ -- 642
-num.names$ -- 518
-pop$ -- 1608
+missing$ -- 158
+newline$ -- 657
+num.names$ -- 530
+pop$ -- 1735
 preamble$ -- 1
-purify$ -- 703
+purify$ -- 766
 quote$ -- 0
-skip$ -- 2015
+skip$ -- 2108
 stack$ -- 0
-substring$ -- 1145
-swap$ -- 182
+substring$ -- 1181
+swap$ -- 185
 text.length$ -- 8
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 1241
+type$ -- 1274
 warning$ -- 1
-while$ -- 475
+while$ -- 487
 width$ -- 0
-write$ -- 1665
-(There were 42 error messages)
+write$ -- 1704
+(There were 43 error messages)

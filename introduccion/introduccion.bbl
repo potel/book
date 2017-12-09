@@ -1,4 +1,4 @@
-\begin{thebibliography}{126}
+\begin{thebibliography}{129}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \expandafter\ifx\csname urlstyle\endcsname\relax
@@ -440,6 +440,11 @@ G.~Col\`{o}, N.~V. Giai, P.~F. Bortignon, and M.~R. Quaglia.
 \newblock On dipole compression modes in nuclei.
 \newblock \emph{Physics Letters B}, 485:\penalty0 362, 2000.
 
+\bibitem[Cooper(1956)]{Cooper:56}
+L.~N. Cooper.
+\newblock Bound electron pairs in a degenerate fermi gas.
+\newblock \emph{Phys. Rev.}, 104:\penalty0 1189, 1956.
+
 \bibitem[{Dickey, S. A.} et~al.(1982){Dickey, S. A.}, Kraushaar, Ristinen, and
   Rumore]{Dickey:82}
 {Dickey, S. A.}, J.~Kraushaar, R.~Ristinen, and M.~Rumore.
@@ -699,6 +704,16 @@ H.~Reinhardt.
   nuclei--quaisparticle--phonon multiplet}.
 \newblock \emph{Nucl. Phys. A}, 251:\penalty0 176, 1980.
 
+\bibitem[Sackett et~al.(1993)Sackett, Ieki, Galonsky, Bertulani, Esbensen,
+  Kruse, Lynch, Morrissey, Orr, Sherrill, Schulz, Sustich, Winger, De\'ak,
+  Horv\'ath, Kiss, Seres, Kolata, Warner, and Humphrey]{Sackett:93}
+D.~Sackett, K.~Ieki, A.~Galonsky, C.~A. Bertulani, H.~Esbensen, J.~J. Kruse,
+  W.~G. Lynch, D.~J. Morrissey, N.~A. Orr, B.~M. Sherrill, H.~Schulz,
+  A.~Sustich, J.~A. Winger, F.~De\'ak, A.~Horv\'ath, A.~Kiss, Z.~Seres, J.~J.
+  Kolata, R.~E. Warner, and D.~L. Humphrey.
+\newblock {Electromagnetic excitation of $^{11}Li$}.
+\newblock \emph{Phys. Rev. C}, 48:\penalty0 118, 1993.
+
 \bibitem[Sanetullaev et~al.(2016)Sanetullaev, Kanungo, Tanaka, Alcorta,
   Andreoiu, Bender, Chen, Christian, Davids, Fallis, Fortin, Galinski, Gallant,
   Garrett, Hackman, Hadinia, Ishimoto, Keefe, Krücken, Lighthall, McNeice,
@@ -800,5 +815,21 @@ M.~Zinser, F.~Humbert, T.~Nilsson, W.~Schwab, T.~Blaich, M.~J.~G. Borge, L.~V.
 \newblock Study of the unstable nucleus $^{10}${Li} in stripping reactions of
   the radioactive projectiles $^{11}${Be} and $^{11}${Li}.
 \newblock \emph{Phys. Rev. Lett.}, 75:\penalty0 1719, 1995.
+
+\bibitem[{Zinser, M.} et~al.(1997){Zinser, M.}, Humbert, Nilsson, Schwab,
+  Simon, Aumann, Borge, Chulkov, Cub, Elze, Emling, Geissel,
+  Guillemaud-Mueller, Hansen, Holzmann, Irnich, Jonson, Kratz, Kulessa,
+  Leifels, Lenske, Magel, Mueller, Münzenberg, Nickel, Nyman, Richter,
+  Riisager, Scheidenberger, Schrieder, Stelzer, Stroth, Surowiec, Tengblad,
+  Wajda, and Zude]{Zinser:97}
+{Zinser, M.}, F.~Humbert, T.~Nilsson, W.~Schwab, H.~Simon, T.~Aumann, M.~J.~G.
+  Borge, L.~V. Chulkov, J.~Cub, T.~W. Elze, H.~Emling, H.~Geissel,
+  D.~Guillemaud-Mueller, P.~G. Hansen, R.~Holzmann, H.~Irnich, B.~Jonson, J.~V.
+  Kratz, R.~Kulessa, Y.~Leifels, H.~Lenske, A.~Magel, A.~C. Mueller,
+  G.~Münzenberg, F.~Nickel, G.~Nyman, A.~Richter, K.~Riisager,
+  C.~Scheidenberger, G.~Schrieder, K.~Stelzer, J.~Stroth, A.~Surowiec,
+  O.~Tengblad, E.~Wajda, and E.~Zude.
+\newblock {Invariant-mass spectroscopy of $^{10}$Li and $^{11}$Li}.
+\newblock \emph{Nuclear Physics A}, 619:\penalty0 151, 1997.
 
 \end{thebibliography}

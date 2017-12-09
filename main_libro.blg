@@ -4,20 +4,20 @@ The top-level auxiliary file: main_libro.aux
 A level-1 auxiliary file: C1/includeC1.aux
 The style file: abbrvnat.bst
 A level-1 auxiliary file: introduccion/introduccion.aux
-Illegal, another \bibstyle command---line 624 of file introduccion/introduccion.aux
+Illegal, another \bibstyle command---line 632 of file introduccion/introduccion.aux
  : \bibstyle
  :          {abbrvnat}
 I'm skipping whatever remains of this command
-Illegal, another \bibdata command---line 625 of file introduccion/introduccion.aux
+Illegal, another \bibdata command---line 633 of file introduccion/introduccion.aux
  : \bibdata
  :         {../nuclear_bib}
 I'm skipping whatever remains of this command
 A level-1 auxiliary file: nutshell/include_struct_nut.aux
-Illegal, another \bibstyle command---line 425 of file nutshell/include_struct_nut.aux
+Illegal, another \bibstyle command---line 426 of file nutshell/include_struct_nut.aux
  : \bibstyle
  :          {abbrvnat}
 I'm skipping whatever remains of this command
-Illegal, another \bibdata command---line 426 of file nutshell/include_struct_nut.aux
+Illegal, another \bibdata command---line 427 of file nutshell/include_struct_nut.aux
  : \bibdata
  :         {../nuclear_bib}
 I'm skipping whatever remains of this command

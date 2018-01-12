@@ -3,40 +3,38 @@ Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
 The top-level auxiliary file: includeC8.aux
 The style file: abbrvnat.bst
 Database file #1: ../nuclear_bib.bib
-"{" immediately follows a field name---line 321 of file ../nuclear_bib.bib
+"{" immediately follows a field name---line 334 of file ../nuclear_bib.bib
  :   journal = {Physical Review},@article
  :                                       {PhysRev.75.388,
 I'm skipping whatever remains of this entry
-I was expecting a `,' or a `}'---line 587 of file ../nuclear_bib.bib
+I was expecting a `,' or a `}'---line 600 of file ../nuclear_bib.bib
  :   volume = 16
  :              C,
 I'm skipping whatever remains of this entry
-Repeated entry---line 2811 of file ../nuclear_bib.bib
+Repeated entry---line 2824 of file ../nuclear_bib.bib
  : @article{Koning:03
  :                   ,
 I'm skipping whatever remains of this entry
-You're missing a field name---line 3003 of file ../nuclear_bib.bib
+You're missing a field name---line 3016 of file ../nuclear_bib.bib
  : year = {1973},
  :               ,
 I'm skipping whatever remains of this entry
-"{" immediately follows a field name---line 3924 of file ../nuclear_bib.bib
+"{" immediately follows a field name---line 3937 of file ../nuclear_bib.bib
  : @article{Schmid:66,@article
  :                            {Jenning:11,
 I'm skipping whatever remains of this entry
-Repeated entry---line 4282 of file ../nuclear_bib.bib
+Repeated entry---line 4295 of file ../nuclear_bib.bib
  : @article{Thompson:88
  :                     ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 4307 of file ../nuclear_bib.bib
+Repeated entry---line 4320 of file ../nuclear_bib.bib
  : @article{Barranco:99
  :                     ,
 I'm skipping whatever remains of this entry
-I was expecting a `,' or a `}'---line 4824 of file ../nuclear_bib.bib
+I was expecting a `,' or a `}'---line 4837 of file ../nuclear_bib.bib
  :   pages = 210
  :              (R),
 I'm skipping whatever remains of this entry
-Warning--I didn't find a database entry for "Holstein"
-Warning--I didn't find a database entry for "Bohr"
 Name 2 in "{Guazzoni, P.} and M. Jaskola, and L. Zetta, and A. Covello, and A. Gargano, and Y. Eisermann, and G. Graw, and R. Hertenberger, and A. Metz, and F. Nuoffer, and G. Staudt" has a comma at the end for entry Guazzoni:99
 while executing---line 1347 of file abbrvnat.bst
 Name 3 in "{Guazzoni, P.} and M. Jaskola, and L. Zetta, and A. Covello, and A. Gargano, and Y. Eisermann, and G. Graw, and R. Hertenberger, and A. Metz, and F. Nuoffer, and G. Staudt" has a comma at the end for entry Guazzoni:99
@@ -74,6 +72,7 @@ while executing---line 1347 of file abbrvnat.bst
 Name 2 in "A. Repko, and P. G. Reinhard, and V. O. Nestrenko and J. Kvasil" has a comma at the end for entry Repko:13
 while executing---line 1347 of file abbrvnat.bst
 Warning--empty publisher in Brink:55
+Warning--empty booktitle in Broglia:81c
 Name 1 in "R. A. Broglia, and P. F. Bortignon, and F. Barranco, and E. Vigezzi, and A. Idini, and G. Potel" has a comma at the end for entry Broglia:16
 while executing---line 1429 of file abbrvnat.bst
 Name 2 in "R. A. Broglia, and P. F. Bortignon, and F. Barranco, and E. Vigezzi, and A. Idini, and G. Potel" has a comma at the end for entry Broglia:16
@@ -138,45 +137,45 @@ Name 1 in "A. Repko, and P. G. Reinhard, and V. O. Nestrenko and J. Kvasil" has 
 while executing---line 1429 of file abbrvnat.bst
 Name 2 in "A. Repko, and P. G. Reinhard, and V. O. Nestrenko and J. Kvasil" has a comma at the end for entry Repko:13
 while executing---line 1429 of file abbrvnat.bst
-You've used 103 entries,
+You've used 111 entries,
             2773 wiz_defined-function locations,
-            1248 strings with 22956 characters,
-and the built_in function-call counts, 57202 in all, are:
-= -- 4523
-> -- 4957
-< -- 50
-+ -- 1671
-- -- 1566
-* -- 5144
-:= -- 9364
-add.period$ -- 310
-call.type$ -- 103
-change.case$ -- 815
-chr.to.int$ -- 101
-cite$ -- 207
-duplicate$ -- 2124
-empty$ -- 3721
-format.name$ -- 1715
-if$ -- 11504
-int.to.chr$ -- 3
+            1289 strings with 24290 characters,
+and the built_in function-call counts, 60845 in all, are:
+= -- 4836
+> -- 5186
+< -- 54
++ -- 1750
+- -- 1635
+* -- 5450
+:= -- 9939
+add.period$ -- 336
+call.type$ -- 111
+change.case$ -- 862
+chr.to.int$ -- 107
+cite$ -- 224
+duplicate$ -- 2297
+empty$ -- 4013
+format.name$ -- 1796
+if$ -- 12264
+int.to.chr$ -- 5
 int.to.str$ -- 1
-missing$ -- 119
-newline$ -- 523
-num.names$ -- 412
-pop$ -- 1551
+missing$ -- 127
+newline$ -- 564
+num.names$ -- 444
+pop$ -- 1633
 preamble$ -- 1
-purify$ -- 728
+purify$ -- 767
 quote$ -- 0
-skip$ -- 1793
+skip$ -- 1915
 stack$ -- 0
-substring$ -- 1283
-swap$ -- 116
-text.length$ -- 2
+substring$ -- 1369
+swap$ -- 132
+text.length$ -- 3
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 1053
-warning$ -- 1
-while$ -- 395
+type$ -- 1141
+warning$ -- 2
+while$ -- 427
 width$ -- 0
-write$ -- 1346
+write$ -- 1454
 (There were 58 error messages)

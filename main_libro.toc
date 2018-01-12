@@ -1,203 +1,204 @@
 \gdef \the@ipfilectr {@-1}
 \gdef \the@ipfilectr {}
 \gdef \the@ipfilectr {@-2}
-\contentsline {chapter}{\numberline {1}Introduction}{11}
-\contentsline {section}{\numberline {1.1}Elementary modes of excitation}{11}
-\contentsline {section}{\numberline {1.2}Sum rules}{18}
-\contentsline {section}{\numberline {1.3}Particle--vibration coupling}{25}
-\contentsline {subsection}{\numberline {1.3.1}Fluctuation and damping}{27}
-\contentsline {subsection}{\numberline {1.3.2}Induced interaction}{34}
-\contentsline {section}{\numberline {1.4}Well funneled nuclear structure landscape}{36}
+\contentsline {chapter}{\numberline {1}Introduction}{13}
+\contentsline {section}{\numberline {1.1}Elementary modes of excitation}{13}
+\contentsline {section}{\numberline {1.2}Sum rules}{20}
+\contentsline {section}{\numberline {1.3}Particle--vibration coupling}{27}
+\contentsline {subsection}{\numberline {1.3.1}Fluctuation and damping}{29}
+\contentsline {subsection}{\numberline {1.3.2}Induced interaction}{35}
+\contentsline {section}{\numberline {1.4}Well funneled nuclear structure landscape}{38}
 \contentsline {section}{\numberline {1.5}Non--orthogonality}{42}
-\contentsline {section}{\numberline {1.6}Coupling between intrinsic and relative motion}{46}
-\contentsline {section}{\numberline {1.7}Nuclear Field Theory for pedestrians}{51}
-\contentsline {subsection}{\numberline {1.7.1}The concept of elementary modes of excitation}{54}
-\contentsline {subsection}{\numberline {1.7.2}NFT rules and applications}{58}
-\contentsline {subsubsection}{Schematic model}{58}
-\contentsline {subsubsection}{Field--theoretical solutions}{59}
-\contentsline {subsection}{\numberline {1.7.3}Spurious states}{65}
-\contentsline {subsection}{\numberline {1.7.4}Applications}{73}
-\contentsline {section}{\numberline {1.8}Competition between ZPF}{80}
-\contentsline {section}{\numberline {1.9}Optical potential and transfer}{84}
-\contentsline {subsection}{\numberline {1.9.1}Bare particles and Hartree--Fock field}{84}
-\contentsline {subsection}{\numberline {1.9.2}Physical particles and optical potential}{85}
-\contentsline {subsection}{\numberline {1.9.3}$^{11}_3$Li$_8$ structure in a nutshell}{86}
-\contentsline {subsection}{\numberline {1.9.4}$^{11}$Li$(p,p)^{11}$Li optical potential and transfer reaction channels}{90}
-\contentsline {section}{\numberline {1.10}Characterization of an open--shell nucleus: $^{120}$Sn}{96}
-\contentsline {section}{\numberline {1.11}Summary}{99}
-\contentsline {section}{\numberline {1.A}Confronting theory with experiment}{100}
-\contentsline {subsection}{\numberline {1.A.1}One--particle transfer}{100}
-\contentsline {subsubsection}{Nuclei along the stability valley}{100}
-\contentsline {subsubsection}{Optical potentials}{100}
-\contentsline {subsubsection}{Absolute differential cross sections: theory--experiment}{100}
-\contentsline {subsubsection}{Halo nuclei}{100}
-\contentsline {subsubsection}{Optical potentials}{100}
-\contentsline {subsection}{\numberline {1.A.2}Two--particle transfer}{101}
-\contentsline {subsubsection}{Nuclei along the stability valley}{101}
-\contentsline {subsubsection}{Closed shell nuclei}{101}
-\contentsline {subsubsection}{Optical potentials}{101}
-\contentsline {subsubsection}{Absolute differential cross sections: theory--experiment}{101}
-\contentsline {subsubsection}{Open shell nuclei}{101}
-\contentsline {subsubsection}{Spectroscopic amplitudes}{101}
-\contentsline {subsubsection}{Optical potentials}{101}
-\contentsline {subsubsection}{Absolute differential cross sections: theory--experiment}{101}
-\contentsline {subsubsection}{Nuclei around $N=6$ closed shell}{101}
+\contentsline {section}{\numberline {1.6}Coupling between intrinsic and relative motion}{48}
+\contentsline {section}{\numberline {1.7}Nuclear Field Theory for pedestrians}{53}
+\contentsline {subsection}{\numberline {1.7.1}The concept of elementary modes of excitation}{56}
+\contentsline {subsection}{\numberline {1.7.2}NFT rules and applications}{60}
+\contentsline {subsubsection}{Schematic model}{60}
+\contentsline {subsubsection}{Field--theoretical solutions}{61}
+\contentsline {subsection}{\numberline {1.7.3}Spurious states}{67}
+\contentsline {subsection}{\numberline {1.7.4}Applications}{75}
+\contentsline {section}{\numberline {1.8}Competition between ZPF}{82}
+\contentsline {section}{\numberline {1.9}Optical potential and transfer}{86}
+\contentsline {subsection}{\numberline {1.9.1}Bare particles and Hartree--Fock field}{86}
+\contentsline {subsection}{\numberline {1.9.2}Physical particles and optical potential}{87}
+\contentsline {subsection}{\numberline {1.9.3}$^{11}_3$Li$_8$ structure in a nutshell}{88}
+\contentsline {subsection}{\numberline {1.9.4}$^{11}$Li$(p,p)^{11}$Li optical potential and transfer reaction channels}{92}
+\contentsline {section}{\numberline {1.10}Characterization of an open--shell nucleus: $^{120}$Sn}{98}
+\contentsline {section}{\numberline {1.11}Summary}{101}
+\contentsline {section}{\numberline {1.A}Confronting theory with experiment}{102}
+\contentsline {subsection}{\numberline {1.A.1}One--particle transfer}{102}
+\contentsline {subsubsection}{Nuclei along the stability valley}{102}
 \contentsline {subsubsection}{Optical potentials}{102}
 \contentsline {subsubsection}{Absolute differential cross sections: theory--experiment}{102}
-\contentsline {section}{\numberline {1.B}Inelastic Scattering}{102}
-\contentsline {subsection}{\numberline {1.B.1}($\alpha $,$\alpha '$)--scattering}{102}
-\contentsline {section}{\numberline {1.C}Technical details NFT}{106}
-\contentsline {subsection}{\numberline {1.C.1}Graphical solution}{107}
-\contentsline {subsection}{\numberline {1.C.2}Overlap}{108}
-\contentsline {section}{\numberline {1.D}NFT and reactions}{109}
-\contentsline {subsection}{\numberline {1.D.1}Potential scattering}{111}
-\contentsline {subsection}{\numberline {1.D.2}Transfer}{112}
-\contentsline {section}{\numberline {1.E}NFT vacuum polarization}{116}
+\contentsline {subsubsection}{Halo nuclei}{102}
+\contentsline {subsubsection}{Optical potentials}{103}
+\contentsline {subsection}{\numberline {1.A.2}Two--particle transfer}{103}
+\contentsline {subsubsection}{Nuclei along the stability valley}{103}
+\contentsline {subsubsection}{Closed shell nuclei}{103}
+\contentsline {subsubsection}{Optical potentials}{103}
+\contentsline {subsubsection}{Absolute differential cross sections: theory--experiment}{103}
+\contentsline {subsubsection}{Open shell nuclei}{103}
+\contentsline {subsubsection}{Spectroscopic amplitudes}{103}
+\contentsline {subsubsection}{Optical potentials}{103}
+\contentsline {subsubsection}{Absolute differential cross sections: theory--experiment}{103}
+\contentsline {subsubsection}{Nuclei around $N=6$ closed shell}{103}
+\contentsline {subsubsection}{Optical potentials}{104}
+\contentsline {subsubsection}{Absolute differential cross sections: theory--experiment}{104}
+\contentsline {section}{\numberline {1.B}Inelastic Scattering}{104}
+\contentsline {subsection}{\numberline {1.B.1}($\alpha $,$\alpha '$)--scattering}{104}
+\contentsline {section}{\numberline {1.C}Technical details NFT}{108}
+\contentsline {subsection}{\numberline {1.C.1}Graphical solution}{109}
+\contentsline {subsection}{\numberline {1.C.2}Overlap}{110}
+\contentsline {subsection}{\numberline {1.C.3}NFT(r+s): linear theory}{111}
+\contentsline {section}{\numberline {1.D}NFT and reactions}{112}
+\contentsline {subsection}{\numberline {1.D.1}Potential scattering}{114}
+\contentsline {subsection}{\numberline {1.D.2}Transfer}{115}
+\contentsline {section}{\numberline {1.E}NFT vacuum polarization}{119}
 \gdef \the@ipfilectr {}
 \gdef \the@ipfilectr {@-3}
-\contentsline {chapter}{\numberline {2}Pairing with transfer}{129}
-\contentsline {section}{\numberline {2.1}Nuclear Structure in a nutshell}{129}
-\contentsline {subsection}{\numberline {2.1.1}Two--nucleon modified formfactors}{139}
-\contentsline {section}{\numberline {2.2}Renormalization and spectroscopic amplitudes}{141}
-\contentsline {section}{\numberline {2.3}Quantality Parameter}{144}
-\contentsline {section}{\numberline {2.4}Cooper pairs}{146}
-\contentsline {subsection}{\numberline {2.4.1}independent--particle motion}{147}
-\contentsline {subsection}{\numberline {2.4.2}independent--pair motion}{152}
-\contentsline {section}{\numberline {2.5}Pair vibration spectroscopic amplitudes}{157}
-\contentsline {subsection}{\numberline {2.5.1}Pair removal mode}{160}
-\contentsline {subsection}{\numberline {2.5.2}Pair addition mode}{162}
-\contentsline {section}{\numberline {2.6}Halo pair addition mode and pygmy}{167}
-\contentsline {subsection}{\numberline {2.6.1}Cooper pair binding: a novel embodiment of the Axel--Brink hypothesis.}{169}
-\contentsline {section}{\numberline {2.A}Nuclear van der Waals Cooper pair}{177}
-\contentsline {section}{\numberline {2.B}Renormalized coupling constants $^{11}$Li: resum\'e}{178}
-\contentsline {section}{\numberline {2.C}Lindemann criterion and quantality parameter}{181}
-\contentsline {subsection}{\numberline {2.C.1}Lindemann (``disorder'') parameter for a nucleus}{182}
-\contentsline {section}{\numberline {2.D}The van der Waals interaction}{182}
+\contentsline {chapter}{\numberline {2}Pairing with transfer}{131}
+\contentsline {section}{\numberline {2.1}Nuclear Structure in a nutshell}{131}
+\contentsline {subsection}{\numberline {2.1.1}Two--nucleon modified formfactors}{141}
+\contentsline {section}{\numberline {2.2}Renormalization and spectroscopic amplitudes}{143}
+\contentsline {section}{\numberline {2.3}Quantality Parameter}{146}
+\contentsline {section}{\numberline {2.4}Cooper pairs}{148}
+\contentsline {subsection}{\numberline {2.4.1}independent--particle motion}{149}
+\contentsline {subsection}{\numberline {2.4.2}independent--pair motion}{154}
+\contentsline {section}{\numberline {2.5}Pair vibration spectroscopic amplitudes}{159}
+\contentsline {subsection}{\numberline {2.5.1}Pair removal mode}{162}
+\contentsline {subsection}{\numberline {2.5.2}Pair addition mode}{164}
+\contentsline {section}{\numberline {2.6}Halo pair addition mode and pygmy}{169}
+\contentsline {subsection}{\numberline {2.6.1}Cooper pair binding: a novel embodiment of the Axel--Brink hypothesis.}{172}
+\contentsline {section}{\numberline {2.A}Nuclear van der Waals Cooper pair}{179}
+\contentsline {section}{\numberline {2.B}Renormalized coupling constants $^{11}$Li: resum\'e}{180}
+\contentsline {section}{\numberline {2.C}Lindemann criterion and quantality parameter}{183}
+\contentsline {subsection}{\numberline {2.C.1}Lindemann (``disorder'') parameter for a nucleus}{184}
+\contentsline {section}{\numberline {2.D}The van der Waals interaction}{184}
 \gdef \the@ipfilectr {}
 \gdef \the@ipfilectr {@-4}
-\contentsline {chapter}{\numberline {3}Simultaneous versus successive transfer}{195}
-\contentsline {section}{\numberline {3.1}Simultaneous versus successive Cooper pair transfer in nuclei}{195}
-\contentsline {section}{\numberline {3.2}Transfer probabilities, enhancement factor}{196}
-\contentsline {subsection}{\numberline {3.2.1}Interplay between mean field and correlation length}{209}
-\contentsline {section}{\numberline {3.3}Correlations in Cooper pair tunneling}{211}
-\contentsline {section}{\numberline {3.4}Pair transfer}{214}
-\contentsline {subsection}{\numberline {3.4.1}Cooper pair dimensions}{215}
-\contentsline {section}{\numberline {3.5}Comments on the optical potential}{220}
-\contentsline {section}{\numberline {3.6}Weak link between superconductors}{225}
-\contentsline {section}{\numberline {3.7}Phase coherence}{230}
-\contentsline {section}{\numberline {3.8}Hindsight}{234}
-\contentsline {section}{\numberline {3.A}Medium polarization effects and pairing}{236}
-\contentsline {subsection}{\numberline {3.A.1}Nuclei}{236}
-\contentsline {subsubsection}{Polarization contributions to the bare nucleon--nucleon pairing interaction through elementary modes of excitation}{236}
-\contentsline {subsubsection}{Effective moments}{237}
-\contentsline {subsubsection}{Hindsight}{243}
-\contentsline {subsection}{\numberline {3.A.2}Metals}{245}
-\contentsline {subsubsection}{Plasmons and phonons (jellium model)}{245}
-\contentsline {subsection}{\numberline {3.A.3}Elementary theory of phonon dispersion relation}{246}
-\contentsline {subsection}{\numberline {3.A.4}Pairing condensation (correlation) energy beyond level density}{250}
-\contentsline {subsubsection}{Nuclei}{251}
-\contentsline {subsubsection}{Superconducting lead}{251}
-\contentsline {subsection}{\numberline {3.A.5}Hindsight}{252}
-\contentsline {section}{\numberline {3.B}Cooper pair: radial dependence}{252}
-\contentsline {subsubsection}{Caption Fig 3.B.1\hbox {}}{257}
-\contentsline {subsection}{\numberline {3.B.1}Number of overlapping pairs}{258}
-\contentsline {subsection}{\numberline {3.B.2}Coherence length and quantality parameter for $(ph)$ vibrations}{260}
-\contentsline {subsubsection}{Caption Fig 3.B.3\hbox {}}{260}
-\contentsline {subsection}{\numberline {3.B.3}tunneling probabilities}{262}
-\contentsline {subsection}{\numberline {3.B.4}Nuclear correlation (condensation) energy}{264}
-\contentsline {subsection}{\numberline {3.B.5}Possible (dream?) experiment}{265}
-\contentsline {section}{\numberline {3.C}Absolute Cooper pair tunneling cross section}{268}
-\contentsline {subsection}{\numberline {3.C.1}Saturation density, spill out and halo}{269}
-\contentsline {section}{\numberline {3.D}pairing spatial correlation: simple estimate}{274}
+\contentsline {chapter}{\numberline {3}Simultaneous versus successive transfer}{197}
+\contentsline {section}{\numberline {3.1}Simultaneous versus successive Cooper pair transfer in nuclei}{197}
+\contentsline {section}{\numberline {3.2}Transfer probabilities, enhancement factor}{198}
+\contentsline {subsection}{\numberline {3.2.1}Interplay between mean field and correlation length}{211}
+\contentsline {section}{\numberline {3.3}Correlations in Cooper pair tunneling}{213}
+\contentsline {section}{\numberline {3.4}Pair transfer}{216}
+\contentsline {subsection}{\numberline {3.4.1}Cooper pair dimensions}{217}
+\contentsline {section}{\numberline {3.5}Comments on the optical potential}{222}
+\contentsline {section}{\numberline {3.6}Weak link between superconductors}{227}
+\contentsline {section}{\numberline {3.7}Phase coherence}{232}
+\contentsline {section}{\numberline {3.8}Hindsight}{236}
+\contentsline {section}{\numberline {3.A}Medium polarization effects and pairing}{238}
+\contentsline {subsection}{\numberline {3.A.1}Nuclei}{238}
+\contentsline {subsubsection}{Polarization contributions to the bare nucleon--nucleon pairing interaction through elementary modes of excitation}{238}
+\contentsline {subsubsection}{Effective moments}{239}
+\contentsline {subsubsection}{Hindsight}{245}
+\contentsline {subsection}{\numberline {3.A.2}Metals}{247}
+\contentsline {subsubsection}{Plasmons and phonons (jellium model)}{247}
+\contentsline {subsection}{\numberline {3.A.3}Elementary theory of phonon dispersion relation}{248}
+\contentsline {subsection}{\numberline {3.A.4}Pairing condensation (correlation) energy beyond level density}{252}
+\contentsline {subsubsection}{Nuclei}{253}
+\contentsline {subsubsection}{Superconducting lead}{253}
+\contentsline {subsection}{\numberline {3.A.5}Hindsight}{254}
+\contentsline {section}{\numberline {3.B}Cooper pair: radial dependence}{254}
+\contentsline {subsubsection}{Caption Fig 3.B.1\hbox {}}{259}
+\contentsline {subsection}{\numberline {3.B.1}Number of overlapping pairs}{260}
+\contentsline {subsection}{\numberline {3.B.2}Coherence length and quantality parameter for $(ph)$ vibrations}{262}
+\contentsline {subsubsection}{Caption Fig 3.B.3\hbox {}}{262}
+\contentsline {subsection}{\numberline {3.B.3}tunneling probabilities}{264}
+\contentsline {subsection}{\numberline {3.B.4}Nuclear correlation (condensation) energy}{266}
+\contentsline {subsection}{\numberline {3.B.5}Possible (dream?) experiment}{267}
+\contentsline {section}{\numberline {3.C}Absolute Cooper pair tunneling cross section}{270}
+\contentsline {subsection}{\numberline {3.C.1}Saturation density, spill out and halo}{271}
+\contentsline {section}{\numberline {3.D}pairing spatial correlation: simple estimate}{276}
 \gdef \the@ipfilectr {}
 \gdef \the@ipfilectr {@-5}
-\contentsline {chapter}{\numberline {4}One--particle transfer}{285}
-\contentsline {section}{\numberline {4.1}General derivation}{286}
-\contentsline {subsection}{\numberline {4.1.1}Coordinates}{293}
-\contentsline {subsection}{\numberline {4.1.2}Zero--range approximation}{293}
-\contentsline {section}{\numberline {4.2}Examples and Applications}{294}
-\contentsline {subsection}{\numberline {4.2.1}$^{120}$Sn$(p,d)^{119}$Sn and $^{120}$Sn$(d,p)^{121}$Sn reactions.}{294}
-\contentsline {subsection}{\numberline {4.2.2}Dressing of single--particle states: parity inversion in $^{11}$Li}{299}
-\contentsline {section}{\numberline {4.A}Minimal mean field theory}{305}
-\contentsline {subsection}{\numberline {4.A.1}Density of levels}{308}
-\contentsline {section}{\numberline {4.B}Single--particle strength function}{310}
-\contentsline {section}{\numberline {4.C}Vacuum and medium polarization}{312}
-\contentsline {section}{\numberline {4.D}The Lamb Shift}{314}
-\contentsline {section}{\numberline {4.E}Self--energy and vertex corrections}{315}
-\contentsline {section}{\numberline {4.F}Single--nucleon transfer for pedestrians}{317}
-\contentsline {subsection}{\numberline {4.F.1}Plane-wave limit}{321}
-\contentsline {section}{\numberline {4.G}One--particle knockout within DWBA}{323}
-\contentsline {subsection}{\numberline {4.G.1}Spinless particles}{323}
-\contentsline {subsubsection}{Transition amplitude}{323}
-\contentsline {subsubsection}{Coordinates}{323}
-\contentsline {subsubsection}{Distorted waves in the continuum}{324}
-\contentsline {subsubsection}{Recoupling of angular momenta}{326}
-\contentsline {subsection}{\numberline {4.G.2}Particles with spin}{330}
-\contentsline {subsubsection}{Distorted waves}{331}
-\contentsline {subsubsection}{Recoupling of angular momenta}{333}
-\contentsline {subsubsection}{Zero range approximation.}{335}
-\contentsline {subsection}{\numberline {4.G.3}One--particle transfer}{336}
-\contentsline {section}{\numberline {4.H}Dynamical shell model in a nutshell}{339}
+\contentsline {chapter}{\numberline {4}One--particle transfer}{287}
+\contentsline {section}{\numberline {4.1}General derivation}{288}
+\contentsline {subsection}{\numberline {4.1.1}Coordinates}{295}
+\contentsline {subsection}{\numberline {4.1.2}Zero--range approximation}{295}
+\contentsline {section}{\numberline {4.2}Examples and Applications}{296}
+\contentsline {subsection}{\numberline {4.2.1}$^{120}$Sn$(p,d)^{119}$Sn and $^{120}$Sn$(d,p)^{121}$Sn reactions.}{296}
+\contentsline {subsection}{\numberline {4.2.2}Dressing of single--particle states: parity inversion in $^{11}$Li}{301}
+\contentsline {section}{\numberline {4.A}Minimal mean field theory}{307}
+\contentsline {subsection}{\numberline {4.A.1}Density of levels}{310}
+\contentsline {section}{\numberline {4.B}Single--particle strength function}{312}
+\contentsline {section}{\numberline {4.C}Vacuum and medium polarization}{314}
+\contentsline {section}{\numberline {4.D}The Lamb Shift}{316}
+\contentsline {section}{\numberline {4.E}Self--energy and vertex corrections}{317}
+\contentsline {section}{\numberline {4.F}Single--nucleon transfer for pedestrians}{319}
+\contentsline {subsection}{\numberline {4.F.1}Plane-wave limit}{323}
+\contentsline {section}{\numberline {4.G}One--particle knockout within DWBA}{325}
+\contentsline {subsection}{\numberline {4.G.1}Spinless particles}{325}
+\contentsline {subsubsection}{Transition amplitude}{325}
+\contentsline {subsubsection}{Coordinates}{325}
+\contentsline {subsubsection}{Distorted waves in the continuum}{326}
+\contentsline {subsubsection}{Recoupling of angular momenta}{328}
+\contentsline {subsection}{\numberline {4.G.2}Particles with spin}{332}
+\contentsline {subsubsection}{Distorted waves}{333}
+\contentsline {subsubsection}{Recoupling of angular momenta}{335}
+\contentsline {subsubsection}{Zero range approximation.}{337}
+\contentsline {subsection}{\numberline {4.G.3}One--particle transfer}{338}
+\contentsline {section}{\numberline {4.H}Dynamical shell model in a nutshell}{341}
 \gdef \the@ipfilectr {}
 \gdef \the@ipfilectr {@-6}
-\contentsline {chapter}{\numberline {5}Two--particle transfer}{349}
-\contentsline {section}{\numberline {5.1}Summary of second order DWBA}{350}
-\contentsline {section}{\numberline {5.2}Detailed derivation of second order DWBA}{354}
-\contentsline {subsection}{\numberline {5.2.1}Simultaneous transfer: distorted waves}{354}
-\contentsline {subsection}{\numberline {5.2.2}matrix element for the transition amplitude}{355}
-\contentsline {subsubsection}{Heavy--ion Reactions}{361}
-\contentsline {subsection}{\numberline {5.2.3}Coordinates for the calculation of simultaneous transfer}{363}
-\contentsline {subsection}{\numberline {5.2.4}Matrix element for the transition amplitude (alternative derivation)}{366}
-\contentsline {subsection}{\numberline {5.2.5}Coordinates used to derive Eq. (5.2.89\hbox {})}{369}
-\contentsline {subsection}{\numberline {5.2.6}Successive transfer}{371}
-\contentsline {subsection}{\numberline {5.2.7}Coordinates for the successive transfer}{376}
-\contentsline {subsection}{\numberline {5.2.8}Simplifying the vector coupling}{377}
-\contentsline {subsection}{\numberline {5.2.9}non--orthogonality term}{378}
-\contentsline {subsection}{\numberline {5.2.10}Arbitrary orbital momentum transfer}{379}
-\contentsline {subsection}{\numberline {5.2.11}Successive transfer contribution}{381}
-\contentsline {section}{\numberline {5.A}ZPF and Pauli principle}{385}
-\contentsline {section}{\numberline {5.B}Coherence and effective formfactors}{388}
-\contentsline {section}{\numberline {5.C}Succesive, simultaneous, non--orthogonality}{393}
-\contentsline {subsection}{\numberline {5.C.1}Independent particle limit}{400}
-\contentsline {subsection}{\numberline {5.C.2}Strong correlation (cluster) limit}{401}
-\contentsline {section}{\numberline {5.D}Spherical harmonics and angular momenta}{402}
-\contentsline {subsection}{\numberline {5.D.1}addition theorem}{402}
-\contentsline {subsection}{\numberline {5.D.2}expansion of the delta function}{403}
-\contentsline {subsection}{\numberline {5.D.3}coupling and complex conjugation}{403}
-\contentsline {subsection}{\numberline {5.D.4}angular momenta coupling}{404}
-\contentsline {subsection}{\numberline {5.D.5}integrals}{404}
-\contentsline {subsection}{\numberline {5.D.6}symmetry properties}{405}
-\contentsline {section}{\numberline {5.E}distorted waves}{406}
-\contentsline {section}{\numberline {5.F}hole states and time reversal}{407}
-\contentsline {section}{\numberline {5.G}Spectroscopic amplitudes in the BCS approximation}{409}
-\contentsline {section}{\numberline {5.H}Bayman's two--nucleon transfer amplitudes}{411}
+\contentsline {chapter}{\numberline {5}Two--particle transfer}{351}
+\contentsline {section}{\numberline {5.1}Summary of second order DWBA}{352}
+\contentsline {section}{\numberline {5.2}Detailed derivation of second order DWBA}{356}
+\contentsline {subsection}{\numberline {5.2.1}Simultaneous transfer: distorted waves}{356}
+\contentsline {subsection}{\numberline {5.2.2}matrix element for the transition amplitude}{357}
+\contentsline {subsubsection}{Heavy--ion Reactions}{363}
+\contentsline {subsection}{\numberline {5.2.3}Coordinates for the calculation of simultaneous transfer}{365}
+\contentsline {subsection}{\numberline {5.2.4}Matrix element for the transition amplitude (alternative derivation)}{368}
+\contentsline {subsection}{\numberline {5.2.5}Coordinates used to derive Eq. (5.2.89\hbox {})}{371}
+\contentsline {subsection}{\numberline {5.2.6}Successive transfer}{373}
+\contentsline {subsection}{\numberline {5.2.7}Coordinates for the successive transfer}{378}
+\contentsline {subsection}{\numberline {5.2.8}Simplifying the vector coupling}{379}
+\contentsline {subsection}{\numberline {5.2.9}non--orthogonality term}{380}
+\contentsline {subsection}{\numberline {5.2.10}Arbitrary orbital momentum transfer}{381}
+\contentsline {subsection}{\numberline {5.2.11}Successive transfer contribution}{383}
+\contentsline {section}{\numberline {5.A}ZPF and Pauli principle}{387}
+\contentsline {section}{\numberline {5.B}Coherence and effective formfactors}{390}
+\contentsline {section}{\numberline {5.C}Succesive, simultaneous, non--orthogonality}{395}
+\contentsline {subsection}{\numberline {5.C.1}Independent particle limit}{402}
+\contentsline {subsection}{\numberline {5.C.2}Strong correlation (cluster) limit}{403}
+\contentsline {section}{\numberline {5.D}Spherical harmonics and angular momenta}{404}
+\contentsline {subsection}{\numberline {5.D.1}addition theorem}{404}
+\contentsline {subsection}{\numberline {5.D.2}expansion of the delta function}{405}
+\contentsline {subsection}{\numberline {5.D.3}coupling and complex conjugation}{405}
+\contentsline {subsection}{\numberline {5.D.4}angular momenta coupling}{406}
+\contentsline {subsection}{\numberline {5.D.5}integrals}{406}
+\contentsline {subsection}{\numberline {5.D.6}symmetry properties}{407}
+\contentsline {section}{\numberline {5.E}distorted waves}{408}
+\contentsline {section}{\numberline {5.F}hole states and time reversal}{409}
+\contentsline {section}{\numberline {5.G}Spectroscopic amplitudes in the BCS approximation}{411}
+\contentsline {section}{\numberline {5.H}Bayman's two--nucleon transfer amplitudes}{413}
 \gdef \the@ipfilectr {}
 \gdef \the@ipfilectr {@-7}
-\contentsline {chapter}{\numberline {6}Structure with two neutrons}{415}
-\contentsline {section}{\numberline {6.1}Evidence for phonon mediated pairing}{415}
-\contentsline {subsection}{\numberline {6.1.1}Structure}{419}
-\contentsline {subsection}{\numberline {6.1.2}Reaction}{420}
-\contentsline {section}{\numberline {6.2}NFT of $^{11}$Be: one--particle transfer in halo nuclei}{423}
-\contentsline {subsection}{\numberline {6.2.1}Outlook}{423}
-\contentsline {subsection}{\numberline {6.2.2}Calculations}{423}
-\contentsline {section}{\numberline {6.3}Summary}{428}
-\contentsline {section}{\numberline {6.4}Pairing rotational bands}{430}
-\contentsline {subsection}{\numberline {6.4.1}Fluctuations}{431}
-\contentsline {subsection}{\numberline {6.4.2}Pairing rotations}{431}
-\contentsline {subsection}{\numberline {6.4.3}Structure--reaction: stability of the order parameter $\alpha _0$}{434}
-\contentsline {section}{\numberline {6.5}Virtual states forced to become real}{437}
-\contentsline {subsection}{\numberline {6.5.1}Empirical renormalization: (NFT)$_{\text {ren}}$(r+s) (Feynman + $S$--matrix)}{438}
-\contentsline {subsection}{\numberline {6.5.2}On--shell energy}{439}
-\contentsline {section}{\numberline {6.6}Perturbation and beyond}{440}
-\contentsline {subsection}{\numberline {6.6.1}One--particle transfer and optical potential}{441}
-\contentsline {subsection}{\numberline {6.6.2}(NFT)$_{\text {ren}}$(r+s) diagrams, $S$--matrix}{441}
-\contentsline {subsection}{\numberline {6.6.3}The structure of ``observable'' Cooper pairs}{445}
-\contentsline {subsection}{\numberline {6.6.4}Closing the circle}{447}
-\contentsline {section}{\numberline {6.A}Bootstrap mechanism to break gauge invariance}{448}
-\contentsline {subsection}{\numberline {6.A.1}Gedanken eksperiment}{449}
-\contentsline {section}{\numberline {6.B}Alternative processes to populate $|{^9\text {Li}(1/2^-)} \delimiter "526930B $}{450}
-\contentsline {section}{\numberline {6.C}Software}{453}
-\contentsline {section}{\numberline {6.D}Statistics.}{457}
-\contentsline {section}{\numberline {6.E}Correlation length and quantality parameter.}{458}
-\contentsline {section}{\numberline {6.F}Multipole pairing vibrations.}{459}
+\contentsline {chapter}{\numberline {6}Structure with two neutrons}{417}
+\contentsline {section}{\numberline {6.1}Evidence for phonon mediated pairing}{417}
+\contentsline {subsection}{\numberline {6.1.1}Structure}{421}
+\contentsline {subsection}{\numberline {6.1.2}Reaction}{422}
+\contentsline {section}{\numberline {6.2}NFT of $^{11}$Be: one--particle transfer in halo nuclei}{425}
+\contentsline {subsection}{\numberline {6.2.1}Outlook}{425}
+\contentsline {subsection}{\numberline {6.2.2}Calculations}{425}
+\contentsline {section}{\numberline {6.3}Summary}{430}
+\contentsline {section}{\numberline {6.4}Pairing rotational bands}{432}
+\contentsline {subsection}{\numberline {6.4.1}Fluctuations}{433}
+\contentsline {subsection}{\numberline {6.4.2}Pairing rotations}{433}
+\contentsline {subsection}{\numberline {6.4.3}Structure--reaction: stability of the order parameter $\alpha _0$}{436}
+\contentsline {section}{\numberline {6.5}Virtual states forced to become real}{439}
+\contentsline {subsection}{\numberline {6.5.1}Empirical renormalization: (NFT)$_{\text {ren}}$(r+s) (Feynman + $S$--matrix)}{440}
+\contentsline {subsection}{\numberline {6.5.2}On--shell energy}{441}
+\contentsline {section}{\numberline {6.6}Perturbation and beyond}{442}
+\contentsline {subsection}{\numberline {6.6.1}One--particle transfer and optical potential}{443}
+\contentsline {subsection}{\numberline {6.6.2}(NFT)$_{\text {ren}}$(r+s) diagrams, $S$--matrix}{443}
+\contentsline {subsection}{\numberline {6.6.3}The structure of ``observable'' Cooper pairs}{447}
+\contentsline {subsection}{\numberline {6.6.4}Closing the circle}{449}
+\contentsline {section}{\numberline {6.A}Bootstrap mechanism to break gauge invariance}{450}
+\contentsline {subsection}{\numberline {6.A.1}Gedanken eksperiment}{451}
+\contentsline {section}{\numberline {6.B}Alternative processes to populate $|{^9\text {Li}(1/2^-)} \delimiter "526930B $}{452}
+\contentsline {section}{\numberline {6.C}Software}{455}
+\contentsline {section}{\numberline {6.D}Statistics.}{459}
+\contentsline {section}{\numberline {6.E}Correlation length and quantality parameter.}{460}
+\contentsline {section}{\numberline {6.F}Multipole pairing vibrations.}{461}
 \gdef \the@ipfilectr {}

@@ -1,4 +1,4 @@
-\begin{thebibliography}{103}
+\begin{thebibliography}{111}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \expandafter\ifx\csname urlstyle\endcsname\relax
@@ -106,11 +106,17 @@ B.~F. Bayman and B.~H. Feng.
 \newblock Giant resonances in hot nuclei.
 \newblock \emph{Physics Today}, 39 (8):\penalty0 44, 1986.
 
-\bibitem[B{\`{e}}s and Broglia(1971)]{Bes:71}
+\bibitem[B{\`{e}}s and Broglia(1971{\natexlab{a}})]{Bes:71}
 D.~R. B{\`{e}}s and R.~A. Broglia.
 \newblock Effect of the multipole pairing and particle-hole fields in the
   particle-vibration coupling of $^{209}${P}b. {I}.
-\newblock \emph{Physical Review C}, 3:\penalty0 2349, 1971.
+\newblock \emph{Physical Review C}, 3:\penalty0 2349, 1971{\natexlab{a}}.
+
+\bibitem[B{\`{e}}s and Broglia(1971{\natexlab{b}})]{Bes:71d}
+D.~R. B{\`{e}}s and R.~A. Broglia.
+\newblock Effective operators in the analysis of single--nucleon tansfer
+  reactions on closed shell nuclei.
+\newblock \emph{Physical Review C}, 3:\penalty0 2389, 1971{\natexlab{b}}.
 
 \bibitem[B{\`{e}}s et~al.(1972)B{\`{e}}s, Broglia, and Nilsson]{Bes:72}
 D.~R. B{\`{e}}s, R.~A. Broglia, and B.~Nilsson.
@@ -145,6 +151,12 @@ A.~Bohr.
 \newblock In \emph{{Comptes Rendus du Congr\`{e}s International de Physique
   Nucl\'{e}aire}}, volume~1, page 487. Centre National de la Recherche
   Scientifique, 1964.
+
+\bibitem[Bohr and Mottelson(1974)]{Bohr:74b}
+A.~Bohr and B.~R. Mottelson.
+\newblock Features of nuclear deformations produced by the alignment of
+  individual particles or pairs.
+\newblock \emph{Physica Scripta}, 22:\penalty0 468, 1974.
 
 \bibitem[{Bohr, A.} and Mottelson(1975)]{Bohr:75}
 {Bohr, A.} and B.~R. Mottelson.
@@ -202,6 +214,13 @@ D.~M. Brink.
 \newblock \emph{Nuclear Superfluidity}.
 \newblock Cambridge University Press, Cambridge, 2005.
 
+\bibitem[Broglia(1981)]{Broglia:81c}
+R.~A. Broglia.
+\newblock {Microscopic structure of the intrinsic state of a deformed nucleus}.
+\newblock Interacting Bose--Fermi systems in nuclei, page~95. Plenum Press, New
+  York, 1981.
+\newblock Iachello, F., Ed.
+
 \bibitem[Broglia and Winther(2004)]{Broglia:04a}
 R.~A. Broglia and A.~Winther.
 \newblock \emph{Heavy Ion Reactions}.
@@ -212,6 +231,11 @@ R.~A. Broglia, C.~Riedel, and T.~Udagawa.
 \newblock Coherence properties of two-neutron transfer reactions and their
   relation to inelastic scattering.
 \newblock \emph{Nuclear Physics A}, 169:\penalty0 225, 1971.
+
+\bibitem[Broglia et~al.(1974)Broglia, B{\`{e}}s, and Nilsson]{Broglia:74}
+R.~A. Broglia, D.~R. B{\`{e}}s, and B.~S. Nilsson.
+\newblock Strength of the multipole pairing coupling constant.
+\newblock \emph{Physics Letters B}, 50:\penalty0 213, 1974.
 
 \bibitem[Broglia et~al.(2016)Broglia, Bortignon, Barranco, Vigezzi, Idini, and
   Potel]{Broglia:16}
@@ -225,6 +249,21 @@ R.~A. Broglia, P.~F. Bortignon, F.~Barranco, E.~Vigezzi, A.~Idini, and
 {Broglia, R. A.}
 \newblock The surfaces of compact systems: from nuclei to stars.
 \newblock \emph{Surface Science}, 500:\penalty0 759, 2002.
+
+\bibitem[{Broglia, R. A.} et~al.(1971{\natexlab{a}}){Broglia, R. A.}, Paar, and
+  Bes]{Broglia:71b}
+{Broglia, R. A.}, V.~Paar, and D.~Bes.
+\newblock {Diagramatic perturbation treatment of the effective interaction
+  between two-photon states in closed shell nuclei: The $J^\pi = 0^+$ states in
+  $^{208}$Pb}.
+\newblock \emph{Physics Letters B}, 37:\penalty0 159, 1971{\natexlab{a}}.
+
+\bibitem[{Broglia, R. A.} et~al.(1971{\natexlab{b}}){Broglia, R. A.}, Paar, and
+  Bes]{Broglia:71c}
+{Broglia, R. A.}, V.~Paar, and D.~Bes.
+\newblock {Effective interaction between {$J^\pi=2^+$} two--phonon states in
+  {$^{208}$Pb}. Evidence of the isovector quadrupole mode.}
+\newblock \emph{Physics Letters B}, 37:\penalty0 257, 1971{\natexlab{b}}.
 
 \bibitem[Calci et~al.(2016)Calci, Navr\'atil, Roth, Dohet-Eraly, Quaglioni, and
   Hupin]{Calci:16}
@@ -258,6 +297,14 @@ A.~Deltuva.
 \newblock Faddeev-type calculation of three-body nuclear reactions including
   core excitation.
 \newblock \emph{Phys. Rev. C}, 88:\penalty0 011601, 2013.
+
+\bibitem[Flynn et~al.(1971)Flynn, Igo, Barnes, Kovar, B\`{e}s, and
+  Broglia]{Flynn:71}
+E.~Flynn, G.~Igo, P.~Barnes, D.~Kovar, D.~R. B\`{e}s, and R.~A. Broglia.
+\newblock {Effect of multipole pairing particle--hole fields in the
+  particle--vibration couplig of $^{208}$Pb (II). The $^{207}$Pb$(t,p)^{209}$Pb
+  reaction at 20 MeV}.
+\newblock \emph{Phys. Rev. C}, 3:\penalty0 2371, 1971.
 
 \bibitem[{Flynn, E. R.} et~al.(1972){Flynn, E. R.}, Igo, and Broglia]{Flynn:72}
 {Flynn, E. R.}, G.~J. Igo, and R.~A. Broglia.
@@ -455,6 +502,12 @@ A.~Krieger, K.~Blaum, M.~L. Bissell, N.~Fr\"ommgen, C.~Geppert, M.~Hammen,
   W.~N\"ortersh\"auser, C.~Novotny, R.~S\'anchez, and D.~T. Yordanov.
 \newblock Nuclear charge radius of $^{12}\mathrm{Be}$.
 \newblock \emph{Phys. Rev. Lett.}, 108:\penalty0 142501, 2012.
+
+\bibitem[Kubo et~al.(1970)Kubo, Broglia, and Riedel]{Kubo:70}
+K.~Kubo, R.~A. Broglia, and T.~Riedel, C.~Udagawa.
+\newblock {Determination of the $Y_4$ deformation parameter from $(p,t)$
+  reactions}.
+\newblock \emph{Phys. Lett. B}, 32:\penalty0 29, 1970.
 
 \bibitem[Kwan et~al.(2014)Kwan, Wu, Summers, Hackman, Drake, Andreoiu, Ashley,
   Ball, Bender, Boston, Boston, Chester, Close, Cline, Cross, Dunlop, Finlay,

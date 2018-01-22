@@ -4,34 +4,34 @@ The top-level auxiliary file: main_libro.aux
 A level-1 auxiliary file: C1/includeC1.aux
 The style file: abbrvnat.bst
 A level-1 auxiliary file: introduccion/introduccion.aux
-Illegal, another \bibstyle command---line 616 of file introduccion/introduccion.aux
+Illegal, another \bibstyle command---line 618 of file introduccion/introduccion.aux
  : \bibstyle
  :          {abbrvnat}
 I'm skipping whatever remains of this command
-Illegal, another \bibdata command---line 617 of file introduccion/introduccion.aux
+Illegal, another \bibdata command---line 619 of file introduccion/introduccion.aux
  : \bibdata
  :         {../nuclear_bib}
 I'm skipping whatever remains of this command
 A level-1 auxiliary file: nutshell/include_struct_nut.aux
-Illegal, another \bibstyle command---line 426 of file nutshell/include_struct_nut.aux
+Illegal, another \bibstyle command---line 439 of file nutshell/include_struct_nut.aux
  : \bibstyle
  :          {abbrvnat}
 I'm skipping whatever remains of this command
-Illegal, another \bibdata command---line 427 of file nutshell/include_struct_nut.aux
+Illegal, another \bibdata command---line 440 of file nutshell/include_struct_nut.aux
  : \bibdata
  :         {../nuclear_bib}
 I'm skipping whatever remains of this command
 A level-1 auxiliary file: nutshell/include_trans_nut.aux
 Case mismatch error between cite keys deGennes:94 and DeGennes:94
----line 232 of file nutshell/include_trans_nut.aux
+---line 236 of file nutshell/include_trans_nut.aux
  : \citation{deGennes:94
  :                      }
 I'm skipping whatever remains of this command
-Illegal, another \bibstyle command---line 415 of file nutshell/include_trans_nut.aux
+Illegal, another \bibstyle command---line 419 of file nutshell/include_trans_nut.aux
  : \bibstyle
  :          {abbrvnat}
 I'm skipping whatever remains of this command
-Illegal, another \bibdata command---line 416 of file nutshell/include_trans_nut.aux
+Illegal, another \bibdata command---line 420 of file nutshell/include_trans_nut.aux
  : \bibdata
  :         {../nuclear_bib}
 I'm skipping whatever remains of this command
@@ -70,7 +70,7 @@ Illegal, another \bibdata command---line 24 of file main_libro.aux
  : \bibdata
  :         {./nuclear_bib}
 I'm skipping whatever remains of this command
-Reallocated field_info (elt_size=4) to 16032 items from 5000.
+Reallocated field_info (elt_size=4) to 16060 items from 5000.
 Database file #1: ./nuclear_bib.bib
 "{" immediately follows a field name---line 334 of file ./nuclear_bib.bib
  :   journal = {Physical Review},@article
@@ -150,6 +150,7 @@ Name 1 in "{Broglia, R.A.}, and C. Riedel and B. {S\o{}rensen}" has a comma at t
 while executing---line 1347 of file abbrvnat.bst
 Name 1 in "{Broglia, R.A.}, and C. Riedel and B. {S\o{}rensen}" has a comma at the end for entry Broglia:68
 while executing---line 1347 of file abbrvnat.bst
+Reallocated str_pool (elt_size=1) to 130000 items from 65000.
 Name 1 in "G. Col\`{o}, and N. Van Giai, and P. F. Bortignon, and M. R. Quaglia" has a comma at the end for entry Colo:00
 while executing---line 1347 of file abbrvnat.bst
 Name 1 in "G. Col\`{o}, and N. Van Giai, and P. F. Bortignon, and M. R. Quaglia" has a comma at the end for entry Colo:00
@@ -180,7 +181,6 @@ Name 1 in "Saperstein, E. E., and Baldo, M." has a comma at the end for entry Sa
 while executing---line 1347 of file abbrvnat.bst
 Name 1 in "Saperstein, E. E., and Baldo, M." has a comma at the end for entry Saperstein:12
 while executing---line 1347 of file abbrvnat.bst
-Reallocated str_pool (elt_size=1) to 130000 items from 65000.
 Name 1 in "Heike I. {R\"osner}, and Martina Caldarini, and Andreas Prestel, and Maria A. Vanoni, and Ricardo A. Broglia, and Alessandro Aliverti, and Guido Tiana, and and Birthe B. Kragelund" has a comma at the end for entry Rosner:17
 while executing---line 1347 of file abbrvnat.bst
 Name 1 in "Heike I. {R\"osner}, and Martina Caldarini, and Andreas Prestel, and Maria A. Vanoni, and Ricardo A. Broglia, and Alessandro Aliverti, and Guido Tiana, and and Birthe B. Kragelund" has a comma at the end for entry Rosner:17
@@ -335,45 +335,45 @@ while executing---line 1429 of file abbrvnat.bst
 Name 1 in "Saperstein, E. E., and Baldo, M." has a comma at the end for entry Saperstein:12
 while executing---line 1429 of file abbrvnat.bst
 Warning--empty title in Stent:80
-You've used 394 entries,
+You've used 395 entries,
             2773 wiz_defined-function locations,
-            2788 strings with 64921 characters,
-and the built_in function-call counts, 189847 in all, are:
-= -- 15539
-> -- 13766
-< -- 279
-+ -- 4682
-- -- 4273
-* -- 15631
-:= -- 30691
-add.period$ -- 1222
-call.type$ -- 394
-change.case$ -- 2519
-chr.to.int$ -- 379
-cite$ -- 800
-duplicate$ -- 8376
-empty$ -- 14219
-format.name$ -- 4851
-if$ -- 39046
+            2792 strings with 65000 characters,
+and the built_in function-call counts, 190143 in all, are:
+= -- 15562
+> -- 13776
+< -- 280
++ -- 4686
+- -- 4276
+* -- 15647
+:= -- 30740
+add.period$ -- 1225
+call.type$ -- 395
+change.case$ -- 2522
+chr.to.int$ -- 380
+cite$ -- 802
+duplicate$ -- 8396
+empty$ -- 14251
+format.name$ -- 4855
+if$ -- 39108
 int.to.chr$ -- 16
 int.to.str$ -- 1
-missing$ -- 452
-newline$ -- 1977
-num.names$ -- 1648
-pop$ -- 4996
+missing$ -- 454
+newline$ -- 1982
+num.names$ -- 1652
+pop$ -- 5007
 preamble$ -- 1
-purify$ -- 2189
+purify$ -- 2192
 quote$ -- 0
-skip$ -- 6424
+skip$ -- 6436
 stack$ -- 0
-substring$ -- 4036
-swap$ -- 638
+substring$ -- 4038
+swap$ -- 639
 text.length$ -- 37
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 4039
+type$ -- 4045
 warning$ -- 12
-while$ -- 1532
+while$ -- 1535
 width$ -- 0
-write$ -- 5182
+write$ -- 5195
 (There were 124 error messages)

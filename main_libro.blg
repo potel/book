@@ -23,15 +23,15 @@ Illegal, another \bibdata command---line 440 of file nutshell/include_struct_nut
 I'm skipping whatever remains of this command
 A level-1 auxiliary file: nutshell/include_trans_nut.aux
 Case mismatch error between cite keys deGennes:94 and DeGennes:94
----line 236 of file nutshell/include_trans_nut.aux
+---line 240 of file nutshell/include_trans_nut.aux
  : \citation{deGennes:94
  :                      }
 I'm skipping whatever remains of this command
-Illegal, another \bibstyle command---line 419 of file nutshell/include_trans_nut.aux
+Illegal, another \bibstyle command---line 426 of file nutshell/include_trans_nut.aux
  : \bibstyle
  :          {abbrvnat}
 I'm skipping whatever remains of this command
-Illegal, another \bibdata command---line 420 of file nutshell/include_trans_nut.aux
+Illegal, another \bibdata command---line 427 of file nutshell/include_trans_nut.aux
  : \bibdata
  :         {../nuclear_bib}
 I'm skipping whatever remains of this command
@@ -70,65 +70,65 @@ Illegal, another \bibdata command---line 24 of file main_libro.aux
  : \bibdata
  :         {./nuclear_bib}
 I'm skipping whatever remains of this command
-Reallocated field_info (elt_size=4) to 16060 items from 5000.
+Reallocated field_info (elt_size=4) to 16088 items from 5000.
 Database file #1: ./nuclear_bib.bib
-"{" immediately follows a field name---line 334 of file ./nuclear_bib.bib
+"{" immediately follows a field name---line 343 of file ./nuclear_bib.bib
  :   journal = {Physical Review},@article
  :                                       {PhysRev.75.388,
 I'm skipping whatever remains of this entry
-I was expecting a `,' or a `}'---line 600 of file ./nuclear_bib.bib
+I was expecting a `,' or a `}'---line 609 of file ./nuclear_bib.bib
  :   volume = 16
  :              C,
 I'm skipping whatever remains of this entry
-Repeated entry---line 2462 of file ./nuclear_bib.bib
+Repeated entry---line 2471 of file ./nuclear_bib.bib
  : @article{Zinser:95
  :                   ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 2810 of file ./nuclear_bib.bib
+Repeated entry---line 2819 of file ./nuclear_bib.bib
  : @book{Mayer:55
  :               ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 2833 of file ./nuclear_bib.bib
+Repeated entry---line 2842 of file ./nuclear_bib.bib
  : @article{Koning:03
  :                   ,
 I'm skipping whatever remains of this entry
-You're missing a field name---line 3025 of file ./nuclear_bib.bib
+You're missing a field name---line 3034 of file ./nuclear_bib.bib
  : year = {1973},
  :               ,
 I'm skipping whatever remains of this entry
 Warning--I'm ignoring Pauli:47's extra "year" field
---line 3823 of file ./nuclear_bib.bib
-"{" immediately follows a field name---line 3946 of file ./nuclear_bib.bib
+--line 3832 of file ./nuclear_bib.bib
+"{" immediately follows a field name---line 3955 of file ./nuclear_bib.bib
  : @article{Schmid:66,@article
  :                            {Jenning:11,
 I'm skipping whatever remains of this entry
 Warning--I'm ignoring Shimizu:13's extra "year" field
---line 4056 of file ./nuclear_bib.bib
-Repeated entry---line 4304 of file ./nuclear_bib.bib
+--line 4065 of file ./nuclear_bib.bib
+Repeated entry---line 4313 of file ./nuclear_bib.bib
  : @article{Thompson:88
  :                     ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 4329 of file ./nuclear_bib.bib
+Repeated entry---line 4338 of file ./nuclear_bib.bib
  : @article{Barranco:99
  :                     ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 4554 of file ./nuclear_bib.bib
+Repeated entry---line 4563 of file ./nuclear_bib.bib
  : @article{Bortignon:83
  :                      ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 4647 of file ./nuclear_bib.bib
+Repeated entry---line 4656 of file ./nuclear_bib.bib
  : @article{Sackett:93
  :                    ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 4788 of file ./nuclear_bib.bib
+Repeated entry---line 4797 of file ./nuclear_bib.bib
  : @book{DeGennes:94
  :                  ,
 I'm skipping whatever remains of this entry
-I was expecting a `,' or a `}'---line 4846 of file ./nuclear_bib.bib
+I was expecting a `,' or a `}'---line 4855 of file ./nuclear_bib.bib
  :   pages = 210
  :              (R),
 I'm skipping whatever remains of this entry
-Repeated entry---line 5355 of file ./nuclear_bib.bib
+Repeated entry---line 5364 of file ./nuclear_bib.bib
  : @article{Lanford:73
  :                    ,
 I'm skipping whatever remains of this entry
@@ -335,45 +335,45 @@ while executing---line 1429 of file abbrvnat.bst
 Name 1 in "Saperstein, E. E., and Baldo, M." has a comma at the end for entry Saperstein:12
 while executing---line 1429 of file abbrvnat.bst
 Warning--empty title in Stent:80
-You've used 395 entries,
+You've used 396 entries,
             2773 wiz_defined-function locations,
-            2792 strings with 65000 characters,
-and the built_in function-call counts, 190143 in all, are:
-= -- 15562
-> -- 13776
-< -- 280
-+ -- 4686
-- -- 4276
-* -- 15647
-:= -- 30740
-add.period$ -- 1225
-call.type$ -- 395
-change.case$ -- 2522
-chr.to.int$ -- 380
-cite$ -- 802
-duplicate$ -- 8396
-empty$ -- 14251
-format.name$ -- 4855
-if$ -- 39108
+            2798 strings with 65101 characters,
+and the built_in function-call counts, 190439 in all, are:
+= -- 15585
+> -- 13786
+< -- 281
++ -- 4690
+- -- 4279
+* -- 15663
+:= -- 30789
+add.period$ -- 1228
+call.type$ -- 396
+change.case$ -- 2525
+chr.to.int$ -- 381
+cite$ -- 804
+duplicate$ -- 8416
+empty$ -- 14283
+format.name$ -- 4859
+if$ -- 39170
 int.to.chr$ -- 16
 int.to.str$ -- 1
-missing$ -- 454
-newline$ -- 1982
-num.names$ -- 1652
-pop$ -- 5007
+missing$ -- 456
+newline$ -- 1987
+num.names$ -- 1656
+pop$ -- 5018
 preamble$ -- 1
-purify$ -- 2192
+purify$ -- 2195
 quote$ -- 0
-skip$ -- 6436
+skip$ -- 6448
 stack$ -- 0
-substring$ -- 4038
-swap$ -- 639
+substring$ -- 4040
+swap$ -- 640
 text.length$ -- 37
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 4045
+type$ -- 4051
 warning$ -- 12
-while$ -- 1535
+while$ -- 1538
 width$ -- 0
-write$ -- 5195
+write$ -- 5208
 (There were 124 error messages)

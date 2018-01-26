@@ -3,35 +3,35 @@ Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
 The top-level auxiliary file: includeC8.aux
 The style file: abbrvnat.bst
 Database file #1: ../nuclear_bib.bib
-"{" immediately follows a field name---line 334 of file ../nuclear_bib.bib
+"{" immediately follows a field name---line 343 of file ../nuclear_bib.bib
  :   journal = {Physical Review},@article
  :                                       {PhysRev.75.388,
 I'm skipping whatever remains of this entry
-I was expecting a `,' or a `}'---line 600 of file ../nuclear_bib.bib
+I was expecting a `,' or a `}'---line 609 of file ../nuclear_bib.bib
  :   volume = 16
  :              C,
 I'm skipping whatever remains of this entry
-Repeated entry---line 2824 of file ../nuclear_bib.bib
+Repeated entry---line 2842 of file ../nuclear_bib.bib
  : @article{Koning:03
  :                   ,
 I'm skipping whatever remains of this entry
-You're missing a field name---line 3016 of file ../nuclear_bib.bib
+You're missing a field name---line 3034 of file ../nuclear_bib.bib
  : year = {1973},
  :               ,
 I'm skipping whatever remains of this entry
-"{" immediately follows a field name---line 3937 of file ../nuclear_bib.bib
+"{" immediately follows a field name---line 3955 of file ../nuclear_bib.bib
  : @article{Schmid:66,@article
  :                            {Jenning:11,
 I'm skipping whatever remains of this entry
-Repeated entry---line 4295 of file ../nuclear_bib.bib
+Repeated entry---line 4313 of file ../nuclear_bib.bib
  : @article{Thompson:88
  :                     ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 4320 of file ../nuclear_bib.bib
+Repeated entry---line 4338 of file ../nuclear_bib.bib
  : @article{Barranco:99
  :                     ,
 I'm skipping whatever remains of this entry
-I was expecting a `,' or a `}'---line 4837 of file ../nuclear_bib.bib
+I was expecting a `,' or a `}'---line 4855 of file ../nuclear_bib.bib
  :   pages = 210
  :              (R),
 I'm skipping whatever remains of this entry
@@ -137,45 +137,45 @@ Name 1 in "A. Repko, and P. G. Reinhard, and V. O. Nestrenko and J. Kvasil" has 
 while executing---line 1429 of file abbrvnat.bst
 Name 2 in "A. Repko, and P. G. Reinhard, and V. O. Nestrenko and J. Kvasil" has a comma at the end for entry Repko:13
 while executing---line 1429 of file abbrvnat.bst
-You've used 111 entries,
+You've used 104 entries,
             2773 wiz_defined-function locations,
-            1289 strings with 24290 characters,
-and the built_in function-call counts, 60845 in all, are:
-= -- 4836
-> -- 5186
-< -- 54
-+ -- 1750
-- -- 1635
-* -- 5450
-:= -- 9939
-add.period$ -- 336
-call.type$ -- 111
-change.case$ -- 862
-chr.to.int$ -- 107
-cite$ -- 224
-duplicate$ -- 2297
-empty$ -- 4013
-format.name$ -- 1796
-if$ -- 12264
+            1245 strings with 23546 characters,
+and the built_in function-call counts, 58301 in all, are:
+= -- 4609
+> -- 5094
+< -- 45
++ -- 1716
+- -- 1608
+* -- 5290
+:= -- 9543
+add.period$ -- 314
+call.type$ -- 104
+change.case$ -- 833
+chr.to.int$ -- 100
+cite$ -- 210
+duplicate$ -- 2147
+empty$ -- 3762
+format.name$ -- 1758
+if$ -- 11716
 int.to.chr$ -- 5
 int.to.str$ -- 1
-missing$ -- 127
-newline$ -- 564
-num.names$ -- 444
-pop$ -- 1633
+missing$ -- 119
+newline$ -- 529
+num.names$ -- 416
+pop$ -- 1574
 preamble$ -- 1
-purify$ -- 767
+purify$ -- 744
 quote$ -- 0
-skip$ -- 1915
+skip$ -- 1810
 stack$ -- 0
-substring$ -- 1369
-swap$ -- 132
-text.length$ -- 3
+substring$ -- 1304
+swap$ -- 116
+text.length$ -- 1
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 1141
+type$ -- 1069
 warning$ -- 2
-while$ -- 427
+while$ -- 400
 width$ -- 0
-write$ -- 1454
+write$ -- 1361
 (There were 58 error messages)

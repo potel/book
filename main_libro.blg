@@ -36,11 +36,11 @@ Illegal, another \bibdata command---line 427 of file nutshell/include_trans_nut.
  :         {../nuclear_bib}
 I'm skipping whatever remains of this command
 A level-1 auxiliary file: C6/includeC6.aux
-Illegal, another \bibstyle command---line 364 of file C6/includeC6.aux
+Illegal, another \bibstyle command---line 365 of file C6/includeC6.aux
  : \bibstyle
  :          {abbrvnat}
 I'm skipping whatever remains of this command
-Illegal, another \bibdata command---line 365 of file C6/includeC6.aux
+Illegal, another \bibdata command---line 366 of file C6/includeC6.aux
  : \bibdata
  :         {../nuclear_bib}
 I'm skipping whatever remains of this command
@@ -54,11 +54,11 @@ Illegal, another \bibdata command---line 409 of file C7/includeC7.aux
  :         {../nuclear_bib}
 I'm skipping whatever remains of this command
 A level-1 auxiliary file: C8/includeC8.aux
-Illegal, another \bibstyle command---line 311 of file C8/includeC8.aux
+Illegal, another \bibstyle command---line 298 of file C8/includeC8.aux
  : \bibstyle
  :          {abbrvnat}
 I'm skipping whatever remains of this command
-Illegal, another \bibdata command---line 312 of file C8/includeC8.aux
+Illegal, another \bibdata command---line 299 of file C8/includeC8.aux
  : \bibdata
  :         {../nuclear_bib}
 I'm skipping whatever remains of this command
@@ -70,7 +70,7 @@ Illegal, another \bibdata command---line 24 of file main_libro.aux
  : \bibdata
  :         {./nuclear_bib}
 I'm skipping whatever remains of this command
-Reallocated field_info (elt_size=4) to 16088 items from 5000.
+Reallocated field_info (elt_size=4) to 16004 items from 5000.
 Database file #1: ./nuclear_bib.bib
 "{" immediately follows a field name---line 343 of file ./nuclear_bib.bib
  :   journal = {Physical Review},@article
@@ -150,7 +150,6 @@ Name 1 in "{Broglia, R.A.}, and C. Riedel and B. {S\o{}rensen}" has a comma at t
 while executing---line 1347 of file abbrvnat.bst
 Name 1 in "{Broglia, R.A.}, and C. Riedel and B. {S\o{}rensen}" has a comma at the end for entry Broglia:68
 while executing---line 1347 of file abbrvnat.bst
-Reallocated str_pool (elt_size=1) to 130000 items from 65000.
 Name 1 in "G. Col\`{o}, and N. Van Giai, and P. F. Bortignon, and M. R. Quaglia" has a comma at the end for entry Colo:00
 while executing---line 1347 of file abbrvnat.bst
 Name 1 in "G. Col\`{o}, and N. Van Giai, and P. F. Bortignon, and M. R. Quaglia" has a comma at the end for entry Colo:00
@@ -203,6 +202,7 @@ Name 1 in "A. Repko, and P. G. Reinhard, and V. O. Nestrenko and J. Kvasil" has 
 while executing---line 1347 of file abbrvnat.bst
 Name 2 in "A. Repko, and P. G. Reinhard, and V. O. Nestrenko and J. Kvasil" has a comma at the end for entry Repko:13
 while executing---line 1347 of file abbrvnat.bst
+Reallocated str_pool (elt_size=1) to 130000 items from 65000.
 Warning--can't use both author and editor fields in Ambegaokar:69
 Warning--can't use both author and editor fields in Ashcroft:87
 Name 1 in "R. A. Broglia, and R. A. Ricci, and C. H. Dasso" has a comma at the end for entry Bernard:81
@@ -335,45 +335,45 @@ while executing---line 1429 of file abbrvnat.bst
 Name 1 in "Saperstein, E. E., and Baldo, M." has a comma at the end for entry Saperstein:12
 while executing---line 1429 of file abbrvnat.bst
 Warning--empty title in Stent:80
-You've used 396 entries,
+You've used 393 entries,
             2773 wiz_defined-function locations,
-            2798 strings with 65101 characters,
-and the built_in function-call counts, 190439 in all, are:
-= -- 15585
-> -- 13786
-< -- 281
-+ -- 4690
-- -- 4279
-* -- 15663
-:= -- 30789
-add.period$ -- 1228
-call.type$ -- 396
-change.case$ -- 2525
-chr.to.int$ -- 381
-cite$ -- 804
-duplicate$ -- 8416
-empty$ -- 14283
-format.name$ -- 4859
-if$ -- 39170
-int.to.chr$ -- 16
+            2782 strings with 64824 characters,
+and the built_in function-call counts, 189415 in all, are:
+= -- 15494
+> -- 13756
+< -- 278
++ -- 4677
+- -- 4270
+* -- 15595
+:= -- 30626
+add.period$ -- 1219
+call.type$ -- 393
+change.case$ -- 2513
+chr.to.int$ -- 379
+cite$ -- 798
+duplicate$ -- 8356
+empty$ -- 14177
+format.name$ -- 4847
+if$ -- 38955
+int.to.chr$ -- 15
 int.to.str$ -- 1
-missing$ -- 456
-newline$ -- 1987
-num.names$ -- 1656
-pop$ -- 5018
+missing$ -- 453
+newline$ -- 1972
+num.names$ -- 1644
+pop$ -- 4997
 preamble$ -- 1
-purify$ -- 2195
+purify$ -- 2186
 quote$ -- 0
-skip$ -- 6448
+skip$ -- 6412
 stack$ -- 0
-substring$ -- 4040
-swap$ -- 640
+substring$ -- 4004
+swap$ -- 635
 text.length$ -- 37
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 4051
+type$ -- 4018
 warning$ -- 12
-while$ -- 1538
+while$ -- 1526
 width$ -- 0
-write$ -- 5208
+write$ -- 5169
 (There were 124 error messages)

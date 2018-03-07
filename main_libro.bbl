@@ -1,4 +1,4 @@
-\begin{thebibliography}{393}
+\begin{thebibliography}{404}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \expandafter\ifx\csname urlstyle\endcsname\relax
@@ -17,14 +17,6 @@ P.~W. Aderson.
 \newblock In R.~Arnowitt and P.~Nath, editors, \emph{Gauge theories and modern
   field theories, Proceeding of a conference held at Northeastern University,
   Boston}, page 311, Cambridge, Mass., 1976. MIT Press.
-
-\bibitem[Ajzenberg-Selove et~al.(1978)Ajzenberg-Selove, Flynn, and
-  Hansen]{AjzenbergSelove:78}
-F.~Ajzenberg-Selove, E.~R. Flynn, and O.~Hansen.
-\newblock ($t,p$) reactions on $^{4}\mathrm{He}$, $^{6}\mathrm{Li}$,
-  $^{7}\mathrm{Li}$, $^{9}\mathrm{Be}$, $^{10}\mathrm{B}$, $^{11}\mathrm{B}$,
-  and $^{12}\mathrm{C}$.
-\newblock \emph{Phys. Rev. C}, 17:\penalty0 1283, 1978.
 
 \bibitem[Alder and Winther(1975)]{Alder:75}
 K.~Alder and A.~Winther.
@@ -58,6 +50,12 @@ H.~An and C.~Cai.
 P.~W. Anderson.
 \newblock New method in the theory of superconductivity.
 \newblock \emph{Phys. Rev.}, 110:\penalty0 985, 1958.
+
+\bibitem[Anderson(1959)]{Anderson:59}
+P.~W. Anderson.
+\newblock Theory of dirty superconductors.
+\newblock \emph{Journal of Physics and Chemistry of Solids}, 11:\penalty0 26,
+  1959.
 
 \bibitem[Anderson(1964{\natexlab{a}})]{Anderson:64}
 P.~W. Anderson.
@@ -251,7 +249,7 @@ F.~Barranco, R.~A. Broglia, G.~Gori, E.~Vigezzi, P.~F. Bortignon, and
 F.~Barranco, R.~A. Broglia, G.~Col{\`{o}}, G.~Gori, E.~Vigezzi, and P.~F.
   Bortignon.
 \newblock Many-body effects in nuclear structure.
-\newblock \emph{European Physical Journal 6.4.3A}, 21:\penalty0 57, 2004.
+\newblock \emph{European Physical Journal A}, 21:\penalty0 57, 2004.
 
 \bibitem[Barranco et~al.(2005)Barranco, Bortignon, Broglia, Col\`o, Schuck,
   Vigezzi, and Vi\~nas]{Barranco:05}
@@ -745,6 +743,12 @@ R.~A. Broglia.
 \newblock \emph{La Rivista del Nuovo Cimento}, 28\penalty0 (1):\penalty0 1,
   2005.
 
+\bibitem[Broglia and Gallardo(1986)]{Broglia:86}
+R.~A. Broglia and M.~Gallardo.
+\newblock Random phase approximation treatment of the pairing phase transition
+  in strongly rotating nuclei.
+\newblock \emph{Nuclear Physics A}, 447:\penalty0 489, 1986.
+
 \bibitem[Broglia and Riedel(1967)]{Broglia:67}
 R.~A. Broglia and C.~Riedel.
 \newblock Pairing vibration and particle-hole states excited in the reaction
@@ -831,7 +835,7 @@ R.~A. Broglia, P.~F. Bortignon, F.~Barranco, E.~Vigezzi, A.~Idini, and
 {Broglia, R. A.}, C.~Riedel, and T.~Udagawa.
 \newblock Sum rules and two-particle units in the analysis of two-neutron
   transfer reactions.
-\newblock \emph{Nuclear Physics A}, 184:\penalty0 23, 1972.
+\newblock \emph{Nuclear Physics A}, 184, 1972.
 
 \bibitem[{Broglia, R. A.} et~al.(1981){Broglia, R. A.}, Pollarolo, and
   Winther]{Broglia:81b}
@@ -995,6 +999,11 @@ A.~Deltuva.
   core excitation.
 \newblock \emph{Phys. Rev. C}, 88:\penalty0 011601, 2013.
 
+\bibitem[Denton et~al.(1971)Denton, {M\"uhlschlegel}, and Scalapino]{Denton:71}
+R.~Denton, B.~{M\"uhlschlegel}, and D.~J. Scalapino.
+\newblock Electronic heat capacity and susceptibility of small metal particles.
+\newblock \emph{Phys. Rev. Lett.}, 26:\penalty0 707, 1971.
+
 \bibitem[{Dickey, S. A.} et~al.(1982){Dickey, S. A.}, Kraushaar, Ristinen, and
   Rumore]{Dickey:82}
 {Dickey, S. A.}, J.~Kraushaar, R.~Ristinen, and M.~Rumore.
@@ -1082,8 +1091,7 @@ A.~R. Edmonds.
 {Egido, J. L.}
 \newblock Projection methods, variational diagonalization of the pairing
   hamiltonian and restoration of rotational and gauge invariance.
-\newblock In R.~A. Broglia and V.~Zelevinski, editors, \emph{50 Years of
-  Nuclear BCS}, page 553. World Scientific, Singapore, 2013.
+\newblock In \emph{50 Years of Nuclear BCS}. World Scientific, 2013.
 
 \bibitem[Federman and Talmi(1965)]{Federman:65}
 P.~Federman and I.~Talmi.
@@ -1189,6 +1197,18 @@ K.~Fossez, W.~Nazarewicz, Y.~Jaganathen, N.~Michel, and M.~P\l{}oszajczak.
 \newblock {How should one formulate, extract and interpret 'non-observables'
   for nuclei?}
 \newblock \emph{Journal of Physics G}, 37:\penalty0 064005, 2010.
+
+\bibitem[Ginzburg(2004)]{Ginzburg:04}
+V.~L. Ginzburg.
+\newblock Nobel lecture: On superconductivity and superfluidity (what i have
+  and have not managed to do) as well as on the ``physical minimum'' at the
+  beginning of the xxi century.
+\newblock \emph{Rev. Mod. Phys.}, 76:\penalty0 981, 2004.
+
+\bibitem[Ginzburg and Landau(1950)]{Ginzburg:50}
+V.~L. Ginzburg and L.~D. Landau.
+\newblock On the theory of superconductivity.
+\newblock \emph{JETP}, 20:\penalty0 1064, 1950.
 
 \bibitem[Glauber(1969)]{Glauber:69}
 R.~J. Glauber.
@@ -1555,6 +1575,16 @@ K.~Kubo, R.~A. Broglia, and T.~Riedel, C.~Udagawa.
   reactions}.
 \newblock \emph{Phys. Lett. B}, 32:\penalty0 29, 1970.
 
+\bibitem[Kubo(1962)]{Kubo:62}
+R.~Kubo.
+\newblock Electronic properties of metallic fine particles. i.
+\newblock \emph{Journal of the Physical Society of Japan}, 17:\penalty0 975,
+  1962.
+
+\bibitem[Kubo(1968)]{Kubo:68}
+R.~Kubo.
+\newblock \emph{Comments Solid State Phys.}, 1:\penalty0 61, 1968.
+
 \bibitem[Kwan et~al.(2014)Kwan, Wu, Summers, Hackman, Drake, Andreoiu, Ashley,
   Ball, Bender, Boston, Boston, Chester, Close, Cline, Cross, Dunlop, Finlay,
   Garnsworthy, Hayes, Laffoley, Nano, Navrátil, Pearson, Pore, Quaglioni,
@@ -1599,6 +1629,12 @@ W.~A. Lanford and J.~B. McGrory.
 \newblock Two--neutron pickup strengths on the even lead isotopes: the
   transition from single--particle to ``collective''.
 \newblock \emph{Physics Letters B}, 45:\penalty0 238, 1973.
+
+\bibitem[Lauritzen et~al.(1993)Lauritzen, Anselmino, Bortignon, and
+  Broglia]{Lauritzen:93}
+B.~Lauritzen, A.~Anselmino, P.~F. Bortignon, and R.~A. Broglia.
+\newblock Pairing phase transition in small particles.
+\newblock \emph{Annals of Physics}, 223:\penalty0 216, 1993.
 
 \bibitem[Lay et~al.(2014)Lay, Moro, Arias, and Kanada-En'yo]{Lay:14}
 J.~A. Lay, A.~M. Moro, J.~M. Arias, and Y.~Kanada-En'yo.
@@ -1790,6 +1826,19 @@ B.~R. Mottelson.
 \newblock Atomkernens element\ae{}re eksitationer.
 \newblock \emph{Naturens Verden}, 6:\penalty0 169, 1976{\natexlab{b}}.
 
+\bibitem[{M\"uhlschlegel} et~al.(1972){M\"uhlschlegel}, Scalapino, and
+  Denton]{Muhlschlegel:72}
+B.~{M\"uhlschlegel}, D.~J. Scalapino, and R.~Denton.
+\newblock Thermodynamic properties of small superconducting particles.
+\newblock \emph{Phys. Rev. B}, 6:\penalty0 1767, 1972.
+
+\bibitem[Nambu(1991)]{Nambu:91}
+Y.~Nambu.
+\newblock Dynamical symmetry breaking.
+\newblock In T.~Eguchi and K.~Nishigama, editors, \emph{Broken Symmetry,
+  Selected papers of Y. Nambu (1995)}, page 436. World Scientific, Singapore,
+  1991.
+
 \bibitem[Nilsson(1955)]{Nilsson:55}
 S.~G. Nilsson.
 \newblock Binding states of individual nucleons in strongly deformed nuclei.
@@ -1860,6 +1909,11 @@ W.~Pauli.
 W.~Pauli.
 \newblock \emph{Exclusion principle and quantum mechanics, Nobel Lecture 1945}.
 \newblock Editions du Griffon, Neuch\^{a}tel, Switzerland, 1947.
+
+\bibitem[Perenboom et~al.(1981)Perenboom, Wyder, and Meier]{Perenboom:81}
+J.~A. A.~J. Perenboom, P.~Wyder, and F.~Meier.
+\newblock Electronic properties of small metallic particles.
+\newblock \emph{Physics Reports}, 78:\penalty0 173, 1981.
 
 \bibitem[Perey and Buck(1962)]{Perey:62}
 F.~Perey and B.~Buck.
@@ -2306,6 +2360,13 @@ M.~K. Transtrum, B.~B. Machta, K.~S. Brown, B.~C. Daniels, C.~R. Myers, and
 \newblock Perspective: Sloppiness and emergent theories in physics, biology,
   and beyond.
 \newblock \emph{The Journal of Chemical Physics}, 143:\penalty0 010901, 2015.
+
+\bibitem[Tsuboi and Suzuki(1977)]{Tsuboi:77}
+T.~Tsuboi and T.~Suzuki.
+\newblock {Specific Heat of Superconducting Fine Particles of Tin. I.
+  Fluctuations in Zero Magnetic Field}.
+\newblock \emph{Journal of the Physical Society of Japan}, 42:\penalty0 437,
+  1977.
 
 \bibitem[Ungrin et~al.(1971)Ungrin, Diamond, {Tj\o{}m}, and Elbek]{Ungrin:71}
 J.~Ungrin, R.~M. Diamond, P.~O. {Tj\o{}m}, and B.~Elbek.

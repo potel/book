@@ -3,35 +3,39 @@ Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
 The top-level auxiliary file: introduccion.aux
 The style file: abbrvnat.bst
 Database file #1: ../nuclear_bib.bib
-"{" immediately follows a field name---line 334 of file ../nuclear_bib.bib
+"{" immediately follows a field name---line 343 of file ../nuclear_bib.bib
  :   journal = {Physical Review},@article
  :                                       {PhysRev.75.388,
 I'm skipping whatever remains of this entry
-I was expecting a `,' or a `}'---line 600 of file ../nuclear_bib.bib
+I was expecting a `,' or a `}'---line 609 of file ../nuclear_bib.bib
  :   volume = 16
  :              C,
 I'm skipping whatever remains of this entry
-Repeated entry---line 2462 of file ../nuclear_bib.bib
+Repeated entry---line 2471 of file ../nuclear_bib.bib
  : @article{Zinser:95
  :                   ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 2810 of file ../nuclear_bib.bib
+Repeated entry---line 2819 of file ../nuclear_bib.bib
  : @book{Mayer:55
  :               ,
 I'm skipping whatever remains of this entry
-You're missing a field name---line 3025 of file ../nuclear_bib.bib
+You're missing a field name---line 3040 of file ../nuclear_bib.bib
  : year = {1973},
  :               ,
 I'm skipping whatever remains of this entry
-"{" immediately follows a field name---line 3946 of file ../nuclear_bib.bib
+"{" immediately follows a field name---line 3961 of file ../nuclear_bib.bib
  : @article{Schmid:66,@article
  :                            {Jenning:11,
 I'm skipping whatever remains of this entry
-Repeated entry---line 4647 of file ../nuclear_bib.bib
+"{" immediately follows a field name---line 3988 of file ../nuclear_bib.bib
+ : year = {2013},@BOOK
+ :                    {Pauli:47,
+I'm skipping whatever remains of this entry
+Repeated entry---line 4669 of file ../nuclear_bib.bib
  : @article{Sackett:93
  :                    ,
 I'm skipping whatever remains of this entry
-I was expecting a `,' or a `}'---line 4846 of file ../nuclear_bib.bib
+I was expecting a `,' or a `}'---line 4868 of file ../nuclear_bib.bib
  :   pages = 210
  :              (R),
 I'm skipping whatever remains of this entry
@@ -105,45 +109,45 @@ Name 2 in "G. Col\`{o}, and N. Van Giai, and P. F. Bortignon, and M. R. Quaglia"
 while executing---line 1429 of file abbrvnat.bst
 Name 3 in "G. Col\`{o}, and N. Van Giai, and P. F. Bortignon, and M. R. Quaglia" has a comma at the end for entry Colo:00
 while executing---line 1429 of file abbrvnat.bst
-You've used 119 entries,
+You've used 121 entries,
             2773 wiz_defined-function locations,
-            1324 strings with 24076 characters,
-and the built_in function-call counts, 59018 in all, are:
-= -- 4722
-> -- 4631
-< -- 79
-+ -- 1574
-- -- 1449
-* -- 4961
-:= -- 9639
-add.period$ -- 369
-call.type$ -- 119
-change.case$ -- 805
-chr.to.int$ -- 113
-cite$ -- 238
-duplicate$ -- 2491
-empty$ -- 4198
-format.name$ -- 1624
-if$ -- 12022
+            1337 strings with 24387 characters,
+and the built_in function-call counts, 59766 in all, are:
+= -- 4789
+> -- 4662
+< -- 81
++ -- 1585
+- -- 1458
+* -- 5012
+:= -- 9757
+add.period$ -- 375
+call.type$ -- 121
+change.case$ -- 814
+chr.to.int$ -- 115
+cite$ -- 242
+duplicate$ -- 2531
+empty$ -- 4269
+format.name$ -- 1637
+if$ -- 12180
 int.to.chr$ -- 7
 int.to.str$ -- 1
-missing$ -- 149
-newline$ -- 606
-num.names$ -- 490
-pop$ -- 1639
+missing$ -- 151
+newline$ -- 616
+num.names$ -- 498
+pop$ -- 1654
 preamble$ -- 1
-purify$ -- 716
+purify$ -- 723
 quote$ -- 0
-skip$ -- 1960
+skip$ -- 1989
 stack$ -- 0
-substring$ -- 1058
-swap$ -- 174
+substring$ -- 1083
+swap$ -- 176
 text.length$ -- 8
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 1159
+type$ -- 1181
 warning$ -- 0
-while$ -- 446
+while$ -- 454
 width$ -- 0
-write$ -- 1570
-(There were 43 error messages)
+write$ -- 1596
+(There were 44 error messages)

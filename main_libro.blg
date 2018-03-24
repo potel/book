@@ -4,34 +4,34 @@ The top-level auxiliary file: main_libro.aux
 A level-1 auxiliary file: C1/includeC1.aux
 The style file: abbrvnat.bst
 A level-1 auxiliary file: introduccion/introduccion.aux
-Illegal, another \bibstyle command---line 620 of file introduccion/introduccion.aux
+Illegal, another \bibstyle command---line 619 of file introduccion/introduccion.aux
  : \bibstyle
  :          {abbrvnat}
 I'm skipping whatever remains of this command
-Illegal, another \bibdata command---line 621 of file introduccion/introduccion.aux
+Illegal, another \bibdata command---line 620 of file introduccion/introduccion.aux
  : \bibdata
  :         {../nuclear_bib}
 I'm skipping whatever remains of this command
 A level-1 auxiliary file: nutshell/include_struct_nut.aux
-Illegal, another \bibstyle command---line 469 of file nutshell/include_struct_nut.aux
+Illegal, another \bibstyle command---line 504 of file nutshell/include_struct_nut.aux
  : \bibstyle
  :          {abbrvnat}
 I'm skipping whatever remains of this command
-Illegal, another \bibdata command---line 470 of file nutshell/include_struct_nut.aux
+Illegal, another \bibdata command---line 505 of file nutshell/include_struct_nut.aux
  : \bibdata
  :         {../nuclear_bib}
 I'm skipping whatever remains of this command
 A level-1 auxiliary file: nutshell/include_trans_nut.aux
 Case mismatch error between cite keys deGennes:94 and DeGennes:94
----line 240 of file nutshell/include_trans_nut.aux
+---line 244 of file nutshell/include_trans_nut.aux
  : \citation{deGennes:94
  :                      }
 I'm skipping whatever remains of this command
-Illegal, another \bibstyle command---line 426 of file nutshell/include_trans_nut.aux
+Illegal, another \bibstyle command---line 433 of file nutshell/include_trans_nut.aux
  : \bibstyle
  :          {abbrvnat}
 I'm skipping whatever remains of this command
-Illegal, another \bibdata command---line 427 of file nutshell/include_trans_nut.aux
+Illegal, another \bibdata command---line 434 of file nutshell/include_trans_nut.aux
  : \bibdata
  :         {../nuclear_bib}
 I'm skipping whatever remains of this command
@@ -54,11 +54,11 @@ Illegal, another \bibdata command---line 408 of file C7/includeC7.aux
  :         {../nuclear_bib}
 I'm skipping whatever remains of this command
 A level-1 auxiliary file: C8/includeC8.aux
-Illegal, another \bibstyle command---line 292 of file C8/includeC8.aux
+Illegal, another \bibstyle command---line 295 of file C8/includeC8.aux
  : \bibstyle
  :          {abbrvnat}
 I'm skipping whatever remains of this command
-Illegal, another \bibdata command---line 293 of file C8/includeC8.aux
+Illegal, another \bibdata command---line 296 of file C8/includeC8.aux
  : \bibdata
  :         {../nuclear_bib}
 I'm skipping whatever remains of this command
@@ -70,7 +70,7 @@ Illegal, another \bibdata command---line 24 of file main_libro.aux
  : \bibdata
  :         {./nuclear_bib}
 I'm skipping whatever remains of this command
-Reallocated field_info (elt_size=4) to 16312 items from 5000.
+Reallocated field_info (elt_size=4) to 16704 items from 5000.
 Database file #1: ./nuclear_bib.bib
 "{" immediately follows a field name---line 343 of file ./nuclear_bib.bib
  :   journal = {Physical Review},@article
@@ -141,6 +141,14 @@ Repeated entry---line 5377 of file ./nuclear_bib.bib
  :                    ,
 I'm skipping whatever remains of this entry
 Reallocated str_pool (elt_size=1) to 130000 items from 65000.
+Repeated entry---line 6539 of file ./nuclear_bib.bib
+ : @article{Rosner:17
+ :                   ,
+I'm skipping whatever remains of this entry
+Warning--I didn't find a database entry for "Debye:20"
+Warning--I didn't find a database entry for "Debye:21"
+Warning--I didn't find a database entry for "London:30"
+Warning--I didn't find a database entry for "Pauling:63"
 Name 1 in "R. A. Broglia, and P. F. Bortignon, and F. Barranco, and E. Vigezzi, and A. Idini, and G. Potel" has a comma at the end for entry Broglia:16
 while executing---line 1347 of file abbrvnat.bst
 Name 1 in "R. A. Broglia, and P. F. Bortignon, and F. Barranco, and E. Vigezzi, and A. Idini, and G. Potel" has a comma at the end for entry Broglia:16
@@ -263,6 +271,8 @@ Name 3 in "G. Col\`{o}, and N. Van Giai, and P. F. Bortignon, and M. R. Quaglia"
 while executing---line 1429 of file abbrvnat.bst
 Warning--empty booktitle in deBoer:57
 Warning--empty publisher in deBoer:57
+Warning--empty booktitle in deHeer:87
+Warning--empty publisher in deHeer:87
 Warning--empty title in Glauber:69
 Name 2 in "{Guazzoni, P.} and M. Jaskola, and L. Zetta, and A. Covello, and A. Gargano, and Y. Eisermann, and G. Graw, and R. Hertenberger, and A. Metz, and F. Nuoffer, and G. Staudt" has a comma at the end for entry Guazzoni:99
 while executing---line 1429 of file abbrvnat.bst
@@ -344,45 +354,45 @@ while executing---line 1429 of file abbrvnat.bst
 Name 1 in "Saperstein, E. E., and Baldo, M." has a comma at the end for entry Saperstein:12
 while executing---line 1429 of file abbrvnat.bst
 Warning--empty title in Stent:80
-You've used 404 entries,
+You've used 414 entries,
             2773 wiz_defined-function locations,
-            2841 strings with 66149 characters,
-and the built_in function-call counts, 193678 in all, are:
-= -- 15865
-> -- 13968
-< -- 286
-+ -- 4751
-- -- 4333
-* -- 15907
-:= -- 31303
-add.period$ -- 1252
-call.type$ -- 404
-change.case$ -- 2566
-chr.to.int$ -- 390
-cite$ -- 821
-duplicate$ -- 8582
-empty$ -- 14565
-format.name$ -- 4927
-if$ -- 39849
+            2901 strings with 67773 characters,
+and the built_in function-call counts, 198161 in all, are:
+= -- 16246
+> -- 14229
+< -- 295
++ -- 4840
+- -- 4412
+* -- 16254
+:= -- 32006
+add.period$ -- 1285
+call.type$ -- 414
+change.case$ -- 2620
+chr.to.int$ -- 400
+cite$ -- 843
+duplicate$ -- 8816
+empty$ -- 14940
+format.name$ -- 5016
+if$ -- 40800
 int.to.chr$ -- 15
 int.to.str$ -- 1
-missing$ -- 464
-newline$ -- 2026
-num.names$ -- 1688
-pop$ -- 5095
+missing$ -- 475
+newline$ -- 2076
+num.names$ -- 1732
+pop$ -- 5211
 preamble$ -- 1
-purify$ -- 2229
+purify$ -- 2274
 quote$ -- 0
-skip$ -- 6570
+skip$ -- 6734
 stack$ -- 0
-substring$ -- 4107
-swap$ -- 646
-text.length$ -- 37
+substring$ -- 4197
+swap$ -- 676
+text.length$ -- 41
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 4139
-warning$ -- 13
-while$ -- 1568
+type$ -- 4244
+warning$ -- 15
+while$ -- 1609
 width$ -- 0
-write$ -- 5310
-(There were 126 error messages)
+write$ -- 5444
+(There were 127 error messages)

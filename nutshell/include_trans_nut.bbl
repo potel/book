@@ -1,4 +1,4 @@
-\begin{thebibliography}{104}
+\begin{thebibliography}{114}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \expandafter\ifx\csname urlstyle\endcsname\relax
@@ -86,10 +86,23 @@ J.~L. Basdevant and J.~Dalibard.
 \newblock \emph{{Quantum Mechanics}}.
 \newblock Springer, Berlin, 2005.
 
+\bibitem[Bassani et~al.(1965)Bassani, Hintz, Kavaloski, Maxwell, and
+  Reynolds]{Bassani:65}
+G.~Bassani, N.~M. Hintz, C.~D. Kavaloski, J.~R. Maxwell, and G.~M. Reynolds.
+\newblock {$(p,t)$ Ground--State $L=0$ Transitions in the Even Isotopes of Sn
+  and Cd at 40 MeV, $N=$62 to 64}.
+\newblock \emph{Phys. Rev.}, 139:\penalty0 B830, 1965.
+
 \bibitem[{Bayman, B. F.} and Clement(1972)]{Bayman:72}
 {Bayman, B. F.} and C.~F. Clement.
 \newblock Sum rules for {two--nucleon} transfer reactions.
 \newblock \emph{Phys. Rev. Lett.}, 29:\penalty0 1020, 1972.
+
+\bibitem[{Bechara, M. J.} and Dietzsch(1975)]{Bechara:75}
+{Bechara, M. J.} and O.~Dietzsch.
+\newblock States in $^{121}\mathrm{Sn}$ from the $^{120}\mathrm{Sn}(d,
+  p)^{121}\mathrm{Sn}$ reaction at 17 {MeV}.
+\newblock \emph{Phys. Rev. C}, 12:\penalty0 90, 1975.
 
 \bibitem[Beck and Claus(1970)]{Beck:70}
 P.~A. Beck and H.~Claus.
@@ -121,6 +134,14 @@ G.~Bertsch and R.~A. Broglia.
 {Bjerregaard, J. H.}, O.~Hansen, Nathan, and S.~Hinds.
 \newblock States of {$^{208}$Pb} from double triton stripping.
 \newblock \emph{{Nucl. Phys.}}, 89:\penalty0 337, 1966.
+
+\bibitem[{Bjornh{\o}lm} et~al.(1994){Bjornh{\o}lm}, Borggreen, Hansen, and
+  Pedersen]{Bjornholm:94}
+S.~{Bjornh{\o}lm}, J.~Borggreen, K.~Hansen, and J.~Pedersen.
+\newblock Electronic shells and supershells in metal clusters.
+\newblock In R.~A. Broglia and J.~R. Schrieffer, editors, \emph{{International
+  School of Physics ``Enrico Fermi'' Course CXXI, Perspectives in
+  many--particle physics}}, page 279, Amsterdam, 1994. North Holland.
 
 \bibitem[Bohr and Mottelson(1969)]{Bohr:69}
 A.~Bohr and B.~R. Mottelson.
@@ -159,6 +180,12 @@ P.~F. Bortignon, R.~A. Broglia, and C.~H. Dasso.
 {Bortignon, P. F.}, A.~Bracco, and R.~A. Broglia.
 \newblock \emph{Giant Resonances}.
 \newblock Harwood Academic Publishers, Amsterdam, 1998.
+
+\bibitem[Brack(1993)]{Brack:93}
+M.~Brack.
+\newblock The physics of simple metal clusters: self-consistent jellium model
+  and semiclassical approaches.
+\newblock \emph{Rev. Mod. Phys.}, 65:\penalty0 677, 1993.
 
 \bibitem[Brink(1955 (unpublished))]{Brink:55}
 D.~M. Brink.
@@ -216,7 +243,7 @@ R.~A. Broglia, C.~Riedel, and T.~Udagawa.
 {Broglia, R. A.}, C.~Riedel, and T.~Udagawa.
 \newblock Sum rules and two-particle units in the analysis of two-neutron
   transfer reactions.
-\newblock \emph{Nuclear Physics A}, 184:\penalty0 23, 1972.
+\newblock \emph{Nuclear Physics A}, 184, 1972.
 
 \bibitem[{Broglia, R. A}. et~al.(1987){Broglia, R. A}., {D\o{}ssing},
   Lauritzen, and Mottelson]{Broglia:87}
@@ -258,6 +285,11 @@ L.~N. Cooper.
 P.~G. de~Gennes.
 \newblock \emph{{Les objets fragiles}}.
 \newblock Plon, Paris, 1994.
+
+\bibitem[de~Heer et~al.(1987)de~Heer, Knight, Chou, and Cohen]{deHeer:87}
+W.~A. de~Heer, W.~Knight, M.~Chou, and M.~L. Cohen.
+\newblock Electronic shell structure and metal clusters.
+\newblock volume~40 of \emph{Solid State Physics}, page~93. 1987.
 
 \bibitem[{Dickhoff, W.} and Van~Neck(2005)]{Dickhoff:05}
 {Dickhoff, W.} and D.~Van~Neck.
@@ -426,6 +458,13 @@ P.~Lotti, F.~Cazzola, P.~F. Bortignon, R.~A. Broglia, and A.~Vitturi.
 \newblock Dynamics of the shell model.
 \newblock \emph{Physics Reports}, 120:\penalty0 1--274, 1985.
 
+\bibitem[Martin et~al.(1994)Martin, {N\"{a}her}, and Schaber]{Martin:94}
+T.~P. Martin, U.~{N\"{a}her}, and H.~Schaber.
+\newblock Metal clusters as giant atomic nuclei.
+\newblock In R.~A. Broglia and J.~R. Schrieffer, editors, \emph{{International
+  School of Physics ``Enrico Fermi'' Course CXXI, Perspectives in
+  many--particle physics}}, page 139, Amsterdam, 1994. North Holland.
+
 \bibitem[Matsuo(2006)]{Matsuo:06}
 M.~Matsuo.
 \newblock Spatial structure of neutron cooper pair in low density uniform
@@ -481,6 +520,20 @@ B.~R. Mottelson.
 \newblock In G.~Racah, editor, \emph{International School of Physics ``Enrico
   Fermi'' Course {XV} , Nuclear Spectroscopy}, page~44, New York, 1962.
   Academic Press.
+
+\bibitem[Pacheco et~al.(1991)Pacheco, Broglia, and Mottelson]{Pacheco:91}
+J.~M. Pacheco, R.~A. Broglia, and B.~R. Mottelson.
+\newblock The intrinsic line width of the plasmon resonances in metal
+  microclusters at very low temperatures: quantal surface fluctuations.
+\newblock \emph{Zeitschrift f{\"u}r Physik D Atoms, Molecules and Clusters},
+  21:\penalty0 289, 1991.
+
+\bibitem[Pedersen et~al.(1991)Pedersen, {Bjornh{\o}lm}, Borggreen, Hansen,
+  Martin, and Rasmussen]{Pedersen:91}
+J.~Pedersen, S.~{Bjornh{\o}lm}, J.~Borggreen, K.~Hansen, T.~P. Martin, and
+  H.~D. Rasmussen.
+\newblock Observation of quantum supershells in clusters of sodium atoms.
+\newblock \emph{Nature}, 353:\penalty0 733, 1991.
 
 \bibitem[Pinkston and Satchler(1982)]{Pinkston:82}
 W.~Pinkston and G.~Satchler.
@@ -538,6 +591,13 @@ H.~Rogalla and P.~H. Kes.
 \newblock In H.~Rogalla and P.~H. Kes, editors, \emph{100 years of
   superconductivity}. CRC Press, Taylor and Francis, FL, 2012.
 
+\bibitem[{R\"osner} et~al.(2017){R\"osner}, Caldarini, Prestel, Vanoni,
+  Broglia, Aliverti, Tiana, , and Kragelund]{Rosner:17}
+H.~I. {R\"osner}, M.~Caldarini, A.~Prestel, M.~A. Vanoni, R.~A. Broglia,
+  A.~Aliverti, G.~Tiana, , and B.~B. Kragelund.
+\newblock Cold denaturation of the {HIV--1} protease monomer.
+\newblock \emph{Biochemistry}, 156:\penalty0 1029, 2017.
+
 \bibitem[Sakurai(1994)]{Sakurai:94}
 J.~J. Sakurai.
 \newblock \emph{{Modern Quantum Mechanics}}.
@@ -553,6 +613,20 @@ V.~V. Sargsyan, G.~Scamps, G.~G. Adamian, N.~V. Antonenko, and D.~Lacroix.
 G.~Satchler.
 \newblock \emph{Introduction to Nuclear Reactions}.
 \newblock Mc Millan, New York, 1980.
+
+\bibitem[Schmitt et~al.(2013)Schmitt, Jones, Ahn, Bardayan, Bey, Blackmon,
+  Brown, Chae, Chipps, Cizewski, Hahn, Kolata, Kozub, Liang, Matei, Matos,
+  Matyas, Moazen, Nesaraja, Nunes, O'Malley, Pain, Peters, Pittman, Roberts,
+  Shapira, Shriner, Smith, Spassova, Stracener, Upadhyay, Villano, and
+  Wilson]{Schmitt:13}
+K.~T. Schmitt, K.~L. Jones, S.~Ahn, D.~W. Bardayan, A.~Bey, J.~C. Blackmon,
+  S.~M. Brown, K.~Y. Chae, K.~A. Chipps, J.~A. Cizewski, K.~I. Hahn, J.~J.
+  Kolata, R.~L. Kozub, J.~F. Liang, C.~Matei, M.~Matos, D.~Matyas, B.~Moazen,
+  C.~D. Nesaraja, F.~M. Nunes, P.~D. O'Malley, S.~D. Pain, W.~A. Peters, S.~T.
+  Pittman, A.~Roberts, D.~Shapira, J.~F. Shriner, M.~S. Smith, I.~Spassova,
+  D.~W. Stracener, N.~J. Upadhyay, A.~N. Villano, and G.~L. Wilson.
+\newblock {Reactions of a ${}^{10}$Be beam on proton and deuteron targets}.
+\newblock \emph{Phys. Rev. C}, 88:\penalty0 064612, 2013.
 
 \bibitem[Schrieffer(1964)]{Schrieffer:64}
 J.~Schrieffer.

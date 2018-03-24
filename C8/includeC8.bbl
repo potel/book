@@ -1,17 +1,9 @@
-\begin{thebibliography}{104}
+\begin{thebibliography}{103}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \expandafter\ifx\csname urlstyle\endcsname\relax
   \providecommand{\doi}[1]{doi: #1}\else
   \providecommand{\doi}{doi: \begingroup \urlstyle{rm}\Url}\fi
-
-\bibitem[Ajzenberg-Selove et~al.(1978)Ajzenberg-Selove, Flynn, and
-  Hansen]{AjzenbergSelove:78}
-F.~Ajzenberg-Selove, E.~R. Flynn, and O.~Hansen.
-\newblock ($t,p$) reactions on $^{4}\mathrm{He}$, $^{6}\mathrm{Li}$,
-  $^{7}\mathrm{Li}$, $^{9}\mathrm{Be}$, $^{10}\mathrm{B}$, $^{11}\mathrm{B}$,
-  and $^{12}\mathrm{C}$.
-\newblock \emph{Phys. Rev. C}, 17:\penalty0 1283, 1978.
 
 \bibitem[An and Cai(2006)]{An:06}
 H.~An and C.~Cai.
@@ -135,6 +127,11 @@ J.~B. Bjorken and S.~D. Drell.
 \newblock \emph{Relativistic quantum mechanics}.
 \newblock {Mc Graw--Hill}, New York, 1998.
 
+\bibitem[Bogoljubov(1958)]{Bogoljubov:58}
+N.~Bogoljubov.
+\newblock On a new method in the theory of superconductivity.
+\newblock \emph{Il Nuovo Cimento}, 7:\penalty0 794, 1958.
+
 \bibitem[Bohr and Mottelson(1974)]{Bohr:74b}
 A.~Bohr and B.~R. Mottelson.
 \newblock Features of nuclear deformations produced by the alignment of
@@ -215,14 +212,6 @@ R.~A. Broglia, D.~R. B{\`{e}}s, and B.~S. Nilsson.
 \newblock Strength of the multipole pairing coupling constant.
 \newblock \emph{Physics Letters B}, 50:\penalty0 213, 1974.
 
-\bibitem[Broglia et~al.(2016)Broglia, Bortignon, Barranco, Vigezzi, Idini, and
-  Potel]{Broglia:16}
-R.~A. Broglia, P.~F. Bortignon, F.~Barranco, E.~Vigezzi, A.~Idini, and
-  G.~Potel.
-\newblock {Unified description of structure and reactions: implementing the
-  Nuclear Field Theory program}.
-\newblock \emph{Phys. Scr.}, 91:\penalty0 063012, 2016.
-
 \bibitem[{Broglia, R. A.}(2002)]{Broglia:02d}
 {Broglia, R. A.}
 \newblock The surfaces of compact systems: from nuclei to stars.
@@ -302,11 +291,6 @@ S.~Fortier, S.~Pita, J.~Winfield, W.~Catford, N.~Orr, J.~V. de~Wiele,
 \newblock {Core excitation in $^{11}$Be$_{gs}$ via the
   $p(^{11}$Be,$^{10}$Be)$d$ reaction}.
 \newblock \emph{Physics Letters B}, 461:\penalty0 22, 1999.
-
-\bibitem[Fortune et~al.(1994)Fortune, Liu, and Alburger]{Fortune:94}
-H.~T. Fortune, G.-B. Liu, and D.~E. Alburger.
-\newblock {( \textit{sd} ${)}^{2}$ states in $^{12}\mathrm{Be}$}.
-\newblock \emph{Phys. Rev. C}, 50:\penalty0 1355, 1994.
 
 \bibitem[Fossez et~al.(2016)Fossez, Nazarewicz, Jaganathen, Michel, and
   P\l{}oszajczak]{Fossez:16}
@@ -659,6 +643,11 @@ N.~K. Timofeyuk and R.~C. Johnson.
 \newblock Deuteron stripping and pick-up on halo nuclei.
 \newblock \emph{Phys. Rev. C}, 59:\penalty0 1545, 1999.
 
+\bibitem[Valatin(1958)]{Valatin:58}
+J.~Valatin.
+\newblock {Comments on the theory of superconductivity}.
+\newblock \emph{Il Nuovo Cimento}, 7:\penalty0 843, 1958.
+
 \bibitem[{Van der Waerden}(1967)]{VanderWaerden:67}
 V.~L. {Van der Waerden}.
 \newblock \emph{Sources of quantum mechanics}.
@@ -681,11 +670,11 @@ J.~Winfield, S.~Fortier, W.~Catford, S.~Pita, N.~Orr, J.~V. de~Wiele,
   reaction with a radioactive beam}.
 \newblock \emph{Nuclear Physics A}, 683:\penalty0 48, 2001.
 
-\bibitem[Young and Stokes(1971)]{Young:71}
-P.~G. Young and R.~H. Stokes.
-\newblock {New States in $^{9}\mathrm{Li}$ from the Reaction
-  $^{7}\mathrm{Li}(t,p)^{9}\mathrm{Li}$}.
-\newblock \emph{Phys. Rev. C}, 4:\penalty0 1597, 1971.
+\bibitem[Yang(1962)]{Yang:62}
+C.~N. Yang.
+\newblock {Concept of Off-Diagonal Long-Range Order and the Quantum Phases of
+  Liquid He and of Superconductors}.
+\newblock \emph{Rev. Mod. Phys.}, 34:\penalty0 694, 1962.
 
 \bibitem[Zwieglinski et~al.(1979)Zwieglinski, Benenson, Robertson, and
   Coker]{Zwieglinski:79}

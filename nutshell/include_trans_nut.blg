@@ -11,27 +11,55 @@ I was expecting a `,' or a `}'---line 609 of file ../nuclear_bib.bib
  :   volume = 16
  :              C,
 I'm skipping whatever remains of this entry
-You're missing a field name---line 3034 of file ../nuclear_bib.bib
+I was expecting an "="---line 818 of file ../nuclear_bib.bib
+ :   volume = 184,during 
+ :                       the reviewed period, my  efforts have been mainly devoted to revisiting the theory of deuteron--induced reactions. The goal of this activity is twofold:
+I'm skipping whatever remains of this entry
+You're missing a field name---line 3040 of file ../nuclear_bib.bib
  : year = {1973},
  :               ,
 I'm skipping whatever remains of this entry
-"{" immediately follows a field name---line 3955 of file ../nuclear_bib.bib
+"{" immediately follows a field name---line 3961 of file ../nuclear_bib.bib
  : @article{Schmid:66,@article
  :                            {Jenning:11,
 I'm skipping whatever remains of this entry
-Repeated entry---line 4563 of file ../nuclear_bib.bib
+"{" immediately follows a field name---line 3988 of file ../nuclear_bib.bib
+ : year = {2013},@BOOK
+ :                    {Pauli:47,
+I'm skipping whatever remains of this entry
+Repeated entry---line 4576 of file ../nuclear_bib.bib
  : @article{Bortignon:83
  :                      ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 4797 of file ../nuclear_bib.bib
+Repeated entry---line 4810 of file ../nuclear_bib.bib
  : @book{DeGennes:94
  :                  ,
 I'm skipping whatever remains of this entry
-I was expecting a `,' or a `}'---line 4855 of file ../nuclear_bib.bib
+I was expecting a `,' or a `}'---line 4868 of file ../nuclear_bib.bib
  :   pages = 210
  :              (R),
 I'm skipping whatever remains of this entry
+Repeated entry---line 6539 of file ../nuclear_bib.bib
+ : @article{Rosner:17
+ :                   ,
+I'm skipping whatever remains of this entry
 Name 3 in "{Bjerregaard, J. H.} and Hansen, O. and Nathan, and Hinds, S." has a comma at the end for entry Bjerregaard:66b
+while executing---line 1347 of file abbrvnat.bst
+Name 1 in "Heike I. {R\"osner}, and Martina Caldarini, and Andreas Prestel, and Maria A. Vanoni, and Ricardo A. Broglia, and Alessandro Aliverti, and Guido Tiana, and and Birthe B. Kragelund" has a comma at the end for entry Rosner:17
+while executing---line 1347 of file abbrvnat.bst
+Name 1 in "Heike I. {R\"osner}, and Martina Caldarini, and Andreas Prestel, and Maria A. Vanoni, and Ricardo A. Broglia, and Alessandro Aliverti, and Guido Tiana, and and Birthe B. Kragelund" has a comma at the end for entry Rosner:17
+while executing---line 1347 of file abbrvnat.bst
+Name 2 in "Heike I. {R\"osner}, and Martina Caldarini, and Andreas Prestel, and Maria A. Vanoni, and Ricardo A. Broglia, and Alessandro Aliverti, and Guido Tiana, and and Birthe B. Kragelund" has a comma at the end for entry Rosner:17
+while executing---line 1347 of file abbrvnat.bst
+Name 3 in "Heike I. {R\"osner}, and Martina Caldarini, and Andreas Prestel, and Maria A. Vanoni, and Ricardo A. Broglia, and Alessandro Aliverti, and Guido Tiana, and and Birthe B. Kragelund" has a comma at the end for entry Rosner:17
+while executing---line 1347 of file abbrvnat.bst
+Name 4 in "Heike I. {R\"osner}, and Martina Caldarini, and Andreas Prestel, and Maria A. Vanoni, and Ricardo A. Broglia, and Alessandro Aliverti, and Guido Tiana, and and Birthe B. Kragelund" has a comma at the end for entry Rosner:17
+while executing---line 1347 of file abbrvnat.bst
+Name 5 in "Heike I. {R\"osner}, and Martina Caldarini, and Andreas Prestel, and Maria A. Vanoni, and Ricardo A. Broglia, and Alessandro Aliverti, and Guido Tiana, and and Birthe B. Kragelund" has a comma at the end for entry Rosner:17
+while executing---line 1347 of file abbrvnat.bst
+Name 6 in "Heike I. {R\"osner}, and Martina Caldarini, and Andreas Prestel, and Maria A. Vanoni, and Ricardo A. Broglia, and Alessandro Aliverti, and Guido Tiana, and and Birthe B. Kragelund" has a comma at the end for entry Rosner:17
+while executing---line 1347 of file abbrvnat.bst
+Name 7 in "Heike I. {R\"osner}, and Martina Caldarini, and Andreas Prestel, and Maria A. Vanoni, and Ricardo A. Broglia, and Alessandro Aliverti, and Guido Tiana, and and Birthe B. Kragelund" has a comma at the end for entry Rosner:17
 while executing---line 1347 of file abbrvnat.bst
 Warning--can't use both author and editor fields in Ambegaokar:69
 Warning--can't use both author and editor fields in Ashcroft:87
@@ -40,48 +68,78 @@ while executing---line 1429 of file abbrvnat.bst
 Name 3 in "{Bjerregaard, J. H.} and Hansen, O. and Nathan, and Hinds, S." has a comma at the end for entry Bjerregaard:66b
 while executing---line 1429 of file abbrvnat.bst
 Warning--empty publisher in Brink:55
+Warning--empty booktitle in deHeer:87
+Warning--empty publisher in deHeer:87
 Warning--empty title in LeTourneaux:65
 Warning--empty title in Lindhard:53
+Name 1 in "Heike I. {R\"osner}, and Martina Caldarini, and Andreas Prestel, and Maria A. Vanoni, and Ricardo A. Broglia, and Alessandro Aliverti, and Guido Tiana, and and Birthe B. Kragelund" has a comma at the end for entry Rosner:17
+while executing---line 1429 of file abbrvnat.bst
+Name 2 in "Heike I. {R\"osner}, and Martina Caldarini, and Andreas Prestel, and Maria A. Vanoni, and Ricardo A. Broglia, and Alessandro Aliverti, and Guido Tiana, and and Birthe B. Kragelund" has a comma at the end for entry Rosner:17
+while executing---line 1429 of file abbrvnat.bst
+Name 3 in "Heike I. {R\"osner}, and Martina Caldarini, and Andreas Prestel, and Maria A. Vanoni, and Ricardo A. Broglia, and Alessandro Aliverti, and Guido Tiana, and and Birthe B. Kragelund" has a comma at the end for entry Rosner:17
+while executing---line 1429 of file abbrvnat.bst
+Name 4 in "Heike I. {R\"osner}, and Martina Caldarini, and Andreas Prestel, and Maria A. Vanoni, and Ricardo A. Broglia, and Alessandro Aliverti, and Guido Tiana, and and Birthe B. Kragelund" has a comma at the end for entry Rosner:17
+while executing---line 1429 of file abbrvnat.bst
+Name 5 in "Heike I. {R\"osner}, and Martina Caldarini, and Andreas Prestel, and Maria A. Vanoni, and Ricardo A. Broglia, and Alessandro Aliverti, and Guido Tiana, and and Birthe B. Kragelund" has a comma at the end for entry Rosner:17
+while executing---line 1429 of file abbrvnat.bst
+Name 6 in "Heike I. {R\"osner}, and Martina Caldarini, and Andreas Prestel, and Maria A. Vanoni, and Ricardo A. Broglia, and Alessandro Aliverti, and Guido Tiana, and and Birthe B. Kragelund" has a comma at the end for entry Rosner:17
+while executing---line 1429 of file abbrvnat.bst
+Name 7 in "Heike I. {R\"osner}, and Martina Caldarini, and Andreas Prestel, and Maria A. Vanoni, and Ricardo A. Broglia, and Alessandro Aliverti, and Guido Tiana, and and Birthe B. Kragelund" has a comma at the end for entry Rosner:17
+while executing---line 1429 of file abbrvnat.bst
+Name 1 in "Heike I. {R\"osner}, and Martina Caldarini, and Andreas Prestel, and Maria A. Vanoni, and Ricardo A. Broglia, and Alessandro Aliverti, and Guido Tiana, and and Birthe B. Kragelund" has a comma at the end for entry Rosner:17
+while executing---line 1429 of file abbrvnat.bst
+Name 2 in "Heike I. {R\"osner}, and Martina Caldarini, and Andreas Prestel, and Maria A. Vanoni, and Ricardo A. Broglia, and Alessandro Aliverti, and Guido Tiana, and and Birthe B. Kragelund" has a comma at the end for entry Rosner:17
+while executing---line 1429 of file abbrvnat.bst
+Name 3 in "Heike I. {R\"osner}, and Martina Caldarini, and Andreas Prestel, and Maria A. Vanoni, and Ricardo A. Broglia, and Alessandro Aliverti, and Guido Tiana, and and Birthe B. Kragelund" has a comma at the end for entry Rosner:17
+while executing---line 1429 of file abbrvnat.bst
+Name 4 in "Heike I. {R\"osner}, and Martina Caldarini, and Andreas Prestel, and Maria A. Vanoni, and Ricardo A. Broglia, and Alessandro Aliverti, and Guido Tiana, and and Birthe B. Kragelund" has a comma at the end for entry Rosner:17
+while executing---line 1429 of file abbrvnat.bst
+Name 5 in "Heike I. {R\"osner}, and Martina Caldarini, and Andreas Prestel, and Maria A. Vanoni, and Ricardo A. Broglia, and Alessandro Aliverti, and Guido Tiana, and and Birthe B. Kragelund" has a comma at the end for entry Rosner:17
+while executing---line 1429 of file abbrvnat.bst
+Name 6 in "Heike I. {R\"osner}, and Martina Caldarini, and Andreas Prestel, and Maria A. Vanoni, and Ricardo A. Broglia, and Alessandro Aliverti, and Guido Tiana, and and Birthe B. Kragelund" has a comma at the end for entry Rosner:17
+while executing---line 1429 of file abbrvnat.bst
+Name 7 in "Heike I. {R\"osner}, and Martina Caldarini, and Andreas Prestel, and Maria A. Vanoni, and Ricardo A. Broglia, and Alessandro Aliverti, and Guido Tiana, and and Birthe B. Kragelund" has a comma at the end for entry Rosner:17
+while executing---line 1429 of file abbrvnat.bst
 Warning--empty title in Stent:80
-You've used 104 entries,
+You've used 114 entries,
             2773 wiz_defined-function locations,
-            1256 strings with 19562 characters,
-and the built_in function-call counts, 46760 in all, are:
-= -- 3836
-> -- 3093
-< -- 83
-+ -- 1058
-- -- 952
-* -- 3662
-:= -- 7548
-add.period$ -- 324
-call.type$ -- 104
-change.case$ -- 591
-chr.to.int$ -- 102
-cite$ -- 214
-duplicate$ -- 2231
-empty$ -- 3744
-format.name$ -- 1100
-if$ -- 9696
+            1320 strings with 22048 characters,
+and the built_in function-call counts, 53604 in all, are:
+= -- 4370
+> -- 3767
+< -- 89
++ -- 1282
+- -- 1166
+* -- 4307
+:= -- 8662
+add.period$ -- 357
+call.type$ -- 114
+change.case$ -- 691
+chr.to.int$ -- 112
+cite$ -- 236
+duplicate$ -- 2467
+empty$ -- 4125
+format.name$ -- 1326
+if$ -- 11080
 int.to.chr$ -- 3
 int.to.str$ -- 1
-missing$ -- 130
-newline$ -- 526
-num.names$ -- 444
-pop$ -- 1272
+missing$ -- 140
+newline$ -- 576
+num.names$ -- 488
+pop$ -- 1470
 preamble$ -- 1
-purify$ -- 516
+purify$ -- 606
 quote$ -- 0
-skip$ -- 1627
+skip$ -- 1840
 stack$ -- 0
-substring$ -- 922
-swap$ -- 176
-text.length$ -- 11
+substring$ -- 1027
+swap$ -- 206
+text.length$ -- 15
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 1014
-warning$ -- 6
-while$ -- 396
+type$ -- 1124
+warning$ -- 8
+while$ -- 437
 width$ -- 0
-write$ -- 1377
-(There were 10 error messages)
+write$ -- 1511
+(There were 35 error messages)

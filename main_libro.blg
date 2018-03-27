@@ -54,11 +54,11 @@ Illegal, another \bibdata command---line 408 of file C7/includeC7.aux
  :         {../nuclear_bib}
 I'm skipping whatever remains of this command
 A level-1 auxiliary file: C8/includeC8.aux
-Illegal, another \bibstyle command---line 325 of file C8/includeC8.aux
+Illegal, another \bibstyle command---line 332 of file C8/includeC8.aux
  : \bibstyle
  :          {abbrvnat}
 I'm skipping whatever remains of this command
-Illegal, another \bibdata command---line 326 of file C8/includeC8.aux
+Illegal, another \bibdata command---line 333 of file C8/includeC8.aux
  : \bibdata
  :         {../nuclear_bib}
 I'm skipping whatever remains of this command
@@ -70,7 +70,7 @@ Illegal, another \bibdata command---line 24 of file main_libro.aux
  : \bibdata
  :         {./nuclear_bib}
 I'm skipping whatever remains of this command
-Reallocated field_info (elt_size=4) to 16956 items from 5000.
+Reallocated field_info (elt_size=4) to 17068 items from 5000.
 Database file #1: ./nuclear_bib.bib
 "{" immediately follows a field name---line 343 of file ./nuclear_bib.bib
  :   journal = {Physical Review},@article
@@ -145,19 +145,15 @@ Repeated entry---line 6539 of file ./nuclear_bib.bib
  : @article{Rosner:17
  :                   ,
 I'm skipping whatever remains of this entry
+Repeated entry---line 6630 of file ./nuclear_bib.bib
+ :   @article{Boersma:96
+ :                      ,
+I'm skipping whatever remains of this entry
 Warning--I didn't find a database entry for "Debye:20"
 Warning--I didn't find a database entry for "Debye:21"
 Warning--I didn't find a database entry for "Broglia:92"
 Warning--I didn't find a database entry for "London:30"
 Warning--I didn't find a database entry for "Pauling:63"
-Warning--I didn't find a database entry for "Casimir"
-Warning--I didn't find a database entry for "Greiner:98"
-Warning--I didn't find a database entry for "Chandler:02"
-Warning--I didn't find a database entry for "Kalum:99"
-Warning--I didn't find a database entry for "Povh:02"
-Warning--I didn't find a database entry for "Ball:03"
-Warning--I didn't find a database entry for "Chandler:05"
-Warning--I didn't find a database entry for "Lum:99"
 Name 1 in "R. A. Broglia, and P. F. Bortignon, and F. Barranco, and E. Vigezzi, and A. Idini, and G. Potel" has a comma at the end for entry Broglia:16
 while executing---line 1347 of file abbrvnat.bst
 Name 1 in "R. A. Broglia, and P. F. Bortignon, and F. Barranco, and E. Vigezzi, and A. Idini, and G. Potel" has a comma at the end for entry Broglia:16
@@ -363,45 +359,45 @@ while executing---line 1429 of file abbrvnat.bst
 Name 1 in "Saperstein, E. E., and Baldo, M." has a comma at the end for entry Saperstein:12
 while executing---line 1429 of file abbrvnat.bst
 Warning--empty title in Stent:80
-You've used 414 entries,
+You've used 426 entries,
             2773 wiz_defined-function locations,
-            2919 strings with 67927 characters,
-and the built_in function-call counts, 198161 in all, are:
-= -- 16246
-> -- 14229
-< -- 295
-+ -- 4840
-- -- 4412
-* -- 16254
-:= -- 32006
-add.period$ -- 1285
-call.type$ -- 414
-change.case$ -- 2620
-chr.to.int$ -- 400
-cite$ -- 843
-duplicate$ -- 8816
-empty$ -- 14940
-format.name$ -- 5016
-if$ -- 40800
+            2962 strings with 68697 characters,
+and the built_in function-call counts, 202236 in all, are:
+= -- 16590
+> -- 14391
+< -- 306
++ -- 4900
+- -- 4460
+* -- 16515
+:= -- 32664
+add.period$ -- 1321
+call.type$ -- 426
+change.case$ -- 2667
+chr.to.int$ -- 412
+cite$ -- 867
+duplicate$ -- 9057
+empty$ -- 15345
+format.name$ -- 5080
+if$ -- 41655
 int.to.chr$ -- 15
 int.to.str$ -- 1
-missing$ -- 475
-newline$ -- 2076
-num.names$ -- 1732
-pop$ -- 5211
+missing$ -- 492
+newline$ -- 2136
+num.names$ -- 1780
+pop$ -- 5320
 preamble$ -- 1
-purify$ -- 2274
+purify$ -- 2314
 quote$ -- 0
-skip$ -- 6734
+skip$ -- 6893
 stack$ -- 0
-substring$ -- 4197
-swap$ -- 676
+substring$ -- 4281
+swap$ -- 688
 text.length$ -- 41
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 4244
+type$ -- 4351
 warning$ -- 15
-while$ -- 1609
+while$ -- 1652
 width$ -- 0
-write$ -- 5444
-(There were 127 error messages)
+write$ -- 5600
+(There were 128 error messages)

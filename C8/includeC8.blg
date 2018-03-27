@@ -43,6 +43,10 @@ I was expecting a `,' or a `}'---line 4868 of file ../nuclear_bib.bib
  :   pages = 210
  :              (R),
 I'm skipping whatever remains of this entry
+Repeated entry---line 6630 of file ../nuclear_bib.bib
+ :   @article{Boersma:96
+ :                      ,
+I'm skipping whatever remains of this entry
 Name 2 in "{Guazzoni, P.} and M. Jaskola, and L. Zetta, and A. Covello, and A. Gargano, and Y. Eisermann, and G. Graw, and R. Hertenberger, and A. Metz, and F. Nuoffer, and G. Staudt" has a comma at the end for entry Guazzoni:99
 while executing---line 1347 of file abbrvnat.bst
 Name 3 in "{Guazzoni, P.} and M. Jaskola, and L. Zetta, and A. Covello, and A. Gargano, and Y. Eisermann, and G. Graw, and R. Hertenberger, and A. Metz, and F. Nuoffer, and G. Staudt" has a comma at the end for entry Guazzoni:99
@@ -113,45 +117,45 @@ Name 1 in "A. Repko, and P. G. Reinhard, and V. O. Nestrenko and J. Kvasil" has 
 while executing---line 1429 of file abbrvnat.bst
 Name 2 in "A. Repko, and P. G. Reinhard, and V. O. Nestrenko and J. Kvasil" has a comma at the end for entry Repko:13
 while executing---line 1429 of file abbrvnat.bst
-You've used 103 entries,
+You've used 119 entries,
             2773 wiz_defined-function locations,
-            1239 strings with 23126 characters,
-and the built_in function-call counts, 57350 in all, are:
-= -- 4534
-> -- 4986
-< -- 47
-+ -- 1682
-- -- 1575
-* -- 5180
-:= -- 9393
-add.period$ -- 311
-call.type$ -- 103
-change.case$ -- 819
-chr.to.int$ -- 99
-cite$ -- 208
-duplicate$ -- 2124
-empty$ -- 3718
-format.name$ -- 1722
-if$ -- 11526
+            1328 strings with 24486 characters,
+and the built_in function-call counts, 62778 in all, are:
+= -- 4989
+> -- 5196
+< -- 63
++ -- 1760
+- -- 1637
+* -- 5514
+:= -- 10267
+add.period$ -- 360
+call.type$ -- 119
+change.case$ -- 879
+chr.to.int$ -- 115
+cite$ -- 240
+duplicate$ -- 2456
+empty$ -- 4264
+format.name$ -- 1804
+if$ -- 12675
 int.to.chr$ -- 5
 int.to.str$ -- 1
-missing$ -- 118
-newline$ -- 524
-num.names$ -- 412
-pop$ -- 1551
+missing$ -- 142
+newline$ -- 604
+num.names$ -- 478
+pop$ -- 1706
 preamble$ -- 1
-purify$ -- 731
+purify$ -- 783
 quote$ -- 0
-skip$ -- 1785
+skip$ -- 2001
 stack$ -- 0
-substring$ -- 1275
-swap$ -- 115
-text.length$ -- 1
+substring$ -- 1373
+swap$ -- 138
+text.length$ -- 2
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 1058
+type$ -- 1194
 warning$ -- 2
-while$ -- 396
+while$ -- 453
 width$ -- 0
-write$ -- 1348
-(There were 44 error messages)
+write$ -- 1557
+(There were 45 error messages)

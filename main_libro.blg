@@ -1,14 +1,14 @@
-This is BibTeX, Version 0.99d (TeX Live 2015/Debian)
+This is BibTeX, Version 0.99d (TeX Live 2016/Debian)
 Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
 The top-level auxiliary file: main_libro.aux
 A level-1 auxiliary file: C1/includeC1.aux
 The style file: abbrvnat.bst
 A level-1 auxiliary file: introduccion/introduccion.aux
-Illegal, another \bibstyle command---line 619 of file introduccion/introduccion.aux
+Illegal, another \bibstyle command---line 622 of file introduccion/introduccion.aux
  : \bibstyle
  :          {abbrvnat}
 I'm skipping whatever remains of this command
-Illegal, another \bibdata command---line 620 of file introduccion/introduccion.aux
+Illegal, another \bibdata command---line 623 of file introduccion/introduccion.aux
  : \bibdata
  :         {../nuclear_bib}
 I'm skipping whatever remains of this command
@@ -23,15 +23,15 @@ Illegal, another \bibdata command---line 526 of file nutshell/include_struct_nut
 I'm skipping whatever remains of this command
 A level-1 auxiliary file: nutshell/include_trans_nut.aux
 Case mismatch error between cite keys deGennes:94 and DeGennes:94
----line 244 of file nutshell/include_trans_nut.aux
+---line 265 of file nutshell/include_trans_nut.aux
  : \citation{deGennes:94
  :                      }
 I'm skipping whatever remains of this command
-Illegal, another \bibstyle command---line 454 of file nutshell/include_trans_nut.aux
+Illegal, another \bibstyle command---line 476 of file nutshell/include_trans_nut.aux
  : \bibstyle
  :          {abbrvnat}
 I'm skipping whatever remains of this command
-Illegal, another \bibdata command---line 455 of file nutshell/include_trans_nut.aux
+Illegal, another \bibdata command---line 477 of file nutshell/include_trans_nut.aux
  : \bibdata
  :         {../nuclear_bib}
 I'm skipping whatever remains of this command
@@ -70,7 +70,7 @@ Illegal, another \bibdata command---line 24 of file main_libro.aux
  : \bibdata
  :         {./nuclear_bib}
 I'm skipping whatever remains of this command
-Reallocated field_info (elt_size=4) to 17152 items from 5000.
+Reallocated field_info (elt_size=4) to 17208 items from 5000.
 Database file #1: ./nuclear_bib.bib
 "{" immediately follows a field name---line 343 of file ./nuclear_bib.bib
  :   journal = {Physical Review},@article
@@ -84,68 +84,68 @@ I was expecting an "="---line 818 of file ./nuclear_bib.bib
  :   volume = 184,during 
  :                       the reviewed period, my  efforts have been mainly devoted to revisiting the theory of deuteron--induced reactions. The goal of this activity is twofold:
 I'm skipping whatever remains of this entry
-Repeated entry---line 2471 of file ./nuclear_bib.bib
+Repeated entry---line 2478 of file ./nuclear_bib.bib
  : @article{Zinser:95
  :                   ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 2819 of file ./nuclear_bib.bib
+Repeated entry---line 2826 of file ./nuclear_bib.bib
  : @book{Mayer:55
  :               ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 2842 of file ./nuclear_bib.bib
+Repeated entry---line 2849 of file ./nuclear_bib.bib
  : @article{Koning:03
  :                   ,
 I'm skipping whatever remains of this entry
-You're missing a field name---line 3040 of file ./nuclear_bib.bib
+You're missing a field name---line 3047 of file ./nuclear_bib.bib
  : year = {1973},
  :               ,
 I'm skipping whatever remains of this entry
 Warning--I'm ignoring Pauli:47's extra "year" field
---line 3838 of file ./nuclear_bib.bib
-"{" immediately follows a field name---line 3961 of file ./nuclear_bib.bib
+--line 3845 of file ./nuclear_bib.bib
+"{" immediately follows a field name---line 3968 of file ./nuclear_bib.bib
  : @article{Schmid:66,@article
  :                            {Jenning:11,
 I'm skipping whatever remains of this entry
-"{" immediately follows a field name---line 3988 of file ./nuclear_bib.bib
+"{" immediately follows a field name---line 3995 of file ./nuclear_bib.bib
  : year = {2013},@BOOK
  :                    {Pauli:47,
 I'm skipping whatever remains of this entry
 Warning--I'm ignoring Shimizu:13's extra "year" field
---line 4078 of file ./nuclear_bib.bib
-Repeated entry---line 4326 of file ./nuclear_bib.bib
+--line 4085 of file ./nuclear_bib.bib
+Repeated entry---line 4333 of file ./nuclear_bib.bib
  : @article{Thompson:88
  :                     ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 4351 of file ./nuclear_bib.bib
+Repeated entry---line 4358 of file ./nuclear_bib.bib
  : @article{Barranco:99
  :                     ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 4576 of file ./nuclear_bib.bib
+Repeated entry---line 4583 of file ./nuclear_bib.bib
  : @article{Bortignon:83
  :                      ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 4669 of file ./nuclear_bib.bib
+Repeated entry---line 4676 of file ./nuclear_bib.bib
  : @article{Sackett:93
  :                    ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 4810 of file ./nuclear_bib.bib
+Repeated entry---line 4817 of file ./nuclear_bib.bib
  : @book{DeGennes:94
  :                  ,
 I'm skipping whatever remains of this entry
-I was expecting a `,' or a `}'---line 4868 of file ./nuclear_bib.bib
+I was expecting a `,' or a `}'---line 4875 of file ./nuclear_bib.bib
  :   pages = 210
  :              (R),
 I'm skipping whatever remains of this entry
-Repeated entry---line 5377 of file ./nuclear_bib.bib
+Repeated entry---line 5384 of file ./nuclear_bib.bib
  : @article{Lanford:73
  :                    ,
 I'm skipping whatever remains of this entry
 Reallocated str_pool (elt_size=1) to 130000 items from 65000.
-Repeated entry---line 6539 of file ./nuclear_bib.bib
+Repeated entry---line 6558 of file ./nuclear_bib.bib
  : @article{Rosner:17
  :                   ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 6630 of file ./nuclear_bib.bib
+Repeated entry---line 6649 of file ./nuclear_bib.bib
  :   @article{Boersma:96
  :                      ,
 I'm skipping whatever remains of this entry
@@ -276,6 +276,8 @@ Warning--empty publisher in deHeer:87
 Warning--empty title in Debye:20
 Warning--empty title in Debye:21
 Warning--empty title in Glauber:69
+Warning--can't use both author and editor fields in Gorkov:12
+Warning--empty chapter and pages in Gorkov:12
 Name 2 in "{Guazzoni, P.} and M. Jaskola, and L. Zetta, and A. Covello, and A. Gargano, and Y. Eisermann, and G. Graw, and R. Hertenberger, and A. Metz, and F. Nuoffer, and G. Staudt" has a comma at the end for entry Guazzoni:99
 while executing---line 1429 of file abbrvnat.bst
 Name 3 in "{Guazzoni, P.} and M. Jaskola, and L. Zetta, and A. Covello, and A. Gargano, and Y. Eisermann, and G. Graw, and R. Hertenberger, and A. Metz, and F. Nuoffer, and G. Staudt" has a comma at the end for entry Guazzoni:99
@@ -357,45 +359,45 @@ while executing---line 1429 of file abbrvnat.bst
 Name 1 in "Saperstein, E. E., and Baldo, M." has a comma at the end for entry Saperstein:12
 while executing---line 1429 of file abbrvnat.bst
 Warning--empty title in Stent:80
-You've used 434 entries,
+You've used 436 entries,
             2773 wiz_defined-function locations,
-            2992 strings with 69175 characters,
-and the built_in function-call counts, 205136 in all, are:
-= -- 16835
-> -- 14524
-< -- 313
-+ -- 4947
-- -- 4499
-* -- 16724
-:= -- 33124
-add.period$ -- 1342
-call.type$ -- 434
-change.case$ -- 2699
-chr.to.int$ -- 420
-cite$ -- 886
-duplicate$ -- 9218
-empty$ -- 15619
-format.name$ -- 5133
-if$ -- 42261
+            3003 strings with 69725 characters,
+and the built_in function-call counts, 206126 in all, are:
+= -- 16910
+> -- 14600
+< -- 314
++ -- 4973
+- -- 4523
+* -- 16812
+:= -- 33284
+add.period$ -- 1348
+call.type$ -- 436
+change.case$ -- 2712
+chr.to.int$ -- 422
+cite$ -- 892
+duplicate$ -- 9260
+empty$ -- 15693
+format.name$ -- 5159
+if$ -- 42460
 int.to.chr$ -- 15
 int.to.str$ -- 1
-missing$ -- 502
-newline$ -- 2173
-num.names$ -- 1812
-pop$ -- 5393
+missing$ -- 505
+newline$ -- 2183
+num.names$ -- 1820
+pop$ -- 5426
 preamble$ -- 1
-purify$ -- 2343
+purify$ -- 2355
 quote$ -- 0
-skip$ -- 7006
+skip$ -- 7034
 stack$ -- 0
-substring$ -- 4348
-swap$ -- 696
+substring$ -- 4370
+swap$ -- 699
 text.length$ -- 41
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 4429
-warning$ -- 18
-while$ -- 1682
+type$ -- 4446
+warning$ -- 20
+while$ -- 1689
 width$ -- 0
-write$ -- 5698
+write$ -- 5723
 (There were 128 error messages)

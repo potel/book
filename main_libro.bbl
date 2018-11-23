@@ -1,4 +1,4 @@
-\begin{thebibliography}{434}
+\begin{thebibliography}{436}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \expandafter\ifx\csname urlstyle\endcsname\relax
@@ -907,6 +907,14 @@ R.~A. Broglia, P.~F. Bortignon, F.~Barranco, E.~Vigezzi, A.~Idini, and
 {Brown, B. A.} and W.~D.~M. Rae.
 \newblock In \emph{{NuShell @ MSU}}. MSU--NSCL report, 2007.
 
+\bibitem[Bruce et~al.(2007)Bruce, Jowett, Gilardoni, Drees, Fischer, Tepikian,
+  and Klein]{Bruce:07}
+R.~Bruce, J.~M. Jowett, S.~Gilardoni, A.~Drees, W.~Fischer, S.~Tepikian, and
+  S.~R. Klein.
+\newblock Observations of beam losses due to bound-free pair production in a
+  heavy--ion collider.
+\newblock \emph{Phys. Rev. Lett.}, 99:\penalty0 144801, 2007.
+
 \bibitem[Buchanan(2015)]{Buchanan:15}
 M.~Buchanan.
 \newblock Wheat from the chaf.
@@ -1308,6 +1316,12 @@ L.~P. Gor'kov.
 \newblock About the energy spectrum of superconductors.
 \newblock \emph{Soviet Phys. JETP}, 7:\penalty0 505, 1958.
 
+\bibitem[Gor'kov(2012)]{Gorkov:12}
+L.~P. Gor'kov.
+\newblock \emph{Theory of Superconductivity: from phenomenology to microscopic
+  theory}.
+\newblock CRC Press, 2012.
+
 \bibitem[{Gor'kov, L.P.}(1959)]{Gorkov:59}
 {Gor'kov, L.P.}
 \newblock {Microscopic derivation of the Ginzburg--Landau eqautions in the
@@ -1402,7 +1416,7 @@ I.~Hamamoto and S.~Shimoura.
 
 \bibitem[Han et~al.(2006)Han, Shi, and Shen]{Han:06}
 Y.~Han, Y.~Shi, and Q.~Shen.
-\newblock Deuteron global optical model potential for energies up to 200 mev.
+\newblock {Deuteron global optical model potential for energies up to 200 MeV}.
 \newblock \emph{Phys. Rev. C}, 74:\penalty0 044615, 2006.
 
 \bibitem[Hansen(2013)]{Hansen:12}
@@ -1513,8 +1527,10 @@ H.~Iwasaki, T.~Motobayashi, H.~Akiyoshi, Y.~Ando, N.~Fukuda, H.~Fujiwara,
   Z.~Fülöp, K.~Hahn, Y.~Higurashi, M.~Hirai, I.~Hisanaga, N.~Iwasa, T.~Kijima,
   T.~Minemura, T.~Nakamura, M.~Notani, S.~Ozawa, H.~Sakurai, S.~Shimoura,
   S.~Takeuchi, T.~Teranishi, Y.~Yanagisawa, and M.~Ishihara.
-\newblock {Quadrupole deformation of $^{12}$Be studied by proton inelastic
-  scattering}.
+\newblock {Quadrupole deformation of $^{12}$Be studied by
+  proton@article{Navratil:12, title = {Ab Initio}, author = {{Navr\'atil}, Petr
+  and Quaglioni, Sofia}, journal = {Phys. Rev. Lett.}, volume = {108}, pages =
+  {042503}, numpages = {5}, year = {2012}, } inelastic scattering}.
 \newblock \emph{Physics Letters B}, 481:\penalty0 7, 2000.
 
 \bibitem[Jackson(1970)]{Jackson:70}

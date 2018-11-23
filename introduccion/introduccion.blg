@@ -1,4 +1,4 @@
-This is BibTeX, Version 0.99d (TeX Live 2015/Debian)
+This is BibTeX, Version 0.99d (TeX Live 2016/Debian)
 Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
 The top-level auxiliary file: introduccion.aux
 The style file: abbrvnat.bst
@@ -11,31 +11,35 @@ I was expecting a `,' or a `}'---line 609 of file ../nuclear_bib.bib
  :   volume = 16
  :              C,
 I'm skipping whatever remains of this entry
-Repeated entry---line 2471 of file ../nuclear_bib.bib
+I was expecting an "="---line 818 of file ../nuclear_bib.bib
+ :   volume = 184,during 
+ :                       the reviewed period, my  efforts have been mainly devoted to revisiting the theory of deuteron--induced reactions. The goal of this activity is twofold:
+I'm skipping whatever remains of this entry
+Repeated entry---line 2478 of file ../nuclear_bib.bib
  : @article{Zinser:95
  :                   ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 2819 of file ../nuclear_bib.bib
+Repeated entry---line 2826 of file ../nuclear_bib.bib
  : @book{Mayer:55
  :               ,
 I'm skipping whatever remains of this entry
-You're missing a field name---line 3040 of file ../nuclear_bib.bib
+You're missing a field name---line 3047 of file ../nuclear_bib.bib
  : year = {1973},
  :               ,
 I'm skipping whatever remains of this entry
-"{" immediately follows a field name---line 3961 of file ../nuclear_bib.bib
+"{" immediately follows a field name---line 3968 of file ../nuclear_bib.bib
  : @article{Schmid:66,@article
  :                            {Jenning:11,
 I'm skipping whatever remains of this entry
-"{" immediately follows a field name---line 3988 of file ../nuclear_bib.bib
+"{" immediately follows a field name---line 3995 of file ../nuclear_bib.bib
  : year = {2013},@BOOK
  :                    {Pauli:47,
 I'm skipping whatever remains of this entry
-Repeated entry---line 4669 of file ../nuclear_bib.bib
+Repeated entry---line 4676 of file ../nuclear_bib.bib
  : @article{Sackett:93
  :                    ,
 I'm skipping whatever remains of this entry
-I was expecting a `,' or a `}'---line 4868 of file ../nuclear_bib.bib
+I was expecting a `,' or a `}'---line 4875 of file ../nuclear_bib.bib
  :   pages = 210
  :              (R),
 I'm skipping whatever remains of this entry
@@ -109,45 +113,47 @@ Name 2 in "G. Col\`{o}, and N. Van Giai, and P. F. Bortignon, and M. R. Quaglia"
 while executing---line 1429 of file abbrvnat.bst
 Name 3 in "G. Col\`{o}, and N. Van Giai, and P. F. Bortignon, and M. R. Quaglia" has a comma at the end for entry Colo:00
 while executing---line 1429 of file abbrvnat.bst
-You've used 121 entries,
+Warning--can't use both author and editor fields in Gorkov:12
+Warning--empty chapter and pages in Gorkov:12
+You've used 125 entries,
             2773 wiz_defined-function locations,
-            1337 strings with 24387 characters,
-and the built_in function-call counts, 59766 in all, are:
-= -- 4789
-> -- 4662
-< -- 81
-+ -- 1585
-- -- 1458
-* -- 5012
-:= -- 9757
-add.period$ -- 375
-call.type$ -- 121
-change.case$ -- 814
-chr.to.int$ -- 115
-cite$ -- 242
-duplicate$ -- 2531
-empty$ -- 4269
-format.name$ -- 1637
-if$ -- 12180
-int.to.chr$ -- 7
+            1362 strings with 24952 characters,
+and the built_in function-call counts, 61647 in all, are:
+= -- 4939
+> -- 4798
+< -- 82
++ -- 1632
+- -- 1500
+* -- 5181
+:= -- 10059
+add.period$ -- 387
+call.type$ -- 125
+change.case$ -- 839
+chr.to.int$ -- 118
+cite$ -- 252
+duplicate$ -- 2614
+empty$ -- 4412
+format.name$ -- 1683
+if$ -- 12561
+int.to.chr$ -- 8
 int.to.str$ -- 1
-missing$ -- 151
-newline$ -- 616
-num.names$ -- 498
-pop$ -- 1654
+missing$ -- 156
+newline$ -- 636
+num.names$ -- 514
+pop$ -- 1707
 preamble$ -- 1
-purify$ -- 723
+purify$ -- 745
 quote$ -- 0
-skip$ -- 1989
+skip$ -- 2045
 stack$ -- 0
-substring$ -- 1083
-swap$ -- 176
+substring$ -- 1124
+swap$ -- 183
 text.length$ -- 8
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 1181
-warning$ -- 0
-while$ -- 454
+type$ -- 1220
+warning$ -- 2
+while$ -- 468
 width$ -- 0
-write$ -- 1596
-(There were 44 error messages)
+write$ -- 1647
+(There were 45 error messages)

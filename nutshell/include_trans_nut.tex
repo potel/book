@@ -528,7 +528,7 @@ H=H_1+H_2+\sum_{kq}T_{kq}(a_{k\uparrow}^\dagger a_{k\uparrow}+a_{-q\downarrow}^\
 where $H_1$ and $H_2$ are the separate Hamiltonians of the two superconductors on each side of the barrier, $T_{kq}$ being the (exponentially) small tunneling matrix element from state $k$ on one side to $q$ on the other.
 
 
-One can arrive to  (\ref{eq3.C.1}) by first finding sets of single--particle wavefunctions for each side separately, in the absence of the potential of the other system. \textit{Then one eliminates the non--orthogonality effects by perturbation theory (cf. the similarity with the arguments used in Sect. \ref{C3S2} as well as App. \ref{C7AppC}; for further details see Sect. \ref{C7S1})}. It is of notice that a nuclear embodiment of such strategy but for the case superfluid--normal\footnote{It is of notice that because  pairing vibrations in nuclei are quite collective, leading to effective $U$ and $V$ occupation factor (cf. Fig. \ref{fig3.3.2}) (see also \cite{Potel:13b}), the nuclear and the condensed matter expressions for Cooper tunneling processes are very similar. Of course no supercurrent is expected between nuclei. However, the systems $^{120}$Sn(gs), $^{119}$Sn($j$), $^{118}$Sn(gs) form an ensemble of weakly coupled Fermi superfluids, with different (average) number of particles ($N,N-1,N-2$), to which essentially all the BCS techniques, including those of the present Appendix can be applied (cf. Fig. \ref{fig3.C.1}). It is of notice the parallel of this scenario with that associated with nuclei excited at rather high intrinsic excitation energies for which one defines a temperature. This is possible, because the excited (thermalized) nucleus is in equilibrium with the particles, namely neutrons and gamma--rays it emits, particles which act as a thermal bath, let alone the very high density of levels, of the compound nucleus (cf. \cite{Bertsch:05} p 171, \cite{Bortignon:98} p. 7).} tunneling is worked out in Ch. \ref{C7} and implemented in \textsc{cooper}\footnote{Cf. App. \ref{C8AppD}; cf. also \cite{Broglia:04a}.}. It is of notice that at the basis of the Josephson effect one find $P_2\approx P_1$ which, in the nuclear case implies $\sigma_{2p}\approx\sigma_{1p}$. A remarkable finding whether both or a single of the interacting systems is a superfluid nucleus. 
+One can arrive to  (\ref{eq3.C.1}) by first finding sets of single--particle wavefunctions for each side separately, in the absence of the potential of the other system. \textit{Then one eliminates the non--orthogonality effects by perturbation theory (cf. the similarity with the arguments used in Sect. \ref{C3S2} as well as App. \ref{C7AppC}; for further details see Sect. \ref{C7S1})}. It is of notice that a nuclear embodiment of such strategy but for the case superfluid--normal\footnote{\label{f45}It is of notice that because  pairing vibrations in nuclei are quite collective, leading to effective $U$ and $V$ occupation factor (cf. Fig. \ref{fig3.3.2}) (see also \cite{Potel:13b}), the nuclear and the condensed matter expressions for Cooper tunneling processes are very similar. Of course no supercurrent is expected between nuclei. However, the systems $^{120}$Sn(gs), $^{119}$Sn($j$), $^{118}$Sn(gs) form an ensemble of weakly coupled Fermi superfluids, with different (average) number of particles ($N,N-1,N-2$), to which essentially all the BCS techniques, including those of the present Appendix can be applied (cf. Fig. \ref{fig3.C.1}). It is of notice the parallel of this scenario with that associated with nuclei excited at rather high intrinsic excitation energies for which one defines a temperature. This is possible, because the excited (thermalized) nucleus is in equilibrium with the particles, namely neutrons and gamma--rays it emits, particles which act as a thermal bath, let alone the very high density of levels, of the compound nucleus (cf. \cite{Bertsch:05} p 171, \cite{Bortignon:98} p. 7).} tunneling is worked out in Ch. \ref{C7} and implemented in \textsc{cooper}\footnote{Cf. App. \ref{C8AppD}; cf. also \cite{Broglia:04a}.}. It is of notice that at the basis of the Josephson effect one find $P_2\approx P_1$ which, in the nuclear case implies $\sigma_{2p}\approx\sigma_{1p}$. A remarkable finding whether both or a single of the interacting systems is a superfluid nucleus. 
 
 
 Let us now calculate the second order expression of  (\ref{eq3.C.1}) in the case in which the gaps of the two weakly linked superconductors are different.
@@ -631,33 +631,109 @@ J_0=\frac{\pi\Delta}{2eR_n},
  
  
  Similarly, the weak limit (\ref{eq3.6.20}) between the two superconductors 1 and 2, is associated with the situations in which each partner of a Cooper pair is in a different superconductor, a kind of covalent phenomenon, in which each Cooper pair is simultaneously shared by the two superconductors.  
-\section{Phase coherence}\label{C3AppD}
-The phase of a wavefunction and the number of nucleons (electrons in condensed matter) are conjugate variables: gauge invariance, i.e. invariance under phase changes, implies number conservation in the same way that rotational invariance implies angular momentum conservation.
+\section{Rotation in gauge space}\label{S3.7}
+The occurrence of rotation as a feature of the nuclear spectrum, e.g. of pairing rotational bands, originates in the phenomenon of spontaneous symmetry breaking of rotational invariance in the two dimensional gauge space. In other words, violation of particle number conservation, which introduces a deformation that makes it possible to specify an orientation of the system in gauge space.
 
-Example:
-\begin{align}
-\Psi=a_1^\dagger a_2^\dagger\dotsb a_N^\dagger \Psi_{vac}.
+
+The condensate in the nuclear superfluid system involve a deformation of the field that creates the fermion pairs. The process of addition or removal of a Cooper pair constitutes a rotational mode in gauge space in which particle number plays the role of angular momentum. Pairing rotational bands represents the collective mode associated with spontaneous symmetry of particle number conservation (Goldstone mode).
+
+
+Let us elaborate on the above points within the framework of a simple model which contains the basic physical features one is interested in discussing.
+
+
+We consider $N$ nucleons moving in a single $j$--shell\footnote{For details see e.g. App. H of \cite{Brink:05} and refs. therein.} of energy $\epsilon_j$ and total angular momentum $(ls)j$. The number of pairs moving in time reversal state which can be accommodated in the shell is $\Omega=(2j+1)/2$. Consequently, the value of the BCS occupation parameters is $V=(N/2\Omega)^{1/2}$ and $U=(1-N/2\Omega)^{1/2}$. Setting $\epsilon_j=0$. The solution of the BCS number and gap equations associated with a pairing force with constant matrix elements $G$ are
+  \begin{align}\label{eq3.7.1}
+  \lambda=-\frac{G}{2}(\Omega-N),
+  \end{align}
+  and
+  \begin{align}\label{eq3.7.2}
+\Delta=\frac{G}{2}\sqrt{N(2\Omega-N)},
+  \end{align}
+respectively.
+
+
+The BCS ground state energy of the superfluid system is
+  \begin{align}\label{eq3.7.3}
+U=2\sum_{\nu>0}(\epsilon_\nu-\lambda)V^2_\nu-\frac{\Delta^2}{G}.
+  \end{align}
+Using (\ref{eq3.7.1}) and (\ref{eq3.7.2}), one can write
+  \begin{align}\label{eq3.7.4}
+U\approx\frac{\hbar^2}{2\mathcal J}N^2,  
+    \end{align}
+where
+  \begin{align}\label{eq3.7.5}
+\mathcal J=\frac{2\hbar^2}{G},  
+    \end{align}
+is the moment of inertia of the associated pairing rotational band. The fact that the single--particle energies are measured with respect to $\lambda$ implies that the nucleons feel the Coriolis force ($\hbar\dot{\phi}=\lambda$) associated with rotation in gauge space (Eq. (\ref{eq2.7.9}) below). In other words, the BCS solution is carried out in the intrinsic system of reference $\mathcal K'$ (see below). In fact, the ground state energy in the laboratory system $\mathcal K$ is (see Fig. \ref{fig1.3})
+  \begin{align}\label{eq3.7.6}
+E_0=U+\lambda N=\lambda N++\frac{\hbar^2}{2\mathcal J}N^2,  
+    \end{align}
+a quantity which approaches zero linearly in $N$, as expected for a Goldstone mode.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+\subsection{Phase coherence}\label{C3AppD}
+The phase of a wavefunction and the number of nucleons (electrons in condensed matter) are conjugate variables. In other words, the gauge and the particle number operators $\hat{\phi}$ and $\hat N$ satisfy the commutation relation,
+  \begin{align}\label{eq3.7.8}
+\left[\hat{\phi},\hat{N}\right]=i.
+    \end{align}
+In the particle number representation
+  \begin{align}\label{eq3.7.9}
+\hat N=-i\partial/\partial N,\quad \hat \phi=\phi,
+    \end{align}
+while
+  \begin{align}\label{eq3.7.10}
+\hat N=N,\quad \hat\phi=i\partial/\partial N,
+    \end{align}
+in the gauge angle representation. The time derivative of the gauge angle is given by the equation of motion\footnote{See e.g. \cite{Brink:05} App. I.},
+  \begin{align}\label{eq3.7.11}
+  \dot{\phi}=\frac{i}{\hbar}\left[H,\phi \right]=\frac{1}{\hbar}\frac{\partial H}{\partial N}=\frac{1}{\hbar}\lambda,
+    \end{align}
+where $\lambda$ is the chemical potential (Fermi energy).
+
+
+
+
+
+
+
+ Gauge invariance, i.e. invariance under phase changes, implies number conservation in the same way that rotational invariance implies angular momentum conservation.
+
+Example: let us introduce the trivially invariant many--body wavefunction,
+\begin{align}\label{eq3.7.12}
+\Psi=a_1^\dagger a_2^\dagger\dotsb a_N^\dagger \Psi_{vac},
 \end{align}
-Multiplying the creation operators by a phase factor,
-\begin{align}
-a'^\dagger= e^{-i\phi} a^\dagger,
-\end{align}
-one can rewrite
-\begin{align}
-\nonumber\Psi=&(e^{i\phi} a'^\dagger_1)(e^{i\phi} a'^\dagger_2)\dotsb(e^{i\phi} a'^\dagger_N)\Psi_{vac}\\
-&=e^{iN\phi}\Psi'.
-\end{align}
-Thus
-\begin{align}
--i\frac{\partial}{\partial \phi}\Psi=Ne^{iN\phi}\Psi'=N\Psi,
+and rotate it an angle $\phi$ making use of the operator
+\begin{align}\label{eq3.7.13}
+\mathcal G(\phi)\ket{\Psi_N}=e^{-iN\phi}\ket{\Psi}=\ket{\Psi'},
 \end{align}
 where
-\begin{align}
-N=-i\frac{\partial}{\partial \phi};\quad\quad \phi=i\frac{\partial}{\partial N}
+\begin{align}\label{eq3.7.14}
+\ket{\Psi'}=a_1'^\dagger a_2'^\dagger\dotsb a_N'^\dagger\ket{0},
 \end{align}
 and
-\begin{align}
-[\phi,N]=1;\quad\Delta \phi \Delta N=1.
+\begin{align}\label{eq3.7.15}
+\mathcal G^{-1}(\phi)a_\nu^\dagger \mathcal G(\phi)=e^{-i\phi}a_\nu^\dagger=a_\nu'^\dagger,
+\end{align}
+thus
+\begin{align}\label{eq3.7.16}
+\ket{\Psi_N}=e^{iN\phi}\ket{\Psi'_N},
+\end{align}
+and
+\begin{align}\label{eq3.7.17}
+\hat N\ket{\Psi_N}=-i\frac{\partial}{\partial N}\ket{\Psi_N}=n\ket{\Psi_N}.
 \end{align}
  A phase change for a gauge invariant function is just a trivial operation. Like to rotate a rotational invariant function. Quantum mechanically nothing happens rotating a spherical system (in 3D--, gauge, etc.) space.
 
@@ -671,35 +747,57 @@ The situation is very different in the case of the wavefunction
 \end{align}
 where 
 \begin{align}
-a'^\dagger_\nu =\mathcal G(\phi)a^\dagger_\nu G^{-1}(\phi)=e^{-i\phi}a^\dagger_\nu      (a'^\dagger_{\bar\nu}=e^{-i\phi}a^\dagger_{\bar\nu}),
+U_\nu=|U_\nu|=U'_\nu;\quad V_\nu=e^{-2i\phi}V'_\nu \;(V'_\nu=|V_\nu|).
 \end{align}
+In fact,
 \begin{align}
-U_\nu=|U_\nu|=U'_\nu;\quad V_\nu=e^{-2i\phi}V'_\nu \;(V'_\nu=|V_\nu|),
-\end{align}
-and
-\begin{align}
-|BCS(\phi)\rangle_{\mathcal{K}}=\left(\prod_{\nu>0}U_\nu\right)\sum_{N}e^{-iN\phi}\left(\sum_{\nu>0}c_\nu P'^\dagger_\nu\right)^{N/2}|0\rangle,
+|BCS(\phi)\rangle_{\mathcal{K}}=\left(\prod_{\nu>0}U_\nu'\right)\sum_{N\text{ even}}\frac{e^{-iN\phi}}{(N/2)!}\left(\sum_{\nu>0}c_\nu P^\dagger_\nu\right)^{N/2}|0\rangle,
 \end{align}
 with
 \begin{align}
-c_\nu=\frac{V_\nu}{U_\nu};\quad \quad P'^\dagger_\nu=a'^\dagger_\nu a'^\dagger_{\bar\nu},
+c_\nu'=\frac{V_\nu'}{U_\nu'};\quad \quad P^\dagger_\nu=a^\dagger_\nu a^\dagger_{\bar\nu},
 \end{align}
-is a wavepacket in particle number,
-\begin{align}\label{eqalpha} |BCS(\phi)\rangle_{\mathcal{K}}=\left(\prod_{\nu>0}U_\nu\right)\sum_{N}e^{-iN\phi}|N\rangle.
-\end{align}
-Let us now apply the gauge angle operator 
+is a wavepacket in particle number which can be written as,
 \begin{align}
-\hat{\phi}|BCS(\phi)\rangle_{\mathcal{K}}&=i\frac{\partial}{\partial \nonumber N}|BCS(\phi)\rangle_{\mathcal{K}}\\
-&=\phi\left(\prod_{\nu>0}U_\nu\right)\sum_{N}e^{-iN\phi}|N\rangle=\phi|BCS(\phi)\rangle_{\mathcal{K}}.
+\ket{BCS(\phi)}_{\mathcal K}=\sum_N f_N(\phi)\ket{\Psi_N}
 \end{align}
+Let us now apply the gauge angle operator to it,
+\begin{align}
+\hat{\phi}\ket{BCS(\phi)}_{\mathcal K}=\hat{\phi}\sum_{N}f_N(\phi)\ket{\Psi_N},
+\end{align}
+that is,
+\begin{align}
+i\frac{\partial}{\partial N}f_N(\phi)=\phi f_N(\phi).
+\end{align}
+Thus,
+\begin{align}
+f_N(\phi)\sim e^{-iN\phi},
+\end{align}
+and
+\begin{align}
+\ket{BCS(\phi)}_{\mathcal K}\sim \sum e^{-iN\phi}\ket{\Psi_N}
+\end{align}
+
+
+
 Thus the state $|BCS(\phi=0)\rangle_{\mathcal{K}'}$ is rigidly aligned in gauge space in which it defines a privileged orientation ($z'$).
 
 
 An isolated nucleus will not remain long in this product type state. Due to the term\footnote{Within BCS theory of pairing, there are two parameters which determines spontaneous symmetry breaking in gauge space. The probability amplitude with which a pair state ($\nu\bar{\nu}$) is occupied, and that with which it is empty. Namely, $V_\nu$ and $U_\nu$ respectively. As a consequence, there only two fields $F$ which contribute, through terms of type $FF^\dagger$, to the residual interaction $H_{res}$ acting among quasiparticles, which is neglected in the mean field solution of the pairing Hamiltonian. One which is antisymmetric with respect to the Fermi surface namely ($U^2_\nu-V^2_\nu)$ and which leads to pairing vibrations of the gauge deformed state $\ket{BCS}$. The other one, ($U^2_\nu+V^2_\nu)$ is symmetric with respect to $\epsilon_F$ and leads to fluctuations which diverge in the long wavelength limit ($W''_1\to0$) in precisely the right way to set $\ket{BCS}$ into rotation with a finite inertia, and restore symmetry. This term is written as $H''_p=(G/4)\left(\sum_{\nu>0}\left(U^2_\nu+V^2_\nu\right)\left(\Gamma_\nu^\dagger-\Gamma_\nu\right)\right)^2=(G/4)\left(\sum_{\nu>0}\left(\Gamma_\nu^\dagger-\Gamma_\nu\right)\right)^2$, where $\Gamma^\dagger_\nu (\Gamma_\nu)$ is the two quasiparticle creation (annihilation) operator in the harmonic (quasiboson) approximation $[\Gamma_\nu,\Gamma^{\dagger}_{\nu'}]=\delta(\nu,\nu')$ see \cite{Brink:05}, eq. 4.24 and Sect. I.4. For more details see App. J of this reference.
 }  $(G/4)\left(\sum_{\nu>0}\left(U^2_\nu+V^2_\nu\right)\left(\Gamma_\nu^\dagger-\Gamma_\nu\right)\right)^2$ in the residual quasiparticle Hamiltonian it will fluctuate (QM, ZPF, Goldstone mode), and decay into a state
 \begin{align}\label{eqbeta}
-|N\rangle \sim \int d\phi e^{iN\phi}|BCS(\phi)\rangle_{\mathcal{K}},
+|N\rangle \sim \int d\phi e^{iN\phi}|BCS(\phi)\rangle_{\mathcal{K}}\sim \sum_N\int_0^{2\pi}d\phi\, e^{-i(N-N')\phi}\ket{\Psi_N}\sim\ket{\Psi_{N'}}
 \end{align}
+in keeping with the fact that
+\begin{align}\label{eq3.7.27}
+\int_0^{2\pi}d\phi\, e^{-i(N-N')\phi}=\left\{
+\begin{array}{c}
+ 2\pi\delta(N,N')\quad (N=N')\\ 
+ \\
+\left.\frac{i}{N-N'}e^{-i(N-N')}\right|^{2\pi}_0=0\quad (N\neq N')
+\end{array} \right.
+\end{align}
+The state $\ket{N'}$ is a 
 member of a pairing rotational band around neutron mass number $N$: for example the ground states of the Sn--isotopes around $N_0=68$ (see Fig. \ref{fig1.3}). Because $E_R=(\hbar^2/2\mathcal I)(N-N_0)^2=(G/4)(N-N_0)^2=G/4(\tfrac{1}{\delta \phi})^2$ is the kinetic energy of rotation in (nuclear) gauge space, and $G/4\approx 25/(4 N_0)\approx 0.092$ MeV, the wavepacket (\ref{eqalpha}) will decay\footnote{Within this context note that setting in phase at $t=0$ all the states in which a GDR breaks down through the hierarchy of doorway--states--coupling, they would dissipate like a wavepacket of free particles after $10^{-22}$ sec (assuming $\Gamma_{GDR}\approx 3-4$ MeV). It is of notice that the GDR will eventually branch into the ground state, although $\Gamma_{\gamma}\ll\Gamma_{GDR}$, in keeping with the fact that the $t=0$ phase coherent states are, individually, stationary. What is not stationary is its phase coherence (see Sect. \ref{appintroD}). Pushing the analogy a step further, one can say that in quantum mechanics, while the outcome of an experiment is probabilistic the associated probability evolve in a deterministic way (\cite{Born:26}). This is the reason why a large gamma ray detector will reveal a well defined peak of the resonant dipole state long after its  lifetime deadline ($\hbar/\Gamma$). Also, one can obtain a completely (classical) picture of a face making use of single photons at a time, provided one waits long enough.} in the state (\ref{eqbeta}) in a time of the order of\footnote{In these estimates the approximated value $\hbar/1$ MeV $\approx(2/3)\times10^{-21}$ s is used.} $\hbar/(\hbar^2/2\mathcal I)\approx\hbar/0.092\text{ MeV})\approx 10^{-20}$ s. More accurately, because\footnote{Implying $\delta\phi\approx1/\delta N\approx0.5/(\pi/180^\circ)\approx 30^\circ$ a rather large number, in keeping with the small number (5--6) of Cooper pairs participating in the nuclear condensate.} $N=N_0\pm2$, $\hbar/E_R\approx\hbar/(4\times0.092\text{ MeV})\approx2\times10^{-21}$ s. In other words, superfluid nuclei cannot be prepared, in isolation, in states with coherent superposition of different $N$--values. The common assumption that $N$ is fixed, $\phi$ meaningless is correct. 
 
 
@@ -714,7 +812,7 @@ which corresponds to an interval of time
 The opposite situation is that of the case in which one considers different parts of the same superconductor. In this case one can define relative variables $n=N_1-N_2$ and $\phi=\phi_1-\phi_2$ and again $n=-i\partial/\partial \phi$ and $\phi=i\partial/\partial n$. Thus, locally there is a superposition of different $n$ states: $\phi$ is fixed so $n$ is uncertain. It is clear that there must be a dividing line between these two behaviors, perfect phase coherence and negligible coherence, namely the Josephson effect.
 
 
-In the nuclear case, one can view the systems $|BCS(A+2)\rangle$ and $|BCS(A)\rangle$ as parts of a fermion superfluid (superconductor) which, in presence of a proton ($p+(A+2)$) are in weak contact to each other, the $d+|BCS(A+1)\rangle$ system (without scattering, running waves, but as a closed, virtual, channel) acting as the dioxide layer of a Josephson junction (Fig. \ref{fig3.C.1}).
+In the nuclear case, one can view the systems $|BCS(A+2)\rangle$ and $|BCS(A)\rangle$ as parts of a fermion superfluid (superconductor) which, in presence of a proton ($p+(A+2)$) are in weak contact to each other, the $d+|BCS(A+1)\rangle$ system (without scattering, running waves, but as a closed, virtual, channel) acting as the dioxide layer of a Josephson junction (Fig. \ref{fig3.C.1}; within this context see the discussion concerning the validity of analogies carried out between phenomena observed in many--particle ($N\sim$ Avogadro number) condensed matter systems and the finite many--body nuclear counterpart. See also footnote \ref{f45} as well as last paragraph before Sect. \ref{App3B4}.
 
 
 Clearly, again, the total phase of the assembly is not physical. However, the relative phases can be given a meaning when one observes, as one does in e.g. metallic superconductors, that electrons can pass back and forth through the barrier, leading to the possibility of coherence between states in which the total number of electrons is not fixed \emph{locally}. Under such conditions there is, for instance, a coherence between the state with $N/2$ electrons in one half of the block and $N/2$ in the other, and that with $(N/2)+2$ on one side side and $(N/2)-2$ on the other.
@@ -732,7 +830,7 @@ Whether an effect which may parallel that shown in (c) (backwards rise) can be s
 \begin{figure}\centerline{\includegraphics*[width=10cm,angle=0]{nutshell/figs/fig3D1.pdf}}
 \caption{Gedanken experiment concerning the possibility of observing weak coupling coherence phenomena between states $|BCS(A+2)\rangle$ and $|BCS(A)\rangle$ in an elastic reaction involving superfluid nuclei (\textbf{a}), e.g. $p+^{120}$Sn$\rightarrow p+^{120}$Sn, the system $^{119}$Sn+$d$ acting as a dynamical barrier (hatched areas arguably play role of that of dioxide layers in Josephson junctions) between the two even $N$ superfluid systems arising from the successive transfer of two nucleons (\textbf{b}) and eventually allowing for  a time dependent gauge phase difference between the $(A+2)$ and $A$ superfluid systems, thus leading, in the case in which $Q$--value effects are appropriate, to an oscillating enhancement of the elastic cross section at large angles as observed, for quite different reasons, in the case of the elastic angular distribution of the reaction $^{16}$O+$^{28}$Si (\textbf{c}) (cf. \cite{Pollarolo:84}).}\label{fig3.C.1}
 \end{figure}
-
+A direct observation of weak coupling coherent phenomena between states $\ket{BCS(A+2)}$ and $\ket{BCS(A)}$ in $A+a\to A+a$ process could arguably, be achieved in e.g. the virtual transfer of two protons and of the associated $\gamma$--rays of frequency $\nu=Q_{2p}/h$. 
 \section{Hindsight}\label{C3AppE}
 The formulation of superconductivity (BCS theory) described by Gor'kov\footnote{\cite{Gorkov:58,Gorkov:59}.} allows, among other things for a simple visualization of spatial dependences. In this formulation $F(\mathbf{x},\mathbf{x}')$ is the amplitude for two Fermions (electrons) at $\mathbf{x},\mathbf{x}'$, to belong to the Cooper pair (within the framework of nuclear physics cf. e.g. Fig. \ref{fig1F3} $\Psi_0(\mathbf{r}_1,\mathbf{r}_2)$; see also App. \ref{App3B}). The phase of $F$ is closely  related to the angular orientation of the spin variable  in Anderson's quasispin formulation of BCS theory\footnote{\cite{Anderson:58b}; within the framework of nuclear physics cf. e.g. \cite{Bohr:88}, \cite{Potel:13b} and references therein.}. The gap function $\Delta(x)$ is given by $V(\mathbf{x})F(\mathbf{x},\mathbf{x})$ where $V(\mathbf{x})$ is the local two--body interaction at the point $\mathbf x$. In the insulating barrier between the two superconductors of a Josephson junction, $V(\mathbf{x})$ is zero and thus $\Delta(x)$ is also zero. 
 
@@ -1478,7 +1576,7 @@ In keeping with the parallel made with superconductors (see Fig. \ref{fig3B4x}) 
 
 
 One could argue that in the reaction $^{120}$Sn$(p,t)^{118}$Sn(gs) one can hardly consider the triton as a pairing condensate. While this is correct one can hardly claim either that six--eight Cooper pairs ($^{120}$Sn) make a \textit{bona fide} one. In any case, when one experimentally observes such unexpected phenomenon ($\sigma_{2n}\approx\sigma_{1n}$) one is likely somewhat authorized at using similar concepts\footnote{\cite{Anderson:72}.}.
-\subsection{Nuclear correlation (condensation) energy}
+\subsection{Nuclear correlation (condensation) energy}\label{App3B4}
 The BCS mean field can be written as\footnote{\cite{Brink:05}, Appendix G.}
  \begin{align}\label{eq3B14}
 H_{MF}=U+H_{11}
@@ -1597,6 +1695,8 @@ In the case of halo Cooper pair binding by GDPR in $^{11}$Li, the system is esse
 \frac{dn}{d\beta_L}=\frac{1}{4}\sqrt{\frac{2L+1}{3\pi}}A
 \end{align}  
 defining the number of crossings $n$ in terms of deformation\footnote{\cite{Brink:05}, Eq. (7.35).}, one obtains for $L=0$ and $\beta_0=2.5$, $n\approx 2$.
+
+ 
 
  
 It is of notice that all of these processes takes place inside the halo neutron pair addition vibrational mode of the closed shell system $^9_3$Li$_6$(gs), and thus in terms of virtual states. On the other hand intervening the processes depicted in Fig. \ref{fig2.A.1} with external fields, e.g. those associated with one--and two--particle transfer processes, provides much of the physics which is at the basis of the exotic properties of $^{10}$Li and $^{11}$Li (see e.g. Figs. \ref{fig1F3} (I), \ref{figintro5} and \ref{figintro6x}. See also Fig. \ref{fig8_1_2}). 

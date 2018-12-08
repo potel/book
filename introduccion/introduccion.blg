@@ -115,45 +115,45 @@ Name 3 in "G. Col\`{o}, and N. Van Giai, and P. F. Bortignon, and M. R. Quaglia"
 while executing---line 1429 of file abbrvnat.bst
 Warning--can't use both author and editor fields in Gorkov:12
 Warning--empty chapter and pages in Gorkov:12
-You've used 125 entries,
+You've used 126 entries,
             2773 wiz_defined-function locations,
-            1362 strings with 24952 characters,
-and the built_in function-call counts, 61647 in all, are:
-= -- 4939
-> -- 4798
-< -- 82
-+ -- 1632
-- -- 1500
-* -- 5181
-:= -- 10059
-add.period$ -- 387
-call.type$ -- 125
-change.case$ -- 839
-chr.to.int$ -- 118
-cite$ -- 252
-duplicate$ -- 2614
-empty$ -- 4412
-format.name$ -- 1683
-if$ -- 12561
+            1368 strings with 25035 characters,
+and the built_in function-call counts, 61975 in all, are:
+= -- 4968
+> -- 4808
+< -- 83
++ -- 1636
+- -- 1503
+* -- 5201
+:= -- 10112
+add.period$ -- 390
+call.type$ -- 126
+change.case$ -- 843
+chr.to.int$ -- 119
+cite$ -- 254
+duplicate$ -- 2634
+empty$ -- 4446
+format.name$ -- 1687
+if$ -- 12630
 int.to.chr$ -- 8
 int.to.str$ -- 1
-missing$ -- 156
-newline$ -- 636
-num.names$ -- 514
-pop$ -- 1707
+missing$ -- 157
+newline$ -- 641
+num.names$ -- 518
+pop$ -- 1714
 preamble$ -- 1
-purify$ -- 745
+purify$ -- 748
 quote$ -- 0
-skip$ -- 2045
+skip$ -- 2058
 stack$ -- 0
-substring$ -- 1124
-swap$ -- 183
+substring$ -- 1132
+swap$ -- 184
 text.length$ -- 8
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 1220
+type$ -- 1231
 warning$ -- 2
-while$ -- 468
+while$ -- 472
 width$ -- 0
-write$ -- 1647
+write$ -- 1660
 (There were 45 error messages)

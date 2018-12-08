@@ -1,0 +1,76 @@
+\begin{thebibliography}{12}
+\providecommand{\natexlab}[1]{#1}
+\providecommand{\url}[1]{\texttt{#1}}
+\expandafter\ifx\csname urlstyle\endcsname\relax
+  \providecommand{\doi}[1]{doi: #1}\else
+  \providecommand{\doi}{doi: \begingroup \urlstyle{rm}\Url}\fi
+
+\bibitem[Anderson and Stein(1984)]{Anderson:84}
+P.~W. Anderson and D.~L. Stein.
+\newblock {Broken symmetry, emergent properties, dissipative structures, life:
+  are they related?}
+\newblock In P.~W. Anderson, editor, \emph{Basic notions of condensed matter},
+  page 263. Benjamin, Menlo Park, CA, 1984.
+
+\bibitem[Bertsch and Broglia(2005)]{Bertsch:05}
+G.~Bertsch and R.~A. Broglia.
+\newblock \emph{Oscillations in Finite Quantum Systems}.
+\newblock Cambridge University Press, Cambridge, 2005.
+
+\bibitem[Bilgram(1987)]{Bilgram:87}
+J.~H. Bilgram.
+\newblock Dynamics at the solid-liquid transition: Experiments at the freezing
+  point.
+\newblock \emph{Physics Reports}, 153:\penalty0 1, 1987.
+
+\bibitem[{Brink, D.} and Broglia(2005)]{Brink:05}
+{Brink, D.} and R.~A. Broglia.
+\newblock \emph{Nuclear Superfluidity}.
+\newblock Cambridge University Press, Cambridge, 2005.
+
+\bibitem[Lindemann(1910)]{Lindemann:10}
+F.~A. Lindemann.
+\newblock The calculation of molecular vibration frequencies.
+\newblock \emph{Physik. Z.}, 11:\penalty0 609, 1910.
+
+\bibitem[{L\"owen, H.}(1994)]{Lowen:94}
+{L\"owen, H.}
+\newblock Melting, freezing and colloidal suspensions.
+\newblock \emph{Phys. Rep.}, 237:\penalty0 249, 1994.
+
+\bibitem[Mottelson(1998)]{Mottelson:02}
+B.~Mottelson.
+\newblock Elementary features of nuclear structure.
+\newblock In Niefnecker, Blaizot, Bertsch, Weise, and David, editors,
+  \emph{{Trends in Nuclear Physics, 100 years later, Les Houches, Session
+  LXVI}}, page~25, Amsterdam, 1998. Elsevier.
+
+\bibitem[{R\"osner} et~al.(2017){R\"osner}, Caldarini, Prestel, Vanoni,
+  Broglia, Aliverti, Tiana, , and Kragelund]{Rosner:17}
+H.~I. {R\"osner}, M.~Caldarini, A.~Prestel, M.~A. Vanoni, R.~A. Broglia,
+  A.~Aliverti, G.~Tiana, , and B.~B. Kragelund.
+\newblock Cold denaturation of the {HIV--1} protease monomer.
+\newblock \emph{Biochemistry}, 156:\penalty0 1029, 2017.
+
+\bibitem[{Schr\"odinger, E.}(1944)]{Schrodinger:44}
+{Schr\"odinger, E.}
+\newblock \emph{What is life? The physical aspect of the living cell}.
+\newblock Cambridge University Press, 1944.
+
+\bibitem[Stillinger(1995)]{Stillinger:95}
+F.~H. Stillinger.
+\newblock A topographic view of supercooled liquids and glass formation.
+\newblock \emph{Science}, 237:\penalty0 1935, 1995.
+
+\bibitem[Stillinger and Stillinger(1990)]{Stillinger:90}
+F.~H. Stillinger and D.~K. Stillinger.
+\newblock Computational study of transition dynamics in 55-atom clusters.
+\newblock \emph{J. Chem. Phys.}, 93:\penalty0 6013, 1990.
+
+\bibitem[Zhou et~al.(1999)Zhou, Vitkup, and Karplus]{Zhou:99}
+Y.~Zhou, D.~Vitkup, and M.~Karplus.
+\newblock {Native proteins are surface--molten solids: applications of the
+  Lindemann Criterion for the solid versus liquid state}.
+\newblock \emph{J. Mol. Biol.}, 285:\penalty0 1371, 1999.
+
+\end{thebibliography}

@@ -1,0 +1,84 @@
+This is BibTeX, Version 0.99d (TeX Live 2015/Debian)
+Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
+The top-level auxiliary file: preface.aux
+The style file: abbrvnat.bst
+Illegal, another \bibstyle command---line 42 of file preface.aux
+ : \bibstyle
+ :          {abbrvnat}
+I'm skipping whatever remains of this command
+Database file #1: ./nuclear_bib.bib
+"{" immediately follows a field name---line 343 of file ./nuclear_bib.bib
+ :   journal = {Physical Review},@article
+ :                                       {PhysRev.75.388,
+I'm skipping whatever remains of this entry
+I was expecting a `,' or a `}'---line 609 of file ./nuclear_bib.bib
+ :   volume = 16
+ :              C,
+I'm skipping whatever remains of this entry
+I was expecting an "="---line 818 of file ./nuclear_bib.bib
+ :   volume = 184,During 
+ :                       the reviewed period, my  efforts have been mainly devoted to revisiting the theory of deuteron--induced reactions. The goal of this activity is twofold:
+I'm skipping whatever remains of this entry
+Repeated entry---line 2819 of file ./nuclear_bib.bib
+ : @book{Mayer:55
+ :               ,
+I'm skipping whatever remains of this entry
+You're missing a field name---line 3040 of file ./nuclear_bib.bib
+ : year = {1973},
+ :               ,
+I'm skipping whatever remains of this entry
+"{" immediately follows a field name---line 3961 of file ./nuclear_bib.bib
+ : @article{Schmid:66,@article
+ :                            {Jenning:11,
+I'm skipping whatever remains of this entry
+"{" immediately follows a field name---line 3988 of file ./nuclear_bib.bib
+ : year = {2013},@BOOK
+ :                    {Pauli:47,
+I'm skipping whatever remains of this entry
+I was expecting a `,' or a `}'---line 4868 of file ./nuclear_bib.bib
+ :   pages = 210
+ :              (R),
+I'm skipping whatever remains of this entry
+Warning--empty title in Weizsacker:35
+You've used 17 entries,
+            2773 wiz_defined-function locations,
+            704 strings with 6231 characters,
+and the built_in function-call counts, 6700 in all, are:
+= -- 564
+> -- 363
+< -- 12
++ -- 126
+- -- 108
+* -- 504
+:= -- 1075
+add.period$ -- 50
+call.type$ -- 17
+change.case$ -- 82
+chr.to.int$ -- 16
+cite$ -- 35
+duplicate$ -- 344
+empty$ -- 587
+format.name$ -- 137
+if$ -- 1388
+int.to.chr$ -- 2
+int.to.str$ -- 1
+missing$ -- 21
+newline$ -- 92
+num.names$ -- 68
+pop$ -- 165
+preamble$ -- 1
+purify$ -- 70
+quote$ -- 0
+skip$ -- 246
+stack$ -- 0
+substring$ -- 151
+swap$ -- 19
+text.length$ -- 0
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 167
+warning$ -- 1
+while$ -- 63
+width$ -- 0
+write$ -- 225
+(There were 9 error messages)

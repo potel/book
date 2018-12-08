@@ -1,0 +1,177 @@
+\documentclass[a4paper,12pt]{book}
+\usepackage{dsfont}
+\usepackage[title]{appendix}
+\usepackage{slashbox}
+\usepackage{enumerate}
+\usepackage{footmisc}
+%\documentclass[a4paper]{book}
+% \linespread{2.}
+%\numberwithin{section}
+%\documentclass[12pt]{article}
+%\documentclass[12pt]{cmmp}
+\usepackage{textcomp}
+%%\usepackage{psfig}
+%\usepackage{harvard}
+\usepackage{epsfig}
+\usepackage{amsmath}   
+\usepackage{amsfonts}
+%\counterwithin{figure}{section}
+\usepackage{amssymb}
+\usepackage{bbold}
+\usepackage{bbm}
+\numberwithin{equation}{section}
+\numberwithin{figure}{section}
+\numberwithin{table}{section}
+%%\usepackage{graphicx}
+%%
+%%\usepackage{txfonts}
+%%%\usepackage{mathrsfs}
+%
+%%\usepackage{feynmf}     %<------------ Obbligatorio
+\unitlength=1mm         %<------------ Obbligatorio
+%
+\newsavebox{\fmbox}
+\newenvironment{fmpage}[1]
+{\begin{lrbox}{\fmbox}\begin{minipage}{#1}}
+{\end{minipage}\end{lrbox}\fbox{\usebox{\fmbox}}}
+\newcommand{\braket}[1]{\langle {#1} \rangle }
+\newcommand{\ket}[1]{|{#1} \rangle }
+\newcommand{\bra}[1]{\langle {#1}|}
+\newcommand\idop{\mathds 1}
+\usepackage{dsfont}
+\usepackage{latexsym}
+\usepackage[varg]{txfonts}
+\usepackage{mathrsfs}
+\usepackage{upgreek}
+\usepackage[round]{natbib}
+%\usepackage [latin1]{inputenc}
+\usepackage{verbatim}
+\usepackage{array}
+\usepackage{color}
+%\pagestyle{plain}
+\usepackage{graphicx}
+\usepackage{caption}
+\DeclareMathAlphabet{\mathpzc}{OT1}{pzc}{m}{it}
+\begin{document}
+MeV\\
+$\epsilon_{d_{5/2}}=3.5$\\
+$\epsilon_{s_{1/2}}=1.5$\\
+$\epsilon_{p_{1/2}}=-1.2$\\
+$\epsilon_{p_{3/2}}=-4.7$\\
+WS potential $R_0=1.2A^{1/3}$ fm=2.7 fm\\
+$U=U_0(1+0.4E)\to$ (exchange; Pauli)\\
+\vspace{0.1cm}\\
+$R(^{11}$Li)=$4.58\pm0.13$ fm\\
+$\mathcal O=\left(\frac{R_0}{R}\right)^3=\left(\frac{2.7}{4.58}\right)^3\approx0.2$\\
+$m_k=\frac{m}{(1+\mathcal O\times0.4)}\approx\frac{m}{1.08}\approx0.93 m$\\
+$^9_3$Li$_6$; $U_0=\left(-51+30\frac{N-Z}{A}\right)$MeV=-43 MeV\\
+$\hbar\omega_{2^+}=3.33$ MeV; $\beta_2=0.66$\\
+clothing sp \\
+$\langle R_0\partial U/\partial r\approx1.4 U_0\approx -60$ MeV; $\langle j||Y_2||1/2\rangle\approx((2j+1)/4\pi)^{1/2}\approx0.7$\\
+$\langle H_c\rangle=\frac{\beta_2}{\sqrt{5}}\langle R_0\frac{\partial U}{\partial r}\rangle\mathcal O\langle j||Y_2||1/2\rangle\approx\frac{0.7}{\sqrt{5}}(-60\text{MeV})\times0.2\times0.7\approx-3 $ MeV
+\begin{equation}
+\left(\begin{array}{cc}
+ (6.8-\lambda)& -3 \\ 
+ -3 & (1.5-\lambda)
+\end{array}\right)=0
+\end{equation}
+ \begin{equation}
+ \left(\begin{array}{cc}
+  (-8-\lambda)& -3.9 \\ 
+  -3.9 & (-1.2-\lambda)
+ \end{array}\right)=0
+ \end{equation}
+ $\tilde \epsilon_{s_{1/2}}=0.15$ MeV\\
+ $\tilde \epsilon_{p_{1/2}}=0.6$ MeV\\
+ \\
+  $\widetilde{|1/2^-\rangle}=0.91|p_{1/2}\rangle+0.41|((p_{1/2},p^{-1}_{3/2})\otimes2^+)_{0^+}p_{1/2};1/2^-\rangle$\\
+  \\
+$\widetilde{|1/2^+\rangle}=0.91|s_{1/2}\rangle+0.41|(d_{5/2}\otimes2^+)_{0^+}1/2^+\rangle$\\
+\\
+halo--anti pairing effect $s,p$ at threshold\\
+$H_D=\kappa_1\mathbf D\cdot\mathbf D$\\
+$\kappa_1=s\kappa_1^0;\quad\kappa_1^0\sim5V_1=125$ MeV\\
+$\kappa_1\sim 5.6$ MeV $(s\approx0.045);\quad \quad (8\%)\text{TRK}=\frac{9}{4\pi}\frac{\hbar^2}{2M}\frac{NZe^2}{A}$\\
+$\hbar\omega_{pygmy}=\left((\epsilon_{1/2^+}-\epsilon_{1/2^-})^2+\kappa_1(2\times0.08\text{TRK})^2\right)^{1/2}\approx0.9$ MeV\\
+$|\tilde 0\rangle=|0\rangle_\nu+0.7|(p_{1/2},p^{-1}_{3/2})_{1^-}\otimes1^-;0\rangle+0.1|(s_{1/2},d_{5/2})_{2^+}\otimes2^+;0\rangle$\\
+$|0\rangle_\nu=0.45|s_{1/2}^2(0)\rangle+0.55|p_{1/2}^2(0)\rangle+0.04|d_{5/2}^2(0)\rangle$\\
+$E_{corr}\approx2\tilde\epsilon_{s_{1/2}}+\Delta E_b+\Delta E_i=0.3-0.1-0.5$ MeV$\approx-0.3$ MeV\\
+$\langle V_p\rangle=-G_{scr}=-rG$\\
+$=-0.048\times\frac{25}{A}$MeV$\approx-\frac{1\text{MeV}}{A}$\\
+$\approx-0.1$ MeV\\
+$|\widetilde {s^2_{1/2}}(0)\rangle$\\
+\\
+$|\widetilde {p^2_{1/2}}(0)\rangle$\\
+\\
+
+$|\widetilde {s^2_{1/2}}{}^+\rangle$, $|\widetilde {s^2_{1/2}}{}^-	\rangle$\\
+$\Delta E_{ind}=-0.5$ MeV\\
+$\Delta E_{bare}=-0.1$ MeV\\
+$(E_{corr})_{exp}=-0.380$ MeV\\
+$V_\nu^2$\\
+$\epsilon_F$\\
+$q=\hbar\Delta L/R_g$\\
+$\frac{p_{\text{final}}}{p_{\text{ini}}}=\sqrt{\frac{(E-E_x)}{E}}\approx 1$
+$\frac{p_{\text{final}}}{p_{\text{ini}}}< 1$
+$E\gg E_x$
+$E\sim E_x$
+$\mathbf q=\mathbf p_{\text{final}}-\mathbf p_{\text{ini}}$\\
+$\Delta L=R_g\sqrt{2m E}\left(1-\sqrt{1-\frac{E_x}{E}}\right)$
+\begin{align}
+  T_{m_i,m_f}=&\sum_{L_a,L_b}\langle L_a\;0\;2\;M|L_b\;M\rangle\\
+  &\langle J_i\;m_i\;2\;M|J_f\;m_f\rangle Y^{L_b}_{-M} (\theta) I(L_a,L_b),
+\end{align}
+
+\begin{align}
+  T^{L_g}_{m_i,m_f}=&\langle L_g\;0\;2\;M|L_g\;M\rangle\\
+  &\langle J_i\;m_i\;2\;M|J_f\;m_f\rangle Y^{L_g}_{-M} (\theta) I(L_g,L_g),
+\end{align}
+where $M=m_f-m_i$, and
+\begin{align}\label{eq50}
+\nonumber I(K,l_a,l_b)&=2\pi^{1/2}i^{l_a-l_b}e^{i(\sigma_i^{l_a}+\sigma_i^{l_b})}(2l_a+1)^{3/2}(2K+1)(2l_i+1)\\&\times \nonumber\sqrt{(2J_i+1)(2l_f+1)}\left\{\begin{array}{ccc}
+ l_i&1/2  & J_i \\ 
+ J_f&K  & l_f
+\end{array} \right\}\langle l_a\;0\;K\;0|l_b\;0\rangle\\
+&\times\langle l_i\;0\;K\;0|l_f\;0\rangle Y^{l_b}_{-M} (\hat k_f)\,\int f_{l_a} (R)\,g_{l_b}  (R)\rho_K(R)\,dR.
+\end{align}
+
+$\approx 1.2 $ MeV $(10^{-2})$\\
+$\beta=0$  $\beta=\pm2$\\
+$\xi=\frac{\hbar v_F}{\pi|E_{corr}|}$
+\begin{align}\label{eq50}
+\xi=\frac{\hbar v_F}{\pi|E_{corr}|}
+\end{align}
+$v_F/c\approx 0.27$  (0.16, $^{11}$Li)\\
+$\xi=14$ fm (20 fm, $^{11}$Li)
+\begin{align}\label{eq50}
+q_\xi=\frac{\hbar^2}{2m\xi^2}\frac{1}{|E_{corr}|}\approx0.05\quad (0.1, ^{11}\text{Li})
+\end{align}
+strongly correlated ($q_\xi\ll1$), weakly ``bound'' ($|E_{corr}|/\epsilon_F\lesssim0.06$)\\
+very extended ($\xi/d\gtrsim7$, $d=\left(\frac{4\pi R^3}{3A}\right)^{1/3}$) objects\\
+\begin{align}\label{eq50}
+\langle r^2\rangle^{1/2}_{def}=\xi=\frac{\hbar v_F}{\pi|E_{corr}|}\approx 29\text{ fm}
+\end{align}
+$(E_{corr}\approx 0.6$ MeV)
+\begin{align}\label{eq50}
+\langle r^2\rangle^{1/2}_{Cooper}=\xi=\frac{\hbar v_F}{\pi\Delta}\approx 21\text{ fm}
+\end{align}
+$(\Delta\approx 0.8$ MeV)
+
+
+\begin{align}\label{eq50}
+\langle H_c\rangle_{p_{1/2}}\approx 1.3\langle H_c\rangle_{s_{1/2}}
+\end{align}
+\end{document}
+
+
+
+
+
+
+
+
+
+
+
+
+

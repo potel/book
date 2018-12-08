@@ -1,4 +1,4 @@
-\begin{thebibliography}{177}
+\begin{thebibliography}{179}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \expandafter\ifx\csname urlstyle\endcsname\relax
@@ -105,6 +105,14 @@ F.~Barranco, P.~F. Bortignon, R.~A. Broglia, G.~Col\`o, P.~Schuck, E.~Vigezzi,
   induced interactions.
 \newblock \emph{Phys. Rev. C}, 72:\penalty0 054314, 2005.
 
+\bibitem[Barranco et~al.(2018)Barranco, Potel, Vigezzi, and
+  Broglia]{Barranco:18}
+F.~Barranco, G.~Potel, E.~Vigezzi, and R.~A. Broglia.
+\newblock {$d(^9$Li,$p$), specific probe of $^{10}$Li, paradigm of
+  parity--inverted, soft--dipole isotones with one neutron outside the $N = 6$
+  closed shell}.
+\newblock \emph{arXiv:1812.01761 [nucl-th]}, 2018.
+
 \bibitem[{Barranco, F.} et~al.(1988){Barranco, F.}, Broglia, and
   Bertsch]{Barranco:88}
 {Barranco, F.}, R.~A. Broglia, and G.~F. Bertsch.
@@ -132,11 +140,6 @@ B.~F. Bayman and J.~Chen.
 \newblock One-step and two-step contributions to two-nucleon transfer
   reactions.
 \newblock \emph{Phys. Rev. C}, 26:\penalty0 1509, 1982.
-
-\bibitem[Bayman and Kallio(1967)]{Bayman:67}
-B.~F. Bayman and A.~Kallio.
-\newblock Relative-angular-momentum-zero part of two-nucleon wave functions.
-\newblock \emph{Phys. Rev.}, 156:\penalty0 1121, 1967.
 
 \bibitem[Belyaev(1959)]{Belyaev:59}
 S.~T. Belyaev.
@@ -307,6 +310,12 @@ D.~M. Brink.
 \newblock \emph{Nuclear Superfluidity}.
 \newblock Cambridge University Press, Cambridge, 2005.
 
+\bibitem[Broglia et~al.(2018)Broglia, Barranco, Idini, Potel, and
+  Vigezzi]{Broglia:18}
+R.~Broglia, F.~Barranco, A.~Idini, G.~Potel, and E.~Vigezzi.
+\newblock Pygmy resonances: what's in a name?
+\newblock \emph{arXiv:1806.09409 [nucl-th]}, 2018.
+
 \bibitem[Broglia and Gallardo(1986)]{Broglia:86}
 R.~A. Broglia and M.~Gallardo.
 \newblock Random phase approximation treatment of the pairing phase transition
@@ -382,7 +391,7 @@ M.~Cavallaro, M.~De~Napoli, F.~Cappuzzello, S.~E.~A. Orrigo, C.~Agodi,
 
 \bibitem[Cooper(1956)]{Cooper:56}
 L.~N. Cooper.
-\newblock Bound electron pairs in a degenerate fermi gas.
+\newblock {Bound Electron Pairs in a Degenerate Fermi Gas}.
 \newblock \emph{Phys. Rev.}, 104:\penalty0 1189, 1956.
 
 \bibitem[de~Boer(1948)]{deBoer:48}
@@ -537,6 +546,25 @@ H.~Feshbach.
   for nuclei?}
 \newblock \emph{Journal of Physics G}, 37:\penalty0 064005, 2010.
 
+\bibitem[Garrett(1985)]{Garrett:85}
+J.~D. Garrett.
+\newblock The ``single--particle'' spectrum of states: correlated or
+  uncorrelated?
+\newblock In R.~A. Broglia, G.~B. Hagemann, and H.~P., editors, \emph{Nuclear
+  Structure 1985}, page 111, Amsterdam, 1985. North Holland.
+
+\bibitem[Ginzburg(2004)]{Ginzburg:04}
+V.~L. Ginzburg.
+\newblock Nobel lecture: On superconductivity and superfluidity (what i have
+  and have not managed to do) as well as on the ``physical minimum'' at the
+  beginning of the xxi century.
+\newblock \emph{Rev. Mod. Phys.}, 76:\penalty0 981, 2004.
+
+\bibitem[Ginzburg and Landau(1950)]{Ginzburg:50}
+V.~L. Ginzburg and L.~D. Landau.
+\newblock On the theory of superconductivity.
+\newblock \emph{JETP}, 20:\penalty0 1064, 1950.
+
 \bibitem[{Glendenning, N. K.}(1965)]{Glendenning:65}
 {Glendenning, N. K.}
 \newblock {Nuclear Spectroscopy with Two--Nucleon Transfer Reactions}.
@@ -651,8 +679,10 @@ H.~Iwasaki, T.~Motobayashi, H.~Akiyoshi, Y.~Ando, N.~Fukuda, H.~Fujiwara,
   Z.~Fülöp, K.~Hahn, Y.~Higurashi, M.~Hirai, I.~Hisanaga, N.~Iwasa, T.~Kijima,
   T.~Minemura, T.~Nakamura, M.~Notani, S.~Ozawa, H.~Sakurai, S.~Shimoura,
   S.~Takeuchi, T.~Teranishi, Y.~Yanagisawa, and M.~Ishihara.
-\newblock {Quadrupole deformation of $^{12}$Be studied by proton inelastic
-  scattering}.
+\newblock {Quadrupole deformation of $^{12}$Be studied by
+  proton@article{Navratil:12, title = {Ab Initio}, author = {{Navr\'atil}, Petr
+  and Quaglioni, Sofia}, journal = {Phys. Rev. Lett.}, volume = {108}, pages =
+  {042503}, numpages = {5}, year = {2012}, } inelastic scattering}.
 \newblock \emph{Physics Letters B}, 481:\penalty0 7, 2000.
 
 \bibitem[{Jenning, B.}(2011)]{Jenning:11}
@@ -1068,18 +1098,6 @@ T.~Tsuboi and T.~Suzuki.
 N.~L. Vaquero, J.~L. Egido, and T.~R. Rodr\'{\i}guez.
 \newblock Large-amplitude pairing fluctuations in atomic nuclei.
 \newblock \emph{Phys. Rev. C}, 88:\penalty0 064311, 2013.
-
-\bibitem[von Oertzen and Vitturi(2001)]{vonOertzen:01}
-W.~von Oertzen and A.~Vitturi.
-\newblock Pairing correlations of nucleons and multi--nucleon transfer between
-  heavy nuclei.
-\newblock \emph{Reports on Progress in Physics}, 64:\penalty0 1247, 2001.
-
-\bibitem[{von Oertzen, W.}(2013)]{Oertzen:13}
-{von Oertzen, W.}
-\newblock {Enhanced two--nucleon transfer due to pairing correlations}.
-\newblock In R.~A. Broglia and V.~Zelevinsky, editors, \emph{50 Years of
-  Nuclear BCS}, page 405. World Scientific, Singapore, 2013.
 
 \bibitem[{Wimmer, K.} et~al.(2010){Wimmer, K.}, {Kr\"oll}, {Kr\"ucken},
   Bildstein, {Gernh\"auser}, Bastin, Bree, Diriken, Van~Duppen, Huyse,

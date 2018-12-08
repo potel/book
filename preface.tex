@@ -1,0 +1,278 @@
+\documentclass[a4paper,11pt]{book}
+%\usepackage{chapterbib}
+\usepackage{dsfont}
+\usepackage[title]{appendix}
+\usepackage{slashbox}
+\usepackage{enumerate}
+\usepackage{footmisc}
+%\documentclass[a4paper]{book}
+% \linespread{2.}
+%\numberwithin{section}
+%\documentclass[12pt]{article}
+%\documentclass[12pt]{cmmp}
+\usepackage{textcomp}
+%%\usepackage{psfig}
+%\usepackage{harvard}
+\usepackage{epsfig}
+\usepackage{amsmath}   
+\usepackage{amsfonts}
+%\counterwithin{figure}{section}
+\usepackage{amssymb}
+\usepackage{bbold}
+\usepackage{bbm}
+\numberwithin{equation}{section}
+\numberwithin{figure}{section}
+\numberwithin{table}{section}
+%%\usepackage{graphicx}
+%%
+%%\usepackage{txfonts}
+%%%\usepackage{mathrsfs}
+%
+%%\usepackage{feynmf}     %<------------ Obbligatorio
+\unitlength=1mm         %<------------ Obbligatorio
+%
+\newsavebox{\fmbox}
+\newenvironment{fmpage}[1]
+{\begin{lrbox}{\fmbox}\begin{minipage}{#1}}
+{\end{minipage}\end{lrbox}\fbox{\usebox{\fmbox}}}
+\newcommand{\braket}[1]{\langle {#1} \rangle }
+\newcommand{\ket}[1]{|{#1} \rangle }
+\newcommand{\bra}[1]{\langle {#1}|}
+\newcommand\idop{\mathds 1}
+\usepackage{dsfont}
+\usepackage{latexsym}
+\usepackage[varg]{txfonts}
+\usepackage{mathrsfs}
+\usepackage{upgreek}
+\usepackage[round]{natbib}
+%\usepackage [latin1]{inputenc}
+\usepackage{verbatim}
+\usepackage{array}
+\usepackage{color}
+%\pagestyle{plain}
+\usepackage{graphicx}
+\usepackage{caption}
+\DeclareMathAlphabet{\mathpzc}{OT1}{pzc}{m}{it}
+\begin{document}
+\section{Views of the nucleus}
+In the atom, the nucleus provides the Coulomb field in which negatively charged electrons $(-1\times e)$ move indenpendently of each other in single--particle orbitals. The filling of these orbitals explains Mendeleev's periodic table. Thus the valence of the chemical elements as well as the particular stability of the noble gases (He, N, Ar, Kr, Xe and Ra) associated with the closing of shells (Fig. \ref{fig1.0.1}). The dimension of the atom is measured in angstroms (\AA=$10^{-8}$cm), and typical energies in eV, the electron mass being $m_e\approx 0.5$ MeV (MeV=$10^6$eV).
+
+
+The atomic nucleus is made out of positively charged protons ($1\times e$) and of (uncharged) neutrons, nucleons, of mass $\approx 10^3$ MeV ($m_p=938.3$ MeV, $m_n=939.6$ MeV). Nuclear dimensions are of the order of few fermis (fm$=10^{-13}$ cm). While the stability of the atom is provided by a source external to the electrons, namely the atomic nucleus, this system is  self--bound as a result of the strong interaction of range $a_0\approx 0.9$ fm and strength $v_0\approx -100$ MeV acting among nucleons. Carrying with the parallel, while most of the atom is empty space, the density of the atomic nucleus is conspicuous ($\rho=0.17$ nucleon/fm$^3$). The ``closed packed'' nature of this system implies a short mean free path as compared to nuclear dimensions. This can be estimated from classical kinetic theory $\lambda\approx(\rho\sigma)^{-1}\approx1$ fm, where $\sigma\approx 2\pi a_0^2$ is the nucleon--nucleon cross section. It seems then natural to liken the atomic nucleus to a liquid drop (Bohr and Kalckar).
+This picture of the nucleus provided the framework to describe the basic features of the fission process (\cite{Meitner:39,Bohr:39}). 
+
+
+
+The leptodermic properties of the atomic nucleus are closely connected with the semi--empirical mass formula (\cite{Weizsacker:35})
+\begin{align}
+m(N,Z)=(Nm_n+Zm_p)-\frac{1}{c^2}B(N,Z),
+\end{align}
+the binding energy being
+\begin{align}\label{eq1.0.2}
+B(N,Z)=\left(b_{vol}A-b_{surf}A^{2/3}-\frac{1}{2} b_{sym}\frac{(N-Z)^2}{A}-\frac{3}{5}\frac{Z^2e^2}{R_C}\right).
+\end{align}
+The second term in (\ref{eq1.0.2}) represents the surface energy, while
+\begin{align}\label{eq1.0.3}
+b_{surf}=4\pi r_0^2\gamma.
+\end{align}
+The nuclear radius is written as $R=r_0A^{1/3}$, with $r_0=1.2$ fm, the surface tension energy being $\gamma\approx 0.95$ MeV/fm$^2$.
+
+
+When, in a heavy--ion reaction, the two nuclei come within the range of the nuclear forces, the trajectory of relative motion will be changed by the attraction which will act between the nuclear surfaces. This surface interaction is a fundamental quantity in all heavy ion reactions. Assuming two spherical nuclei at a relative distance $r_{aA}=R_a+R_A$, where $R_a$ and $R_A$ are the corresponding half--density radii, the force acting between the two surfaces is
+\begin{align}\label{eq1.0.4}
+\left(\frac{\partial U_{aA}^N}{\partial r}\right)_{r_{aA}}=4\pi \gamma\frac{R_aR_A}{R_a+R_A}
+\end{align}
+This result allows for the calculation of the ion--ion (proximity) potential which, supplemented with a position dependent absorption, can be used to accurately describe heavy ion reactions.
+
+
+In such reactions, not only elastic processes are observed, but also anelastic ones in which one, or both of the nuclear surfaces is set into vibration (Fig. \ref{fig1.0.2}). The restoring force parameter associated with oscillations of multipolarity $\lambda$ is 
+\begin{align}\label{eq1.0.4b}
+C_\lambda=(\lambda-1)(\lambda+2)R^2\gamma-\frac{3}{2\pi}\frac{\lambda-1}{2\lambda+1}\frac{Z^2e^2}{R}
+\end{align}
+where the second term corresponds to the contribution of the Coulomb energy to $C_\lambda$. Assuming the flow associated with surface vibration to be irrotational, the associated inertia for small amplitude oscillations is, 
+\begin{align}\label{eq1.0.5}
+D_{\lambda}=\frac{3}{4\pi}\frac{1}{\lambda}AMR^2,
+\end{align}
+the energy of the corresponding mode being
+\begin{align}\label{eq1.0.6}
+\hbar\omega_\lambda=\hbar\sqrt{\frac{C_\lambda}{D_\lambda}}.
+\end{align}
+
+Experimental information associated with low--energy quadrupole vibrations, namely $\hbar\omega_{2}$ and the electromagnetic transition probabilities $B(E2)$, allow to determine $C_2$ and $D_2$. The resulting $C_2$ values exhibit variations by more than a factor of 10 both above and below the liquid--drop estimate. The observed values of $D_2$ are large as compared with the mass parameter for irrotational flow.
+
+A picture apparently antithetic to that of the liquid drop, the shell model, emerged from the study of experimental data, plotting them against either the number of protons (atomic number), or the number of neutrons in the nuclei, rather than against the mass number.
+One of the main nuclear features which led to the development of the shell model was the study of the stability and abundance of nuclear species and the discovery of what are usually called magic numbers (\cite{Elsasser:33,Mayer:48,Haxel:49}). What makes a number magic is that a configuration of a magic number of neutrons, or of protons, is unusually stable whatever the associated number of other nucleons (\cite{Mayer:49,Mayer:49b}).
+
+
+The strong binding of a magic number of nucleons and weak binding for one more reminds, only relatively much weaker, the results displayed in Fig.  \ref{fig1.0.1}  concerning the atomic stability o\bibliographystyle{abbrvnat}f rare gases. In the nuclear case, at variance with the atomic case, the spin--orbit coupling play an important role, as can be seen from the level scheme shown in Fig. \ref{fig1.0.3}, obtained by assuming that nucleons move independently of each other in an average potential  of  spherical symmetry.
+
+
+A closed shell, or a filled level, has angular momentum zero. Thus, nuclei with one nucleon outside (missing from) closed, should have the spin and parity of the orbital associated with the odd nucleon (--hole), a prediction confirmed by the data (available at that time) throughout the mass table. Such a picture implies that the nucleon mean free path is large compared to nuclear dimensions.
+
+
+The systematic studies of the binding energies leading to the shell model found also that formula (\ref{eq1.0.2}) has to be supplemented to take into account the fact that nuclei with both odd number of protons and of neutrons are energetically unfavored compared with even--even ones (inset Fig. \ref{fig1.0.1}) by a quantity of the order of $\delta\approx33MeV/A^{3/4}$ called the pairing energy\footnote{Connecting with further developments associated with the BCS theory of superconductivity (\cite{Bardeen:57a,Bardeen:57b}) and its extension to the atomic nucleus (\cite{Bohr:58}), the quantity $\delta$ is identified with the pairing gap $\Delta$ parametrized according to $\Delta=12 $MeV$/\sqrt{A}$ (\cite{Bohr:69}). It is of notice that for typical superfluid nuclei like $^{120}$Sn, the expression of $\delta$ leads to $\delta\approx10$ MeV$/\sqrt{A}$.}.
+
+The low--lying state of closed shell nuclei can be interpreted as harmonic quadrupole or octupole collective vibrations (Fig. \ref{fig1.0.4}) described by the Hamiltonian
+\begin{align}\label{eq1.0.7}
+H_{coll}=\sum_{\lambda\mu}\left(\frac{1}{2D_{\lambda}}|\Pi_{\lambda\mu}|^2+\frac{C_\lambda}{2}|\alpha_{\lambda\mu}|^2\right)
+\end{align}
+Following \cite{Dirac:26} one can describe the oscillatory motion introducing boson creation (annihilation) operator $\Gamma_{\lambda\mu}^\dagger$ ($\Gamma_{\lambda\mu}$) obeying
+\begin{align}\label{eq1.0.8}
+\left[\Gamma_{\alpha},\Gamma_{\alpha'}^\dagger\right]=\delta(\alpha,\alpha'),
+\end{align}
+leading to 
+\begin{align}\label{eq1.0.9}
+\hat\alpha_{\lambda\mu}=\sqrt{\frac{\hbar\omega}{2C}}\left(\Gamma_{\lambda\mu}^\dagger+(-1)^\mu\Gamma_{\lambda-\mu}\right),
+\end{align}
+and a similar expression for the conjugate momentum variable $\hat\Pi_{\lambda\mu}$, resulting in 
+\begin{align}\label{eq1.0.9b}
+\hat H_{coll}=\sum\hbar\omega\left((-1)^\mu\Gamma_{\lambda\mu}^\dagger\Gamma_{\lambda-\mu}+1/2\right).
+\end{align}
+The frequency is $\omega_\lambda=(C_\lambda/D_\lambda)^{1/2}$, while $(\hbar\omega_\lambda/2C_\lambda)^{1/2}$ is the amplitude of the zero--point fluctuation of the vacuum state $\ket{0}_B$, $\Gamma_{\lambda\mu}^\dagger \ket{0}_B$ being the one--phonon state.
+
+The ground and low--lying states of nuclei with one nucleon outside closed shell can be described by the Hamiltonian
+\begin{align}\label{eq1.0.10}
+H_{sp}=\sum_{\nu}\epsilon_\nu a_\nu^\dagger a_\nu,
+\end{align}
+where $a_\nu^\dagger (a_\nu)$ is the single--particle creation (annihilation) operator,
+\begin{align}\label{eq1.0.11}
+\ket{\nu}=a_\nu^\dagger\ket{0}_F,
+\end{align}
+being the single--particle state of quantum numbers $\nu(\equiv nljm)$ and energy $\epsilon_\nu,\ket{0}_F$ being the Fermion vacuum. 
+
+Both the existence of drops of nuclear matter displaying collective surface vibrations, and of independent--particle motion in a self--confining mean field are emergent properties not contained in the particles forming the system, neither in the $NN$--force, but on the fact that these particles behave according to the rules of quantum mechanics, move in a confined volume and that there are many of them.
+
+
+Generalized rigidity as measured by the inertia parameter $D_\lambda$, as well as surface tension closely connected to the restoring force $C_\lambda$, implies that acting on the system with an external time--dependent (nuclear and/or Coulomb) field, the system reacts as a whole. This behavior is to be found nowhere in the properties of the nucleons, nor in the nucleon--nucleon scattering phase shifts at the basis of Yukawa prediction of the existence of a $\pi$--meson as the carrier of the strong force acting among nucleons.
+
+
+Similarly, the fact that nuclei probed through fields which change in one unit particle number (e.g. $(d,p)$ and $(p,d)$ reactions) react in term of independent particle motion,  feeling the pushings and pullings of the other nucleons only when trying to leave the nucleus, is not apparent in the detailed properties of the $NN$--forces, not even in those carrying the quark--gluon input. Within this context, independent particle motion can be considered a \textit{bona fide} emergent property.
+
+
+Collective surface vibrations and independent particle motion are examples of what are called elementary modes of excitation in many--body physics, and collective variables in soft--matter physics.
+
+
+The oscillation of the nucleus under the influence of surface tension implies that the potential $U(R,r)$ in which nucleons move independently of each other change with time. For low--energy collective vibrations this change is slow as compared with single--particle motion. Within this scenario the nuclear radius can be written as  
+\begin{align}\label{eq1.0.12}
+R=R_0\left(1+\sum_{LM}\alpha_{\lambda\mu}Y_{\lambda\mu}^*\right)
+\end{align}
+Assuming small amplitude motion,
+\begin{align}\label{eq1.0.13}
+U(r,R)=U(r,R_0)+\delta U(r),
+\end{align}
+where
+\begin{align}\label{eq1.0.14}
+\delta U=-\kappa\hat \alpha \hat F,
+\end{align}
+and
+\begin{align}\label{eq1.0.15}
+\hat F=\sum_{\nu_1\nu_2}\bra{\nu_1}F\ket{\nu_2}a_{\nu_1}^\dagger a_{\nu_2},
+\end{align}
+while
+\begin{align}\label{eq1.0.16}
+F=\frac{R_0}{\kappa}\frac{\partial U}{\partial r}Y^*_{\lambda\mu}(\hat r).
+\end{align}
+The coupling between surface oscillation and single--particle motion, namely the particle vibration coupling (PVC) Hamiltonian $\delta U$ (Fig. \ref{fig1.0.5}) is a consequence of the overcompleteness of the basis. Diagonalizing $\delta U$ making use of the graphical (Feynman) rules of Nuclear Field Theory (NFT) to be discussed below, one obtains structure results which can be used in the calculation of transition probabilities and reaction cross sections which can be compared with experimental findings.
+
+  
+In fact, within the framework of NFT, single--particle are to be calculated as the Hartree--Fock solution of the $NN$--interaction $v(|\mathbf r-\mathbf r'|)$ (Fig. \ref{fig1.0.6}), in particular
+\begin{align}\label{eq1.0.18}
+U(r)=\int d\mathbf r' \rho(r')v(|\mathbf r-\mathbf r'|
+\end{align}
+being the Hartree field\footnote{To this potential one has to add the Fock potential resulting from the fact that nucleons are fermions. This exchange potential (Fig. \ref{fig1.0.6} (2 and 4)) is essential in the determination of single--particle energies and wavefunctions. Among other things, it takes care of eliminating the nucleon self interaction from the Hartree field.} expressing the selfconsistency between density $\rho$ and potential $U$ (Fig. \ref{fig1.0.6} (b) (1) and (3)), while vibrations are to be calculated in the Random Phase Approximation (RPA) making use of the same interaction\footnote{The sum of the so called ladder diagrams (see Fig. \ref{fig1.0.7}) are taken into account to infinite order in RPA. This is the reason why bubble contributions in the diagonalization of Eq. \ref{eq1.0.19b} are not allowed in NFT, being already contained in the basis states.} (Fig. \ref{fig1.0.7}), extending the selfconsistency to fluctuations $\delta\rho$ of the density and $\delta U$ of the mean field, that is,
+\begin{align}\label{eq1.0.19}
+\delta U(r)=\int d\mathbf r' \delta \rho(r')v(|\mathbf r-\mathbf r'|.
+\end{align}
+Making use of the selfconsistent solution of the relation (\ref{eq1.0.19}), one obtains the transition density $\delta\rho$. The matrix elements $\braket{\nu_i|\delta\rho|\nu_k}$ provide the  particle--vibration coupling strength to work out the variety of coupling processes between single--particle and collective motion (Fig. \ref{fig1.0.5}). That is, the matrix element of the PVC Hamiltonian $H_c$. Diagonalizing 
+\begin{align}\label{eq1.0.19b}
+H=H_{HF}+H_{RPA}+H_c+v,
+\end{align}
+making use of the rules of NFT to be discussed below, in the basis of single--particle and collective modes, that is solutions of $H_{HF}$ and of $H_{RPA}$ respectively, one obtains a solution of the total Hamiltonian. 
+Because of quantal zero point fluctuations, a nucleon propagating in the nuclear medium moves through clouds of bosonic and fermionic virtual excitations to which it couple ($H_c+v$), becoming dressed and acquiring an effective mass, charge, etc. (Fig. \ref{fig1.0.8}). Vice versa, vibrational modes can become renormalized through the coupling to dressed nucleons which, in intermediate virtual states, can exchange the vibrational clothing with the second fermion (hole state) and renormalize the PVC vertex (Fig. \ref{fig1.0.9}) (\cite{Barranco:04}), as well as the bare $NN$--interaction. 
+
+
+From being antithetic views of the nuclear structure a proper analysis of the experimental data testifies to the fact that the collective and the independent particle picture of the nuclear structure require and support each other (\cite{Bohr:75}). To obtain a quantitative description of nucleon  motion and nuclear phonons (vibrations), one needs a proper description of the $k$-- and $\omega$--dependent ``dielectric'' function of the nuclear medium, in a similar way in which a proper description of the reaction processes used as probes of the nuclear structure requires the use of the optical potential (continuum ``dielectric'' function). The NFT solution of (\ref{eq1.0.19b}) provide all the elements to calculate the nuclear structure properties of nuclei, and also  the optical potential needed to describe nucleon--nucleus scattering. It furthermore shows that both single--particle and vibrational elementary modes of excitation emerge from the same properties of the $NN$--interaction.
+
+
+The development of experimental techniques and associated hardware has allowed for the identification of a rich variety of elementary modes of excitation aside from collective surface vibrations and of independent particle motion: quadrupole and octupole rotational bands, giant resonance of varied multipolarity and isospin, as well as pairing vibrations and rotation, together with giant pairing vibrations of transfer quantum number\footnote{A schematic separable force leading to surface vibrations can be written as $-\kappa \hat F^\dagger \hat F$, where $\hat F$ is defined in Eq. (\ref{eq1.0.15}). The resulting collective modes can thus be viewed as correlated particle--hole ($p-h$) excitations $(a^\dagger a)$, a process in which the number of nucleons (fermions) does not change. One speaks in this case of a mode with transfer quantum number $\beta=0$. In connection with the pairing energy mentioned in relation with the inset to Fig. \ref{fig1.0.1} and its connection to the theory of superconductivity, it is of notice that this theory is based on the concept of Cooper pairs, that is pairs of fermions moving in time reversal states which interact through $H_p=-G\hat P^\dagger \hat P$, where $\hat P^\dagger=\sum_{\nu>0}a_\nu^\dagger a_{\bar\nu}$. Consequently, in this case the concept of independent particle field $\hat F$ has to be generalized to include $\hat P^\dagger$ and $\hat P$. The resulting collective modes, pair addition and pair substraction modes (pairing vibrations), can be viewed as correlated ($p-p$) and ($h-h$) modes, changing the number of nucleons in $\pm 2$. One the speaks of vibrations with transfer quantum number $\beta = \pm 2$.} $\pm 2$. Modes which can be specifically excited in inelastic and Coulomb excitation processes, charge exchange, and one-- and two--particle transfer reactions.
+
+One can choose to privilege one among this variety of elementary modes of excitation, for example, independent particle motion. Making use of the shell model, eventually the so called no core shell model, understood within this context as a full diagonalization of the $NN$--interaction in the single--particle basis,  attempt at describing the whole of structure and reactions. Another possibility is to use the elementary modes of excitation basis states to describe both structure and reactions  and nuclear field theory to deal with the overcompleteness and Pauli principle violations of the basis states.
+
+From a systematic collaboration between the two approaches and of strong experimental input, it is likely that shell model calculations can help at individuating the proper interaction leading to realistic Hartree--Fock mean field and collective RPA particle--hole and pairing vibrational modes. As one possible return of such input, nuclear field theory will eventually be able to provide shell model practitioners,  friendly and accurate microscopic collective modes of excitation input.
+
+
+The possible outcome of such collaboration and interplay could be that of being able to coin into few physical concepts the elements needed to accurately describe the atomic nucleus. In other words, carry out  calculations which are largely independent of the basis chosen. That is   truly predictive theories of structure and reactions, in which the physical content is simple to apprehend and visualize. 
+\begin{figure}
+\centerline {
+\includegraphics*[width=12cm]{introduccion/figs/figpreface1}
+}
+\caption{The values of the atomic ionization potentials. The dots under the abscissa indicate closed shells, corresponding to electron numbers: 2(He), 10(Ne), 18(Ar), 36(Kr), 54(Xe), and 86(Ra). After \cite{Bohr:69}. In the inset, masses of nuclei with even $A$ are shown (after \cite{Mayer:55}).}
+\label{fig1.0.1}
+\end{figure}
+\begin{figure}
+\centerline {
+\includegraphics*[width=12cm]{introduccion/figs/figpreface2x}
+}
+\caption{Emergent properties (collective nuclear models) \textbf{(a)} Nucleon--Nucleon ($NN$) interaction in a scattering experiment; \textbf{(b)} assembly of a swarm of nucleons condensing into drops of nuclear matter, examples shown in (c) and (e); \textbf{(c)} anelastic heavy ion reaction $a+A\to a+A^*$ setting the nucleus $A$ into an octupole surface oscillations \textbf{(d)}; in inset \textbf{(I)} the time--dependent nuclear plus Coulomb fields associated with the reaction (c) is represented by a cross followed by a dashed line, while the wavy line labeled $\lambda$ describes the propagation of the surface vibration shown in (d), time running upwards; \textbf{(e)} another possible outcome of nucleon condensation:the (weakly) quadrupole deformed nucleus $^{223}$Ra which can rotate as a whole with moment of inertia smaller than the rigid moment of inertia, but much larger than the irrotational one; \textbf{(f)} the surface of a quantal drop fluctuates (zero point fluctuations), with the variety of multipolarities with which the system reacts to time--dependent Coulomb/nuclear external fields (quadrupole ($\lambda=2$), octupole ($\lambda=3$), etc.), eventually producing a neck--in (saddle conformation) and the exotic decay $^{123}$Ra$\to^{209}$Pb+$^{14}$C as experimentally observed \textbf{(g)}.}
+\label{fig1.0.2}
+\end{figure}
+\begin{figure}
+\centerline {
+\includegraphics*[width=12cm]{introduccion/figs/figpreface3}
+}
+\caption{To the left (first column), the sequence of levels of the harmonic oscillator potential labeled with the total oscillator quantum number and parity $\pi=(-1)^N$. The next column shows the splitting of major shell degeneracies obtained using a more realistic potential (Woods--Saxon), the quantum number being the number of radial nodes of the associated single--particle wave functions. The levels shown at the center result when a spin--orbit term is considered the quantum numbers $nlj$ characterizing the states of degeneracy $(2j+1)$ ($j=|l\pm1/2|$) (After \cite{Mayer:63}). In the inset, a schematic graphical representation of the reaction $^{208}_{82}$Pb$_{126}(d,p)^{209}$Pb(gs) is shown. A cross followed by a horizontal dashed line represents here the $(d,p)$ field, while a  single arrowed line describes the odd nucleon moving in the $g_{9/2}$ orbital above $N=126$ shell closure drawn as a bold line labeled $0^+$.}
+\label{fig1.0.3}
+\end{figure}
+\begin{figure}
+\centerline {
+\includegraphics*[width=12cm]{introduccion/figs/figpreface4}
+}
+\caption{Harmonic quadrupole and octupole liquid drop collective surface vibrational modes.}
+\label{fig1.0.4}
+\end{figure}
+\begin{figure}
+\centerline {
+\includegraphics*[width=10cm]{introduccion/figs/figpreface5}
+}
+\caption{Graphical representation of the process       by which a fermion, bouncing inelastically off the surface, sets it into vibration. Particles are represented by an arrowed line, while the vibration is shown by a wavy line. The black dot represents a nucleon moving in a spherical mean field of which it excites an octupole vibration after bouncing inelastically off the surface.}
+\label{fig1.0.5}
+\end{figure}
+\begin{figure}
+\centerline {
+\includegraphics*[width=12cm]{introduccion/figs/figpreface6}
+}
+\caption{\textbf{(a)} Scattering of two nucleons through the bare $NN$--interaction; \textbf{(b)} (1) and (3): Contributions to the (direct) Hartree potential;(2) and (4): contributions to the (exchange) Fock potential.}
+\label{fig1.0.6}
+\end{figure}
+\begin{figure}
+\centerline {
+\includegraphics*[width=12cm]{introduccion/figs/figpreface7}
+}
+\caption{(A) typical Feynman diagram diagonalizing the $NN$--interaction $v(|\mathbf r-\mathbf r'|)$ (horizontal dashed line) in a particle--hole basis provided by the Hartree--Fock solution of $v$, in the harmonic approximation (RPA). Bubbles going forward in time (inset (b)) are associated with configuration mixing of particle--hole states. Bubbles going backwards in time (inset (c)) are associated with zero point motion (fluctuations ZPF) of the ground state (term $1/2\hbar\omega$ for each degree of freedom in Eq. \ref{eq1.0.9b}). The self consistent solution of A is represented by a wavy line (inset (a)), that is a collective mode which can be viewed as a correlated particle hole excitation.}
+\label{fig1.0.7}
+\end{figure}
+\begin{figure}
+\centerline {
+\includegraphics*[width=12cm]{introduccion/figs/figpreface8}
+}
+\caption{\textbf{(a)} a nucleon (single arrowed line) moving in presence of the zero point fluctuation of the nuclear ground state associated with a collective surface vibration; \textbf{(b)} Pauli principle leads to a dressing event of the nucleon; \textbf{(c)} time ordering gives rise to the second possible lowest order clothing process (time assumed to run upwards).}
+\label{fig1.0.8}
+\end{figure}
+\begin{figure}
+\centerline {
+\includegraphics*[width=12cm]{introduccion/figs/figpreface9}
+}
+\caption{(Upper part) Examples of renormalization processes dressing a surface collective vibrational state. (Lower part) Intervening with an external electromagnetic field ($E\lambda$: cross followed by dashed horizontal line; bold wavy lines, vibration of multipolarity $\lambda$) the $B(E\lambda)$ transition strength can be measured.}
+\label{fig1.0.9}
+\end{figure}
+
+
+
+
+
+
+
+\bibliographystyle{abbrvnat}
+
+\bibliography{./nuclear_bib}
+\end{document} 

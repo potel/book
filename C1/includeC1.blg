@@ -1,21 +1,91 @@
-This is BibTeX, Version 0.99dThe top-level auxiliary file: includeC1.aux
+This is BibTeX, Version 0.99d (TeX Live 2017/Debian)
+Capacity: max_strings=100000, hash_size=100000, hash_prime=85009
+The top-level auxiliary file: includeC1.aux
 The style file: abbrvnat.bst
-Database file #1: C:/Gregory/Broglia/notas_ricardo/nuclear_bib.bib
-You're missing a field name---line 2762 of file C:/Gregory/Broglia/notas_ricardo/nuclear_bib.bib
+Database file #1: ../nuclear_bib.bib
+I was expecting a `,' or a `}'---line 610 of file ../nuclear_bib.bib
+ :   volume = 16
+ :              C,
+I'm skipping whatever remains of this entry
+"{" immediately follows a field name---line 927 of file ../nuclear_bib.bib
+ :   editor =       {{Morinaga H.}},@article
+ :                                          {LENSKE2001187,
+I'm skipping whatever remains of this entry
+"{" immediately follows a field name---line 1078 of file ../nuclear_bib.bib
+ :   BOOKTITLE =    {Le Prix Nobel en 1973},@article
+ :                                                  {LENSKE2001187,
+I'm skipping whatever remains of this entry
+"{" immediately follows a field name---line 1284 of file ../nuclear_bib.bib
+ :   number =       {1351},@article
+ :                                 {PhysRevC.97.011302,
+I'm skipping whatever remains of this entry
+You're missing a field name---line 3093 of file ../nuclear_bib.bib
  : year = {1973},
  :               ,
 I'm skipping whatever remains of this entry
-I was expecting a `,' or a `}'---line 3349 of file C:/Gregory/Broglia/notas_ricardo/nuclear_bib.bib
- :   
- :   year = 1975,
-(Error may have been on previous line)
+"{" immediately follows a field name---line 4028 of file ../nuclear_bib.bib
+ : @article{Schmid:66,@article
+ :                            {Jenning:11,
 I'm skipping whatever remains of this entry
-I was expecting a `,' or a `}'---line 3740 of file C:/Gregory/Broglia/notas_ricardo/nuclear_bib.bib
- :   pages = 117
- :              ;
+"{" immediately follows a field name---line 4055 of file ../nuclear_bib.bib
+ : year = {2013},@BOOK
+ :                    {Pauli:47,
 I'm skipping whatever remains of this entry
-You're missing a field name---line 4179 of file C:/Gregory/Broglia/notas_ricardo/nuclear_bib.bib
- : year = "1988",
- :               ,
+I was expecting a `,' or a `}'---line 4935 of file ../nuclear_bib.bib
+ :   pages = 210
+ :              (R),
 I'm skipping whatever remains of this entry
-(There were 4 error messages)
+"{" immediately follows a field name---line 5429 of file ../nuclear_bib.bib
+ : journal = {Phys. Lett. B},@article
+ :                                   {Thompson:04,
+I'm skipping whatever remains of this entry
+"{" immediately follows a field name---line 6518 of file ../nuclear_bib.bib
+ :   year = {2017},@article
+ :                         {PhysRevLett.95.232502,
+I'm skipping whatever remains of this entry
+You're missing a field name---line 7589 of file ../nuclear_bib.bib
+ :  year = {2007},
+ :                ,
+I'm skipping whatever remains of this entry
+You've used 2 entries,
+            2773 wiz_defined-function locations,
+            609 strings with 4779 characters,
+and the built_in function-call counts, 705 in all, are:
+= -- 59
+> -- 20
+< -- 2
++ -- 8
+- -- 6
+* -- 48
+:= -- 117
+add.period$ -- 6
+call.type$ -- 2
+change.case$ -- 8
+chr.to.int$ -- 2
+cite$ -- 4
+duplicate$ -- 40
+empty$ -- 71
+format.name$ -- 8
+if$ -- 142
+int.to.chr$ -- 1
+int.to.str$ -- 1
+missing$ -- 2
+newline$ -- 18
+num.names$ -- 8
+pop$ -- 14
+preamble$ -- 1
+purify$ -- 6
+quote$ -- 0
+skip$ -- 26
+stack$ -- 0
+substring$ -- 19
+swap$ -- 3
+text.length$ -- 0
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 22
+warning$ -- 0
+while$ -- 8
+width$ -- 0
+write$ -- 33
+(There were 11 error messages)

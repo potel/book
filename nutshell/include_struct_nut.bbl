@@ -1,4 +1,4 @@
-\begin{thebibliography}{179}
+\begin{thebibliography}{182}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \expandafter\ifx\csname urlstyle\endcsname\relax
@@ -105,13 +105,13 @@ F.~Barranco, P.~F. Bortignon, R.~A. Broglia, G.~Col\`o, P.~Schuck, E.~Vigezzi,
   induced interactions.
 \newblock \emph{Phys. Rev. C}, 72:\penalty0 054314, 2005.
 
-\bibitem[Barranco et~al.(2018)Barranco, Potel, Vigezzi, and
-  Broglia]{Barranco:18}
+\bibitem[Barranco et~al.(2019)Barranco, Potel, Vigezzi, and
+  Broglia]{Barranco:19}
 F.~Barranco, G.~Potel, E.~Vigezzi, and R.~A. Broglia.
 \newblock {$d(^9$Li,$p$), specific probe of $^{10}$Li, paradigm of
   parity--inverted, soft--dipole isotones with one neutron outside the $N = 6$
   closed shell}.
-\newblock \emph{arXiv:1812.01761 [nucl-th]}, 2018.
+\newblock \emph{arXiv:1812.01761}, 2019.
 
 \bibitem[{Barranco, F.} et~al.(1988){Barranco, F.}, Broglia, and
   Bertsch]{Barranco:88}
@@ -269,6 +269,16 @@ A.~Bohr, B.~R. Mottelson, and D.~Pines.
 \newblock \emph{Nuclear Structure, Vol.II}.
 \newblock Benjamin, New York, 1975.
 
+\bibitem[Born(1948)]{Born:48}
+M.~Born.
+\newblock \emph{Natural philosophy of cause and chance}.
+\newblock Oxford University Press, Oxford, 1948.
+
+\bibitem[Born(1969)]{Born:69}
+M.~Born.
+\newblock \emph{Atomic Physics}.
+\newblock Blackie, London, 1969.
+
 \bibitem[Bortignon et~al.(1976)Bortignon, Broglia, B{\`{e}}s, Liotta, and
   Paar]{Bortignon:76}
 P.~F. Bortignon, R.~A. Broglia, D.~R. B{\`{e}}s, R.~Liotta, and V.~Paar.
@@ -310,11 +320,11 @@ D.~M. Brink.
 \newblock \emph{Nuclear Superfluidity}.
 \newblock Cambridge University Press, Cambridge, 2005.
 
-\bibitem[Broglia et~al.(2018)Broglia, Barranco, Idini, Potel, and
-  Vigezzi]{Broglia:18}
+\bibitem[Broglia et~al.(2019{\natexlab{a}})Broglia, Barranco, Idini, Potel, and
+  Vigezzi]{Broglia:19}
 R.~Broglia, F.~Barranco, A.~Idini, G.~Potel, and E.~Vigezzi.
 \newblock Pygmy resonances: what's in a name?
-\newblock \emph{arXiv:1806.09409 [nucl-th]}, 2018.
+\newblock \emph{arXiv:18096.09409; Phys. Scr., in press}, 2019{\natexlab{a}}.
 
 \bibitem[Broglia and Gallardo(1986)]{Broglia:86}
 R.~A. Broglia and M.~Gallardo.
@@ -332,6 +342,16 @@ R.~A. Broglia, J.~Terasaki, and N.~Giovanardi.
 \newblock The {A}nderson--{G}oldstone--{N}ambu mode in finite and in infinite
   systems.
 \newblock \emph{Physics Reports}, 335:\penalty0 1, 2000.
+
+\bibitem[Broglia et~al.(2019{\natexlab{b}})Broglia, Barranco, Potel, and
+  Vigezzi]{Broglia:19b}
+R.~A. Broglia, F.~Barranco, G.~Potel, and E.~Vigezzi.
+\newblock {One- and two-neutron at the drip line. From $^{11}$Be to $^{11}$Li
+  and back: $^{10}$Li and parity inversion.}
+\newblock \emph{{Proceedings of the 15th International Conference on Nuclear
+  Reaction Mechanisms, Editors F. Cerutti, A. Ferrari, T. Kawano, F.
+  Salvat-Pujol, and P. Talou}.}, page~1, 2019{\natexlab{b}}.
+\newblock \doi{http://dx.doi.org/10.23727/CERN-Proceeding-2019-001}.
 
 \bibitem[{Broglia, R. A.}(2002)]{Broglia:02d}
 {Broglia, R. A.}
@@ -773,6 +793,7 @@ U.~Lombardo, H.~J. Schulze, and W.~Zuo.
 
 \bibitem[London(1930)]{London:30}
 F.~London.
+\newblock {Zur Theorie der Systematik der Molekularkr\"{a}fte}.
 \newblock \emph{Z. f. Physik}, 63:\penalty0 245, 1930.
 
 \bibitem[{L\"owen, H.}(1994)]{Lowen:94}
@@ -804,11 +825,6 @@ J.~E. Lynn.
 \newblock Dynamics of the shell model.
 \newblock \emph{Physics Reports}, 120:\penalty0 1--274, 1985.
 
-\bibitem[{Mei{\ss}ner}(2015)]{Meissner:14}
-U.~G. {Mei{\ss}ner}.
-\newblock Anthropic considerations in nuclear physics.
-\newblock \emph{Science Bulletin}, 60:\penalty0 43, 2015.
-
 \bibitem[Montanari et~al.(2014)Montanari, Corradi, Szilner, Pollarolo,
   Fioretto, Montagnoli, Scarlassara, Stefanini, Courtin, Goasduff, Haas,
   Jelavi\ifmmode \acute{c}\else~\'{c}\fi{} Malenica, Michelagnoli,
@@ -822,6 +838,11 @@ D.~Montanari, L.~Corradi, S.~Szilner, G.~Pollarolo, E.~Fioretto, G.~Montagnoli,
 \newblock {Neutron Pair Transfer in $^{60}\mathrm{Ni}+^{116}\mathrm{Sn}$ Far
   below the Coulomb Barrier}.
 \newblock \emph{Phys. Rev. Lett.}, 113:\penalty0 052501, 2014.
+
+\bibitem[Moro et~al.(2019)Moro, Casal, and Gómez-Ramos]{Moro:19}
+A.~Moro, J.~Casal, and M.~Gómez-Ramos.
+\newblock Investigating the 10li continuum through 9li(d,p)10li reactions.
+\newblock \emph{Physics Letters B}, 793:\penalty0 13 -- 18, 2019.
 
 \bibitem[Mottelson(1998)]{Mottelson:02}
 B.~Mottelson.
@@ -860,8 +881,8 @@ S.~S. Pankratov, M.~V. Zverev, M.~Baldo, U.~Lombardo, and E.~E. Saperstein.
 \newblock Semi-microscopic model of pairing in nuclei.
 \newblock \emph{Phys. Rev. C}, 84:\penalty0 014321, 2011.
 
-\bibitem[Pauling and B.(1963)]{Pauling:63}
-L.~Pauling and W.~J.~E. B.
+\bibitem[Pauling and Wilson~Jr.(1963)]{Pauling:63}
+L.~Pauling and E.~B. Wilson~Jr.
 \newblock \emph{{Quantum Mechanics}}.
 \newblock Dover, New York, 1963.
 
@@ -1002,7 +1023,7 @@ E.~E. Saperstein and M.~Baldo.
 \newblock Pairing vibrations in nuclei and solids.
 \newblock In {Morinaga H.}, editor, \emph{Proceedings of the International
   School of Physics ``Enrico Fermi'' Course LIII, Developments and Borderlines
-  on Nuclear Physics}, page 144, NY, 1972. Academic Press.
+  on Nuclear Physics}, 1972.
 
 \bibitem[Schrieffer(1964)]{Schrieffer:64}
 J.~Schrieffer.

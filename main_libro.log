@@ -1,31 +1,30 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2019.3.30)  19 JUL 2019 15:17
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2019/dev/Debian) (preloaded format=pdflatex 2019.7.22)  22 JUL 2019 18:39
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
 **main_libro.tex
 (./main_libro.tex
-LaTeX2e <2017-04-15>
-Babel <3.18> and hyphenation patterns for 84 language(s) loaded.
+LaTeX2e <2018-12-01>
 (/usr/share/texlive/texmf-dist/tex/latex/base/book.cls
-Document Class: book 2014/09/29 v1.4h Standard LaTeX document class
+Document Class: book 2018/09/03 v1.4i Standard LaTeX document class
 (/usr/share/texlive/texmf-dist/tex/latex/base/bk11.clo
-File: bk11.clo 2014/09/29 v1.4h Standard LaTeX file (size option)
+File: bk11.clo 2018/09/03 v1.4i Standard LaTeX file (size option)
 )
-\c@part=\count79
-\c@chapter=\count80
-\c@section=\count81
-\c@subsection=\count82
-\c@subsubsection=\count83
-\c@paragraph=\count84
-\c@subparagraph=\count85
-\c@figure=\count86
-\c@table=\count87
+\c@part=\count80
+\c@chapter=\count81
+\c@section=\count82
+\c@subsection=\count83
+\c@subsubsection=\count84
+\c@paragraph=\count85
+\c@subparagraph=\count86
+\c@figure=\count87
+\c@table=\count88
 \abovecaptionskip=\skip41
 \belowcaptionskip=\skip42
 \bibindent=\dimen102
 )
 (/usr/share/texlive/texmf-dist/tex/latex/cite/chapterbib.sty
-\c@inputfile=\count88
+\c@inputfile=\count89
 Package: chapterbib 2010/09/18  v 1.17
 )
 (/usr/share/texlive/texmf-dist/tex/latex/doublestroke/dsfont.sty
@@ -33,16 +32,16 @@ Package: dsfont 1995/08/01 v0.1 Double stroke roman fonts
 )
 (./appendix.sty
 Package: appendix 2002/08/06 v1.2 extra appendix facilities
-\c@@pps=\count89
-\c@@ppsavesec=\count90
-\c@@ppsaveapp=\count91
+\c@@pps=\count90
+\c@@ppsavesec=\count91
+\c@@ppsaveapp=\count92
 ) (./slashbox.sty
 slashbox style by K.Yasuoka, May 1993.
-\@slashboxa=\box26
-\@slashboxb=\box27
-\@slashboxc=\box28
-\@slashboxwd=\count92
-\@slashboxht=\count93
+\@slashboxa=\box27
+\@slashboxb=\box28
+\@slashboxc=\box29
+\@slashboxwd=\count93
+\@slashboxht=\count94
 \@slashsepl=\dimen103
 \@slashsepr=\dimen104
 ) (/usr/share/texlive/texmf-dist/tex/latex/tools/enumerate.sty
@@ -53,7 +52,7 @@ Package: enumerate 2015/07/23 v3.00 enumerate extensions (DPC)
 Package: footmisc 2011/06/06 v5.5b a miscellany of footnote facilities
 \FN@temptoken=\toks15
 \footnotemargin=\dimen105
-\c@pp@next@reset=\count94
+\c@pp@next@reset=\count95
 Package footmisc Info: Declaring symbol style bringhurst on input line 855.
 Package footmisc Info: Declaring symbol style chicago on input line 863.
 Package footmisc Info: Declaring symbol style wiley on input line 872.
@@ -64,7 +63,7 @@ Package footmisc Info: Declaring symbol style lamport*-robust on input line 924
 .
 )
 (/usr/share/texlive/texmf-dist/tex/latex/base/textcomp.sty
-Package: textcomp 2017/04/05 v2.0i Standard LaTeX package
+Package: textcomp 2018/08/11 v2.0j Standard LaTeX package
 Package textcomp Info: Sub-encoding information:
 (textcomp)               5 = only ISO-Adobe without \textcurrency
 (textcomp)               4 = 5 + \texteuro
@@ -80,7 +79,82 @@ Package textcomp Info: Setting ? sub-encoding to TS1/1 on input line 79.
 
 (/usr/share/texlive/texmf-dist/tex/latex/base/ts1enc.def
 File: ts1enc.def 2001/06/05 v3.0e (jk/car/fm) Standard LaTeX file
-)
+Now handling font encoding TS1 ...
+... processing UTF-8 mapping file for font encoding TS1
+
+(/usr/share/texlive/texmf-dist/tex/latex/base/ts1enc.dfu
+File: ts1enc.dfu 2018/10/05 v1.2f UTF-8 support for inputenc
+   defining Unicode char U+00A2 (decimal 162)
+   defining Unicode char U+00A3 (decimal 163)
+   defining Unicode char U+00A4 (decimal 164)
+   defining Unicode char U+00A5 (decimal 165)
+   defining Unicode char U+00A6 (decimal 166)
+   defining Unicode char U+00A7 (decimal 167)
+   defining Unicode char U+00A8 (decimal 168)
+   defining Unicode char U+00A9 (decimal 169)
+   defining Unicode char U+00AA (decimal 170)
+   defining Unicode char U+00AC (decimal 172)
+   defining Unicode char U+00AE (decimal 174)
+   defining Unicode char U+00AF (decimal 175)
+   defining Unicode char U+00B0 (decimal 176)
+   defining Unicode char U+00B1 (decimal 177)
+   defining Unicode char U+00B2 (decimal 178)
+   defining Unicode char U+00B3 (decimal 179)
+   defining Unicode char U+00B4 (decimal 180)
+   defining Unicode char U+00B5 (decimal 181)
+   defining Unicode char U+00B6 (decimal 182)
+   defining Unicode char U+00B7 (decimal 183)
+   defining Unicode char U+00B9 (decimal 185)
+   defining Unicode char U+00BA (decimal 186)
+   defining Unicode char U+00BC (decimal 188)
+   defining Unicode char U+00BD (decimal 189)
+   defining Unicode char U+00BE (decimal 190)
+   defining Unicode char U+00D7 (decimal 215)
+   defining Unicode char U+00F7 (decimal 247)
+   defining Unicode char U+0192 (decimal 402)
+   defining Unicode char U+02C7 (decimal 711)
+   defining Unicode char U+02D8 (decimal 728)
+   defining Unicode char U+02DD (decimal 733)
+   defining Unicode char U+0E3F (decimal 3647)
+   defining Unicode char U+2016 (decimal 8214)
+   defining Unicode char U+2020 (decimal 8224)
+   defining Unicode char U+2021 (decimal 8225)
+   defining Unicode char U+2022 (decimal 8226)
+   defining Unicode char U+2030 (decimal 8240)
+   defining Unicode char U+2031 (decimal 8241)
+   defining Unicode char U+203B (decimal 8251)
+   defining Unicode char U+203D (decimal 8253)
+   defining Unicode char U+2044 (decimal 8260)
+   defining Unicode char U+204E (decimal 8270)
+   defining Unicode char U+2052 (decimal 8274)
+   defining Unicode char U+20A1 (decimal 8353)
+   defining Unicode char U+20A4 (decimal 8356)
+   defining Unicode char U+20A6 (decimal 8358)
+   defining Unicode char U+20A9 (decimal 8361)
+   defining Unicode char U+20AB (decimal 8363)
+   defining Unicode char U+20AC (decimal 8364)
+   defining Unicode char U+20B1 (decimal 8369)
+   defining Unicode char U+2103 (decimal 8451)
+   defining Unicode char U+2116 (decimal 8470)
+   defining Unicode char U+2117 (decimal 8471)
+   defining Unicode char U+211E (decimal 8478)
+   defining Unicode char U+2120 (decimal 8480)
+   defining Unicode char U+2122 (decimal 8482)
+   defining Unicode char U+2126 (decimal 8486)
+   defining Unicode char U+2127 (decimal 8487)
+   defining Unicode char U+212E (decimal 8494)
+   defining Unicode char U+2190 (decimal 8592)
+   defining Unicode char U+2191 (decimal 8593)
+   defining Unicode char U+2192 (decimal 8594)
+   defining Unicode char U+2193 (decimal 8595)
+   defining Unicode char U+2329 (decimal 9001)
+   defining Unicode char U+232A (decimal 9002)
+   defining Unicode char U+2422 (decimal 9250)
+   defining Unicode char U+25E6 (decimal 9702)
+   defining Unicode char U+25EF (decimal 9711)
+   defining Unicode char U+266A (decimal 9834)
+   defining Unicode char U+FEFF (decimal 65279)
+))
 LaTeX Info: Redefining \oldstylenums on input line 334.
 Package textcomp Info: Setting cmr sub-encoding to TS1/0 on input line 349.
 Package textcomp Info: Setting cmss sub-encoding to TS1/0 on input line 350.
@@ -176,7 +250,7 @@ File: pdftex.def 2018/01/08 v1.0l Graphics/color driver for pdftex
 \epsfysize=\dimen109
 )
 (/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsmath.sty
-Package: amsmath 2017/09/02 v2.17a AMS math features
+Package: amsmath 2018/12/01 v2.17b AMS math features
 \@mathmargin=\skip43
 
 For additional information on amsmath, use the `?' option.
@@ -195,30 +269,30 @@ Package: amsbsy 1999/11/29 v1.2d Bold Symbols
 (/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsopn.sty
 Package: amsopn 2016/03/08 v2.02 operator names
 )
-\inf@bad=\count95
-LaTeX Info: Redefining \frac on input line 213.
-\uproot@=\count96
-\leftroot@=\count97
-LaTeX Info: Redefining \overline on input line 375.
-\classnum@=\count98
-\DOTSCASE@=\count99
-LaTeX Info: Redefining \ldots on input line 472.
-LaTeX Info: Redefining \dots on input line 475.
-LaTeX Info: Redefining \cdots on input line 596.
-\Mathstrutbox@=\box29
-\strutbox@=\box30
+\inf@bad=\count96
+LaTeX Info: Redefining \frac on input line 223.
+\uproot@=\count97
+\leftroot@=\count98
+LaTeX Info: Redefining \overline on input line 385.
+\classnum@=\count99
+\DOTSCASE@=\count100
+LaTeX Info: Redefining \ldots on input line 482.
+LaTeX Info: Redefining \dots on input line 485.
+LaTeX Info: Redefining \cdots on input line 606.
+\Mathstrutbox@=\box30
+\strutbox@=\box31
 \big@size=\dimen112
-LaTeX Font Info:    Redeclaring font encoding OML on input line 712.
-LaTeX Font Info:    Redeclaring font encoding OMS on input line 713.
-\macc@depth=\count100
-\c@MaxMatrixCols=\count101
+LaTeX Font Info:    Redeclaring font encoding OML on input line 729.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 730.
+\macc@depth=\count101
+\c@MaxMatrixCols=\count102
 \dotsspace@=\muskip10
-\c@parentequation=\count102
-\dspbrk@lvl=\count103
+\c@parentequation=\count103
+\dspbrk@lvl=\count104
 \tag@help=\toks18
-\row@=\count104
-\column@=\count105
-\maxfields@=\count106
+\row@=\count105
+\column@=\count106
+\maxfields@=\count107
 \andhelp@=\toks19
 \eqnshift@=\dimen113
 \alignsep@=\dimen114
@@ -230,8 +304,8 @@ LaTeX Font Info:    Redeclaring font encoding OMS on input line 713.
 \multlinegap=\skip44
 \multlinetaggap=\skip45
 \mathdisplay@stack=\toks21
-LaTeX Info: Redefining \[ on input line 2817.
-LaTeX Info: Redefining \] on input line 2818.
+LaTeX Info: Redefining \[ on input line 2844.
+LaTeX Info: Redefining \] on input line 2845.
 )
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/amsfonts.sty
 Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
@@ -254,7 +328,7 @@ LaTeX Font Info:    Overwriting math alphabet `\mathbbm' in version `bold'
 LaTeX Font Info:    Overwriting math alphabet `\mathbbmss' in version `bold'
 (Font)                  U/bbmss/m/n --> U/bbmss/bx/n on input line 35.
 )
-\fmbox=\box31
+\fmbox=\box32
 
 (/usr/share/texlive/texmf-dist/tex/latex/base/latexsym.sty
 Package: latexsym 1998/08/17 v2.2e Standard LaTeX package (lasy symbols)
@@ -364,7 +438,7 @@ Package: natbib 2010/09/13 8.31b (PWD, AO)
 \bibhang=\skip46
 \bibsep=\skip47
 LaTeX Info: Redefining \cite on input line 694.
-\c@NAT@ctr=\count107
+\c@NAT@ctr=\count108
 )
 (/usr/share/texlive/texmf-dist/tex/latex/tools/verbatim.sty
 Package: verbatim 2014/10/28 v1.5q LaTeX2e package for verbatim enhancements
@@ -373,12 +447,14 @@ Package: verbatim 2014/10/28 v1.5q LaTeX2e package for verbatim enhancements
 \verbatim@in@stream=\read1
 )
 (/usr/share/texlive/texmf-dist/tex/latex/tools/array.sty
-Package: array 2016/10/06 v2.4d Tabular extension package (FMi)
+Package: array 2018/12/30 v2.4k Tabular extension package (FMi)
 \col@sep=\dimen119
+\ar@mcellbox=\box33
 \extrarowheight=\dimen120
 \NC@list=\toks24
 \extratabsurround=\skip48
 \backup@length=\skip49
+\ar@cellbox=\box34
 )
 (/usr/share/texlive/texmf-dist/tex/latex/graphics/color.sty
 Package: color 2016/07/10 v1.1e Standard LaTeX Color (DPC)
@@ -389,11 +465,11 @@ File: color.cfg 2016/01/02 v1.6 sample color configuration
 Package color Info: Driver file: pdftex.def on input line 147.
 )
 (/usr/share/texlive/texmf-dist/tex/latex/caption/caption.sty
-Package: caption 2016/02/21 v3.3-144 Customizing captions (AR)
+Package: caption 2018/10/06 v3.3-154 Customizing captions (AR)
 
 (/usr/share/texlive/texmf-dist/tex/latex/caption/caption3.sty
-Package: caption3 2016/05/22 v1.7-166 caption3 kernel (AR)
-Package caption3 Info: TeX engine: e-TeX on input line 67.
+Package: caption3 2018/09/12 v1.8c caption3 kernel (AR)
+Package caption3 Info: TeX engine: e-TeX on input line 64.
 \captionmargin=\dimen121
 \captionmargin@=\dimen122
 \captionwidth=\dimen123
@@ -402,7 +478,8 @@ Package caption3 Info: TeX engine: e-TeX on input line 67.
 \caption@parindent=\dimen126
 \caption@hangindent=\dimen127
 )
-\c@ContinuedFloat=\count108
+\c@caption@flags=\count109
+\c@ContinuedFloat=\count110
 )
 (./main_libro.aux (./C1/includeC1.aux) (./introduccion/introduccion.aux)
 (./nutshell/include_struct_nut.aux) (./nutshell/include_trans_nut.aux)
@@ -416,67 +493,67 @@ LaTeX Warning: Label `fig6G4' multiply defined.
 ))
 \openout1 = `main_libro.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/txmi/m/it on input line 59.
-LaTeX Font Info:    Try loading font information for OML+txmi on input line 59.
+LaTeX Font Info:    Checking defaults for OML/txmi/m/it on input line 60.
+LaTeX Font Info:    Try loading font information for OML+txmi on input line 60.
 
  (/usr/share/texlive/texmf-dist/tex/latex/txfonts/omltxmi.fd
 File: omltxmi.fd 2000/12/15 v3.1
 )
-LaTeX Font Info:    ... okay on input line 59.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 59.
-LaTeX Font Info:    ... okay on input line 59.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 59.
-LaTeX Font Info:    ... okay on input line 59.
-LaTeX Font Info:    Checking defaults for OMS/txsy/m/n on input line 59.
-LaTeX Font Info:    Try loading font information for OMS+txsy on input line 59.
+LaTeX Font Info:    ... okay on input line 60.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 60.
+LaTeX Font Info:    ... okay on input line 60.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 60.
+LaTeX Font Info:    ... okay on input line 60.
+LaTeX Font Info:    Checking defaults for OMS/txsy/m/n on input line 60.
+LaTeX Font Info:    Try loading font information for OMS+txsy on input line 60.
 
 
 (/usr/share/texlive/texmf-dist/tex/latex/txfonts/omstxsy.fd
 File: omstxsy.fd 2000/12/15 v3.1
 )
-LaTeX Font Info:    ... okay on input line 59.
-LaTeX Font Info:    Checking defaults for OMX/txex/m/n on input line 59.
-LaTeX Font Info:    Try loading font information for OMX+txex on input line 59.
+LaTeX Font Info:    ... okay on input line 60.
+LaTeX Font Info:    Checking defaults for OMX/txex/m/n on input line 60.
+LaTeX Font Info:    Try loading font information for OMX+txex on input line 60.
 
 
 (/usr/share/texlive/texmf-dist/tex/latex/txfonts/omxtxex.fd
 File: omxtxex.fd 2000/12/15 v3.1
 )
-LaTeX Font Info:    ... okay on input line 59.
-LaTeX Font Info:    Checking defaults for U/txexa/m/n on input line 59.
-LaTeX Font Info:    Try loading font information for U+txexa on input line 59.
+LaTeX Font Info:    ... okay on input line 60.
+LaTeX Font Info:    Checking defaults for U/txexa/m/n on input line 60.
+LaTeX Font Info:    Try loading font information for U+txexa on input line 60.
 
 (/usr/share/texlive/texmf-dist/tex/latex/txfonts/utxexa.fd
 File: utxexa.fd 2000/12/15 v3.1
 )
-LaTeX Font Info:    ... okay on input line 59.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 59.
-LaTeX Font Info:    Try loading font information for TS1+cmr on input line 59.
+LaTeX Font Info:    ... okay on input line 60.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 60.
+LaTeX Font Info:    Try loading font information for TS1+cmr on input line 60.
 
 (/usr/share/texlive/texmf-dist/tex/latex/base/ts1cmr.fd
 File: ts1cmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
-LaTeX Font Info:    ... okay on input line 59.
-LaTeX Font Info:    Try loading font information for OT1+txr on input line 59.
+LaTeX Font Info:    ... okay on input line 60.
+LaTeX Font Info:    Try loading font information for OT1+txr on input line 60.
 
 (/usr/share/texlive/texmf-dist/tex/latex/txfonts/ot1txr.fd
 File: ot1txr.fd 2000/12/15 v3.1
 )
 Package chapterbib Info: The sectionbib option changes "\chapter *" to "\sectio
-n *" in \thebibliography on input line 59.
+n *" in \thebibliography on input line 60.
 
 (/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count109
+\scratchcounter=\count111
 \scratchdimen=\dimen128
-\scratchbox=\box32
-\nofMPsegments=\count110
-\nofMParguments=\count111
+\scratchbox=\box35
+\nofMPsegments=\count112
+\nofMParguments=\count113
 \everyMPshowfont=\toks25
-\MPscratchCnt=\count112
+\MPscratchCnt=\count114
 \MPscratchDim=\dimen129
-\MPnumerator=\count113
-\makeMPintoPDFobject=\count114
+\MPnumerator=\count115
+\makeMPintoPDFobject=\count116
 \everyMPtoPDFconversion=\toks26
 ) (/usr/share/texlive/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
 Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
@@ -505,18 +582,13 @@ Package: etexcmds 2016/05/16 v1.6 Avoid name clashes with e-TeX commands (HO)
 (/usr/share/texlive/texmf-dist/tex/generic/oberdiek/ifluatex.sty
 Package: ifluatex 2016/05/16 v1.4 Provides the ifluatex switch (HO)
 Package ifluatex Info: LuaTeX not detected.
-)
-Package etexcmds Info: Could not find \expanded.
-(etexcmds)             That can mean that you are not using pdfTeX 1.50 or
-(etexcmds)             that some package has redefined \expanded.
-(etexcmds)             In the latter case, load this package earlier.
-)))
+))))
 (/usr/share/texlive/texmf-dist/tex/generic/oberdiek/pdftexcmds.sty
-Package: pdftexcmds 2018/01/21 v0.26 Utility functions of pdfTeX for LuaTeX (HO
+Package: pdftexcmds 2018/09/10 v0.29 Utility functions of pdfTeX for LuaTeX (HO
 )
 
 (/usr/share/texlive/texmf-dist/tex/generic/oberdiek/ifpdf.sty
-Package: ifpdf 2017/03/15 v3.2 Provides the ifpdf switch
+Package: ifpdf 2018/09/07 v3.3 Provides the ifpdf switch
 )
 Package pdftexcmds Info: LuaTeX not detected.
 Package pdftexcmds Info: \pdf@primitive is available.
@@ -536,32 +608,32 @@ e
 ))
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: End \AtBeginDocument code.
-LaTeX Font Info:    Try loading font information for U+txsya on input line 60.
+LaTeX Font Info:    Try loading font information for U+txsya on input line 61.
 
 (/usr/share/texlive/texmf-dist/tex/latex/txfonts/utxsya.fd
 File: utxsya.fd 2000/12/15 v3.1
 )
-LaTeX Font Info:    Try loading font information for U+txsyb on input line 60.
+LaTeX Font Info:    Try loading font information for U+txsyb on input line 61.
 
 (/usr/share/texlive/texmf-dist/tex/latex/txfonts/utxsyb.fd
 File: utxsyb.fd 2000/12/15 v3.1
 )
-LaTeX Font Info:    Try loading font information for U+lasy on input line 60.
+LaTeX Font Info:    Try loading font information for U+lasy on input line 61.
 
 (/usr/share/texlive/texmf-dist/tex/latex/base/ulasy.fd
 File: ulasy.fd 1998/08/17 v2.2e LaTeX symbol font definitions
 )
-LaTeX Font Info:    Try loading font information for U+txmia on input line 60.
+LaTeX Font Info:    Try loading font information for U+txmia on input line 61.
 
 (/usr/share/texlive/texmf-dist/tex/latex/txfonts/utxmia.fd
 File: utxmia.fd 2000/12/15 v3.1
 )
-LaTeX Font Info:    Try loading font information for U+txsyc on input line 60.
+LaTeX Font Info:    Try loading font information for U+txsyc on input line 61.
 
 (/usr/share/texlive/texmf-dist/tex/latex/txfonts/utxsyc.fd
 File: utxsyc.fd 2000/12/15 v3.1
 )
-LaTeX Font Info:    Try loading font information for U+rsfs on input line 60.
+LaTeX Font Info:    Try loading font information for U+rsfs on input line 61.
 
 (/usr/share/texlive/texmf-dist/tex/latex/jknapltx/ursfs.fd
 File: ursfs.fd 1998/03/24 rsfs font definition file (jk)
@@ -632,12 +704,12 @@ File: introduccion/figs/figintro4.pdf Graphic file (type pdf)
 Package pdftex.def Info: introduccion/figs/figintro4.pdf  used on input line 13
 7.
 (pdftex.def)             Requested size: 341.43306pt x 263.77116pt.
-<introduccion/figs/fig1_2_2.pdf, id=260, 761.23227pt x 306.10228pt>
+<introduccion/figs/fig1_2_2.pdf, id=260, 714.2243pt x 287.53995pt>
 File: introduccion/figs/fig1_2_2.pdf Graphic file (type pdf)
 <use introduccion/figs/fig1_2_2.pdf>
 Package pdftex.def Info: introduccion/figs/fig1_2_2.pdf  used on input line 153
 .
-(pdftex.def)             Requested size: 341.43306pt x 137.29636pt.
+(pdftex.def)             Requested size: 341.43306pt x 137.456pt.
  [23] [24 <./introduccion/figs/figintro4.pdf>] [25 <./introduccion/figs/fig1_2_
 2.pdf>] [26] [27]
 Overfull \hbox (5.7833pt too wide) in paragraph at lines 220--222
@@ -646,17 +718,17 @@ to those as-so-ci-ated with particle--
  []
 
 [28] [29] [30]
-<introduccion/figs/figintroD1.pdf, id=384, 279.92581pt x 192.72pt>
+<introduccion/figs/figintroD1.pdf, id=383, 603.88281pt x 193.28905pt>
 File: introduccion/figs/figintroD1.pdf Graphic file (type pdf)
 <use introduccion/figs/figintroD1.pdf>
 Package pdftex.def Info: introduccion/figs/figintroD1.pdf  used on input line 3
 29.
-(pdftex.def)             Requested size: 170.71652pt x 117.53255pt.
+(pdftex.def)             Requested size: 341.43306pt x 109.28519pt.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<introduccion/figs/figintroD2.pdf, id=386, 136.51pt x 155.58125pt>
+<introduccion/figs/figintroD2.pdf, id=385, 136.51pt x 155.58125pt>
 File: introduccion/figs/figintroD2.pdf Graphic file (type pdf)
 <use introduccion/figs/figintroD2.pdf>
 Package pdftex.def Info: introduccion/figs/figintroD2.pdf  used on input line 3
@@ -667,7 +739,7 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 [31] [32 <./introduccion/figs/figintroD1.pdf> <./introduccion/figs/figintroD2.p
 df>]
-<introduccion/figs/figintroD3.pdf, id=405, 420.57124pt x 293.095pt>
+<introduccion/figs/figintroD3.pdf, id=417, 420.57124pt x 293.095pt>
 File: introduccion/figs/figintroD3.pdf Graphic file (type pdf)
 <use introduccion/figs/figintroD3.pdf>
 Package pdftex.def Info: introduccion/figs/figintroD3.pdf  used on input line 3
@@ -677,7 +749,7 @@ Package pdftex.def Info: introduccion/figs/figintroD3.pdf  used on input line 3
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<introduccion/figs/figintroD4.pdf, id=407, 711.65875pt x 439.6425pt>
+<introduccion/figs/figintroD4.pdf, id=419, 711.65875pt x 439.6425pt>
 File: introduccion/figs/figintroD4.pdf Graphic file (type pdf)
 <use introduccion/figs/figintroD4.pdf>
 Package pdftex.def Info: introduccion/figs/figintroD4.pdf  used on input line 3
@@ -687,7 +759,7 @@ Package pdftex.def Info: introduccion/figs/figintroD4.pdf  used on input line 3
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 [33]
-<introduccion/figs/figintroD5.pdf, id=412, 523.9575pt x 548.0475pt>
+<introduccion/figs/figintroD5.pdf, id=424, 523.9575pt x 548.0475pt>
 File: introduccion/figs/figintroD5.pdf Graphic file (type pdf)
 <use introduccion/figs/figintroD5.pdf>
 Package pdftex.def Info: introduccion/figs/figintroD5.pdf  used on input line 4
@@ -695,7 +767,7 @@ Package pdftex.def Info: introduccion/figs/figintroD5.pdf  used on input line 4
 (pdftex.def)             Requested size: 284.52756pt x 297.61374pt.
  [34 <./introduccion/figs/figintroD3.pdf> <./introduccion/figs/figintroD4.pdf>]
  [35 <./introduccion/figs/figintroD5.pdf>]
-<introduccion/figs/figintroD6.pdf, id=512, 541.02126pt x 231.86626pt>
+<introduccion/figs/figintroD6.pdf, id=524, 541.02126pt x 231.86626pt>
 File: introduccion/figs/figintroD6.pdf Graphic file (type pdf)
 <use introduccion/figs/figintroD6.pdf>
 Package pdftex.def Info: introduccion/figs/figintroD6.pdf  used on input line 4
@@ -705,13 +777,13 @@ Package pdftex.def Info: introduccion/figs/figintroD6.pdf  used on input line 4
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<introduccion/figs/figintroD7.pdf, id=514, 444.66125pt x 327.2225pt>
+<introduccion/figs/figintroD7.pdf, id=526, 444.66125pt x 327.2225pt>
 File: introduccion/figs/figintroD7.pdf Graphic file (type pdf)
 <use introduccion/figs/figintroD7.pdf>
 Package pdftex.def Info: introduccion/figs/figintroD7.pdf  used on input line 4
 68.
 (pdftex.def)             Requested size: 284.52756pt x 209.38173pt.
-<introduccion/figs/figintroD8.pdf, id=516, 463.7325pt x 304.13625pt>
+<introduccion/figs/figintroD8.pdf, id=528, 463.7325pt x 304.13625pt>
 File: introduccion/figs/figintroD8.pdf Graphic file (type pdf)
 <use introduccion/figs/figintroD8.pdf>
 Package pdftex.def Info: introduccion/figs/figintroD8.pdf  used on input line 4
@@ -721,18 +793,18 @@ Package pdftex.def Info: introduccion/figs/figintroD8.pdf  used on input line 4
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 [36]
-<introduccion/figs/figintroD9.pdf, id=521, 265.99374pt x 217.81375pt>
+<introduccion/figs/figintroD9.pdf, id=533, 265.99374pt x 217.81375pt>
 File: introduccion/figs/figintroD9.pdf Graphic file (type pdf)
 <use introduccion/figs/figintroD9.pdf>
 Package pdftex.def Info: introduccion/figs/figintroD9.pdf  used on input line 5
 13.
 (pdftex.def)             Requested size: 170.71652pt x 139.7958pt.
-<introduccion/figs/figintroD10.pdf, id=523, 508.90125pt x 471.7625pt>
+<introduccion/figs/figintroD10.pdf, id=535, 721.4561pt x 469.92549pt>
 File: introduccion/figs/figintroD10.pdf Graphic file (type pdf)
 <use introduccion/figs/figintroD10.pdf>
 Package pdftex.def Info: introduccion/figs/figintroD10.pdf  used on input line 
 520.
-(pdftex.def)             Requested size: 284.52756pt x 263.77487pt.
+(pdftex.def)             Requested size: 284.52756pt x 185.32813pt.
  [37 <./introduccion/figs/figintroD6.pdf>]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
@@ -758,13 +830,13 @@ m/it/10.95 m[]\OT1/txr/m/n/10.95 )[])$ (dot-ted blue curve); $^^A[](\OML/txmi/m
  []
 
 [42] [43]
-<introduccion/figs/funnel_norm_tot_try.pdf, id=719, 716.15565pt x 511.22726pt>
+<introduccion/figs/funnel_norm_tot_try.pdf, id=758, 716.15565pt x 511.22726pt>
 File: introduccion/figs/funnel_norm_tot_try.pdf Graphic file (type pdf)
 <use introduccion/figs/funnel_norm_tot_try.pdf>
 Package pdftex.def Info: introduccion/figs/funnel_norm_tot_try.pdf  used on inp
 ut line 589.
 (pdftex.def)             Requested size: 288.0011pt x 205.59497pt.
-<introduccion/figs/fig1_4_2.pdf, id=720, 564.75935pt x 169.3921pt>
+<introduccion/figs/fig1_4_2.pdf, id=759, 564.75935pt x 169.3921pt>
 File: introduccion/figs/fig1_4_2.pdf Graphic file (type pdf)
 <use introduccion/figs/fig1_4_2.pdf>
 Package pdftex.def Info: introduccion/figs/fig1_4_2.pdf  used on input line 598
@@ -772,13 +844,13 @@ Package pdftex.def Info: introduccion/figs/fig1_4_2.pdf  used on input line 598
 (pdftex.def)             Requested size: 360.0pt x 107.97633pt.
  [44 <./introduccion/figs/funnel_norm_tot_try.pdf>] [45 <./introduccion/figs/fi
 g1_4_2.pdf>]
-<introduccion/figs/figintroC1.pdf, id=743, 352.11095pt x 139.97911pt>
+<introduccion/figs/figintroC1.pdf, id=782, 352.11095pt x 139.97911pt>
 File: introduccion/figs/figintroC1.pdf Graphic file (type pdf)
 <use introduccion/figs/figintroC1.pdf>
 Package pdftex.def Info: introduccion/figs/figintroC1.pdf  used on input line 6
 39.
 (pdftex.def)             Requested size: 341.43306pt x 135.73898pt.
-<introduccion/figs/figintroC2.pdf, id=745, 422.05464pt x 204.00891pt>
+<introduccion/figs/figintroC2.pdf, id=784, 422.05464pt x 204.00891pt>
 File: introduccion/figs/figintroC2.pdf Graphic file (type pdf)
 <use introduccion/figs/figintroC2.pdf>
 Package pdftex.def Info: introduccion/figs/figintroC2.pdf  used on input line 6
@@ -791,26 +863,26 @@ Underfull \hbox (badness 1442) in paragraph at lines 680--680
  []
 
 
-Overfull \hbox (24.65063pt too wide) in paragraph at lines 693--702
+Overfull \hbox (24.65077pt too wide) in paragraph at lines 693--702
 [][] 
  []
 
 [47 <./introduccion/figs/figintroC2.pdf>] [48] [49] [50] [51]
-<introduccion/figs/figintroA1.pdf, id=813, 425.44003pt x 90.88104pt>
+<introduccion/figs/figintroA1.pdf, id=853, 648.91231pt x 329.35057pt>
 File: introduccion/figs/figintroA1.pdf Graphic file (type pdf)
 <use introduccion/figs/figintroA1.pdf>
 Package pdftex.def Info: introduccion/figs/figintroA1.pdf  used on input line 8
 53.
-(pdftex.def)             Requested size: 227.62204pt x 48.62294pt.
-<introduccion/figs/figintroA2.pdf, id=815, 533.19102pt x 651.30038pt>
-File: introduccion/figs/figintroA2.pdf Graphic file (type pdf)
-<use introduccion/figs/figintroA2.pdf>
-Package pdftex.def Info: introduccion/figs/figintroA2.pdf  used on input line 8
-60.
-(pdftex.def)             Requested size: 284.52756pt x 347.55281pt.
- [52 <./introduccion/figs/figintroA1.pdf>] [53 <./introduccion/figs/figintroA2.
-pdf>]
-<introduccion/figs/figintroA3.pdf, id=836, 577.81581pt x 1001.30269pt>
+(pdftex.def)             Requested size: 341.43306pt x 173.28854pt.
+<introduccion/figs/fig1_7_2.pdf, id=855, 501.18578pt x 561.27771pt>
+File: introduccion/figs/fig1_7_2.pdf Graphic file (type pdf)
+<use introduccion/figs/fig1_7_2.pdf>
+Package pdftex.def Info: introduccion/figs/fig1_7_2.pdf  used on input line 860
+.
+(pdftex.def)             Requested size: 284.52756pt x 318.65552pt.
+ [52 <./introduccion/figs/figintroA1.pdf>] [53 <./introduccion/figs/fig1_7_2.pd
+f>]
+<introduccion/figs/figintroA3.pdf, id=877, 577.81581pt x 1001.30269pt>
 File: introduccion/figs/figintroA3.pdf Graphic file (type pdf)
 <use introduccion/figs/figintroA3.pdf>
 Package pdftex.def Info: introduccion/figs/figintroA3.pdf  used on input line 8
@@ -836,18 +908,18 @@ Underfull \vbox (badness 1540) has occurred while \output is active []
 
  [59]
 [60]
-<introduccion/figs/fig18.pdf, id=890, 146.14601pt x 182.281pt>
+<introduccion/figs/fig18.pdf, id=931, 146.14601pt x 182.281pt>
 File: introduccion/figs/fig18.pdf Graphic file (type pdf)
 <use introduccion/figs/fig18.pdf>
 Package pdftex.def Info: introduccion/figs/fig18.pdf  used on input line 1088.
 (pdftex.def)             Requested size: 113.81102pt x 141.95331pt.
  [61 <./introduccion/figs/fig18.pdf>] [62]
-<introduccion/figs/fig19.pdf, id=904, 470.55798pt x 247.32399pt>
+<introduccion/figs/fig19.pdf, id=945, 470.55798pt x 247.32399pt>
 File: introduccion/figs/fig19.pdf Graphic file (type pdf)
 <use introduccion/figs/fig19.pdf>
 Package pdftex.def Info: introduccion/figs/fig19.pdf  used on input line 1195.
 (pdftex.def)             Requested size: 341.43306pt x 179.46568pt.
-<introduccion/figs/figalpha.pdf, id=906, 1797.31631pt x 372.30707pt>
+<introduccion/figs/figalpha.pdf, id=947, 1797.31631pt x 372.30707pt>
 File: introduccion/figs/figalpha.pdf Graphic file (type pdf)
 <use introduccion/figs/figalpha.pdf>
 Package pdftex.def Info: introduccion/figs/figalpha.pdf  used on input line 120
@@ -861,13 +933,13 @@ in the frame-work of the Brillouin--
 
 [63] [64 <./introduccion/figs/fig19.pdf> <./introduccion/figs/figalpha.pdf>]
 [65]
-<introduccion/figs/fig20.pdf, id=979, 697.00403pt x 284.26201pt>
+<introduccion/figs/fig20.pdf, id=1021, 697.00403pt x 284.26201pt>
 File: introduccion/figs/fig20.pdf Graphic file (type pdf)
 <use introduccion/figs/fig20.pdf>
 Package pdftex.def Info: introduccion/figs/fig20.pdf  used on input line 1282.
 (pdftex.def)             Requested size: 341.43306pt x 139.24622pt.
  [66 <./introduccion/figs/fig20.pdf>] [67]
-<introduccion/figs/fig21.pdf, id=994, 314.776pt x 417.56pt>
+<introduccion/figs/fig21.pdf, id=1035, 314.776pt x 417.56pt>
 File: introduccion/figs/fig21.pdf Graphic file (type pdf)
 <use introduccion/figs/fig21.pdf>
 Package pdftex.def Info: introduccion/figs/fig21.pdf  used on input line 1378.
@@ -877,7 +949,7 @@ Package pdftex.def Info: introduccion/figs/fig21.pdf  used on input line 1378.
 LaTeX Warning: Float too large for page by 16.75212pt on input line 1381.
 
 [68] [69 <./introduccion/figs/fig21.pdf>] [70] [71] [72]
-<introduccion/figs/fig22.pdf, id=1016, 712.26097pt x 302.731pt>
+<introduccion/figs/fig22.pdf, id=1057, 712.26097pt x 302.731pt>
 File: introduccion/figs/fig22.pdf Graphic file (type pdf)
 <use introduccion/figs/fig22.pdf>
 Package pdftex.def Info: introduccion/figs/fig22.pdf  used on input line 1503.
@@ -893,25 +965,25 @@ it/10.95 m; \OT1/txr/m/n/10.95 1; \OML/txmi/m/it/10.95 m; \OMS/txsy/m/n/10.95 ^
 ^@\OT1/txr/m/n/10.95 1)$,
  []
 
-<introduccion/figs/fig23.pdf, id=1030, 390.25798pt x 423.181pt>
+<introduccion/figs/fig23.pdf, id=1071, 390.25798pt x 423.181pt>
 File: introduccion/figs/fig23.pdf Graphic file (type pdf)
 <use introduccion/figs/fig23.pdf>
 Package pdftex.def Info: introduccion/figs/fig23.pdf  used on input line 1583.
 (pdftex.def)             Requested size: 284.52756pt x 308.53212pt.
 [75] [76 <./introduccion/figs/fig23.pdf>]
-<introduccion/figs/fig24a.pdf, id=1043, 372.59201pt x 472.164pt>
+<introduccion/figs/fig24a.pdf, id=1084, 372.59201pt x 472.164pt>
 File: introduccion/figs/fig24a.pdf Graphic file (type pdf)
 <use introduccion/figs/fig24a.pdf>
 Package pdftex.def Info: introduccion/figs/fig24a.pdf  used on input line 1614.
 
 (pdftex.def)             Requested size: 341.43306pt x 432.71027pt.
-<introduccion/figs/fig24b.pdf, id=1045, 278.641pt x 378.21298pt>
+<introduccion/figs/fig24b.pdf, id=1086, 278.641pt x 378.21298pt>
 File: introduccion/figs/fig24b.pdf Graphic file (type pdf)
 <use introduccion/figs/fig24b.pdf>
 Package pdftex.def Info: introduccion/figs/fig24b.pdf  used on input line 1619.
 
 (pdftex.def)             Requested size: 341.43306pt x 463.46788pt.
-<introduccion/figs/fig24c.pdf, id=1047, 502.678pt x 354.92601pt>
+<introduccion/figs/fig24c.pdf, id=1088, 502.678pt x 354.92601pt>
 File: introduccion/figs/fig24c.pdf Graphic file (type pdf)
 <use introduccion/figs/fig24c.pdf>
 Package pdftex.def Info: introduccion/figs/fig24c.pdf  used on input line 1625.
@@ -933,13 +1005,13 @@ Underfull \hbox (badness 2478) in paragraph at lines 1630--1630
 
 [77] [78 <./introduccion/figs/fig24a.pdf>] [79 <./introduccion/figs/fig24b.pdf>
 ] [80 <./introduccion/figs/fig24c.pdf>]
-<introduccion/figs/figintro6.pdf, id=1077, 1138.92947pt x 1092.0496pt>
+<introduccion/figs/figintro6.pdf, id=1118, 1138.92947pt x 1092.0496pt>
 File: introduccion/figs/figintro6.pdf Graphic file (type pdf)
 <use introduccion/figs/figintro6.pdf>
 Package pdftex.def Info: introduccion/figs/figintro6.pdf  used on input line 16
 57.
 (pdftex.def)             Requested size: 341.43306pt x 327.38412pt.
-<introduccion/figs/figintroF2.pdf, id=1079, 319.52498pt x 238.98645pt>
+<introduccion/figs/figintroF2.pdf, id=1120, 319.52498pt x 238.98645pt>
 File: introduccion/figs/figintroF2.pdf Graphic file (type pdf)
 <use introduccion/figs/figintroF2.pdf>
 Package pdftex.def Info: introduccion/figs/figintroF2.pdf  used on input line 1
@@ -947,7 +1019,7 @@ Package pdftex.def Info: introduccion/figs/figintroF2.pdf  used on input line 1
 (pdftex.def)             Requested size: 284.52756pt x 212.82489pt.
  [81] [82 <./introduccion/figs/figintro6.pdf>] [83 <./introduccion/figs/figintr
 oF2.pdf>] [84] [85] [86]
-<introduccion/figs/fig1_9_1.pdf, id=1221, 450.80287pt x 674.78479pt>
+<introduccion/figs/fig1_9_1.pdf, id=1262, 450.80287pt x 674.78479pt>
 File: introduccion/figs/fig1_9_1.pdf Graphic file (type pdf)
 <use introduccion/figs/fig1_9_1.pdf>
 Package pdftex.def Info: introduccion/figs/fig1_9_1.pdf  used on input line 172
@@ -956,6 +1028,98 @@ Package pdftex.def Info: introduccion/figs/fig1_9_1.pdf  used on input line 172
 
 
 LaTeX Warning: Float too large for page by 109.25491pt on input line 1726.
+
+! Undefined control sequence.
+\UseRawInputEncoding ...tencodingname \@undefined 
+                                                  \let \DeclareFontEncoding@...
+l.1727 ... \cite{Barranco:18} and \cite{Moro:19}.}
+                                                     According to NFT, this ...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Missing \endcsname inserted.
+<to be read again> 
+                   \let 
+l.1727 ... \cite{Barranco:18} and \cite{Moro:19}.}
+                                                     According to NFT, this ...
+The control sequence marked <to be read again> should
+not appear between \csname and \endcsname.
+
+! Missing \endcsname inserted.
+<to be read again> 
+                   \let 
+l.1727 ... \cite{Barranco:18} and \cite{Moro:19}.}
+                                                     According to NFT, this ...
+The control sequence marked <to be read again> should
+not appear between \csname and \endcsname.
+
+! Missing \endcsname inserted.
+<to be read again> 
+                   \let 
+l.1727 ... \cite{Barranco:18} and \cite{Moro:19}.}
+                                                     According to NFT, this ...
+The control sequence marked <to be read again> should
+not appear between \csname and \endcsname.
+
+! Undefined control sequence.
+<argument> \@undefined 
+                       
+l.1727 ... \cite{Barranco:18} and \cite{Moro:19}.}
+                                                     According to NFT, this ...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+\UseRawInputEncoding ...tencodingname \@undefined 
+                                                  \let \DeclareFontEncoding@...
+l.1735 ...anungo:15}; \cite{Sackett:93,Zinser:97}}
+                                                  . Thus, the connotation of...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Missing \endcsname inserted.
+<to be read again> 
+                   \let 
+l.1735 ...anungo:15}; \cite{Sackett:93,Zinser:97}}
+                                                  . Thus, the connotation of...
+The control sequence marked <to be read again> should
+not appear between \csname and \endcsname.
+
+! Missing \endcsname inserted.
+<to be read again> 
+                   \let 
+l.1735 ...anungo:15}; \cite{Sackett:93,Zinser:97}}
+                                                  . Thus, the connotation of...
+The control sequence marked <to be read again> should
+not appear between \csname and \endcsname.
+
+! Missing \endcsname inserted.
+<to be read again> 
+                   \let 
+l.1735 ...anungo:15}; \cite{Sackett:93,Zinser:97}}
+                                                  . Thus, the connotation of...
+The control sequence marked <to be read again> should
+not appear between \csname and \endcsname.
+
+! Undefined control sequence.
+<argument> \@undefined 
+                       
+l.1735 ...anungo:15}; \cite{Sackett:93,Zinser:97}}
+                                                  . Thus, the connotation of...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
 
 [87] [88 <./introduccion/figs/fig1_9_1.pdf>]
 Overfull \hbox (4.10826pt too wide) in paragraph at lines 1739--1740
@@ -973,7 +1137,7 @@ T1/txr/m/n/10.95 )[](\OML/txmi/m/it/10.95 R \OT1/txr/m/n/10.95 =
  []
 
 [90]
-<introduccion/figs/fig1_9_2xx.pdf, id=1320, 597.50786pt x 845.04686pt>
+<introduccion/figs/fig1_9_2xx.pdf, id=1362, 597.50786pt x 845.04686pt>
 File: introduccion/figs/fig1_9_2xx.pdf Graphic file (type pdf)
 <use introduccion/figs/fig1_9_2xx.pdf>
 Package pdftex.def Info: introduccion/figs/fig1_9_2xx.pdf  used on input line 1
@@ -983,7 +1147,7 @@ Package pdftex.def Info: introduccion/figs/fig1_9_2xx.pdf  used on input line 1
 
 LaTeX Warning: Float too large for page by 101.0807pt on input line 1761.
 
-<introduccion/figs/fig1_9_3xxx.pdf, id=1322, 208.39134pt x 319.09692pt>
+<introduccion/figs/fig1_9_3xxx.pdf, id=1364, 208.39134pt x 319.09692pt>
 File: introduccion/figs/fig1_9_3xxx.pdf Graphic file (type pdf)
 <use introduccion/figs/fig1_9_3xxx.pdf>
 Package pdftex.def Info: introduccion/figs/fig1_9_3xxx.pdf  used on input line 
@@ -998,13 +1162,13 @@ a) $[]$Li($\OML/txmi/m/it/10.95 p; t$\OT1/txr/m/n/10.95 )$[]$Li(gs), (b)
 
 LaTeX Warning: Float too large for page by 81.10901pt on input line 1774.
 
-<introduccion/figs/figintro5xx.pdf, id=1324, 331.75984pt x 204.06099pt>
+<introduccion/figs/figintro5xx.pdf, id=1366, 331.75984pt x 204.06099pt>
 File: introduccion/figs/figintro5xx.pdf Graphic file (type pdf)
 <use introduccion/figs/figintro5xx.pdf>
 Package pdftex.def Info: introduccion/figs/figintro5xx.pdf  used on input line 
 1778.
 (pdftex.def)             Requested size: 341.43306pt x 210.0139pt.
-<introduccion/figs/figintro6xxx.pdf, id=1326, 109.538pt x 192.45984pt>
+<introduccion/figs/figintro6xxx.pdf, id=1368, 109.538pt x 192.45984pt>
 File: introduccion/figs/figintro6xxx.pdf Graphic file (type pdf)
 <use introduccion/figs/figintro6xxx.pdf>
 Package pdftex.def Info: introduccion/figs/figintro6xxx.pdf  used on input line
@@ -1016,7 +1180,7 @@ Underfull \hbox (badness 1521) in paragraph at lines 1786--1786
 /m/n/10.95 --ray co-in-ci-dence ex-per-i-ment $[]$H($[]$Li,$[]$Li)$[]$H and
  []
 
-<introduccion/figs/fig1_9_4.pdf, id=1328, 223.2153pt x 407.76082pt>
+<introduccion/figs/fig1_9_4.pdf, id=1370, 223.2153pt x 407.76082pt>
 File: introduccion/figs/fig1_9_4.pdf Graphic file (type pdf)
 <use introduccion/figs/fig1_9_4.pdf>
 Package pdftex.def Info: introduccion/figs/fig1_9_4.pdf  used on input line 179
@@ -1025,7 +1189,7 @@ Package pdftex.def Info: introduccion/figs/fig1_9_4.pdf  used on input line 179
 [91] [92 <./introduccion/figs/fig1_9_2xx.pdf>] [93 <./introduccion/figs/fig1_9_
 3xxx.pdf>] [94 <./introduccion/figs/figintro5xx.pdf>] [95 <./introduccion/figs/
 figintro6xxx.pdf>] [96 <./introduccion/figs/fig1_9_4.pdf>] [97]
-<introduccion/figs/fig1_4_1.pdf, id=1453, 1092.58163pt x 680.23784pt>
+<introduccion/figs/fig1_4_1.pdf, id=1495, 1092.58163pt x 680.23784pt>
 File: introduccion/figs/fig1_4_1.pdf Graphic file (type pdf)
 <use introduccion/figs/fig1_4_1.pdf>
 Package pdftex.def Info: introduccion/figs/fig1_4_1.pdf  used on input line 184
@@ -1061,7 +1225,7 @@ LaTeX Warning: Reference `tab6.2.2' on page 102 undefined on input line 1896.
 LaTeX Warning: Reference `tab6.2.3' on page 102 undefined on input line 1897.
 
 [102] [103] [104] [105] [106] [107] [108]
-<introduccion/figs/fig1C1.pdf, id=1672, 494.648pt x 358.13799pt>
+<introduccion/figs/fig1C1.pdf, id=1713, 494.648pt x 358.13799pt>
 File: introduccion/figs/fig1C1.pdf Graphic file (type pdf)
 <use introduccion/figs/fig1C1.pdf>
 Package pdftex.def Info: introduccion/figs/fig1C1.pdf  used on input line 2178.
@@ -1074,7 +1238,7 @@ Overfull \hbox (1.06456pt too wide) in paragraph at lines 2192--2194
  []
 
 [109 <./introduccion/figs/fig1C1.pdf>]
-<introduccion/figs/fig1_C_2.pdf, id=1683, 822.97906pt x 539.0904pt>
+<introduccion/figs/fig1_C_2.pdf, id=1724, 822.97906pt x 539.0904pt>
 File: introduccion/figs/fig1_C_2.pdf Graphic file (type pdf)
 <use introduccion/figs/fig1_C_2.pdf>
 Package pdftex.def Info: introduccion/figs/fig1_C_2.pdf  used on input line 225
@@ -1087,7 +1251,7 @@ ilean op-er-a-tors ($\OMS/txsy/m/n/10.95 ^^X [] []$\OT1/txr/m/n/10.95 ).
  []
 
 [113]
-<introduccion/figs/fig1D1.pdf, id=1704, 582.84921pt x 193.45917pt>
+<introduccion/figs/fig1D1.pdf, id=1745, 582.84921pt x 193.45917pt>
 File: introduccion/figs/fig1D1.pdf Graphic file (type pdf)
 <use introduccion/figs/fig1D1.pdf>
 Package pdftex.def Info: introduccion/figs/fig1D1.pdf  used on input line 2313.
@@ -1137,12 +1301,131 @@ LaTeX Font Info:    Try loading font information for OT1+txtt on input line 373
  (/usr/share/texlive/texmf-dist/tex/latex/txfonts/ot1txtt.fd
 File: ot1txtt.fd 2000/12/15 v3.1
 ) [128]
-[129]
-Missing character: There is no ó in font txr!
- [130]
-Missing character: There is no ü in font txr!
- [131]
-Missing character: There is no ü in font txr!
+[129] [130]
+! Undefined control sequence.
+\UseRawInputEncoding ...tencodingname \@undefined 
+                                                  \let \DeclareFontEncoding@...
+l.688 ...Unsworth, Voss, and Wang]{Sanetullaev:16}
+                                                  
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Missing \endcsname inserted.
+<to be read again> 
+                   \let 
+l.688 ...Unsworth, Voss, and Wang]{Sanetullaev:16}
+                                                  
+The control sequence marked <to be read again> should
+not appear between \csname and \endcsname.
+
+! Missing \endcsname inserted.
+<to be read again> 
+                   \let 
+l.688 ...Unsworth, Voss, and Wang]{Sanetullaev:16}
+                                                  
+The control sequence marked <to be read again> should
+not appear between \csname and \endcsname.
+
+! Missing \endcsname inserted.
+<to be read again> 
+                   \let 
+l.688 ...Unsworth, Voss, and Wang]{Sanetullaev:16}
+                                                  
+The control sequence marked <to be read again> should
+not appear between \csname and \endcsname.
+
+! Undefined control sequence.
+<argument> \@undefined 
+                       
+l.688 ...Unsworth, Voss, and Wang]{Sanetullaev:16}
+                                                  
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+! Package inputenc Error: Invalid UTF-8 byte "FC.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.692   R.~Krü
+              cken, J.~Lighthall, E.~McNeice, D.~Miller, J.~Purcell, J.~Rand...
+
+The document does not appear to be in UTF-8 encoding.
+Try adding \UseRawInputEncoding as the first line of the file
+or specify an encoding such as \usepackage [latin1]{inputenc}
+in the document preamble.
+Alternatively, save the file in UTF-8 using your editor or another tool
+
+[131]
+! Undefined control sequence.
+\UseRawInputEncoding ...tencodingname \@undefined 
+                                                  \let \DeclareFontEncoding@...
+l.796   Wajda, and Zude]{Zinser:97}
+                                   
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Missing \endcsname inserted.
+<to be read again> 
+                   \let 
+l.796   Wajda, and Zude]{Zinser:97}
+                                   
+The control sequence marked <to be read again> should
+not appear between \csname and \endcsname.
+
+! Missing \endcsname inserted.
+<to be read again> 
+                   \let 
+l.796   Wajda, and Zude]{Zinser:97}
+                                   
+The control sequence marked <to be read again> should
+not appear between \csname and \endcsname.
+
+! Missing \endcsname inserted.
+<to be read again> 
+                   \let 
+l.796   Wajda, and Zude]{Zinser:97}
+                                   
+The control sequence marked <to be read again> should
+not appear between \csname and \endcsname.
+
+! Undefined control sequence.
+<argument> \@undefined 
+                       
+l.796   Wajda, and Zude]{Zinser:97}
+                                   
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+! Package inputenc Error: Invalid UTF-8 byte "FC.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.801   G.~Mü
+             nzenberg, F.~Nickel, G.~Nyman, A.~Richter, K.~Riisager,
+The document does not appear to be in UTF-8 encoding.
+Try adding \UseRawInputEncoding as the first line of the file
+or specify an encoding such as \usepackage [latin1]{inputenc}
+in the document preamble.
+Alternatively, save the file in UTF-8 using your editor or another tool
+
 )) [132]
 \openout2 = `nutshell/include_struct_nut.aux'.
 
@@ -1154,7 +1437,7 @@ Chapter 2.
 
 
 ]
-<nutshell/figs/Excited0Pb206tp.pdf, id=1789, 747.66498pt x 475.10979pt>
+<nutshell/figs/Excited0Pb206tp.pdf, id=1831, 747.66498pt x 475.10979pt>
 File: nutshell/figs/Excited0Pb206tp.pdf Graphic file (type pdf)
 <use nutshell/figs/Excited0Pb206tp.pdf>
 Package pdftex.def Info: nutshell/figs/Excited0Pb206tp.pdf  used on input line 
@@ -1167,36 +1450,56 @@ iza-tion known as the Hertree--
  []
 
 [136]
-<nutshell/figs/fig1_1_2.pdf, id=1835, 564.18776pt x 683.6742pt>
+<nutshell/figs/fig1_1_2.pdf, id=1876, 564.18776pt x 683.6742pt>
 File: nutshell/figs/fig1_1_2.pdf Graphic file (type pdf)
 <use nutshell/figs/fig1_1_2.pdf>
 Package pdftex.def Info: nutshell/figs/fig1_1_2.pdf  used on input line 34.
 (pdftex.def)             Requested size: 360.0pt x 436.25641pt.
-Missing character: There is no â in font txr!
-Missing character: There is no Ÿ in font txr!
-Missing character: There is no ¨ in font txr!
-Missing character: There is no â in font txr!
-Missing character: There is no Ÿ in font txr!
-Missing character: There is no ¨ in font txr!
+
+
+! Package inputenc Error: Unicode character âŸ¨ (U+27E8)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.42 ...ink:05} App. J). After \cite{Shimizu:90}.}
+                                                  \label{fig1.2}
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+! Package inputenc Error: Unicode character âŸ¨ (U+27E8)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.42 ...ink:05} App. J). After \cite{Shimizu:90}.}
+                                                  \label{fig1.2}
+You may provide a definition with
+\DeclareUnicodeCharacter 
 
 
 LaTeX Warning: Float too large for page by 87.97023pt on input line 43.
 
 [137] [138 <./nutshell/figs/fig1_1_2.pdf>]
-<nutshell/figs/ExcitedSn122pt.pdf, id=1848, 794.95897pt x 614.295pt>
+<nutshell/figs/ExcitedSn122pt.pdf, id=1889, 794.95897pt x 614.295pt>
 File: nutshell/figs/ExcitedSn122pt.pdf Graphic file (type pdf)
 <use nutshell/figs/ExcitedSn122pt.pdf>
 Package pdftex.def Info: nutshell/figs/ExcitedSn122pt.pdf  used on input line 5
 8.
 (pdftex.def)             Requested size: 360.0pt x 278.19238pt.
-<nutshell/figs/fig2_1_4.pdf, id=1850, 530.88284pt x 371.54608pt>
+<nutshell/figs/fig2_1_4.pdf, id=1891, 530.88284pt x 371.54608pt>
 File: nutshell/figs/fig2_1_4.pdf Graphic file (type pdf)
 <use nutshell/figs/fig2_1_4.pdf>
 Package pdftex.def Info: nutshell/figs/fig2_1_4.pdf  used on input line 62.
 (pdftex.def)             Requested size: 360.0pt x 251.95065pt.
  [139] [140 <./nutshell/figs/ExcitedSn122pt.pdf>] [141 <./nutshell/figs/fig2_1_
 4.pdf>] [142]
-<nutshell/figs/fig2_1_5.pdf, id=1920, 838.52959pt x 485.42505pt>
+<nutshell/figs/fig2_1_5.pdf, id=1961, 838.52959pt x 485.42505pt>
 File: nutshell/figs/fig2_1_5.pdf Graphic file (type pdf)
 <use nutshell/figs/fig2_1_5.pdf>
 Package pdftex.def Info: nutshell/figs/fig2_1_5.pdf  used on input line 88.
@@ -1206,7 +1509,7 @@ Package pdftex.def Info: nutshell/figs/fig2_1_5.pdf  used on input line 88.
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 [143] [144 <./nutshell/figs/fig2_1_5.pdf>]
-<nutshell/figs/cross_strength.pdf, id=1944, 529.55911pt x 444.25574pt>
+<nutshell/figs/cross_strength.pdf, id=1986, 529.55911pt x 444.25574pt>
 File: nutshell/figs/cross_strength.pdf Graphic file (type pdf)
 <use nutshell/figs/cross_strength.pdf>
 Package pdftex.def Info: nutshell/figs/cross_strength.pdf  used on input line 1
@@ -1219,7 +1522,7 @@ fer cross sec-tion
  []
 
 [145] [146 <./nutshell/figs/cross_strength.pdf>] [147]
-<nutshell/figs/potential.pdf, id=1990, 1384.59018pt x 687.39586pt>
+<nutshell/figs/potential.pdf, id=2031, 1384.59018pt x 687.39586pt>
 File: nutshell/figs/potential.pdf Graphic file (type pdf)
 <use nutshell/figs/potential.pdf>
 Package pdftex.def Info: nutshell/figs/potential.pdf  used on input line 229.
@@ -1230,12 +1533,12 @@ Package natbib Warning: Citation `Meissner:14' on page 148 undefined on input l
 ine 236.
 
 [148] [149 <./nutshell/figs/potential.pdf>]
-<nutshell/figs/diagrams1.pdf, id=2028, 964.35986pt x 462.9418pt>
+<nutshell/figs/diagrams1.pdf, id=2069, 964.35986pt x 462.9418pt>
 File: nutshell/figs/diagrams1.pdf Graphic file (type pdf)
 <use nutshell/figs/diagrams1.pdf>
 Package pdftex.def Info: nutshell/figs/diagrams1.pdf  used on input line 238.
 (pdftex.def)             Requested size: 360.0pt x 172.81865pt.
-<nutshell/figs/fig1A3.pdf, id=2030, 634.54375pt x 751.77579pt>
+<nutshell/figs/fig1A3.pdf, id=2071, 634.54375pt x 751.77579pt>
 File: nutshell/figs/fig1A3.pdf Graphic file (type pdf)
 <use nutshell/figs/fig1A3.pdf>
 Package pdftex.def Info: nutshell/figs/fig1A3.pdf  used on input line 244.
@@ -1244,18 +1547,18 @@ Package pdftex.def Info: nutshell/figs/fig1A3.pdf  used on input line 244.
 
 LaTeX Warning: Float too large for page by 44.709pt on input line 246.
 
-<nutshell/figs/fig1A4.pdf, id=2032, 426.39299pt x 444.05899pt>
+<nutshell/figs/fig1A4.pdf, id=2073, 426.39299pt x 444.05899pt>
 File: nutshell/figs/fig1A4.pdf Graphic file (type pdf)
 <use nutshell/figs/fig1A4.pdf>
 Package pdftex.def Info: nutshell/figs/fig1A4.pdf  used on input line 248.
 (pdftex.def)             Requested size: 251.9989pt x 262.43973pt.
-<nutshell/figs/fig1A5.pdf, id=2034, 556.93784pt x 487.87984pt>
+<nutshell/figs/fig1A5.pdf, id=2075, 556.93784pt x 487.87984pt>
 File: nutshell/figs/fig1A5.pdf Graphic file (type pdf)
 <use nutshell/figs/fig1A5.pdf>
 Package pdftex.def Info: nutshell/figs/fig1A5.pdf  used on input line 252.
 (pdftex.def)             Requested size: 251.9989pt x 220.75734pt.
 [150]
-<nutshell/figs/fig1D1.pdf, id=2039, 281.85298pt x 444.86201pt>
+<nutshell/figs/fig1D1.pdf, id=2080, 281.85298pt x 444.86201pt>
 File: nutshell/figs/fig1D1.pdf Graphic file (type pdf)
 <use nutshell/figs/fig1D1.pdf>
 Package pdftex.def Info: nutshell/figs/fig1D1.pdf  used on input line 285.
@@ -1275,7 +1578,7 @@ n/10.95 j\OML/txmi/m/it/10.95 v\OMS/txsy/m/n/10.95 j\OML/txmi/m/it/10.95 j[]j[]
  []
 
 [156]
-<nutshell/figs/resumevec.pdf, id=2146, 588.20375pt x 857.6539pt>
+<nutshell/figs/resumevec.pdf, id=2187, 588.20375pt x 857.6539pt>
 File: nutshell/figs/resumevec.pdf Graphic file (type pdf)
 <use nutshell/figs/resumevec.pdf>
 Package pdftex.def Info: nutshell/figs/resumevec.pdf  used on input line 382.
@@ -1288,7 +1591,7 @@ LaTeX Warning: Float too large for page by 77.31291pt on input line 384.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<nutshell/figs/fig1D3.pdf, id=2152, 520.45871pt x 612.32904pt>
+<nutshell/figs/fig1D3.pdf, id=2193, 520.45871pt x 612.32904pt>
 File: nutshell/figs/fig1D3.pdf Graphic file (type pdf)
 <use nutshell/figs/fig1D3.pdf>
 Package pdftex.def Info: nutshell/figs/fig1D3.pdf  used on input line 390.
@@ -1301,7 +1604,7 @@ th
 
 [158] [159 <./nutshell/figs/resumevec.pdf>] [160 <./nutshell/figs/fig1D3.pdf>]
 [161]
-<nutshell/figs/dispersion.pdf, id=2252, 517.1523pt x 414.6971pt>
+<nutshell/figs/dispersion.pdf, id=2293, 517.1523pt x 414.6971pt>
 File: nutshell/figs/dispersion.pdf Graphic file (type pdf)
 <use nutshell/figs/dispersion.pdf>
 Package pdftex.def Info: nutshell/figs/dispersion.pdf  used on input line 455.
@@ -1312,13 +1615,13 @@ Overfull \hbox (7.29993pt too wide) detected at line 536
  []
 
 [164]
-<nutshell/figs/removal_forward.pdf, id=2273, 115.29144pt x 194.67789pt>
+<nutshell/figs/removal_forward.pdf, id=2315, 115.29144pt x 194.67789pt>
 File: nutshell/figs/removal_forward.pdf Graphic file (type pdf)
 <use nutshell/figs/removal_forward.pdf>
 Package pdftex.def Info: nutshell/figs/removal_forward.pdf  used on input line 
 543.
 (pdftex.def)             Requested size: 36.0022pt x 60.79211pt.
-<nutshell/figs/removal_backward.pdf, id=2275, 134.2325pt x 111.79895pt>
+<nutshell/figs/removal_backward.pdf, id=2317, 134.2325pt x 111.79895pt>
 File: nutshell/figs/removal_backward.pdf Graphic file (type pdf)
 <use nutshell/figs/removal_backward.pdf>
 Package pdftex.def Info: nutshell/figs/removal_backward.pdf  used on input line
@@ -1326,7 +1629,7 @@ Package pdftex.def Info: nutshell/figs/removal_backward.pdf  used on input line
 (pdftex.def)             Requested size: 71.9989pt x 59.96793pt.
  [165 <./nutshell/figs/removal_forward.pdf> <./nutshell/figs/removal_backward.p
 df>] [166] [167]
-<nutshell/figs/addition_forward.pdf, id=2305, 131.9573pt x 194.67789pt>
+<nutshell/figs/addition_forward.pdf, id=2346, 131.9573pt x 194.67789pt>
 File: nutshell/figs/addition_forward.pdf Graphic file (type pdf)
 <use nutshell/figs/addition_forward.pdf>
 Package pdftex.def Info: nutshell/figs/addition_forward.pdf  used on input line
@@ -1337,7 +1640,7 @@ Overfull \hbox (10.49196pt too wide) detected at line 646
 []
  []
 
-<nutshell/figs/addition_backward.pdf, id=2307, 134.2325pt x 114.12901pt>
+<nutshell/figs/addition_backward.pdf, id=2348, 134.2325pt x 114.12901pt>
 File: nutshell/figs/addition_backward.pdf Graphic file (type pdf)
 <use nutshell/figs/addition_backward.pdf>
 Package pdftex.def Info: nutshell/figs/addition_backward.pdf  used on input lin
@@ -1345,25 +1648,212 @@ e 665.
 (pdftex.def)             Requested size: 71.9989pt x 61.21776pt.
 [168 <./nutshell/figs/addition_forward.pdf> <./nutshell/figs/addition_backward.
 pdf>]
-<nutshell/figs/fig1E6.pdf, id=2330, 656.38075pt x 601.33025pt>
+<nutshell/figs/fig1E6.pdf, id=2371, 656.38075pt x 601.33025pt>
 File: nutshell/figs/fig1E6.pdf Graphic file (type pdf)
 <use nutshell/figs/fig1E6.pdf>
 Package pdftex.def Info: nutshell/figs/fig1E6.pdf  used on input line 686.
 (pdftex.def)             Requested size: 360.0pt x 329.80592pt.
-<nutshell/figs/fig1E8.pdf, id=2332, 637.58202pt x 502.678pt>
+<nutshell/figs/fig1E8.pdf, id=2373, 637.58202pt x 502.678pt>
 File: nutshell/figs/fig1E8.pdf Graphic file (type pdf)
 <use nutshell/figs/fig1E8.pdf>
 Package pdftex.def Info: nutshell/figs/fig1E8.pdf  used on input line 730.
 (pdftex.def)             Requested size: 360.0pt x 283.8295pt.
  [169] [170 <./nutshell/figs/fig1E6.pdf>] [171] [172 <./nutshell/figs/fig1E8.pd
-f>] [173] [174] [175] [176]
+f>]
+! Undefined control sequence.
+\UseRawInputEncoding ...tencodingname \@undefined 
+                                                  \let \DeclareFontEncoding@...
+l.741 ...ell as \cite{Barranco:19}\cite{Moro:19}.}
+                                                  . Let us elaborate on this...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Missing \endcsname inserted.
+<to be read again> 
+                   \let 
+l.741 ...ell as \cite{Barranco:19}\cite{Moro:19}.}
+                                                  . Let us elaborate on this...
+The control sequence marked <to be read again> should
+not appear between \csname and \endcsname.
+
+! Missing \endcsname inserted.
+<to be read again> 
+                   \let 
+l.741 ...ell as \cite{Barranco:19}\cite{Moro:19}.}
+                                                  . Let us elaborate on this...
+The control sequence marked <to be read again> should
+not appear between \csname and \endcsname.
+
+! Missing \endcsname inserted.
+<to be read again> 
+                   \let 
+l.741 ...ell as \cite{Barranco:19}\cite{Moro:19}.}
+                                                  . Let us elaborate on this...
+The control sequence marked <to be read again> should
+not appear between \csname and \endcsname.
+
+! Undefined control sequence.
+<argument> \@undefined 
+                       
+l.741 ...ell as \cite{Barranco:19}\cite{Moro:19}.}
+                                                  . Let us elaborate on this...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+[173]
+! Undefined control sequence.
+\UseRawInputEncoding ...tencodingname \@undefined 
+                                                  \let \DeclareFontEncoding@...
+l.768 ... \cite{Kanungo:15}, \cite{Kobayashi:89}.}
+                                                  . The existence of this ``...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Missing \endcsname inserted.
+<to be read again> 
+                   \let 
+l.768 ... \cite{Kanungo:15}, \cite{Kobayashi:89}.}
+                                                  . The existence of this ``...
+The control sequence marked <to be read again> should
+not appear between \csname and \endcsname.
+
+! Missing \endcsname inserted.
+<to be read again> 
+                   \let 
+l.768 ... \cite{Kanungo:15}, \cite{Kobayashi:89}.}
+                                                  . The existence of this ``...
+The control sequence marked <to be read again> should
+not appear between \csname and \endcsname.
+
+! Missing \endcsname inserted.
+<to be read again> 
+                   \let 
+l.768 ... \cite{Kanungo:15}, \cite{Kobayashi:89}.}
+                                                  . The existence of this ``...
+The control sequence marked <to be read again> should
+not appear between \csname and \endcsname.
+
+! Undefined control sequence.
+<argument> \@undefined 
+                       
+l.768 ... \cite{Kanungo:15}, \cite{Kobayashi:89}.}
+                                                  . The existence of this ``...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+\UseRawInputEncoding ...tencodingname \@undefined 
+                                                  \let \DeclareFontEncoding@...
+l.768 ... \cite{Kanungo:15}, \cite{Kobayashi:89}.}
+                                                  . The existence of this ``...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Missing \endcsname inserted.
+<to be read again> 
+                   \let 
+l.768 ... \cite{Kanungo:15}, \cite{Kobayashi:89}.}
+                                                  . The existence of this ``...
+The control sequence marked <to be read again> should
+not appear between \csname and \endcsname.
+
+! Missing \endcsname inserted.
+<to be read again> 
+                   \let 
+l.768 ... \cite{Kanungo:15}, \cite{Kobayashi:89}.}
+                                                  . The existence of this ``...
+The control sequence marked <to be read again> should
+not appear between \csname and \endcsname.
+
+! Missing \endcsname inserted.
+<to be read again> 
+                   \let 
+l.768 ... \cite{Kanungo:15}, \cite{Kobayashi:89}.}
+                                                  . The existence of this ``...
+The control sequence marked <to be read again> should
+not appear between \csname and \endcsname.
+
+! Undefined control sequence.
+<argument> \@undefined 
+                       
+l.768 ... \cite{Kanungo:15}, \cite{Kobayashi:89}.}
+                                                  . The existence of this ``...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+[174] [175]
+! Undefined control sequence.
+\UseRawInputEncoding ...tencodingname \@undefined 
+                                                  \let \DeclareFontEncoding@...
+l.819 ...ntal value\footnote{\cite{Kobayashi:89}.}
+                                                   $\langle r^2\rangle_{^{11...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Missing \endcsname inserted.
+<to be read again> 
+                   \let 
+l.819 ...ntal value\footnote{\cite{Kobayashi:89}.}
+                                                   $\langle r^2\rangle_{^{11...
+The control sequence marked <to be read again> should
+not appear between \csname and \endcsname.
+
+! Missing \endcsname inserted.
+<to be read again> 
+                   \let 
+l.819 ...ntal value\footnote{\cite{Kobayashi:89}.}
+                                                   $\langle r^2\rangle_{^{11...
+The control sequence marked <to be read again> should
+not appear between \csname and \endcsname.
+
+! Missing \endcsname inserted.
+<to be read again> 
+                   \let 
+l.819 ...ntal value\footnote{\cite{Kobayashi:89}.}
+                                                   $\langle r^2\rangle_{^{11...
+The control sequence marked <to be read again> should
+not appear between \csname and \endcsname.
+
+! Undefined control sequence.
+<argument> \@undefined 
+                       
+l.819 ...ntal value\footnote{\cite{Kobayashi:89}.}
+                                                   $\langle r^2\rangle_{^{11...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+[176]
 Overfull \hbox (5.95367pt too wide) in paragraph at lines 855--857
 \OT1/txr/m/n/10.95 is the ``stan-dard'' self con-sis-tent dipole strength[]. Th
 e screen-ing fac-tor $\OML/txmi/m/it/10.95 s \OT1/txr/m/n/10.95 = (\OML/txmi/m/
 it/10.95 ^^T[]=^^T[]\OT1/txr/m/n/10.95 ) =
  []
 
-<nutshell/figs/fig1F1.pdf, id=2383, 293.898pt x 383.031pt>
+<nutshell/figs/fig1F1.pdf, id=2424, 293.898pt x 383.031pt>
 File: nutshell/figs/fig1F1.pdf Graphic file (type pdf)
 <use nutshell/figs/fig1F1.pdf>
 Package pdftex.def Info: nutshell/figs/fig1F1.pdf  used on input line 862.
@@ -1372,35 +1862,120 @@ Package pdftex.def Info: nutshell/figs/fig1F1.pdf  used on input line 862.
 LaTeX Warning: Float too large for page by 82.62991pt on input line 876.
 
 [177] [178 <./nutshell/figs/fig1F1.pdf>]
-<nutshell/figs/pigmy.pdf, id=2396, 679.93979pt x 265.83862pt>
+! Undefined control sequence.
+\UseRawInputEncoding ...tencodingname \@undefined 
+                                                  \let \DeclareFontEncoding@...
+l.880 ...ote{\cite{Zinser:97}, \cite{Kanungo:15}.}
+                                                  . It is of notice that the...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Missing \endcsname inserted.
+<to be read again> 
+                   \let 
+l.880 ...ote{\cite{Zinser:97}, \cite{Kanungo:15}.}
+                                                  . It is of notice that the...
+The control sequence marked <to be read again> should
+not appear between \csname and \endcsname.
+
+! Missing \endcsname inserted.
+<to be read again> 
+                   \let 
+l.880 ...ote{\cite{Zinser:97}, \cite{Kanungo:15}.}
+                                                  . It is of notice that the...
+The control sequence marked <to be read again> should
+not appear between \csname and \endcsname.
+
+! Missing \endcsname inserted.
+<to be read again> 
+                   \let 
+l.880 ...ote{\cite{Zinser:97}, \cite{Kanungo:15}.}
+                                                  . It is of notice that the...
+The control sequence marked <to be read again> should
+not appear between \csname and \endcsname.
+
+! Undefined control sequence.
+<argument> \@undefined 
+                       
+l.880 ...ote{\cite{Zinser:97}, \cite{Kanungo:15}.}
+                                                  . It is of notice that the...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+<nutshell/figs/pigmy.pdf, id=2437, 679.93979pt x 265.83862pt>
 File: nutshell/figs/pigmy.pdf Graphic file (type pdf)
 <use nutshell/figs/pigmy.pdf>
 Package pdftex.def Info: nutshell/figs/pigmy.pdf  used on input line 882.
 (pdftex.def)             Requested size: 180.0pt x 70.37387pt.
-<nutshell/figs/fig1F3.pdf, id=2398, 670.505pt x 495.451pt>
+<nutshell/figs/fig1F3.pdf, id=2439, 670.505pt x 495.451pt>
 File: nutshell/figs/fig1F3.pdf Graphic file (type pdf)
 <use nutshell/figs/fig1F3.pdf>
 Package pdftex.def Info: nutshell/figs/fig1F3.pdf  used on input line 886.
 (pdftex.def)             Requested size: 360.0pt x 266.01244pt.
-Missing character: There is no â in font txr!
-Missing character: There is no ˆ in font txr!
-Missing character: There is no ’ in font txr!
-Missing character: There is no â in font txr!
-Missing character: There is no ˆ in font txr!
-Missing character: There is no ’ in font txr!
- [179 <./nutshell/figs/pigmy.pdf>]
-[180 <./nutshell/figs/fig1F3.pdf>]
+[179 <./nutshell/figs/pigmy.pdf>] [180 <./nutshell/figs/fig1F3.pdf>]
 Overfull \hbox (1.11966pt too wide) in paragraph at lines 911--912
 []\OT1/txr/m/n/10.95 This schematic model[] has been im-ple-mented with mi-cro-
 scopic de-tail[] within
  []
+
+! Undefined control sequence.
+\UseRawInputEncoding ...tencodingname \@undefined 
+                                                  \let \DeclareFontEncoding@...
+l.916 ...17}, \cite{Barranco:19}, \cite{Moro:19}.}
+                                                  . The
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Missing \endcsname inserted.
+<to be read again> 
+                   \let 
+l.916 ...17}, \cite{Barranco:19}, \cite{Moro:19}.}
+                                                  . The
+The control sequence marked <to be read again> should
+not appear between \csname and \endcsname.
+
+! Missing \endcsname inserted.
+<to be read again> 
+                   \let 
+l.916 ...17}, \cite{Barranco:19}, \cite{Moro:19}.}
+                                                  . The
+The control sequence marked <to be read again> should
+not appear between \csname and \endcsname.
+
+! Missing \endcsname inserted.
+<to be read again> 
+                   \let 
+l.916 ...17}, \cite{Barranco:19}, \cite{Moro:19}.}
+                                                  . The
+The control sequence marked <to be read again> should
+not appear between \csname and \endcsname.
+
+! Undefined control sequence.
+<argument> \@undefined 
+                       
+l.916 ...17}, \cite{Barranco:19}, \cite{Moro:19}.}
+                                                  . The
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
 
 [181]
 Overfull \hbox (9.97652pt too wide) detected at line 954
 []
  []
 
-<nutshell/figs/VdW.pdf, id=2424, 529.73506pt x 340.4061pt>
+<nutshell/figs/VdW.pdf, id=2466, 529.73506pt x 340.4061pt>
 File: nutshell/figs/VdW.pdf Graphic file (type pdf)
 <use nutshell/figs/VdW.pdf>
 Package pdftex.def Info: nutshell/figs/VdW.pdf  used on input line 972.
@@ -1409,8 +1984,193 @@ Package pdftex.def Info: nutshell/figs/VdW.pdf  used on input line 972.
 LaTeX Warning: Float too large for page by 10.62949pt on input line 973.
 
 [182] [183 <./nutshell/figs/VdW.pdf>]
-Overfull \hbox (2.2119pt too wide) in paragraph at lines 1017--1031
- []
+! Undefined control sequence.
+\UseRawInputEncoding ...tencodingname \@undefined 
+                                                  \let \DeclareFontEncoding@...
+l.1018 ...\cite{Kanungo:15}, \cite{Kobayashi:89}.}
+                                                   to  become essentially de...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Missing \endcsname inserted.
+<to be read again> 
+                   \let 
+l.1018 ...\cite{Kanungo:15}, \cite{Kobayashi:89}.}
+                                                   to  become essentially de...
+The control sequence marked <to be read again> should
+not appear between \csname and \endcsname.
+
+! Missing \endcsname inserted.
+<to be read again> 
+                   \let 
+l.1018 ...\cite{Kanungo:15}, \cite{Kobayashi:89}.}
+                                                   to  become essentially de...
+The control sequence marked <to be read again> should
+not appear between \csname and \endcsname.
+
+! Missing \endcsname inserted.
+<to be read again> 
+                   \let 
+l.1018 ...\cite{Kanungo:15}, \cite{Kobayashi:89}.}
+                                                   to  become essentially de...
+The control sequence marked <to be read again> should
+not appear between \csname and \endcsname.
+
+! Undefined control sequence.
+<argument> \@undefined 
+                       
+l.1018 ...\cite{Kanungo:15}, \cite{Kobayashi:89}.}
+                                                   to  become essentially de...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+\UseRawInputEncoding ...tencodingname \@undefined 
+                                                  \let \DeclareFontEncoding@...
+l.1018 ...\cite{Kanungo:15}, \cite{Kobayashi:89}.}
+                                                   to  become essentially de...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Missing \endcsname inserted.
+<to be read again> 
+                   \let 
+l.1018 ...\cite{Kanungo:15}, \cite{Kobayashi:89}.}
+                                                   to  become essentially de...
+The control sequence marked <to be read again> should
+not appear between \csname and \endcsname.
+
+! Missing \endcsname inserted.
+<to be read again> 
+                   \let 
+l.1018 ...\cite{Kanungo:15}, \cite{Kobayashi:89}.}
+                                                   to  become essentially de...
+The control sequence marked <to be read again> should
+not appear between \csname and \endcsname.
+
+! Missing \endcsname inserted.
+<to be read again> 
+                   \let 
+l.1018 ...\cite{Kanungo:15}, \cite{Kobayashi:89}.}
+                                                   to  become essentially de...
+The control sequence marked <to be read again> should
+not appear between \csname and \endcsname.
+
+! Undefined control sequence.
+<argument> \@undefined 
+                       
+l.1018 ...\cite{Kanungo:15}, \cite{Kobayashi:89}.}
+                                                   to  become essentially de...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+\UseRawInputEncoding ...tencodingname \@undefined 
+                                                  \let \DeclareFontEncoding@...
+l.1030 ...f this mode\footnote{\cite{Iwasaki:00}.}
+                                                  .
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Missing \endcsname inserted.
+<to be read again> 
+                   \let 
+l.1030 ...f this mode\footnote{\cite{Iwasaki:00}.}
+                                                  .
+The control sequence marked <to be read again> should
+not appear between \csname and \endcsname.
+
+! Missing \endcsname inserted.
+<to be read again> 
+                   \let 
+l.1030 ...f this mode\footnote{\cite{Iwasaki:00}.}
+                                                  .
+The control sequence marked <to be read again> should
+not appear between \csname and \endcsname.
+
+! Missing \endcsname inserted.
+<to be read again> 
+                   \let 
+l.1030 ...f this mode\footnote{\cite{Iwasaki:00}.}
+                                                  .
+The control sequence marked <to be read again> should
+not appear between \csname and \endcsname.
+
+! Undefined control sequence.
+<argument> \@undefined 
+                       
+l.1030 ...f this mode\footnote{\cite{Iwasaki:00}.}
+                                                  .
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+\UseRawInputEncoding ...tencodingname \@undefined 
+                                                  \let \DeclareFontEncoding@...
+l.1030 ...f this mode\footnote{\cite{Iwasaki:00}.}
+                                                  .
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Missing \endcsname inserted.
+<to be read again> 
+                   \let 
+l.1030 ...f this mode\footnote{\cite{Iwasaki:00}.}
+                                                  .
+The control sequence marked <to be read again> should
+not appear between \csname and \endcsname.
+
+! Missing \endcsname inserted.
+<to be read again> 
+                   \let 
+l.1030 ...f this mode\footnote{\cite{Iwasaki:00}.}
+                                                  .
+The control sequence marked <to be read again> should
+not appear between \csname and \endcsname.
+
+! Missing \endcsname inserted.
+<to be read again> 
+                   \let 
+l.1030 ...f this mode\footnote{\cite{Iwasaki:00}.}
+                                                  .
+The control sequence marked <to be read again> should
+not appear between \csname and \endcsname.
+
+! Undefined control sequence.
+<argument> \@undefined 
+                       
+l.1030 ...f this mode\footnote{\cite{Iwasaki:00}.}
+                                                  .
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+Overfull \hbox (169.22098pt too wide) in paragraph at lines 1017--1031
+\OT1/txr/m/n/10.95 par-tic-u-lar, mak-ing use of the re-ac-tions, []
  []
 
 
@@ -1419,7 +2179,7 @@ Overfull \hbox (2.2119pt too wide) in paragraph at lines 1017--1031
  []
 
 [184] [185]
-Overfull \hbox (9.88634pt too wide) in paragraph at lines 1047--1060
+Overfull \hbox (9.88641pt too wide) in paragraph at lines 1047--1060
 [][] 
  []
 
@@ -1427,25 +2187,25 @@ Overfull \hbox (9.88634pt too wide) in paragraph at lines 1047--1060
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 [186] [187]
-<nutshell/figs/fig2D3.pdf, id=2475, 162.88156pt x 134.24306pt>
+<nutshell/figs/fig2D3.pdf, id=2516, 162.88156pt x 134.24306pt>
 File: nutshell/figs/fig2D3.pdf Graphic file (type pdf)
 <use nutshell/figs/fig2D3.pdf>
 Package pdftex.def Info: nutshell/figs/fig2D3.pdf  used on input line 1109.
 (pdftex.def)             Requested size: 142.26378pt x 117.25343pt.
  [188]
-<nutshell/figs/fig2D4.pdf, id=2480, 199.57468pt x 257.74666pt>
+<nutshell/figs/fig2D4.pdf, id=2521, 199.57468pt x 257.74666pt>
 File: nutshell/figs/fig2D4.pdf Graphic file (type pdf)
 <use nutshell/figs/fig2D4.pdf>
 Package pdftex.def Info: nutshell/figs/fig2D4.pdf  used on input line 1125.
 (pdftex.def)             Requested size: 142.26378pt x 183.74078pt.
  [189 <./nutshell/figs/fig2D3.pdf> <./nutshell/figs/fig2D4.pdf>] [190]
-<nutshell/figs/fig2D5.pdf, id=2504, 135.42516pt x 110.11205pt>
+<nutshell/figs/fig2D5.pdf, id=2545, 135.42516pt x 110.11205pt>
 File: nutshell/figs/fig2D5.pdf Graphic file (type pdf)
 <use nutshell/figs/fig2D5.pdf>
 Package pdftex.def Info: nutshell/figs/fig2D5.pdf  used on input line 1182.
 (pdftex.def)             Requested size: 113.81102pt x 92.53883pt.
  [191 <./nutshell/figs/fig2D5.pdf>]
-<nutshell/figs/fig2D6.pdf, id=2517, 211.99731pt x 53.15753pt>
+<nutshell/figs/fig2D6.pdf, id=2558, 211.99731pt x 53.15753pt>
 File: nutshell/figs/fig2D6.pdf Graphic file (type pdf)
 <use nutshell/figs/fig2D6.pdf>
 Package pdftex.def Info: nutshell/figs/fig2D6.pdf  used on input line 1229.
@@ -1455,7 +2215,7 @@ Package pdftex.def Info: nutshell/figs/fig2D6.pdf  used on input line 1229.
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 [192] [193 <./nutshell/figs/fig2D6.pdf>]
-<nutshell/figs/fig2D7.pdf, id=2534, 390.43796pt x 279.36505pt>
+<nutshell/figs/fig2D7.pdf, id=2575, 390.43796pt x 279.36505pt>
 File: nutshell/figs/fig2D7.pdf Graphic file (type pdf)
 <use nutshell/figs/fig2D7.pdf>
 Package pdftex.def Info: nutshell/figs/fig2D7.pdf  used on input line 1266.
@@ -1473,12 +2233,12 @@ Overfull \hbox (0.85661pt too wide) in paragraph at lines 1288--1289
  []
 
 [196] [197]
-<nutshell/figs/fig2E1.pdf, id=2556, 487.5816pt x 699.81451pt>
+<nutshell/figs/fig2E1.pdf, id=2597, 487.5816pt x 699.81451pt>
 File: nutshell/figs/fig2E1.pdf Graphic file (type pdf)
 <use nutshell/figs/fig2E1.pdf>
 Package pdftex.def Info: nutshell/figs/fig2E1.pdf  used on input line 1313.
 (pdftex.def)             Requested size: 341.43306pt x 490.05904pt.
-<nutshell/figs/fig2E2.pdf, id=2558, 504.48749pt x 767.10326pt>
+<nutshell/figs/fig2E2.pdf, id=2599, 504.48749pt x 767.10326pt>
 File: nutshell/figs/fig2E2.pdf Graphic file (type pdf)
 <use nutshell/figs/fig2E2.pdf>
 Package pdftex.def Info: nutshell/figs/fig2E2.pdf  used on input line 1317.
@@ -1486,19 +2246,321 @@ Package pdftex.def Info: nutshell/figs/fig2E2.pdf  used on input line 1317.
  [198] [199] [200 <./nutshell/figs/fig2E1.pdf>] [201 <./nutshell/figs/fig2E2.pd
 f>] (./nutshell/include_struct_nut.bbl [202] [203] [204] [205]
 [206] [207] [208]
-Missing character: There is no ü in font txr!
-Missing character: There is no ö in font txr!
- [209]
-Missing character: There is no ü in font txr!
- [210]
-Missing character: There is no ó in font txr!
- [211] [212] [213]
-Missing character: There is no ü in font txr!
- [214])) [215]
+! Undefined control sequence.
+\UseRawInputEncoding ...tencodingname \@undefined 
+                                                  \let \DeclareFontEncoding@...
+l.703   and Ishihara]{Iwasaki:00}
+                                 
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Missing \endcsname inserted.
+<to be read again> 
+                   \let 
+l.703   and Ishihara]{Iwasaki:00}
+                                 
+The control sequence marked <to be read again> should
+not appear between \csname and \endcsname.
+
+! Missing \endcsname inserted.
+<to be read again> 
+                   \let 
+l.703   and Ishihara]{Iwasaki:00}
+                                 
+The control sequence marked <to be read again> should
+not appear between \csname and \endcsname.
+
+! Missing \endcsname inserted.
+<to be read again> 
+                   \let 
+l.703   and Ishihara]{Iwasaki:00}
+                                 
+The control sequence marked <to be read again> should
+not appear between \csname and \endcsname.
+
+! Undefined control sequence.
+<argument> \@undefined 
+                       
+l.703   and Ishihara]{Iwasaki:00}
+                                 
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+\UseRawInputEncoding ...tencodingname \@undefined 
+                                                  \let \DeclareFontEncoding@...
+l.703   and Ishihara]{Iwasaki:00}
+                                 
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Missing \endcsname inserted.
+<to be read again> 
+                   \let 
+l.703   and Ishihara]{Iwasaki:00}
+                                 
+The control sequence marked <to be read again> should
+not appear between \csname and \endcsname.
+
+! Missing \endcsname inserted.
+<to be read again> 
+                   \let 
+l.703   and Ishihara]{Iwasaki:00}
+                                 
+The control sequence marked <to be read again> should
+not appear between \csname and \endcsname.
+
+! Missing \endcsname inserted.
+<to be read again> 
+                   \let 
+l.703   and Ishihara]{Iwasaki:00}
+                                 
+The control sequence marked <to be read again> should
+not appear between \csname and \endcsname.
+
+! Undefined control sequence.
+<argument> \@undefined 
+                       
+l.703   and Ishihara]{Iwasaki:00}
+                                 
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+! Package inputenc Error: Invalid UTF-8 byte "FC.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.705   Z.~Fü
+             löp, K.~Hahn, Y.~Higurashi, M.~Hirai, I.~Hisanaga, N.~Iwasa, T....
+
+The document does not appear to be in UTF-8 encoding.
+Try adding \UseRawInputEncoding as the first line of the file
+or specify an encoding such as \usepackage [latin1]{inputenc}
+in the document preamble.
+Alternatively, save the file in UTF-8 using your editor or another tool
+
+
+! Package inputenc Error: Invalid UTF-8 byte "F6.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.705   Z.~Fülö
+               p, K.~Hahn, Y.~Higurashi, M.~Hirai, I.~Hisanaga, N.~Iwasa, T....
+
+The document does not appear to be in UTF-8 encoding.
+Try adding \UseRawInputEncoding as the first line of the file
+or specify an encoding such as \usepackage [latin1]{inputenc}
+in the document preamble.
+Alternatively, save the file in UTF-8 using your editor or another tool
+
+[209]
+! Undefined control sequence.
+\UseRawInputEncoding ...tencodingname \@undefined 
+                                                  \let \DeclareFontEncoding@...
+l.746   Wieman]{Kobayashi:89}
+                             
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Missing \endcsname inserted.
+<to be read again> 
+                   \let 
+l.746   Wieman]{Kobayashi:89}
+                             
+The control sequence marked <to be read again> should
+not appear between \csname and \endcsname.
+
+! Missing \endcsname inserted.
+<to be read again> 
+                   \let 
+l.746   Wieman]{Kobayashi:89}
+                             
+The control sequence marked <to be read again> should
+not appear between \csname and \endcsname.
+
+! Missing \endcsname inserted.
+<to be read again> 
+                   \let 
+l.746   Wieman]{Kobayashi:89}
+                             
+The control sequence marked <to be read again> should
+not appear between \csname and \endcsname.
+
+! Undefined control sequence.
+<argument> \@undefined 
+                       
+l.746   Wieman]{Kobayashi:89}
+                             
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+! Package inputenc Error: Invalid UTF-8 byte "FC.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.748   T.~Minamisono, K.~Sugimoto, W.~Mü
+                                         ller, D.~L. Olson, T.~J.~M. Symons,...
+
+The document does not appear to be in UTF-8 encoding.
+Try adding \UseRawInputEncoding as the first line of the file
+or specify an encoding such as \usepackage [latin1]{inputenc}
+in the document preamble.
+Alternatively, save the file in UTF-8 using your editor or another tool
+
+[210]
+! Undefined control sequence.
+\UseRawInputEncoding ...tencodingname \@undefined 
+                                                  \let \DeclareFontEncoding@...
+l.848 ...19)Moro, Casal, and Gómez-Ramos]{Moro:19}
+                                                  
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Missing \endcsname inserted.
+<to be read again> 
+                   \let 
+l.848 ...19)Moro, Casal, and Gómez-Ramos]{Moro:19}
+                                                  
+The control sequence marked <to be read again> should
+not appear between \csname and \endcsname.
+
+! Missing \endcsname inserted.
+<to be read again> 
+                   \let 
+l.848 ...19)Moro, Casal, and Gómez-Ramos]{Moro:19}
+                                                  
+The control sequence marked <to be read again> should
+not appear between \csname and \endcsname.
+
+! Missing \endcsname inserted.
+<to be read again> 
+                   \let 
+l.848 ...19)Moro, Casal, and Gómez-Ramos]{Moro:19}
+                                                  
+The control sequence marked <to be read again> should
+not appear between \csname and \endcsname.
+
+! Undefined control sequence.
+<argument> \@undefined 
+                       
+l.848 ...19)Moro, Casal, and Gómez-Ramos]{Moro:19}
+                                                  
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+! Package inputenc Error: Invalid UTF-8 byte sequence.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.849 A.~Moro, J.~Casal, and M.~Gómez
+                                     -Ramos.
+The document does not appear to be in UTF-8 encoding.
+Try adding \UseRawInputEncoding as the first line of the file
+or specify an encoding such as \usepackage [latin1]{inputenc}
+in the document preamble.
+Alternatively, save the file in UTF-8 using your editor or another tool
+
+[211] [212] [213] [214]
+! Undefined control sequence.
+\UseRawInputEncoding ...tencodingname \@undefined 
+                                                  \let \DeclareFontEncoding@...
+l.1169   Wajda, and Zude]{Zinser:97}
+                                    
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Missing \endcsname inserted.
+<to be read again> 
+                   \let 
+l.1169   Wajda, and Zude]{Zinser:97}
+                                    
+The control sequence marked <to be read again> should
+not appear between \csname and \endcsname.
+
+! Missing \endcsname inserted.
+<to be read again> 
+                   \let 
+l.1169   Wajda, and Zude]{Zinser:97}
+                                    
+The control sequence marked <to be read again> should
+not appear between \csname and \endcsname.
+
+! Missing \endcsname inserted.
+<to be read again> 
+                   \let 
+l.1169   Wajda, and Zude]{Zinser:97}
+                                    
+The control sequence marked <to be read again> should
+not appear between \csname and \endcsname.
+
+! Undefined control sequence.
+<argument> \@undefined 
+                       
+l.1169   Wajda, and Zude]{Zinser:97}
+                                    
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+! Package inputenc Error: Invalid UTF-8 byte "FC.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1174   G.~Mü
+              nzenberg, F.~Nickel, G.~Nyman, A.~Richter, K.~Riisager,
+The document does not appear to be in UTF-8 encoding.
+Try adding \UseRawInputEncoding as the first line of the file
+or specify an encoding such as \usepackage [latin1]{inputenc}
+in the document preamble.
+Alternatively, save the file in UTF-8 using your editor or another tool
+
+)) [215]
 \openout2 = `nutshell/include_trans_nut.aux'.
 
-
-(./nutshell/include_trans_nut.tex [216
+ (./nutshell/include_trans_nut.tex [216
 
 
 
@@ -1509,7 +2571,7 @@ Chapter 3.
 Underfull \vbox (badness 3209) has occurred while \output is active []
 
  [217]
-<nutshell/figs/fig_alpha.pdf, id=2669, 1498.964pt x 1856.41234pt>
+<nutshell/figs/fig_alpha.pdf, id=2710, 1498.964pt x 1856.41234pt>
 File: nutshell/figs/fig_alpha.pdf Graphic file (type pdf)
 <use nutshell/figs/fig_alpha.pdf>
 Package pdftex.def Info: nutshell/figs/fig_alpha.pdf  used on input line 16.
@@ -1518,7 +2580,7 @@ Package pdftex.def Info: nutshell/figs/fig_alpha.pdf  used on input line 16.
 
 LaTeX Warning: Float too large for page by 23.23112pt on input line 18.
 
-<nutshell/figs/fig_beta.pdf, id=2671, 1776.18365pt x 2469.90944pt>
+<nutshell/figs/fig_beta.pdf, id=2712, 1776.18365pt x 2469.90944pt>
 File: nutshell/figs/fig_beta.pdf Graphic file (type pdf)
 <use nutshell/figs/fig_beta.pdf>
 Package pdftex.def Info: nutshell/figs/fig_beta.pdf  used on input line 20.
@@ -1526,7 +2588,7 @@ Package pdftex.def Info: nutshell/figs/fig_beta.pdf  used on input line 20.
 
 LaTeX Warning: Float too large for page by 114.27142pt on input line 22.
 
-<nutshell/figs/fig_gamma.pdf, id=2673, 597.50786pt x 845.04686pt>
+<nutshell/figs/fig_gamma.pdf, id=2714, 597.50786pt x 845.04686pt>
 File: nutshell/figs/fig_gamma.pdf Graphic file (type pdf)
 <use nutshell/figs/fig_gamma.pdf>
 Package pdftex.def Info: nutshell/figs/fig_gamma.pdf  used on input line 24.
@@ -1544,7 +2606,7 @@ $ \OT1/txr/m/n/10.95 gs ab-so-lute cross sec-tion $\OML/txmi/m/it/10.95 ^^[\OT1
  []
 
 [225]
-<nutshell/figs/fig3_1_4.pdf, id=2761, 688.54886pt x 491.97504pt>
+<nutshell/figs/fig3_1_4.pdf, id=2803, 688.54886pt x 491.97504pt>
 File: nutshell/figs/fig3_1_4.pdf Graphic file (type pdf)
 <use nutshell/figs/fig3_1_4.pdf>
 Package pdftex.def Info: nutshell/figs/fig3_1_4.pdf  used on input line 132.
@@ -1553,7 +2615,7 @@ Package pdftex.def Info: nutshell/figs/fig3_1_4.pdf  used on input line 132.
 
 LaTeX Warning: Float too large for page by 25.2174pt on input line 134.
 
-<nutshell/figs/fig3_2_2.pdf, id=2763, 845.1575pt x 597.23125pt>
+<nutshell/figs/fig3_2_2.pdf, id=2805, 845.1575pt x 597.23125pt>
 File: nutshell/figs/fig3_2_2.pdf Graphic file (type pdf)
 <use nutshell/figs/fig3_2_2.pdf>
 Package pdftex.def Info: nutshell/figs/fig3_2_2.pdf  used on input line 136.
@@ -1566,7 +2628,7 @@ Overfull \hbox (0.95253pt too wide) in paragraph at lines 191--192
  []
 
 [232]
-<nutshell/figs/fig3_3_1.pdf, id=2955, 1353.14015pt x 876.42636pt>
+<nutshell/figs/fig3_3_1.pdf, id=2996, 1353.14015pt x 876.42636pt>
 File: nutshell/figs/fig3_3_1.pdf Graphic file (type pdf)
 <use nutshell/figs/fig3_3_1.pdf>
 Package pdftex.def Info: nutshell/figs/fig3_3_1.pdf  used on input line 206.
@@ -1576,30 +2638,30 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [233]
 [234 <./nutshell/figs/fig3_3_1.pdf>]
-<nutshell/figs/fig3_3_2.pdf, id=2972, 634.90024pt x 387.21806pt>
+<nutshell/figs/fig3_3_2.pdf, id=3013, 634.90024pt x 387.21806pt>
 File: nutshell/figs/fig3_3_2.pdf Graphic file (type pdf)
 <use nutshell/figs/fig3_3_2.pdf>
 Package pdftex.def Info: nutshell/figs/fig3_3_2.pdf  used on input line 251.
 (pdftex.def)             Requested size: 426.79134pt x 260.30328pt.
  [235] [236 <./nutshell/figs/fig3_3_2.pdf>] [237]
-<nutshell/figs/fig_1.pdf, id=2991, 524.80748pt x 414.97548pt>
+<nutshell/figs/fig_1.pdf, id=3032, 524.80748pt x 414.97548pt>
 File: nutshell/figs/fig_1.pdf Graphic file (type pdf)
 <use nutshell/figs/fig_1.pdf>
 Package pdftex.def Info: nutshell/figs/fig_1.pdf  used on input line 368.
 (pdftex.def)             Requested size: 180.0pt x 142.33087pt.
  [238 <./nutshell/figs/fig_1.pdf>]
-<nutshell/figs/fig2A2.pdf, id=3005, 954.50186pt x 464.59283pt>
+<nutshell/figs/fig2A2.pdf, id=3046, 954.50186pt x 464.59283pt>
 File: nutshell/figs/fig2A2.pdf Graphic file (type pdf)
 <use nutshell/figs/fig2A2.pdf>
 Package pdftex.def Info: nutshell/figs/fig2A2.pdf  used on input line 395.
 (pdftex.def)             Requested size: 360.0pt x 175.22853pt.
-<nutshell/figs/fig2A3x.pdf, id=3007, 645.03827pt x 285.59698pt>
+<nutshell/figs/fig2A3x.pdf, id=3048, 645.03827pt x 285.59698pt>
 File: nutshell/figs/fig2A3x.pdf Graphic file (type pdf)
 <use nutshell/figs/fig2A3x.pdf>
 Package pdftex.def Info: nutshell/figs/fig2A3x.pdf  used on input line 399.
 (pdftex.def)             Requested size: 360.0pt x 159.39284pt.
  [239] [240 <./nutshell/figs/fig2A2.pdf> <./nutshell/figs/fig2A3x.pdf>]
-<nutshell/figs/tp_Pb_contributions.pdf, id=3069, 497.057pt x 463.33101pt>
+<nutshell/figs/tp_Pb_contributions.pdf, id=3111, 497.057pt x 463.33101pt>
 File: nutshell/figs/tp_Pb_contributions.pdf Graphic file (type pdf)
 <use nutshell/figs/tp_Pb_contributions.pdf>
 Package pdftex.def Info: nutshell/figs/tp_Pb_contributions.pdf  used on input l
@@ -1613,28 +2675,28 @@ b(gs).
  []
 
 [241] [242 <./nutshell/figs/tp_Pb_contributions.pdf>]
-<nutshell/figs/fig_2.pdf, id=3126, 493.07019pt x 453.15514pt>
+<nutshell/figs/fig_2.pdf, id=3167, 493.07019pt x 453.15514pt>
 File: nutshell/figs/fig_2.pdf Graphic file (type pdf)
 <use nutshell/figs/fig_2.pdf>
 Package pdftex.def Info: nutshell/figs/fig_2.pdf  used on input line 435.
 (pdftex.def)             Requested size: 180.0pt x 165.42444pt.
-<nutshell/figs/fig_3.pdf, id=3128, 493.39532pt x 274.26813pt>
+<nutshell/figs/fig_3.pdf, id=3169, 493.39532pt x 274.26813pt>
 File: nutshell/figs/fig_3.pdf Graphic file (type pdf)
 <use nutshell/figs/fig_3.pdf>
 Package pdftex.def Info: nutshell/figs/fig_3.pdf  used on input line 439.
 (pdftex.def)             Requested size: 143.9978pt x 80.0421pt.
  [243 <./nutshell/figs/fig_2.pdf> <./nutshell/figs/fig_3.pdf>]
-<nutshell/figs/fig3B3.pdf, id=3153, 474.57298pt x 452.89201pt>
+<nutshell/figs/fig3B3.pdf, id=3194, 474.57298pt x 452.89201pt>
 File: nutshell/figs/fig3B3.pdf Graphic file (type pdf)
 <use nutshell/figs/fig3B3.pdf>
 Package pdftex.def Info: nutshell/figs/fig3B3.pdf  used on input line 459.
 (pdftex.def)             Requested size: 426.79134pt x 407.29497pt.
-<nutshell/figs/fig3B4.pdf, id=3155, 485.01201pt x 405.515pt>
+<nutshell/figs/fig3B4.pdf, id=3196, 485.01201pt x 405.515pt>
 File: nutshell/figs/fig3B4.pdf Graphic file (type pdf)
 <use nutshell/figs/fig3B4.pdf>
 Package pdftex.def Info: nutshell/figs/fig3B4.pdf  used on input line 465.
 (pdftex.def)             Requested size: 426.79134pt x 356.8419pt.
-<nutshell/figs/fig2B3.pdf, id=3157, 360.54701pt x 316.38202pt>
+<nutshell/figs/fig2B3.pdf, id=3198, 360.54701pt x 316.38202pt>
 File: nutshell/figs/fig2B3.pdf Graphic file (type pdf)
 <use nutshell/figs/fig2B3.pdf>
 Package pdftex.def Info: nutshell/figs/fig2B3.pdf  used on input line 513.
@@ -1649,7 +2711,7 @@ LaTeX Warning: Reference `eqalpha' on page 256 undefined on input line 796.
 LaTeX Warning: Reference `eqalpha' on page 256 undefined on input line 799.
 
 [256]
-<nutshell/figs/fig3D1.pdf, id=3215, 591.92566pt x 1083.72702pt>
+<nutshell/figs/fig3D1.pdf, id=3257, 591.92566pt x 1083.72702pt>
 File: nutshell/figs/fig3D1.pdf Graphic file (type pdf)
 <use nutshell/figs/fig3D1.pdf>
 Package pdftex.def Info: nutshell/figs/fig3D1.pdf  used on input line 828.
@@ -1659,7 +2721,7 @@ Package pdftex.def Info: nutshell/figs/fig3D1.pdf  used on input line 828.
 LaTeX Warning: Float too large for page by 84.72699pt on input line 830.
 
 [257] [258 <./nutshell/figs/fig3D1.pdf>] [259]
-<nutshell/figs/fig3_8_1.pdf, id=3258, 844.83629pt x 597.432pt>
+<nutshell/figs/fig3_8_1.pdf, id=3300, 844.83629pt x 597.432pt>
 File: nutshell/figs/fig3_8_1.pdf Graphic file (type pdf)
 <use nutshell/figs/fig3_8_1.pdf>
 Package pdftex.def Info: nutshell/figs/fig3_8_1.pdf  used on input line 851.
@@ -1669,26 +2731,26 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [260]
 [261 <./nutshell/figs/fig3_8_1.pdf>]
-<nutshell/figs/fig3_A_1.pdf, id=3278, 535.25018pt x 164.9971pt>
+<nutshell/figs/fig3_A_1.pdf, id=3319, 535.25018pt x 164.9971pt>
 File: nutshell/figs/fig3_A_1.pdf Graphic file (type pdf)
 <use nutshell/figs/fig3_A_1.pdf>
 Package pdftex.def Info: nutshell/figs/fig3_A_1.pdf  used on input line 882.
 (pdftex.def)             Requested size: 227.62204pt x 70.16689pt.
  [262] [263 <./nutshell/figs/fig3_A_1.pdf>] [264]
-<nutshell/figs/fig3_A_2.pdf, id=3314, 904.10931pt x 171.41116pt>
+<nutshell/figs/fig3_A_2.pdf, id=3355, 904.10931pt x 171.41116pt>
 File: nutshell/figs/fig3_A_2.pdf Graphic file (type pdf)
 <use nutshell/figs/fig3_A_2.pdf>
 Package pdftex.def Info: nutshell/figs/fig3_A_2.pdf  used on input line 967.
 (pdftex.def)             Requested size: 341.43306pt x 64.7315pt.
  [265]
-<nutshell/figs/fig3_A_3.pdf, id=3320, 554.04819pt x 158.54787pt>
+<nutshell/figs/fig3_A_3.pdf, id=3361, 554.04819pt x 158.54787pt>
 File: nutshell/figs/fig3_A_3.pdf Graphic file (type pdf)
 <use nutshell/figs/fig3_A_3.pdf>
 Package pdftex.def Info: nutshell/figs/fig3_A_3.pdf  used on input line 1004.
 (pdftex.def)             Requested size: 341.43306pt x 97.70593pt.
  [266 <./nutshell/figs/fig3_A_2.pdf>] [267 <./nutshell/figs/fig3_A_3.pdf>] [268
 ] [269] [270] [271] [272] [273]
-<nutshell/figs/fig3A4.pdf, id=3466, 558.92027pt x 319.05226pt>
+<nutshell/figs/fig3A4.pdf, id=3507, 558.92027pt x 319.05226pt>
 File: nutshell/figs/fig3A4.pdf Graphic file (type pdf)
 <use nutshell/figs/fig3A4.pdf>
 Package pdftex.def Info: nutshell/figs/fig3A4.pdf  used on input line 1264.
@@ -1700,7 +2762,7 @@ g gap as-so-ci-ated with phonon
  []
 
 [275 <./nutshell/figs/fig3A4.pdf>]
-Overfull \hbox (66.15942pt too wide) in paragraph at lines 1308--1320
+Overfull \hbox (66.1596pt too wide) in paragraph at lines 1308--1320
 [][] 
  []
 
@@ -1713,7 +2775,7 @@ T1/txr/m/n/10.95 8\OML/txmi/m/it/10.95 :\OT1/txr/m/n/10.95 504[] =
  []
 
 [276]
-<nutshell/figs/fig3B4x.pdf, id=3486, 469.24403pt x 956.31442pt>
+<nutshell/figs/fig3B4x.pdf, id=3527, 469.24403pt x 956.31442pt>
 File: nutshell/figs/fig3B4x.pdf Graphic file (type pdf)
 <use nutshell/figs/fig3B4x.pdf>
 Package pdftex.def Info: nutshell/figs/fig3B4x.pdf  used on input line 1350.
@@ -1722,7 +2784,7 @@ Package pdftex.def Info: nutshell/figs/fig3B4x.pdf  used on input line 1350.
 
 LaTeX Warning: Float too large for page by 65.6816pt on input line 1352.
 
-<nutshell/figs/Fig3B1.pdf, id=3488, 2245.03612pt x 2478.08157pt>
+<nutshell/figs/Fig3B1.pdf, id=3529, 2245.03612pt x 2478.08157pt>
 File: nutshell/figs/Fig3B1.pdf Graphic file (type pdf)
 <use nutshell/figs/Fig3B1.pdf>
 Package pdftex.def Info: nutshell/figs/Fig3B1.pdf  used on input line 1359.
@@ -1734,7 +2796,7 @@ Overfull \hbox (7.23502pt too wide) in paragraph at lines 1453--1454
 ough long wave-length medium
  []
 
-<nutshell/figs/fig3B2.pdf, id=3635, 1376.22726pt x 670.01195pt>
+<nutshell/figs/fig3B2.pdf, id=3676, 1376.22726pt x 670.01195pt>
 File: nutshell/figs/fig3B2.pdf Graphic file (type pdf)
 <use nutshell/figs/fig3B2.pdf>
 Package pdftex.def Info: nutshell/figs/fig3B2.pdf  used on input line 1456.
@@ -1749,7 +2811,7 @@ Underfull \vbox (badness 3668) has occurred while \output is active []
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [284 <./nutshell/figs/fig3B2.pdf>] [285]
-<nutshell/figs/fig3B3x.pdf, id=3662, 491.83704pt x 886.50435pt>
+<nutshell/figs/fig3B3x.pdf, id=3703, 491.83704pt x 886.50435pt>
 File: nutshell/figs/fig3B3x.pdf Graphic file (type pdf)
 <use nutshell/figs/fig3B3x.pdf>
 Package pdftex.def Info: nutshell/figs/fig3B3x.pdf  used on input line 1501.
@@ -1777,7 +2839,54 @@ U/txsyc/m/n/10.95 ,
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [293]
-[294] [295]
+[294]
+! Undefined control sequence.
+\UseRawInputEncoding ...tencodingname \@undefined 
+                                                  \let \DeclareFontEncoding@...
+l.1656 ...m 0.1$ fm\footnote{\cite{Kobayashi:89}.}
+                                                  . Thus
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Missing \endcsname inserted.
+<to be read again> 
+                   \let 
+l.1656 ...m 0.1$ fm\footnote{\cite{Kobayashi:89}.}
+                                                  . Thus
+The control sequence marked <to be read again> should
+not appear between \csname and \endcsname.
+
+! Missing \endcsname inserted.
+<to be read again> 
+                   \let 
+l.1656 ...m 0.1$ fm\footnote{\cite{Kobayashi:89}.}
+                                                  . Thus
+The control sequence marked <to be read again> should
+not appear between \csname and \endcsname.
+
+! Missing \endcsname inserted.
+<to be read again> 
+                   \let 
+l.1656 ...m 0.1$ fm\footnote{\cite{Kobayashi:89}.}
+                                                  . Thus
+The control sequence marked <to be read again> should
+not appear between \csname and \endcsname.
+
+! Undefined control sequence.
+<argument> \@undefined 
+                       
+l.1656 ...m 0.1$ fm\footnote{\cite{Kobayashi:89}.}
+                                                  . Thus
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+[295]
 Overfull \hbox (0.5671pt too wide) in paragraph at lines 1663--1664
 \OT1/txr/m/n/10.95 halo re-gion (skin), in keep-ing with the fact[] that $\OML/
 txmi/m/it/10.95 R\OT1/txr/m/n/10.95 ([]$Li)-$\OML/txmi/m/it/10.95 R[]\OT1/txr/m
@@ -1786,7 +2895,7 @@ xsy/m/n/10.95 ^^@
  []
 
 [296]
-<nutshell/figs/fig3C1.pdf, id=3759, 597.50786pt x 845.04686pt>
+<nutshell/figs/fig3C1.pdf, id=3801, 597.50786pt x 845.04686pt>
 File: nutshell/figs/fig3C1.pdf Graphic file (type pdf)
 <use nutshell/figs/fig3C1.pdf>
 Package pdftex.def Info: nutshell/figs/fig3C1.pdf  used on input line 1678.
@@ -1819,9 +2928,69 @@ Overfull \hbox (1.60037pt too wide) detected at line 1849
 [304] [305] (./nutshell/include_trans_nut.bbl [306
 
 ] [307] [308] [309]
-Missing character: There is no ü in font txr!
- [310]
-[311] [312])) [313]
+! Undefined control sequence.
+\UseRawInputEncoding ...tencodingname \@undefined 
+                                                  \let \DeclareFontEncoding@...
+l.432   Wieman]{Kobayashi:89}
+                             
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Missing \endcsname inserted.
+<to be read again> 
+                   \let 
+l.432   Wieman]{Kobayashi:89}
+                             
+The control sequence marked <to be read again> should
+not appear between \csname and \endcsname.
+
+! Missing \endcsname inserted.
+<to be read again> 
+                   \let 
+l.432   Wieman]{Kobayashi:89}
+                             
+The control sequence marked <to be read again> should
+not appear between \csname and \endcsname.
+
+! Missing \endcsname inserted.
+<to be read again> 
+                   \let 
+l.432   Wieman]{Kobayashi:89}
+                             
+The control sequence marked <to be read again> should
+not appear between \csname and \endcsname.
+
+! Undefined control sequence.
+<argument> \@undefined 
+                       
+l.432   Wieman]{Kobayashi:89}
+                             
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+! Package inputenc Error: Invalid UTF-8 byte "FC.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.434   T.~Minamisono, K.~Sugimoto, W.~Mü
+                                         ller, D.~L. Olson, T.~J.~M. Symons,...
+
+The document does not appear to be in UTF-8 encoding.
+Try adding \UseRawInputEncoding as the first line of the file
+or specify an encoding such as \usepackage [latin1]{inputenc}
+in the document preamble.
+Alternatively, save the file in UTF-8 using your editor or another tool
+
+[310] [311] [312])) [313]
 \openout2 = `C6/includeC6.aux'.
 
  (./C6/includeC6.tex [314
@@ -1844,7 +3013,7 @@ e, single-particle states dressed,
  []
 
 [315]
-<C6/figs_C6/Reaction3.pdf, id=3854, 575.75098pt x 517.935pt>
+<C6/figs_C6/Reaction3.pdf, id=3895, 575.75098pt x 517.935pt>
 File: C6/figs_C6/Reaction3.pdf Graphic file (type pdf)
 <use C6/figs_C6/Reaction3.pdf>
 Package pdftex.def Info: C6/figs_C6/Reaction3.pdf  used on input line 16.
@@ -1890,7 +3059,7 @@ OT1/txr/m/n/10.95 1)[][]\OML/txmi/m/it/10.95 i[]e[][][]\OT1/txr/m/n/10.95 (\OML
 l[]\OT1/txr/m/n/10.95 )[]([][])[][][]$ 
  []
 
-<C6/figs_C6/coord.png, id=3878, 580.569pt x 421.575pt>
+<C6/figs_C6/coord.png, id=3919, 580.569pt x 421.575pt>
 File: C6/figs_C6/coord.png Graphic file (type png)
 <use C6/figs_C6/coord.png>
 Package pdftex.def Info: C6/figs_C6/coord.png  used on input line 194.
@@ -1901,7 +3070,7 @@ Overfull \hbox (72.64201pt too wide) detected at line 235
  []
 
 [323]
-<C6/figs_C6/fig6_2_1x.pdf, id=3889, 503.22813pt x 526.34404pt>
+<C6/figs_C6/fig6_2_1x.pdf, id=3930, 503.22813pt x 526.34404pt>
 File: C6/figs_C6/fig6_2_1x.pdf Graphic file (type pdf)
 <use C6/figs_C6/fig6_2_1x.pdf>
 Package pdftex.def Info: C6/figs_C6/fig6_2_1x.pdf  used on input line 279.
@@ -1913,12 +3082,12 @@ Overfull \hbox (7.103pt too wide) in paragraph at lines 282--298
  []
 
 [324] [325 <./C6/figs_C6/fig6_2_1x.pdf>]
-<C6/figs_C6/fig6_2_2.pdf, id=3933, 870.37083pt x 923.98851pt>
+<C6/figs_C6/fig6_2_2.pdf, id=3975, 870.37083pt x 923.98851pt>
 File: C6/figs_C6/fig6_2_2.pdf Graphic file (type pdf)
 <use C6/figs_C6/fig6_2_2.pdf>
 Package pdftex.def Info: C6/figs_C6/fig6_2_2.pdf  used on input line 307.
 (pdftex.def)             Requested size: 360.0pt x 382.17918pt.
-<C6/figs_C6/cross_teor_exp.pdf, id=3935, 678.92844pt x 428.3478pt>
+<C6/figs_C6/cross_teor_exp.pdf, id=3977, 678.92844pt x 428.3478pt>
 File: C6/figs_C6/cross_teor_exp.pdf Graphic file (type pdf)
 <use C6/figs_C6/cross_teor_exp.pdf>
 Package pdftex.def Info: C6/figs_C6/cross_teor_exp.pdf  used on input line 313.
@@ -1931,38 +3100,131 @@ rox-i-ma-tion treat-ment of
  []
 
 [326] [327 <./C6/figs_C6/fig6_2_2.pdf>] [328 <./C6/figs_C6/cross_teor_exp.pdf>]
-<C6/figs_C6/fig6_2_4.pdf, id=4011, 669.70201pt x 440.04399pt>
+<C6/figs_C6/fig6_2_4.pdf, id=4052, 669.70201pt x 440.04399pt>
 File: C6/figs_C6/fig6_2_4.pdf Graphic file (type pdf)
 <use C6/figs_C6/fig6_2_4.pdf>
 Package pdftex.def Info: C6/figs_C6/fig6_2_4.pdf  used on input line 341.
 (pdftex.def)             Requested size: 341.43306pt x 224.3456pt.
-Missing character: There is no â in font txr!
-Missing character: There is no ˆ in font txr!
-Missing character: There is no ’ in font txr!
-Missing character: There is no â in font txr!
-Missing character: There is no ˆ in font txr!
-Missing character: There is no ’ in font txr!
-<C6/figs_C6/diagrams.pdf, id=4013, 1333.40884pt x 403.07pt>
+! Missing { inserted.
+<to be read again> 
+                   \begingroup 
+l.358 ...he Fermi energy). After \cite{Potel:14}.}
+                                                  \label{fig6.2.4x}
+A left brace was mandatory here, so I've put one in.
+You might want to delete and/or insert some corrections
+so that I will find a matching right brace soon.
+(If you're confused by all this, try typing `I}' now.)
+
+
+! Package inputenc Error: Unicode character âˆ’ (U+2212)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.358 ...he Fermi energy). After \cite{Potel:14}.}
+                                                  \label{fig6.2.4x}
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+! Missing } inserted.
+<inserted text> 
+                }
+l.358 ...he Fermi energy). After \cite{Potel:14}.}
+                                                  \label{fig6.2.4x}
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+! Missing { inserted.
+<to be read again> 
+                   \begingroup 
+l.358 ...he Fermi energy). After \cite{Potel:14}.}
+                                                  \label{fig6.2.4x}
+A left brace was mandatory here, so I've put one in.
+You might want to delete and/or insert some corrections
+so that I will find a matching right brace soon.
+(If you're confused by all this, try typing `I}' now.)
+
+
+! Package inputenc Error: Unicode character âˆ’ (U+2212)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.358 ...he Fermi energy). After \cite{Potel:14}.}
+                                                  \label{fig6.2.4x}
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+! Missing } inserted.
+<inserted text> 
+                }
+l.358 ...he Fermi energy). After \cite{Potel:14}.}
+                                                  \label{fig6.2.4x}
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+<C6/figs_C6/diagrams.pdf, id=4054, 1333.40884pt x 403.07pt>
 File: C6/figs_C6/diagrams.pdf Graphic file (type pdf)
 <use C6/figs_C6/diagrams.pdf>
 Package pdftex.def Info: C6/figs_C6/diagrams.pdf  used on input line 361.
 (pdftex.def)             Requested size: 540.60236pt x 163.41466pt.
-Missing character: There is no â in font txr!
-Missing character: There is no € in font txr!
-Missing character: There is no “ in font txr!
-Missing character: There is no â in font txr!
-Missing character: There is no € in font txr!
-Missing character: There is no “ in font txr!
-Missing character: There is no â in font txr!
-Missing character: There is no € in font txr!
-Missing character: There is no “ in font txr!
-Missing character: There is no â in font txr!
-Missing character: There is no € in font txr!
-Missing character: There is no “ in font txr!
-Missing character: There is no â in font txr!
-Missing character: There is no € in font txr!
-Missing character: There is no “ in font txr!
-<C6/figs_C6/fig4_2_7.pdf, id=4015, 530.3194pt x 381.72722pt>
+! Undefined control sequence.
+\UseRawInputEncoding ...tencodingname \@undefined 
+                                                  \let \DeclareFontEncoding@...
+l.380 ...ev:16}; see however \cite{Cavallaro:17}.}
+                                                  .
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Missing \endcsname inserted.
+<to be read again> 
+                   \let 
+l.380 ...ev:16}; see however \cite{Cavallaro:17}.}
+                                                  .
+The control sequence marked <to be read again> should
+not appear between \csname and \endcsname.
+
+! Missing \endcsname inserted.
+<to be read again> 
+                   \let 
+l.380 ...ev:16}; see however \cite{Cavallaro:17}.}
+                                                  .
+The control sequence marked <to be read again> should
+not appear between \csname and \endcsname.
+
+! Missing \endcsname inserted.
+<to be read again> 
+                   \let 
+l.380 ...ev:16}; see however \cite{Cavallaro:17}.}
+                                                  .
+The control sequence marked <to be read again> should
+not appear between \csname and \endcsname.
+
+! Undefined control sequence.
+<argument> \@undefined 
+                       
+l.380 ...ev:16}; see however \cite{Cavallaro:17}.}
+                                                  .
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+<C6/figs_C6/fig4_2_7.pdf, id=4056, 530.3194pt x 381.72722pt>
 File: C6/figs_C6/fig4_2_7.pdf Graphic file (type pdf)
 <use C6/figs_C6/fig4_2_7.pdf>
 Package pdftex.def Info: C6/figs_C6/fig4_2_7.pdf  used on input line 382.
@@ -1982,19 +3244,6 @@ h the pick--up re-ac-tion
 
 [329] [330 <./C6/figs_C6/fig6_2_4.pdf>] [331 <./C6/figs_C6/diagrams.pdf>]
 [332 <./C6/figs_C6/fig4_2_7.pdf>]
-Missing character: There is no â in font txr!
-Missing character: There is no € in font txr!
-Missing character: There is no “ in font txr!
-Missing character: There is no â in font txr!
-Missing character: There is no € in font txr!
-Missing character: There is no “ in font txr!
-Missing character: There is no â in font txr!
-Missing character: There is no € in font txr!
-Missing character: There is no “ in font txr!
-Missing character: There is no â in font txr!
-Missing character: There is no € in font txr!
-Missing character: There is no “ in font txr!
-
 Overfull \hbox (35.51266pt too wide) in paragraph at lines 399--417
 []\OT1/txr/m/n/10.95 Let us now re-turn to the dis-cus-sion of the one--particl
 e trans-fer pro-cess $[]$H($[]$Li,$[]$Li)$[]$H,
@@ -2006,7 +3255,7 @@ Overfull \hbox (6.82513pt too wide) in paragraph at lines 426--426
  []
 
 [334]
-<C6/figs_C6/fig6_A1.pdf, id=4066, 742.34596pt x 732.93091pt>
+<C6/figs_C6/fig6_A1.pdf, id=4108, 742.34596pt x 732.93091pt>
 File: C6/figs_C6/fig6_A1.pdf Graphic file (type pdf)
 <use C6/figs_C6/fig6_A1.pdf>
 Package pdftex.def Info: C6/figs_C6/fig6_A1.pdf  used on input line 452.
@@ -2016,7 +3265,7 @@ Overfull \hbox (2.76431pt too wide) in paragraph at lines 566--566
 []\OT1/txr/bx/n/14.4 Model for single--particle strength func-tion:
  []
 
-<C6/figs_C6/fig6_B1.pdf, id=4111, 579.75667pt x 152.88193pt>
+<C6/figs_C6/fig6_B1.pdf, id=4152, 579.75667pt x 152.88193pt>
 File: C6/figs_C6/fig6_B1.pdf Graphic file (type pdf)
 <use C6/figs_C6/fig6_B1.pdf>
 Package pdftex.def Info: C6/figs_C6/fig6_B1.pdf  used on input line 569.
@@ -2026,18 +3275,18 @@ Overfull \hbox (1.07951pt too wide) in paragraph at lines 626--626
 []\OT1/txr/bx/n/14.4 Antiparticles: proof of con-cept of the quan-
  []
 
-<C6/figs_C6/fig6_C1x.pdf, id=4135, 884.9964pt x 390.96127pt>
+<C6/figs_C6/fig6_C1x.pdf, id=4176, 884.9964pt x 390.96127pt>
 File: C6/figs_C6/fig6_C1x.pdf Graphic file (type pdf)
 <use C6/figs_C6/fig6_C1x.pdf>
 Package pdftex.def Info: C6/figs_C6/fig6_C1x.pdf  used on input line 628.
 (pdftex.def)             Requested size: 369.88582pt x 163.40321pt.
 [341]
-<C6/figs_C6/fig6_C2x.pdf, id=4140, 1262.43887pt x 428.33228pt>
+<C6/figs_C6/fig6_C2x.pdf, id=4181, 1262.43887pt x 428.33228pt>
 File: C6/figs_C6/fig6_C2x.pdf Graphic file (type pdf)
 <use C6/figs_C6/fig6_C2x.pdf>
 Package pdftex.def Info: C6/figs_C6/fig6_C2x.pdf  used on input line 632.
 (pdftex.def)             Requested size: 426.79134pt x 144.80753pt.
-<C6/figs_C6/fig6_C3x.pdf, id=4142, 749.61531pt x 536.21992pt>
+<C6/figs_C6/fig6_C3x.pdf, id=4183, 749.61531pt x 536.21992pt>
 File: C6/figs_C6/fig6_C3x.pdf Graphic file (type pdf)
 <use C6/figs_C6/fig6_C3x.pdf>
 Package pdftex.def Info: C6/figs_C6/fig6_C3x.pdf  used on input line 636.
@@ -2046,36 +3295,36 @@ Package pdftex.def Info: C6/figs_C6/fig6_C3x.pdf  used on input line 636.
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [343 <./C6/figs_C6/fig6_C3x.pdf>]
-<C6/figs_C6/fig6_C3.pdf, id=4178, 466.54298pt x 355.72899pt>
+<C6/figs_C6/fig6_C3.pdf, id=4219, 466.54298pt x 355.72899pt>
 File: C6/figs_C6/fig6_C3.pdf Graphic file (type pdf)
 <use C6/figs_C6/fig6_C3.pdf>
 Package pdftex.def Info: C6/figs_C6/fig6_C3.pdf  used on input line 653.
 (pdftex.def)             Requested size: 284.52756pt x 216.95094pt.
  [344 <./C6/figs_C6/fig6_C3.pdf>]
-<C6/figs_C6/fig6_C1.pdf, id=4188, 521.4241pt x 110.29463pt>
+<C6/figs_C6/fig6_C1.pdf, id=4229, 521.4241pt x 110.29463pt>
 File: C6/figs_C6/fig6_C1.pdf Graphic file (type pdf)
 <use C6/figs_C6/fig6_C1.pdf>
 Package pdftex.def Info: C6/figs_C6/fig6_C1.pdf  used on input line 662.
 (pdftex.def)             Requested size: 284.52756pt x 60.18594pt.
-<C6/figs_C6/fig6_C2.pdf, id=4190, 485.38895pt x 111.21147pt>
+<C6/figs_C6/fig6_C2.pdf, id=4231, 485.38895pt x 111.21147pt>
 File: C6/figs_C6/fig6_C2.pdf Graphic file (type pdf)
 <use C6/figs_C6/fig6_C2.pdf>
 Package pdftex.def Info: C6/figs_C6/fig6_C2.pdf  used on input line 666.
 (pdftex.def)             Requested size: 284.52756pt x 65.19165pt.
  [345 <./C6/figs_C6/fig6_C1.pdf> <./C6/figs_C6/fig6_C2.pdf>] [346]
-<C6/figs_C6/fig6_E1.pdf, id=4297, 406.12195pt x 334.84251pt>
+<C6/figs_C6/fig6_E1.pdf, id=4338, 406.12195pt x 334.84251pt>
 File: C6/figs_C6/fig6_E1.pdf Graphic file (type pdf)
 <use C6/figs_C6/fig6_E1.pdf>
 Package pdftex.def Info: C6/figs_C6/fig6_E1.pdf  used on input line 729.
 (pdftex.def)             Requested size: 199.16928pt x 164.2122pt.
  [347] [348 <./C6/figs_C6/fig6_E1.pdf>] [349]
-<C6/figs_C6/fig6_F2.pdf, id=4327, 737.6687pt x 550.16895pt>
+<C6/figs_C6/fig6_F2.pdf, id=4368, 737.6687pt x 550.16895pt>
 File: C6/figs_C6/fig6_F2.pdf Graphic file (type pdf)
 <use C6/figs_C6/fig6_F2.pdf>
 Package pdftex.def Info: C6/figs_C6/fig6_F2.pdf  used on input line 843.
 (pdftex.def)             Requested size: 426.79134pt x 318.30908pt.
  [350] [351 <./C6/figs_C6/fig6_F2.pdf>] [352]
-<C6/figs_C6/knock1.pdf, id=4360, 597.50786pt x 845.04686pt>
+<C6/figs_C6/knock1.pdf, id=4401, 597.50786pt x 845.04686pt>
 File: C6/figs_C6/knock1.pdf Graphic file (type pdf)
 <use C6/figs_C6/knock1.pdf>
 Package pdftex.def Info: C6/figs_C6/knock1.pdf  used on input line 908.
@@ -2086,7 +3335,7 @@ Overfull \hbox (7.52312pt too wide) detected at line 992
  []
 
 [356]
-<C6/figs_C6/coords2.pdf, id=4392, 597.50786pt x 845.04686pt>
+<C6/figs_C6/coords2.pdf, id=4434, 597.50786pt x 845.04686pt>
 File: C6/figs_C6/coords2.pdf Graphic file (type pdf)
 <use C6/figs_C6/coords2.pdf>
 Package pdftex.def Info: C6/figs_C6/coords2.pdf  used on input line 1008.
@@ -2105,7 +3354,7 @@ Overfull \hbox (10.12291pt too wide) detected at line 1060
  []
 
 [358]
-<C6/figs_C6/knock2.pdf, id=4410, 597.50786pt x 845.04686pt>
+<C6/figs_C6/knock2.pdf, id=4452, 597.50786pt x 845.04686pt>
 File: C6/figs_C6/knock2.pdf Graphic file (type pdf)
 <use C6/figs_C6/knock2.pdf>
 Package pdftex.def Info: C6/figs_C6/knock2.pdf  used on input line 1064.
@@ -2155,7 +3404,7 @@ m/it/10.95 D[]T[] [] [] [] [] e[]i[]\OT1/txr/m/n/10.95 (\OMS/txsy/m/n/10.95 ^^@
  []
 
 [364]
-<C6/figs_C6/onept.pdf, id=4450, 597.50786pt x 845.04686pt>
+<C6/figs_C6/onept.pdf, id=4491, 597.50786pt x 845.04686pt>
 File: C6/figs_C6/onept.pdf Graphic file (type pdf)
 <use C6/figs_C6/onept.pdf>
 Package pdftex.def Info: C6/figs_C6/onept.pdf  used on input line 1256.
@@ -2165,7 +3414,7 @@ Underfull \vbox (badness 1953) has occurred while \output is active []
 
  [368]
 [369]
-<C6/figs_C6/fig4I1.pdf, id=4485, 1452.09726pt x 889.47652pt>
+<C6/figs_C6/fig4I1.pdf, id=4526, 1452.09726pt x 889.47652pt>
 File: C6/figs_C6/fig4I1.pdf Graphic file (type pdf)
 <use C6/figs_C6/fig4I1.pdf>
 Package pdftex.def Info: C6/figs_C6/fig4I1.pdf  used on input line 1362.
@@ -2177,8 +3426,69 @@ pro-tons from the
  []
 
 [374] [375]
-Missing character: There is no ü in font txr!
- [376])) [377]
+! Undefined control sequence.
+\UseRawInputEncoding ...tencodingname \@undefined 
+                                                  \let \DeclareFontEncoding@...
+l.485 ...Unsworth, Voss, and Wang]{Sanetullaev:16}
+                                                  
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Missing \endcsname inserted.
+<to be read again> 
+                   \let 
+l.485 ...Unsworth, Voss, and Wang]{Sanetullaev:16}
+                                                  
+The control sequence marked <to be read again> should
+not appear between \csname and \endcsname.
+
+! Missing \endcsname inserted.
+<to be read again> 
+                   \let 
+l.485 ...Unsworth, Voss, and Wang]{Sanetullaev:16}
+                                                  
+The control sequence marked <to be read again> should
+not appear between \csname and \endcsname.
+
+! Missing \endcsname inserted.
+<to be read again> 
+                   \let 
+l.485 ...Unsworth, Voss, and Wang]{Sanetullaev:16}
+                                                  
+The control sequence marked <to be read again> should
+not appear between \csname and \endcsname.
+
+! Undefined control sequence.
+<argument> \@undefined 
+                       
+l.485 ...Unsworth, Voss, and Wang]{Sanetullaev:16}
+                                                  
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+! Package inputenc Error: Invalid UTF-8 byte "FC.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.489   R.~Krü
+              cken, J.~Lighthall, E.~McNeice, D.~Miller, J.~Purcell, J.~Rand...
+
+The document does not appear to be in UTF-8 encoding.
+Try adding \UseRawInputEncoding as the first line of the file
+or specify an encoding such as \usepackage [latin1]{inputenc}
+in the document preamble.
+Alternatively, save the file in UTF-8 using your editor or another tool
+
+[376])) [377]
 \openout2 = `C7/includeC7.aux'.
 
  (./C7/includeC7.tex [378
@@ -2205,12 +3515,12 @@ i/m/it/10.95 ; \OT1/txr/bx/n/10.95 r[]\OT1/txr/m/n/10.95 ) = \OML/txmi/m/it/10.
 n/10.95 )$,
  []
 
-<C7/figs_C7/tritium.pdf, id=4587, 492.32301pt x 396.82256pt>
+<C7/figs_C7/tritium.pdf, id=4628, 492.32301pt x 396.82256pt>
 File: C7/figs_C7/tritium.pdf Graphic file (type pdf)
 <use C7/figs_C7/tritium.pdf>
 Package pdftex.def Info: C7/figs_C7/tritium.pdf  used on input line 43.
 (pdftex.def)             Requested size: 198.0011pt x 159.59207pt.
-<C7/figs_C7/deuteron.pdf, id=4589, 494.96289pt x 408.38182pt>
+<C7/figs_C7/deuteron.pdf, id=4630, 494.96289pt x 408.38182pt>
 File: C7/figs_C7/deuteron.pdf Graphic file (type pdf)
 <use C7/figs_C7/deuteron.pdf>
 Package pdftex.def Info: C7/figs_C7/deuteron.pdf  used on input line 47.
@@ -2382,7 +3692,7 @@ Overfull \hbox (3.5564pt too wide) in paragraph at lines 1579--1579
 \OT1/txr/bx/n/14.4 po-lar-iza-tion ef-fects: self--energy, ver-tex cor-
  []
 
-<C7/figs_C7/FigA.pdf, id=4765, 1440.73131pt x 1526.52486pt>
+<C7/figs_C7/FigA.pdf, id=4806, 1440.73131pt x 1526.52486pt>
 File: C7/figs_C7/FigA.pdf Graphic file (type pdf)
 <use C7/figs_C7/FigA.pdf>
 Package pdftex.def Info: C7/figs_C7/FigA.pdf  used on input line 1583.
@@ -2392,7 +3702,7 @@ Overfull \hbox (71.9989pt too wide) in paragraph at lines 1583--1584
  [] 
  []
 
-<C7/figs_C7/FigB.pdf, id=4767, 752.7418pt x 995.3681pt>
+<C7/figs_C7/FigB.pdf, id=4808, 752.7418pt x 995.3681pt>
 File: C7/figs_C7/FigB.pdf Graphic file (type pdf)
 <use C7/figs_C7/FigB.pdf>
 Package pdftex.def Info: C7/figs_C7/FigB.pdf  used on input line 1589.
@@ -2407,7 +3717,7 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [418 <./C7/figs_C7/FigB.pdf>]
-<C7/figs_C7/coord.pdf, id=4803, 833.5884pt x 321.16747pt>
+<C7/figs_C7/coord.pdf, id=4844, 833.5884pt x 321.16747pt>
 File: C7/figs_C7/coord.pdf Graphic file (type pdf)
 <use C7/figs_C7/coord.pdf>
 Package pdftex.def Info: C7/figs_C7/coord.pdf  used on input line 1619.
@@ -2421,12 +3731,12 @@ Underfull \vbox (badness 4608) has occurred while \output is active []
 
  [419]
 [420 <./C7/figs_C7/coord.pdf>] [421] [422] [423]
-<C7/figs_C7/figC7B2.pdf, id=4862, 447.27101pt x 415.954pt>
+<C7/figs_C7/figC7B2.pdf, id=4904, 447.27101pt x 415.954pt>
 File: C7/figs_C7/figC7B2.pdf Graphic file (type pdf)
 <use C7/figs_C7/figC7B2.pdf>
 Package pdftex.def Info: C7/figs_C7/figC7B2.pdf  used on input line 1859.
 (pdftex.def)             Requested size: 270.0pt x 251.10393pt.
-<C7/figs_C7/figC7B3.pdf, id=4864, 439.24101pt x 246.52101pt>
+<C7/figs_C7/figC7B3.pdf, id=4906, 439.24101pt x 246.52101pt>
 File: C7/figs_C7/figC7B3.pdf Graphic file (type pdf)
 <use C7/figs_C7/figC7B3.pdf>
 Package pdftex.def Info: C7/figs_C7/figC7B3.pdf  used on input line 1864.
@@ -2437,7 +3747,7 @@ Underfull \hbox (badness 2020) in paragraph at lines 1865--1865
 n to the ground state
  []
 
-<C7/figs_C7/figC7B4.pdf, id=4866, 301.928pt x 371.789pt>
+<C7/figs_C7/figC7B4.pdf, id=4908, 301.928pt x 371.789pt>
 File: C7/figs_C7/figC7B4.pdf Graphic file (type pdf)
 <use C7/figs_C7/figC7B4.pdf>
 Package pdftex.def Info: C7/figs_C7/figC7B4.pdf  used on input line 1869.
@@ -2462,7 +3772,7 @@ Overfull \hbox (2.2747pt too wide) in paragraph at lines 1872--1872
 \OT1/txr/bx/n/14.4 mul-ta-ne-ous trans-fer and non-orthogonality
  []
 
-<C7/figs_C7/Reaction1.pdf, id=4868, 597.50786pt x 845.04686pt>
+<C7/figs_C7/Reaction1.pdf, id=4910, 597.50786pt x 845.04686pt>
 File: C7/figs_C7/Reaction1.pdf Graphic file (type pdf)
 <use C7/figs_C7/Reaction1.pdf>
 Package pdftex.def Info: C7/figs_C7/Reaction1.pdf  used on input line 1876.
@@ -2470,7 +3780,7 @@ Package pdftex.def Info: C7/figs_C7/Reaction1.pdf  used on input line 1876.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<C7/figs_C7/Reaction2.pdf, id=4870, 594.40465pt x 780.05276pt>
+<C7/figs_C7/Reaction2.pdf, id=4912, 594.40465pt x 780.05276pt>
 File: C7/figs_C7/Reaction2.pdf Graphic file (type pdf)
 <use C7/figs_C7/Reaction2.pdf>
 Package pdftex.def Info: C7/figs_C7/Reaction2.pdf  used on input line 1882.
@@ -2478,7 +3788,7 @@ Package pdftex.def Info: C7/figs_C7/Reaction2.pdf  used on input line 1882.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<C7/figs_C7/figC7C3.pdf, id=4872, 456.10399pt x 239.29399pt>
+<C7/figs_C7/figC7C3.pdf, id=4914, 456.10399pt x 239.29399pt>
 File: C7/figs_C7/figC7C3.pdf Graphic file (type pdf)
 <use C7/figs_C7/figC7C3.pdf>
 Package pdftex.def Info: C7/figs_C7/figC7C3.pdf  used on input line 1889.
@@ -2515,7 +3825,7 @@ Overfull \hbox (51.76738pt too wide) in paragraph at lines 2775--2775
 \OT1/txr/bx/n/14.4 tion am-pli-tudes in-clud-ing re-coil, non--orthogonality
  []
 
-<C7/figs_C7/fig5_H_1.pdf, id=4960, 794.97pt x 614.295pt>
+<C7/figs_C7/fig5_H_1.pdf, id=5001, 794.97pt x 614.295pt>
 File: C7/figs_C7/fig5_H_1.pdf Graphic file (type pdf)
 <use C7/figs_C7/fig5_H_1.pdf>
 Package pdftex.def Info: C7/figs_C7/fig5_H_1.pdf  used on input line 2778.
@@ -2531,7 +3841,7 @@ degrees>] [444])) [445]
 
 ]
 Chapter 6.
-<C8/figsC8/fig8_1_3x.pdf, id=4981, 403.106pt x 466.54298pt>
+<C8/figsC8/fig8_1_3x.pdf, id=5022, 403.106pt x 466.54298pt>
 File: C8/figsC8/fig8_1_3x.pdf Graphic file (type pdf)
 <use C8/figsC8/fig8_1_3x.pdf>
 Package pdftex.def Info: C8/figsC8/fig8_1_3x.pdf  used on input line 6.
@@ -2539,7 +3849,7 @@ Package pdftex.def Info: C8/figsC8/fig8_1_3x.pdf  used on input line 6.
 
 LaTeX Warning: Float too large for page by 22.6953pt on input line 9.
 
-<C8/figsC8/fig8_1_1.pdf, id=4983, 326.821pt x 464.93701pt>
+<C8/figsC8/fig8_1_1.pdf, id=5024, 326.821pt x 464.93701pt>
 File: C8/figsC8/fig8_1_1.pdf Graphic file (type pdf)
 <use C8/figsC8/fig8_1_1.pdf>
 Package pdftex.def Info: C8/figsC8/fig8_1_1.pdf  used on input line 11.
@@ -2547,7 +3857,7 @@ Package pdftex.def Info: C8/figsC8/fig8_1_1.pdf  used on input line 11.
 
 LaTeX Warning: Float too large for page by 75.7633pt on input line 13.
 
-<C8/figsC8/fig8_1_3.pdf, id=4985, 862.22125pt x 616.3025pt>
+<C8/figsC8/fig8_1_3.pdf, id=5026, 862.22125pt x 616.3025pt>
 File: C8/figsC8/fig8_1_3.pdf Graphic file (type pdf)
 <use C8/figsC8/fig8_1_3.pdf>
 Package pdftex.def Info: C8/figsC8/fig8_1_3.pdf  used on input line 16.
@@ -2560,12 +3870,12 @@ ickup[] re-ac-tion $[]$H($[]$Li,$[]$Li)$[]$H.
 
 [447] [448 <./C8/figsC8/fig8_1_3x.pdf>] [449 <./C8/figsC8/fig8_1_1.pdf>]
 [450 <./C8/figsC8/fig8_1_3.pdf>]
-Overfull \hbox (92.96336pt too wide) in paragraph at lines 48--63
+Overfull \hbox (92.96356pt too wide) in paragraph at lines 48--63
 [][] 
  []
 
 
-Overfull \hbox (92.96336pt too wide) in paragraph at lines 71--86
+Overfull \hbox (92.96356pt too wide) in paragraph at lines 71--86
 [][] 
  []
 
@@ -2580,38 +3890,498 @@ $Li,$[]$Li)$[]$H are[], the $\OMS/txsy/m/n/10.95 j\OT1/txr/m/n/10.95 3\OML/txmi
 /m/it/10.95 =\OT1/txr/m/n/10.95 2[][]([][])\OMS/txsy/m/n/10.95 i$
  []
 
-<C8/figsC8/pigmy.pdf, id=5173, 565.31201pt x 469.755pt>
+<C8/figsC8/pigmy.pdf, id=5215, 565.31201pt x 469.755pt>
 File: C8/figsC8/pigmy.pdf Graphic file (type pdf)
 <use C8/figsC8/pigmy.pdf>
 Package pdftex.def Info: C8/figsC8/pigmy.pdf  used on input line 107.
 (pdftex.def)             Requested size: 341.43306pt x 283.73315pt.
 [452]
-<C8/figsC8/fig8_1_5.pdf, id=5178, 653.9789pt x 407.56581pt>
+<C8/figsC8/fig8_1_5.pdf, id=5220, 653.9789pt x 407.56581pt>
 File: C8/figsC8/fig8_1_5.pdf Graphic file (type pdf)
 <use C8/figsC8/fig8_1_5.pdf>
 Package pdftex.def Info: C8/figsC8/fig8_1_5.pdf  used on input line 120.
 (pdftex.def)             Requested size: 341.43306pt x 212.7812pt.
  [453] [454 <./C8/figsC8/pigmy.pdf>]
-<C8/figsC8/Fig6_2_1.pdf, id=5198, 903.93686pt x 1035.92746pt>
+! Undefined control sequence.
+\UseRawInputEncoding ...tencodingname \@undefined 
+                                                  \let \DeclareFontEncoding@...
+l.132 ...:14,deDiego:14} and references therein).}
+                                                  
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Missing \endcsname inserted.
+<to be read again> 
+                   \let 
+l.132 ...:14,deDiego:14} and references therein).}
+                                                  
+The control sequence marked <to be read again> should
+not appear between \csname and \endcsname.
+
+! Missing \endcsname inserted.
+<to be read again> 
+                   \let 
+l.132 ...:14,deDiego:14} and references therein).}
+                                                  
+The control sequence marked <to be read again> should
+not appear between \csname and \endcsname.
+
+! Missing \endcsname inserted.
+<to be read again> 
+                   \let 
+l.132 ...:14,deDiego:14} and references therein).}
+                                                  
+The control sequence marked <to be read again> should
+not appear between \csname and \endcsname.
+
+! Undefined control sequence.
+<argument> \@undefined 
+                       
+l.132 ...:14,deDiego:14} and references therein).}
+                                                  
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+\UseRawInputEncoding ...tencodingname \@undefined 
+                                                  \let \DeclareFontEncoding@...
+l.132 ...:14,deDiego:14} and references therein).}
+                                                  
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Missing \endcsname inserted.
+<to be read again> 
+                   \let 
+l.132 ...:14,deDiego:14} and references therein).}
+                                                  
+The control sequence marked <to be read again> should
+not appear between \csname and \endcsname.
+
+! Missing \endcsname inserted.
+<to be read again> 
+                   \let 
+l.132 ...:14,deDiego:14} and references therein).}
+                                                  
+The control sequence marked <to be read again> should
+not appear between \csname and \endcsname.
+
+! Missing \endcsname inserted.
+<to be read again> 
+                   \let 
+l.132 ...:14,deDiego:14} and references therein).}
+                                                  
+The control sequence marked <to be read again> should
+not appear between \csname and \endcsname.
+
+! Undefined control sequence.
+<argument> \@undefined 
+                       
+l.132 ...:14,deDiego:14} and references therein).}
+                                                  
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+\UseRawInputEncoding ...tencodingname \@undefined 
+                                                  \let \DeclareFontEncoding@...
+l.132 ...:14,deDiego:14} and references therein).}
+                                                  
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Missing \endcsname inserted.
+<to be read again> 
+                   \let 
+l.132 ...:14,deDiego:14} and references therein).}
+                                                  
+The control sequence marked <to be read again> should
+not appear between \csname and \endcsname.
+
+! Missing \endcsname inserted.
+<to be read again> 
+                   \let 
+l.132 ...:14,deDiego:14} and references therein).}
+                                                  
+The control sequence marked <to be read again> should
+not appear between \csname and \endcsname.
+
+! Missing \endcsname inserted.
+<to be read again> 
+                   \let 
+l.132 ...:14,deDiego:14} and references therein).}
+                                                  
+The control sequence marked <to be read again> should
+not appear between \csname and \endcsname.
+
+! Undefined control sequence.
+<argument> \@undefined 
+                       
+l.132 ...:14,deDiego:14} and references therein).}
+                                                  
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+\UseRawInputEncoding ...tencodingname \@undefined 
+                                                  \let \DeclareFontEncoding@...
+l.132 ...:14,deDiego:14} and references therein).}
+                                                  
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Missing \endcsname inserted.
+<to be read again> 
+                   \let 
+l.132 ...:14,deDiego:14} and references therein).}
+                                                  
+The control sequence marked <to be read again> should
+not appear between \csname and \endcsname.
+
+! Missing \endcsname inserted.
+<to be read again> 
+                   \let 
+l.132 ...:14,deDiego:14} and references therein).}
+                                                  
+The control sequence marked <to be read again> should
+not appear between \csname and \endcsname.
+
+! Missing \endcsname inserted.
+<to be read again> 
+                   \let 
+l.132 ...:14,deDiego:14} and references therein).}
+                                                  
+The control sequence marked <to be read again> should
+not appear between \csname and \endcsname.
+
+! Undefined control sequence.
+<argument> \@undefined 
+                       
+l.132 ...:14,deDiego:14} and references therein).}
+                                                  
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+\UseRawInputEncoding ...tencodingname \@undefined 
+                                                  \let \DeclareFontEncoding@...
+l.132 ...:14,deDiego:14} and references therein).}
+                                                  
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Missing \endcsname inserted.
+<to be read again> 
+                   \let 
+l.132 ...:14,deDiego:14} and references therein).}
+                                                  
+The control sequence marked <to be read again> should
+not appear between \csname and \endcsname.
+
+! Missing \endcsname inserted.
+<to be read again> 
+                   \let 
+l.132 ...:14,deDiego:14} and references therein).}
+                                                  
+The control sequence marked <to be read again> should
+not appear between \csname and \endcsname.
+
+! Missing \endcsname inserted.
+<to be read again> 
+                   \let 
+l.132 ...:14,deDiego:14} and references therein).}
+                                                  
+The control sequence marked <to be read again> should
+not appear between \csname and \endcsname.
+
+! Undefined control sequence.
+<argument> \@undefined 
+                       
+l.132 ...:14,deDiego:14} and references therein).}
+                                                  
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+\UseRawInputEncoding ...tencodingname \@undefined 
+                                                  \let \DeclareFontEncoding@...
+l.132 ...:14,deDiego:14} and references therein).}
+                                                  
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Missing \endcsname inserted.
+<to be read again> 
+                   \let 
+l.132 ...:14,deDiego:14} and references therein).}
+                                                  
+The control sequence marked <to be read again> should
+not appear between \csname and \endcsname.
+
+! Missing \endcsname inserted.
+<to be read again> 
+                   \let 
+l.132 ...:14,deDiego:14} and references therein).}
+                                                  
+The control sequence marked <to be read again> should
+not appear between \csname and \endcsname.
+
+! Missing \endcsname inserted.
+<to be read again> 
+                   \let 
+l.132 ...:14,deDiego:14} and references therein).}
+                                                  
+The control sequence marked <to be read again> should
+not appear between \csname and \endcsname.
+
+! Undefined control sequence.
+<argument> \@undefined 
+                       
+l.132 ...:14,deDiego:14} and references therein).}
+                                                  
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+<C8/figsC8/Fig6_2_1.pdf, id=5239, 903.93686pt x 1035.92746pt>
 File: C8/figsC8/Fig6_2_1.pdf Graphic file (type pdf)
 <use C8/figsC8/Fig6_2_1.pdf>
 Package pdftex.def Info: C8/figsC8/Fig6_2_1.pdf  used on input line 150.
 (pdftex.def)             Requested size: 341.43306pt x 391.28548pt.
-<C8/figsC8/Fig6_2_3.pdf, id=5200, 490.55246pt x 309.75903pt>
+<C8/figsC8/Fig6_2_3.pdf, id=5241, 490.55246pt x 309.75903pt>
 File: C8/figsC8/Fig6_2_3.pdf Graphic file (type pdf)
 <use C8/figsC8/Fig6_2_3.pdf>
 Package pdftex.def Info: C8/figsC8/Fig6_2_3.pdf  used on input line 162.
 (pdftex.def)             Requested size: 341.43306pt x 215.60567pt.
-<C8/figsC8/fig6_2_4.pdf, id=5202, 298.22005pt x 244.40952pt>
+<C8/figsC8/fig6_2_4.pdf, id=5243, 298.22005pt x 244.40952pt>
 File: C8/figsC8/fig6_2_4.pdf Graphic file (type pdf)
 <use C8/figsC8/fig6_2_4.pdf>
 Package pdftex.def Info: C8/figsC8/fig6_2_4.pdf  used on input line 174.
 (pdftex.def)             Requested size: 455.24408pt x 373.09875pt.
-<C8/figsC8/fig6_2_5.pdf, id=5204, 1541.0752pt x 1209.92432pt>
+<C8/figsC8/fig6_2_5.pdf, id=5245, 1541.0752pt x 1209.92432pt>
 File: C8/figsC8/fig6_2_5.pdf Graphic file (type pdf)
 <use C8/figsC8/fig6_2_5.pdf>
 Package pdftex.def Info: C8/figsC8/fig6_2_5.pdf  used on input line 186.
 (pdftex.def)             Requested size: 455.24408pt x 357.40459pt.
+! Undefined control sequence.
+\UseRawInputEncoding ...tencodingname \@undefined 
+                                                  \let \DeclareFontEncoding@...
+l.191 ...Winfield:01}). After \cite{Barranco:17}.}
+                                                  \label{fig6.2.5}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Missing \endcsname inserted.
+<to be read again> 
+                   \let 
+l.191 ...Winfield:01}). After \cite{Barranco:17}.}
+                                                  \label{fig6.2.5}
+The control sequence marked <to be read again> should
+not appear between \csname and \endcsname.
+
+! Missing \endcsname inserted.
+<to be read again> 
+                   \let 
+l.191 ...Winfield:01}). After \cite{Barranco:17}.}
+                                                  \label{fig6.2.5}
+The control sequence marked <to be read again> should
+not appear between \csname and \endcsname.
+
+! Missing \endcsname inserted.
+<to be read again> 
+                   \let 
+l.191 ...Winfield:01}). After \cite{Barranco:17}.}
+                                                  \label{fig6.2.5}
+The control sequence marked <to be read again> should
+not appear between \csname and \endcsname.
+
+! Undefined control sequence.
+<argument> \@undefined 
+                       
+l.191 ...Winfield:01}). After \cite{Barranco:17}.}
+                                                  \label{fig6.2.5}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+\UseRawInputEncoding ...tencodingname \@undefined 
+                                                  \let \DeclareFontEncoding@...
+l.191 ...Winfield:01}). After \cite{Barranco:17}.}
+                                                  \label{fig6.2.5}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Missing \endcsname inserted.
+<to be read again> 
+                   \let 
+l.191 ...Winfield:01}). After \cite{Barranco:17}.}
+                                                  \label{fig6.2.5}
+The control sequence marked <to be read again> should
+not appear between \csname and \endcsname.
+
+! Missing \endcsname inserted.
+<to be read again> 
+                   \let 
+l.191 ...Winfield:01}). After \cite{Barranco:17}.}
+                                                  \label{fig6.2.5}
+The control sequence marked <to be read again> should
+not appear between \csname and \endcsname.
+
+! Missing \endcsname inserted.
+<to be read again> 
+                   \let 
+l.191 ...Winfield:01}). After \cite{Barranco:17}.}
+                                                  \label{fig6.2.5}
+The control sequence marked <to be read again> should
+not appear between \csname and \endcsname.
+
+! Undefined control sequence.
+<argument> \@undefined 
+                       
+l.191 ...Winfield:01}). After \cite{Barranco:17}.}
+                                                  \label{fig6.2.5}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+\UseRawInputEncoding ...tencodingname \@undefined 
+                                                  \let \DeclareFontEncoding@...
+l.191 ...Winfield:01}). After \cite{Barranco:17}.}
+                                                  \label{fig6.2.5}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Missing \endcsname inserted.
+<to be read again> 
+                   \let 
+l.191 ...Winfield:01}). After \cite{Barranco:17}.}
+                                                  \label{fig6.2.5}
+The control sequence marked <to be read again> should
+not appear between \csname and \endcsname.
+
+! Missing \endcsname inserted.
+<to be read again> 
+                   \let 
+l.191 ...Winfield:01}). After \cite{Barranco:17}.}
+                                                  \label{fig6.2.5}
+The control sequence marked <to be read again> should
+not appear between \csname and \endcsname.
+
+! Missing \endcsname inserted.
+<to be read again> 
+                   \let 
+l.191 ...Winfield:01}). After \cite{Barranco:17}.}
+                                                  \label{fig6.2.5}
+The control sequence marked <to be read again> should
+not appear between \csname and \endcsname.
+
+! Undefined control sequence.
+<argument> \@undefined 
+                       
+l.191 ...Winfield:01}). After \cite{Barranco:17}.}
+                                                  \label{fig6.2.5}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+\UseRawInputEncoding ...tencodingname \@undefined 
+                                                  \let \DeclareFontEncoding@...
+l.191 ...Winfield:01}). After \cite{Barranco:17}.}
+                                                  \label{fig6.2.5}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Missing \endcsname inserted.
+<to be read again> 
+                   \let 
+l.191 ...Winfield:01}). After \cite{Barranco:17}.}
+                                                  \label{fig6.2.5}
+The control sequence marked <to be read again> should
+not appear between \csname and \endcsname.
+
+! Missing \endcsname inserted.
+<to be read again> 
+                   \let 
+l.191 ...Winfield:01}). After \cite{Barranco:17}.}
+                                                  \label{fig6.2.5}
+The control sequence marked <to be read again> should
+not appear between \csname and \endcsname.
+
+! Missing \endcsname inserted.
+<to be read again> 
+                   \let 
+l.191 ...Winfield:01}). After \cite{Barranco:17}.}
+                                                  \label{fig6.2.5}
+The control sequence marked <to be read again> should
+not appear between \csname and \endcsname.
+
+! Undefined control sequence.
+<argument> \@undefined 
+                       
+l.191 ...Winfield:01}). After \cite{Barranco:17}.}
+                                                  \label{fig6.2.5}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
 
 Underfull \vbox (badness 7907) has occurred while \output is active []
 
@@ -2623,7 +4393,7 @@ v-ing with the low--lying quadrupole
 
 [456] [457 <./C8/figsC8/Fig6_2_1.pdf>] [458 <./C8/figsC8/Fig6_2_3.pdf>]
 [459 <./C8/figsC8/fig6_2_4.pdf>] [460 <./C8/figsC8/fig6_2_5.pdf>]
-<C8/figsC8/Fig6_3_1.pdf, id=5554, 597.432pt x 844.83629pt>
+<C8/figsC8/Fig6_3_1.pdf, id=5595, 597.432pt x 844.83629pt>
 File: C8/figsC8/Fig6_3_1.pdf Graphic file (type pdf)
 <use C8/figsC8/Fig6_3_1.pdf>
 Package pdftex.def Info: C8/figsC8/Fig6_3_1.pdf  used on input line 253.
@@ -2643,23 +4413,23 @@ Underfull \hbox (badness 10000) in paragraph at lines 357--357
 []\OT1/txr/m/n/10.95 , as-so-ci-ated with
  []
 
-<C8/figsC8/fig8_2_4.pdf, id=5567, 481.8pt x 456.10399pt>
+<C8/figsC8/fig8_2_4.pdf, id=5608, 481.8pt x 456.10399pt>
 File: C8/figsC8/fig8_2_4.pdf Graphic file (type pdf)
 <use C8/figsC8/fig8_2_4.pdf>
 Package pdftex.def Info: C8/figsC8/fig8_2_4.pdf  used on input line 362.
 (pdftex.def)             Requested size: 341.43306pt x 323.2306pt.
 
-Overfull \hbox (53.689pt too wide) in paragraph at lines 373--386
+Overfull \hbox (53.6892pt too wide) in paragraph at lines 373--386
 [][] 
  []
 
 [463] [464 <./C8/figsC8/fig8_2_4.pdf>] [465]
-<C8/figsC8/Fig2.pdf, id=5584, 794.97pt x 614.295pt>
+<C8/figsC8/Fig2.pdf, id=5625, 794.97pt x 614.295pt>
 File: C8/figsC8/Fig2.pdf Graphic file (type pdf)
 <use C8/figsC8/Fig2.pdf>
 Package pdftex.def Info: C8/figsC8/Fig2.pdf  used on input line 450.
 (pdftex.def)             Requested size: 341.43306pt x 263.84175pt.
-<C8/figsC8/fig5.pdf, id=5586, 735.4406pt x 430.92793pt>
+<C8/figsC8/fig5.pdf, id=5627, 735.4406pt x 430.92793pt>
 File: C8/figsC8/fig5.pdf Graphic file (type pdf)
 <use C8/figsC8/fig5.pdf>
 Package pdftex.def Info: C8/figsC8/fig5.pdf  used on input line 456.
@@ -2677,12 +4447,12 @@ Underfull \hbox (badness 3590) in paragraph at lines 593--593
  []
 
 [471] [472]
-<C8/figsC8/fig6_6_1.pdf, id=5665, 658.46405pt x 276.91136pt>
+<C8/figsC8/fig6_6_1.pdf, id=5706, 658.46405pt x 276.91136pt>
 File: C8/figsC8/fig6_6_1.pdf Graphic file (type pdf)
 <use C8/figsC8/fig6_6_1.pdf>
 Package pdftex.def Info: C8/figsC8/fig6_6_1.pdf  used on input line 652.
 (pdftex.def)             Requested size: 284.52756pt x 119.65688pt.
-<C8/figsC8/Fig3.pdf, id=5667, 2442.43497pt x 3847.38454pt>
+<C8/figsC8/Fig3.pdf, id=5708, 2442.43497pt x 3847.38454pt>
 File: C8/figsC8/Fig3.pdf Graphic file (type pdf)
 <use C8/figsC8/Fig3.pdf>
 Package pdftex.def Info: C8/figsC8/Fig3.pdf  used on input line 657.
@@ -2692,7 +4462,7 @@ Package pdftex.def Info: C8/figsC8/Fig3.pdf  used on input line 657.
 LaTeX Warning: Float too large for page by 100.04541pt on input line 659.
 
 [473] [474 <./C8/figsC8/fig6_6_1.pdf>] [475 <./C8/figsC8/Fig3.pdf>]
-<C8/figsC8/fig6_5_5.pdf, id=5700, 597.23125pt x 844.15375pt>
+<C8/figsC8/fig6_5_5.pdf, id=5741, 597.23125pt x 844.15375pt>
 File: C8/figsC8/fig6_5_5.pdf Graphic file (type pdf)
 <use C8/figsC8/fig6_5_5.pdf>
 Package pdftex.def Info: C8/figsC8/fig6_5_5.pdf  used on input line 670.
@@ -2716,7 +4486,7 @@ n/10.95 r[]\OML/txmi/m/it/10.95 ; \OT1/txr/bx/n/10.95 r[]\OML/txmi/m/it/10.95 ;
  []
 
 [478]
-<C8/figsC8/BootStrap_Li.pdf, id=5716, 1101.71597pt x 1579.50098pt>
+<C8/figsC8/BootStrap_Li.pdf, id=5757, 1101.71597pt x 1579.50098pt>
 File: C8/figsC8/BootStrap_Li.pdf Graphic file (type pdf)
 <use C8/figsC8/BootStrap_Li.pdf>
 Package pdftex.def Info: C8/figsC8/BootStrap_Li.pdf  used on input line 712.
@@ -2732,22 +4502,22 @@ Overfull \hbox (5.43307pt too wide) in paragraph at lines 728--728
  []
 
 [481]
-Overfull \hbox (26.85594pt too wide) in paragraph at lines 750--773
+Overfull \hbox (26.85603pt too wide) in paragraph at lines 750--773
  [] 
  []
 
 [482]
-<C8/figsC8/fig8_B_1x.pdf, id=5755, 464.13399pt x 456.90701pt>
+<C8/figsC8/fig8_B_1x.pdf, id=5796, 464.13399pt x 456.90701pt>
 File: C8/figsC8/fig8_B_1x.pdf Graphic file (type pdf)
 <use C8/figsC8/fig8_B_1x.pdf>
 Package pdftex.def Info: C8/figsC8/fig8_B_1x.pdf  used on input line 782.
 (pdftex.def)             Requested size: 341.43306pt x 336.11891pt.
-<C8/figsC8/fig8_B_2.pdf, id=5757, 527.57097pt x 466.54298pt>
+<C8/figsC8/fig8_B_2.pdf, id=5798, 527.57097pt x 466.54298pt>
 File: C8/figsC8/fig8_B_2.pdf Graphic file (type pdf)
 <use C8/figsC8/fig8_B_2.pdf>
 Package pdftex.def Info: C8/figsC8/fig8_B_2.pdf  used on input line 786.
 (pdftex.def)             Requested size: 341.43306pt x 301.93945pt.
-<C8/figsC8/fig8_B_3.pdf, id=5759, 627.94597pt x 474.57298pt>
+<C8/figsC8/fig8_B_3.pdf, id=5800, 627.94597pt x 474.57298pt>
 File: C8/figsC8/fig8_B_3.pdf Graphic file (type pdf)
 <use C8/figsC8/fig8_B_3.pdf>
 Package pdftex.def Info: C8/figsC8/fig8_B_3.pdf  used on input line 791.
@@ -2760,23 +4530,23 @@ it/10.95 k[]$ \OT1/txr/m/n/10.95 (neu-trons) with the help of the Thomas-
  []
 
 [488] [489]
-<C8/figsC8/figA1_corr.pdf, id=5798, 187.19675pt x 231.82094pt>
+<C8/figsC8/figA1_corr.pdf, id=5840, 187.19675pt x 231.82094pt>
 File: C8/figsC8/figA1_corr.pdf Graphic file (type pdf)
 <use C8/figsC8/figA1_corr.pdf>
 Package pdftex.def Info: C8/figsC8/figA1_corr.pdf  used on input line 905.
 (pdftex.def)             Requested size: 360.0pt x 445.8375pt.
-<C8/figsC8/Nobel40Years-4b.pdf, id=5799, 542.97171pt x 790.69499pt>
+<C8/figsC8/Nobel40Years-4b.pdf, id=5841, 542.97171pt x 790.69499pt>
 File: C8/figsC8/Nobel40Years-4b.pdf Graphic file (type pdf)
 <use C8/figsC8/Nobel40Years-4b.pdf>
 Package pdftex.def Info: C8/figsC8/Nobel40Years-4b.pdf  used on input line 911.
 
 (pdftex.def)             Requested size: 288.0011pt x 419.3921pt.
-<C8/figsC8/figa3_newnew.pdf, id=5800, 887.02963pt x 352.05426pt>
+<C8/figsC8/figa3_newnew.pdf, id=5842, 887.02963pt x 352.05426pt>
 File: C8/figsC8/figa3_newnew.pdf Graphic file (type pdf)
 <use C8/figsC8/figa3_newnew.pdf>
 Package pdftex.def Info: C8/figsC8/figa3_newnew.pdf  used on input line 917.
 (pdftex.def)             Requested size: 360.0pt x 142.88202pt.
-<C8/figsC8/figa4_newnew.pdf, id=5801, 816.49077pt x 239.04936pt>
+<C8/figsC8/figa4_newnew.pdf, id=5843, 816.49077pt x 239.04936pt>
 File: C8/figsC8/figa4_newnew.pdf Graphic file (type pdf)
 <use C8/figsC8/figa4_newnew.pdf>
 Package pdftex.def Info: C8/figsC8/figa4_newnew.pdf  used on input line 923.
@@ -2787,18 +4557,18 @@ Package pdftex.def Info: C8/figsC8/figa4_newnew.pdf  used on input line 923.
 pdfTeX warning: /usr/bin/pdflatex (file ./C8/figsC8/figa4_newnew.pdf): PDF incl
 usion: multiple pdfs with page group included in a single page
 >] [494]
-<C8/figsC8/fig6G1.pdf, id=5862, 501.40955pt x 258.35538pt>
+<C8/figsC8/fig6G1.pdf, id=5903, 501.40955pt x 258.35538pt>
 File: C8/figsC8/fig6G1.pdf Graphic file (type pdf)
 <use C8/figsC8/fig6G1.pdf>
 Package pdftex.def Info: C8/figsC8/fig6G1.pdf  used on input line 999.
 (pdftex.def)             Requested size: 360.0pt x 185.49141pt.
  [495]
-<C8/figsC8/fig6G2.pdf, id=5866, 440.89548pt x 323.97433pt>
+<C8/figsC8/fig6G2.pdf, id=5907, 440.89548pt x 323.97433pt>
 File: C8/figsC8/fig6G2.pdf Graphic file (type pdf)
 <use C8/figsC8/fig6G2.pdf>
 Package pdftex.def Info: C8/figsC8/fig6G2.pdf  used on input line 1016.
 (pdftex.def)             Requested size: 284.52756pt x 209.078pt.
-<C8/figsC8/fig6G3.pdf, id=5867, 421.2057pt x 626.53783pt>
+<C8/figsC8/fig6G3.pdf, id=5908, 421.2057pt x 626.53783pt>
 File: C8/figsC8/fig6G3.pdf Graphic file (type pdf)
 <use C8/figsC8/fig6G3.pdf>
 Package pdftex.def Info: C8/figsC8/fig6G3.pdf  used on input line 1021.
@@ -2813,27 +4583,27 @@ Package natbib Warning: Citation `Mich' on page 497 undefined on input line 106
 0.
 
 [497 <./C8/figsC8/fig6G2.pdf>] [498 <./C8/figsC8/fig6G3.pdf>]
-<C8/figsC8/fig6G4.pdf, id=6464, 259.52417pt x 165.11177pt>
+<C8/figsC8/fig6G4.pdf, id=6505, 259.52417pt x 165.11177pt>
 File: C8/figsC8/fig6G4.pdf Graphic file (type pdf)
 <use C8/figsC8/fig6G4.pdf>
 Package pdftex.def Info: C8/figsC8/fig6G4.pdf  used on input line 1079.
 (pdftex.def)             Requested size: 142.26378pt x 90.51193pt.
-<C8/figsC8/fig6G5.pdf, id=6465, 470.82387pt x 340.46135pt>
+<C8/figsC8/fig6G5.pdf, id=6506, 470.82387pt x 340.46135pt>
 File: C8/figsC8/fig6G5.pdf Graphic file (type pdf)
 <use C8/figsC8/fig6G5.pdf>
 Package pdftex.def Info: C8/figsC8/fig6G5.pdf  used on input line 1087.
 (pdftex.def)             Requested size: 284.52756pt x 205.74855pt.
-<C8/figsC8/fig6G6.pdf, id=6466, 302.94179pt x 130.21576pt>
+<C8/figsC8/fig6G6.pdf, id=6507, 302.94179pt x 130.21576pt>
 File: C8/figsC8/fig6G6.pdf Graphic file (type pdf)
 <use C8/figsC8/fig6G6.pdf>
 Package pdftex.def Info: C8/figsC8/fig6G6.pdf  used on input line 1091.
 (pdftex.def)             Requested size: 284.52756pt x 122.30148pt.
-<C8/figsC8/fig6G7.pdf, id=6467, 220.22408pt x 218.95844pt>
+<C8/figsC8/fig6G7.pdf, id=6508, 220.22408pt x 218.95844pt>
 File: C8/figsC8/fig6G7.pdf Graphic file (type pdf)
 <use C8/figsC8/fig6G7.pdf>
 Package pdftex.def Info: C8/figsC8/fig6G7.pdf  used on input line 1095.
 (pdftex.def)             Requested size: 170.71652pt x 169.73781pt.
-<C8/figsC8/fig6G8.pdf, id=6468, 126.65851pt x 130.56825pt>
+<C8/figsC8/fig6G8.pdf, id=6509, 126.65851pt x 130.56825pt>
 File: C8/figsC8/fig6G8.pdf Graphic file (type pdf)
 <use C8/figsC8/fig6G8.pdf>
 Package pdftex.def Info: C8/figsC8/fig6G8.pdf  used on input line 1099.
@@ -2848,20 +4618,389 @@ Underfull \vbox (badness 4913) has occurred while \output is active []
 pdfTeX warning: /usr/bin/pdflatex (file ./C8/figsC8/fig6G7.pdf): PDF inclusion:
  multiple pdfs with page group included in a single page
 >] [503 <./C8/figsC8/fig6G8.pdf>] (./C8/includeC8.bbl [504] [505] [506]
-Missing character: There is no è in font txr!
+! Undefined control sequence.
+\UseRawInputEncoding ...tencodingname \@undefined 
+                                                  \let \DeclareFontEncoding@...
+l.321 ...r, Suomijarvi, and de~Vismes]{Fortier:99}
+                                                  
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Missing \endcsname inserted.
+<to be read again> 
+                   \let 
+l.321 ...r, Suomijarvi, and de~Vismes]{Fortier:99}
+                                                  
+The control sequence marked <to be read again> should
+not appear between \csname and \endcsname.
+
+! Missing \endcsname inserted.
+<to be read again> 
+                   \let 
+l.321 ...r, Suomijarvi, and de~Vismes]{Fortier:99}
+                                                  
+The control sequence marked <to be read again> should
+not appear between \csname and \endcsname.
+
+! Missing \endcsname inserted.
+<to be read again> 
+                   \let 
+l.321 ...r, Suomijarvi, and de~Vismes]{Fortier:99}
+                                                  
+The control sequence marked <to be read again> should
+not appear between \csname and \endcsname.
+
+! Undefined control sequence.
+<argument> \@undefined 
+                       
+l.321 ...r, Suomijarvi, and de~Vismes]{Fortier:99}
+                                                  
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+! Package inputenc Error: Invalid UTF-8 byte sequence.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.324   S.~Galès,
+                  K.~Jones, H.~Langevin-Joliot, H.~Laurent, I.~Lhenry, J.~Ma...
+
+The document does not appear to be in UTF-8 encoding.
+Try adding \UseRawInputEncoding as the first line of the file
+or specify an encoding such as \usepackage [latin1]{inputenc}
+in the document preamble.
+Alternatively, save the file in UTF-8 using your editor or another tool
 
 [507] [508]
-Missing character: There is no ü in font txr!
-Missing character: There is no ö in font txr!
-Missing character: There is no á in font txr!
- [509] [510] [511]
-Missing character: There is no è in font txr!
-Missing character: There is no ä in font txr!
-)) [512]
+! Undefined control sequence.
+\UseRawInputEncoding ...tencodingname \@undefined 
+                                                  \let \DeclareFontEncoding@...
+l.453   and Ishihara]{Iwasaki:00}
+                                 
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Missing \endcsname inserted.
+<to be read again> 
+                   \let 
+l.453   and Ishihara]{Iwasaki:00}
+                                 
+The control sequence marked <to be read again> should
+not appear between \csname and \endcsname.
+
+! Missing \endcsname inserted.
+<to be read again> 
+                   \let 
+l.453   and Ishihara]{Iwasaki:00}
+                                 
+The control sequence marked <to be read again> should
+not appear between \csname and \endcsname.
+
+! Missing \endcsname inserted.
+<to be read again> 
+                   \let 
+l.453   and Ishihara]{Iwasaki:00}
+                                 
+The control sequence marked <to be read again> should
+not appear between \csname and \endcsname.
+
+! Undefined control sequence.
+<argument> \@undefined 
+                       
+l.453   and Ishihara]{Iwasaki:00}
+                                 
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+\UseRawInputEncoding ...tencodingname \@undefined 
+                                                  \let \DeclareFontEncoding@...
+l.453   and Ishihara]{Iwasaki:00}
+                                 
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Missing \endcsname inserted.
+<to be read again> 
+                   \let 
+l.453   and Ishihara]{Iwasaki:00}
+                                 
+The control sequence marked <to be read again> should
+not appear between \csname and \endcsname.
+
+! Missing \endcsname inserted.
+<to be read again> 
+                   \let 
+l.453   and Ishihara]{Iwasaki:00}
+                                 
+The control sequence marked <to be read again> should
+not appear between \csname and \endcsname.
+
+! Missing \endcsname inserted.
+<to be read again> 
+                   \let 
+l.453   and Ishihara]{Iwasaki:00}
+                                 
+The control sequence marked <to be read again> should
+not appear between \csname and \endcsname.
+
+! Undefined control sequence.
+<argument> \@undefined 
+                       
+l.453   and Ishihara]{Iwasaki:00}
+                                 
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+! Package inputenc Error: Invalid UTF-8 byte "FC.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.455   Z.~Fü
+             löp, K.~Hahn, Y.~Higurashi, M.~Hirai, I.~Hisanaga, N.~Iwasa, T....
+
+The document does not appear to be in UTF-8 encoding.
+Try adding \UseRawInputEncoding as the first line of the file
+or specify an encoding such as \usepackage [latin1]{inputenc}
+in the document preamble.
+Alternatively, save the file in UTF-8 using your editor or another tool
+
+
+! Package inputenc Error: Invalid UTF-8 byte "F6.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.455   Z.~Fülö
+               p, K.~Hahn, Y.~Higurashi, M.~Hirai, I.~Hisanaga, N.~Iwasa, T....
+
+The document does not appear to be in UTF-8 encoding.
+Try adding \UseRawInputEncoding as the first line of the file
+or specify an encoding such as \usepackage [latin1]{inputenc}
+in the document preamble.
+Alternatively, save the file in UTF-8 using your editor or another tool
+
+! Undefined control sequence.
+\UseRawInputEncoding ...tencodingname \@undefined 
+                                                  \let \DeclareFontEncoding@...
+l.523 ...mpson, Voss, Williams, and Wang]{Kwan:14}
+                                                  
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Missing \endcsname inserted.
+<to be read again> 
+                   \let 
+l.523 ...mpson, Voss, Williams, and Wang]{Kwan:14}
+                                                  
+The control sequence marked <to be read again> should
+not appear between \csname and \endcsname.
+
+! Missing \endcsname inserted.
+<to be read again> 
+                   \let 
+l.523 ...mpson, Voss, Williams, and Wang]{Kwan:14}
+                                                  
+The control sequence marked <to be read again> should
+not appear between \csname and \endcsname.
+
+! Missing \endcsname inserted.
+<to be read again> 
+                   \let 
+l.523 ...mpson, Voss, Williams, and Wang]{Kwan:14}
+                                                  
+The control sequence marked <to be read again> should
+not appear between \csname and \endcsname.
+
+! Undefined control sequence.
+<argument> \@undefined 
+                       
+l.523 ...mpson, Voss, Williams, and Wang]{Kwan:14}
+                                                  
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+! Package inputenc Error: Invalid UTF-8 byte sequence.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.527   T.~Nano, P.~Navráti
+                           l, C.~Pearson, J.~Pore, S.~Quaglioni, C.~Svensson,
+The document does not appear to be in UTF-8 encoding.
+Try adding \UseRawInputEncoding as the first line of the file
+or specify an encoding such as \usepackage [latin1]{inputenc}
+in the document preamble.
+Alternatively, save the file in UTF-8 using your editor or another tool
+
+[509] [510] [511]
+! Undefined control sequence.
+\UseRawInputEncoding ...tencodingname \@undefined 
+                                                  \let \DeclareFontEncoding@...
+l.745   de~Vismes]{Winfield:01}
+                               
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Missing \endcsname inserted.
+<to be read again> 
+                   \let 
+l.745   de~Vismes]{Winfield:01}
+                               
+The control sequence marked <to be read again> should
+not appear between \csname and \endcsname.
+
+! Missing \endcsname inserted.
+<to be read again> 
+                   \let 
+l.745   de~Vismes]{Winfield:01}
+                               
+The control sequence marked <to be read again> should
+not appear between \csname and \endcsname.
+
+! Missing \endcsname inserted.
+<to be read again> 
+                   \let 
+l.745   de~Vismes]{Winfield:01}
+                               
+The control sequence marked <to be read again> should
+not appear between \csname and \endcsname.
+
+! Undefined control sequence.
+<argument> \@undefined 
+                       
+l.745   de~Vismes]{Winfield:01}
+                               
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+\UseRawInputEncoding ...tencodingname \@undefined 
+                                                  \let \DeclareFontEncoding@...
+l.745   de~Vismes]{Winfield:01}
+                               
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Missing \endcsname inserted.
+<to be read again> 
+                   \let 
+l.745   de~Vismes]{Winfield:01}
+                               
+The control sequence marked <to be read again> should
+not appear between \csname and \endcsname.
+
+! Missing \endcsname inserted.
+<to be read again> 
+                   \let 
+l.745   de~Vismes]{Winfield:01}
+                               
+The control sequence marked <to be read again> should
+not appear between \csname and \endcsname.
+
+! Missing \endcsname inserted.
+<to be read again> 
+                   \let 
+l.745   de~Vismes]{Winfield:01}
+                               
+The control sequence marked <to be read again> should
+not appear between \csname and \endcsname.
+
+! Undefined control sequence.
+<argument> \@undefined 
+                       
+l.745   de~Vismes]{Winfield:01}
+                               
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+! Package inputenc Error: Invalid UTF-8 byte sequence.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.748   S.~Galès,
+                  H.~Langevin-Joliot, H.~Laurent, I.~Lhenry, J.~Maison,
+The document does not appear to be in UTF-8 encoding.
+Try adding \UseRawInputEncoding as the first line of the file
+or specify an encoding such as \usepackage [latin1]{inputenc}
+in the document preamble.
+Alternatively, save the file in UTF-8 using your editor or another tool
+
+
+! Package inputenc Error: Invalid UTF-8 byte sequence.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.749 ...maz, M.~Shawcross, K.~Spohr, T.~Suomijärv
+                                                  i, and A.~de~Vismes.
+The document does not appear to be in UTF-8 encoding.
+Try adding \UseRawInputEncoding as the first line of the file
+or specify an encoding such as \usepackage [latin1]{inputenc}
+in the document preamble.
+Alternatively, save the file in UTF-8 using your editor or another tool
+
+)) [512] (./main_libro.bbl
+
+Package natbib Warning: Empty `thebibliography' environment on input line 8.
+
+)
 
 Package natbib Warning: There were undefined citations.
 
-(./main_libro.aux (./C1/includeC1.aux) (./introduccion/introduccion.aux)
+[513
+
+
+] (./main_libro.aux (./C1/includeC1.aux) (./introduccion/introduccion.aux)
 (./nutshell/include_struct_nut.aux) (./nutshell/include_trans_nut.aux)
 (./C6/includeC6.aux) (./C7/includeC7.aux) (./C8/includeC8.aux))
 
@@ -2872,13 +5011,13 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 9872 strings out of 492982
- 156914 string characters out of 6134896
- 229444 words of memory out of 5000000
- 12977 multiletter control sequences out of 15000+600000
+ 9321 strings out of 492615
+ 147594 string characters out of 6131390
+ 242704 words of memory out of 5000000
+ 12769 multiletter control sequences out of 15000+600000
  95275 words of font info for 247 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 41i,26n,50p,3452b,809s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 41i,26n,50p,3452b,705s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/share/texliv
 e/texmf-dist/fonts/type1/public/doublestroke/dsrom10.pfb></usr/share/texlive/te
 xmf-dist/fonts/type1/public/amsfonts/latxfont/line10.pfb></usr/share/texmf/font
@@ -2900,10 +5039,10 @@ are/texlive/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/share/texlive/tex
 mf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/share/texlive/texmf-dist/fonts/t
 ype1/urw/times/utmr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/
 utmri8a.pfb>
-Output written on main_libro.pdf (512 pages, 33962662 bytes).
+Output written on main_libro.pdf (513 pages, 33917066 bytes).
 PDF statistics:
- 6641 PDF objects out of 7423 (max. 8388607)
- 4167 compressed objects within 42 object streams
+ 6685 PDF objects out of 7423 (max. 8388607)
+ 4199 compressed objects within 42 object streams
  0 named destinations out of 1000 (max. 500000)
  1781 words of extra memory for PDF output out of 10000 (max. 10000000)
 

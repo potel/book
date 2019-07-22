@@ -1,8 +1,8 @@
-This is BibTeX, Version 0.99d (TeX Live 2017/Debian)
+This is BibTeX, Version 0.99d (TeX Live 2019/dev/Debian)
 Capacity: max_strings=100000, hash_size=100000, hash_prime=85009
 The top-level auxiliary file: include_struct_nut.aux
 The style file: abbrvnat.bst
-Reallocated field_info (elt_size=4) to 10124 items from 5000.
+Reallocated field_info (elt_size=4) to 10152 items from 5000.
 Database file #1: ../nuclear_bib.bib
 I was expecting a `,' or a `}'---line 610 of file ../nuclear_bib.bib
  :   volume = 16
@@ -24,53 +24,53 @@ You're missing a field name---line 3093 of file ../nuclear_bib.bib
  : year = {1973},
  :               ,
 I'm skipping whatever remains of this entry
-"{" immediately follows a field name---line 4014 of file ../nuclear_bib.bib
+"{" immediately follows a field name---line 4028 of file ../nuclear_bib.bib
  : @article{Schmid:66,@article
  :                            {Jenning:11,
 I'm skipping whatever remains of this entry
-"{" immediately follows a field name---line 4041 of file ../nuclear_bib.bib
+"{" immediately follows a field name---line 4055 of file ../nuclear_bib.bib
  : year = {2013},@BOOK
  :                    {Pauli:47,
 I'm skipping whatever remains of this entry
 Warning--I'm ignoring Shimizu:13's extra "year" field
---line 4131 of file ../nuclear_bib.bib
-Repeated entry---line 4404 of file ../nuclear_bib.bib
+--line 4145 of file ../nuclear_bib.bib
+Repeated entry---line 4418 of file ../nuclear_bib.bib
  : @article{Barranco:99
  :                     ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 4722 of file ../nuclear_bib.bib
+Repeated entry---line 4736 of file ../nuclear_bib.bib
  : @article{Sackett:93
  :                    ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 4863 of file ../nuclear_bib.bib
+Repeated entry---line 4877 of file ../nuclear_bib.bib
  : @book{DeGennes:94
  :                  ,
 I'm skipping whatever remains of this entry
-I was expecting a `,' or a `}'---line 4921 of file ../nuclear_bib.bib
+I was expecting a `,' or a `}'---line 4935 of file ../nuclear_bib.bib
  :   pages = 210
  :              (R),
 I'm skipping whatever remains of this entry
-"{" immediately follows a field name---line 5415 of file ../nuclear_bib.bib
+"{" immediately follows a field name---line 5429 of file ../nuclear_bib.bib
  : journal = {Phys. Lett. B},@article
  :                                   {Thompson:04,
 I'm skipping whatever remains of this entry
-Repeated entry---line 5439 of file ../nuclear_bib.bib
+Repeated entry---line 5453 of file ../nuclear_bib.bib
  : @article{Lanford:73
  :                    ,
 I'm skipping whatever remains of this entry
-"{" immediately follows a field name---line 6504 of file ../nuclear_bib.bib
+"{" immediately follows a field name---line 6518 of file ../nuclear_bib.bib
  :   year = {2017},@article
  :                         {PhysRevLett.95.232502,
 I'm skipping whatever remains of this entry
-Repeated entry---line 6623 of file ../nuclear_bib.bib
+Repeated entry---line 6637 of file ../nuclear_bib.bib
  : @article{Rosner:17
  :                   ,
 I'm skipping whatever remains of this entry
-You're missing a field name---line 7575 of file ../nuclear_bib.bib
+You're missing a field name---line 7589 of file ../nuclear_bib.bib
  :  year = {2007},
  :                ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 7592 of file ../nuclear_bib.bib
+Repeated entry---line 7606 of file ../nuclear_bib.bib
  : @article{Montanari:14
  :                      ,
 I'm skipping whatever remains of this entry
@@ -229,45 +229,45 @@ Name 1 in "Saperstein, E. E., and Baldo, M." has a comma at the end for entry Sa
 while executing---line 1429 of file abbrvnat.bst
 Name 1 in "Saperstein, E. E., and Baldo, M." has a comma at the end for entry Saperstein:12
 while executing---line 1429 of file abbrvnat.bst
-You've used 182 entries,
+You've used 183 entries,
             2773 wiz_defined-function locations,
-            1704 strings with 34479 characters,
-and the built_in function-call counts, 90942 in all, are:
-= -- 7448
-> -- 6749
+            1711 strings with 34654 characters,
+and the built_in function-call counts, 91394 in all, are:
+= -- 7486
+> -- 6779
 < -- 128
-+ -- 2282
-- -- 2094
-* -- 7594
-:= -- 14654
-add.period$ -- 569
-call.type$ -- 182
-change.case$ -- 1204
-chr.to.int$ -- 176
-cite$ -- 372
-duplicate$ -- 3944
-empty$ -- 6685
-format.name$ -- 2362
-if$ -- 18737
++ -- 2292
+- -- 2103
+* -- 7634
+:= -- 14726
+add.period$ -- 572
+call.type$ -- 183
+change.case$ -- 1210
+chr.to.int$ -- 177
+cite$ -- 374
+duplicate$ -- 3965
+empty$ -- 6721
+format.name$ -- 2372
+if$ -- 18830
 int.to.chr$ -- 7
 int.to.str$ -- 1
-missing$ -- 202
-newline$ -- 916
-num.names$ -- 772
-pop$ -- 2384
+missing$ -- 203
+newline$ -- 921
+num.names$ -- 776
+pop$ -- 2394
 preamble$ -- 1
-purify$ -- 1047
+purify$ -- 1052
 quote$ -- 0
-skip$ -- 3057
+skip$ -- 3072
 stack$ -- 0
-substring$ -- 1986
-swap$ -- 336
+substring$ -- 1997
+swap$ -- 337
 text.length$ -- 25
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 1897
+type$ -- 1908
 warning$ -- 8
-while$ -- 720
+while$ -- 724
 width$ -- 0
-write$ -- 2403
+write$ -- 2416
 (There were 90 error messages)

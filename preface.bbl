@@ -1,4 +1,4 @@
-\begin{thebibliography}{17}
+\begin{thebibliography}{28}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \expandafter\ifx\csname urlstyle\endcsname\relax
@@ -17,12 +17,27 @@ J.~Bardeen, L.~N. Cooper, and J.~R. Schrieffer.
 \newblock Theory of superconductivity.
 \newblock \emph{Physical Review}, 108:\penalty0 1175, 1957{\natexlab{b}}.
 
+\bibitem[Barranco and Broglia(1987)]{Barranco:87a}
+F.~Barranco and R.~A. Broglia.
+\newblock Effect of surface fluctuations on the nuclear density.
+\newblock \emph{Phys. Rev. Lett.}, 59:\penalty0 2724, 1987.
+
 \bibitem[Barranco et~al.(2004)Barranco, Broglia, Col{\`{o}}, Gori, Vigezzi, and
   Bortignon]{Barranco:04}
 F.~Barranco, R.~A. Broglia, G.~Col{\`{o}}, G.~Gori, E.~Vigezzi, and P.~F.
   Bortignon.
 \newblock Many-body effects in nuclear structure.
 \newblock \emph{European Physical Journal A}, 21:\penalty0 57, 2004.
+
+\bibitem[Basdevant and Dalibard(2005)]{Basdevant:05}
+J.~L. Basdevant and J.~Dalibard.
+\newblock \emph{{Quantum Mechanics}}.
+\newblock Springer, Berlin, 2005.
+
+\bibitem[Bertsch et~al.(1983)Bertsch, Bortignon, and Broglia]{Bertsch:83}
+G.~F. Bertsch, P.~F. Bortignon, and R.~A. Broglia.
+\newblock Damping of nuclear excitations.
+\newblock \emph{Rev. Mod. Phys.}, 55:\penalty0 287, 1983.
 
 \bibitem[Bohr and Mottelson(1969)]{Bohr:69}
 A.~Bohr and B.~R. Mottelson.
@@ -45,6 +60,36 @@ N.~Bohr and J.~A. Wheeler.
 \newblock \emph{Nuclear Structure, Vol.II}.
 \newblock Benjamin, New York, 1975.
 
+\bibitem[Born(1926)]{Born:26}
+M.~Born.
+\newblock {Zur Quantenmechanik der Sto\ss{}vorg\"{a}nge}.
+\newblock \emph{Zeitschr. f. Phys.}, 37:\penalty0 863, 1926.
+
+\bibitem[{Brink, D.} and Broglia(2005)]{Brink:05}
+{Brink, D.} and R.~A. Broglia.
+\newblock \emph{Nuclear Superfluidity}.
+\newblock Cambridge University Press, Cambridge, 2005.
+
+\bibitem[Broglia and Bes(1977)]{Broglia:77}
+R.~A. Broglia and D.~R. Bes.
+\newblock High-lying pairing resonances.
+\newblock \emph{Physics Letters B}, 69:\penalty0 129, 1977.
+
+\bibitem[Broglia and Winther(2004)]{Broglia:04a}
+R.~A. Broglia and A.~Winther.
+\newblock \emph{Heavy Ion Reactions}.
+\newblock Westview Press, Boulder, CO., 2004.
+
+\bibitem[Cappuzzello et~al.(2015)Cappuzzello, Carbone, Cavallaro, {Bond\'i},
+  Agodi, Azaiez, Bonaccorso, Cunsolo, Fortunato, Foti, Franchoo, Khan, Linares,
+  Lubian, Scarpaci, and Vitturi]{Cappuzzello:15}
+F.~Cappuzzello, D.~Carbone, M.~Cavallaro, M.~{Bond\'i}, C.~Agodi, F.~Azaiez,
+  A.~Bonaccorso, A.~Cunsolo, L.~Fortunato, A.~Foti, S.~Franchoo, E.~Khan,
+  R.~Linares, J.~Lubian, J.~A. Scarpaci, and A.~Vitturi.
+\newblock {Signatures of the Giant Pairing Vibration in the $^{14}$C and
+  $^{15}$C atomic nuclei.}
+\newblock \emph{Nature Communications}, 6:\penalty0 6743, 2015.
+
 \bibitem[Dirac(1930)]{Dirac:26}
 P.~A.~M. Dirac.
 \newblock \emph{The principles of quantum mechanics}.
@@ -54,6 +99,11 @@ P.~A.~M. Dirac.
 W.~Elsasser.
 \newblock {Sur le principe de Pauli dans les noyaux}.
 \newblock \emph{J. Phys. Radium}, 4:\penalty0 549, 1933.
+
+\bibitem[Glauber(2007)]{Glauber:07}
+R.~J. Glauber.
+\newblock \emph{Quantum theory of optical coherence}.
+\newblock Wiley, Weinheim, 2007.
 
 \bibitem[Haxel et~al.(1949)Haxel, Jensen, and Suess]{Haxel:49}
 O.~Haxel, J.~H.~D. Jensen, and H.~E. Suess.
@@ -90,8 +140,19 @@ L.~Meitner and O.~R. Frisch.
 \newblock Products of the fission of the uranium nucleus.
 \newblock \emph{Nature}, 143:\penalty0 239, 1939.
 
+\bibitem[Nilsson(1955)]{Nilsson:55}
+S.~G. Nilsson.
+\newblock Binding states of individual nucleons in strongly deformed nuclei.
+\newblock \emph{Mat. Fys. Medd. Dan. Vid. Selsk.}, 29, 1955.
+
+\bibitem[Pais(1986)]{Pais:86}
+A.~Pais.
+\newblock \emph{Inward bound}.
+\newblock Oxford University Press, Oxford, 1986.
+
 \bibitem[{Weizs\"{a}cker}(1935)]{Weizsacker:35}
 C.~F. {Weizs\"{a}cker}.
+\newblock Zur theorie der kernmassen.
 \newblock \emph{Z. Phys.}, 96:\penalty0 431, 1935.
 
 \end{thebibliography}

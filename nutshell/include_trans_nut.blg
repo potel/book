@@ -1,4 +1,4 @@
-This is BibTeX, Version 0.99d (TeX Live 2017/Debian)
+This is BibTeX, Version 0.99d (TeX Live 2019/dev/Debian)
 Capacity: max_strings=100000, hash_size=100000, hash_prime=85009
 The top-level auxiliary file: include_trans_nut.aux
 The style file: abbrvnat.bst
@@ -7,59 +7,59 @@ I was expecting a `,' or a `}'---line 610 of file ../nuclear_bib.bib
  :   volume = 16
  :              C,
 I'm skipping whatever remains of this entry
-"{" immediately follows a field name---line 927 of file ../nuclear_bib.bib
+"{" immediately follows a field name---line 933 of file ../nuclear_bib.bib
  :   editor =       {{Morinaga H.}},@article
  :                                          {LENSKE2001187,
 I'm skipping whatever remains of this entry
-"{" immediately follows a field name---line 1078 of file ../nuclear_bib.bib
+"{" immediately follows a field name---line 1084 of file ../nuclear_bib.bib
  :   BOOKTITLE =    {Le Prix Nobel en 1973},@article
  :                                                  {LENSKE2001187,
 I'm skipping whatever remains of this entry
-"{" immediately follows a field name---line 1284 of file ../nuclear_bib.bib
+"{" immediately follows a field name---line 1290 of file ../nuclear_bib.bib
  :   number =       {1351},@article
  :                                 {PhysRevC.97.011302,
 I'm skipping whatever remains of this entry
-You're missing a field name---line 3093 of file ../nuclear_bib.bib
+You're missing a field name---line 3099 of file ../nuclear_bib.bib
  : year = {1973},
  :               ,
 I'm skipping whatever remains of this entry
-"{" immediately follows a field name---line 4014 of file ../nuclear_bib.bib
+"{" immediately follows a field name---line 4034 of file ../nuclear_bib.bib
  : @article{Schmid:66,@article
  :                            {Jenning:11,
 I'm skipping whatever remains of this entry
-"{" immediately follows a field name---line 4041 of file ../nuclear_bib.bib
+"{" immediately follows a field name---line 4061 of file ../nuclear_bib.bib
  : year = {2013},@BOOK
  :                    {Pauli:47,
 I'm skipping whatever remains of this entry
-Repeated entry---line 4629 of file ../nuclear_bib.bib
+Repeated entry---line 4649 of file ../nuclear_bib.bib
  : @article{Bortignon:83
  :                      ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 4863 of file ../nuclear_bib.bib
+Repeated entry---line 4883 of file ../nuclear_bib.bib
  : @book{DeGennes:94
  :                  ,
 I'm skipping whatever remains of this entry
-I was expecting a `,' or a `}'---line 4921 of file ../nuclear_bib.bib
+I was expecting a `,' or a `}'---line 4941 of file ../nuclear_bib.bib
  :   pages = 210
  :              (R),
 I'm skipping whatever remains of this entry
-"{" immediately follows a field name---line 5415 of file ../nuclear_bib.bib
+"{" immediately follows a field name---line 5435 of file ../nuclear_bib.bib
  : journal = {Phys. Lett. B},@article
  :                                   {Thompson:04,
 I'm skipping whatever remains of this entry
-"{" immediately follows a field name---line 6504 of file ../nuclear_bib.bib
+"{" immediately follows a field name---line 6524 of file ../nuclear_bib.bib
  :   year = {2017},@article
  :                         {PhysRevLett.95.232502,
 I'm skipping whatever remains of this entry
-Repeated entry---line 6623 of file ../nuclear_bib.bib
+Repeated entry---line 6643 of file ../nuclear_bib.bib
  : @article{Rosner:17
  :                   ,
 I'm skipping whatever remains of this entry
-You're missing a field name---line 7575 of file ../nuclear_bib.bib
+You're missing a field name---line 7595 of file ../nuclear_bib.bib
  :  year = {2007},
  :                ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 7592 of file ../nuclear_bib.bib
+Repeated entry---line 7612 of file ../nuclear_bib.bib
  : @article{Montanari:14
  :                      ,
 I'm skipping whatever remains of this entry
@@ -121,45 +121,45 @@ while executing---line 1429 of file abbrvnat.bst
 Name 7 in "Heike I. {R\"osner}, and Martina Caldarini, and Andreas Prestel, and Maria A. Vanoni, and Ricardo A. Broglia, and Alessandro Aliverti, and Guido Tiana, and and Birthe B. Kragelund" has a comma at the end for entry Rosner:17
 while executing---line 1429 of file abbrvnat.bst
 Warning--empty title in Stent:80
-You've used 117 entries,
+You've used 121 entries,
             2773 wiz_defined-function locations,
-            1341 strings with 22303 characters,
-and the built_in function-call counts, 54674 in all, are:
-= -- 4462
-> -- 3808
-< -- 92
-+ -- 1297
-- -- 1178
-* -- 4378
-:= -- 8832
-add.period$ -- 366
-call.type$ -- 117
-change.case$ -- 703
-chr.to.int$ -- 115
-cite$ -- 242
-duplicate$ -- 2528
-empty$ -- 4232
-format.name$ -- 1343
-if$ -- 11306
+            1364 strings with 23626 characters,
+and the built_in function-call counts, 58111 in all, are:
+= -- 4716
+> -- 4216
+< -- 95
++ -- 1433
+- -- 1310
+* -- 4720
+:= -- 9411
+add.period$ -- 379
+call.type$ -- 121
+change.case$ -- 759
+chr.to.int$ -- 119
+cite$ -- 250
+duplicate$ -- 2613
+empty$ -- 4374
+format.name$ -- 1483
+if$ -- 11978
 int.to.chr$ -- 3
 int.to.str$ -- 1
-missing$ -- 144
-newline$ -- 591
-num.names$ -- 500
-pop$ -- 1496
+missing$ -- 148
+newline$ -- 612
+num.names$ -- 516
+pop$ -- 1602
 preamble$ -- 1
-purify$ -- 616
+purify$ -- 668
 quote$ -- 0
-skip$ -- 1880
+skip$ -- 1978
 stack$ -- 0
-substring$ -- 1060
-swap$ -- 209
-text.length$ -- 15
+substring$ -- 1100
+swap$ -- 216
+text.length$ -- 16
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 1152
+type$ -- 1196
 warning$ -- 8
-while$ -- 449
+while$ -- 465
 width$ -- 0
-write$ -- 1550
+write$ -- 1604
 (There were 40 error messages)

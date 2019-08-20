@@ -1,4 +1,4 @@
-\begin{thebibliography}{117}
+\begin{thebibliography}{121}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \expandafter\ifx\csname urlstyle\endcsname\relax
@@ -120,7 +120,7 @@ P.~A. Beck and H.~Claus.
 G.~Bertsch.
 \newblock Collective motion in {Fermi} droplets.
 \newblock In R.~A. Broglia and J.~R. Schrieffer, editors, \emph{{International
-  School of Physics ``Enrico Fermi'' Course CIV, Frontiers and Borders in
+  School of Physics ``Enrico Fermi'' Course CIV, Frontiers and Borderlines in
   Many--Body Particle Physics}}, page~41, Amsterdam, 1988. North Holland.
 
 \bibitem[Bertsch and Broglia(2005)]{Bertsch:05}
@@ -133,6 +133,11 @@ G.~Bertsch and R.~A. Broglia.
 {Bertsch, G. F.}, R.~A. Broglia, and C.~Riedel.
 \newblock {Qualitative description of nuclear collectivity}.
 \newblock \emph{Nucl. Phys. A}, 91:\penalty0 123, 1967.
+
+\bibitem[{B{\`{e}}s, D. R.} and Broglia(1966)]{Bes:66}
+{B{\`{e}}s, D. R.} and R.~A. Broglia.
+\newblock Pairing vibrations.
+\newblock \emph{Nucl. Phys.}, 80:\penalty0 289, 1966.
 
 \bibitem[{Bjerregaard, J. H.} et~al.(1966){Bjerregaard, J. H.}, Hansen, Nathan,
   and Hinds]{Bjerregaard:66b}
@@ -168,11 +173,6 @@ N.~Bohr and J.~A. Wheeler.
 {Bohr, A.} and B.~R. Mottelson.
 \newblock \emph{Nuclear Structure, Vol.II}.
 \newblock Benjamin, New York, 1975.
-
-\bibitem[Born(1926)]{Born:26}
-M.~Born.
-\newblock {Zur Quantenmechanik der Sto\ss{}vorg\"{a}nge}.
-\newblock \emph{Zeitschr. f. Phys.}, 37:\penalty0 863, 1926.
 
 \bibitem[Born(1969)]{Born:69}
 M.~Born.
@@ -221,6 +221,12 @@ R.~A. Broglia.
 \newblock \emph{La Rivista del Nuovo Cimento}, 28\penalty0 (1):\penalty0 1,
   2005.
 
+\bibitem[Broglia and Riedel(1967)]{Broglia:67}
+R.~A. Broglia and C.~Riedel.
+\newblock Pairing vibration and particle-hole states excited in the reaction
+  $^{206}${P}b(t, p)$^{208}${P}b.
+\newblock \emph{Nucl. Phys.}, 92:\penalty0 145, 1967.
+
 \bibitem[Broglia and Winther(1983)]{Broglia:83c}
 R.~A. Broglia and A.~Winther.
 \newblock On the pairing field in nuclei.
@@ -236,6 +242,16 @@ R.~A. Broglia, C.~Riedel, and T.~Udagawa.
 \newblock Coherence properties of two-neutron transfer reactions and their
   relation to inelastic scattering.
 \newblock \emph{Nuclear Physics A}, 169:\penalty0 225, 1971.
+
+\bibitem[Broglia et~al.(2019)Broglia, Barranco, Potel, and
+  Vigezzi]{Broglia:19b}
+R.~A. Broglia, F.~Barranco, G.~Potel, and E.~Vigezzi.
+\newblock {One- and two-neutron at the drip line. From $^{11}$Be to $^{11}$Li
+  and back: $^{10}$Li and parity inversion.}
+\newblock \emph{{Proceedings of the 15th International Conference on Nuclear
+  Reaction Mechanisms, Editors F. Cerutti, A. Ferrari, T. Kawano, F.
+  Salvat-Pujol, and P. Talou}.}, page~1, 2019.
+\newblock \doi{http://dx.doi.org/10.23727/CERN-Proceeding-2019-001}.
 
 \bibitem[{Broglia, R. A.}(2002)]{Broglia:02d}
 {Broglia, R. A.}
@@ -412,6 +428,21 @@ A.~M. Kadin.
 \newblock \emph{Journal of Superconductivity and Novel Magnetism}, 20:\penalty0
   285, 2007.
 
+\bibitem[Kanungo et~al.(2015)Kanungo, Sanetullaev, Tanaka, Ishimoto, Hagen,
+  Myo, Suzuki, Andreoiu, Bender, Chen, Davids, Fallis, Fortin, Galinski,
+  Gallant, Garrett, Hackman, Hadinia, Jansen, Keefe, Kr\"ucken, Lighthall,
+  McNeice, Miller, Otsuka, Purcell, Randhawa, Roger, Rojas, Savajols, Shotter,
+  Tanihata, Thompson, Unsworth, Voss, and Wang]{Kanungo:15}
+R.~Kanungo, A.~Sanetullaev, J.~Tanaka, S.~Ishimoto, G.~Hagen, T.~Myo,
+  T.~Suzuki, C.~Andreoiu, P.~Bender, A.~A. Chen, B.~Davids, J.~Fallis, J.~P.
+  Fortin, N.~Galinski, A.~T. Gallant, P.~E. Garrett, G.~Hackman, B.~Hadinia,
+  G.~Jansen, M.~Keefe, R.~Kr\"ucken, J.~Lighthall, E.~McNeice, D.~Miller,
+  T.~Otsuka, J.~Purcell, J.~S. Randhawa, T.~Roger, A.~Rojas, H.~Savajols,
+  A.~Shotter, I.~Tanihata, I.~J. Thompson, C.~Unsworth, P.~Voss, and Z.~Wang.
+\newblock Evidence of soft dipole resonance in $^{11}\mathrm{Li}$ with
+  isoscalar character.
+\newblock \emph{Phys. Rev. Lett.}, 114:\penalty0 192502, 2015.
+
 \bibitem[Ketterson and Song(1999)]{Ketterson:99}
 J.~B. Ketterson and S.~N. Song.
 \newblock \emph{{Superconductivity}}.
@@ -448,7 +479,7 @@ A.~Leggett.
 
 \bibitem[Leggett(1987)]{Leggett:87}
 A.~J. Leggett.
-\newblock \emph{The problems of Physics}.
+\newblock \emph{The problems of Phdayysics}.
 \newblock {Oxford University Press}, Oxford, 1987.
 
 \bibitem[Lindhard(1953)]{Lindhard:53}
@@ -460,6 +491,11 @@ E.~Lipparini.
 \newblock \emph{{Modern Many--Particle Physics: Atomic gases, Quantum Dots and
   Quantum Fluids,}}.
 \newblock World Scientific, Singapore, 2003.
+
+\bibitem[London(1937)]{London:37}
+F.~London.
+\newblock {The general theory of molecular forces, Trans.}
+\newblock \emph{Faraday Soc.}, 33:\penalty0 8, 1937.
 
 \bibitem[Lotti et~al.(1989)Lotti, Cazzola, Bortignon, Broglia, and
   Vitturi]{Lotti:89}

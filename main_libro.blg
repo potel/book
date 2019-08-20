@@ -18,25 +18,25 @@ Illegal, another \bibdata command---line 622 of file introduccion/introduccion.a
  :         {../nuclear_bib}
 I'm skipping whatever remains of this command
 A level-1 auxiliary file: nutshell/include_struct_nut.aux
-Illegal, another \bibstyle command---line 531 of file nutshell/include_struct_nut.aux
+Illegal, another \bibstyle command---line 537 of file nutshell/include_struct_nut.aux
  : \bibstyle
  :          {abbrvnat}
 I'm skipping whatever remains of this command
-Illegal, another \bibdata command---line 532 of file nutshell/include_struct_nut.aux
+Illegal, another \bibdata command---line 538 of file nutshell/include_struct_nut.aux
  : \bibdata
  :         {../nuclear_bib}
 I'm skipping whatever remains of this command
 A level-1 auxiliary file: nutshell/include_trans_nut.aux
 Case mismatch error between cite keys deGennes:94 and DeGennes:94
----line 272 of file nutshell/include_trans_nut.aux
+---line 275 of file nutshell/include_trans_nut.aux
  : \citation{deGennes:94
  :                      }
 I'm skipping whatever remains of this command
-Illegal, another \bibstyle command---line 489 of file nutshell/include_trans_nut.aux
+Illegal, another \bibstyle command---line 499 of file nutshell/include_trans_nut.aux
  : \bibstyle
  :          {abbrvnat}
 I'm skipping whatever remains of this command
-Illegal, another \bibdata command---line 490 of file nutshell/include_trans_nut.aux
+Illegal, another \bibdata command---line 500 of file nutshell/include_trans_nut.aux
  : \bibdata
  :         {../nuclear_bib}
 I'm skipping whatever remains of this command
@@ -76,7 +76,7 @@ Illegal, another \bibdata command---line 24 of file main_libro.aux
  :         {./nuclear_bib}
 I'm skipping whatever remains of this command
 I found no database files---while reading file main_libro.aux
-Reallocated field_info (elt_size=4) to 17460 items from 5000.
+Reallocated field_info (elt_size=4) to 17544 items from 5000.
 Warning--I didn't find a database entry for "Born:26"
 Warning--I didn't find a database entry for "Pauli:27"
 Warning--I didn't find a database entry for "Pines:66"
@@ -227,6 +227,7 @@ Warning--I didn't find a database entry for "Bes:71"
 Warning--I didn't find a database entry for "Bes:71b"
 Warning--I didn't find a database entry for "Bes:71c"
 Warning--I didn't find a database entry for "Garrett:85"
+Warning--I didn't find a database entry for "Garrett:86"
 Warning--I didn't find a database entry for "Barranco:87b"
 Warning--I didn't find a database entry for "Shimizu:90"
 Warning--I didn't find a database entry for "Shimizu:13"
@@ -332,6 +333,7 @@ Warning--I didn't find a database entry for "Debye:21"
 Warning--I didn't find a database entry for "London:30"
 Warning--I didn't find a database entry for "Pauling:63"
 Warning--I didn't find a database entry for "Born:69"
+Warning--I didn't find a database entry for "Huang:05"
 Warning--I didn't find a database entry for "Rost:97"
 Warning--I didn't find a database entry for "Branden:91"
 Warning--I didn't find a database entry for "Nambu:91"
@@ -385,6 +387,7 @@ Warning--I didn't find a database entry for "Young:71"
 Warning--I didn't find a database entry for "Monod:70"
 Warning--I didn't find a database entry for "Bortignon:83"
 Warning--I didn't find a database entry for "Lindhard:53"
+Warning--I didn't find a database entry for "London:37"
 Warning--I didn't find a database entry for "Broglia:13b"
 Warning--I didn't find a database entry for "Broglia:05"
 Warning--I didn't find a database entry for "Pedersen:91"
@@ -524,7 +527,7 @@ Warning--I didn't find a database entry for "Watson:80"
 Warning--I didn't find a database entry for "Sanger:52"
 You've used 0 entries,
             2773 wiz_defined-function locations,
-            1489 strings with 13450 characters,
+            1495 strings with 13504 characters,
 and the built_in function-call counts, 33 in all, are:
 = -- 0
 > -- 0

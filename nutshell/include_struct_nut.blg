@@ -2,75 +2,75 @@ This is BibTeX, Version 0.99d (TeX Live 2019/dev/Debian)
 Capacity: max_strings=100000, hash_size=100000, hash_prime=85009
 The top-level auxiliary file: include_struct_nut.aux
 The style file: abbrvnat.bst
-Reallocated field_info (elt_size=4) to 10152 items from 5000.
+Reallocated field_info (elt_size=4) to 10180 items from 5000.
 Database file #1: ../nuclear_bib.bib
 I was expecting a `,' or a `}'---line 610 of file ../nuclear_bib.bib
  :   volume = 16
  :              C,
 I'm skipping whatever remains of this entry
-"{" immediately follows a field name---line 927 of file ../nuclear_bib.bib
+"{" immediately follows a field name---line 933 of file ../nuclear_bib.bib
  :   editor =       {{Morinaga H.}},@article
  :                                          {LENSKE2001187,
 I'm skipping whatever remains of this entry
-"{" immediately follows a field name---line 1078 of file ../nuclear_bib.bib
+"{" immediately follows a field name---line 1084 of file ../nuclear_bib.bib
  :   BOOKTITLE =    {Le Prix Nobel en 1973},@article
  :                                                  {LENSKE2001187,
 I'm skipping whatever remains of this entry
-"{" immediately follows a field name---line 1284 of file ../nuclear_bib.bib
+"{" immediately follows a field name---line 1290 of file ../nuclear_bib.bib
  :   number =       {1351},@article
  :                                 {PhysRevC.97.011302,
 I'm skipping whatever remains of this entry
-You're missing a field name---line 3093 of file ../nuclear_bib.bib
+You're missing a field name---line 3099 of file ../nuclear_bib.bib
  : year = {1973},
  :               ,
 I'm skipping whatever remains of this entry
-"{" immediately follows a field name---line 4028 of file ../nuclear_bib.bib
+"{" immediately follows a field name---line 4034 of file ../nuclear_bib.bib
  : @article{Schmid:66,@article
  :                            {Jenning:11,
 I'm skipping whatever remains of this entry
-"{" immediately follows a field name---line 4055 of file ../nuclear_bib.bib
+"{" immediately follows a field name---line 4061 of file ../nuclear_bib.bib
  : year = {2013},@BOOK
  :                    {Pauli:47,
 I'm skipping whatever remains of this entry
 Warning--I'm ignoring Shimizu:13's extra "year" field
---line 4145 of file ../nuclear_bib.bib
-Repeated entry---line 4418 of file ../nuclear_bib.bib
+--line 4151 of file ../nuclear_bib.bib
+Repeated entry---line 4424 of file ../nuclear_bib.bib
  : @article{Barranco:99
  :                     ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 4736 of file ../nuclear_bib.bib
+Repeated entry---line 4742 of file ../nuclear_bib.bib
  : @article{Sackett:93
  :                    ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 4877 of file ../nuclear_bib.bib
+Repeated entry---line 4883 of file ../nuclear_bib.bib
  : @book{DeGennes:94
  :                  ,
 I'm skipping whatever remains of this entry
-I was expecting a `,' or a `}'---line 4935 of file ../nuclear_bib.bib
+I was expecting a `,' or a `}'---line 4941 of file ../nuclear_bib.bib
  :   pages = 210
  :              (R),
 I'm skipping whatever remains of this entry
-"{" immediately follows a field name---line 5429 of file ../nuclear_bib.bib
+"{" immediately follows a field name---line 5435 of file ../nuclear_bib.bib
  : journal = {Phys. Lett. B},@article
  :                                   {Thompson:04,
 I'm skipping whatever remains of this entry
-Repeated entry---line 5453 of file ../nuclear_bib.bib
+Repeated entry---line 5459 of file ../nuclear_bib.bib
  : @article{Lanford:73
  :                    ,
 I'm skipping whatever remains of this entry
-"{" immediately follows a field name---line 6518 of file ../nuclear_bib.bib
+"{" immediately follows a field name---line 6524 of file ../nuclear_bib.bib
  :   year = {2017},@article
  :                         {PhysRevLett.95.232502,
 I'm skipping whatever remains of this entry
-Repeated entry---line 6637 of file ../nuclear_bib.bib
+Repeated entry---line 6643 of file ../nuclear_bib.bib
  : @article{Rosner:17
  :                   ,
 I'm skipping whatever remains of this entry
-You're missing a field name---line 7589 of file ../nuclear_bib.bib
+You're missing a field name---line 7595 of file ../nuclear_bib.bib
  :  year = {2007},
  :                ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 7606 of file ../nuclear_bib.bib
+Repeated entry---line 7612 of file ../nuclear_bib.bib
  : @article{Montanari:14
  :                      ,
 I'm skipping whatever remains of this entry
@@ -229,45 +229,45 @@ Name 1 in "Saperstein, E. E., and Baldo, M." has a comma at the end for entry Sa
 while executing---line 1429 of file abbrvnat.bst
 Name 1 in "Saperstein, E. E., and Baldo, M." has a comma at the end for entry Saperstein:12
 while executing---line 1429 of file abbrvnat.bst
-You've used 183 entries,
+You've used 184 entries,
             2773 wiz_defined-function locations,
-            1711 strings with 34654 characters,
-and the built_in function-call counts, 91394 in all, are:
-= -- 7486
-> -- 6779
-< -- 128
-+ -- 2292
-- -- 2103
-* -- 7634
-:= -- 14726
-add.period$ -- 572
-call.type$ -- 183
-change.case$ -- 1210
-chr.to.int$ -- 177
-cite$ -- 374
-duplicate$ -- 3965
-empty$ -- 6721
-format.name$ -- 2372
-if$ -- 18830
+            1715 strings with 34720 characters,
+and the built_in function-call counts, 91690 in all, are:
+= -- 7509
+> -- 6789
+< -- 129
++ -- 2296
+- -- 2106
+* -- 7650
+:= -- 14775
+add.period$ -- 575
+call.type$ -- 184
+change.case$ -- 1213
+chr.to.int$ -- 178
+cite$ -- 376
+duplicate$ -- 3985
+empty$ -- 6753
+format.name$ -- 2376
+if$ -- 18892
 int.to.chr$ -- 7
 int.to.str$ -- 1
-missing$ -- 203
-newline$ -- 921
-num.names$ -- 776
-pop$ -- 2394
+missing$ -- 205
+newline$ -- 926
+num.names$ -- 780
+pop$ -- 2405
 preamble$ -- 1
-purify$ -- 1052
+purify$ -- 1055
 quote$ -- 0
-skip$ -- 3072
+skip$ -- 3084
 stack$ -- 0
-substring$ -- 1997
-swap$ -- 337
+substring$ -- 1999
+swap$ -- 338
 text.length$ -- 25
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 1908
+type$ -- 1914
 warning$ -- 8
-while$ -- 724
+while$ -- 727
 width$ -- 0
-write$ -- 2416
+write$ -- 2429
 (There were 90 error messages)

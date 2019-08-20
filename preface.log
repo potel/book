@@ -1,25 +1,24 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2017.8.24)  14 MAR 2018 13:55
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2019/dev/Debian) (preloaded format=pdflatex 2019.7.22)  6 AUG 2019 19:41
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
 **preface.tex
 (./preface.tex
-LaTeX2e <2016/02/01>
-Babel <3.9q> and hyphenation patterns for 12 language(s) loaded.
+LaTeX2e <2018-12-01>
 (/usr/share/texlive/texmf-dist/tex/latex/base/book.cls
-Document Class: book 2014/09/29 v1.4h Standard LaTeX document class
+Document Class: book 2018/09/03 v1.4i Standard LaTeX document class
 (/usr/share/texlive/texmf-dist/tex/latex/base/bk11.clo
-File: bk11.clo 2014/09/29 v1.4h Standard LaTeX file (size option)
+File: bk11.clo 2018/09/03 v1.4i Standard LaTeX file (size option)
 )
-\c@part=\count79
-\c@chapter=\count80
-\c@section=\count81
-\c@subsection=\count82
-\c@subsubsection=\count83
-\c@paragraph=\count84
-\c@subparagraph=\count85
-\c@figure=\count86
-\c@table=\count87
+\c@part=\count80
+\c@chapter=\count81
+\c@section=\count82
+\c@subsection=\count83
+\c@subsubsection=\count84
+\c@paragraph=\count85
+\c@subparagraph=\count86
+\c@figure=\count87
+\c@table=\count88
 \abovecaptionskip=\skip41
 \belowcaptionskip=\skip42
 \bibindent=\dimen102
@@ -29,16 +28,16 @@ Package: dsfont 1995/08/01 v0.1 Double stroke roman fonts
 )
 (./appendix.sty
 Package: appendix 2002/08/06 v1.2 extra appendix facilities
-\c@@pps=\count88
-\c@@ppsavesec=\count89
-\c@@ppsaveapp=\count90
+\c@@pps=\count89
+\c@@ppsavesec=\count90
+\c@@ppsaveapp=\count91
 ) (./slashbox.sty
 slashbox style by K.Yasuoka, May 1993.
-\@slashboxa=\box26
-\@slashboxb=\box27
-\@slashboxc=\box28
-\@slashboxwd=\count91
-\@slashboxht=\count92
+\@slashboxa=\box27
+\@slashboxb=\box28
+\@slashboxc=\box29
+\@slashboxwd=\count92
+\@slashboxht=\count93
 \@slashsepl=\dimen103
 \@slashsepr=\dimen104
 ) (/usr/share/texlive/texmf-dist/tex/latex/tools/enumerate.sty
@@ -49,7 +48,7 @@ Package: enumerate 2015/07/23 v3.00 enumerate extensions (DPC)
 Package: footmisc 2011/06/06 v5.5b a miscellany of footnote facilities
 \FN@temptoken=\toks15
 \footnotemargin=\dimen105
-\c@pp@next@reset=\count93
+\c@pp@next@reset=\count94
 Package footmisc Info: Declaring symbol style bringhurst on input line 855.
 Package footmisc Info: Declaring symbol style chicago on input line 863.
 Package footmisc Info: Declaring symbol style wiley on input line 872.
@@ -60,7 +59,7 @@ Package footmisc Info: Declaring symbol style lamport*-robust on input line 924
 .
 )
 (/usr/share/texlive/texmf-dist/tex/latex/base/textcomp.sty
-Package: textcomp 2005/09/27 v1.99g Standard LaTeX package
+Package: textcomp 2018/08/11 v2.0j Standard LaTeX package
 Package textcomp Info: Sub-encoding information:
 (textcomp)               5 = only ISO-Adobe without \textcurrency
 (textcomp)               4 = 5 + \texteuro
@@ -76,7 +75,82 @@ Package textcomp Info: Setting ? sub-encoding to TS1/1 on input line 79.
 
 (/usr/share/texlive/texmf-dist/tex/latex/base/ts1enc.def
 File: ts1enc.def 2001/06/05 v3.0e (jk/car/fm) Standard LaTeX file
-)
+Now handling font encoding TS1 ...
+... processing UTF-8 mapping file for font encoding TS1
+
+(/usr/share/texlive/texmf-dist/tex/latex/base/ts1enc.dfu
+File: ts1enc.dfu 2018/10/05 v1.2f UTF-8 support for inputenc
+   defining Unicode char U+00A2 (decimal 162)
+   defining Unicode char U+00A3 (decimal 163)
+   defining Unicode char U+00A4 (decimal 164)
+   defining Unicode char U+00A5 (decimal 165)
+   defining Unicode char U+00A6 (decimal 166)
+   defining Unicode char U+00A7 (decimal 167)
+   defining Unicode char U+00A8 (decimal 168)
+   defining Unicode char U+00A9 (decimal 169)
+   defining Unicode char U+00AA (decimal 170)
+   defining Unicode char U+00AC (decimal 172)
+   defining Unicode char U+00AE (decimal 174)
+   defining Unicode char U+00AF (decimal 175)
+   defining Unicode char U+00B0 (decimal 176)
+   defining Unicode char U+00B1 (decimal 177)
+   defining Unicode char U+00B2 (decimal 178)
+   defining Unicode char U+00B3 (decimal 179)
+   defining Unicode char U+00B4 (decimal 180)
+   defining Unicode char U+00B5 (decimal 181)
+   defining Unicode char U+00B6 (decimal 182)
+   defining Unicode char U+00B7 (decimal 183)
+   defining Unicode char U+00B9 (decimal 185)
+   defining Unicode char U+00BA (decimal 186)
+   defining Unicode char U+00BC (decimal 188)
+   defining Unicode char U+00BD (decimal 189)
+   defining Unicode char U+00BE (decimal 190)
+   defining Unicode char U+00D7 (decimal 215)
+   defining Unicode char U+00F7 (decimal 247)
+   defining Unicode char U+0192 (decimal 402)
+   defining Unicode char U+02C7 (decimal 711)
+   defining Unicode char U+02D8 (decimal 728)
+   defining Unicode char U+02DD (decimal 733)
+   defining Unicode char U+0E3F (decimal 3647)
+   defining Unicode char U+2016 (decimal 8214)
+   defining Unicode char U+2020 (decimal 8224)
+   defining Unicode char U+2021 (decimal 8225)
+   defining Unicode char U+2022 (decimal 8226)
+   defining Unicode char U+2030 (decimal 8240)
+   defining Unicode char U+2031 (decimal 8241)
+   defining Unicode char U+203B (decimal 8251)
+   defining Unicode char U+203D (decimal 8253)
+   defining Unicode char U+2044 (decimal 8260)
+   defining Unicode char U+204E (decimal 8270)
+   defining Unicode char U+2052 (decimal 8274)
+   defining Unicode char U+20A1 (decimal 8353)
+   defining Unicode char U+20A4 (decimal 8356)
+   defining Unicode char U+20A6 (decimal 8358)
+   defining Unicode char U+20A9 (decimal 8361)
+   defining Unicode char U+20AB (decimal 8363)
+   defining Unicode char U+20AC (decimal 8364)
+   defining Unicode char U+20B1 (decimal 8369)
+   defining Unicode char U+2103 (decimal 8451)
+   defining Unicode char U+2116 (decimal 8470)
+   defining Unicode char U+2117 (decimal 8471)
+   defining Unicode char U+211E (decimal 8478)
+   defining Unicode char U+2120 (decimal 8480)
+   defining Unicode char U+2122 (decimal 8482)
+   defining Unicode char U+2126 (decimal 8486)
+   defining Unicode char U+2127 (decimal 8487)
+   defining Unicode char U+212E (decimal 8494)
+   defining Unicode char U+2190 (decimal 8592)
+   defining Unicode char U+2191 (decimal 8593)
+   defining Unicode char U+2192 (decimal 8594)
+   defining Unicode char U+2193 (decimal 8595)
+   defining Unicode char U+2329 (decimal 9001)
+   defining Unicode char U+232A (decimal 9002)
+   defining Unicode char U+2422 (decimal 9250)
+   defining Unicode char U+25E6 (decimal 9702)
+   defining Unicode char U+25EF (decimal 9711)
+   defining Unicode char U+266A (decimal 9834)
+   defining Unicode char U+FEFF (decimal 65279)
+))
 LaTeX Info: Redefining \oldstylenums on input line 334.
 Package textcomp Info: Setting cmr sub-encoding to TS1/0 on input line 349.
 Package textcomp Info: Setting cmss sub-encoding to TS1/0 on input line 350.
@@ -142,36 +216,28 @@ Package textcomp Info: Setting ptmx sub-encoding to TS1/4 on input line 408.
 Package textcomp Info: Setting ptmj sub-encoding to TS1/4 on input line 409.
 )
 (/usr/share/texlive/texmf-dist/tex/latex/graphics/epsfig.sty
-Package: epsfig 1999/02/16 v1.7a (e)psfig emulation (SPQR)
+Package: epsfig 2017/06/25 v1.7b (e)psfig emulation (SPQR)
 
 (/usr/share/texlive/texmf-dist/tex/latex/graphics/graphicx.sty
-Package: graphicx 2014/10/28 v1.0g Enhanced LaTeX Graphics (DPC,SPQR)
+Package: graphicx 2017/06/01 v1.1a Enhanced LaTeX Graphics (DPC,SPQR)
 
 (/usr/share/texlive/texmf-dist/tex/latex/graphics/keyval.sty
 Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
 \KV@toks@=\toks16
 )
 (/usr/share/texlive/texmf-dist/tex/latex/graphics/graphics.sty
-Package: graphics 2016/01/03 v1.0q Standard LaTeX Graphics (DPC,SPQR)
+Package: graphics 2017/06/25 v1.2c Standard LaTeX Graphics (DPC,SPQR)
 
 (/usr/share/texlive/texmf-dist/tex/latex/graphics/trig.sty
 Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
 )
-(/usr/share/texlive/texmf-dist/tex/latex/latexconfig/graphics.cfg
-File: graphics.cfg 2010/04/23 v1.9 graphics configuration of TeX Live
+(/usr/share/texlive/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
+File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
 )
-Package graphics Info: Driver file: pdftex.def on input line 95.
+Package graphics Info: Driver file: pdftex.def on input line 99.
 
-(/usr/share/texlive/texmf-dist/tex/latex/pdftex-def/pdftex.def
-File: pdftex.def 2011/05/27 v0.06d Graphics/color for pdfTeX
-
-(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/infwarerr.sty
-Package: infwarerr 2010/04/08 v1.3 Providing info/warning/error messages (HO)
-)
-(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/ltxcmds.sty
-Package: ltxcmds 2011/11/09 v1.22 LaTeX kernel commands for general use (HO)
-)
-\Gread@gobject=\count94
+(/usr/share/texlive/texmf-dist/tex/latex/graphics-def/pdftex.def
+File: pdftex.def 2018/01/08 v1.0l Graphics/color driver for pdftex
 ))
 \Gin@req@height=\dimen106
 \Gin@req@width=\dimen107
@@ -180,7 +246,7 @@ Package: ltxcmds 2011/11/09 v1.22 LaTeX kernel commands for general use (HO)
 \epsfysize=\dimen109
 )
 (/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsmath.sty
-Package: amsmath 2016/03/03 v2.15a AMS math features
+Package: amsmath 2018/12/01 v2.17b AMS math features
 \@mathmargin=\skip43
 
 For additional information on amsmath, use the `?' option.
@@ -197,23 +263,23 @@ Package: amsbsy 1999/11/29 v1.2d Bold Symbols
 \pmbraise@=\dimen111
 )
 (/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsopn.sty
-Package: amsopn 1999/12/14 v2.01 operator names
+Package: amsopn 2016/03/08 v2.02 operator names
 )
 \inf@bad=\count95
-LaTeX Info: Redefining \frac on input line 199.
+LaTeX Info: Redefining \frac on input line 223.
 \uproot@=\count96
 \leftroot@=\count97
-LaTeX Info: Redefining \overline on input line 297.
+LaTeX Info: Redefining \overline on input line 385.
 \classnum@=\count98
 \DOTSCASE@=\count99
-LaTeX Info: Redefining \ldots on input line 394.
-LaTeX Info: Redefining \dots on input line 397.
-LaTeX Info: Redefining \cdots on input line 518.
-\Mathstrutbox@=\box29
-\strutbox@=\box30
+LaTeX Info: Redefining \ldots on input line 482.
+LaTeX Info: Redefining \dots on input line 485.
+LaTeX Info: Redefining \cdots on input line 606.
+\Mathstrutbox@=\box30
+\strutbox@=\box31
 \big@size=\dimen112
-LaTeX Font Info:    Redeclaring font encoding OML on input line 630.
-LaTeX Font Info:    Redeclaring font encoding OMS on input line 631.
+LaTeX Font Info:    Redeclaring font encoding OML on input line 729.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 730.
 \macc@depth=\count100
 \c@MaxMatrixCols=\count101
 \dotsspace@=\muskip10
@@ -234,8 +300,8 @@ LaTeX Font Info:    Redeclaring font encoding OMS on input line 631.
 \multlinegap=\skip44
 \multlinetaggap=\skip45
 \mathdisplay@stack=\toks21
-LaTeX Info: Redefining \[ on input line 2735.
-LaTeX Info: Redefining \] on input line 2736.
+LaTeX Info: Redefining \[ on input line 2844.
+LaTeX Info: Redefining \] on input line 2845.
 )
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/amsfonts.sty
 Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
@@ -258,7 +324,7 @@ LaTeX Font Info:    Overwriting math alphabet `\mathbbm' in version `bold'
 LaTeX Font Info:    Overwriting math alphabet `\mathbbmss' in version `bold'
 (Font)                  U/bbmss/m/n --> U/bbmss/bx/n on input line 35.
 )
-\fmbox=\box31
+\fmbox=\box32
 
 (/usr/share/texlive/texmf-dist/tex/latex/base/latexsym.sty
 Package: latexsym 1998/08/17 v2.2e Standard LaTeX package (lasy symbols)
@@ -377,27 +443,29 @@ Package: verbatim 2014/10/28 v1.5q LaTeX2e package for verbatim enhancements
 \verbatim@in@stream=\read1
 )
 (/usr/share/texlive/texmf-dist/tex/latex/tools/array.sty
-Package: array 2014/10/28 v2.4c Tabular extension package (FMi)
+Package: array 2018/12/30 v2.4k Tabular extension package (FMi)
 \col@sep=\dimen119
+\ar@mcellbox=\box33
 \extrarowheight=\dimen120
 \NC@list=\toks24
 \extratabsurround=\skip48
 \backup@length=\skip49
+\ar@cellbox=\box34
 )
 (/usr/share/texlive/texmf-dist/tex/latex/graphics/color.sty
-Package: color 2016/01/03 v1.1b Standard LaTeX Color (DPC)
+Package: color 2016/07/10 v1.1e Standard LaTeX Color (DPC)
 
-(/usr/share/texlive/texmf-dist/tex/latex/latexconfig/color.cfg
-File: color.cfg 2007/01/18 v1.5 color configuration of teTeX/TeXLive
+(/usr/share/texlive/texmf-dist/tex/latex/graphics-cfg/color.cfg
+File: color.cfg 2016/01/02 v1.6 sample color configuration
 )
-Package color Info: Driver file: pdftex.def on input line 143.
+Package color Info: Driver file: pdftex.def on input line 147.
 )
 (/usr/share/texlive/texmf-dist/tex/latex/caption/caption.sty
-Package: caption 2016/02/21 v3.3-144 Customizing captions (AR)
+Package: caption 2018/10/06 v3.3-154 Customizing captions (AR)
 
 (/usr/share/texlive/texmf-dist/tex/latex/caption/caption3.sty
-Package: caption3 2016/02/04 v1.7-139 caption3 kernel (AR)
-Package caption3 Info: TeX engine: e-TeX on input line 67.
+Package: caption3 2018/09/12 v1.8c caption3 kernel (AR)
+Package caption3 Info: TeX engine: e-TeX on input line 64.
 \captionmargin=\dimen121
 \captionmargin@=\dimen122
 \captionwidth=\dimen123
@@ -406,7 +474,8 @@ Package caption3 Info: TeX engine: e-TeX on input line 67.
 \caption@parindent=\dimen126
 \caption@hangindent=\dimen127
 )
-\c@ContinuedFloat=\count108
+\c@caption@flags=\count108
+\c@ContinuedFloat=\count109
 ) (./preface.aux)
 \openout1 = `preface.aux'.
 
@@ -456,62 +525,65 @@ LaTeX Font Info:    Try loading font information for OT1+txr on input line 56.
 (/usr/share/texlive/texmf-dist/tex/latex/txfonts/ot1txr.fd
 File: ot1txr.fd 2000/12/15 v3.1
 )
-(/usr/share/texlive/texmf-dist/tex/context/base/supp-pdf.mkii
+(/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count109
+\scratchcounter=\count110
 \scratchdimen=\dimen128
-\scratchbox=\box32
-\nofMPsegments=\count110
-\nofMParguments=\count111
+\scratchbox=\box35
+\nofMPsegments=\count111
+\nofMParguments=\count112
 \everyMPshowfont=\toks25
-\MPscratchCnt=\count112
+\MPscratchCnt=\count113
 \MPscratchDim=\dimen129
-\MPnumerator=\count113
-\makeMPintoPDFobject=\count114
+\MPnumerator=\count114
+\makeMPintoPDFobject=\count115
 \everyMPtoPDFconversion=\toks26
-) (/usr/share/texlive/texmf-dist/tex/generic/oberdiek/pdftexcmds.sty
-Package: pdftexcmds 2011/11/29 v0.20 Utility functions of pdfTeX for LuaTeX (HO
+) (/usr/share/texlive/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
+Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
+
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/infwarerr.sty
+Package: infwarerr 2016/05/16 v1.4 Providing info/warning/error messages (HO)
 )
+(/usr/share/texlive/texmf-dist/tex/latex/oberdiek/grfext.sty
+Package: grfext 2016/05/16 v1.2 Manage graphics extensions (HO)
+
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/kvdefinekeys.sty
+Package: kvdefinekeys 2016/05/16 v1.4 Define keys (HO)
+
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/ltxcmds.sty
+Package: ltxcmds 2016/05/16 v1.23 LaTeX kernel commands for general use (HO)
+)))
+(/usr/share/texlive/texmf-dist/tex/latex/oberdiek/kvoptions.sty
+Package: kvoptions 2016/05/16 v3.12 Key value format for package options (HO)
+
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/kvsetkeys.sty
+Package: kvsetkeys 2016/05/16 v1.17 Key value parser (HO)
+
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/etexcmds.sty
+Package: etexcmds 2016/05/16 v1.6 Avoid name clashes with e-TeX commands (HO)
 
 (/usr/share/texlive/texmf-dist/tex/generic/oberdiek/ifluatex.sty
-Package: ifluatex 2010/03/01 v1.3 Provides the ifluatex switch (HO)
+Package: ifluatex 2016/05/16 v1.4 Provides the ifluatex switch (HO)
 Package ifluatex Info: LuaTeX not detected.
+))))
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/pdftexcmds.sty
+Package: pdftexcmds 2018/09/10 v0.29 Utility functions of pdfTeX for LuaTeX (HO
 )
+
 (/usr/share/texlive/texmf-dist/tex/generic/oberdiek/ifpdf.sty
-Package: ifpdf 2011/01/30 v2.3 Provides the ifpdf switch (HO)
-Package ifpdf Info: pdfTeX in PDF mode is detected.
+Package: ifpdf 2018/09/07 v3.3 Provides the ifpdf switch
 )
 Package pdftexcmds Info: LuaTeX not detected.
 Package pdftexcmds Info: \pdf@primitive is available.
 Package pdftexcmds Info: \pdf@ifprimitive is available.
 Package pdftexcmds Info: \pdfdraftmode found.
 )
-(/usr/share/texlive/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
-Package: epstopdf-base 2010/02/09 v2.5 Base part for package epstopdf
-
-(/usr/share/texlive/texmf-dist/tex/latex/oberdiek/grfext.sty
-Package: grfext 2010/08/19 v1.1 Manage graphics extensions (HO)
-
-(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/kvdefinekeys.sty
-Package: kvdefinekeys 2011/04/07 v1.3 Define keys (HO)
-))
-(/usr/share/texlive/texmf-dist/tex/latex/oberdiek/kvoptions.sty
-Package: kvoptions 2011/06/30 v3.11 Key value format for package options (HO)
-
-(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/kvsetkeys.sty
-Package: kvsetkeys 2012/04/25 v1.16 Key value parser (HO)
-
-(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/etexcmds.sty
-Package: etexcmds 2011/02/16 v1.5 Avoid name clashes with e-TeX commands (HO)
-Package etexcmds Info: Could not find \expanded.
-(etexcmds)             That can mean that you are not using pdfTeX 1.50 or
-(etexcmds)             that some package has redefined \expanded.
-(etexcmds)             In the latter case, load this package earlier.
-)))
+Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
+38.
 Package grfext Info: Graphics extension search list:
-(grfext)             [.png,.pdf,.jpg,.mps,.jpeg,.jbig2,.jb2,.PNG,.PDF,.JPG,.JPE
+(grfext)             [.pdf,.png,.jpg,.mps,.jpeg,.jbig2,.jb2,.PDF,.PNG,.JPG,.JPE
 G,.JBIG2,.JB2,.eps]
-(grfext)             \AppendGraphicsExtensions on input line 452.
+(grfext)             \AppendGraphicsExtensions on input line 456.
 
 (/usr/share/texlive/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
@@ -550,114 +622,253 @@ LaTeX Font Info:    Try loading font information for U+rsfs on input line 58.
 File: ursfs.fd 1998/03/24 rsfs font definition file (jk)
 ) [1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}
 
-] [2]
-Overfull \hbox (20.46266pt too wide) in paragraph at lines 115--116
-[]\OT1/txr/m/n/10.95 The low--lying state of closed shell nu-clei can be in-ter
--preted as har-monic quadrupole
+] [2] [3] [4] [5] [6] [7]
+
+LaTeX Warning: Reference `fig1.0.' on page 8 undefined on input line 273.
+
+[8]
+
+LaTeX Warning: Reference `0.1.14' on page 9 undefined on input line 279.
+
+
+LaTeX Warning: Reference `0.1.26' on page 9 undefined on input line 279.
+
+
+LaTeX Warning: Reference `0.1.27' on page 9 undefined on input line 279.
+
+
+LaTeX Warning: Reference `0.1.29' on page 9 undefined on input line 279.
+
+[9] [10]
+
+LaTeX Warning: Reference `fff' on page 11 undefined on input line 328.
+
+
+Overfull \hbox (1.778pt too wide) in paragraph at lines 333--335
+\OT1/txr/m/n/10.95 Because there is no restor-ing force as-so-ci-ated with dif-
+fer-ent ori-en-ta-tions of $\OMS/txsy/m/n/10.95 j[]i[]$\OT1/txr/m/n/10.95 ,
  []
 
-[3] [4] [5] [6]
-<introduccion/figs/figpreface1.pdf, id=30, 579.6315pt x 392.73915pt>
+
+LaTeX Warning: Reference `0.4.2' on page 11 undefined on input line 345.
+
+[11] [12] [13]
+
+LaTeX Warning: Reference `fig0.4.3' on page 14 undefined on input line 446.
+
+[14]
+
+LaTeX Warning: Reference `eq0.1.39' on page 15 undefined on input line 484.
+
+
+LaTeX Warning: Reference `fig0.4.4' on page 15 undefined on input line 490.
+
+[15] [16]
+
+LaTeX Warning: Reference `eq0.1.10' on page 17 undefined on input line 551.
+
+[17]
+
+LaTeX Warning: Reference `fig0.4.5' on page 18 undefined on input line 571.
+
+
+LaTeX Warning: Reference `C6' on page 18 undefined on input line 575.
+
+[18]
+
+LaTeX Warning: Reference `fig0.1.3' on page 19 undefined on input line 582.
+
+
+LaTeX Warning: Reference `0.1.2' on page 19 undefined on input line 582.
+
+[19]
+
+LaTeX Warning: Reference `0.3.1' on page 20 undefined on input line 596.
+
+
+LaTeX Warning: Reference `eq0.6.2' on page 20 undefined on input line 616.
+
+[20]
+
+LaTeX Warning: Reference `eq0.6.3' on page 21 undefined on input line 620.
+
+
+LaTeX Warning: Reference `0.6.6' on page 21 undefined on input line 620.
+
+
+Package natbib Warning: Citation `Bortignon:16' on page 21 undefined on input l
+ine 625.
+
+
+Overfull \hbox (3.72626pt too wide) in paragraph at lines 630--632
+\OT1/txr/m/n/10.95 Let us as-sume that $[] = [][] \OML/txmi/m/it/10.95 F\OT1/tx
+r/m/n/10.95 (\OT1/txr/bx/n/10.95 r[]\OT1/txr/m/n/10.95 )$ and $\OML/txmi/m/it/1
+0.95 H \OT1/txr/m/n/10.95 = \OML/txmi/m/it/10.95 T \OT1/txr/m/n/10.95 + \OML/tx
+mi/m/it/10.95 v\OT1/txr/m/n/10.95 (\OT1/txr/bx/n/10.95 r\OML/txmi/m/it/10.95 ; 
+\OT1/txr/bx/n/10.95 r[]\OT1/txr/m/n/10.95 )$, where $\OML/txmi/m/it/10.95 v\OT1
+/txr/m/n/10.95 (\OT1/txr/bx/n/10.95 r\OML/txmi/m/it/10.95 ; \OT1/txr/bx/n/10.95
+ r[]\OT1/txr/m/n/10.95 ) = \OMS/txsy/m/n/10.95 ^^@\OML/txmi/m/it/10.95 ^^T[][]\
+OT1/txr/m/n/10.95 (\OT1/txr/bx/n/10.95 r\OT1/txr/m/n/10.95 )[](\OT1/txr/bx/n/10
+.95 r[]\OT1/txr/m/n/10.95 )$.
+ []
+
+
+LaTeX Warning: Reference `0.1.105' on page 21 undefined on input line 639.
+
+
+LaTeX Warning: Reference `0.1.105' on page 21 undefined on input line 639.
+
+[21]
+
+Package natbib Warning: Citation `t' on page 22 undefined on input line 653.
+
+
+LaTeX Warning: Reference `0.1.8' on page 22 undefined on input line 661.
+
+
+LaTeX Warning: Reference `0.1.110' on page 22 undefined on input line 661.
+
+
+Package natbib Warning: Citation `Schrodinger:26' on page 22 undefined on input
+ line 661.
+
+
+LaTeX Warning: Reference `eq0.1.18' on page 22 undefined on input line 661.
+
+
+LaTeX Warning: Reference `fig0.2.3' on page 22 undefined on input line 661.
+
+[22]
+
+LaTeX Warning: Reference `fig0.1.6' on page 23 undefined on input line 673.
+
+
+LaTeX Warning: Reference `fig0.5.1' on page 23 undefined on input line 677.
+
+
+LaTeX Warning: Reference `fig0.1.17' on page 23 undefined on input line 677.
+
+
+LaTeX Warning: Reference `fig0.2.5' on page 23 undefined on input line 677.
+
+
+LaTeX Warning: Reference `fig0.5.1' on page 23 undefined on input line 677.
+
+
+LaTeX Warning: Reference `0.1.23' on page 23 undefined on input line 677.
+
+[23]
+
+LaTeX Warning: Reference `fig0.5.1' on page 24 undefined on input line 680.
+
+
+LaTeX Warning: Reference `fig0.1.7' on page 24 undefined on input line 688.
+
+
+LaTeX Warning: Reference `fig0.5.2' on page 24 undefined on input line 690.
+
+[24]
+
+Package natbib Warning: Citation `Brown:63' on page 25 undefined on input line 
+694.
+
+
+LaTeX Warning: Reference `fig0.5.3' on page 25 undefined on input line 697.
+
+<introduccion/figs/figpreface1.pdf, id=89, 579.6315pt x 392.73915pt>
 File: introduccion/figs/figpreface1.pdf Graphic file (type pdf)
-
 <use introduccion/figs/figpreface1.pdf>
-Package pdftex.def Info: introduccion/figs/figpreface1.pdf used on input line 2
-08.
+Package pdftex.def Info: introduccion/figs/figpreface1.pdf  used on input line 
+706.
 (pdftex.def)             Requested size: 341.43306pt x 231.34253pt.
-
-<introduccion/figs/figpreface2x.pdf, id=32, 758.92206pt x 602.57072pt>
+<introduccion/figs/figpreface2x.pdf, id=91, 758.92206pt x 602.57072pt>
 File: introduccion/figs/figpreface2x.pdf Graphic file (type pdf)
-
 <use introduccion/figs/figpreface2x.pdf>
-Package pdftex.def Info: introduccion/figs/figpreface2x.pdf used on input line 
-215.
+Package pdftex.def Info: introduccion/figs/figpreface2x.pdf  used on input line
+ 713.
 (pdftex.def)             Requested size: 341.43306pt x 271.08997pt.
-
-<introduccion/figs/figpreface3.pdf, id=34, 460.11899pt x 424.78702pt>
+<introduccion/figs/figpreface3.pdf, id=93, 460.11899pt x 424.78702pt>
 File: introduccion/figs/figpreface3.pdf Graphic file (type pdf)
-
 <use introduccion/figs/figpreface3.pdf>
-Package pdftex.def Info: introduccion/figs/figpreface3.pdf used on input line 2
-22.
+Package pdftex.def Info: introduccion/figs/figpreface3.pdf  used on input line 
+720.
 (pdftex.def)             Requested size: 341.43306pt x 315.22546pt.
-
-<introduccion/figs/figpreface4.pdf, id=36, 496.71286pt x 187.13368pt>
+<introduccion/figs/figpreface4.pdf, id=95, 496.71286pt x 187.13368pt>
 File: introduccion/figs/figpreface4.pdf Graphic file (type pdf)
-
 <use introduccion/figs/figpreface4.pdf>
-Package pdftex.def Info: introduccion/figs/figpreface4.pdf used on input line 2
-29.
+Package pdftex.def Info: introduccion/figs/figpreface4.pdf  used on input line 
+727.
 (pdftex.def)             Requested size: 341.43306pt x 128.63695pt.
-
-<introduccion/figs/figpreface5.pdf, id=38, 482.37358pt x 333.27628pt>
+<introduccion/figs/figpreface5.pdf, id=97, 482.37358pt x 333.27628pt>
 File: introduccion/figs/figpreface5.pdf Graphic file (type pdf)
-
 <use introduccion/figs/figpreface5.pdf>
-Package pdftex.def Info: introduccion/figs/figpreface5.pdf used on input line 2
-36.
+Package pdftex.def Info: introduccion/figs/figpreface5.pdf  used on input line 
+734.
 (pdftex.def)             Requested size: 284.52756pt x 196.5906pt.
-
-<introduccion/figs/figpreface6.pdf, id=40, 597.50786pt x 845.04686pt>
+<introduccion/figs/figpreface6.pdf, id=99, 597.50786pt x 845.04686pt>
 File: introduccion/figs/figpreface6.pdf Graphic file (type pdf)
-
 <use introduccion/figs/figpreface6.pdf>
-Package pdftex.def Info: introduccion/figs/figpreface6.pdf used on input line 2
-43.
+Package pdftex.def Info: introduccion/figs/figpreface6.pdf  used on input line 
+741.
 (pdftex.def)             Requested size: 341.43306pt x 482.88089pt.
-
-<introduccion/figs/figpreface7.pdf, id=42, 617.43661pt x 390.06148pt>
+<introduccion/figs/figpreface7.pdf, id=101, 617.43661pt x 390.06148pt>
 File: introduccion/figs/figpreface7.pdf Graphic file (type pdf)
-
 <use introduccion/figs/figpreface7.pdf>
-Package pdftex.def Info: introduccion/figs/figpreface7.pdf used on input line 2
-50.
+Package pdftex.def Info: introduccion/figs/figpreface7.pdf  used on input line 
+748.
 (pdftex.def)             Requested size: 341.43306pt x 215.70699pt.
-
-<introduccion/figs/figpreface8.pdf, id=44, 404.07358pt x 149.56822pt>
+<introduccion/figs/figpreface8.pdf, id=103, 404.07358pt x 149.56822pt>
 File: introduccion/figs/figpreface8.pdf Graphic file (type pdf)
-
 <use introduccion/figs/figpreface8.pdf>
-Package pdftex.def Info: introduccion/figs/figpreface8.pdf used on input line 2
-57.
+Package pdftex.def Info: introduccion/figs/figpreface8.pdf  used on input line 
+755.
 (pdftex.def)             Requested size: 341.43306pt x 126.38272pt.
-
-<introduccion/figs/figpreface9.pdf, id=46, 532.32819pt x 418.31802pt>
+<introduccion/figs/figpreface9.pdf, id=105, 532.32819pt x 418.31802pt>
 File: introduccion/figs/figpreface9.pdf Graphic file (type pdf)
-
 <use introduccion/figs/figpreface9.pdf>
-Package pdftex.def Info: introduccion/figs/figpreface9.pdf used on input line 2
-64.
+Package pdftex.def Info: introduccion/figs/figpreface9.pdf  used on input line 
+762.
 (pdftex.def)             Requested size: 341.43306pt x 268.30986pt.
- (./preface.bbl [7 <./introduccion/figs/figpreface1.pdf>] [8 <./introduccion/fi
-gs/figpreface2x.pdf>] [9 <./introduccion/figs/figpreface3.pdf>] [10 <./introduc
-cion/figs/figpreface4.pdf> <./introduccion/figs/figpreface5.pdf>] [11 <./introd
-uccion/figs/figpreface6.pdf>] [12 <./introduccion/figs/figpreface7.pdf> <./intr
-oduccion/figs/figpreface8.pdf>] [13 <./introduccion/figs/figpreface9.pdf>] [14
+(./preface.bbl [25] [26 <./introduccion/figs/figpreface1.pdf>] [27 <./introducc
+ion/figs/figpreface2x.pdf>] [28 <./introduccion/figs/figpreface3.pdf>] [29 <./i
+ntroduccion/figs/figpreface4.pdf> <./introduccion/figs/figpreface5.pdf>]
+[30 <./introduccion/figs/figpreface6.pdf>] [31 <./introduccion/figs/figpreface7
+.pdf> <./introduccion/figs/figpreface8.pdf>] [32 <./introduccion/figs/figprefac
+e9.pdf>] [33
 
-] [15]) [16] (./preface.aux) ) 
+])
+
+Package natbib Warning: There were undefined citations.
+
+[34] (./preface.aux)
+
+LaTeX Warning: There were undefined references.
+
+ ) 
 Here is how much of TeX's memory you used:
- 5436 strings out of 494497
- 78687 string characters out of 6172400
- 132614 words of memory out of 5000000
- 8688 multiletter control sequences out of 15000+600000
- 45622 words of font info for 115 fonts, out of 8000000 for 9000
- 264 hyphenation exceptions out of 8191
- 38i,12n,43p,1872b,302s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/share/texlive/texmf-dist/fonts/enc/dvips/ba
-se/8r.enc}</usr/share/texmf/fonts/type1/public/tex-gyre/qtmr.pfb></usr/share/te
-xmf/fonts/type1/public/tex-gyre/qtmri.pfb></usr/share/texlive/texmf-dist/fonts/
-type1/public/txfonts/rtxmi.pfb></usr/share/texlive/texmf-dist/fonts/type1/publi
-c/txfonts/rtxr.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/txfonts/tx
-ex.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/txfonts/txsy.pfb></usr
-/share/texlive/texmf-dist/fonts/type1/public/txfonts/txsyb.pfb></usr/share/texl
-ive/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/share/texlive/texmf-dist/
-fonts/type1/urw/times/utmr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw
-/times/utmr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmri8a.
-pfb>
-Output written on preface.pdf (16 pages, 4729516 bytes).
+ 5676 strings out of 492615
+ 81612 string characters out of 6131390
+ 146693 words of memory out of 5000000
+ 9416 multiletter control sequences out of 15000+600000
+ 50805 words of font info for 123 fonts, out of 8000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 41i,13n,43p,2889b,305s stack positions out of 5000i,500n,10000p,200000b,80000s
+{/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/share/texmf/
+fonts/type1/public/tex-gyre/qtmr.pfb></usr/share/texmf/fonts/type1/public/tex-g
+yre/qtmri.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/txfonts/rtxmi.p
+fb></usr/share/texlive/texmf-dist/fonts/type1/public/txfonts/rtxr.pfb></usr/sha
+re/texlive/texmf-dist/fonts/type1/public/txfonts/txex.pfb></usr/share/texlive/t
+exmf-dist/fonts/type1/public/txfonts/txsy.pfb></usr/share/texlive/texmf-dist/fo
+nts/type1/public/txfonts/txsya.pfb></usr/share/texlive/texmf-dist/fonts/type1/p
+ublic/txfonts/txsyb.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/txfon
+ts/txsyc.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></
+usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/share/texli
+ve/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/share/texlive/texmf-dist/f
+onts/type1/urw/times/utmri8a.pfb>
+Output written on preface.pdf (34 pages, 4809769 bytes).
 PDF statistics:
- 207 PDF objects out of 1000 (max. 8388607)
- 137 compressed objects within 2 object streams
+ 272 PDF objects out of 1000 (max. 8388607)
+ 182 compressed objects within 2 object streams
  0 named destinations out of 1000 (max. 500000)
  100 words of extra memory for PDF output out of 10000 (max. 10000000)
 

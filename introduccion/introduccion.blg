@@ -7,61 +7,73 @@ I was expecting a `,' or a `}'---line 610 of file ../nuclear_bib.bib
  :   volume = 16
  :              C,
 I'm skipping whatever remains of this entry
-"{" immediately follows a field name---line 927 of file ../nuclear_bib.bib
+"{" immediately follows a field name---line 933 of file ../nuclear_bib.bib
  :   editor =       {{Morinaga H.}},@article
  :                                          {LENSKE2001187,
 I'm skipping whatever remains of this entry
-"{" immediately follows a field name---line 1078 of file ../nuclear_bib.bib
+"{" immediately follows a field name---line 976 of file ../nuclear_bib.bib
+ :   year = 1971,@INPROCEEDINGS
+ :                             {Bes:77,
+I'm skipping whatever remains of this entry
+"{" immediately follows a field name---line 1093 of file ../nuclear_bib.bib
  :   BOOKTITLE =    {Le Prix Nobel en 1973},@article
  :                                                  {LENSKE2001187,
 I'm skipping whatever remains of this entry
-"{" immediately follows a field name---line 1284 of file ../nuclear_bib.bib
+"{" immediately follows a field name---line 1299 of file ../nuclear_bib.bib
  :   number =       {1351},@article
  :                                 {PhysRevC.97.011302,
 I'm skipping whatever remains of this entry
-Repeated entry---line 2525 of file ../nuclear_bib.bib
+"{" immediately follows a field name---line 1789 of file ../nuclear_bib.bib
+ :   YEAR =         {1979},@article
+ :                                 {PhysRevLett.121.082501,
+I'm skipping whatever remains of this entry
+Repeated entry---line 2554 of file ../nuclear_bib.bib
  : @article{Zinser:95
  :                   ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 2872 of file ../nuclear_bib.bib
+Repeated entry---line 2901 of file ../nuclear_bib.bib
  : @book{Mayer:55
  :               ,
 I'm skipping whatever remains of this entry
-You're missing a field name---line 3093 of file ../nuclear_bib.bib
+You're missing a field name---line 3122 of file ../nuclear_bib.bib
  : year = {1973},
  :               ,
 I'm skipping whatever remains of this entry
-"{" immediately follows a field name---line 4028 of file ../nuclear_bib.bib
+"{" immediately follows a field name---line 4057 of file ../nuclear_bib.bib
  : @article{Schmid:66,@article
  :                            {Jenning:11,
 I'm skipping whatever remains of this entry
-"{" immediately follows a field name---line 4055 of file ../nuclear_bib.bib
+"{" immediately follows a field name---line 4084 of file ../nuclear_bib.bib
  : year = {2013},@BOOK
  :                    {Pauli:47,
 I'm skipping whatever remains of this entry
-Repeated entry---line 4736 of file ../nuclear_bib.bib
+Repeated entry---line 4765 of file ../nuclear_bib.bib
  : @article{Sackett:93
  :                    ,
 I'm skipping whatever remains of this entry
-I was expecting a `,' or a `}'---line 4935 of file ../nuclear_bib.bib
+I was expecting a `,' or a `}'---line 4964 of file ../nuclear_bib.bib
  :   pages = 210
  :              (R),
 I'm skipping whatever remains of this entry
-"{" immediately follows a field name---line 5429 of file ../nuclear_bib.bib
+"{" immediately follows a field name---line 5458 of file ../nuclear_bib.bib
  : journal = {Phys. Lett. B},@article
  :                                   {Thompson:04,
 I'm skipping whatever remains of this entry
-Repeated entry---line 6069 of file ../nuclear_bib.bib
+Repeated entry---line 6103 of file ../nuclear_bib.bib
  : @article{Kroll:49
  :                  ,
 I'm skipping whatever remains of this entry
-"{" immediately follows a field name---line 6518 of file ../nuclear_bib.bib
+"{" immediately follows a field name---line 6552 of file ../nuclear_bib.bib
  :   year = {2017},@article
  :                         {PhysRevLett.95.232502,
 I'm skipping whatever remains of this entry
-You're missing a field name---line 7589 of file ../nuclear_bib.bib
+You're missing a field name---line 7627 of file ../nuclear_bib.bib
  :  year = {2007},
  :                ,
+I'm skipping whatever remains of this entry
+"{" immediately follows a field name---line 7883 of file ../nuclear_bib.bib
+ :  issue = {2},@article
+ :                      {PhysRev.78.182,
 I'm skipping whatever remains of this entry
 Warning--I didn't find a database entry for "Barranco:17b"
 Name 1 in "R. A. Broglia, and P. F. Bortignon, and F. Barranco, and E. Vigezzi, and A. Idini, and G. Potel" has a comma at the end for entry Broglia:16
@@ -162,45 +174,45 @@ Name 3 in "G. Col\`{o}, and N. Van Giai, and P. F. Bortignon, and M. R. Quaglia"
 while executing---line 1429 of file abbrvnat.bst
 Warning--can't use both author and editor fields in Gorkov:12
 Warning--empty chapter and pages in Gorkov:12
-You've used 125 entries,
+You've used 123 entries,
             2773 wiz_defined-function locations,
-            1366 strings with 24994 characters,
-and the built_in function-call counts, 61867 in all, are:
-= -- 4953
-> -- 4830
-< -- 80
-+ -- 1642
-- -- 1511
-* -- 5215
-:= -- 10097
-add.period$ -- 387
-call.type$ -- 125
-change.case$ -- 843
-chr.to.int$ -- 119
-cite$ -- 252
-duplicate$ -- 2616
-empty$ -- 4418
-format.name$ -- 1690
-if$ -- 12601
+            1354 strings with 24661 characters,
+and the built_in function-call counts, 61038 in all, are:
+= -- 4884
+> -- 4770
+< -- 79
++ -- 1622
+- -- 1493
+* -- 5150
+:= -- 9962
+add.period$ -- 381
+call.type$ -- 123
+change.case$ -- 831
+chr.to.int$ -- 117
+cite$ -- 248
+duplicate$ -- 2576
+empty$ -- 4356
+format.name$ -- 1668
+if$ -- 12431
 int.to.chr$ -- 7
 int.to.str$ -- 1
-missing$ -- 156
-newline$ -- 636
-num.names$ -- 514
-pop$ -- 1714
+missing$ -- 154
+newline$ -- 626
+num.names$ -- 506
+pop$ -- 1692
 preamble$ -- 1
-purify$ -- 749
+purify$ -- 739
 quote$ -- 0
-skip$ -- 2047
+skip$ -- 2015
 stack$ -- 0
-substring$ -- 1136
-swap$ -- 181
+substring$ -- 1135
+swap$ -- 179
 text.length$ -- 8
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 1220
+type$ -- 1198
 warning$ -- 2
-while$ -- 469
+while$ -- 462
 width$ -- 0
-write$ -- 1647
-(There were 63 error messages)
+write$ -- 1622
+(There were 66 error messages)

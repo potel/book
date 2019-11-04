@@ -11,59 +11,73 @@ I'm skipping whatever remains of this entry
  :   editor =       {{Morinaga H.}},@article
  :                                          {LENSKE2001187,
 I'm skipping whatever remains of this entry
-"{" immediately follows a field name---line 1084 of file ../nuclear_bib.bib
+"{" immediately follows a field name---line 976 of file ../nuclear_bib.bib
+ :   year = 1971,@INPROCEEDINGS
+ :                             {Bes:77,
+I'm skipping whatever remains of this entry
+"{" immediately follows a field name---line 1093 of file ../nuclear_bib.bib
  :   BOOKTITLE =    {Le Prix Nobel en 1973},@article
  :                                                  {LENSKE2001187,
 I'm skipping whatever remains of this entry
-"{" immediately follows a field name---line 1290 of file ../nuclear_bib.bib
+"{" immediately follows a field name---line 1299 of file ../nuclear_bib.bib
  :   number =       {1351},@article
  :                                 {PhysRevC.97.011302,
 I'm skipping whatever remains of this entry
-You're missing a field name---line 3099 of file ../nuclear_bib.bib
+You're missing a field name---line 3108 of file ../nuclear_bib.bib
  : year = {1973},
  :               ,
 I'm skipping whatever remains of this entry
-"{" immediately follows a field name---line 4034 of file ../nuclear_bib.bib
+"{" immediately follows a field name---line 4043 of file ../nuclear_bib.bib
  : @article{Schmid:66,@article
  :                            {Jenning:11,
 I'm skipping whatever remains of this entry
-"{" immediately follows a field name---line 4061 of file ../nuclear_bib.bib
+"{" immediately follows a field name---line 4070 of file ../nuclear_bib.bib
  : year = {2013},@BOOK
  :                    {Pauli:47,
 I'm skipping whatever remains of this entry
-Repeated entry---line 4649 of file ../nuclear_bib.bib
+Repeated entry---line 4658 of file ../nuclear_bib.bib
  : @article{Bortignon:83
  :                      ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 4883 of file ../nuclear_bib.bib
+Repeated entry---line 4892 of file ../nuclear_bib.bib
  : @book{DeGennes:94
  :                  ,
 I'm skipping whatever remains of this entry
-I was expecting a `,' or a `}'---line 4941 of file ../nuclear_bib.bib
+I was expecting a `,' or a `}'---line 4950 of file ../nuclear_bib.bib
  :   pages = 210
  :              (R),
 I'm skipping whatever remains of this entry
-"{" immediately follows a field name---line 5435 of file ../nuclear_bib.bib
+"{" immediately follows a field name---line 5444 of file ../nuclear_bib.bib
  : journal = {Phys. Lett. B},@article
  :                                   {Thompson:04,
 I'm skipping whatever remains of this entry
-"{" immediately follows a field name---line 6524 of file ../nuclear_bib.bib
+"{" immediately follows a field name---line 6533 of file ../nuclear_bib.bib
  :   year = {2017},@article
  :                         {PhysRevLett.95.232502,
 I'm skipping whatever remains of this entry
-Repeated entry---line 6643 of file ../nuclear_bib.bib
+Repeated entry---line 6652 of file ../nuclear_bib.bib
  : @article{Rosner:17
  :                   ,
 I'm skipping whatever remains of this entry
-You're missing a field name---line 7595 of file ../nuclear_bib.bib
+You're missing a field name---line 7606 of file ../nuclear_bib.bib
  :  year = {2007},
  :                ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 7612 of file ../nuclear_bib.bib
+Repeated entry---line 7623 of file ../nuclear_bib.bib
  : @article{Montanari:14
  :                      ,
 I'm skipping whatever remains of this entry
 Name 3 in "{Bjerregaard, J. H.} and Hansen, O. and Nathan, and Hinds, S." has a comma at the end for entry Bjerregaard:66b
+while executing---line 1347 of file abbrvnat.bst
+Name 1 in "R.A. Broglia, and F. Barranco, and A. Idini, and G. Potel, and E. Vigezzi" has a comma at the end for entry Broglia:19
+while executing---line 1347 of file abbrvnat.bst
+Name 1 in "R.A. Broglia, and F. Barranco, and A. Idini, and G. Potel, and E. Vigezzi" has a comma at the end for entry Broglia:19
+while executing---line 1347 of file abbrvnat.bst
+Name 2 in "R.A. Broglia, and F. Barranco, and A. Idini, and G. Potel, and E. Vigezzi" has a comma at the end for entry Broglia:19
+while executing---line 1347 of file abbrvnat.bst
+Name 3 in "R.A. Broglia, and F. Barranco, and A. Idini, and G. Potel, and E. Vigezzi" has a comma at the end for entry Broglia:19
+while executing---line 1347 of file abbrvnat.bst
+Name 4 in "R.A. Broglia, and F. Barranco, and A. Idini, and G. Potel, and E. Vigezzi" has a comma at the end for entry Broglia:19
 while executing---line 1347 of file abbrvnat.bst
 Name 1 in "Heike I. {R\"osner}, and Martina Caldarini, and Andreas Prestel, and Maria A. Vanoni, and Ricardo A. Broglia, and Alessandro Aliverti, and Guido Tiana, and and Birthe B. Kragelund" has a comma at the end for entry Rosner:17
 while executing---line 1347 of file abbrvnat.bst
@@ -88,6 +102,22 @@ while executing---line 1429 of file abbrvnat.bst
 Name 3 in "{Bjerregaard, J. H.} and Hansen, O. and Nathan, and Hinds, S." has a comma at the end for entry Bjerregaard:66b
 while executing---line 1429 of file abbrvnat.bst
 Warning--empty publisher in Brink:55
+Name 1 in "R.A. Broglia, and F. Barranco, and A. Idini, and G. Potel, and E. Vigezzi" has a comma at the end for entry Broglia:19
+while executing---line 1429 of file abbrvnat.bst
+Name 2 in "R.A. Broglia, and F. Barranco, and A. Idini, and G. Potel, and E. Vigezzi" has a comma at the end for entry Broglia:19
+while executing---line 1429 of file abbrvnat.bst
+Name 3 in "R.A. Broglia, and F. Barranco, and A. Idini, and G. Potel, and E. Vigezzi" has a comma at the end for entry Broglia:19
+while executing---line 1429 of file abbrvnat.bst
+Name 4 in "R.A. Broglia, and F. Barranco, and A. Idini, and G. Potel, and E. Vigezzi" has a comma at the end for entry Broglia:19
+while executing---line 1429 of file abbrvnat.bst
+Name 1 in "R.A. Broglia, and F. Barranco, and A. Idini, and G. Potel, and E. Vigezzi" has a comma at the end for entry Broglia:19
+while executing---line 1429 of file abbrvnat.bst
+Name 2 in "R.A. Broglia, and F. Barranco, and A. Idini, and G. Potel, and E. Vigezzi" has a comma at the end for entry Broglia:19
+while executing---line 1429 of file abbrvnat.bst
+Name 3 in "R.A. Broglia, and F. Barranco, and A. Idini, and G. Potel, and E. Vigezzi" has a comma at the end for entry Broglia:19
+while executing---line 1429 of file abbrvnat.bst
+Name 4 in "R.A. Broglia, and F. Barranco, and A. Idini, and G. Potel, and E. Vigezzi" has a comma at the end for entry Broglia:19
+while executing---line 1429 of file abbrvnat.bst
 Warning--empty booktitle in deHeer:87
 Warning--empty publisher in deHeer:87
 Warning--empty title in LeTourneaux:65
@@ -121,45 +151,45 @@ while executing---line 1429 of file abbrvnat.bst
 Name 7 in "Heike I. {R\"osner}, and Martina Caldarini, and Andreas Prestel, and Maria A. Vanoni, and Ricardo A. Broglia, and Alessandro Aliverti, and Guido Tiana, and and Birthe B. Kragelund" has a comma at the end for entry Rosner:17
 while executing---line 1429 of file abbrvnat.bst
 Warning--empty title in Stent:80
-You've used 121 entries,
+You've used 122 entries,
             2773 wiz_defined-function locations,
-            1364 strings with 23626 characters,
-and the built_in function-call counts, 58111 in all, are:
-= -- 4716
-> -- 4216
+            1371 strings with 23776 characters,
+and the built_in function-call counts, 58694 in all, are:
+= -- 4763
+> -- 4264
 < -- 95
-+ -- 1433
-- -- 1310
-* -- 4720
-:= -- 9411
-add.period$ -- 379
-call.type$ -- 121
-change.case$ -- 759
++ -- 1450
+- -- 1325
+* -- 4779
+:= -- 9504
+add.period$ -- 382
+call.type$ -- 122
+change.case$ -- 767
 chr.to.int$ -- 119
-cite$ -- 250
-duplicate$ -- 2613
-empty$ -- 4374
-format.name$ -- 1483
-if$ -- 11978
-int.to.chr$ -- 3
+cite$ -- 252
+duplicate$ -- 2634
+empty$ -- 4413
+format.name$ -- 1499
+if$ -- 12095
+int.to.chr$ -- 4
 int.to.str$ -- 1
-missing$ -- 148
-newline$ -- 612
-num.names$ -- 516
-pop$ -- 1602
+missing$ -- 149
+newline$ -- 617
+num.names$ -- 520
+pop$ -- 1616
 preamble$ -- 1
-purify$ -- 668
+purify$ -- 675
 quote$ -- 0
-skip$ -- 1978
+skip$ -- 1992
 stack$ -- 0
-substring$ -- 1100
-swap$ -- 216
+substring$ -- 1120
+swap$ -- 219
 text.length$ -- 16
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 1196
+type$ -- 1207
 warning$ -- 8
-while$ -- 465
+while$ -- 469
 width$ -- 0
-write$ -- 1604
-(There were 40 error messages)
+write$ -- 1617
+(There were 54 error messages)

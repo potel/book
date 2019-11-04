@@ -2,7 +2,7 @@ This is BibTeX, Version 0.99d (TeX Live 2019/dev/Debian)
 Capacity: max_strings=100000, hash_size=100000, hash_prime=85009
 The top-level auxiliary file: preface.aux
 The style file: abbrvnat.bst
-Illegal, another \bibstyle command---line 170 of file preface.aux
+Illegal, another \bibstyle command---line 248 of file preface.aux
  : \bibstyle
  :          {abbrvnat}
 I'm skipping whatever remains of this command
@@ -15,88 +15,98 @@ I'm skipping whatever remains of this entry
  :   editor =       {{Morinaga H.}},@article
  :                                          {LENSKE2001187,
 I'm skipping whatever remains of this entry
-"{" immediately follows a field name---line 1084 of file ./nuclear_bib.bib
+"{" immediately follows a field name---line 976 of file ./nuclear_bib.bib
+ :   year = 1971,@INPROCEEDINGS
+ :                             {Bes:77,
+I'm skipping whatever remains of this entry
+"{" immediately follows a field name---line 1093 of file ./nuclear_bib.bib
  :   BOOKTITLE =    {Le Prix Nobel en 1973},@article
  :                                                  {LENSKE2001187,
 I'm skipping whatever remains of this entry
-"{" immediately follows a field name---line 1290 of file ./nuclear_bib.bib
+"{" immediately follows a field name---line 1299 of file ./nuclear_bib.bib
  :   number =       {1351},@article
  :                                 {PhysRevC.97.011302,
 I'm skipping whatever remains of this entry
-Repeated entry---line 2878 of file ./nuclear_bib.bib
+"{" immediately follows a field name---line 1789 of file ./nuclear_bib.bib
+ :   YEAR =         {1979},@article
+ :                                 {PhysRevLett.121.082501,
+I'm skipping whatever remains of this entry
+Repeated entry---line 2901 of file ./nuclear_bib.bib
  : @book{Mayer:55
  :               ,
 I'm skipping whatever remains of this entry
-You're missing a field name---line 3099 of file ./nuclear_bib.bib
+You're missing a field name---line 3122 of file ./nuclear_bib.bib
  : year = {1973},
  :               ,
 I'm skipping whatever remains of this entry
-"{" immediately follows a field name---line 4034 of file ./nuclear_bib.bib
+"{" immediately follows a field name---line 4057 of file ./nuclear_bib.bib
  : @article{Schmid:66,@article
  :                            {Jenning:11,
 I'm skipping whatever remains of this entry
-"{" immediately follows a field name---line 4061 of file ./nuclear_bib.bib
+"{" immediately follows a field name---line 4084 of file ./nuclear_bib.bib
  : year = {2013},@BOOK
  :                    {Pauli:47,
 I'm skipping whatever remains of this entry
-I was expecting a `,' or a `}'---line 4941 of file ./nuclear_bib.bib
+I was expecting a `,' or a `}'---line 4964 of file ./nuclear_bib.bib
  :   pages = 210
  :              (R),
 I'm skipping whatever remains of this entry
-"{" immediately follows a field name---line 5435 of file ./nuclear_bib.bib
+"{" immediately follows a field name---line 5458 of file ./nuclear_bib.bib
  : journal = {Phys. Lett. B},@article
  :                                   {Thompson:04,
 I'm skipping whatever remains of this entry
-"{" immediately follows a field name---line 6524 of file ./nuclear_bib.bib
+"{" immediately follows a field name---line 6552 of file ./nuclear_bib.bib
  :   year = {2017},@article
  :                         {PhysRevLett.95.232502,
 I'm skipping whatever remains of this entry
-You're missing a field name---line 7595 of file ./nuclear_bib.bib
+You're missing a field name---line 7627 of file ./nuclear_bib.bib
  :  year = {2007},
  :                ,
 I'm skipping whatever remains of this entry
-Warning--I didn't find a database entry for "Bortignon:16"
-Warning--I didn't find a database entry for "t"
-Warning--I didn't find a database entry for "Schrodinger:26"
-You've used 28 entries,
+Repeated entry---line 7878 of file ./nuclear_bib.bib
+ : @article{Schiffer:12
+ :                     ,
+I'm skipping whatever remains of this entry
+Warning--empty title in Schrodinger:26
+You've used 49 entries,
             2773 wiz_defined-function locations,
-            786 strings with 7690 characters,
-and the built_in function-call counts, 11395 in all, are:
-= -- 945
-> -- 685
-< -- 21
-+ -- 236
-- -- 207
-* -- 860
-:= -- 1842
-add.period$ -- 84
-call.type$ -- 28
-change.case$ -- 144
-chr.to.int$ -- 27
-cite$ -- 56
-duplicate$ -- 565
-empty$ -- 956
-format.name$ -- 257
-if$ -- 2353
+            951 strings with 11228 characters,
+and the built_in function-call counts, 21294 in all, are:
+= -- 1808
+> -- 1298
+< -- 38
++ -- 443
+- -- 393
+* -- 1673
+:= -- 3405
+add.period$ -- 154
+call.type$ -- 49
+change.case$ -- 264
+chr.to.int$ -- 48
+cite$ -- 99
+duplicate$ -- 1009
+empty$ -- 1744
+format.name$ -- 484
+if$ -- 4418
 int.to.chr$ -- 2
 int.to.str$ -- 1
-missing$ -- 37
-newline$ -- 148
-num.names$ -- 112
-pop$ -- 298
+missing$ -- 60
+newline$ -- 258
+num.names$ -- 200
+pop$ -- 520
 preamble$ -- 1
-purify$ -- 125
+purify$ -- 227
 quote$ -- 0
-skip$ -- 417
+skip$ -- 755
 stack$ -- 0
-substring$ -- 224
-swap$ -- 30
-text.length$ -- 0
+substring$ -- 543
+swap$ -- 68
+text.length$ -- 2
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 263
-warning$ -- 0
-while$ -- 101
+type$ -- 484
+warning$ -- 1
+while$ -- 188
 width$ -- 0
-write$ -- 370
-(There were 13 error messages)
+write$ -- 657
+(There were 16 error messages)

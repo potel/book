@@ -1,68 +1,92 @@
-This is BibTeX, Version 0.99d (TeX Live 2015/Debian)
-Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
+This is BibTeX, Version 0.99d (TeX Live 2019/dev/Debian)
+Capacity: max_strings=100000, hash_size=100000, hash_prime=85009
 The top-level auxiliary file: includeC7.aux
 The style file: abbrvnat.bst
 Database file #1: ../nuclear_bib.bib
-"{" immediately follows a field name---line 321 of file ../nuclear_bib.bib
- :   journal = {Physical Review},@article
- :                                       {PhysRev.75.388,
-I'm skipping whatever remains of this entry
-I was expecting a `,' or a `}'---line 587 of file ../nuclear_bib.bib
+I was expecting a `,' or a `}'---line 610 of file ../nuclear_bib.bib
  :   volume = 16
  :              C,
 I'm skipping whatever remains of this entry
-You're missing a field name---line 3003 of file ../nuclear_bib.bib
+"{" immediately follows a field name---line 933 of file ../nuclear_bib.bib
+ :   editor =       {{Morinaga H.}},@article
+ :                                          {LENSKE2001187,
+I'm skipping whatever remains of this entry
+"{" immediately follows a field name---line 1084 of file ../nuclear_bib.bib
+ :   BOOKTITLE =    {Le Prix Nobel en 1973},@article
+ :                                                  {LENSKE2001187,
+I'm skipping whatever remains of this entry
+"{" immediately follows a field name---line 1290 of file ../nuclear_bib.bib
+ :   number =       {1351},@article
+ :                                 {PhysRevC.97.011302,
+I'm skipping whatever remains of this entry
+You're missing a field name---line 3099 of file ../nuclear_bib.bib
  : year = {1973},
  :               ,
 I'm skipping whatever remains of this entry
-"{" immediately follows a field name---line 3924 of file ../nuclear_bib.bib
+"{" immediately follows a field name---line 4034 of file ../nuclear_bib.bib
  : @article{Schmid:66,@article
  :                            {Jenning:11,
 I'm skipping whatever remains of this entry
-I was expecting a `,' or a `}'---line 4824 of file ../nuclear_bib.bib
+"{" immediately follows a field name---line 4061 of file ../nuclear_bib.bib
+ : year = {2013},@BOOK
+ :                    {Pauli:47,
+I'm skipping whatever remains of this entry
+I was expecting a `,' or a `}'---line 4941 of file ../nuclear_bib.bib
  :   pages = 210
  :              (R),
 I'm skipping whatever remains of this entry
+"{" immediately follows a field name---line 5435 of file ../nuclear_bib.bib
+ : journal = {Phys. Lett. B},@article
+ :                                   {Thompson:04,
+I'm skipping whatever remains of this entry
+"{" immediately follows a field name---line 6524 of file ../nuclear_bib.bib
+ :   year = {2017},@article
+ :                         {PhysRevLett.95.232502,
+I'm skipping whatever remains of this entry
+You're missing a field name---line 7595 of file ../nuclear_bib.bib
+ :  year = {2007},
+ :                ,
+I'm skipping whatever remains of this entry
 Warning--empty title in Glauber:69
-You've used 27 entries,
+You've used 26 entries,
             2773 wiz_defined-function locations,
-            786 strings with 7784 characters,
-and the built_in function-call counts, 10137 in all, are:
-= -- 875
-> -- 455
-< -- 26
-+ -- 161
-- -- 134
-* -- 695
-:= -- 1618
-add.period$ -- 83
-call.type$ -- 27
-change.case$ -- 118
-chr.to.int$ -- 27
-cite$ -- 55
-duplicate$ -- 559
-empty$ -- 949
-format.name$ -- 179
-if$ -- 2135
+            779 strings with 7678 characters,
+and the built_in function-call counts, 9776 in all, are:
+= -- 846
+> -- 434
+< -- 25
++ -- 154
+- -- 128
+* -- 671
+:= -- 1560
+add.period$ -- 80
+call.type$ -- 26
+change.case$ -- 114
+chr.to.int$ -- 26
+cite$ -- 53
+duplicate$ -- 539
+empty$ -- 917
+format.name$ -- 170
+if$ -- 2059
 int.to.chr$ -- 1
 int.to.str$ -- 1
-missing$ -- 33
-newline$ -- 143
-num.names$ -- 112
-pop$ -- 245
+missing$ -- 31
+newline$ -- 138
+num.names$ -- 108
+pop$ -- 233
 preamble$ -- 1
-purify$ -- 98
+purify$ -- 94
 quote$ -- 0
-skip$ -- 389
+skip$ -- 374
 stack$ -- 0
-substring$ -- 245
-swap$ -- 37
+substring$ -- 243
+swap$ -- 36
 text.length$ -- 2
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 267
+type$ -- 261
 warning$ -- 1
-while$ -- 104
+while$ -- 101
 width$ -- 0
-write$ -- 362
-(There were 5 error messages)
+write$ -- 349
+(There were 11 error messages)

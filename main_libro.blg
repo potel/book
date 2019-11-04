@@ -4,105 +4,171 @@ The top-level auxiliary file: main_libro.aux
 A level-1 auxiliary file: C1/includeC1.aux
 The style file: abbrvnat.bst
 I couldn't open database file ../nuclear_bib.bib
----line 5 of file C1/includeC1.aux
- : \bibdata{../nuclear_bib
- :                        }
+---line 11 of file C1/includeC1.aux
+ : \bibdata{../nuclear_bib.bib
+ :                            }
 I'm skipping whatever remains of this command
-A level-1 auxiliary file: introduccion/introduccion.aux
-Illegal, another \bibstyle command---line 621 of file introduccion/introduccion.aux
+A level-1 auxiliary file: preface_book.aux
+Illegal, another \bibstyle command---line 17 of file preface_book.aux
  : \bibstyle
  :          {abbrvnat}
 I'm skipping whatever remains of this command
-Illegal, another \bibdata command---line 622 of file introduccion/introduccion.aux
- : \bibdata
- :         {../nuclear_bib}
-I'm skipping whatever remains of this command
-A level-1 auxiliary file: nutshell/include_struct_nut.aux
-Illegal, another \bibstyle command---line 537 of file nutshell/include_struct_nut.aux
+Illegal, another \bibstyle command---line 251 of file preface_book.aux
  : \bibstyle
  :          {abbrvnat}
 I'm skipping whatever remains of this command
-Illegal, another \bibdata command---line 538 of file nutshell/include_struct_nut.aux
- : \bibdata
- :         {../nuclear_bib}
-I'm skipping whatever remains of this command
-A level-1 auxiliary file: nutshell/include_trans_nut.aux
-Case mismatch error between cite keys deGennes:94 and DeGennes:94
----line 275 of file nutshell/include_trans_nut.aux
- : \citation{deGennes:94
- :                      }
-I'm skipping whatever remains of this command
-Illegal, another \bibstyle command---line 499 of file nutshell/include_trans_nut.aux
- : \bibstyle
- :          {abbrvnat}
-I'm skipping whatever remains of this command
-Illegal, another \bibdata command---line 500 of file nutshell/include_trans_nut.aux
- : \bibdata
- :         {../nuclear_bib}
-I'm skipping whatever remains of this command
-A level-1 auxiliary file: C6/includeC6.aux
-Illegal, another \bibstyle command---line 365 of file C6/includeC6.aux
- : \bibstyle
- :          {abbrvnat}
-I'm skipping whatever remains of this command
-Illegal, another \bibdata command---line 366 of file C6/includeC6.aux
- : \bibdata
- :         {../nuclear_bib}
-I'm skipping whatever remains of this command
-A level-1 auxiliary file: C7/includeC7.aux
-Illegal, another \bibstyle command---line 408 of file C7/includeC7.aux
- : \bibstyle
- :          {abbrvnat}
-I'm skipping whatever remains of this command
-Illegal, another \bibdata command---line 409 of file C7/includeC7.aux
- : \bibdata
- :         {../nuclear_bib}
-I'm skipping whatever remains of this command
-A level-1 auxiliary file: C8/includeC8.aux
-Illegal, another \bibstyle command---line 334 of file C8/includeC8.aux
- : \bibstyle
- :          {abbrvnat}
-I'm skipping whatever remains of this command
-Illegal, another \bibdata command---line 335 of file C8/includeC8.aux
- : \bibdata
- :         {../nuclear_bib}
-I'm skipping whatever remains of this command
-Illegal, another \bibstyle command---line 23 of file main_libro.aux
- : \bibstyle
- :          {abbrvnat}
-I'm skipping whatever remains of this command
-Illegal, another \bibdata command---line 24 of file main_libro.aux
+Illegal, another \bibdata command---line 252 of file preface_book.aux
  : \bibdata
  :         {./nuclear_bib}
 I'm skipping whatever remains of this command
+A level-1 auxiliary file: introduccion/introduccion.aux
+Illegal, another \bibstyle command---line 597 of file introduccion/introduccion.aux
+ : \bibstyle
+ :          {abbrvnat}
+I'm skipping whatever remains of this command
+Illegal, another \bibdata command---line 598 of file introduccion/introduccion.aux
+ : \bibdata
+ :         {../nuclear_bib.bib}
+I'm skipping whatever remains of this command
+A level-1 auxiliary file: nutshell/Ch3NA.aux
+Illegal, another \bibstyle command---line 537 of file nutshell/Ch3NA.aux
+ : \bibstyle
+ :          {abbrvnat}
+I'm skipping whatever remains of this command
+Illegal, another \bibdata command---line 538 of file nutshell/Ch3NA.aux
+ : \bibdata
+ :         {../nuclear_bib.bib}
+I'm skipping whatever remains of this command
+A level-1 auxiliary file: nutshell/Ch4NA.aux
+Case mismatch error between cite keys deGennes:94 and DeGennes:94
+---line 277 of file nutshell/Ch4NA.aux
+ : \citation{deGennes:94
+ :                      }
+I'm skipping whatever remains of this command
+Illegal, another \bibstyle command---line 502 of file nutshell/Ch4NA.aux
+ : \bibstyle
+ :          {abbrvnat}
+I'm skipping whatever remains of this command
+Illegal, another \bibdata command---line 503 of file nutshell/Ch4NA.aux
+ : \bibdata
+ :         {../nuclear_bib.bib}
+I'm skipping whatever remains of this command
+A level-1 auxiliary file: C6/Ch5NA.aux
+Illegal, another \bibstyle command---line 371 of file C6/Ch5NA.aux
+ : \bibstyle
+ :          {abbrvnat}
+I'm skipping whatever remains of this command
+Illegal, another \bibdata command---line 372 of file C6/Ch5NA.aux
+ : \bibdata
+ :         {../nuclear_bib.bib}
+I'm skipping whatever remains of this command
+A level-1 auxiliary file: C7/Ch6NA.aux
+Illegal, another \bibstyle command---line 408 of file C7/Ch6NA.aux
+ : \bibstyle
+ :          {abbrvnat}
+I'm skipping whatever remains of this command
+Illegal, another \bibdata command---line 409 of file C7/Ch6NA.aux
+ : \bibdata
+ :         {../nuclear_bib.bib}
+I'm skipping whatever remains of this command
+A level-1 auxiliary file: C8/Ch7NA.aux
+Illegal, another \bibstyle command---line 325 of file C8/Ch7NA.aux
+ : \bibstyle
+ :          {abbrvnat}
+I'm skipping whatever remains of this command
+Illegal, another \bibdata command---line 326 of file C8/Ch7NA.aux
+ : \bibdata
+ :         {../nuclear_bib.bib}
+I'm skipping whatever remains of this command
+Illegal, another \bibstyle command---line 26 of file main_libro.aux
+ : \bibstyle
+ :          {abbrvnat}
+I'm skipping whatever remains of this command
+Illegal, another \bibdata command---line 27 of file main_libro.aux
+ : \bibdata
+ :         {nuclear_bib.bib}
+I'm skipping whatever remains of this command
 I found no database files---while reading file main_libro.aux
-Reallocated field_info (elt_size=4) to 17544 items from 5000.
-Warning--I didn't find a database entry for "Born:26"
-Warning--I didn't find a database entry for "Pauli:27"
-Warning--I didn't find a database entry for "Pines:66"
-Warning--I didn't find a database entry for "Bohr:75"
+Reallocated field_info (elt_size=4) to 18580 items from 5000.
+Warning--I didn't find a database entry for "Josephson:62"
+Warning--I didn't find a database entry for "Anderson:64b"
+Warning--I didn't find a database entry for "Cooper:56"
+Warning--I didn't find a database entry for "Frohlich:52"
+Warning--I didn't find a database entry for "Bardeen:55"
 Warning--I didn't find a database entry for "Bardeen:57a"
 Warning--I didn't find a database entry for "Bardeen:57b"
+Warning--I didn't find a database entry for "Nambu:91"
+Warning--I didn't find a database entry for "Bohr:19"
+Warning--I didn't find a database entry for "Giaver:73"
+Warning--I didn't find a database entry for "Born:26"
+Warning--I didn't find a database entry for "Pauli:27"
+Warning--I didn't find a database entry for "Meitner:39"
+Warning--I didn't find a database entry for "Bohr:39"
+Warning--I didn't find a database entry for "Weizsacker:35"
+Warning--I didn't find a database entry for "Broglia:04a"
+Warning--I didn't find a database entry for "Elsasser:33"
+Warning--I didn't find a database entry for "Mayer:48"
+Warning--I didn't find a database entry for "Haxel:49"
+Warning--I didn't find a database entry for "Mayer:49"
+Warning--I didn't find a database entry for "Mayer:49b"
+Warning--I didn't find a database entry for "Bohr:58"
+Warning--I didn't find a database entry for "Bohr:69"
+Warning--I didn't find a database entry for "Dirac:26"
+Warning--I didn't find a database entry for "Mayer:55"
 Warning--I didn't find a database entry for "Brink:05"
+Warning--I didn't find a database entry for "Mayer:63"
+Warning--I didn't find a database entry for "Rowe:70"
+Warning--I didn't find a database entry for "Bertsch:83"
+Warning--I didn't find a database entry for "Barranco:04"
+Warning--I didn't find a database entry for "Bohr:75"
+Warning--I didn't find a database entry for "Schiffer:12"
+Warning--I didn't find a database entry for "Flynn:72"
+Warning--I didn't find a database entry for "Nolan:88"
+Warning--I didn't find a database entry for "Nathan:65"
+Warning--I didn't find a database entry for "Nilsson:55"
+Warning--I didn't find a database entry for "Potel:13b"
+Warning--I didn't find a database entry for "Ward:50"
+Warning--I didn't find a database entry for "Nambu:60"
+Warning--I didn't find a database entry for "Bortignon:81"
+Warning--I didn't find a database entry for "Bortignon:98"
+Warning--I didn't find a database entry for "Litvinova:18"
+Warning--I didn't find a database entry for "Wibowo:19"
+Warning--I didn't find a database entry for "Broglia:77"
+Warning--I didn't find a database entry for "Cappuzzello:15"
+Warning--I didn't find a database entry for "Bortignon:16"
+Warning--I didn't find a database entry for "Laskin:16"
+Warning--I didn't find a database entry for "Betan:02"
+Warning--I didn't find a database entry for "Dussel:09"
+Warning--I didn't find a database entry for "Mouginot:11"
+Warning--I didn't find a database entry for "Khan:04"
+Warning--I didn't find a database entry for "Gogny:78"
+Warning--I didn't find a database entry for "Esbensen:83"
+Warning--I didn't find a database entry for "Reinhard:79"
+Warning--I didn't find a database entry for "Khodel:82"
+Warning--I didn't find a database entry for "Barranco:87a"
+Warning--I didn't find a database entry for "Brown:63"
+Warning--I didn't find a database entry for "Anderson:62"
+Warning--I didn't find a database entry for "Glauber:07"
+Warning--I didn't find a database entry for "Basdevant:05"
+Warning--I didn't find a database entry for "Schrodinger:26"
+Warning--I didn't find a database entry for "Pais:86"
+Warning--I didn't find a database entry for "Mitra:18"
+Warning--I didn't find a database entry for "Pines:66"
 Warning--I didn't find a database entry for "Broglia:16"
 Warning--I didn't find a database entry for "Mottelson:76b"
 Warning--I didn't find a database entry for "Heisenberg:49"
 Warning--I didn't find a database entry for "Landau:41"
 Warning--I didn't find a database entry for "Bohr:64"
-Warning--I didn't find a database entry for "Bohr:69"
 Warning--I didn't find a database entry for "Bohr:76"
 Warning--I didn't find a database entry for "Mottelson:76"
-Warning--I didn't find a database entry for "Bohr:58"
 Warning--I didn't find a database entry for "Bes:74"
 Warning--I didn't find a database entry for "Bes:90"
-Warning--I didn't find a database entry for "Nilsson:55"
 Warning--I didn't find a database entry for "Belyaev:59"
 Warning--I didn't find a database entry for "Hogassen:61"
 Warning--I didn't find a database entry for "Bjerregaard:66b"
 Warning--I didn't find a database entry for "Broglia:67"
 Warning--I didn't find a database entry for "Alder:56"
 Warning--I didn't find a database entry for "Alder:75"
-Warning--I didn't find a database entry for "Broglia:04a"
 Warning--I didn't find a database entry for "Austern:70"
 Warning--I didn't find a database entry for "Jackson:70"
 Warning--I didn't find a database entry for "Satchler:80"
@@ -112,8 +178,6 @@ Warning--I didn't find a database entry for "Glendenning:04"
 Warning--I didn't find a database entry for "Thompson:09"
 Warning--I didn't find a database entry for "Broglia:75"
 Warning--I didn't find a database entry for "Potel:13"
-Warning--I didn't find a database entry for "Josephson:62"
-Warning--I didn't find a database entry for "Anderson:64b"
 Warning--I didn't find a database entry for "Bes:76a"
 Warning--I didn't find a database entry for "Bes:76b"
 Warning--I didn't find a database entry for "Bes:76c"
@@ -136,23 +200,19 @@ Warning--I didn't find a database entry for "Broglia:72b"
 Warning--I didn't find a database entry for "Bayman:72"
 Warning--I didn't find a database entry for "Lanford:77"
 Warning--I didn't find a database entry for "Potel:17"
-Warning--I didn't find a database entry for "Bortignon:98"
 Warning--I didn't find a database entry for "Mottelson:62"
 Warning--I didn't find a database entry for "Broglia:73"
 Warning--I didn't find a database entry for "Yoshida:62"
-Warning--I didn't find a database entry for "Potel:13b"
 Warning--I didn't find a database entry for "Schrieffer:64"
 Warning--I didn't find a database entry for "Bohm:51"
 Warning--I didn't find a database entry for "Bohm:52"
 Warning--I didn't find a database entry for "Bohm:53"
-Warning--I didn't find a database entry for "Barranco:04"
 Warning--I didn't find a database entry for "Mahaux:85"
 Warning--I didn't find a database entry for "Bernard:81"
 Warning--I didn't find a database entry for "Perey:62"
 Warning--I didn't find a database entry for "Feshbach:58"
 Warning--I didn't find a database entry for "Caldeira:81"
 Warning--I didn't find a database entry for "Caldeira:83"
-Warning--I didn't find a database entry for "Bertsch:83"
 Warning--I didn't find a database entry for "Baranger:69"
 Warning--I didn't find a database entry for "McFarlane:69"
 Warning--I didn't find a database entry for "Chabanat:97"
@@ -163,10 +223,8 @@ Warning--I didn't find a database entry for "Wolynes:12"
 Warning--I didn't find a database entry for "Buchanan:15"
 Warning--I didn't find a database entry for "Transtrum:15"
 Warning--I didn't find a database entry for "Born:48"
-Warning--I didn't find a database entry for "Pais:86"
 Warning--I didn't find a database entry for "Bruce:07"
 Warning--I didn't find a database entry for "Barranco:17b"
-Warning--I didn't find a database entry for "Bortignon:81"
 Warning--I didn't find a database entry for "Ungrin:71"
 Warning--I didn't find a database entry for "Broglia:70"
 Warning--I didn't find a database entry for "Barnes:72"
@@ -175,7 +233,6 @@ Warning--I didn't find a database entry for "Broglia:68"
 Warning--I didn't find a database entry for "Barranco:05"
 Warning--I didn't find a database entry for "Bayman:61"
 Warning--I didn't find a database entry for "Bes:69"
-Warning--I didn't find a database entry for "Mayer:55"
 Warning--I didn't find a database entry for "Zinser:95"
 Warning--I didn't find a database entry for "Cavallaro:17"
 Warning--I didn't find a database entry for "Sanetullaev:16"
@@ -186,7 +243,6 @@ Warning--I didn't find a database entry for "Kanungo:15"
 Warning--I didn't find a database entry for "Sackett:93"
 Warning--I didn't find a database entry for "Zinser:97"
 Warning--I didn't find a database entry for "Broglia:19"
-Warning--I didn't find a database entry for "Cooper:56"
 Warning--I didn't find a database entry for "Gorkov:12"
 Warning--I didn't find a database entry for "Landau:59"
 Warning--I didn't find a database entry for "terHaar:69"
@@ -194,8 +250,6 @@ Warning--I didn't find a database entry for "Tanihata:08"
 Warning--I didn't find a database entry for "Potel:10"
 Warning--I didn't find a database entry for "Tanihata:13"
 Warning--I didn't find a database entry for "Beceiro:15"
-Warning--I didn't find a database entry for "Dickey:82"
-Warning--I didn't find a database entry for "Bechara:75"
 Warning--I didn't find a database entry for "Bayman:60a"
 Warning--I didn't find a database entry for "Colo:00"
 Warning--I didn't find a database entry for "Pais:00"
@@ -265,7 +319,6 @@ Warning--I didn't find a database entry for "Rotureau:17"
 Warning--I didn't find a database entry for "Bayman:82"
 Warning--I didn't find a database entry for "Kramer:01"
 Warning--I didn't find a database entry for "Barbieri:09"
-Warning--I didn't find a database entry for "Schiffer:12"
 Warning--I didn't find a database entry for "Duguet:12"
 Warning--I didn't find a database entry for "Furnstahl:10"
 Warning--I didn't find a database entry for "Barranco:99"
@@ -279,7 +332,6 @@ Warning--I didn't find a database entry for "Bilgram:87"
 Warning--I didn't find a database entry for "Lowen:94"
 Warning--I didn't find a database entry for "Stillinger:95"
 Warning--I didn't find a database entry for "Zhou:99"
-Warning--I didn't find a database entry for "Basdevant:05"
 Warning--I didn't find a database entry for "Bes:88"
 Warning--I didn't find a database entry for "Tarpanov:14"
 Warning--I didn't find a database entry for "Rees:00"
@@ -290,10 +342,8 @@ Warning--I didn't find a database entry for "Ginzburg:04"
 Warning--I didn't find a database entry for "Brown:07"
 Warning--I didn't find a database entry for "Machleidt:96"
 Warning--I didn't find a database entry for "Thompson:13"
-Warning--I didn't find a database entry for "Flynn:72"
 Warning--I didn't find a database entry for "Lanford:73"
 Warning--I didn't find a database entry for "Clark:06"
-Warning--I didn't find a database entry for "Barranco:87a"
 Warning--I didn't find a database entry for "Vaquero:13"
 Warning--I didn't find a database entry for "Broglia:02d"
 Warning--I didn't find a database entry for "Saperstein:12"
@@ -326,17 +376,6 @@ Warning--I didn't find a database entry for "Broglia:19b"
 Warning--I didn't find a database entry for "Bachelet:08"
 Warning--I didn't find a database entry for "Smith:08"
 Warning--I didn't find a database entry for "Iwasaki:00"
-Warning--I didn't find a database entry for "Rosner:17"
-Warning--I didn't find a database entry for "Israelachvili:85"
-Warning--I didn't find a database entry for "Debye:20"
-Warning--I didn't find a database entry for "Debye:21"
-Warning--I didn't find a database entry for "London:30"
-Warning--I didn't find a database entry for "Pauling:63"
-Warning--I didn't find a database entry for "Born:69"
-Warning--I didn't find a database entry for "Huang:05"
-Warning--I didn't find a database entry for "Rost:97"
-Warning--I didn't find a database entry for "Branden:91"
-Warning--I didn't find a database entry for "Nambu:91"
 Warning--I didn't find a database entry for "Perenboom:81"
 Warning--I didn't find a database entry for "Anderson:59"
 Warning--I didn't find a database entry for "Kubo:62"
@@ -348,6 +387,16 @@ Warning--I didn't find a database entry for "Stephens:72"
 Warning--I didn't find a database entry for "Johnson:72"
 Warning--I didn't find a database entry for "Broglia:86"
 Warning--I didn't find a database entry for "Tsuboi:77"
+Warning--I didn't find a database entry for "Rosner:17"
+Warning--I didn't find a database entry for "Israelachvili:85"
+Warning--I didn't find a database entry for "Debye:20"
+Warning--I didn't find a database entry for "Debye:21"
+Warning--I didn't find a database entry for "London:30"
+Warning--I didn't find a database entry for "Pauling:63"
+Warning--I didn't find a database entry for "Born:69"
+Warning--I didn't find a database entry for "Huang:05"
+Warning--I didn't find a database entry for "Rost:97"
+Warning--I didn't find a database entry for "Branden:91"
 Warning--I didn't find a database entry for "Pinkston:82"
 Warning--I didn't find a database entry for "Rogalla:12"
 Warning--I didn't find a database entry for "Johansen:13"
@@ -368,6 +417,7 @@ Warning--I didn't find a database entry for "Matsuo:13"
 Warning--I didn't find a database entry for "Fortune:94"
 Warning--I didn't find a database entry for "Schmitt:13"
 Warning--I didn't find a database entry for "Bassani:65"
+Warning--I didn't find a database entry for "Bechara:75"
 Warning--I didn't find a database entry for "LeTourneaux:65"
 Warning--I didn't find a database entry for "Annett:13"
 Warning--I didn't find a database entry for "Sargsyan:13"
@@ -380,7 +430,6 @@ Warning--I didn't find a database entry for "Gorkov:59"
 Warning--I didn't find a database entry for "Anderson:58b"
 Warning--I didn't find a database entry for "Bohr:88"
 Warning--I didn't find a database entry for "Ambegaokar:63"
-Warning--I didn't find a database entry for "Bohr:39"
 Warning--I didn't find a database entry for "Moller:95"
 Warning--I didn't find a database entry for "Gori:04"
 Warning--I didn't find a database entry for "Young:71"
@@ -417,8 +466,6 @@ Warning--I didn't find a database entry for "Broglia:04b"
 Warning--I didn't find a database entry for "Cooper:11"
 Warning--I didn't find a database entry for "Weinberg:11"
 Warning--I didn't find a database entry for "Stent:80"
-Warning--I didn't find a database entry for "Bardeen:55"
-Warning--I didn't find a database entry for "Frohlich:52"
 Warning--I didn't find a database entry for "Broglia:87"
 Warning--I didn't find a database entry for "Hamamoto:07"
 Warning--I didn't find a database entry for "Tobocman:61"
@@ -429,10 +476,12 @@ Warning--I didn't find a database entry for "Hamamoto:70"
 Warning--I didn't find a database entry for "Dickhoff:04"
 Warning--I didn't find a database entry for "Brink:68"
 Warning--I didn't find a database entry for "Edmonds:60"
+Warning--I didn't find a database entry for "Wiringa:84"
 Warning--I didn't find a database entry for "Potel:12b"
+Warning--I didn't find a database entry for "Dickey:82"
+Warning--I didn't find a database entry for "Thompson:88"
 Warning--I didn't find a database entry for "Idini:13"
 Warning--I didn't find a database entry for "Rawitscher:87"
-Warning--I didn't find a database entry for "Thompson:88"
 Warning--I didn't find a database entry for "Tamura:70"
 Warning--I didn't find a database entry for "Ascuitto:69"
 Warning--I didn't find a database entry for "Ascuitto:70"
@@ -455,10 +504,8 @@ Warning--I didn't find a database entry for "Heisenberg:27"
 Warning--I didn't find a database entry for "Born:25a"
 Warning--I didn't find a database entry for "Born:25b"
 Warning--I didn't find a database entry for "Schrodinger:25"
-Warning--I didn't find a database entry for "Dirac:26"
 Warning--I didn't find a database entry for "Pauli:25"
 Warning--I didn't find a database entry for "Glauber:69"
-Warning--I didn't find a database entry for "Glauber:07"
 Warning--I didn't find a database entry for "Moshinsky:59"
 Warning--I didn't find a database entry for "Fortier:99"
 Warning--I didn't find a database entry for "Winfield:01"
@@ -483,8 +530,8 @@ Warning--I didn't find a database entry for "Lay:14"
 Warning--I didn't find a database entry for "deDiego:14"
 Warning--I didn't find a database entry for "Han:06"
 Warning--I didn't find a database entry for "Koning:03"
-Warning--I didn't find a database entry for "VanderWaerden:67"
 Warning--I didn't find a database entry for "Holstein:89"
+Warning--I didn't find a database entry for "VanderWaerden:67"
 Warning--I didn't find a database entry for "Born:64"
 Warning--I didn't find a database entry for "Magierski:17"
 Warning--I didn't find a database entry for "Born:26b"
@@ -514,7 +561,10 @@ Warning--I didn't find a database entry for "Avogadro:07"
 Warning--I didn't find a database entry for "Avogadro:08"
 Warning--I didn't find a database entry for "Boersma:96"
 Warning--I didn't find a database entry for "Casimir:48"
-Warning--I didn't find a database entry for "Mich"
+Warning--I didn't find a database entry for "Micheletti:04"
+Warning--I didn't find a database entry for "Micheletti:01"
+Warning--I didn't find a database entry for "Micheletti:02"
+Warning--I didn't find a database entry for "Hamacher:10"
 Warning--I didn't find a database entry for "Greiner:98"
 Warning--I didn't find a database entry for "Ball:03"
 Warning--I didn't find a database entry for "Chandler:02"
@@ -527,7 +577,7 @@ Warning--I didn't find a database entry for "Watson:80"
 Warning--I didn't find a database entry for "Sanger:52"
 You've used 0 entries,
             2773 wiz_defined-function locations,
-            1495 strings with 13504 characters,
+            1570 strings with 14221 characters,
 and the built_in function-call counts, 33 in all, are:
 = -- 0
 > -- 0
@@ -566,4 +616,4 @@ warning$ -- 0
 while$ -- 0
 width$ -- 0
 write$ -- 7
-(There were 17 error messages)
+(There were 20 error messages)

@@ -1,9 +1,14 @@
-\begin{thebibliography}{28}
+\begin{thebibliography}{49}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \expandafter\ifx\csname urlstyle\endcsname\relax
   \providecommand{\doi}[1]{doi: #1}\else
   \providecommand{\doi}{doi: \begingroup \urlstyle{rm}\Url}\fi
+
+\bibitem[Anderson and Thouless(1962)]{Anderson:62}
+P.~Anderson and D.~Thouless.
+\newblock Diffuseness of the nuclear surface.
+\newblock \emph{Physics Letters}, 1\penalty0 (5):\penalty0 155 -- 157, 1962.
 
 \bibitem[Bardeen et~al.(1957{\natexlab{a}})Bardeen, Cooper, and
   Schrieffer]{Bardeen:57a}
@@ -65,6 +70,25 @@ M.~Born.
 \newblock {Zur Quantenmechanik der Sto\ss{}vorg\"{a}nge}.
 \newblock \emph{Zeitschr. f. Phys.}, 37:\penalty0 863, 1926.
 
+\bibitem[Bortignon and Broglia(2016)]{Bortignon:16}
+P.~Bortignon and R.~Broglia.
+\newblock Elastic response of the atomic nucleus in gauge space: Giant pairing
+  vibrations.
+\newblock \emph{The European Physical Journal A}, 52\penalty0 (9):\penalty0
+  280, 2016.
+
+\bibitem[Bortignon and Broglia(1981)]{Bortignon:81}
+P.~F. Bortignon and R.~A. Broglia.
+\newblock Role of the nuclear surface in an unified description of the damping
+  of single--particle states and giant resonances.
+\newblock \emph{{Nucl. Phys. A}}, 371:\penalty0 405, 1981.
+
+\bibitem[{Bortignon, P. F.} et~al.(1998){Bortignon, P. F.}, Bracco, and
+  Broglia]{Bortignon:98}
+{Bortignon, P. F.}, A.~Bracco, and R.~A. Broglia.
+\newblock \emph{Giant Resonances}.
+\newblock Harwood Academic Publishers, Amsterdam, 1998.
+
 \bibitem[{Brink, D.} and Broglia(2005)]{Brink:05}
 {Brink, D.} and R.~A. Broglia.
 \newblock \emph{Nuclear Superfluidity}.
@@ -79,6 +103,11 @@ R.~A. Broglia and D.~R. Bes.
 R.~A. Broglia and A.~Winther.
 \newblock \emph{Heavy Ion Reactions}.
 \newblock Westview Press, Boulder, CO., 2004.
+
+\bibitem[Brown and Jacob(1963)]{Brown:63}
+G.~Brown and G.~Jacob.
+\newblock Zero-point vibrations and the nuclear surface.
+\newblock \emph{Nuclear Physics}, 42:\penalty0 177 -- 182, 1963.
 
 \bibitem[Cappuzzello et~al.(2015)Cappuzzello, Carbone, Cavallaro, {Bond\'i},
   Agodi, Azaiez, Bonaccorso, Cunsolo, Fortunato, Foti, Franchoo, Khan, Linares,
@@ -100,15 +129,47 @@ W.~Elsasser.
 \newblock {Sur le principe de Pauli dans les noyaux}.
 \newblock \emph{J. Phys. Radium}, 4:\penalty0 549, 1933.
 
+\bibitem[Esbensen and Bertsch(1983)]{Esbensen:83}
+H.~Esbensen and G.~F. Bertsch.
+\newblock Nuclear surface fluctuations: Charge density.
+\newblock \emph{Phys. Rev. C}, 28:\penalty0 355, 1983.
+
+\bibitem[{Flynn, E. R.} et~al.(1972){Flynn, E. R.}, Igo, and Broglia]{Flynn:72}
+{Flynn, E. R.}, G.~J. Igo, and R.~A. Broglia.
+\newblock {Three--phonon monopole and qudrupole pairing vibrational states in
+  $^{206}$Pb}.
+\newblock \emph{Phys. Lett. B}, 41:\penalty0 397, 1972.
+
 \bibitem[Glauber(2007)]{Glauber:07}
 R.~J. Glauber.
 \newblock \emph{Quantum theory of optical coherence}.
 \newblock Wiley, Weinheim, 2007.
 
+\bibitem[Gogny(1978)]{Gogny:78}
+D.~Gogny.
+\newblock Lecture notes in physics, vol. 108.
+\newblock In H.~Arenh{\"o}vd and D.~Drechsel, editors, \emph{Nuclear Physics
+  with Electromagnetic Interactions, p.88}, page~55, Heidelberg, 1978. Springer
+  Verlag.
+
 \bibitem[Haxel et~al.(1949)Haxel, Jensen, and Suess]{Haxel:49}
 O.~Haxel, J.~H.~D. Jensen, and H.~E. Suess.
 \newblock On the {``Magic Numbers''} in nuclear structure.
 \newblock \emph{Phys. Rev.}, 75:\penalty0 1766, 1949.
+
+\bibitem[Khodel et~al.(1982)Khodel, Platonov, and Saperstein]{Khodel:82}
+V.~A. Khodel, A.~P. Platonov, and E.~E. Saperstein.
+\newblock On the40ca-48ca isotope shift.
+\newblock \emph{Journal of Physics G: Nuclear Physics}, 8\penalty0
+  (7):\penalty0 967--973, jul 1982.
+
+\bibitem[Litvinova and Wibowo(2018)]{Litvinova:18}
+E.~Litvinova and H.~Wibowo.
+\newblock Finite-temperature relativistic nuclear field theory: An application
+  to the dipole response.
+\newblock \emph{Phys. Rev. Lett.}, 121:\penalty0 082501, Aug 2018.
+\newblock \doi{10.1103/PhysRevLett.121.082501}.
+\newblock URL \url{https://link.aps.org/doi/10.1103/PhysRevLett.121.082501}.
 
 \bibitem[Mayer and Jensen(1955)]{Mayer:55}
 M.~Mayer and J.~Jensen.
@@ -140,19 +201,91 @@ L.~Meitner and O.~R. Frisch.
 \newblock Products of the fission of the uranium nucleus.
 \newblock \emph{Nature}, 143:\penalty0 239, 1939.
 
+\bibitem[Mitra et~al.(2018)Mitra, Kraft, Wright, Acland, Snyder, Rosenthal,
+  Czerniewski, Bauer, Snyder, Culver, et~al.]{Mitra:18}
+A.~Mitra, A.~Kraft, P.~Wright, B.~Acland, A.~Z. Snyder, Z.~Rosenthal,
+  L.~Czerniewski, A.~Bauer, L.~Snyder, J.~Culver, et~al.
+\newblock Spontaneous infra-slow brain activity has unique spatiotemporal
+  dynamics and laminar structure.
+\newblock \emph{Neuron}, 98:\penalty0 297, 2018.
+
+\bibitem[Nambu(1960)]{Nambu:60}
+Y.~Nambu.
+\newblock Quasi--particles and gauge invariance in the theory of
+  superconductivity.
+\newblock \emph{Physical Review}, 117:\penalty0 648, 1960.
+
+\bibitem[Nathan and Nilsson(1965)]{Nathan:65}
+O.~Nathan and S.~G. Nilsson.
+\newblock Collective nuclear motion and the unified model.
+\newblock In K.~Siegbahn, editor, \emph{{Alpha- Beta- and Gamma-Ray
+  Spectroscopy, Vol 1}}, page 601, Amsterdam, 1965. North Holland Publishing
+  Company.
+
 \bibitem[Nilsson(1955)]{Nilsson:55}
 S.~G. Nilsson.
 \newblock Binding states of individual nucleons in strongly deformed nuclei.
 \newblock \emph{Mat. Fys. Medd. Dan. Vid. Selsk.}, 29, 1955.
+
+\bibitem[Nolan and Twin(1988)]{Nolan:88}
+P.~J. Nolan and P.~J. Twin.
+\newblock Superdeformed shapes at high angular momentum.
+\newblock \emph{Annual Review of Nuclear and Particle Science}, 38:\penalty0
+  533, 1988.
 
 \bibitem[Pais(1986)]{Pais:86}
 A.~Pais.
 \newblock \emph{Inward bound}.
 \newblock Oxford University Press, Oxford, 1986.
 
+\bibitem[{Potel, G.} et~al.(2013){Potel, G.}, Idini, Barranco, Vigezzi, and
+  Broglia]{Potel:13b}
+{Potel, G.}, A.~Idini, F.~Barranco, E.~Vigezzi, and R.~A. Broglia.
+\newblock {Quantitative study of coherent pairing modes with two--neutron
+  transfer: Sn isotopes}.
+\newblock \emph{{Phys. Rev. C}}, 87:\penalty0 054321, 2013.
+
+\bibitem[Reinhard and Drechsel(1979)]{Reinhard:79}
+P.~G. Reinhard and D.~Drechsel.
+\newblock Ground state correlations and the nuclear charge distribution.
+\newblock \emph{Zeitschrift f{\"u}r Physik A Atoms and Nuclei}, 290\penalty0
+  (1):\penalty0 85--91, Mar 1979.
+
+\bibitem[Rowe(1970)]{Rowe:70}
+D.~J. Rowe.
+\newblock \emph{Nuclear Collective Motion. Models and Theory}.
+\newblock Methuen {\&} Co., London, 1970.
+
+\bibitem[{Schiffer, J. P.} et~al.(2012){Schiffer, J. P.}, Hoffman, Kay, Clark,
+  Deibel, Freeman, Howard, Mitchell, Parker, Sharp, and Thomas]{Schiffer:12}
+{Schiffer, J. P.}, C.~R. Hoffman, B.~P. Kay, J.~A. Clark, C.~M. Deibel, S.~J.
+  Freeman, A.~M. Howard, A.~J. Mitchell, P.~D. Parker, D.~K. Sharp, and J.~S.
+  Thomas.
+\newblock Test of sum rules in nucleon transfer reactions.
+\newblock \emph{Phys. Rev. Lett.}, 108:\penalty0 022501, 2012.
+
+\bibitem[{Schr\"odinger, E.}(1926)]{Schrodinger:26}
+{Schr\"odinger, E.}
+\newblock \emph{Naturw.}, 14:\penalty0 644, 1926.
+
+\bibitem[Ward(1950)]{Ward:50}
+J.~C. Ward.
+\newblock An identity in quantum electrodynamics.
+\newblock \emph{Phys. Rev.}, 78:\penalty0 182--182, Apr 1950.
+\newblock \doi{10.1103/PhysRev.78.182}.
+\newblock URL \url{https://link.aps.org/doi/10.1103/PhysRev.78.182}.
+
 \bibitem[{Weizs\"{a}cker}(1935)]{Weizsacker:35}
 C.~F. {Weizs\"{a}cker}.
 \newblock Zur theorie der kernmassen.
 \newblock \emph{Z. Phys.}, 96:\penalty0 431, 1935.
+
+\bibitem[Wibowo and Litvinova(2019)]{Wibowo:19}
+H.~Wibowo and E.~Litvinova.
+\newblock Nuclear dipole response in the finite-temperature relativistic
+  time-blocking approximation.
+\newblock \emph{Phys. Rev. C}, 100:\penalty0 024307, Aug 2019.
+\newblock \doi{10.1103/PhysRevC.100.024307}.
+\newblock URL \url{https://link.aps.org/doi/10.1103/PhysRevC.100.024307}.
 
 \end{thebibliography}

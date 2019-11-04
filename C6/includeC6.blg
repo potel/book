@@ -1,77 +1,139 @@
-This is BibTeX, Version 0.99d (TeX Live 2015/Debian)
-Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
+This is BibTeX, Version 0.99d (TeX Live 2019/dev/Debian)
+Capacity: max_strings=100000, hash_size=100000, hash_prime=85009
 The top-level auxiliary file: includeC6.aux
 The style file: abbrvnat.bst
 Database file #1: ../nuclear_bib.bib
-"{" immediately follows a field name---line 328 of file ../nuclear_bib.bib
- :   journal = {Physical Review},@article
- :                                       {PhysRev.75.388,
-I'm skipping whatever remains of this entry
-I was expecting a `,' or a `}'---line 594 of file ../nuclear_bib.bib
+I was expecting a `,' or a `}'---line 610 of file ../nuclear_bib.bib
  :   volume = 16
  :              C,
 I'm skipping whatever remains of this entry
-You're missing a field name---line 3010 of file ../nuclear_bib.bib
+"{" immediately follows a field name---line 933 of file ../nuclear_bib.bib
+ :   editor =       {{Morinaga H.}},@article
+ :                                          {LENSKE2001187,
+I'm skipping whatever remains of this entry
+"{" immediately follows a field name---line 976 of file ../nuclear_bib.bib
+ :   year = 1971,@INPROCEEDINGS
+ :                             {Bes:77,
+I'm skipping whatever remains of this entry
+"{" immediately follows a field name---line 1093 of file ../nuclear_bib.bib
+ :   BOOKTITLE =    {Le Prix Nobel en 1973},@article
+ :                                                  {LENSKE2001187,
+I'm skipping whatever remains of this entry
+"{" immediately follows a field name---line 1299 of file ../nuclear_bib.bib
+ :   number =       {1351},@article
+ :                                 {PhysRevC.97.011302,
+I'm skipping whatever remains of this entry
+You're missing a field name---line 3108 of file ../nuclear_bib.bib
  : year = {1973},
  :               ,
 I'm skipping whatever remains of this entry
 Warning--I'm ignoring Pauli:47's extra "year" field
---line 3808 of file ../nuclear_bib.bib
-"{" immediately follows a field name---line 3931 of file ../nuclear_bib.bib
+--line 3920 of file ../nuclear_bib.bib
+"{" immediately follows a field name---line 4043 of file ../nuclear_bib.bib
  : @article{Schmid:66,@article
  :                            {Jenning:11,
 I'm skipping whatever remains of this entry
-Repeated entry---line 4289 of file ../nuclear_bib.bib
+"{" immediately follows a field name---line 4070 of file ../nuclear_bib.bib
+ : year = {2013},@BOOK
+ :                    {Pauli:47,
+I'm skipping whatever remains of this entry
+Repeated entry---line 4408 of file ../nuclear_bib.bib
  : @article{Thompson:88
  :                     ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 4539 of file ../nuclear_bib.bib
+Repeated entry---line 4658 of file ../nuclear_bib.bib
  : @article{Bortignon:83
  :                      ,
 I'm skipping whatever remains of this entry
-I was expecting a `,' or a `}'---line 4831 of file ../nuclear_bib.bib
+I was expecting a `,' or a `}'---line 4950 of file ../nuclear_bib.bib
  :   pages = 210
  :              (R),
 I'm skipping whatever remains of this entry
-You've used 88 entries,
+"{" immediately follows a field name---line 5444 of file ../nuclear_bib.bib
+ : journal = {Phys. Lett. B},@article
+ :                                   {Thompson:04,
+I'm skipping whatever remains of this entry
+Repeated entry---line 6084 of file ../nuclear_bib.bib
+ : @article{Kroll:49
+ :                  ,
+I'm skipping whatever remains of this entry
+"{" immediately follows a field name---line 6533 of file ../nuclear_bib.bib
+ :   year = {2017},@article
+ :                         {PhysRevLett.95.232502,
+I'm skipping whatever remains of this entry
+You're missing a field name---line 7606 of file ../nuclear_bib.bib
+ :  year = {2007},
+ :                ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 7623 of file ../nuclear_bib.bib
+ : @article{Montanari:14
+ :                      ,
+I'm skipping whatever remains of this entry
+Name 1 in "R.A. Broglia, and F. Barranco, and A. Idini, and G. Potel, and E. Vigezzi" has a comma at the end for entry Broglia:19
+while executing---line 1347 of file abbrvnat.bst
+Name 1 in "R.A. Broglia, and F. Barranco, and A. Idini, and G. Potel, and E. Vigezzi" has a comma at the end for entry Broglia:19
+while executing---line 1347 of file abbrvnat.bst
+Name 2 in "R.A. Broglia, and F. Barranco, and A. Idini, and G. Potel, and E. Vigezzi" has a comma at the end for entry Broglia:19
+while executing---line 1347 of file abbrvnat.bst
+Name 3 in "R.A. Broglia, and F. Barranco, and A. Idini, and G. Potel, and E. Vigezzi" has a comma at the end for entry Broglia:19
+while executing---line 1347 of file abbrvnat.bst
+Name 4 in "R.A. Broglia, and F. Barranco, and A. Idini, and G. Potel, and E. Vigezzi" has a comma at the end for entry Broglia:19
+while executing---line 1347 of file abbrvnat.bst
+Name 1 in "R.A. Broglia, and F. Barranco, and A. Idini, and G. Potel, and E. Vigezzi" has a comma at the end for entry Broglia:19
+while executing---line 1429 of file abbrvnat.bst
+Name 2 in "R.A. Broglia, and F. Barranco, and A. Idini, and G. Potel, and E. Vigezzi" has a comma at the end for entry Broglia:19
+while executing---line 1429 of file abbrvnat.bst
+Name 3 in "R.A. Broglia, and F. Barranco, and A. Idini, and G. Potel, and E. Vigezzi" has a comma at the end for entry Broglia:19
+while executing---line 1429 of file abbrvnat.bst
+Name 4 in "R.A. Broglia, and F. Barranco, and A. Idini, and G. Potel, and E. Vigezzi" has a comma at the end for entry Broglia:19
+while executing---line 1429 of file abbrvnat.bst
+Name 1 in "R.A. Broglia, and F. Barranco, and A. Idini, and G. Potel, and E. Vigezzi" has a comma at the end for entry Broglia:19
+while executing---line 1429 of file abbrvnat.bst
+Name 2 in "R.A. Broglia, and F. Barranco, and A. Idini, and G. Potel, and E. Vigezzi" has a comma at the end for entry Broglia:19
+while executing---line 1429 of file abbrvnat.bst
+Name 3 in "R.A. Broglia, and F. Barranco, and A. Idini, and G. Potel, and E. Vigezzi" has a comma at the end for entry Broglia:19
+while executing---line 1429 of file abbrvnat.bst
+Name 4 in "R.A. Broglia, and F. Barranco, and A. Idini, and G. Potel, and E. Vigezzi" has a comma at the end for entry Broglia:19
+while executing---line 1429 of file abbrvnat.bst
+You've used 91 entries,
             2773 wiz_defined-function locations,
-            1156 strings with 18872 characters,
-and the built_in function-call counts, 41649 in all, are:
-= -- 3371
-> -- 3087
+            1177 strings with 19366 characters,
+and the built_in function-call counts, 43241 in all, are:
+= -- 3501
+> -- 3213
 < -- 51
-+ -- 1046
-- -- 956
-* -- 3469
-:= -- 6773
-add.period$ -- 271
-call.type$ -- 88
-change.case$ -- 558
-chr.to.int$ -- 86
-cite$ -- 176
-duplicate$ -- 1825
-empty$ -- 3095
-format.name$ -- 1088
-if$ -- 8512
++ -- 1088
+- -- 995
+* -- 3617
+:= -- 7029
+add.period$ -- 280
+call.type$ -- 91
+change.case$ -- 580
+chr.to.int$ -- 89
+cite$ -- 182
+duplicate$ -- 1888
+empty$ -- 3207
+format.name$ -- 1130
+if$ -- 8835
 int.to.chr$ -- 3
 int.to.str$ -- 1
-missing$ -- 110
-newline$ -- 450
-num.names$ -- 360
-pop$ -- 1122
+missing$ -- 113
+newline$ -- 465
+num.names$ -- 372
+pop$ -- 1160
 preamble$ -- 1
-purify$ -- 492
+purify$ -- 511
 quote$ -- 0
-skip$ -- 1403
+skip$ -- 1452
 stack$ -- 0
-substring$ -- 800
-swap$ -- 106
+substring$ -- 845
+swap$ -- 109
 text.length$ -- 3
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 858
+type$ -- 891
 warning$ -- 0
-while$ -- 330
+while$ -- 342
 width$ -- 0
-write$ -- 1158
-(There were 7 error messages)
+write$ -- 1197
+(There were 29 error messages)

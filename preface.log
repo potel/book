@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2019/dev/Debian) (preloaded format=pdflatex 2019.7.22)  6 AUG 2019 19:41
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2019/dev/Debian) (preloaded format=pdflatex 2019.7.22)  3 SEP 2019 15:23
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -591,116 +591,185 @@ e
 ))
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: End \AtBeginDocument code.
-LaTeX Font Info:    Try loading font information for U+txsya on input line 58.
 
+Chapter 1.
+LaTeX Font Info:    Try loading font information for U+txsya on input line 59.
 (/usr/share/texlive/texmf-dist/tex/latex/txfonts/utxsya.fd
 File: utxsya.fd 2000/12/15 v3.1
 )
-LaTeX Font Info:    Try loading font information for U+txsyb on input line 58.
+LaTeX Font Info:    Try loading font information for U+txsyb on input line 59.
 
 (/usr/share/texlive/texmf-dist/tex/latex/txfonts/utxsyb.fd
 File: utxsyb.fd 2000/12/15 v3.1
 )
-LaTeX Font Info:    Try loading font information for U+lasy on input line 58.
+LaTeX Font Info:    Try loading font information for U+lasy on input line 59.
 
 (/usr/share/texlive/texmf-dist/tex/latex/base/ulasy.fd
 File: ulasy.fd 1998/08/17 v2.2e LaTeX symbol font definitions
 )
-LaTeX Font Info:    Try loading font information for U+txmia on input line 58.
+LaTeX Font Info:    Try loading font information for U+txmia on input line 59.
 
 (/usr/share/texlive/texmf-dist/tex/latex/txfonts/utxmia.fd
 File: utxmia.fd 2000/12/15 v3.1
 )
-LaTeX Font Info:    Try loading font information for U+txsyc on input line 58.
+LaTeX Font Info:    Try loading font information for U+txsyc on input line 59.
 
 (/usr/share/texlive/texmf-dist/tex/latex/txfonts/utxsyc.fd
 File: utxsyc.fd 2000/12/15 v3.1
 )
-LaTeX Font Info:    Try loading font information for U+rsfs on input line 58.
+LaTeX Font Info:    Try loading font information for U+rsfs on input line 59.
 
 (/usr/share/texlive/texmf-dist/tex/latex/jknapltx/ursfs.fd
 File: ursfs.fd 1998/03/24 rsfs font definition file (jk)
-) [1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}
-
-] [2] [3] [4] [5] [6] [7]
-
-LaTeX Warning: Reference `fig1.0.' on page 8 undefined on input line 273.
-
-[8]
-
-LaTeX Warning: Reference `0.1.14' on page 9 undefined on input line 279.
+) [1
 
 
-LaTeX Warning: Reference `0.1.26' on page 9 undefined on input line 279.
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]
+Overfull \hbox (3.00276pt too wide) in paragraph at lines 85--87
+\OT1/txr/m/n/10.95 The last term of (1.1.2[]) is the Coulomb en-ergy cor-re-spo
+nd-ing to a uni-formly charged
+ []
+
+[2] [3]
+<introduccion/figs/figpreface1.pdf, id=21, 579.6315pt x 392.73915pt>
+File: introduccion/figs/figpreface1.pdf Graphic file (type pdf)
+<use introduccion/figs/figpreface1.pdf>
+Package pdftex.def Info: introduccion/figs/figpreface1.pdf  used on input line 
+145.
+(pdftex.def)             Requested size: 569.05511pt x 385.57089pt.
+<introduccion/figs/figpreface2x.pdf, id=23, 758.92206pt x 602.57072pt>
+File: introduccion/figs/figpreface2x.pdf Graphic file (type pdf)
+<use introduccion/figs/figpreface2x.pdf>
+Package pdftex.def Info: introduccion/figs/figpreface2x.pdf  used on input line
+ 152.
+(pdftex.def)             Requested size: 455.24408pt x 361.45328pt.
+<introduccion/figs/figpreface3.pdf, id=25, 431.93062pt x 398.80687pt>
+File: introduccion/figs/figpreface3.pdf Graphic file (type pdf)
+<use introduccion/figs/figpreface3.pdf>
+Package pdftex.def Info: introduccion/figs/figpreface3.pdf  used on input line 
+159.
+(pdftex.def)             Requested size: 341.43306pt x 315.26086pt.
+<introduccion/figs/figpreface4.pdf, id=27, 496.71286pt x 187.13368pt>
+File: introduccion/figs/figpreface4.pdf Graphic file (type pdf)
+<use introduccion/figs/figpreface4.pdf>
+Package pdftex.def Info: introduccion/figs/figpreface4.pdf  used on input line 
+166.
+(pdftex.def)             Requested size: 341.43306pt x 128.63695pt.
+ [4] [5 <./introduccion/figs/figpreface1.pdf>] [6 <./introduccion/figs/figprefa
+ce2x.pdf>] [7 <./introduccion/figs/figpreface3.pdf>] [8 <./introduccion/figs/fi
+gpreface4.pdf>]
+<introduccion/figs/figpreface5.pdf, id=103, 482.37358pt x 333.27628pt>
+File: introduccion/figs/figpreface5.pdf Graphic file (type pdf)
+<use introduccion/figs/figpreface5.pdf>
+Package pdftex.def Info: introduccion/figs/figpreface5.pdf  used on input line 
+236.
+(pdftex.def)             Requested size: 284.52756pt x 196.5906pt.
 
 
-LaTeX Warning: Reference `0.1.27' on page 9 undefined on input line 279.
+LaTeX Warning: Reference `Sect 2.7' on page 9 undefined on input line 244.
+
+[9] [10 <./introduccion/figs/figpreface5.pdf>]
+<introduccion/figs/figpreface6.pdf, id=116, 598.07687pt x 845.61588pt>
+File: introduccion/figs/figpreface6.pdf Graphic file (type pdf)
+<use introduccion/figs/figpreface6.pdf>
+Package pdftex.def Info: introduccion/figs/figpreface6.pdf  used on input line 
+260.
+(pdftex.def)             Requested size: 341.43306pt x 482.75444pt.
+<introduccion/figs/figpreface7.pdf, id=118, 617.43661pt x 390.06148pt>
+File: introduccion/figs/figpreface7.pdf Graphic file (type pdf)
+<use introduccion/figs/figpreface7.pdf>
+Package pdftex.def Info: introduccion/figs/figpreface7.pdf  used on input line 
+267.
+(pdftex.def)             Requested size: 341.43306pt x 215.70699pt.
+<introduccion/figs/figpreface8.pdf, id=120, 404.07358pt x 149.56822pt>
+File: introduccion/figs/figpreface8.pdf Graphic file (type pdf)
+<use introduccion/figs/figpreface8.pdf>
+Package pdftex.def Info: introduccion/figs/figpreface8.pdf  used on input line 
+274.
+(pdftex.def)             Requested size: 341.43306pt x 126.38272pt.
+<introduccion/figs/figpreface9.pdf, id=122, 927.18999pt x 393.66782pt>
+File: introduccion/figs/figpreface9.pdf Graphic file (type pdf)
+<use introduccion/figs/figpreface9.pdf>
+Package pdftex.def Info: introduccion/figs/figpreface9.pdf  used on input line 
+281.
+(pdftex.def)             Requested size: 426.79134pt x 181.20352pt.
+ [11] [12 <./introduccion/figs/figpreface6.pdf>] [13 <./introduccion/figs/figpr
+eface7.pdf> <./introduccion/figs/figpreface8.pdf>] [14 <./introduccion/figs/fig
+preface9.pdf>]
+<introduccion/figs/fig_preface_3_1.pdf, id=218, 463.82356pt x 147.61461pt>
+File: introduccion/figs/fig_preface_3_1.pdf Graphic file (type pdf)
+<use introduccion/figs/fig_preface_3_1.pdf>
+Package pdftex.def Info: introduccion/figs/fig_preface_3_1.pdf  used on input l
+ine 323.
+(pdftex.def)             Requested size: 341.43306pt x 108.66322pt.
+<introduccion/figs/fig0_3_2_v2.pdf, id=220, 620.74991pt x 714.23528pt>
+File: introduccion/figs/fig0_3_2_v2.pdf Graphic file (type pdf)
+<use introduccion/figs/fig0_3_2_v2.pdf>
+Package pdftex.def Info: introduccion/figs/fig0_3_2_v2.pdf  used on input line 
+330.
+(pdftex.def)             Requested size: 512.1496pt x 589.32767pt.
 
 
-LaTeX Warning: Reference `0.1.29' on page 9 undefined on input line 279.
+LaTeX Warning: Float too large for page by 17.1274pt on input line 333.
 
-[9] [10]
+[15] [16 <./introduccion/figs/fig_preface_3_1.pdf>] [17 <./introduccion/figs/fi
+g0_3_2_v2.pdf>]
+Overfull \hbox (2.70064pt too wide) in paragraph at lines 361--362
+[]\OT1/txr/m/n/10.95 Similar to the quadrupole and oc-tupole vi-bra-tional band
+s built out of $\OML/txmi/m/it/10.95 n[]$ \OT1/txr/m/n/10.95 phonons
+ []
 
-LaTeX Warning: Reference `fff' on page 11 undefined on input line 328.
-
-
-Overfull \hbox (1.778pt too wide) in paragraph at lines 333--335
+<introduccion/figs/fig0_4_4.pdf, id=259, 525.37038pt x 534.74751pt>
+File: introduccion/figs/fig0_4_4.pdf Graphic file (type pdf)
+<use introduccion/figs/fig0_4_4.pdf>
+Package pdftex.def Info: introduccion/figs/fig0_4_4.pdf  used on input line 370
+.
+(pdftex.def)             Requested size: 227.62204pt x 231.68309pt.
+<introduccion/figs/fig0_4_2_v2.pdf, id=261, 564.42558pt x 667.56096pt>
+File: introduccion/figs/fig0_4_2_v2.pdf Graphic file (type pdf)
+<use introduccion/figs/fig0_4_2_v2.pdf>
+Package pdftex.def Info: introduccion/figs/fig0_4_2_v2.pdf  used on input line 
+377.
+(pdftex.def)             Requested size: 341.43306pt x 403.82979pt.
+<introduccion/figs/fig0_4_3_v2.pdf, id=263, 576.79755pt x 632.82713pt>
+File: introduccion/figs/fig0_4_3_v2.pdf Graphic file (type pdf)
+<use introduccion/figs/fig0_4_3_v2.pdf>
+Package pdftex.def Info: introduccion/figs/fig0_4_3_v2.pdf  used on input line 
+384.
+(pdftex.def)             Requested size: 341.43306pt x 374.60077pt.
+<introduccion/figs/fig0_4_4_v2.pdf, id=265, 637.99046pt x 444.6958pt>
+File: introduccion/figs/fig0_4_4_v2.pdf Graphic file (type pdf)
+<use introduccion/figs/fig0_4_4_v2.pdf>
+Package pdftex.def Info: introduccion/figs/fig0_4_4_v2.pdf  used on input line 
+391.
+(pdftex.def)             Requested size: 426.79134pt x 297.49pt.
+[18] [19 <./introduccion/figs/fig0_4_4.pdf>] [20 <./introduccion/figs/fig0_4_2_
+v2.pdf>] [21 <./introduccion/figs/fig0_4_3_v2.pdf>] [22 <./introduccion/figs/fi
+g0_4_4_v2.pdf>]
+<introduccion/figs/fig0_4_5_v2.pdf, id=334, 546.38994pt x 372.58089pt>
+File: introduccion/figs/fig0_4_5_v2.pdf Graphic file (type pdf)
+<use introduccion/figs/fig0_4_5_v2.pdf>
+Package pdftex.def Info: introduccion/figs/fig0_4_5_v2.pdf  used on input line 
+445.
+(pdftex.def)             Requested size: 341.43306pt x 232.82268pt.
+ [23] [24 <./introduccion/figs/fig0_4_5_v2.pdf>]
+Overfull \hbox (1.778pt too wide) in paragraph at lines 454--456
 \OT1/txr/m/n/10.95 Because there is no restor-ing force as-so-ci-ated with dif-
 fer-ent ori-en-ta-tions of $\OMS/txsy/m/n/10.95 j[]i[]$\OT1/txr/m/n/10.95 ,
  []
 
 
-LaTeX Warning: Reference `0.4.2' on page 11 undefined on input line 345.
+Overfull \hbox (8.5135pt too wide) in paragraph at lines 466--467
+\OT1/txr/m/n/10.95 Let us now turn to the pair-ing Hamil-to-nian. In the case i
+n which [],
+ []
 
-[11] [12] [13]
+[25] [26] [27] [28] [29] [30] [31]
 
-LaTeX Warning: Reference `fig0.4.3' on page 14 undefined on input line 446.
+LaTeX Warning: Reference `C6' on page 32 undefined on input line 705.
 
-[14]
-
-LaTeX Warning: Reference `eq0.1.39' on page 15 undefined on input line 484.
-
-
-LaTeX Warning: Reference `fig0.4.4' on page 15 undefined on input line 490.
-
-[15] [16]
-
-LaTeX Warning: Reference `eq0.1.10' on page 17 undefined on input line 551.
-
-[17]
-
-LaTeX Warning: Reference `fig0.4.5' on page 18 undefined on input line 571.
-
-
-LaTeX Warning: Reference `C6' on page 18 undefined on input line 575.
-
-[18]
-
-LaTeX Warning: Reference `fig0.1.3' on page 19 undefined on input line 582.
-
-
-LaTeX Warning: Reference `0.1.2' on page 19 undefined on input line 582.
-
-[19]
-
-LaTeX Warning: Reference `0.3.1' on page 20 undefined on input line 596.
-
-
-LaTeX Warning: Reference `eq0.6.2' on page 20 undefined on input line 616.
-
-[20]
-
-LaTeX Warning: Reference `eq0.6.3' on page 21 undefined on input line 620.
-
-
-LaTeX Warning: Reference `0.6.6' on page 21 undefined on input line 620.
-
-
-Package natbib Warning: Citation `Bortignon:16' on page 21 undefined on input l
-ine 625.
-
-
-Overfull \hbox (3.72626pt too wide) in paragraph at lines 630--632
+[32] [33] [34]
+Overfull \hbox (3.72626pt too wide) in paragraph at lines 763--765
 \OT1/txr/m/n/10.95 Let us as-sume that $[] = [][] \OML/txmi/m/it/10.95 F\OT1/tx
 r/m/n/10.95 (\OT1/txr/bx/n/10.95 r[]\OT1/txr/m/n/10.95 )$ and $\OML/txmi/m/it/1
 0.95 H \OT1/txr/m/n/10.95 = \OML/txmi/m/it/10.95 T \OT1/txr/m/n/10.95 + \OML/tx
@@ -712,163 +781,111 @@ OT1/txr/m/n/10.95 (\OT1/txr/bx/n/10.95 r\OT1/txr/m/n/10.95 )[](\OT1/txr/bx/n/10
 .95 r[]\OT1/txr/m/n/10.95 )$.
  []
 
+[35] [36] [37]
+<introduccion/figs/fig0_8_1.pdf, id=400, 658.00371pt x 357.21884pt>
+File: introduccion/figs/fig0_8_1.pdf Graphic file (type pdf)
+<use introduccion/figs/fig0_8_1.pdf>
+Package pdftex.def Info: introduccion/figs/fig0_8_1.pdf  used on input line 818
+.
+(pdftex.def)             Requested size: 426.79134pt x 231.69347pt.
+<introduccion/figs/fig0_8_2.pdf, id=402, 1131.2934pt x 941.58464pt>
+File: introduccion/figs/fig0_8_2.pdf Graphic file (type pdf)
+<use introduccion/figs/fig0_8_2.pdf>
+Package pdftex.def Info: introduccion/figs/fig0_8_2.pdf  used on input line 825
+.
+(pdftex.def)             Requested size: 284.52756pt x 236.80359pt.
+<introduccion/figs/fig0_5_3.pdf, id=404, 188.70967pt x 149.25613pt>
+File: introduccion/figs/fig0_5_3.pdf Graphic file (type pdf)
+<use introduccion/figs/fig0_5_3.pdf>
+Package pdftex.def Info: introduccion/figs/fig0_5_3.pdf  used on input line 832
+.
+(pdftex.def)             Requested size: 227.62204pt x 180.03793pt.
+ [38] [39 <./introduccion/figs/fig0_8_1.pdf>] [40 <./introduccion/figs/fig0_8_2
+.pdf>] [41 <./introduccion/figs/fig0_5_3.pdf>] (./preface.bbl
+[42] [43
 
-LaTeX Warning: Reference `0.1.105' on page 21 undefined on input line 639.
-
-
-LaTeX Warning: Reference `0.1.105' on page 21 undefined on input line 639.
-
-[21]
-
-Package natbib Warning: Citation `t' on page 22 undefined on input line 653.
-
-
-LaTeX Warning: Reference `0.1.8' on page 22 undefined on input line 661.
-
-
-LaTeX Warning: Reference `0.1.110' on page 22 undefined on input line 661.
-
-
-Package natbib Warning: Citation `Schrodinger:26' on page 22 undefined on input
- line 661.
-
-
-LaTeX Warning: Reference `eq0.1.18' on page 22 undefined on input line 661.
-
-
-LaTeX Warning: Reference `fig0.2.3' on page 22 undefined on input line 661.
-
-[22]
-
-LaTeX Warning: Reference `fig0.1.6' on page 23 undefined on input line 673.
-
-
-LaTeX Warning: Reference `fig0.5.1' on page 23 undefined on input line 677.
-
-
-LaTeX Warning: Reference `fig0.1.17' on page 23 undefined on input line 677.
+]
+LaTeX Font Info:    Try loading font information for OT1+txtt on input line 172
+.
+ (/usr/share/texlive/texmf-dist/tex/latex/txfonts/ot1txtt.fd
+File: ot1txtt.fd 2000/12/15 v3.1
+)
+Underfull \hbox (badness 1365) in paragraph at lines 167--173
+[]\OT1/txr/m/n/10.95 E. Litvi-nova and H. Wi-bowo.  Finite-temperature rel-a-ti
+vis-tic nu-clear field
+ []
 
 
-LaTeX Warning: Reference `fig0.2.5' on page 23 undefined on input line 677.
+Underfull \hbox (badness 1320) in paragraph at lines 167--173
+\OT1/txr/m/n/10.95 the-ory: An ap-pli-ca-tion to the dipole re-sponse.  \OT1/tx
+r/m/it/10.95 Phys. Rev. Lett.\OT1/txr/m/n/10.95 , 121:
+ []
 
 
-LaTeX Warning: Reference `fig0.5.1' on page 23 undefined on input line 677.
+Underfull \hbox (badness 4441) in paragraph at lines 167--173
+\OT1/txr/m/n/10.95 082501, Aug 2018.  doi: 10.1103/Phys-RevLett.121.082501.  UR
+L
+ []
+
+[44] [45]
+Underfull \hbox (badness 4205) in paragraph at lines 272--277
+[]\OT1/txr/m/n/10.95 J. C. Ward.  An iden-tity in quan-tum elec-tro-dy-nam-ics.
+  \OT1/txr/m/it/10.95 Phys. Rev.\OT1/txr/m/n/10.95 ,
+ []
 
 
-LaTeX Warning: Reference `0.1.23' on page 23 undefined on input line 677.
-
-[23]
-
-LaTeX Warning: Reference `fig0.5.1' on page 24 undefined on input line 680.
+Underfull \hbox (badness 10000) in paragraph at lines 272--277
+\OT1/txr/m/n/10.95 78:182--182, Apr 1950.  doi: 10.1103/Phys-Rev.78.182.  URL
+ []
 
 
-LaTeX Warning: Reference `fig0.1.7' on page 24 undefined on input line 688.
+Underfull \hbox (badness 3460) in paragraph at lines 284--290
+[]\OT1/txr/m/n/10.95 H. Wi-bowo and E. Litvi-nova.  Nu-clear dipole re-sponse i
+n the finite-
+ []
 
 
-LaTeX Warning: Reference `fig0.5.2' on page 24 undefined on input line 690.
-
-[24]
-
-Package natbib Warning: Citation `Brown:63' on page 25 undefined on input line 
-694.
+Underfull \hbox (badness 6032) in paragraph at lines 284--290
+\OT1/txr/m/n/10.95 temperature rel-a-tivis-tic time-blocking ap-prox-i-ma-tion.
+  \OT1/txr/m/it/10.95 Phys. Rev. C\OT1/txr/m/n/10.95 ,
+ []
 
 
-LaTeX Warning: Reference `fig0.5.3' on page 25 undefined on input line 697.
+Underfull \hbox (badness 2753) in paragraph at lines 284--290
+\OT1/txr/m/n/10.95 100:024307, Aug 2019.  doi: 10.1103/Phys-RevC.100.024307.  U
+RL
+ []
 
-<introduccion/figs/figpreface1.pdf, id=89, 579.6315pt x 392.73915pt>
-File: introduccion/figs/figpreface1.pdf Graphic file (type pdf)
-<use introduccion/figs/figpreface1.pdf>
-Package pdftex.def Info: introduccion/figs/figpreface1.pdf  used on input line 
-706.
-(pdftex.def)             Requested size: 341.43306pt x 231.34253pt.
-<introduccion/figs/figpreface2x.pdf, id=91, 758.92206pt x 602.57072pt>
-File: introduccion/figs/figpreface2x.pdf Graphic file (type pdf)
-<use introduccion/figs/figpreface2x.pdf>
-Package pdftex.def Info: introduccion/figs/figpreface2x.pdf  used on input line
- 713.
-(pdftex.def)             Requested size: 341.43306pt x 271.08997pt.
-<introduccion/figs/figpreface3.pdf, id=93, 460.11899pt x 424.78702pt>
-File: introduccion/figs/figpreface3.pdf Graphic file (type pdf)
-<use introduccion/figs/figpreface3.pdf>
-Package pdftex.def Info: introduccion/figs/figpreface3.pdf  used on input line 
-720.
-(pdftex.def)             Requested size: 341.43306pt x 315.22546pt.
-<introduccion/figs/figpreface4.pdf, id=95, 496.71286pt x 187.13368pt>
-File: introduccion/figs/figpreface4.pdf Graphic file (type pdf)
-<use introduccion/figs/figpreface4.pdf>
-Package pdftex.def Info: introduccion/figs/figpreface4.pdf  used on input line 
-727.
-(pdftex.def)             Requested size: 341.43306pt x 128.63695pt.
-<introduccion/figs/figpreface5.pdf, id=97, 482.37358pt x 333.27628pt>
-File: introduccion/figs/figpreface5.pdf Graphic file (type pdf)
-<use introduccion/figs/figpreface5.pdf>
-Package pdftex.def Info: introduccion/figs/figpreface5.pdf  used on input line 
-734.
-(pdftex.def)             Requested size: 284.52756pt x 196.5906pt.
-<introduccion/figs/figpreface6.pdf, id=99, 597.50786pt x 845.04686pt>
-File: introduccion/figs/figpreface6.pdf Graphic file (type pdf)
-<use introduccion/figs/figpreface6.pdf>
-Package pdftex.def Info: introduccion/figs/figpreface6.pdf  used on input line 
-741.
-(pdftex.def)             Requested size: 341.43306pt x 482.88089pt.
-<introduccion/figs/figpreface7.pdf, id=101, 617.43661pt x 390.06148pt>
-File: introduccion/figs/figpreface7.pdf Graphic file (type pdf)
-<use introduccion/figs/figpreface7.pdf>
-Package pdftex.def Info: introduccion/figs/figpreface7.pdf  used on input line 
-748.
-(pdftex.def)             Requested size: 341.43306pt x 215.70699pt.
-<introduccion/figs/figpreface8.pdf, id=103, 404.07358pt x 149.56822pt>
-File: introduccion/figs/figpreface8.pdf Graphic file (type pdf)
-<use introduccion/figs/figpreface8.pdf>
-Package pdftex.def Info: introduccion/figs/figpreface8.pdf  used on input line 
-755.
-(pdftex.def)             Requested size: 341.43306pt x 126.38272pt.
-<introduccion/figs/figpreface9.pdf, id=105, 532.32819pt x 418.31802pt>
-File: introduccion/figs/figpreface9.pdf Graphic file (type pdf)
-<use introduccion/figs/figpreface9.pdf>
-Package pdftex.def Info: introduccion/figs/figpreface9.pdf  used on input line 
-762.
-(pdftex.def)             Requested size: 341.43306pt x 268.30986pt.
-(./preface.bbl [25] [26 <./introduccion/figs/figpreface1.pdf>] [27 <./introducc
-ion/figs/figpreface2x.pdf>] [28 <./introduccion/figs/figpreface3.pdf>] [29 <./i
-ntroduccion/figs/figpreface4.pdf> <./introduccion/figs/figpreface5.pdf>]
-[30 <./introduccion/figs/figpreface6.pdf>] [31 <./introduccion/figs/figpreface7
-.pdf> <./introduccion/figs/figpreface8.pdf>] [32 <./introduccion/figs/figprefac
-e9.pdf>] [33
-
-])
-
-Package natbib Warning: There were undefined citations.
-
-[34] (./preface.aux)
+) [46] (./preface.aux)
 
 LaTeX Warning: There were undefined references.
 
  ) 
 Here is how much of TeX's memory you used:
- 5676 strings out of 492615
- 81612 string characters out of 6131390
- 146693 words of memory out of 5000000
- 9416 multiletter control sequences out of 15000+600000
- 50805 words of font info for 123 fonts, out of 8000000 for 9000
+ 5811 strings out of 492615
+ 84993 string characters out of 6131390
+ 154697 words of memory out of 5000000
+ 9535 multiletter control sequences out of 15000+600000
+ 53598 words of font info for 128 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 41i,13n,43p,2889b,305s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 41i,13n,43p,2921b,340s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/share/texmf/
-fonts/type1/public/tex-gyre/qtmr.pfb></usr/share/texmf/fonts/type1/public/tex-g
-yre/qtmri.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/txfonts/rtxmi.p
-fb></usr/share/texlive/texmf-dist/fonts/type1/public/txfonts/rtxr.pfb></usr/sha
-re/texlive/texmf-dist/fonts/type1/public/txfonts/txex.pfb></usr/share/texlive/t
-exmf-dist/fonts/type1/public/txfonts/txsy.pfb></usr/share/texlive/texmf-dist/fo
-nts/type1/public/txfonts/txsya.pfb></usr/share/texlive/texmf-dist/fonts/type1/p
-ublic/txfonts/txsyb.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/txfon
-ts/txsyc.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></
-usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/share/texli
-ve/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/share/texlive/texmf-dist/f
-onts/type1/urw/times/utmri8a.pfb>
-Output written on preface.pdf (34 pages, 4809769 bytes).
+fonts/type1/public/tex-gyre/qhvr.pfb></usr/share/texmf/fonts/type1/public/tex-g
+yre/qtmr.pfb></usr/share/texmf/fonts/type1/public/tex-gyre/qtmri.pfb></usr/shar
+e/texlive/texmf-dist/fonts/type1/public/txfonts/rtxmi.pfb></usr/share/texlive/t
+exmf-dist/fonts/type1/public/txfonts/rtxr.pfb></usr/share/texlive/texmf-dist/fo
+nts/type1/public/txfonts/txex.pfb></usr/share/texlive/texmf-dist/fonts/type1/pu
+blic/txfonts/txsy.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/txfonts
+/txsya.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/txfonts/txsyb.pfb>
+</usr/share/texlive/texmf-dist/fonts/type1/public/txfonts/txsyc.pfb></usr/share
+/texlive/texmf-dist/fonts/type1/public/txfonts/txtt.pfb></usr/share/texlive/tex
+mf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/share/texlive/texmf-dist/fonts/t
+ype1/urw/times/utmr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/
+utmr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
+Output written on preface.pdf (46 pages, 5617489 bytes).
 PDF statistics:
- 272 PDF objects out of 1000 (max. 8388607)
- 182 compressed objects within 2 object streams
+ 524 PDF objects out of 1000 (max. 8388607)
+ 345 compressed objects within 4 object streams
  0 named destinations out of 1000 (max. 500000)
- 100 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 210 words of extra memory for PDF output out of 10000 (max. 10000000)
 

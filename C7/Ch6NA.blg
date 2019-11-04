@@ -1,0 +1,106 @@
+This is BibTeX, Version 0.99d (TeX Live 2019/dev/Debian)
+Capacity: max_strings=100000, hash_size=100000, hash_prime=85009
+The top-level auxiliary file: Ch6NA.aux
+The style file: abbrvnat.bst
+Database file #1: ../nuclear_bib.bib
+I was expecting a `,' or a `}'---line 610 of file ../nuclear_bib.bib
+ :   volume = 16
+ :              C,
+I'm skipping whatever remains of this entry
+"{" immediately follows a field name---line 933 of file ../nuclear_bib.bib
+ :   editor =       {{Morinaga H.}},@article
+ :                                          {LENSKE2001187,
+I'm skipping whatever remains of this entry
+"{" immediately follows a field name---line 976 of file ../nuclear_bib.bib
+ :   year = 1971,@INPROCEEDINGS
+ :                             {Bes:77,
+I'm skipping whatever remains of this entry
+"{" immediately follows a field name---line 1093 of file ../nuclear_bib.bib
+ :   BOOKTITLE =    {Le Prix Nobel en 1973},@article
+ :                                                  {LENSKE2001187,
+I'm skipping whatever remains of this entry
+"{" immediately follows a field name---line 1299 of file ../nuclear_bib.bib
+ :   number =       {1351},@article
+ :                                 {PhysRevC.97.011302,
+I'm skipping whatever remains of this entry
+"{" immediately follows a field name---line 1789 of file ../nuclear_bib.bib
+ :   YEAR =         {1979},@article
+ :                                 {PhysRevLett.121.082501,
+I'm skipping whatever remains of this entry
+You're missing a field name---line 3122 of file ../nuclear_bib.bib
+ : year = {1973},
+ :               ,
+I'm skipping whatever remains of this entry
+"{" immediately follows a field name---line 4057 of file ../nuclear_bib.bib
+ : @article{Schmid:66,@article
+ :                            {Jenning:11,
+I'm skipping whatever remains of this entry
+"{" immediately follows a field name---line 4084 of file ../nuclear_bib.bib
+ : year = {2013},@BOOK
+ :                    {Pauli:47,
+I'm skipping whatever remains of this entry
+I was expecting a `,' or a `}'---line 4964 of file ../nuclear_bib.bib
+ :   pages = 210
+ :              (R),
+I'm skipping whatever remains of this entry
+"{" immediately follows a field name---line 5458 of file ../nuclear_bib.bib
+ : journal = {Phys. Lett. B},@article
+ :                                   {Thompson:04,
+I'm skipping whatever remains of this entry
+"{" immediately follows a field name---line 6552 of file ../nuclear_bib.bib
+ :   year = {2017},@article
+ :                         {PhysRevLett.95.232502,
+I'm skipping whatever remains of this entry
+You're missing a field name---line 7627 of file ../nuclear_bib.bib
+ :  year = {2007},
+ :                ,
+I'm skipping whatever remains of this entry
+"{" immediately follows a field name---line 7883 of file ../nuclear_bib.bib
+ :  issue = {2},@article
+ :                      {PhysRev.78.182,
+I'm skipping whatever remains of this entry
+Warning--empty title in Bayman:71
+Warning--empty journal in Bayman:71
+Warning--empty title in Glauber:69
+You've used 26 entries,
+            2773 wiz_defined-function locations,
+            776 strings with 7591 characters,
+and the built_in function-call counts, 9749 in all, are:
+= -- 841
+> -- 434
+< -- 25
++ -- 154
+- -- 128
+* -- 670
+:= -- 1554
+add.period$ -- 79
+call.type$ -- 26
+change.case$ -- 113
+chr.to.int$ -- 26
+cite$ -- 55
+duplicate$ -- 538
+empty$ -- 914
+format.name$ -- 170
+if$ -- 2051
+int.to.chr$ -- 1
+int.to.str$ -- 1
+missing$ -- 31
+newline$ -- 137
+num.names$ -- 108
+pop$ -- 238
+preamble$ -- 1
+purify$ -- 94
+quote$ -- 0
+skip$ -- 374
+stack$ -- 0
+substring$ -- 240
+swap$ -- 35
+text.length$ -- 2
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 261
+warning$ -- 3
+while$ -- 100
+width$ -- 0
+write$ -- 345
+(There were 14 error messages)

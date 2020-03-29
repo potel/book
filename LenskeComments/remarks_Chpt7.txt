@@ -1,0 +1,29 @@
+Chpt. 7:
+i like very much the applications to the halo systems. That aspect is worth to be put into the foreground in the introductory 
+paragraph instead of the "software" issue (sse below). On the other hand, a brief introduction of the standard codes for numerical simulations of
+nuclear structure and reaCtion problems and where to find them would be of great help for the reader.
+
+- To me, the title looks like a fragment. Wouldn't it be better to choose a title "Structure Studies with Transfer Reactions" or 
+"Transfer Reactions as Nuclear Structure Probes" or "Probing Nuclear Structure by Transfer Reactions"?
+- The message of the very first sentence is unclear: What do you "with the help of software"? To me, one way of understanding is that you're 
+  going to introduce computer codes (and make them available to the reader). However, a look into sect. 7.C shows that you are "only" giving a 
+  conceptual description of a numerical scheme. Also, what means "see App. 7.C cooper, one"?
+- Anyway, I'd use "computer codes", rather than the unspecific word "software".
+- p.491, first line in sect. 7.1, misaligned 
+- Fig. 7.1.2 is washed put, needs "sharpening"
+- Fig. 7.1.3 exceeds the page layout. If reduced the text (configurations) in the two lower boxes might be hardyl readable
+- Tabs. 7.1.1 and 7.4.2 are misaligned
+- The titles of sects. 7.1.1 and 7.1.2 are looking a bit lost: "Structure" of what? "REaction" for what?
+- p. 496, 2nd line, misaligned
+- p. 496: "little convergent" means probably "weakly convergent"?
+- Fig. 7.3.1: too busy, too small characters of the boxed-in text
+- p. 512: the tile of sect. 7.5.1 deserves some explanation in the text. As it stands, reader will not understand the various mysterious 
+  notations and how they are connected. Also mysteriously, that notation reappears as title in sect 7.6.
+- first sentence of sect. 7.5.1: "phase space" might be misleadng, "configuration space" seems to be more appropriate. Many eaders 
+  porbably connect "phase space" with the kinematical on-shell phase space of a reaction. The P- and Q-space concept and the related dressing 
+  by induced interactions could be a better approach.
+- p. 513: as I wrote before, "clothing" -> "dressing" might be the better choice, connecting more easily to the literature
+- Eq.(7.6.1): indicate the coordinates also on the RHS of the equation
+- App. 7.G: I like those "cross-disciplinary" discussions but I'm afraid that the un-introduced reader will be in dispair "What to the hell that has to 
+  d0 with the rest of the book". A better motivation would help, indicating the generality of the phenomena.    
+

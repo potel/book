@@ -1,4 +1,4 @@
-\begin{thebibliography}{54}
+\begin{thebibliography}{66}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \expandafter\ifx\csname urlstyle\endcsname\relax
@@ -9,6 +9,16 @@
 P.~Anderson and D.~Thouless.
 \newblock Diffuseness of the nuclear surface.
 \newblock \emph{Physics Letters}, 1\penalty0 (5):\penalty0 155 -- 157, 1962.
+
+\bibitem[Anderson(1972)]{Anderson:72}
+P.~W. Anderson.
+\newblock More is different.
+\newblock \emph{Science}, 177:\penalty0 393, 1972.
+
+\bibitem[Anderson(1984)]{Anderson:84b}
+P.~W. Anderson.
+\newblock \emph{{Basic Notions of Condensed Matter}}.
+\newblock Addison--Wesley, Reading, Mass, 1984.
 
 \bibitem[Bardeen et~al.(1957{\natexlab{a}})Bardeen, Cooper, and
   Schrieffer]{Bardeen:57a}
@@ -70,6 +80,16 @@ M.~Born.
 \newblock {Zur Quantenmechanik der Sto\ss{}vorg\"{a}nge}.
 \newblock \emph{Zeitschr. f. Phys.}, 37:\penalty0 863, 1926.
 
+\bibitem[Born and Jordan(1925)]{Born:25a}
+M.~Born and P.~Jordan.
+\newblock Zur quantenmechanik.
+\newblock \emph{{Zeitschr. Phys.}}, 34:\penalty0 858, 1925.
+
+\bibitem[Born et~al.(1926)Born, Jordan, and Heisenberg]{Born:25b}
+M.~Born, P.~Jordan, and W.~Heisenberg.
+\newblock {Zur Quantenmechanik II}.
+\newblock \emph{{Zeitschr. Phys.}}, 35:\penalty0 557, 1926.
+
 \bibitem[Bortignon and Broglia(2016)]{Bortignon:16}
 P.~Bortignon and R.~Broglia.
 \newblock Elastic response of the atomic nucleus in gauge space: Giant pairing
@@ -104,6 +124,14 @@ R.~A. Broglia and A.~Winther.
 \newblock \emph{Heavy Ion Reactions}.
 \newblock Westview Press, Boulder, CO., 2004.
 
+\bibitem[Broglia et~al.(2016)Broglia, Bortignon, Barranco, Vigezzi, Idini, and
+  Potel]{Broglia:16}
+R.~A. Broglia, P.~F. Bortignon, F.~Barranco, E.~Vigezzi, A.~Idini, and
+  G.~Potel.
+\newblock {Unified description of structure and reactions: implementing the
+  Nuclear Field Theory program}.
+\newblock \emph{Phys. Scr.}, 91:\penalty0 063012, 2016.
+
 \bibitem[Brown and Jacob(1963)]{Brown:63}
 G.~Brown and G.~Jacob.
 \newblock Zero-point vibrations and the nuclear surface.
@@ -124,12 +152,10 @@ P.~A.~M. Dirac.
 \newblock \emph{The principles of quantum mechanics}.
 \newblock Oxford University Press, London, 1930.
 
-\bibitem[Dussel et~al.(2009)Dussel, Betan, Liotta, and Vertse]{Dussel:09}
+\bibitem[Dussel et~al.()Dussel, Betan, Liotta, and Vertse]{Dussel:09}
 G.~G. Dussel, R.~I. Betan, R.~J. Liotta, and T.~Vertse.
 \newblock Collective excitations in the continuum.
-\newblock \emph{Phys. Rev. C}, 80:\penalty0 064311, Dec 2009.
-\newblock \doi{10.1103/PhysRevC.80.064311}.
-\newblock URL \url{https://link.aps.org/doi/10.1103/PhysRevC.80.064311}.
+\newblock \emph{Phys. Rev. C}, 80:\penalty0 064311.
 
 \bibitem[Elsasser(1933)]{Elsasser:33}
 W.~Elsasser.
@@ -140,12 +166,6 @@ W.~Elsasser.
 H.~Esbensen and G.~F. Bertsch.
 \newblock Nuclear surface fluctuations: Charge density.
 \newblock \emph{Phys. Rev. C}, 28:\penalty0 355, 1983.
-
-\bibitem[{Flynn, E. R.} et~al.(1972){Flynn, E. R.}, Igo, and Broglia]{Flynn:72}
-{Flynn, E. R.}, G.~J. Igo, and R.~A. Broglia.
-\newblock {Three--phonon monopole and qudrupole pairing vibrational states in
-  $^{206}$Pb}.
-\newblock \emph{Phys. Lett. B}, 41:\penalty0 397, 1972.
 
 \bibitem[Glauber(2007)]{Glauber:07}
 R.~J. Glauber.
@@ -164,6 +184,18 @@ O.~Haxel, J.~H.~D. Jensen, and H.~E. Suess.
 \newblock On the {``Magic Numbers''} in nuclear structure.
 \newblock \emph{Phys. Rev.}, 75:\penalty0 1766, 1949.
 
+\bibitem[Heisenberg(1925)]{Heisenberg:25}
+W.~Heisenberg.
+\newblock {\"{U}ber} quantentheoretische umdeutung kinematischer und
+  mechanischer beziehungen.
+\newblock \emph{{Z. Phys.}}, 33:\penalty0 879, 1925.
+
+\bibitem[Heisenberg(1927)]{Heisenberg:27}
+W.~Heisenberg.
+\newblock {\"{U}ber} der anschlaulichen inhalt der quantentheoretischen
+  kinematik und mechanik.
+\newblock \emph{{Z. Phys.}}, 43:\penalty0 172, 1927.
+
 \bibitem[Id~Betan et~al.(2002)Id~Betan, Liotta, Sandulescu, and
   Vertse]{Betan:02}
 R.~Id~Betan, R.~J. Liotta, N.~Sandulescu, and T.~Vertse.
@@ -171,6 +203,14 @@ R.~Id~Betan, R.~J. Liotta, N.~Sandulescu, and T.~Vertse.
 \newblock \emph{Phys. Rev. Lett.}, 89:\penalty0 042501, Jul 2002.
 \newblock \doi{10.1103/PhysRevLett.89.042501}.
 \newblock URL \url{https://link.aps.org/doi/10.1103/PhysRevLett.89.042501}.
+
+\bibitem[Idini et~al.(2015)Idini, Potel, Barranco, Vigezzi, and
+  Broglia]{Idini:15}
+A.~Idini, G.~Potel, F.~Barranco, E.~Vigezzi, and R.~A. Broglia.
+\newblock Interweaving of elementary modes of excitation in superfluid nuclei
+  through particle-vibration coupling: Quantitative account of the variety of
+  nuclear structure observables.
+\newblock \emph{Phys. Rev. C}, 92:\penalty0 031304, 2015.
 
 \bibitem[Khan et~al.(2004)Khan, Sandulescu, Giai, and Grasso]{Khan:04}
 E.~Khan, N.~Sandulescu, N.~V. Giai, and M.~Grasso.
@@ -196,6 +236,12 @@ E.~Litvinova and H.~Wibowo.
 \newblock \emph{Phys. Rev. Lett.}, 121:\penalty0 082501, Aug 2018.
 \newblock \doi{10.1103/PhysRevLett.121.082501}.
 \newblock URL \url{https://link.aps.org/doi/10.1103/PhysRevLett.121.082501}.
+
+\bibitem[{Mahaux, C.} et~al.(1985){Mahaux, C.}, Bortignon, Broglia, and
+  Dasso]{Mahaux:85}
+{Mahaux, C.}, P.~F. Bortignon, R.~A. Broglia, and C.~H. Dasso.
+\newblock Dynamics of the shell model.
+\newblock \emph{Physics Reports}, 120:\penalty0 1--274, 1985.
 
 \bibitem[Mayer and Jensen(1955)]{Mayer:55}
 M.~Mayer and J.~Jensen.
@@ -274,6 +320,11 @@ A.~Pais.
 \newblock \emph{Inward bound}.
 \newblock Oxford University Press, Oxford, 1986.
 
+\bibitem[Pauli(1925)]{Pauli:25}
+W.~Pauli.
+\newblock Zur quantenmechanik ii.
+\newblock \emph{{Zeitschr. Phys.}}, 31:\penalty0 625, 1925.
+
 \bibitem[{Potel, G.} et~al.(2013){Potel, G.}, Idini, Barranco, Vigezzi, and
   Broglia]{Potel:13b}
 {Potel, G.}, A.~Idini, F.~Barranco, E.~Vigezzi, and R.~A. Broglia.
@@ -304,12 +355,27 @@ D.~J. Rowe.
 {Schr\"odinger, E.}
 \newblock \emph{Naturw.}, 14:\penalty0 644, 1926.
 
+\bibitem[Schweber(1994)]{Schweber:94}
+S.~Schweber.
+\newblock \emph{QED}.
+\newblock Princeton University Press, Princeton, New Jersey, 1994.
+
+\bibitem[Schwinger(2001)]{Schwinger:01}
+J.~Schwinger.
+\newblock \emph{Quantum Mechanics}.
+\newblock Springer, Heidelberg, 2001.
+
 \bibitem[Ward(1950)]{Ward:50}
 J.~C. Ward.
 \newblock An identity in quantum electrodynamics.
 \newblock \emph{Phys. Rev.}, 78:\penalty0 182--182, Apr 1950.
 \newblock \doi{10.1103/PhysRev.78.182}.
 \newblock URL \url{https://link.aps.org/doi/10.1103/PhysRev.78.182}.
+
+\bibitem[Weinberg(1996)]{Weinberg:96}
+S.~Weinberg.
+\newblock \emph{The Quantum Theory of Fields}, volume~1.
+\newblock Cambridge University Press, Cambridge, 1996.
 
 \bibitem[{Weizs\"{a}cker}(1935)]{Weizsacker:35}
 C.~F. {Weizs\"{a}cker}.

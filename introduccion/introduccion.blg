@@ -1,8 +1,12 @@
-This is BibTeX, Version 0.99d (TeX Live 2019/dev/Debian)
+This is BibTeX, Version 0.99d (TeX Live 2019/Debian)
 Capacity: max_strings=100000, hash_size=100000, hash_prime=85009
 The top-level auxiliary file: introduccion.aux
 The style file: abbrvnat.bst
 Database file #1: ../nuclear_bib.bib
+I was expecting a `,' or a `}'---line 298 of file ../nuclear_bib.bib
+ :   pages = 251
+ :              note
+I'm skipping whatever remains of this entry
 I was expecting a `,' or a `}'---line 610 of file ../nuclear_bib.bib
  :   volume = 16
  :              C,
@@ -23,59 +27,68 @@ I'm skipping whatever remains of this entry
  :   number =       {1351},@article
  :                                 {PhysRevC.97.011302,
 I'm skipping whatever remains of this entry
+I was expecting an "="---line 1335 of file ../nuclear_bib.bib
+ : 
+ : pages = "685",
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
 "{" immediately follows a field name---line 1789 of file ../nuclear_bib.bib
  :   YEAR =         {1979},@article
  :                                 {PhysRevLett.121.082501,
 I'm skipping whatever remains of this entry
-Repeated entry---line 2554 of file ../nuclear_bib.bib
+Repeated entry---line 2560 of file ../nuclear_bib.bib
  : @article{Zinser:95
  :                   ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 2901 of file ../nuclear_bib.bib
+Repeated entry---line 2907 of file ../nuclear_bib.bib
  : @book{Mayer:55
  :               ,
 I'm skipping whatever remains of this entry
-You're missing a field name---line 3122 of file ../nuclear_bib.bib
+You're missing a field name---line 3128 of file ../nuclear_bib.bib
  : year = {1973},
  :               ,
 I'm skipping whatever remains of this entry
-"{" immediately follows a field name---line 4057 of file ../nuclear_bib.bib
+"{" immediately follows a field name---line 4072 of file ../nuclear_bib.bib
  : @article{Schmid:66,@article
  :                            {Jenning:11,
 I'm skipping whatever remains of this entry
-"{" immediately follows a field name---line 4084 of file ../nuclear_bib.bib
+"{" immediately follows a field name---line 4099 of file ../nuclear_bib.bib
  : year = {2013},@BOOK
  :                    {Pauli:47,
 I'm skipping whatever remains of this entry
-Repeated entry---line 4765 of file ../nuclear_bib.bib
+Repeated entry---line 4780 of file ../nuclear_bib.bib
  : @article{Sackett:93
  :                    ,
 I'm skipping whatever remains of this entry
-I was expecting a `,' or a `}'---line 4964 of file ../nuclear_bib.bib
+I was expecting a `,' or a `}'---line 4979 of file ../nuclear_bib.bib
  :   pages = 210
  :              (R),
 I'm skipping whatever remains of this entry
-"{" immediately follows a field name---line 5458 of file ../nuclear_bib.bib
+"{" immediately follows a field name---line 5473 of file ../nuclear_bib.bib
  : journal = {Phys. Lett. B},@article
  :                                   {Thompson:04,
 I'm skipping whatever remains of this entry
-Repeated entry---line 6103 of file ../nuclear_bib.bib
+Repeated entry---line 6118 of file ../nuclear_bib.bib
  : @article{Kroll:49
  :                  ,
 I'm skipping whatever remains of this entry
-"{" immediately follows a field name---line 6552 of file ../nuclear_bib.bib
+"{" immediately follows a field name---line 6567 of file ../nuclear_bib.bib
  :   year = {2017},@article
  :                         {PhysRevLett.95.232502,
 I'm skipping whatever remains of this entry
-You're missing a field name---line 7627 of file ../nuclear_bib.bib
+You're missing a field name---line 7651 of file ../nuclear_bib.bib
  :  year = {2007},
  :                ,
 I'm skipping whatever remains of this entry
-"{" immediately follows a field name---line 7883 of file ../nuclear_bib.bib
+"{" immediately follows a field name---line 7912 of file ../nuclear_bib.bib
  :  issue = {2},@article
  :                      {PhysRev.78.182,
 I'm skipping whatever remains of this entry
-Warning--I didn't find a database entry for "Barranco:17b"
+I was expecting an "="---line 8011 of file ../nuclear_bib.bib
+ :  
+ :  numpages = {8},
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
 Name 1 in "R. A. Broglia, and P. F. Bortignon, and F. Barranco, and E. Vigezzi, and A. Idini, and G. Potel" has a comma at the end for entry Broglia:16
 while executing---line 1347 of file abbrvnat.bst
 Name 1 in "R. A. Broglia, and P. F. Bortignon, and F. Barranco, and E. Vigezzi, and A. Idini, and G. Potel" has a comma at the end for entry Broglia:16
@@ -90,6 +103,7 @@ Name 5 in "R. A. Broglia, and P. F. Bortignon, and F. Barranco, and E. Vigezzi, 
 while executing---line 1347 of file abbrvnat.bst
 Name 3 in "{Bjerregaard, J. H.} and Hansen, O. and Nathan, and Hinds, S." has a comma at the end for entry Bjerregaard:66b
 while executing---line 1347 of file abbrvnat.bst
+Warning--to sort, need author or key in Yoshida:62
 Name 1 in "{Broglia, R.A.}, and C. Riedel and B. {S\o{}rensen}" has a comma at the end for entry Broglia:68
 while executing---line 1347 of file abbrvnat.bst
 Name 1 in "{Broglia, R.A.}, and C. Riedel and B. {S\o{}rensen}" has a comma at the end for entry Broglia:68
@@ -112,6 +126,9 @@ Name 2 in "G. Col\`{o}, and N. Van Giai, and P. F. Bortignon, and M. R. Quaglia"
 while executing---line 1347 of file abbrvnat.bst
 Name 3 in "G. Col\`{o}, and N. Van Giai, and P. F. Bortignon, and M. R. Quaglia" has a comma at the end for entry Colo:00
 while executing---line 1347 of file abbrvnat.bst
+Warning--empty author in Yoshida:62
+Warning--empty year in Yoshida:62
+Warning--empty year in Yoshida:62
 Name 1 in "R. A. Broglia, and R. A. Ricci, and C. H. Dasso" has a comma at the end for entry Bernard:81
 while executing---line 1429 of file abbrvnat.bst
 Name 2 in "R. A. Broglia, and R. A. Ricci, and C. H. Dasso" has a comma at the end for entry Bernard:81
@@ -174,45 +191,45 @@ Name 3 in "G. Col\`{o}, and N. Van Giai, and P. F. Bortignon, and M. R. Quaglia"
 while executing---line 1429 of file abbrvnat.bst
 Warning--can't use both author and editor fields in Gorkov:12
 Warning--empty chapter and pages in Gorkov:12
-You've used 123 entries,
+You've used 124 entries,
             2773 wiz_defined-function locations,
-            1354 strings with 24661 characters,
-and the built_in function-call counts, 61038 in all, are:
-= -- 4884
-> -- 4770
-< -- 79
-+ -- 1622
-- -- 1493
-* -- 5150
-:= -- 9962
-add.period$ -- 381
-call.type$ -- 123
-change.case$ -- 831
-chr.to.int$ -- 117
-cite$ -- 248
-duplicate$ -- 2576
-empty$ -- 4356
-format.name$ -- 1668
-if$ -- 12431
+            1354 strings with 24931 characters,
+and the built_in function-call counts, 61458 in all, are:
+= -- 4919
+> -- 4799
+< -- 78
++ -- 1632
+- -- 1502
+* -- 5198
+:= -- 10013
+add.period$ -- 383
+call.type$ -- 124
+change.case$ -- 837
+chr.to.int$ -- 118
+cite$ -- 255
+duplicate$ -- 2596
+empty$ -- 4390
+format.name$ -- 1677
+if$ -- 12520
 int.to.chr$ -- 7
 int.to.str$ -- 1
-missing$ -- 154
-newline$ -- 626
+missing$ -- 155
+newline$ -- 630
 num.names$ -- 506
-pop$ -- 1692
+pop$ -- 1709
 preamble$ -- 1
-purify$ -- 739
+purify$ -- 744
 quote$ -- 0
-skip$ -- 2015
+skip$ -- 2029
 stack$ -- 0
-substring$ -- 1135
-swap$ -- 179
+substring$ -- 1138
+swap$ -- 180
 text.length$ -- 8
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 1198
-warning$ -- 2
+type$ -- 1209
+warning$ -- 6
 while$ -- 462
 width$ -- 0
-write$ -- 1622
-(There were 66 error messages)
+write$ -- 1632
+(There were 69 error messages)

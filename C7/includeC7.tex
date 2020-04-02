@@ -31,12 +31,13 @@ where
 \begin{equation}\label{eq7_1_2}
 [\phi^{A+2}_{l_i,j_i}(\mathbf r_{A1},\sigma_1,\mathbf r_{A2},\sigma_2)]^0_0=\sum_{nm}a_{nm}\left[\varphi^{A+2}_{n,l_i,j_i}(\mathbf r_{A1},\sigma_1)\varphi^{A+2}_{m,l_i,j_i}(\mathbf r_{A2},\sigma_2)\right]^0_0,
 \end{equation} 
-while the wavefunctions $\varphi^{A+2}_{n,l_i,j_i}(\mathbf r)$ are eigenfunctions of a Saxon--Woods potential
-\begin{equation}\label{Eq17}
-U(r)=-\frac{V_0}
-{1+\exp\left[\frac{r-R_0}{a}\right]},\quad\quad R_0=r_0 A^{1/3},
-\end{equation}
-of depth $V_0$  adjusted to reproduce the experimental single--particles energies, together with a standard spin--orbit potential.
+while the wavefunctions $\varphi^{A+2}_{n,l_i,j_i}(\mathbf r)$ are single-particle wavefunctions
+%eigenfunctions of a Saxon--Woods potential
+%\begin{equation}\label{Eq17}
+%U(r)=-\frac{V_0}
+%{1+\exp\left[\frac{r-R_0}{a}\right]},\quad\quad R_0=r_0 A^{1/3},
+%\end{equation}
+%of depth $V_0$  adjusted to reproduce the experimental single--particles energies, together with a standard spin--orbit potential.
  The radial dependence of the  wavefunction of the two neutrons in the triton is written as $\phi_t(\mathbf r_{p1},\mathbf r_{p2})=\rho(r_{p1})\rho(r_{p2})\rho(r_{12})$, where $r_{p1},r_{p2},r_{12}$ are the distances between neutron 1 and the proton, neutron 2 and the proton and between neutrons 1 and 2 respectively, while $\rho(r)$ is the hard core $(r_{core}=0.45$ fm) potential  wavefunction  depicted in Fig \ref{fig7_1_1}.
  
 \begin{figure}
@@ -117,7 +118,7 @@ G(\mathbf{r}_{dF},\mathbf{r}_{dF}')=i\sum_{l}\sqrt{2l+1}
 \end{equation}
 The $f_{l}(k_{dF},r)$ and $g_l(k_{dF},r)$ are the regular and the irregular solutions of a Schr\"{o}dinger equation for  a suitable optical potential and an energy equal to the kinetic energy of the intermediate state. In most cases of interest, the result is hardly altered if we use the same energy of  relative motion for all the intermediate states. This representative energy is calculated when both intermediate nuclei are in their corresponding ground states. It is of notice that the validity of this approximation can break down in some particular cases. If, for example, some relevant intermediate state become off shell, its contribution is significantly quenched. An interesting situation can arise when this happens to all possible intermediate states, so they can only be virtually populated.
 \section{Detailed derivation of second order DWBA}\label{C7S2}
-\subsection{Simultaneous transfer: distorted waves}
+\subsection{Simultaneous transfer: distorted waves}\label{Sect6.2.1}
 For a $(t,p)$ reaction, the triton is represented by an incoming distorted wave. We make the assumption that the two neutrons are in an $S=L=0$ state, and that the relative motion of the proton with respect to the dineutron is also $l=0$. Consequently, the total spin of the triton   is entirely due to the spin of the proton. We will explicitly treat it, as we will consider a spin--orbit term in the optical potential acting between the triton and the target\footnote{In what follows we will use the notation of \cite{Bayman:71}, see also  App. \ref{C7AppO}.}.
 
 
@@ -1309,7 +1310,7 @@ Consequently,
 \end{split}
 \end{equation}
 Consequently, in the case in which $l_c+l+l_i+l_f$ is odd, we have only  to evaluate the $M=0$ contribution. This consideration is useful to restrict the number of numerical operations needed to calculate the transition amplitude.
-\subsection{non--orthogonality term}
+\subsection{non--orthogonality term}\label{S6.2.9}
 We write the non--orthogonality contribution to the transition amplitude (see \cite{Bayman:82}):
 \begin{equation}\label{129}
  \begin{split}
@@ -2401,7 +2402,7 @@ With this phase convention, the relation with the associated Legendre polynomial
 \begin{equation}\label{eq120}
 Y_m^l(\theta,\phi)=i^l \sqrt{\frac{2l+1}{4\pi}\frac{(l-m)!}{(l+m)!}}P_l^m(\cos \theta)e^{im\phi}.
 \end{equation}
-\subsection{addition theorem}
+\subsection{Addition theorem}
 The addition theorem for the spherical harmonics states that
 \begin{equation}\label{eq129}
 P_l(\cos \theta_{12})=\frac{4\pi}{2l+1}\sum_m Y_m^l(\mathbf{r}_1)Y_m^{l*}(\mathbf{r}_2),
@@ -2414,7 +2415,7 @@ With \emph{Condon--Shortley phases},
 \begin{equation}\label{eq131}
 P_l(\cos \theta_{12})=(-1)^l\frac{4\pi}{\sqrt{2l+1}}\left[ Y^{l}(\hat {\mathbf{r}}_1)Y^{l}(\hat {\mathbf{r}}_2) \right]^{0}_{0}.
 \end{equation}
-\subsection{expansion of the delta function}
+\subsection{Expansion of the delta function}
 The Dirac delta function can be expanded in multipoles, yielding
 \begin{equation}\label{eq132}
 \begin{split}
@@ -2426,7 +2427,7 @@ This result is independent of the phase convention. With \emph{time--reversed ph
 \begin{equation}\label{eq133}
 \delta(\mathbf{r}_2-\mathbf{r}_1)=\sum_l \delta(r_1-r_2)\frac{\sqrt{2l+1}}{r_{1}^2}\left[ Y^{l}(\hat {\mathbf{r}}_1)Y^{l}(\hat {\mathbf{r}}_2) \right]^{0}_{0}.
 \end{equation}
-\subsection{coupling and complex conjugation}
+\subsection{Coupling and complex conjugation}
 If $\Psi^{I_1*}_{M_1}=(-1)^{I_1-M_1}\Psi^{I_1}_{-M_1}$ and $\Phi^{I_2*}_{M_2}=(-1)^{I_2-M_2}\Phi^{I_2}_{-M_2}$, as it happens to be the case for spherical harmonics with time-reversed phases, then
 
 \begin{equation}\label{eq9}
@@ -2462,7 +2463,7 @@ This trick enable us to write
 \end{equation}
 which can be derived in a similar way as (\ref{eq9}).
 
-\subsection{angular momenta coupling}
+\subsection{Angular momenta coupling}
 Relation between Clebsh--Gordan and $3j$ coefficients:
 \begin{equation}\label{eq204}
 \langle j_1\; j_2 \; m_1\;m_2 | J M\rangle=(-1)^{j_1-j_2+M}\sqrt{2J+1}\begin{pmatrix}
@@ -2481,7 +2482,7 @@ Relation between Wigner and $9j$ coefficients:
 \end{Bmatrix}.
 \end{split}
 \end{equation}
-\subsection{integrals}
+\subsection{Integrals}
 Let us now prove
 \begin{equation}\label{eq14}
 \int d\Omega \left[ Y^{l}(\hat r)Y^{l}(\hat r) \right]^{I}_{M}=\delta_{M,0}\delta_{I,0}\sqrt{2l+1}.
@@ -2525,7 +2526,7 @@ Let us now prove
 \end{split}
 \end{equation}
 
-\subsection{symmetry properties}
+\subsection{Symmetry properties}
 Note also another useful property
 \begin{equation}
 \left[ \Psi^{I_1}\Psi^{I_2}\right]^{I}_M=(-1)^{I_1+I_2-I}\left[ \Psi^{I_2}\Psi^{I_1}\right]^{I}_M,

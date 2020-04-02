@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2019/dev/Debian) (preloaded format=pdflatex 2019.7.22)  2 AUG 2019 17:55
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2020.2.9)  29 MAR 2020 13:22
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -428,9 +428,8 @@ Package upgreek Info: Using Euler Roman for upright Greek on input line 31.
 \symugrf@m=\mathgroup12
 LaTeX Font Info:    Overwriting symbol font `ugrf@m' in version `bold'
 (Font)                  U/eur/m/n --> U/eur/b/n on input line 38.
-)
-(/usr/share/texlive/texmf-dist/tex/latex/natbib/natbib.sty
-Package: natbib 2010/09/13 8.31b (PWD, AO)
+) (./natbib.sty
+Package: natbib 2009/02/02 8.3 (PWD, AO)
 \bibhang=\skip46
 \bibsep=\skip47
 LaTeX Info: Redefining \cite on input line 694.
@@ -697,16 +696,16 @@ Overfull \hbox (57.45598pt too wide) in paragraph at lines 172--179
 [][] 
  []
 
-[3] (./miscellaneous.aux)
+[3] [4] (./miscellaneous.aux)
 
 LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 5316 strings out of 492615
- 76117 string characters out of 6131390
- 138382 words of memory out of 5000000
- 9088 multiletter control sequences out of 15000+600000
+ 5312 strings out of 492609
+ 75924 string characters out of 6131463
+ 138645 words of memory out of 5000000
+ 9093 multiletter control sequences out of 15000+600000
  27363 words of font info for 72 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  41i,13n,38p,280b,212s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -719,10 +718,10 @@ fb></usr/share/texlive/texmf-dist/fonts/type1/public/txfonts/txsyb.pfb></usr/sh
 are/texlive/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/share/texlive/tex
 mf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/share/texlive/texmf-dist/fonts/t
 ype1/urw/times/utmri8a.pfb>
-Output written on miscellaneous.pdf (3 pages, 61002 bytes).
+Output written on miscellaneous.pdf (4 pages, 61818 bytes).
 PDF statistics:
- 51 PDF objects out of 1000 (max. 8388607)
- 36 compressed objects within 1 object stream
+ 54 PDF objects out of 1000 (max. 8388607)
+ 38 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 

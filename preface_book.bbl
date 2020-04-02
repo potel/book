@@ -1,4 +1,4 @@
-\begin{thebibliography}{66}
+\begin{thebibliography}{85}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \expandafter\ifx\csname urlstyle\endcsname\relax
@@ -43,6 +43,21 @@ F.~Barranco, R.~A. Broglia, G.~Col{\`{o}}, G.~Gori, E.~Vigezzi, and P.~F.
   Bortignon.
 \newblock Many-body effects in nuclear structure.
 \newblock \emph{European Physical Journal A}, 21:\penalty0 57, 2004.
+
+\bibitem[Barranco et~al.(2017)Barranco, Potel, Broglia, and
+  Vigezzi]{Barranco:17}
+F.~Barranco, G.~Potel, R.~A. Broglia, and E.~Vigezzi.
+\newblock {Structure and reactions of $^{11}$Be: many--body basis for
+  single--neutron halo}.
+\newblock \emph{Phys. Rev. Lett.}, 119:\penalty0 082501, 2017.
+
+\bibitem[Barranco et~al.(2020)Barranco, Potel, Vigezzi, and
+  Broglia]{Barranco:19}
+F.~Barranco, G.~Potel, E.~Vigezzi, and R.~A. Broglia.
+\newblock {$^{9}\mathrm{Li}(d,p)$ reaction as a specific probe of
+  $^{10}\mathrm{Li}$, the paradigm of parity-inverted nuclei around the $N=6$
+  closed shell}.
+\newblock \emph{Phys. Rev. C}, 101:\penalty0 031305, Mar 2020.
 
 \bibitem[Basdevant and Dalibard(2005)]{Basdevant:05}
 J.~L. Basdevant and J.~Dalibard.
@@ -132,6 +147,13 @@ R.~A. Broglia, P.~F. Bortignon, F.~Barranco, E.~Vigezzi, A.~Idini, and
   Nuclear Field Theory program}.
 \newblock \emph{Phys. Scr.}, 91:\penalty0 063012, 2016.
 
+\bibitem[{Broglia, R.A.} et~al.(1973){Broglia, R.A.}, Hansen, and
+  Riedel]{Broglia:73}
+{Broglia, R.A.}, O.~Hansen, and C.~Riedel.
+\newblock Two--neutron transfer reactions and the pairing model.
+\newblock \emph{Advances in Nuclear Physics}, 6:\penalty0 287, 1973.
+\newblock URL \url{www.mi.infn.it/?vigezzi/BHR/ BrogliaHansenRiedel.pdf}.
+
 \bibitem[Brown and Jacob(1963)]{Brown:63}
 G.~Brown and G.~Jacob.
 \newblock Zero-point vibrations and the nuclear surface.
@@ -147,6 +169,25 @@ F.~Cappuzzello, D.~Carbone, M.~Cavallaro, M.~{Bond\'i}, C.~Agodi, F.~Azaiez,
   $^{15}$C atomic nuclei.}
 \newblock \emph{Nature Communications}, 6:\penalty0 6743, 2015.
 
+\bibitem[Dirac(1925)]{Dirac:25}
+P.~A.~M. Dirac.
+\newblock The fundamental equations of quantum mechanics.
+\newblock \emph{Proc. Roy. Soc. A}, 109\penalty0 (752):\penalty0 642, 1925.
+
+\bibitem[Dirac(1928{\natexlab{a}})]{Dirac:28a}
+P.~A.~M. Dirac.
+\newblock The quantum theory of the electron.
+\newblock \emph{Proceedings of the Royal Society of London. Series A,
+  Containing Papers of a Mathematical and Physical Character}, 117\penalty0
+  (778):\penalty0 610, 1928{\natexlab{a}}.
+
+\bibitem[Dirac(1928{\natexlab{b}})]{Dirac:28b}
+P.~A.~M. Dirac.
+\newblock The quantum theory of the electron. part ii.
+\newblock \emph{Proceedings of the Royal Society of London. Series A,
+  Containing Papers of a Mathematical and Physical Character}, 118\penalty0
+  (779):\penalty0 351, 1928{\natexlab{b}}.
+
 \bibitem[Dirac(1930)]{Dirac:26}
 P.~A.~M. Dirac.
 \newblock \emph{The principles of quantum mechanics}.
@@ -157,6 +198,11 @@ G.~G. Dussel, R.~I. Betan, R.~J. Liotta, and T.~Vertse.
 \newblock Collective excitations in the continuum.
 \newblock \emph{Phys. Rev. C}, 80:\penalty0 064311.
 
+\bibitem[Dyson(1949)]{Dyson:49}
+F.~J. Dyson.
+\newblock The radiation theories of tomonaga, schwinger, and feynman.
+\newblock \emph{Physical Review}, 75:\penalty0 486, 1949.
+
 \bibitem[Elsasser(1933)]{Elsasser:33}
 W.~Elsasser.
 \newblock {Sur le principe de Pauli dans les noyaux}.
@@ -166,6 +212,22 @@ W.~Elsasser.
 H.~Esbensen and G.~F. Bertsch.
 \newblock Nuclear surface fluctuations: Charge density.
 \newblock \emph{Phys. Rev. C}, 28:\penalty0 355, 1983.
+
+\bibitem[Feynman()]{Feynman:49}
+R.~P. Feynman.
+\newblock Space-time approach to quantum electrodynamics.
+\newblock \emph{Phys. Rev.}
+
+\bibitem[Feynman(2006)]{Feynman:06}
+R.~P. Feynman.
+\newblock \emph{QED: The strange theory of light and matter}.
+\newblock Princeton University Press, 2006.
+
+\bibitem[{Flynn, E. R.} et~al.(1972){Flynn, E. R.}, Igo, and Broglia]{Flynn:72}
+{Flynn, E. R.}, G.~J. Igo, and R.~A. Broglia.
+\newblock {Three--phonon monopole and qudrupole pairing vibrational states in
+  $^{206}$Pb}.
+\newblock \emph{Phys. Lett. B}, 41:\penalty0 397, 1972.
 
 \bibitem[Glauber(2007)]{Glauber:07}
 R.~J. Glauber.
@@ -178,6 +240,11 @@ D.~Gogny.
 \newblock In H.~Arenh{\"o}vd and D.~Drechsel, editors, \emph{Nuclear Physics
   with Electromagnetic Interactions, p.88}, page~55, Heidelberg, 1978. Springer
   Verlag.
+
+\bibitem[Grotch(1994)]{Grotch:94}
+H.~Grotch.
+\newblock Status of the theory of the hydrogen lamb shift.
+\newblock \emph{Foundations of physics}, 24\penalty0 (2):\penalty0 249, 1994.
 
 \bibitem[Haxel et~al.(1949)Haxel, Jensen, and Suess]{Haxel:49}
 O.~Haxel, J.~H.~D. Jensen, and H.~E. Suess.
@@ -201,8 +268,6 @@ W.~Heisenberg.
 R.~Id~Betan, R.~J. Liotta, N.~Sandulescu, and T.~Vertse.
 \newblock Two-particle resonant states in a many-body mean field.
 \newblock \emph{Phys. Rev. Lett.}, 89:\penalty0 042501, Jul 2002.
-\newblock \doi{10.1103/PhysRevLett.89.042501}.
-\newblock URL \url{https://link.aps.org/doi/10.1103/PhysRevLett.89.042501}.
 
 \bibitem[Idini et~al.(2015)Idini, Potel, Barranco, Vigezzi, and
   Broglia]{Idini:15}
@@ -223,6 +288,24 @@ V.~A. Khodel, A.~P. Platonov, and E.~E. Saperstein.
 \newblock \emph{Journal of Physics G: Nuclear Physics}, 8\penalty0
   (7):\penalty0 967--973, jul 1982.
 
+\bibitem[Kwan et~al.(2014)Kwan, Wu, Summers, Hackman, Drake, Andreoiu, Ashley,
+  Ball, Bender, Boston, Boston, Chester, Close, Cline, Cross, Dunlop, Finlay,
+  Garnsworthy, Hayes, Laffoley, Nano, Navrátil, Pearson, Pore, Quaglioni,
+  Svensson, Starosta, Thompson, Voss, Williams, and Wang]{Kwan:14}
+E.~Kwan, C.~Wu, N.~Summers, G.~Hackman, T.~Drake, C.~Andreoiu, R.~Ashley,
+  G.~Ball, P.~Bender, A.~Boston, H.~Boston, A.~Chester, A.~Close, D.~Cline,
+  D.~Cross, R.~Dunlop, A.~Finlay, A.~Garnsworthy, A.~Hayes, A.~Laffoley,
+  T.~Nano, P.~Navrátil, C.~Pearson, J.~Pore, S.~Quaglioni, C.~Svensson,
+  K.~Starosta, I.~Thompson, P.~Voss, S.~Williams, and Z.~Wang.
+\newblock {Precision measurement of the electromagnetic dipole strengths in
+  $^{11}$Be}.
+\newblock \emph{Physics Letters B}, 732:\penalty0 210, 2014.
+
+\bibitem[Lamb~Jr(1951)]{Lamb:51b}
+W.~E. Lamb~Jr.
+\newblock {Fine structure of the hydrogen atom, Nobel Lecture}.
+\newblock \emph{Report Progress in Physics}, 14:\penalty0 23, 1951.
+
 \bibitem[Laskin et~al.(2016)Laskin, Casten, Macchiavelli, Clark, and
   Bucurescu]{Laskin:16}
 M.~Laskin, R.~F. Casten, A.~O. Macchiavelli, R.~M. Clark, and D.~Bucurescu.
@@ -234,19 +317,22 @@ E.~Litvinova and H.~Wibowo.
 \newblock Finite-temperature relativistic nuclear field theory: An application
   to the dipole response.
 \newblock \emph{Phys. Rev. Lett.}, 121:\penalty0 082501, Aug 2018.
-\newblock \doi{10.1103/PhysRevLett.121.082501}.
-\newblock URL \url{https://link.aps.org/doi/10.1103/PhysRevLett.121.082501}.
+
+\bibitem[Lundeen and Pipkin(1981)]{Lundeen:81}
+S.~R. Lundeen and F.~M. Pipkin.
+\newblock {Measurement of the Lamb Shift in Hydrogen, $n=2$}.
+\newblock \emph{Phys. Rev. Lett.}, 46:\penalty0 232, 1981.
+
+\bibitem[Lundeen and Pipkin(1986)]{Lundeen:86}
+S.~R. Lundeen and F.~M. Pipkin.
+\newblock Separated oscillatory field measurement of the lamb shift in h, n= 2.
+\newblock \emph{Metrologia}, 22:\penalty0 9, 1986.
 
 \bibitem[{Mahaux, C.} et~al.(1985){Mahaux, C.}, Bortignon, Broglia, and
   Dasso]{Mahaux:85}
 {Mahaux, C.}, P.~F. Bortignon, R.~A. Broglia, and C.~H. Dasso.
 \newblock Dynamics of the shell model.
 \newblock \emph{Physics Reports}, 120:\penalty0 1--274, 1985.
-
-\bibitem[Mayer and Jensen(1955)]{Mayer:55}
-M.~Mayer and J.~Jensen.
-\newblock \emph{{Elementary Theory of Nuclear Structure}}.
-\newblock Wiley, New York,NY, 1955.
 
 \bibitem[Mayer(1948)]{Mayer:48}
 M.~G. Mayer.
@@ -280,6 +366,13 @@ A.~Mitra, A.~Kraft, P.~Wright, B.~Acland, A.~Z. Snyder, Z.~Rosenthal,
 \newblock Spontaneous infra-slow brain activity has unique spatiotemporal
   dynamics and laminar structure.
 \newblock \emph{Neuron}, 98:\penalty0 297, 2018.
+
+\bibitem[Mottelson(1962)]{Mottelson:62}
+B.~R. Mottelson.
+\newblock Selected topics in the theory of collective phenomena in nuclei.
+\newblock In G.~Racah, editor, \emph{International School of Physics ``Enrico
+  Fermi'' Course {XV} , Nuclear Spectroscopy}, page~44, New York, 1962.
+  Academic Press.
 
 \bibitem[Mouginot et~al.(2011)Mouginot, Khan, Neveling, Azaiez, Buthelezi,
   F\"ortsch, Franchoo, Fujita, Mabiala, Mira, Papka, Ramus, Scarpaci, Smit,
@@ -325,6 +418,9 @@ W.~Pauli.
 \newblock Zur quantenmechanik ii.
 \newblock \emph{{Zeitschr. Phys.}}, 31:\penalty0 625, 1925.
 
+\bibitem[Pipkin(1990)]{Pipkin:90}
+F.~M. Pipkin, 1990.
+
 \bibitem[{Potel, G.} et~al.(2013){Potel, G.}, Idini, Barranco, Vigezzi, and
   Broglia]{Potel:13b}
 {Potel, G.}, A.~Idini, F.~Barranco, E.~Vigezzi, and R.~A. Broglia.
@@ -338,10 +434,8 @@ P.~G. Reinhard and D.~Drechsel.
 \newblock \emph{Zeitschrift f{\"u}r Physik A Atoms and Nuclei}, 290\penalty0
   (1):\penalty0 85--91, Mar 1979.
 
-\bibitem[Rowe(1970)]{Rowe:70}
-D.~J. Rowe.
-\newblock \emph{Nuclear Collective Motion. Models and Theory}.
-\newblock Methuen {\&} Co., London, 1970.
+\bibitem[Saperstein and Yennie(1990)]{Saperstein:90}
+J.~R. Saperstein and D.~R. Yennie, 1990.
 
 \bibitem[{Schiffer, J. P.} et~al.(2012){Schiffer, J. P.}, Hoffman, Kay, Clark,
   Deibel, Freeman, Howard, Mitchell, Parker, Sharp, and Thomas]{Schiffer:12}
@@ -360,17 +454,31 @@ S.~Schweber.
 \newblock \emph{QED}.
 \newblock Princeton University Press, Princeton, New Jersey, 1994.
 
+\bibitem[Schwinger(1948)]{Schwinger:48}
+J.~Schwinger.
+\newblock {On quantum-electrodynamics and the magnetic moment of the electron}.
+\newblock \emph{Physical Review}, 73:\penalty0 416, 1948.
+
+\bibitem[Schwinger(1958)]{Schwinger:58}
+J.~Schwinger.
+\newblock \emph{Quantum electrodynamics: selected papers}.
+\newblock Dover Publications, 1958.
+
 \bibitem[Schwinger(2001)]{Schwinger:01}
 J.~Schwinger.
 \newblock \emph{Quantum Mechanics}.
 \newblock Springer, Heidelberg, 2001.
 
+\bibitem[Tomonaga(1946)]{Tomonaga:46}
+S.~Tomonaga.
+\newblock On a relativistically invariant formulation of the quantum theory of
+  wave fields.
+\newblock \emph{Progress of Theoretical Physics}, 1:\penalty0 27, 1946.
+
 \bibitem[Ward(1950)]{Ward:50}
 J.~C. Ward.
 \newblock An identity in quantum electrodynamics.
 \newblock \emph{Phys. Rev.}, 78:\penalty0 182--182, Apr 1950.
-\newblock \doi{10.1103/PhysRev.78.182}.
-\newblock URL \url{https://link.aps.org/doi/10.1103/PhysRev.78.182}.
 
 \bibitem[Weinberg(1996)]{Weinberg:96}
 S.~Weinberg.
@@ -387,7 +495,5 @@ H.~Wibowo and E.~Litvinova.
 \newblock Nuclear dipole response in the finite-temperature relativistic
   time-blocking approximation.
 \newblock \emph{Phys. Rev. C}, 100:\penalty0 024307, Aug 2019.
-\newblock \doi{10.1103/PhysRevC.100.024307}.
-\newblock URL \url{https://link.aps.org/doi/10.1103/PhysRevC.100.024307}.
 
 \end{thebibliography}

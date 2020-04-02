@@ -5,6 +5,10 @@
   \providecommand{\doi}[1]{doi: #1}\else
   \providecommand{\doi}{doi: \begingroup \urlstyle{rm}\Url}\fi
 
+\bibitem[Yos()]{Yoshida:62}
+{Note on the two-nucleon stripping reaction}.
+\newblock \emph{Nuclear Physics}, 33.
+
 \bibitem[{Abrahams, E.} and Woo(1968)]{Abrahams:68}
 {Abrahams, E.} and J.~W.~F. Woo.
 \newblock Phenomenological theory of the rounding of the resistive transition
@@ -132,8 +136,7 @@ J.~L. Basdevant and J.~Dalibard.
 
 \bibitem[Bayman(1971)]{Bayman:71}
 B.~F. Bayman.
-\newblock Finite--range calculation of the two--neutron transfer reaction.
-\newblock \emph{Nuclear Physics A}, 168:\penalty0 1, 1971.
+\newblock 1971.
 
 \bibitem[Bayman and Chen(1982)]{Bayman:82}
 B.~F. Bayman and J.~Chen.
@@ -324,7 +327,7 @@ D.~M. Brink.
   Vigezzi]{Broglia:19}
 R.~Broglia, F.~Barranco, A.~Idini, G.~Potel, and E.~Vigezzi.
 \newblock Pygmy resonances: what's in a name?
-\newblock \emph{arXiv:18096.09409; Phys. Scr., in press}, 2019{\natexlab{a}}.
+\newblock \emph{Phys. Scr.}, 94:\penalty0 114002, 2019{\natexlab{a}}.
 
 \bibitem[Broglia and Gallardo(1986)]{Broglia:86}
 R.~A. Broglia and M.~Gallardo.
@@ -566,18 +569,27 @@ H.~Feshbach.
   for nuclei?}
 \newblock \emph{Journal of Physics G}, 37:\penalty0 064005, 2010.
 
+\bibitem[Garr@article{chandler2002hydrophobicity, title={Hydrophobicity: Two
+  faces of water}, author={Chandler, David}, journal={Nature}, volume={417},
+  number={6888}, pages={491}, year={2002}, publisher={Nature Publishing Group}
+  }ett et~al.(1986)Garr@article{chandler2002hydrophobicity,
+  title={Hydrophobicity: Two faces of water}, author={Chandler, David},
+  journal={Nature}, volume={417}, number={6888}, pages={491}, year={2002},
+  publisher={Nature Publishing Group} }ett, Hagemann, and Herskind]{Garrett:86}
+J.~D. Garr@article{chandler2002hydrophobicity, title={Hydrophobicity: Two faces
+  of water}, author={Chandler, David}, journal={Nature}, volume={417},
+  number={6888}, pages={491}, year={2002}, publisher={Nature Publishing Group}
+  }ett, G.~B. Hagemann, and B.~Herskind.
+\newblock Recent nuclear structure studies in rapidly rotating nuclei.
+\newblock \emph{Annual Review of Nuclear and Particle Science}, 36:\penalty0
+  419, 1986.
+
 \bibitem[Garrett(1985)]{Garrett:85}
 J.~D. Garrett.
 \newblock The ``single--particle'' spectrum of states: correlated or
   uncorrelated?
 \newblock In R.~A. Broglia, G.~B. Hagemann, and H.~P., editors, \emph{Nuclear
   Structure 1985}, page 111, Amsterdam, 1985. North Holland.
-
-\bibitem[Garrett et~al.(1986)Garrett, Hagemann, and Herskind]{Garrett:86}
-J.~D. Garrett, G.~B. Hagemann, and B.~Herskind.
-\newblock Recent nuclear structure studies in rapidly rotating nuclei.
-\newblock \emph{Annual Review of Nuclear and Particle Science}, 36:\penalty0
-  419, 1986.
 
 \bibitem[Ginzburg(2004)]{Ginzburg:04}
 V.~L. Ginzburg.
@@ -729,7 +741,7 @@ A.~Johnson, H.~Ryde, and S.~A. Hjorth.
 \bibitem[Josephson(1962)]{Josephson:62}
 B.~D. Josephson.
 \newblock Possible new effects in superconductive tunnelling.
-\newblock \emph{Phys. Lett.}, 1:\penalty0 251, 1962.
+\newblock \emph{Phys. Lett.}, 1, 1962.
 
 \bibitem[Kanungo et~al.(2015)Kanungo, Sanetullaev, Tanaka, Ishimoto, Hagen,
   Myo, Suzuki, Andreoiu, Bender, Chen, Davids, Fallis, Fortin, Galinski,
@@ -850,9 +862,10 @@ D.~Montanari, L.~Corradi, S.~Szilner, G.~Pollarolo, E.~Fioretto, G.~Montagnoli,
   below the Coulomb Barrier}.
 \newblock \emph{Phys. Rev. Lett.}, 113:\penalty0 052501, 2014.
 
-\bibitem[Moro et~al.(2019)Moro, Casal, and Gómez-Ramos]{Moro:19}
-A.~Moro, J.~Casal, and M.~Gómez-Ramos.
-\newblock Investigating the 10li continuum through 9li(d,p)10li reactions.
+\bibitem[Moro et~al.(2019)Moro, Casal, and {G\'omez-Ramos}]{Moro:19}
+A.~Moro, J.~Casal, and M.~{G\'omez-Ramos}.
+\newblock {Investigating the $^{10}$Li continuum through $^9$Li$(d,p)^{10}$Li
+  reactions}.
 \newblock \emph{Physics Letters B}, 793:\penalty0 13 -- 18, 2019.
 
 \bibitem[Mottelson(1998)]{Mottelson:02}
@@ -1154,11 +1167,6 @@ N.~L. Vaquero, J.~L. Egido, and T.~R. Rodr\'{\i}guez.
 {W\"olfe, P.}
 \newblock {Sound propagation an kinetic coefficients in superfluid $^3$He}.
 \newblock \emph{Progr. Low Temp. Phys.}, 7:\penalty0 191, 1978.
-
-\bibitem[Yoshida(1962)]{Yoshida:62}
-S.~Yoshida.
-\newblock {Note on the two-nucleon stripping reaction}.
-\newblock \emph{Nuclear Physics}, 33:\penalty0 685, 1962.
 
 \bibitem[Zhou et~al.(1999)Zhou, Vitkup, and Karplus]{Zhou:99}
 Y.~Zhou, D.~Vitkup, and M.~Karplus.

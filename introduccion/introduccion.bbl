@@ -1,4 +1,4 @@
-\begin{thebibliography}{124}
+\begin{thebibliography}{131}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \expandafter\ifx\csname urlstyle\endcsname\relax
@@ -95,6 +95,14 @@ F.~Barranco, G.~Potel, E.~Vigezzi, and R.~A. Broglia.
 \newblock Radioactive beams and inverse kinematics: Probing the quantal texture
   of the nuclear vacuum.
 \newblock \emph{The European Physical Journal A}, 55:\penalty0 104, 2019.
+
+\bibitem[Barranco et~al.(2020)Barranco, Potel, Vigezzi, and
+  Broglia]{Barranco:20}
+F.~Barranco, G.~Potel, E.~Vigezzi, and R.~A. Broglia.
+\newblock {$^{9}\mathrm{Li}(d,p)$ reaction as a specific probe of
+  $^{10}\mathrm{Li}$, the paradigm of parity-inverted nuclei around the $N=6$
+  closed shell}.
+\newblock \emph{Phys. Rev. C}, 101:\penalty0 031305, Mar 2020.
 
 \bibitem[{Barranco, F.} et~al.(2001){Barranco, F.}, Bortignon, Broglia,
   Col{\`{o}}, and Vigezzi]{Barranco:01}
@@ -310,11 +318,11 @@ P.~F. Bortignon, R.~A. Broglia, D.~R. B{\`{e}}s, R.~Liotta, and V.~Paar.
 \newblock \emph{{Semi--classical methods in nucleus--nucleus scattering}}.
 \newblock Cambridge University Press, Cambridge, 1985.
 
-\bibitem[Broglia et~al.(2019)Broglia, Barranco, Idini, Potel, and
+\bibitem[Broglia et~al.(2019{\natexlab{a}})Broglia, Barranco, Idini, Potel, and
   Vigezzi]{Broglia:19}
 R.~Broglia, F.~Barranco, A.~Idini, G.~Potel, and E.~Vigezzi.
 \newblock Pygmy resonances: what's in a name?
-\newblock \emph{Phys. Scr.}, 94:\penalty0 114002, 2019.
+\newblock \emph{Phys. Scr.}, 94:\penalty0 114002, 2019{\natexlab{a}}.
 
 \bibitem[Broglia(1975)]{Broglia:75}
 R.~A. Broglia.
@@ -349,6 +357,16 @@ R.~A. Broglia, P.~F. Bortignon, F.~Barranco, E.~Vigezzi, A.~Idini, and
 \newblock {Unified description of structure and reactions: implementing the
   Nuclear Field Theory program}.
 \newblock \emph{Phys. Scr.}, 91:\penalty0 063012, 2016.
+
+\bibitem[Broglia et~al.(2019{\natexlab{b}})Broglia, Barranco, Potel, and
+  Vigezzi]{Broglia:19b}
+R.~A. Broglia, F.~Barranco, G.~Potel, and E.~Vigezzi.
+\newblock {One- and two-neutron at the drip line. From $^{11}$Be to $^{11}$Li
+  and back: $^{10}$Li and parity inversion.}
+\newblock \emph{{Proceedings of the 15th International Conference on Nuclear
+  Reaction Mechanisms, Editors F. Cerutti, A. Ferrari, T. Kawano, F.
+  Salvat-Pujol, and P. Talou}.}, page~1, 2019{\natexlab{b}}.
+\newblock \doi{http://dx.doi.org/10.23727/CERN-Proceeding-2019-001}.
 
 \bibitem[{Broglia, R. A.} et~al.(1970){Broglia, R. A.}, Lilley, Perazzo, and
   Phillips]{Broglia:70}
@@ -426,6 +444,12 @@ L.~N. Cooper.
 \newblock {Bound Electron Pairs in a Degenerate Fermi Gas}.
 \newblock \emph{Phys. Rev.}, 104:\penalty0 1189, 1956.
 
+\bibitem[Dickhoff et~al.(2017)Dickhoff, Charity, and Mahzoon]{Dickhoff:17}
+W.~H. Dickhoff, R.~J. Charity, and M.~H. Mahzoon.
+\newblock Novel applications of the dispersive optical model.
+\newblock \emph{Journal of Physics G: Nuclear and Particle Physics},
+  44:\penalty0 033001, 2017.
+
 \bibitem[{Dickhoff, W.} and Van~Neck(2005)]{Dickhoff:05}
 {Dickhoff, W.} and D.~Van~Neck.
 \newblock \emph{{Many--Body Theory Exposed: Propagator description of quantum
@@ -436,6 +460,11 @@ L.~N. Cooper.
 H.~Feshbach.
 \newblock {Unified Theory of Nuclear Reactions}.
 \newblock \emph{Annals of Physics}, 5:\penalty0 357, 1958.
+
+\bibitem[Feshbach(1962)]{Feshbach:62}
+H.~Feshbach.
+\newblock {A Unified Theory of Nuclear Reactions,II}.
+\newblock \emph{Annals of Physics}, 19:\penalty0 287, 1962.
 
 \bibitem[Feynman(1975)]{Feynman:75}
 R.~Feynman.
@@ -490,10 +519,27 @@ D.~F. Jackson.
 \newblock \emph{Nuclear reactions}.
 \newblock Methuen, London, 1970.
 
+\bibitem[Jeppesen et~al.(2006)Jeppesen, Moro, Bergmann, Borge, Cederk\"{a}ll,
+  Fraile, Fynbo, G\'{o}mez-Camacho, Johansson, Jonson, Meister, Nilsson, Nyman,
+  Pantea, Riisager, Richter, Schrieder, Sieber, Tengblad, Tengborn,
+  Turri\'{o}n, and Wenander]{Jeppesen:06}
+H.~Jeppesen, A.~Moro, U.~Bergmann, M.~Borge, J.~Cederk\"{a}ll, L.~Fraile,
+  H.~Fynbo, J.~G\'{o}mez-Camacho, H.~Johansson, B.~Jonson, M.~Meister,
+  T.~Nilsson, G.~Nyman, M.~Pantea, K.~Riisager, A.~Richter, G.~Schrieder,
+  T.~Sieber, O.~Tengblad, E.~Tengborn, M.~Turri\'{o}n, and F.~Wenander.
+\newblock {Study of $^{10}$Li via the $^9$Li($^2$H,$p$) reaction at
+  REX-ISOLDE}.
+\newblock \emph{Physics Letters B}, 642:\penalty0 449, 2006.
+
+\bibitem[Jeukenne et~al.(1976)Jeukenne, Lejeune, and Mahaux]{Jeukenne:76}
+J.~Jeukenne, A.~Lejeune, and C.~Mahaux.
+\newblock Many-body theory of nuclear matter.
+\newblock \emph{Physics Reports}, 25\penalty0 (2):\penalty0 83, 1976.
+
 \bibitem[Josephson(1962)]{Josephson:62}
 B.~D. Josephson.
 \newblock Possible new effects in superconductive tunnelling.
-\newblock \emph{Phys. Lett.}, 1:\penalty0 251, 1962.
+\newblock \emph{Phys. Lett.}, 1, 1962.
 
 \bibitem[Kanungo et~al.(2015)Kanungo, Sanetullaev, Tanaka, Ishimoto, Hagen,
   Myo, Suzuki, Andreoiu, Bender, Chen, Davids, Fallis, Fortin, Galinski,
@@ -559,9 +605,10 @@ J.~Mehra.
 \newblock \emph{The beat of a different drum}.
 \newblock Clarendon Press, Oxford, 1996.
 
-\bibitem[Moro et~al.(2019)Moro, Casal, and Gómez-Ramos]{Moro:19}
-A.~Moro, J.~Casal, and M.~Gómez-Ramos.
-\newblock Investigating the 10li continuum through 9li(d,p)10li reactions.
+\bibitem[Moro et~al.(2019)Moro, Casal, and {G\'omez-Ramos}]{Moro:19}
+A.~Moro, J.~Casal, and M.~{G\'omez-Ramos}.
+\newblock {Investigating the $^{10}$Li continuum through $^9$Li$(d,p)^{10}$Li
+  reactions}.
 \newblock \emph{Physics Letters B}, 793:\penalty0 13 -- 18, 2019.
 
 \bibitem[Mottelson(1962)]{Mottelson:62}
@@ -571,17 +618,12 @@ B.~R. Mottelson.
   Fermi'' Course {XV} , Nuclear Spectroscopy}, page~44, New York, 1962.
   Academic Press.
 
-\bibitem[Mottelson(1976{\natexlab{a}})]{Mottelson:76}
+\bibitem[Mottelson(1976)]{Mottelson:76}
 B.~R. Mottelson.
 \newblock \emph{Elementary Modes of Excitation in Nuclei, Le Prix Nobel en
   1975}.
-\newblock Imprimerie Royale Norstedts Tryckeri, Stockholm, 1976{\natexlab{a}}.
+\newblock Imprimerie Royale Norstedts Tryckeri, Stockholm, 1976.
 \newblock p. 80.
-
-\bibitem[Mottelson(1976{\natexlab{b}})]{Mottelson:76b}
-B.~R. Mottelson.
-\newblock Atomkernens element\ae{}re eksitationer.
-\newblock \emph{Naturens Verden}, 6:\penalty0 169, 1976{\natexlab{b}}.
 
 \bibitem[Nilsson(1955)]{Nilsson:55}
 S.~G. Nilsson.
@@ -621,6 +663,11 @@ D.~Pines and D.~Bohm.
 {Pines, D. and Nozi\`{e}res}.
 \newblock \emph{The theory of quantum liquids}.
 \newblock Benjamin, New York, 1966.
+
+\bibitem[Pollarolo et~al.(1983)Pollarolo, Broglia, and Winther]{Pollarolo:83}
+G.~Pollarolo, R.~Broglia, and A.~Winther.
+\newblock Calculation of the imaginary part of the heavy ion potential.
+\newblock \emph{Nuclear Physics A}, 406:\penalty0 369, 1983.
 
 \bibitem[Potel et~al.(2010)Potel, Barranco, Vigezzi, and Broglia]{Potel:10}
 G.~Potel, F.~Barranco, E.~Vigezzi, and R.~A. Broglia.
@@ -695,6 +742,11 @@ A.~Sanetullaev, R.~Kanungo, J.~Tanaka, M.~Alcorta, C.~Andreoiu, P.~Bender,
   structure of $^{11}$Li through the $^{11}$Li$(p,d)^{10}$Li transfer
   reaction}.
 \newblock \emph{Physics Letters B}, 755:\penalty0 481, 2016.
+
+\bibitem[Sartor and Mahaux(1980)]{Sartor:80}
+R.~Sartor and C.~Mahaux.
+\newblock {Single-particle states in nuclear matter and in finite nuclei}.
+\newblock \emph{Physical Review C}, 21\penalty0 (6):\penalty0 2613, 1980.
 
 \bibitem[Satchler(1980)]{Satchler:80}
 G.~Satchler.

@@ -2,7 +2,7 @@ This is BibTeX, Version 0.99d (TeX Live 2019/Debian)
 Capacity: max_strings=100000, hash_size=100000, hash_prime=85009
 The top-level auxiliary file: include_struct_nut.aux
 The style file: abbrvnat.bst
-Reallocated field_info (elt_size=4) to 10180 items from 5000.
+Reallocated field_info (elt_size=4) to 10236 items from 5000.
 Database file #1: ../nuclear_bib.bib
 "{" immediately follows a field name---line 306 of file ../nuclear_bib.bib
  :   volume = 1,$^
@@ -87,26 +87,30 @@ Repeated entry---line 6708 of file ../nuclear_bib.bib
  : @article{Rosner:17
  :                   ,
 I'm skipping whatever remains of this entry
-You're missing a field name---line 7675 of file ../nuclear_bib.bib
+You're missing a field name---line 7683 of file ../nuclear_bib.bib
  :  year = {2007},
  :                ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 7692 of file ../nuclear_bib.bib
+Repeated entry---line 7700 of file ../nuclear_bib.bib
  : @article{Montanari:14
  :                      ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 7931 of file ../nuclear_bib.bib
+Repeated entry---line 7939 of file ../nuclear_bib.bib
  : @article{Schiffer:12
  :                     ,
 I'm skipping whatever remains of this entry
-I was expecting an "="---line 8031 of file ../nuclear_bib.bib
+I was expecting an "="---line 8035 of file ../nuclear_bib.bib
  :  
  :  numpages = {8},
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
-"{" immediately follows a field part---line 8652 of file ../nuclear_bib.bib
+"{" immediately follows a field part---line 8657 of file ../nuclear_bib.bib
  :  volume = @article
  :                   {dirac1928quantum,
+I'm skipping whatever remains of this entry
+Repeated entry---line 8766 of file ../nuclear_bib.bib
+ : @article{Lanford:73
+ :                    ,
 I'm skipping whatever remains of this entry
 Warning--I didn't find a database entry for "Meissner:14"
 Name 3 in "{Bjerregaard, J. H.} and Hansen, O. and Nathan, and Hinds, S." has a comma at the end for entry Bjerregaard:66b
@@ -269,45 +273,45 @@ Name 1 in "Saperstein, E. E., and Baldo, M." has a comma at the end for entry Sa
 while executing---line 1429 of file abbrvnat.bst
 Name 1 in "Saperstein, E. E., and Baldo, M." has a comma at the end for entry Saperstein:12
 while executing---line 1429 of file abbrvnat.bst
-You've used 184 entries,
+You've used 186 entries,
             2773 wiz_defined-function locations,
-            1712 strings with 34858 characters,
-and the built_in function-call counts, 91612 in all, are:
-= -- 7502
-> -- 6779
-< -- 128
-+ -- 2293
-- -- 2103
-* -- 7655
-:= -- 14743
-add.period$ -- 573
-call.type$ -- 184
-change.case$ -- 1211
-chr.to.int$ -- 178
-cite$ -- 383
-duplicate$ -- 3983
-empty$ -- 6751
-format.name$ -- 2372
-if$ -- 18878
+            1726 strings with 35193 characters,
+and the built_in function-call counts, 92465 in all, are:
+= -- 7577
+> -- 6818
+< -- 130
++ -- 2306
+- -- 2114
+* -- 7714
+:= -- 14875
+add.period$ -- 580
+call.type$ -- 186
+change.case$ -- 1220
+chr.to.int$ -- 180
+cite$ -- 387
+duplicate$ -- 4031
+empty$ -- 6838
+format.name$ -- 2387
+if$ -- 19065
 int.to.chr$ -- 7
 int.to.str$ -- 1
-missing$ -- 205
-newline$ -- 924
-num.names$ -- 776
-pop$ -- 2413
+missing$ -- 207
+newline$ -- 934
+num.names$ -- 786
+pop$ -- 2437
 preamble$ -- 1
-purify$ -- 1054
+purify$ -- 1061
 quote$ -- 0
-skip$ -- 3083
+skip$ -- 3108
 stack$ -- 0
-substring$ -- 1997
-swap$ -- 337
+substring$ -- 2019
+swap$ -- 340
 text.length$ -- 25
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 1914
+type$ -- 1936
 warning$ -- 14
-while$ -- 722
+while$ -- 730
 width$ -- 0
-write$ -- 2423
-(There were 98 error messages)
+write$ -- 2451
+(There were 99 error messages)

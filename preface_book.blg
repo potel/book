@@ -64,6 +64,10 @@ I'm skipping whatever remains of this entry
  : journal = {Phys. Lett. B},@article
  :                                   {Thompson:04,
 I'm skipping whatever remains of this entry
+Repeated entry---line 5519 of file ./nuclear_bib.bib
+ : @article{Lanford:73
+ :                    ,
+I'm skipping whatever remains of this entry
 "{" immediately follows a field name---line 6589 of file ./nuclear_bib.bib
  :   year = {2017},@article
  :                         {PhysRevLett.95.232502,
@@ -89,7 +93,10 @@ I'm skipping whatever remains of this entry
  :  volume = @article
  :                   {dirac1928quantum,
 I'm skipping whatever remains of this entry
-Warning--I didn't find a database entry for "Landford:73"
+Repeated entry---line 8766 of file ./nuclear_bib.bib
+ : @article{Lanford:73
+ :                    ,
+I'm skipping whatever remains of this entry
 Name 1 in "R. A. Broglia, and P. F. Bortignon, and F. Barranco, and E. Vigezzi, and A. Idini, and G. Potel" has a comma at the end for entry Broglia:16
 while executing---line 1347 of file abbrvnat.bst
 Name 1 in "R. A. Broglia, and P. F. Bortignon, and F. Barranco, and E. Vigezzi, and A. Idini, and G. Potel" has a comma at the end for entry Broglia:16
@@ -127,45 +134,45 @@ Warning--empty year in Dussel:09
 Warning--empty year in Feynman:49
 Warning--empty year in Feynman:49
 Warning--empty title in Schrodinger:26
-You've used 85 entries,
+You've used 86 entries,
             2773 wiz_defined-function locations,
-            1174 strings with 16228 characters,
-and the built_in function-call counts, 37816 in all, are:
-= -- 3140
-> -- 2450
-< -- 63
-+ -- 841
-- -- 754
-* -- 3033
-:= -- 6068
-add.period$ -- 254
-call.type$ -- 85
-change.case$ -- 486
-chr.to.int$ -- 83
-cite$ -- 175
-duplicate$ -- 1739
-empty$ -- 3030
-format.name$ -- 887
-if$ -- 7791
+            1178 strings with 16374 characters,
+and the built_in function-call counts, 38218 in all, are:
+= -- 3176
+> -- 2471
+< -- 64
++ -- 848
+- -- 760
+* -- 3062
+:= -- 6131
+add.period$ -- 257
+call.type$ -- 86
+change.case$ -- 491
+chr.to.int$ -- 84
+cite$ -- 177
+duplicate$ -- 1759
+empty$ -- 3065
+format.name$ -- 896
+if$ -- 7876
 int.to.chr$ -- 3
 int.to.str$ -- 1
-missing$ -- 98
-newline$ -- 429
-num.names$ -- 346
-pop$ -- 974
+missing$ -- 99
+newline$ -- 434
+num.names$ -- 350
+pop$ -- 982
 preamble$ -- 1
-purify$ -- 419
+purify$ -- 423
 quote$ -- 0
-skip$ -- 1308
+skip$ -- 1324
 stack$ -- 0
-substring$ -- 946
-swap$ -- 114
+substring$ -- 957
+swap$ -- 115
 text.length$ -- 4
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 860
+type$ -- 871
 warning$ -- 5
-while$ -- 326
+while$ -- 330
 width$ -- 0
-write$ -- 1103
-(There were 37 error messages)
+write$ -- 1116
+(There were 39 error messages)

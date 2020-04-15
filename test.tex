@@ -1,92 +1,15 @@
-\documentclass[a4paper,11pt]{book}
-\usepackage{dsfont}
-\usepackage[title]{appendix}
-\usepackage{slashbox}
-\usepackage{enumerate}
-\usepackage{footmisc}
-%\documentclass[a4paper]{book}
-% \linespread{2.}
-%\numberwithin{section}
-%\documentclass[12pt]{article}
-%\documentclass[12pt]{cmmp}
-\usepackage{textcomp}
-%%\usepackage{psfig}
-%\usepackage{harvard}
-\usepackage{epsfig}
-\usepackage{amsmath}   
-\usepackage{amsfonts}
-%\counterwithin{figure}{section}
-\usepackage{amssymb}
-\usepackage{bbold}
-\usepackage{bbm}
-\numberwithin{equation}{section}
-\numberwithin{figure}{section}
-\numberwithin{table}{section}
-%%\usepackage{graphicx}
-%%
-%%\usepackage{txfonts}
-%%%\usepackage{mathrsfs}
-%
-%%\usepackage{feynmf}     %<------------ Obbligatorio
-\unitlength=1mm         %<------------ Obbligatorio
-%
-\newsavebox{\fmbox}
-\newenvironment{fmpage}[1]
-{\begin{lrbox}{\fmbox}\begin{minipage}{#1}}
-{\end{minipage}\end{lrbox}\fbox{\usebox{\fmbox}}}
-\newcommand{\braket}[1]{\langle {#1} \rangle }
-\newcommand{\ket}[1]{|{#1} \rangle }
-\newcommand{\bra}[1]{\langle {#1}|}
-\newcommand\idop{\mathds 1}
-\usepackage{dsfont}
-\usepackage{latexsym}
-\usepackage[varg]{txfonts}
-\usepackage{mathrsfs}
-\usepackage{upgreek}
-\usepackage[round]{natbib}
-%\usepackage [latin1]{inputenc}
-\usepackage{verbatim}
-\usepackage{array}
-\usepackage{color}
-%\pagestyle{plain}
-\usepackage{graphicx}
-\usepackage{caption}
+\documentclass{article}
+\usepackage{bibunits}
 \begin{document}
-\begin{equation}
-\frac{d\sigma}{d\Omega}=\frac{\mu_i\mu_f}{\left(2\pi\hbar^2\right)^2}\frac{k_f}{k_i}\left|T^{(1)}+T^{(2)}_{succ}-T^{(1)}_{NO}\right|^2
-\end{equation}
-\begin{equation}\label{eq7_1_12}
-G(\mathbf{r}_{dF},\mathbf{r}_{dF}')=i\sum_{l}\sqrt{2l+1}
-\frac{f_{l}(k_{dF},r_<)g_{l}(k_{dF},r_>)}{k_{dF}r_{dF}r_{dF}'}
-\left[  Y^{l} (\hat r_{dF}) Y^{l} (\hat r_{dF}')\right]_0^0.
-\end{equation}
-\newpage 
-\begin{align*}
-2\Delta\approx\delta E\approx\delta \left(\frac{p^2}{2m}\right)_{\epsilon_F}\approx v_F\delta p.
-\end{align*}
-\vspace{1.2cm}
-\begin{align*}
-\frac{\delta p}{p_F}=\frac{2\Delta}{mv_F^2}=\frac{\Delta}{\epsilon_F}\ll1.
-\end{align*}
-\vspace{1.2cm}
-\begin{align*}
-\xi=\delta x=\frac{\hbar}{\delta p}=\frac{\hbar v_F}{2\Delta}
-\end{align*}
-\vspace{1.2cm}
-\begin{align*}
-g(k)\sim\delta(\mathbf k,\mathbf k_F+i\mathbf{\hat k}_F/\xi),
-\end{align*}
-\vspace{1.2cm}
-\begin{align*}
-\phi_0(\mathbf r)\sim e^{-r/\xi}e^{ik_Fr}.
-\end{align*}
-\vspace{1.2cm}
-\begin{align*}
-\phi_0(\mathbf r)\sim e^{-r/\xi}\cos k_Fr,
-\end{align*}
-\vspace{1.2cm}
-\begin{align*}
-\phi_0(\mathbf r)\sim K_0(r/\pi\xi)\cos k_Fr,
-\end{align*}
-\newpage
-\end{document} 
+\defaultbibliography{test}
+\defaultbibliographystyle{plain}
+\begin{bibunit}
+some text \cite{Betan:02} more text more citations
+\putbib
+\end{bibunit}
+some text between the units
+\begin{bibunit}
+some text \cite{Dussel:09} more text more citations
+\putbib
+\end{bibunit}
+\end{document}

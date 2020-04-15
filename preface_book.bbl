@@ -213,10 +213,15 @@ H.~Esbensen and G.~F. Bertsch.
 \newblock Nuclear surface fluctuations: Charge density.
 \newblock \emph{Phys. Rev. C}, 28:\penalty0 355, 1983.
 
-\bibitem[Feynman()]{Feynman:49}
+\bibitem[Feynman(1975)]{Feynman:75}
+R.~Feynman.
+\newblock \emph{Theory of fundamental processes}.
+\newblock Benjamin, Reading, Mass., 1975.
+
+\bibitem[Feynman(1949)]{Feynman:49}
 R.~P. Feynman.
 \newblock Space-time approach to quantum electrodynamics.
-\newblock \emph{Phys. Rev.}
+\newblock \emph{Phys. Rev.}, 76:\penalty0 769, Sep 1949.
 
 \bibitem[Feynman(2006)]{Feynman:06}
 R.~P. Feynman.
@@ -243,7 +248,7 @@ D.~Gogny.
 
 \bibitem[Grotch(1994)]{Grotch:94}
 H.~Grotch.
-\newblock Status of the theory of the hydrogen lamb shift.
+\newblock {Status of the theory of the hydrogen Lamb shift}.
 \newblock \emph{Foundations of physics}, 24\penalty0 (2):\penalty0 249, 1994.
 
 \bibitem[Haxel et~al.(1949)Haxel, Jensen, and Suess]{Haxel:49}
@@ -288,6 +293,11 @@ V.~A. Khodel, A.~P. Platonov, and E.~E. Saperstein.
 \newblock \emph{Journal of Physics G: Nuclear Physics}, 8\penalty0
   (7):\penalty0 967--973, jul 1982.
 
+\bibitem[Kinoshita(1990)]{Kinoshita:90}
+T.~Kinoshita, editor.
+\newblock \emph{Quantum electrodynamics}.
+\newblock World Scientific, Singapore, 1990.
+
 \bibitem[Kwan et~al.(2014)Kwan, Wu, Summers, Hackman, Drake, Andreoiu, Ashley,
   Ball, Bender, Boston, Boston, Chester, Close, Cline, Cross, Dunlop, Finlay,
   Garnsworthy, Hayes, Laffoley, Nano, Navrátil, Pearson, Pore, Quaglioni,
@@ -331,7 +341,8 @@ S.~R. Lundeen and F.~M. Pipkin.
 
 \bibitem[Lundeen and Pipkin(1986)]{Lundeen:86}
 S.~R. Lundeen and F.~M. Pipkin.
-\newblock Separated oscillatory field measurement of the lamb shift in h, n= 2.
+\newblock {Separated oscillatory field measurement of the Lamb shift in H, $n$=
+  2}.
 \newblock \emph{Metrologia}, 22:\penalty0 9, 1986.
 
 \bibitem[{Mahaux, C.} et~al.(1985){Mahaux, C.}, Bortignon, Broglia, and
@@ -349,11 +360,6 @@ M.~G. Mayer.
 M.~G. Mayer.
 \newblock On closed shells in nuclei. ii.
 \newblock \emph{Phys. Rev.}, 75:\penalty0 1969, 1949.
-
-\bibitem[Mayer(1963)]{Mayer:63}
-M.~G. Mayer.
-\newblock The shell model.
-\newblock \emph{Nobel Lecture}, 1963.
 
 \bibitem[Mayer and Teller(1949)]{Mayer:49b}
 M.~G. Mayer and E.~Teller.
@@ -408,12 +414,6 @@ S.~G. Nilsson.
 \newblock Binding states of individual nucleons in strongly deformed nuclei.
 \newblock \emph{Mat. Fys. Medd. Dan. Vid. Selsk.}, 29, 1955.
 
-\bibitem[Nolan and Twin(1988)]{Nolan:88}
-P.~J. Nolan and P.~J. Twin.
-\newblock Superdeformed shapes at high angular momentum.
-\newblock \emph{Annual Review of Nuclear and Particle Science}, 38:\penalty0
-  533, 1988.
-
 \bibitem[Pais(1986)]{Pais:86}
 A.~Pais.
 \newblock \emph{Inward bound}.
@@ -425,14 +425,10 @@ W.~Pauli.
 \newblock \emph{{Zeitschr. Phys.}}, 31:\penalty0 625, 1925.
 
 \bibitem[Pipkin(1990)]{Pipkin:90}
-F.~M. Pipkin, 1990.
-
-\bibitem[{Potel, G.} et~al.(2013){Potel, G.}, Idini, Barranco, Vigezzi, and
-  Broglia]{Potel:13b}
-{Potel, G.}, A.~Idini, F.~Barranco, E.~Vigezzi, and R.~A. Broglia.
-\newblock {Quantitative study of coherent pairing modes with two--neutron
-  transfer: Sn isotopes}.
-\newblock \emph{{Phys. Rev. C}}, 87:\penalty0 054321, 2013.
+F.~M. Pipkin.
+\newblock Lamb shift measurements.
+\newblock In T.~Kinoshita, editor, \emph{Quantum electrodynamics}, page 697.
+  World Scientific, Singapore, 1990.
 
 \bibitem[Reinhard and Drechsel(1979)]{Reinhard:79}
 P.~G. Reinhard and D.~Drechsel.
@@ -440,8 +436,11 @@ P.~G. Reinhard and D.~Drechsel.
 \newblock \emph{Zeitschrift f{\"u}r Physik A Atoms and Nuclei}, 290\penalty0
   (1):\penalty0 85--91, Mar 1979.
 
-\bibitem[Saperstein and Yennie(1990)]{Saperstein:90}
-J.~R. Saperstein and D.~R. Yennie, 1990.
+\bibitem[Sapirstein and Yennie(1990)]{Sapirstein:90}
+J.~R. Sapirstein and D.~R. Yennie.
+\newblock {Theory of Hydrogenic Bound States}.
+\newblock In T.~Kinoshita, editor, \emph{Quantum electrodynamics}. World
+  Scientific, Singapore, 1990.
 
 \bibitem[{Schiffer, J. P.} et~al.(2012){Schiffer, J. P.}, Hoffman, Kay, Clark,
   Deibel, Freeman, Howard, Mitchell, Parker, Sharp, and Thomas]{Schiffer:12}
@@ -474,6 +473,12 @@ J.~Schwinger.
 J.~Schwinger.
 \newblock \emph{Quantum Mechanics}.
 \newblock Springer, Heidelberg, 2001.
+
+\bibitem[Stephens(1985)]{Stephens:85}
+F.~Stephens.
+\newblock In R.~A. Broglia and C.~H. Dasso, editors, \emph{{Frontiers in
+  Nuclear Dynamics}}. Plenum Press, number 25 in Ettore Majorana, International
+  Science Series, New York, 1985.
 
 \bibitem[Tomonaga(1946)]{Tomonaga:46}
 S.~Tomonaga.

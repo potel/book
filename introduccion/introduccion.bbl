@@ -5,10 +5,6 @@
   \providecommand{\doi}[1]{doi: #1}\else
   \providecommand{\doi}{doi: \begingroup \urlstyle{rm}\Url}\fi
 
-\bibitem[Yos()]{Yoshida:62}
-{Note on the two-nucleon stripping reaction}.
-\newblock \emph{Nuclear Physics}, 33.
-
 \bibitem[Alder and Winther(1975)]{Alder:75}
 K.~Alder and A.~Winther.
 \newblock \emph{{Electromagnetic Excitations}}.
@@ -81,14 +77,6 @@ F.~Barranco, G.~Potel, R.~A. Broglia, and E.~Vigezzi.
   single--neutron halo}.
 \newblock \emph{Phys. Rev. Lett.}, 119:\penalty0 082501, 2017.
 
-\bibitem[Barranco et~al.(2018)Barranco, Potel, Vigezzi, and
-  Broglia]{Barranco:18}
-F.~Barranco, G.~Potel, E.~Vigezzi, and R.~A. Broglia.
-\newblock {$d(^9$Li,$p$), specific probe of $^{10}$Li, paradigm of
-  parity--inverted, soft--dipole isotones with one neutron outside the $N = 6$
-  closed shell}.
-\newblock \emph{arXiv:1812.01761 [nucl-th]}, 2018.
-
 \bibitem[Barranco et~al.(2019)Barranco, Potel, Vigezzi, and
   Broglia]{Barranco:19b}
 F.~Barranco, G.~Potel, E.~Vigezzi, and R.~A. Broglia.
@@ -96,13 +84,21 @@ F.~Barranco, G.~Potel, E.~Vigezzi, and R.~A. Broglia.
   of the nuclear vacuum.
 \newblock \emph{The European Physical Journal A}, 55:\penalty0 104, 2019.
 
-\bibitem[Barranco et~al.(2020)Barranco, Potel, Vigezzi, and
+\bibitem[Barranco et~al.(2020{\natexlab{a}})Barranco, Potel, Vigezzi, and
+  Broglia]{Barranco:18}
+F.~Barranco, G.~Potel, E.~Vigezzi, and R.~A. Broglia.
+\newblock {$^{9}\mathrm{Li}(d,p)$ reaction as a specific probe of
+  $^{10}\mathrm{Li}$, the paradigm of parity-inverted nuclei around the $N=6$
+  closed shell}.
+\newblock \emph{Phys. Rev. C}, 101:\penalty0 031305, Mar 2020{\natexlab{a}}.
+
+\bibitem[Barranco et~al.(2020{\natexlab{b}})Barranco, Potel, Vigezzi, and
   Broglia]{Barranco:20}
 F.~Barranco, G.~Potel, E.~Vigezzi, and R.~A. Broglia.
 \newblock {$^{9}\mathrm{Li}(d,p)$ reaction as a specific probe of
   $^{10}\mathrm{Li}$, the paradigm of parity-inverted nuclei around the $N=6$
   closed shell}.
-\newblock \emph{Phys. Rev. C}, 101:\penalty0 031305, Mar 2020.
+\newblock \emph{Phys. Rev. C}, 101:\penalty0 031305, Mar 2020{\natexlab{b}}.
 
 \bibitem[{Barranco, F.} et~al.(2001){Barranco, F.}, Bortignon, Broglia,
   Col{\`{o}}, and Vigezzi]{Barranco:01}
@@ -444,11 +440,11 @@ L.~N. Cooper.
 \newblock {Bound Electron Pairs in a Degenerate Fermi Gas}.
 \newblock \emph{Phys. Rev.}, 104:\penalty0 1189, 1956.
 
-\bibitem[Dickhoff et~al.(2017)Dickhoff, Charity, and Mahzoon]{Dickhoff:17}
-W.~H. Dickhoff, R.~J. Charity, and M.~H. Mahzoon.
-\newblock Novel applications of the dispersive optical model.
-\newblock \emph{Journal of Physics G: Nuclear and Particle Physics},
-  44:\penalty0 033001, 2017.
+\bibitem[Dickhoff and Charity(2019)]{Dickhoff:19}
+W.~Dickhoff and R.~Charity.
+\newblock Recent developments for the optical model of nuclei.
+\newblock \emph{Progress in Particle and Nuclear Physics}, 105:\penalty0 252,
+  2019.
 
 \bibitem[{Dickhoff, W.} and Van~Neck(2005)]{Dickhoff:05}
 {Dickhoff, W.} and D.~Van~Neck.
@@ -820,6 +816,11 @@ P.~G. Wolynes.
 P.~G. Wolynes, W.~A. Eaton, and F.~A. R.
 \newblock Chemical physics of protein folding.
 \newblock \emph{PNAS}, 109:\penalty0 17770, 2012.
+
+\bibitem[Yoshida(1962)]{Yoshida:62}
+S.~Yoshida.
+\newblock {Note on the two-nucleon stripping reaction}.
+\newblock \emph{Nuclear Physics}, 33:\penalty0 685, 1962.
 
 \bibitem[Zinser et~al.(1995)Zinser, Humbert, Nilsson, Schwab, Blaich, Borge,
   Chulkov, Eickhoff, Elze, Emling, Franzke, Freiesleben, Geissel, Grimm,

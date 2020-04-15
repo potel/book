@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2020.2.9)  4 APR 2020 21:11
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2020.2.9)  12 APR 2020 19:55
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -713,17 +713,22 @@ Underfull \hbox (badness 10000) in paragraph at lines 203--206
 
  []
 
-[3] [4] (./miscellaneous.aux)
+[3]
+Overfull \hbox (31.01115pt too wide) detected at line 228
+[]
+ []
+
+[4] (./miscellaneous.aux)
 
 LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 5312 strings out of 492609
- 75924 string characters out of 6131463
+ 5328 strings out of 492609
+ 76119 string characters out of 6131463
  138645 words of memory out of 5000000
- 9093 multiletter control sequences out of 15000+600000
- 27363 words of font info for 72 fonts, out of 8000000 for 9000
+ 9107 multiletter control sequences out of 15000+600000
+ 31817 words of font info for 86 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  41i,13n,38p,280b,212s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/share/texliv
@@ -735,7 +740,7 @@ fb></usr/share/texlive/texmf-dist/fonts/type1/public/txfonts/txsyb.pfb></usr/sh
 are/texlive/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/share/texlive/tex
 mf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/share/texlive/texmf-dist/fonts/t
 ype1/urw/times/utmri8a.pfb>
-Output written on miscellaneous.pdf (4 pages, 62284 bytes).
+Output written on miscellaneous.pdf (4 pages, 64219 bytes).
 PDF statistics:
  54 PDF objects out of 1000 (max. 8388607)
  38 compressed objects within 1 object stream

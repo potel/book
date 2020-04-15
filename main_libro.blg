@@ -2,203 +2,137 @@ This is BibTeX, Version 0.99d (TeX Live 2019/Debian)
 Capacity: max_strings=100000, hash_size=100000, hash_prime=85009
 The top-level auxiliary file: main_libro.aux
 A level-1 auxiliary file: C1/includeC1.aux
-The style file: abbrvnat.bst
 A level-1 auxiliary file: preface_book.aux
-Illegal, another \bibstyle command---line 18 of file preface_book.aux
- : \bibstyle
- :          {abbrvnat}
-I'm skipping whatever remains of this command
-Illegal, another \bibstyle command---line 279 of file preface_book.aux
- : \bibstyle
- :          {abbrvnat}
-I'm skipping whatever remains of this command
+The style file: abbrvnat.bst
 A level-1 auxiliary file: introduccion/introduccion.aux
-Illegal, another \bibstyle command---line 608 of file introduccion/introduccion.aux
- : \bibstyle
- :          {abbrvnat}
-I'm skipping whatever remains of this command
 A level-1 auxiliary file: nutshell/include_struct_nut.aux
-Illegal, another \bibstyle command---line 536 of file nutshell/include_struct_nut.aux
- : \bibstyle
- :          {abbrvnat}
-I'm skipping whatever remains of this command
 A level-1 auxiliary file: nutshell/include_trans_nut.aux
 Case mismatch error between cite keys deGennes:94 and DeGennes:94
 ---line 289 of file nutshell/include_trans_nut.aux
  : \citation{deGennes:94
  :                      }
 I'm skipping whatever remains of this command
-Illegal, another \bibstyle command---line 514 of file nutshell/include_trans_nut.aux
- : \bibstyle
- :          {abbrvnat}
-I'm skipping whatever remains of this command
 A level-1 auxiliary file: C6/includeC6.aux
-Illegal, another \bibstyle command---line 372 of file C6/includeC6.aux
- : \bibstyle
- :          {abbrvnat}
-I'm skipping whatever remains of this command
 A level-1 auxiliary file: C7/includeC7.aux
-Illegal, another \bibstyle command---line 409 of file C7/includeC7.aux
- : \bibstyle
- :          {abbrvnat}
-I'm skipping whatever remains of this command
 A level-1 auxiliary file: C8/includeC8.aux
-Illegal, another \bibstyle command---line 334 of file C8/includeC8.aux
- : \bibstyle
- :          {abbrvnat}
-I'm skipping whatever remains of this command
 Illegal, another \bibstyle command---line 10 of file main_libro.aux
  : \bibstyle
  :          {abbrvnat}
 I'm skipping whatever remains of this command
-Reallocated field_info (elt_size=4) to 19280 items from 5000.
+Reallocated field_info (elt_size=4) to 19224 items from 5000.
 Database file #1: /home/gregory/book/nuclear_bib.bib
-"{" immediately follows a field name---line 306 of file /home/gregory/book/nuclear_bib.bib
+"{" immediately follows a field name---line 296 of file /home/gregory/book/nuclear_bib.bib
  :   volume = 1,$^
  :                {116}$Sn+$^{60}$Ni$\to^{114}$Sn+$^{62}$Ni
 I'm skipping whatever remains of this entry
-I was expecting a `,' or a `}'---line 619 of file /home/gregory/book/nuclear_bib.bib
+I was expecting a `,' or a `}'---line 609 of file /home/gregory/book/nuclear_bib.bib
  :   volume = 16
  :              C,
 I'm skipping whatever remains of this entry
-"{" immediately follows a field name---line 942 of file /home/gregory/book/nuclear_bib.bib
- :   editor =       {{Morinaga H.}},@article
- :                                          {LENSKE2001187,
+Repeated entry---line 971 of file /home/gregory/book/nuclear_bib.bib
+ : @inproceedings{Bes:77
+ :                      ,
 I'm skipping whatever remains of this entry
-"{" immediately follows a field name---line 985 of file /home/gregory/book/nuclear_bib.bib
- :   year = 1971,@INPROCEEDINGS
- :                             {Bes:77,
-I'm skipping whatever remains of this entry
-"{" immediately follows a field name---line 1102 of file /home/gregory/book/nuclear_bib.bib
- :   BOOKTITLE =    {Le Prix Nobel en 1973},@article
- :                                                  {LENSKE2001187,
-I'm skipping whatever remains of this entry
-"{" immediately follows a field name---line 1308 of file /home/gregory/book/nuclear_bib.bib
- :   number =       {1351},@article
- :                                 {PhysRevC.97.011302,
-I'm skipping whatever remains of this entry
-I was expecting an "="---line 1344 of file /home/gregory/book/nuclear_bib.bib
- : 
- : pages = "685",
-(Error may have been on previous line)
-I'm skipping whatever remains of this entry
-"{" immediately follows a field name---line 1798 of file /home/gregory/book/nuclear_bib.bib
- :   YEAR =         {1979},@article
- :                                 {PhysRevLett.121.082501,
-I'm skipping whatever remains of this entry
-Repeated entry---line 2569 of file /home/gregory/book/nuclear_bib.bib
+Repeated entry---line 2513 of file /home/gregory/book/nuclear_bib.bib
  : @article{Zinser:95
  :                   ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 2916 of file /home/gregory/book/nuclear_bib.bib
+Repeated entry---line 2860 of file /home/gregory/book/nuclear_bib.bib
  : @book{Mayer:55
  :               ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 2939 of file /home/gregory/book/nuclear_bib.bib
+Repeated entry---line 2883 of file /home/gregory/book/nuclear_bib.bib
  : @article{Koning:03
  :                   ,
 I'm skipping whatever remains of this entry
-You're missing a field name---line 3137 of file /home/gregory/book/nuclear_bib.bib
+You're missing a field name---line 3082 of file /home/gregory/book/nuclear_bib.bib
  : year = {1973},
  :               ,
 I'm skipping whatever remains of this entry
-"{" immediately follows a field name---line 3759 of file /home/gregory/book/nuclear_bib.bib
- : @article{Pauli:27,@inbook
- :                          {Glauber:59,
-I'm skipping whatever remains of this entry
 Warning--I'm ignoring Pauli:47's extra "year" field
---line 3965 of file /home/gregory/book/nuclear_bib.bib
-"{" immediately follows a field name---line 4088 of file /home/gregory/book/nuclear_bib.bib
+--line 3905 of file /home/gregory/book/nuclear_bib.bib
+"{" immediately follows a field name---line 4028 of file /home/gregory/book/nuclear_bib.bib
  : @article{Schmid:66,@article
  :                            {Jenning:11,
 I'm skipping whatever remains of this entry
-"{" immediately follows a field name---line 4115 of file /home/gregory/book/nuclear_bib.bib
- : year = {2013},@BOOK
- :                    {Pauli:47,
+Repeated entry---line 4050 of file /home/gregory/book/nuclear_bib.bib
+ : @book{Pauli:47
+ :               ,
 I'm skipping whatever remains of this entry
 Warning--I'm ignoring Shimizu:13's extra "year" field
---line 4205 of file /home/gregory/book/nuclear_bib.bib
-Repeated entry---line 4453 of file /home/gregory/book/nuclear_bib.bib
+--line 4147 of file /home/gregory/book/nuclear_bib.bib
+Repeated entry---line 4407 of file /home/gregory/book/nuclear_bib.bib
  : @article{Thompson:88
  :                     ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 4478 of file /home/gregory/book/nuclear_bib.bib
+Repeated entry---line 4432 of file /home/gregory/book/nuclear_bib.bib
  : @article{Barranco:99
  :                     ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 4703 of file /home/gregory/book/nuclear_bib.bib
+Repeated entry---line 4657 of file /home/gregory/book/nuclear_bib.bib
  : @article{Bortignon:83
  :                      ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 4796 of file /home/gregory/book/nuclear_bib.bib
+Repeated entry---line 4750 of file /home/gregory/book/nuclear_bib.bib
  : @article{Sackett:93
  :                    ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 4937 of file /home/gregory/book/nuclear_bib.bib
+Repeated entry---line 4891 of file /home/gregory/book/nuclear_bib.bib
  : @book{DeGennes:94
  :                  ,
 I'm skipping whatever remains of this entry
-I was expecting a `,' or a `}'---line 4995 of file /home/gregory/book/nuclear_bib.bib
- :   pages = 210
- :              (R),
-I'm skipping whatever remains of this entry
-"{" immediately follows a field name---line 5495 of file /home/gregory/book/nuclear_bib.bib
+"{" immediately follows a field name---line 5449 of file /home/gregory/book/nuclear_bib.bib
  : journal = {Phys. Lett. B},@article
  :                                   {Thompson:04,
 I'm skipping whatever remains of this entry
-Repeated entry---line 5519 of file /home/gregory/book/nuclear_bib.bib
+Repeated entry---line 5473 of file /home/gregory/book/nuclear_bib.bib
  : @article{Lanford:73
  :                    ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 6140 of file /home/gregory/book/nuclear_bib.bib
+Repeated entry---line 6096 of file /home/gregory/book/nuclear_bib.bib
  : @article{Kroll:49
  :                  ,
 I'm skipping whatever remains of this entry
 Reallocated str_pool (elt_size=1) to 130000 items from 65000.
-"{" immediately follows a field name---line 6589 of file /home/gregory/book/nuclear_bib.bib
+"{" immediately follows a field name---line 6552 of file /home/gregory/book/nuclear_bib.bib
  :   year = {2017},@article
  :                         {PhysRevLett.95.232502,
 I'm skipping whatever remains of this entry
-Repeated entry---line 6708 of file /home/gregory/book/nuclear_bib.bib
+Repeated entry---line 6672 of file /home/gregory/book/nuclear_bib.bib
  : @article{Rosner:17
  :                   ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 6799 of file /home/gregory/book/nuclear_bib.bib
+Repeated entry---line 6763 of file /home/gregory/book/nuclear_bib.bib
  :   @article{Boersma:96
  :                      ,
 I'm skipping whatever remains of this entry
-You're missing a field name---line 7683 of file /home/gregory/book/nuclear_bib.bib
+You're missing a field name---line 7628 of file /home/gregory/book/nuclear_bib.bib
  :  year = {2007},
  :                ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 7700 of file /home/gregory/book/nuclear_bib.bib
+Repeated entry---line 7645 of file /home/gregory/book/nuclear_bib.bib
  : @article{Montanari:14
  :                      ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 7939 of file /home/gregory/book/nuclear_bib.bib
+Repeated entry---line 7876 of file /home/gregory/book/nuclear_bib.bib
  : @article{Schiffer:12
  :                     ,
 I'm skipping whatever remains of this entry
-I was expecting an "="---line 8035 of file /home/gregory/book/nuclear_bib.bib
+I was expecting an "="---line 7971 of file /home/gregory/book/nuclear_bib.bib
  :  
  :  numpages = {8},
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
-Repeated entry---line 8600 of file /home/gregory/book/nuclear_bib.bib
+Repeated entry---line 8534 of file /home/gregory/book/nuclear_bib.bib
  : @article{Lundeen:81
  :                    ,
 I'm skipping whatever remains of this entry
-"{" immediately follows a field part---line 8657 of file /home/gregory/book/nuclear_bib.bib
- :  volume = @article
- :                   {dirac1928quantum,
-I'm skipping whatever remains of this entry
-Repeated entry---line 8766 of file /home/gregory/book/nuclear_bib.bib
+Repeated entry---line 8668 of file /home/gregory/book/nuclear_bib.bib
  : @article{Lanford:73
  :                    ,
 I'm skipping whatever remains of this entry
 Warning--I didn't find a database entry for "Meissner:14"
 Warning--I didn't find a database entry for "VanWitsen:14"
-Warning--to sort, need author or key in Pauli:27
 Name 1 in "R. A. Broglia, and P. F. Bortignon, and F. Barranco, and E. Vigezzi, and A. Idini, and G. Potel" has a comma at the end for entry Broglia:16
 while executing---line 1347 of file abbrvnat.bst
 Name 1 in "R. A. Broglia, and P. F. Bortignon, and F. Barranco, and E. Vigezzi, and A. Idini, and G. Potel" has a comma at the end for entry Broglia:16
@@ -211,22 +145,19 @@ Name 4 in "R. A. Broglia, and P. F. Bortignon, and F. Barranco, and E. Vigezzi, 
 while executing---line 1347 of file abbrvnat.bst
 Name 5 in "R. A. Broglia, and P. F. Bortignon, and F. Barranco, and E. Vigezzi, and A. Idini, and G. Potel" has a comma at the end for entry Broglia:16
 while executing---line 1347 of file abbrvnat.bst
-Name 3 in "{Bjerregaard, J. H.} and Hansen, O. and Nathan, and Hinds, S." has a comma at the end for entry Bjerregaard:66b
+Name 1 in "Broglia, R. A., and C. Riedel and B. {S\o{}rensen}" has a comma at the end for entry Broglia:68
 while executing---line 1347 of file abbrvnat.bst
-Warning--to sort, need author or key in Yoshida:62
-Name 1 in "{Broglia, R.A.}, and C. Riedel and B. {S\o{}rensen}" has a comma at the end for entry Broglia:68
+Name 1 in "Broglia, R. A., and C. Riedel and B. {S\o{}rensen}" has a comma at the end for entry Broglia:68
 while executing---line 1347 of file abbrvnat.bst
-Name 1 in "{Broglia, R.A.}, and C. Riedel and B. {S\o{}rensen}" has a comma at the end for entry Broglia:68
+Name 1 in "R. A. Broglia, and F. Barranco, and A. Idini, and G. Potel, and E. Vigezzi" has a comma at the end for entry Broglia:19
 while executing---line 1347 of file abbrvnat.bst
-Name 1 in "R.A. Broglia, and F. Barranco, and A. Idini, and G. Potel, and E. Vigezzi" has a comma at the end for entry Broglia:19
+Name 1 in "R. A. Broglia, and F. Barranco, and A. Idini, and G. Potel, and E. Vigezzi" has a comma at the end for entry Broglia:19
 while executing---line 1347 of file abbrvnat.bst
-Name 1 in "R.A. Broglia, and F. Barranco, and A. Idini, and G. Potel, and E. Vigezzi" has a comma at the end for entry Broglia:19
+Name 2 in "R. A. Broglia, and F. Barranco, and A. Idini, and G. Potel, and E. Vigezzi" has a comma at the end for entry Broglia:19
 while executing---line 1347 of file abbrvnat.bst
-Name 2 in "R.A. Broglia, and F. Barranco, and A. Idini, and G. Potel, and E. Vigezzi" has a comma at the end for entry Broglia:19
+Name 3 in "R. A. Broglia, and F. Barranco, and A. Idini, and G. Potel, and E. Vigezzi" has a comma at the end for entry Broglia:19
 while executing---line 1347 of file abbrvnat.bst
-Name 3 in "R.A. Broglia, and F. Barranco, and A. Idini, and G. Potel, and E. Vigezzi" has a comma at the end for entry Broglia:19
-while executing---line 1347 of file abbrvnat.bst
-Name 4 in "R.A. Broglia, and F. Barranco, and A. Idini, and G. Potel, and E. Vigezzi" has a comma at the end for entry Broglia:19
+Name 4 in "R. A. Broglia, and F. Barranco, and A. Idini, and G. Potel, and E. Vigezzi" has a comma at the end for entry Broglia:19
 while executing---line 1347 of file abbrvnat.bst
 Name 1 in "G. Col\`{o}, and N. Van Giai, and P. F. Bortignon, and M. R. Quaglia" has a comma at the end for entry Colo:00
 while executing---line 1347 of file abbrvnat.bst
@@ -236,23 +167,23 @@ Name 2 in "G. Col\`{o}, and N. Van Giai, and P. F. Bortignon, and M. R. Quaglia"
 while executing---line 1347 of file abbrvnat.bst
 Name 3 in "G. Col\`{o}, and N. Van Giai, and P. F. Bortignon, and M. R. Quaglia" has a comma at the end for entry Colo:00
 while executing---line 1347 of file abbrvnat.bst
-Name 2 in "{Guazzoni, P.} and M. Jaskola, and L. Zetta, and A. Covello, and A. Gargano, and Y. Eisermann, and G. Graw, and R. Hertenberger, and A. Metz, and F. Nuoffer, and G. Staudt" has a comma at the end for entry Guazzoni:99
+Name 2 in "Guazzoni, P. and M. Jaskola, and L. Zetta, and A. Covello, and A. Gargano, and Y. Eisermann, and G. Graw, and R. Hertenberger, and A. Metz, and F. Nuoffer, and G. Staudt" has a comma at the end for entry Guazzoni:99
 while executing---line 1347 of file abbrvnat.bst
-Name 3 in "{Guazzoni, P.} and M. Jaskola, and L. Zetta, and A. Covello, and A. Gargano, and Y. Eisermann, and G. Graw, and R. Hertenberger, and A. Metz, and F. Nuoffer, and G. Staudt" has a comma at the end for entry Guazzoni:99
+Name 3 in "Guazzoni, P. and M. Jaskola, and L. Zetta, and A. Covello, and A. Gargano, and Y. Eisermann, and G. Graw, and R. Hertenberger, and A. Metz, and F. Nuoffer, and G. Staudt" has a comma at the end for entry Guazzoni:99
 while executing---line 1347 of file abbrvnat.bst
-Name 4 in "{Guazzoni, P.} and M. Jaskola, and L. Zetta, and A. Covello, and A. Gargano, and Y. Eisermann, and G. Graw, and R. Hertenberger, and A. Metz, and F. Nuoffer, and G. Staudt" has a comma at the end for entry Guazzoni:99
+Name 4 in "Guazzoni, P. and M. Jaskola, and L. Zetta, and A. Covello, and A. Gargano, and Y. Eisermann, and G. Graw, and R. Hertenberger, and A. Metz, and F. Nuoffer, and G. Staudt" has a comma at the end for entry Guazzoni:99
 while executing---line 1347 of file abbrvnat.bst
-Name 5 in "{Guazzoni, P.} and M. Jaskola, and L. Zetta, and A. Covello, and A. Gargano, and Y. Eisermann, and G. Graw, and R. Hertenberger, and A. Metz, and F. Nuoffer, and G. Staudt" has a comma at the end for entry Guazzoni:99
+Name 5 in "Guazzoni, P. and M. Jaskola, and L. Zetta, and A. Covello, and A. Gargano, and Y. Eisermann, and G. Graw, and R. Hertenberger, and A. Metz, and F. Nuoffer, and G. Staudt" has a comma at the end for entry Guazzoni:99
 while executing---line 1347 of file abbrvnat.bst
-Name 6 in "{Guazzoni, P.} and M. Jaskola, and L. Zetta, and A. Covello, and A. Gargano, and Y. Eisermann, and G. Graw, and R. Hertenberger, and A. Metz, and F. Nuoffer, and G. Staudt" has a comma at the end for entry Guazzoni:99
+Name 6 in "Guazzoni, P. and M. Jaskola, and L. Zetta, and A. Covello, and A. Gargano, and Y. Eisermann, and G. Graw, and R. Hertenberger, and A. Metz, and F. Nuoffer, and G. Staudt" has a comma at the end for entry Guazzoni:99
 while executing---line 1347 of file abbrvnat.bst
-Name 7 in "{Guazzoni, P.} and M. Jaskola, and L. Zetta, and A. Covello, and A. Gargano, and Y. Eisermann, and G. Graw, and R. Hertenberger, and A. Metz, and F. Nuoffer, and G. Staudt" has a comma at the end for entry Guazzoni:99
+Name 7 in "Guazzoni, P. and M. Jaskola, and L. Zetta, and A. Covello, and A. Gargano, and Y. Eisermann, and G. Graw, and R. Hertenberger, and A. Metz, and F. Nuoffer, and G. Staudt" has a comma at the end for entry Guazzoni:99
 while executing---line 1347 of file abbrvnat.bst
-Name 8 in "{Guazzoni, P.} and M. Jaskola, and L. Zetta, and A. Covello, and A. Gargano, and Y. Eisermann, and G. Graw, and R. Hertenberger, and A. Metz, and F. Nuoffer, and G. Staudt" has a comma at the end for entry Guazzoni:99
+Name 8 in "Guazzoni, P. and M. Jaskola, and L. Zetta, and A. Covello, and A. Gargano, and Y. Eisermann, and G. Graw, and R. Hertenberger, and A. Metz, and F. Nuoffer, and G. Staudt" has a comma at the end for entry Guazzoni:99
 while executing---line 1347 of file abbrvnat.bst
-Name 9 in "{Guazzoni, P.} and M. Jaskola, and L. Zetta, and A. Covello, and A. Gargano, and Y. Eisermann, and G. Graw, and R. Hertenberger, and A. Metz, and F. Nuoffer, and G. Staudt" has a comma at the end for entry Guazzoni:99
+Name 9 in "Guazzoni, P. and M. Jaskola, and L. Zetta, and A. Covello, and A. Gargano, and Y. Eisermann, and G. Graw, and R. Hertenberger, and A. Metz, and F. Nuoffer, and G. Staudt" has a comma at the end for entry Guazzoni:99
 while executing---line 1347 of file abbrvnat.bst
-Name 10 in "{Guazzoni, P.} and M. Jaskola, and L. Zetta, and A. Covello, and A. Gargano, and Y. Eisermann, and G. Graw, and R. Hertenberger, and A. Metz, and F. Nuoffer, and G. Staudt" has a comma at the end for entry Guazzoni:99
+Name 10 in "Guazzoni, P. and M. Jaskola, and L. Zetta, and A. Covello, and A. Gargano, and Y. Eisermann, and G. Graw, and R. Hertenberger, and A. Metz, and F. Nuoffer, and G. Staudt" has a comma at the end for entry Guazzoni:99
 while executing---line 1347 of file abbrvnat.bst
 Name 1 in "Saperstein, E. E., and Baldo, M." has a comma at the end for entry Saperstein:12
 while executing---line 1347 of file abbrvnat.bst
@@ -280,45 +211,17 @@ Name 1 in "A. Repko, and P. G. Reinhard, and V. O. Nesterenko and J. Kvasil" has
 while executing---line 1347 of file abbrvnat.bst
 Name 2 in "A. Repko, and P. G. Reinhard, and V. O. Nesterenko and J. Kvasil" has a comma at the end for entry Repko:13
 while executing---line 1347 of file abbrvnat.bst
-Warning--empty author in Pauli:27
-Warning--empty title in Pauli:27
-Warning--empty journal in Pauli:27
-Warning--empty year in Pauli:27
-Warning--empty year in Pauli:27
-Warning--empty author in Yoshida:62
-Warning--empty year in Yoshida:62
-Warning--empty year in Yoshida:62
-Warning--can't use both author and editor fields in Ambegaokar:69
 Warning--can't use both author and editor fields in Ashcroft:87
-Warning--empty title in Bayman:71
-Warning--empty journal in Bayman:71
 Name 1 in "R. A. Broglia, and R. A. Ricci, and C. H. Dasso" has a comma at the end for entry Bernard:81
 while executing---line 1429 of file abbrvnat.bst
 Name 2 in "R. A. Broglia, and R. A. Ricci, and C. H. Dasso" has a comma at the end for entry Bernard:81
 while executing---line 1429 of file abbrvnat.bst
-Name 3 in "{Bjerregaard, J. H.} and Hansen, O. and Nathan, and Hinds, S." has a comma at the end for entry Bjerregaard:66b
-while executing---line 1429 of file abbrvnat.bst
-Name 3 in "{Bjerregaard, J. H.} and Hansen, O. and Nathan, and Hinds, S." has a comma at the end for entry Bjerregaard:66b
-while executing---line 1429 of file abbrvnat.bst
 Warning--empty note in Bohr:63
 Warning--empty publisher in Brink:55
-Name 1 in "R.A. Broglia, and F. Barranco, and A. Idini, and G. Potel, and E. Vigezzi" has a comma at the end for entry Broglia:19
+Name 1 in "Broglia, R. A., and C. Riedel and B. {S\o{}rensen}" has a comma at the end for entry Broglia:68
 while executing---line 1429 of file abbrvnat.bst
-Name 2 in "R.A. Broglia, and F. Barranco, and A. Idini, and G. Potel, and E. Vigezzi" has a comma at the end for entry Broglia:19
+Name 1 in "Broglia, R. A., and C. Riedel and B. {S\o{}rensen}" has a comma at the end for entry Broglia:68
 while executing---line 1429 of file abbrvnat.bst
-Name 3 in "R.A. Broglia, and F. Barranco, and A. Idini, and G. Potel, and E. Vigezzi" has a comma at the end for entry Broglia:19
-while executing---line 1429 of file abbrvnat.bst
-Name 4 in "R.A. Broglia, and F. Barranco, and A. Idini, and G. Potel, and E. Vigezzi" has a comma at the end for entry Broglia:19
-while executing---line 1429 of file abbrvnat.bst
-Name 1 in "R.A. Broglia, and F. Barranco, and A. Idini, and G. Potel, and E. Vigezzi" has a comma at the end for entry Broglia:19
-while executing---line 1429 of file abbrvnat.bst
-Name 2 in "R.A. Broglia, and F. Barranco, and A. Idini, and G. Potel, and E. Vigezzi" has a comma at the end for entry Broglia:19
-while executing---line 1429 of file abbrvnat.bst
-Name 3 in "R.A. Broglia, and F. Barranco, and A. Idini, and G. Potel, and E. Vigezzi" has a comma at the end for entry Broglia:19
-while executing---line 1429 of file abbrvnat.bst
-Name 4 in "R.A. Broglia, and F. Barranco, and A. Idini, and G. Potel, and E. Vigezzi" has a comma at the end for entry Broglia:19
-while executing---line 1429 of file abbrvnat.bst
-Warning--empty booktitle in Broglia:81c
 Name 1 in "R. A. Broglia, and P. F. Bortignon, and F. Barranco, and E. Vigezzi, and A. Idini, and G. Potel" has a comma at the end for entry Broglia:16
 while executing---line 1429 of file abbrvnat.bst
 Name 2 in "R. A. Broglia, and P. F. Bortignon, and F. Barranco, and E. Vigezzi, and A. Idini, and G. Potel" has a comma at the end for entry Broglia:16
@@ -339,9 +242,21 @@ Name 4 in "R. A. Broglia, and P. F. Bortignon, and F. Barranco, and E. Vigezzi, 
 while executing---line 1429 of file abbrvnat.bst
 Name 5 in "R. A. Broglia, and P. F. Bortignon, and F. Barranco, and E. Vigezzi, and A. Idini, and G. Potel" has a comma at the end for entry Broglia:16
 while executing---line 1429 of file abbrvnat.bst
-Name 1 in "{Broglia, R.A.}, and C. Riedel and B. {S\o{}rensen}" has a comma at the end for entry Broglia:68
+Name 1 in "R. A. Broglia, and F. Barranco, and A. Idini, and G. Potel, and E. Vigezzi" has a comma at the end for entry Broglia:19
 while executing---line 1429 of file abbrvnat.bst
-Name 1 in "{Broglia, R.A.}, and C. Riedel and B. {S\o{}rensen}" has a comma at the end for entry Broglia:68
+Name 2 in "R. A. Broglia, and F. Barranco, and A. Idini, and G. Potel, and E. Vigezzi" has a comma at the end for entry Broglia:19
+while executing---line 1429 of file abbrvnat.bst
+Name 3 in "R. A. Broglia, and F. Barranco, and A. Idini, and G. Potel, and E. Vigezzi" has a comma at the end for entry Broglia:19
+while executing---line 1429 of file abbrvnat.bst
+Name 4 in "R. A. Broglia, and F. Barranco, and A. Idini, and G. Potel, and E. Vigezzi" has a comma at the end for entry Broglia:19
+while executing---line 1429 of file abbrvnat.bst
+Name 1 in "R. A. Broglia, and F. Barranco, and A. Idini, and G. Potel, and E. Vigezzi" has a comma at the end for entry Broglia:19
+while executing---line 1429 of file abbrvnat.bst
+Name 2 in "R. A. Broglia, and F. Barranco, and A. Idini, and G. Potel, and E. Vigezzi" has a comma at the end for entry Broglia:19
+while executing---line 1429 of file abbrvnat.bst
+Name 3 in "R. A. Broglia, and F. Barranco, and A. Idini, and G. Potel, and E. Vigezzi" has a comma at the end for entry Broglia:19
+while executing---line 1429 of file abbrvnat.bst
+Name 4 in "R. A. Broglia, and F. Barranco, and A. Idini, and G. Potel, and E. Vigezzi" has a comma at the end for entry Broglia:19
 while executing---line 1429 of file abbrvnat.bst
 Warning--empty title in Brown:07
 Name 1 in "G. Col\`{o}, and N. Van Giai, and P. F. Bortignon, and M. R. Quaglia" has a comma at the end for entry Colo:00
@@ -360,55 +275,48 @@ Warning--empty booktitle in deBoer:57
 Warning--empty publisher in deBoer:57
 Warning--empty booktitle in deHeer:87
 Warning--empty publisher in deHeer:87
-Warning--empty title in Debye:20
-Warning--empty title in Debye:21
 Warning--empty year in Dussel:09
 Warning--empty year in Dussel:09
-Warning--empty year in Feynman:49
-Warning--empty year in Feynman:49
 Warning--empty publisher in Giaver:73
 Warning--empty title in Glauber:69
-Warning--can't use both author and editor fields in Gorkov:12
-Warning--empty chapter and pages in Gorkov:12
-Name 2 in "{Guazzoni, P.} and M. Jaskola, and L. Zetta, and A. Covello, and A. Gargano, and Y. Eisermann, and G. Graw, and R. Hertenberger, and A. Metz, and F. Nuoffer, and G. Staudt" has a comma at the end for entry Guazzoni:99
+Name 2 in "Guazzoni, P. and M. Jaskola, and L. Zetta, and A. Covello, and A. Gargano, and Y. Eisermann, and G. Graw, and R. Hertenberger, and A. Metz, and F. Nuoffer, and G. Staudt" has a comma at the end for entry Guazzoni:99
 while executing---line 1429 of file abbrvnat.bst
-Name 3 in "{Guazzoni, P.} and M. Jaskola, and L. Zetta, and A. Covello, and A. Gargano, and Y. Eisermann, and G. Graw, and R. Hertenberger, and A. Metz, and F. Nuoffer, and G. Staudt" has a comma at the end for entry Guazzoni:99
+Name 3 in "Guazzoni, P. and M. Jaskola, and L. Zetta, and A. Covello, and A. Gargano, and Y. Eisermann, and G. Graw, and R. Hertenberger, and A. Metz, and F. Nuoffer, and G. Staudt" has a comma at the end for entry Guazzoni:99
 while executing---line 1429 of file abbrvnat.bst
-Name 4 in "{Guazzoni, P.} and M. Jaskola, and L. Zetta, and A. Covello, and A. Gargano, and Y. Eisermann, and G. Graw, and R. Hertenberger, and A. Metz, and F. Nuoffer, and G. Staudt" has a comma at the end for entry Guazzoni:99
+Name 4 in "Guazzoni, P. and M. Jaskola, and L. Zetta, and A. Covello, and A. Gargano, and Y. Eisermann, and G. Graw, and R. Hertenberger, and A. Metz, and F. Nuoffer, and G. Staudt" has a comma at the end for entry Guazzoni:99
 while executing---line 1429 of file abbrvnat.bst
-Name 5 in "{Guazzoni, P.} and M. Jaskola, and L. Zetta, and A. Covello, and A. Gargano, and Y. Eisermann, and G. Graw, and R. Hertenberger, and A. Metz, and F. Nuoffer, and G. Staudt" has a comma at the end for entry Guazzoni:99
+Name 5 in "Guazzoni, P. and M. Jaskola, and L. Zetta, and A. Covello, and A. Gargano, and Y. Eisermann, and G. Graw, and R. Hertenberger, and A. Metz, and F. Nuoffer, and G. Staudt" has a comma at the end for entry Guazzoni:99
 while executing---line 1429 of file abbrvnat.bst
-Name 6 in "{Guazzoni, P.} and M. Jaskola, and L. Zetta, and A. Covello, and A. Gargano, and Y. Eisermann, and G. Graw, and R. Hertenberger, and A. Metz, and F. Nuoffer, and G. Staudt" has a comma at the end for entry Guazzoni:99
+Name 6 in "Guazzoni, P. and M. Jaskola, and L. Zetta, and A. Covello, and A. Gargano, and Y. Eisermann, and G. Graw, and R. Hertenberger, and A. Metz, and F. Nuoffer, and G. Staudt" has a comma at the end for entry Guazzoni:99
 while executing---line 1429 of file abbrvnat.bst
-Name 7 in "{Guazzoni, P.} and M. Jaskola, and L. Zetta, and A. Covello, and A. Gargano, and Y. Eisermann, and G. Graw, and R. Hertenberger, and A. Metz, and F. Nuoffer, and G. Staudt" has a comma at the end for entry Guazzoni:99
+Name 7 in "Guazzoni, P. and M. Jaskola, and L. Zetta, and A. Covello, and A. Gargano, and Y. Eisermann, and G. Graw, and R. Hertenberger, and A. Metz, and F. Nuoffer, and G. Staudt" has a comma at the end for entry Guazzoni:99
 while executing---line 1429 of file abbrvnat.bst
-Name 8 in "{Guazzoni, P.} and M. Jaskola, and L. Zetta, and A. Covello, and A. Gargano, and Y. Eisermann, and G. Graw, and R. Hertenberger, and A. Metz, and F. Nuoffer, and G. Staudt" has a comma at the end for entry Guazzoni:99
+Name 8 in "Guazzoni, P. and M. Jaskola, and L. Zetta, and A. Covello, and A. Gargano, and Y. Eisermann, and G. Graw, and R. Hertenberger, and A. Metz, and F. Nuoffer, and G. Staudt" has a comma at the end for entry Guazzoni:99
 while executing---line 1429 of file abbrvnat.bst
-Name 9 in "{Guazzoni, P.} and M. Jaskola, and L. Zetta, and A. Covello, and A. Gargano, and Y. Eisermann, and G. Graw, and R. Hertenberger, and A. Metz, and F. Nuoffer, and G. Staudt" has a comma at the end for entry Guazzoni:99
+Name 9 in "Guazzoni, P. and M. Jaskola, and L. Zetta, and A. Covello, and A. Gargano, and Y. Eisermann, and G. Graw, and R. Hertenberger, and A. Metz, and F. Nuoffer, and G. Staudt" has a comma at the end for entry Guazzoni:99
 while executing---line 1429 of file abbrvnat.bst
-Name 10 in "{Guazzoni, P.} and M. Jaskola, and L. Zetta, and A. Covello, and A. Gargano, and Y. Eisermann, and G. Graw, and R. Hertenberger, and A. Metz, and F. Nuoffer, and G. Staudt" has a comma at the end for entry Guazzoni:99
+Name 10 in "Guazzoni, P. and M. Jaskola, and L. Zetta, and A. Covello, and A. Gargano, and Y. Eisermann, and G. Graw, and R. Hertenberger, and A. Metz, and F. Nuoffer, and G. Staudt" has a comma at the end for entry Guazzoni:99
 while executing---line 1429 of file abbrvnat.bst
-Name 2 in "{Guazzoni, P.} and M. Jaskola, and L. Zetta, and A. Covello, and A. Gargano, and Y. Eisermann, and G. Graw, and R. Hertenberger, and A. Metz, and F. Nuoffer, and G. Staudt" has a comma at the end for entry Guazzoni:99
+Name 2 in "Guazzoni, P. and M. Jaskola, and L. Zetta, and A. Covello, and A. Gargano, and Y. Eisermann, and G. Graw, and R. Hertenberger, and A. Metz, and F. Nuoffer, and G. Staudt" has a comma at the end for entry Guazzoni:99
 while executing---line 1429 of file abbrvnat.bst
-Name 3 in "{Guazzoni, P.} and M. Jaskola, and L. Zetta, and A. Covello, and A. Gargano, and Y. Eisermann, and G. Graw, and R. Hertenberger, and A. Metz, and F. Nuoffer, and G. Staudt" has a comma at the end for entry Guazzoni:99
+Name 3 in "Guazzoni, P. and M. Jaskola, and L. Zetta, and A. Covello, and A. Gargano, and Y. Eisermann, and G. Graw, and R. Hertenberger, and A. Metz, and F. Nuoffer, and G. Staudt" has a comma at the end for entry Guazzoni:99
 while executing---line 1429 of file abbrvnat.bst
-Name 4 in "{Guazzoni, P.} and M. Jaskola, and L. Zetta, and A. Covello, and A. Gargano, and Y. Eisermann, and G. Graw, and R. Hertenberger, and A. Metz, and F. Nuoffer, and G. Staudt" has a comma at the end for entry Guazzoni:99
+Name 4 in "Guazzoni, P. and M. Jaskola, and L. Zetta, and A. Covello, and A. Gargano, and Y. Eisermann, and G. Graw, and R. Hertenberger, and A. Metz, and F. Nuoffer, and G. Staudt" has a comma at the end for entry Guazzoni:99
 while executing---line 1429 of file abbrvnat.bst
-Name 5 in "{Guazzoni, P.} and M. Jaskola, and L. Zetta, and A. Covello, and A. Gargano, and Y. Eisermann, and G. Graw, and R. Hertenberger, and A. Metz, and F. Nuoffer, and G. Staudt" has a comma at the end for entry Guazzoni:99
+Name 5 in "Guazzoni, P. and M. Jaskola, and L. Zetta, and A. Covello, and A. Gargano, and Y. Eisermann, and G. Graw, and R. Hertenberger, and A. Metz, and F. Nuoffer, and G. Staudt" has a comma at the end for entry Guazzoni:99
 while executing---line 1429 of file abbrvnat.bst
-Name 6 in "{Guazzoni, P.} and M. Jaskola, and L. Zetta, and A. Covello, and A. Gargano, and Y. Eisermann, and G. Graw, and R. Hertenberger, and A. Metz, and F. Nuoffer, and G. Staudt" has a comma at the end for entry Guazzoni:99
+Name 6 in "Guazzoni, P. and M. Jaskola, and L. Zetta, and A. Covello, and A. Gargano, and Y. Eisermann, and G. Graw, and R. Hertenberger, and A. Metz, and F. Nuoffer, and G. Staudt" has a comma at the end for entry Guazzoni:99
 while executing---line 1429 of file abbrvnat.bst
-Name 7 in "{Guazzoni, P.} and M. Jaskola, and L. Zetta, and A. Covello, and A. Gargano, and Y. Eisermann, and G. Graw, and R. Hertenberger, and A. Metz, and F. Nuoffer, and G. Staudt" has a comma at the end for entry Guazzoni:99
+Name 7 in "Guazzoni, P. and M. Jaskola, and L. Zetta, and A. Covello, and A. Gargano, and Y. Eisermann, and G. Graw, and R. Hertenberger, and A. Metz, and F. Nuoffer, and G. Staudt" has a comma at the end for entry Guazzoni:99
 while executing---line 1429 of file abbrvnat.bst
-Name 8 in "{Guazzoni, P.} and M. Jaskola, and L. Zetta, and A. Covello, and A. Gargano, and Y. Eisermann, and G. Graw, and R. Hertenberger, and A. Metz, and F. Nuoffer, and G. Staudt" has a comma at the end for entry Guazzoni:99
+Name 8 in "Guazzoni, P. and M. Jaskola, and L. Zetta, and A. Covello, and A. Gargano, and Y. Eisermann, and G. Graw, and R. Hertenberger, and A. Metz, and F. Nuoffer, and G. Staudt" has a comma at the end for entry Guazzoni:99
 while executing---line 1429 of file abbrvnat.bst
-Name 9 in "{Guazzoni, P.} and M. Jaskola, and L. Zetta, and A. Covello, and A. Gargano, and Y. Eisermann, and G. Graw, and R. Hertenberger, and A. Metz, and F. Nuoffer, and G. Staudt" has a comma at the end for entry Guazzoni:99
+Name 9 in "Guazzoni, P. and M. Jaskola, and L. Zetta, and A. Covello, and A. Gargano, and Y. Eisermann, and G. Graw, and R. Hertenberger, and A. Metz, and F. Nuoffer, and G. Staudt" has a comma at the end for entry Guazzoni:99
 while executing---line 1429 of file abbrvnat.bst
-Name 10 in "{Guazzoni, P.} and M. Jaskola, and L. Zetta, and A. Covello, and A. Gargano, and Y. Eisermann, and G. Graw, and R. Hertenberger, and A. Metz, and F. Nuoffer, and G. Staudt" has a comma at the end for entry Guazzoni:99
+Name 10 in "Guazzoni, P. and M. Jaskola, and L. Zetta, and A. Covello, and A. Gargano, and Y. Eisermann, and G. Graw, and R. Hertenberger, and A. Metz, and F. Nuoffer, and G. Staudt" has a comma at the end for entry Guazzoni:99
 while executing---line 1429 of file abbrvnat.bst
-Warning--empty title in Kubo:68
-Warning--empty title in LeTourneaux:65
-Warning--empty title in Lindhard:53
+Warning--empty journal in Potel:12b
+Warning--empty journal in Potel:12c
 Name 1 in "A. Repko, and P. G. Reinhard, and V. O. Nesterenko and J. Kvasil" has a comma at the end for entry Repko:13
 while executing---line 1429 of file abbrvnat.bst
 Name 2 in "A. Repko, and P. G. Reinhard, and V. O. Nesterenko and J. Kvasil" has a comma at the end for entry Repko:13
@@ -449,48 +357,46 @@ Name 1 in "Saperstein, E. E., and Baldo, M." has a comma at the end for entry Sa
 while executing---line 1429 of file abbrvnat.bst
 Name 1 in "Saperstein, E. E., and Baldo, M." has a comma at the end for entry Saperstein:12
 while executing---line 1429 of file abbrvnat.bst
-Warning--empty title in Schrodinger:26
 Warning--empty title in Stent:80
-Warning--empty title in Stephens:85
-You've used 508 entries,
+You've used 506 entries,
             2773 wiz_defined-function locations,
-            3365 strings with 79479 characters,
-and the built_in function-call counts, 237815 in all, are:
-= -- 19542
-> -- 16570
-< -- 365
-+ -- 5652
-- -- 5127
-* -- 19385
-:= -- 38306
-add.period$ -- 1562
-call.type$ -- 508
-change.case$ -- 3110
-chr.to.int$ -- 491
-cite$ -- 1056
-duplicate$ -- 10751
-empty$ -- 18324
-format.name$ -- 5863
-if$ -- 49019
-int.to.chr$ -- 18
+            3379 strings with 79814 characters,
+and the built_in function-call counts, 240226 in all, are:
+= -- 19738
+> -- 16952
+< -- 371
++ -- 5774
+- -- 5250
+* -- 19596
+:= -- 38752
+add.period$ -- 1577
+call.type$ -- 506
+change.case$ -- 3155
+chr.to.int$ -- 488
+cite$ -- 1027
+duplicate$ -- 10803
+empty$ -- 18331
+format.name$ -- 5988
+if$ -- 49549
+int.to.chr$ -- 19
 int.to.str$ -- 1
-missing$ -- 583
-newline$ -- 2535
-num.names$ -- 2115
-pop$ -- 6258
+missing$ -- 581
+newline$ -- 2541
+num.names$ -- 2124
+pop$ -- 6291
 preamble$ -- 1
-purify$ -- 2695
+purify$ -- 2730
 quote$ -- 0
-skip$ -- 8106
+skip$ -- 8174
 stack$ -- 0
-substring$ -- 5195
-swap$ -- 798
-text.length$ -- 45
+substring$ -- 5175
+swap$ -- 846
+text.length$ -- 53
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 5193
-warning$ -- 38
-while$ -- 1964
+type$ -- 5176
+warning$ -- 15
+while$ -- 1974
 width$ -- 0
-write$ -- 6639
-(There were 152 error messages)
+write$ -- 6668
+(There were 133 error messages)

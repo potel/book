@@ -1,101 +1,88 @@
 This is BibTeX, Version 0.99d (TeX Live 2019/Debian)
 Capacity: max_strings=100000, hash_size=100000, hash_prime=85009
 The top-level auxiliary file: introduccion.aux
+Illegal, another \bibdata command---line 295 of file introduccion.aux
+ : \bibdata
+ :         {/home/gregory/book/nuclear_bib.bib}
+I'm skipping whatever remains of this command
+Illegal, another \bibdata command---line 340 of file introduccion.aux
+ : \bibdata
+ :         {/home/gregory/book/nuclear_bib.bib}
+I'm skipping whatever remains of this command
+White space in argument---line 415 of file introduccion.aux
+ : \citation{Feshbach:58,Feshbach:62,Jackson:70,Jeukenne:76,Sartor:80,Pollarolo:83,Satchler:83,Broglia:04a,Dickhoff:05,Montanari:14
+ :                                                                                                                                  ,Dickhoff:17}
+I'm skipping whatever remains of this command
 The style file: abbrvnat.bst
-Database file #1: ../nuclear_bib.bib
-"{" immediately follows a field name---line 306 of file ../nuclear_bib.bib
+Illegal, another \bibdata command---line 613 of file introduccion.aux
+ : \bibdata
+ :         {../nuclear_bib.bib}
+I'm skipping whatever remains of this command
+Database file #1: /home/gregory/book/nuclear_bib.bib
+"{" immediately follows a field name---line 296 of file /home/gregory/book/nuclear_bib.bib
  :   volume = 1,$^
  :                {116}$Sn+$^{60}$Ni$\to^{114}$Sn+$^{62}$Ni
 I'm skipping whatever remains of this entry
-I was expecting a `,' or a `}'---line 619 of file ../nuclear_bib.bib
+I was expecting a `,' or a `}'---line 609 of file /home/gregory/book/nuclear_bib.bib
  :   volume = 16
  :              C,
 I'm skipping whatever remains of this entry
-"{" immediately follows a field name---line 942 of file ../nuclear_bib.bib
- :   editor =       {{Morinaga H.}},@article
- :                                          {LENSKE2001187,
+Repeated entry---line 971 of file /home/gregory/book/nuclear_bib.bib
+ : @inproceedings{Bes:77
+ :                      ,
 I'm skipping whatever remains of this entry
-"{" immediately follows a field name---line 985 of file ../nuclear_bib.bib
- :   year = 1971,@INPROCEEDINGS
- :                             {Bes:77,
-I'm skipping whatever remains of this entry
-"{" immediately follows a field name---line 1102 of file ../nuclear_bib.bib
- :   BOOKTITLE =    {Le Prix Nobel en 1973},@article
- :                                                  {LENSKE2001187,
-I'm skipping whatever remains of this entry
-"{" immediately follows a field name---line 1308 of file ../nuclear_bib.bib
- :   number =       {1351},@article
- :                                 {PhysRevC.97.011302,
-I'm skipping whatever remains of this entry
-I was expecting an "="---line 1344 of file ../nuclear_bib.bib
- : 
- : pages = "685",
-(Error may have been on previous line)
-I'm skipping whatever remains of this entry
-"{" immediately follows a field name---line 1798 of file ../nuclear_bib.bib
- :   YEAR =         {1979},@article
- :                                 {PhysRevLett.121.082501,
-I'm skipping whatever remains of this entry
-Repeated entry---line 2569 of file ../nuclear_bib.bib
+Repeated entry---line 2516 of file /home/gregory/book/nuclear_bib.bib
  : @article{Zinser:95
  :                   ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 2916 of file ../nuclear_bib.bib
+Repeated entry---line 2863 of file /home/gregory/book/nuclear_bib.bib
  : @book{Mayer:55
  :               ,
 I'm skipping whatever remains of this entry
-You're missing a field name---line 3137 of file ../nuclear_bib.bib
+You're missing a field name---line 3084 of file /home/gregory/book/nuclear_bib.bib
  : year = {1973},
  :               ,
 I'm skipping whatever remains of this entry
-"{" immediately follows a field name---line 3759 of file ../nuclear_bib.bib
- : @article{Pauli:27,@inbook
- :                          {Glauber:59,
-I'm skipping whatever remains of this entry
-"{" immediately follows a field name---line 4088 of file ../nuclear_bib.bib
+"{" immediately follows a field name---line 4031 of file /home/gregory/book/nuclear_bib.bib
  : @article{Schmid:66,@article
  :                            {Jenning:11,
 I'm skipping whatever remains of this entry
-"{" immediately follows a field name---line 4115 of file ../nuclear_bib.bib
+"{" immediately follows a field name---line 4058 of file /home/gregory/book/nuclear_bib.bib
  : year = {2013},@BOOK
  :                    {Pauli:47,
 I'm skipping whatever remains of this entry
-Repeated entry---line 4796 of file ../nuclear_bib.bib
+Repeated entry---line 4739 of file /home/gregory/book/nuclear_bib.bib
  : @article{Sackett:93
  :                    ,
 I'm skipping whatever remains of this entry
-I was expecting a `,' or a `}'---line 4995 of file ../nuclear_bib.bib
+I was expecting a `,' or a `}'---line 4938 of file /home/gregory/book/nuclear_bib.bib
  :   pages = 210
  :              (R),
 I'm skipping whatever remains of this entry
-"{" immediately follows a field name---line 5495 of file ../nuclear_bib.bib
+"{" immediately follows a field name---line 5438 of file /home/gregory/book/nuclear_bib.bib
  : journal = {Phys. Lett. B},@article
  :                                   {Thompson:04,
 I'm skipping whatever remains of this entry
-Repeated entry---line 6140 of file ../nuclear_bib.bib
+Repeated entry---line 6083 of file /home/gregory/book/nuclear_bib.bib
  : @article{Kroll:49
  :                  ,
 I'm skipping whatever remains of this entry
-"{" immediately follows a field name---line 6589 of file ../nuclear_bib.bib
+"{" immediately follows a field name---line 6532 of file /home/gregory/book/nuclear_bib.bib
  :   year = {2017},@article
  :                         {PhysRevLett.95.232502,
 I'm skipping whatever remains of this entry
-You're missing a field name---line 7673 of file ../nuclear_bib.bib
+You're missing a field name---line 7626 of file /home/gregory/book/nuclear_bib.bib
  :  year = {2007},
  :                ,
 I'm skipping whatever remains of this entry
-"{" immediately follows a field name---line 7934 of file ../nuclear_bib.bib
+"{" immediately follows a field name---line 7878 of file /home/gregory/book/nuclear_bib.bib
  :  issue = {2},@article
  :                      {PhysRev.78.182,
 I'm skipping whatever remains of this entry
-I was expecting an "="---line 8029 of file ../nuclear_bib.bib
+I was expecting an "="---line 7969 of file /home/gregory/book/nuclear_bib.bib
  :  
  :  numpages = {8},
 (Error may have been on previous line)
-I'm skipping whatever remains of this entry
-"{" immediately follows a field part---line 8650 of file ../nuclear_bib.bib
- :  volume = @article
- :                   {dirac1928quantum,
 I'm skipping whatever remains of this entry
 Name 1 in "R. A. Broglia, and P. F. Bortignon, and F. Barranco, and E. Vigezzi, and A. Idini, and G. Potel" has a comma at the end for entry Broglia:16
 while executing---line 1347 of file abbrvnat.bst
@@ -111,7 +98,6 @@ Name 5 in "R. A. Broglia, and P. F. Bortignon, and F. Barranco, and E. Vigezzi, 
 while executing---line 1347 of file abbrvnat.bst
 Name 3 in "{Bjerregaard, J. H.} and Hansen, O. and Nathan, and Hinds, S." has a comma at the end for entry Bjerregaard:66b
 while executing---line 1347 of file abbrvnat.bst
-Warning--to sort, need author or key in Yoshida:62
 Name 1 in "{Broglia, R.A.}, and C. Riedel and B. {S\o{}rensen}" has a comma at the end for entry Broglia:68
 while executing---line 1347 of file abbrvnat.bst
 Name 1 in "{Broglia, R.A.}, and C. Riedel and B. {S\o{}rensen}" has a comma at the end for entry Broglia:68
@@ -134,9 +120,6 @@ Name 2 in "G. Col\`{o}, and N. Van Giai, and P. F. Bortignon, and M. R. Quaglia"
 while executing---line 1347 of file abbrvnat.bst
 Name 3 in "G. Col\`{o}, and N. Van Giai, and P. F. Bortignon, and M. R. Quaglia" has a comma at the end for entry Colo:00
 while executing---line 1347 of file abbrvnat.bst
-Warning--empty author in Yoshida:62
-Warning--empty year in Yoshida:62
-Warning--empty year in Yoshida:62
 Name 1 in "R. A. Broglia, and R. A. Ricci, and C. H. Dasso" has a comma at the end for entry Bernard:81
 while executing---line 1429 of file abbrvnat.bst
 Name 2 in "R. A. Broglia, and R. A. Ricci, and C. H. Dasso" has a comma at the end for entry Bernard:81
@@ -201,43 +184,43 @@ Warning--can't use both author and editor fields in Gorkov:12
 Warning--empty chapter and pages in Gorkov:12
 You've used 131 entries,
             2773 wiz_defined-function locations,
-            1398 strings with 26510 characters,
-and the built_in function-call counts, 65673 in all, are:
-= -- 5252
-> -- 5189
-< -- 80
-+ -- 1762
+            1396 strings with 26299 characters,
+and the built_in function-call counts, 65750 in all, are:
+= -- 5260
+> -- 5190
+< -- 82
++ -- 1763
 - -- 1625
-* -- 5601
-:= -- 10701
-add.period$ -- 405
+* -- 5600
+:= -- 10727
+add.period$ -- 406
 call.type$ -- 131
 change.case$ -- 899
-chr.to.int$ -- 125
-cite$ -- 269
-duplicate$ -- 2744
-empty$ -- 4643
-format.name$ -- 1809
-if$ -- 13366
-int.to.chr$ -- 7
+chr.to.int$ -- 124
+cite$ -- 264
+duplicate$ -- 2745
+empty$ -- 4649
+format.name$ -- 1812
+if$ -- 13380
+int.to.chr$ -- 8
 int.to.str$ -- 1
 missing$ -- 162
-newline$ -- 666
-num.names$ -- 534
-pop$ -- 1821
+newline$ -- 667
+num.names$ -- 538
+pop$ -- 1812
 preamble$ -- 1
 purify$ -- 799
 quote$ -- 0
-skip$ -- 2158
+skip$ -- 2157
 stack$ -- 0
-substring$ -- 1217
-swap$ -- 191
+substring$ -- 1234
+swap$ -- 194
 text.length$ -- 9
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 1286
-warning$ -- 6
-while$ -- 489
+warning$ -- 2
+while$ -- 494
 width$ -- 0
-write$ -- 1725
-(There were 71 error messages)
+write$ -- 1729
+(There were 68 error messages)

@@ -1,4 +1,4 @@
-\begin{thebibliography}{506}
+\begin{thebibliography}{512}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \expandafter\ifx\csname urlstyle\endcsname\relax
@@ -10,13 +10,6 @@ E.~Abrahams and J.~W.~F. Woo.
 \newblock Phenomenological theory of the rounding of the resistive transition
   of superconductors.
 \newblock \emph{{Phys. Lett. A}}, 27:\penalty0 117, 1968.
-
-\bibitem[Aderson(1976)]{Anderson:76}
-P.~W. Aderson.
-\newblock Uses of solid state analogies in elementary particle theory.
-\newblock In R.~Arnowitt and P.~Nath, editors, \emph{Gauge theories and modern
-  field theories, Proceeding of a conference held at Northeastern University,
-  Boston}, page 311, Cambridge, Mass., 1976. MIT Press.
 
 \bibitem[Alder and Winther(1975)]{Alder:75}
 K.~Alder and A.~Winther.
@@ -46,11 +39,6 @@ H.~An and C.~Cai.
   183 MeV}.
 \newblock \emph{Phys. Rev. C}, 73:\penalty0 054605, 2006.
 
-\bibitem[Anderson and Thouless(1962)]{Anderson:62}
-P.~Anderson and D.~Thouless.
-\newblock Diffuseness of the nuclear surface.
-\newblock \emph{Physics Letters}, 1\penalty0 (5):\penalty0 155 -- 157, 1962.
-
 \bibitem[Anderson(1958)]{Anderson:58b}
 P.~W. Anderson.
 \newblock New method in the theory of superconductivity.
@@ -78,6 +66,13 @@ P.~W. Anderson.
 \newblock More is different.
 \newblock \emph{Science}, 177:\penalty0 393, 1972.
 
+\bibitem[Anderson(1976)]{Anderson:76}
+P.~W. Anderson.
+\newblock Uses of solid state analogies in elementary particle theory.
+\newblock In R.~Arnowitt and P.~Nath, editors, \emph{Gauge theories and modern
+  field theories, Proceeding of a conference held at Northeastern University,
+  Boston}, page 311, Cambridge, Mass., 1976. MIT Press.
+
 \bibitem[Anderson(1984)]{Anderson:84b}
 P.~W. Anderson.
 \newblock \emph{{Basic Notions of Condensed Matter}}.
@@ -89,6 +84,11 @@ P.~W. Anderson and D.~L. Stein.
   are they related?}
 \newblock In \emph{{P. W. Anderson}, Basic notions of condensed matter}, page
   263. Benjamin, Menlo Park, CA, 1984.
+
+\bibitem[Anderson and Thouless(1962)]{Anderson:62}
+P.~W. Anderson and D.~J. Thouless.
+\newblock Diffuseness of the nuclear surface.
+\newblock \emph{Physics Letters}, 1:\penalty0 155, 1962.
 
 \bibitem[Annett(2013)]{Annett:13}
 J.~F. Annett.
@@ -419,12 +419,7 @@ G.~Bertsch.
 \newblock Collective motion in {Fermi} droplets.
 \newblock In R.~A. Broglia and J.~R. Schrieffer, editors, \emph{{International
   School of Physics ``Enrico Fermi'' Course CIV, Frontiers and Borderlines in
-  Many--Body Particle Physics}}, page~41, Amsterdam, 1988. North Holland.
-
-\bibitem[Bertsch and Broglia(2005)]{Bertsch:05}
-G.~Bertsch and R.~A. Broglia.
-\newblock \emph{Oscillations in Finite Quantum Systems}.
-\newblock Cambridge University Press, Cambridge, 2005.
+  Many--Body Particle Physics}}, page~41. North Holland, Amsterdam, 1988.
 
 \bibitem[Bertsch et~al.(1987)Bertsch, Barranco, and Broglia]{Bertsch:87}
 G.~Bertsch, F.~Barranco, and R.~A. Broglia.
@@ -436,6 +431,11 @@ G.~Bertsch, F.~Barranco, and R.~A. Broglia.
 G.~F. Bertsch and R.~A. Broglia.
 \newblock Giant resonances in hot nuclei.
 \newblock \emph{Physics Today}, 39 (8):\penalty0 44, 1986.
+
+\bibitem[Bertsch and Broglia(2005)]{Bertsch:05}
+G.~F. Bertsch and R.~A. Broglia.
+\newblock \emph{Oscillations in Finite Quantum Systems}.
+\newblock Cambridge University Press, Cambridge, 2005.
 
 \bibitem[Bertsch et~al.(1967)Bertsch, Broglia, and Riedel]{Bertsch:67}
 G.~F. Bertsch, R.~A. Broglia, and C.~Riedel.
@@ -688,18 +688,18 @@ M.~Born, P.~Jordan, and W.~Heisenberg.
 \newblock {Zur Quantenmechanik II}.
 \newblock \emph{{Zeitschr. Phys.}}, 35:\penalty0 557, 1926.
 
-\bibitem[Bortignon and Broglia(2016)]{Bortignon:16}
-P.~Bortignon and R.~Broglia.
-\newblock Elastic response of the atomic nucleus in gauge space: Giant pairing
-  vibrations.
-\newblock \emph{The European Physical Journal A}, 52\penalty0 (9):\penalty0
-  280, 2016.
-
 \bibitem[Bortignon and Broglia(1981)]{Bortignon:81}
 P.~F. Bortignon and R.~A. Broglia.
 \newblock Role of the nuclear surface in an unified description of the damping
   of single--particle states and giant resonances.
 \newblock \emph{{Nucl. Phys. A}}, 371:\penalty0 405, 1981.
+
+\bibitem[Bortignon and Broglia(2016)]{Bortignon:16}
+P.~F. Bortignon and R.~A. Broglia.
+\newblock Elastic response of the atomic nucleus in gauge space: Giant pairing
+  vibrations.
+\newblock \emph{The European Physical Journal A}, 52\penalty0 (9):\penalty0
+  280, 2016.
 
 \bibitem[Bortignon et~al.(1976)Bortignon, Broglia, B{\`{e}}s, Liotta, and
   Paar]{Bortignon:76}
@@ -800,11 +800,17 @@ R.~A. Broglia.
 \newblock In R.~A. Broglia and V.~Zelevinsky, editors, \emph{50 Years of
   Nuclear BCS}, page 642. World Scientific, Singapore, 2013.
 
-\bibitem[Broglia(2019)]{Bohr:19}
+\bibitem[Broglia(2019{\natexlab{a}})]{Bohr:19}
 R.~A. Broglia, editor.
 \newblock \emph{{The Finite Quantum Many-Body Problem, Selected papers of Aage
   Bohr}}.
-\newblock World Scientific, Singapore, 2019.
+\newblock World Scientific, Singapore, 2019{\natexlab{a}}.
+
+\bibitem[Broglia(2019{\natexlab{b}})]{Broglia:19d}
+R.~A. Broglia, editor.
+\newblock \emph{{Aage Bohr and the Quantum Finite Many-Body Problem: Selected
+  Papers}}.
+\newblock World Scientific, Singapore, 2019{\natexlab{b}}.
 
 \bibitem[Broglia and Bes(1977)]{Broglia:77}
 R.~A. Broglia and D.~R. Bes.
@@ -918,7 +924,7 @@ R.~A. Broglia, J.~Terasaki, and N.~Giovanardi.
 R.~A. Broglia, G.~Col{\'{o}}, G.~Onida, and H.~E. Roman.
 \newblock \emph{Solid State Physics of Finite Systems: metal clusters,
   fullerenes, atomic wires}.
-\newblock Springer Verlag, Berlin, Heidelberg, 2004.
+\newblock Springer Verlag, 2004.
 
 \bibitem[Broglia et~al.(2016)Broglia, Bortignon, Barranco, Vigezzi, Idini, and
   Potel]{Broglia:16}
@@ -1021,6 +1027,13 @@ M.~Cavallaro, M.~De~Napoli, F.~Cappuzzello, S.~E.~A. Orrigo, C.~Agodi,
   continuum transfer reaction.
 \newblock \emph{Phys. Rev. Lett.}, 118:\penalty0 012701, 2017.
 
+\bibitem[Cavallaro et~al.(2019)Cavallaro, Cappuzzello, Carbone, and
+  Agodi]{Cavallaro:19}
+M.~Cavallaro, F.~Cappuzzello, D.~Carbone, and C.~Agodi.
+\newblock {Giant Pairing Vibrations in light nuclei}.
+\newblock \emph{The European Physical Journal A}, 55\penalty0 (12):\penalty0
+  244, 2019.
+
 \bibitem[Chabanat et~al.(1997)Chabanat, Bonche, Haensel, Meyer, and
   Schaeffer]{Chabanat:97}
 E.~Chabanat, P.~Bonche, P.~Haensel, J.~Meyer, and R.~Schaeffer.
@@ -1095,10 +1108,10 @@ R.~de~Diego, J.~M. Arias, J.~A. Lay, and A.~M. Moro.
   excitation.
 \newblock \emph{Phys. Rev. C}, 89:\penalty0 064609, 2014.
 
-\bibitem[de~Gennes(1994)]{DeGennes:94}
-P.~G. de~Gennes.
+\bibitem[De~Gennes(1994)]{DeGennes:94}
+P.~G. De~Gennes.
 \newblock \emph{{Les objets fragiles}}.
-\newblock Plon, Paris, 1994.
+\newblock Plon, 1994.
 
 \bibitem[de~Heer et~al.(1987)de~Heer, Knight, Chou, and Cohen]{deHeer:87}
 W.~A. de~Heer, W.~Knight, M.~Chou, and M.~L. Cohen.
@@ -1217,7 +1230,7 @@ F.~Dyson.
 
 \bibitem[Dyson(1949)]{Dyson:49}
 F.~J. Dyson.
-\newblock The radiation theories of tomonaga, schwinger, and feynman.
+\newblock {The radiation theories of Tomonaga, Schwinger, and Feynman}.
 \newblock \emph{Physical Review}, 75:\penalty0 486, 1949.
 
 \bibitem[Ebran et~al.(2012)Ebran, Khan, Nik\ifmmode \check{s}\else
@@ -1430,6 +1443,7 @@ V.~L. Ginzburg and L.~D. Landau.
 
 \bibitem[Glauber(1969)]{Glauber:69}
 R.~J. Glauber.
+\newblock {Coherence and Quantum Optics}.
 \newblock In R.~J. Glauber, editor, \emph{International School of Physics
   ``Enrico Fermi'' Course XLII on Quantum Optics}, page~15. New York, Academic
   Press, 1969.
@@ -2227,6 +2241,13 @@ B.~R. Mottelson.
   1975}, page~80.
 \newblock Imprimerie Royale Norstedts Tryckeri, Stockholm, 1976.
 
+\bibitem[Mottelson and Nilsson(1959)]{Mottelson:59}
+B.~R. Mottelson and S.~G. Nilsson.
+\newblock {The intrinsic states of odd-A nuclei having ellipsoidal equilibrium
+  shape}.
+\newblock \emph{Kgl. Danske Videnskab, Selskab. Mat.-fys. Skrifter}, 1, no 8,
+  1959.
+
 \bibitem[Mouginot et~al.(2011)Mouginot, Khan, Neveling, Azaiez, Buthelezi,
   F\"ortsch, Franchoo, Fujita, Mabiala, Mira, Papka, Ramus, Scarpaci, Smit,
   Stefan, Swartz, and Usman]{Mouginot:11}
@@ -2267,6 +2288,12 @@ O.~Nathan and S.~G. Nilsson.
 S.~G. Nilsson.
 \newblock Binding states of individual nucleons in strongly deformed nuclei.
 \newblock \emph{Mat. Fys. Medd. Dan. Vid. Selsk.}, 29, 1955.
+
+\bibitem[Nolan and Twin(1988)]{Nolan:88}
+P.~J. Nolan and P.~J. Twin.
+\newblock Superdeformed shapes at high angular momentum.
+\newblock \emph{Annual Review of Nuclear and Particle Science}, 38:\penalty0
+  533, 1988.
 
 \bibitem[N\"ortersh\"auser et~al.(2009)N\"ortersh\"auser, Tiedemann,
   \ifmmode~\check{Z}\else \v{Z}\fi{}\'akov\'a, Andjelkovic, Blaum, Bissell,
@@ -2474,6 +2501,11 @@ I.~Ragnarsson and R.~A. Broglia.
 \newblock Pairing isomers.
 \newblock \emph{Nuclear Physics A}, 263:\penalty0 315, 1976.
 
+\bibitem[Ragnarsson and Nilsson(2005)]{Ragnarsson:05}
+I.~Ragnarsson and S.~G. Nilsson.
+\newblock \emph{{Shapes and shells in nuclear structure}}.
+\newblock Cambridge University Press, Cambridge, 2005.
+
 \bibitem[Rawitscher(1987)]{Rawitscher:87}
 G.~H. Rawitscher.
 \newblock {The microscopic Feshbach optical potential for a schematic coupled
@@ -2536,15 +2568,19 @@ R.~M. Robledo and G.~F. Bertsch.
   Nuclear BCS}, page~89. World Scientific, Singapore, 2013.
 
 \bibitem[Rogalla and Kes(2012)]{Rogalla:12}
-H.~Rogalla and P.~H. Kes.
-\newblock {}.
-\newblock In H.~Rogalla and P.~H. Kes, editors, \emph{100 years of
-  superconductivity}. CRC Press, Taylor and Francis, FL, 2012.
+H.~Rogalla and P.~H. Kes, editors.
+\newblock \emph{100 years of superconductivity}.
+\newblock CRC Press, Taylor and Francis, FL, 2012.
 
 \bibitem[Rogovin and Scully(1976)]{Rogovin:76}
 D.~Rogovin and M.~Scully.
 \newblock Superconductivity and macroscopic quantum phenomena.
 \newblock \emph{Physics Reports}, 25:\penalty0 175, 1976.
+
+\bibitem[Rose and Jones(1984)]{Rose:84}
+H.~J. Rose and G.~A.~C. Jones.
+\newblock A new kind of natural radioactivity.
+\newblock \emph{Nature}, 307:\penalty0 245, 1984.
 
 \bibitem[{R\"osner} et~al.(2017){R\"osner}, Caldarini, Prestel, Vanoni,
   Broglia, Aliverti, Tiana, , and Kragelund]{Rosner:17}
@@ -2779,13 +2815,6 @@ G.~S. Stent.
 \newblock In G.~S. Stent, editor, \emph{The double helix}. Norton and Co., New
   York, 1980.
 
-\bibitem[Stephens(1985)]{Stephens:85}
-F.~S. Stephens.
-\newblock {High Spin Physics}.
-\newblock In R.~A. Broglia and C.~H. Dasso, editors, \emph{{Frontiers in
-  Nuclear Dynamics}}, page~73. Plenum Press, number 25 in Ettore Majorana,
-  International Science Series, New York, 1985.
-
 \bibitem[Stephens and Simon(1972)]{Stephens:72}
 F.~S. Stephens and R.~S. Simon.
 \newblock Coriolis effects in the yrast states.
@@ -2941,6 +2970,12 @@ J.~Valatin.
 V.~L. {Van der Waerden}.
 \newblock \emph{Sources of quantum mechanics}.
 \newblock Dover, New York, 1967.
+
+\bibitem[van Witsen(2014)]{VanWitsen:14}
+M.~van Witsen.
+\newblock Superconductivity in real space.
+\newblock \emph{University of Twente}, 2014.
+\newblock (unpublished).
 
 \bibitem[Vaquero et~al.(2013)Vaquero, Egido, and Rodr\'{\i}guez]{Vaquero:13}
 N.~L. Vaquero, J.~L. Egido, and T.~R. Rodr\'{\i}guez.

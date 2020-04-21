@@ -251,51 +251,52 @@ is the Hartree potential, and
 \begin{equation}
 U_x=-\sum_{i(\epsilon_i\leq\epsilon_F)}\varphi_i^*(\mathbf r')v(|\mathbf r- \mathbf r'|)\varphi_i^*(\mathbf r),
 \end{equation}
-is the exchange (Fock) potential. It is well established that the nucleus can react collectively to external sollicitations. In particular the nuclear surface\footnote{We consider in the present section only this type of collective modes} can vibrate in certain normal modes which, in the harmonic approximation can be described as \footnote{Concerning the dimension of the parameters $C_\alpha$ and $D_\alpha$ see App. \ref{appintroE}, Eq. (\ref{eq4l11}) and subsequent discussion. See also Sect. \ref{C4AppA1} of App. \ref{C6AppA}, Eq. (\ref{eq4A18x}) and following comments.}
- \begin{equation}
-H_{coll}=\frac{\hat\Pi_\alpha^2}{2D_\alpha}+\frac{C_\alpha}{2}\hat\alpha^2,
- \end{equation}
- where,  
- \begin{equation}
-\hat\alpha=\sqrt{\frac{\hbar \omega_\alpha}{2C_\alpha}}\left(\Gamma^\dagger_\alpha+\Gamma_\alpha\right),
- \end{equation}
- is the collective coordinate, $\hat\Pi_\alpha$ being the corresponding conjugate momentum, while $\Gamma^\dagger_\alpha(\Gamma_\alpha)$ is the creation (annihilation) operator of the corresponding quanta. Microscopically, these modes can be calculated in the RPA as correlated particle--hole excitations\footnote{\cite{Bohm:51,Bohm:52,Bohm:53}; see also \cite{Bertsch:05}, Ch. 4 and refs. therein.}.
-The particle--vibration coupling Hamiltonian can be written as,
-
-\begin{equation}\label{eqintroD2}
-H_{c} = \kappa \hat{\alpha} \hat{F} ,
-\end{equation}
-with
-\begin{equation}
-\hat{F} = \sum_{\nu_1 \nu_2} \langle \nu_1|F|\nu_2 \rangle a_{\nu_1}^{\dagger} a_{\nu_2} ,
-\label{eqn:32}
-\end{equation}
-and
-\begin{equation}
-F = - \frac{1}{\kappa} R_0 \frac{\partial U(r)}{\partial r} Y_{LM}^* (\hat{r}) .
-\label{eqn:33}
-\end{equation}
-It is of notice that $\kappa$ characterizes the relationship between potential and density, of the mode considered. The self--consistent value is ($\braket{F}=\alpha$)\footnote{\cite{Bohr:75} Sect. 6-5 h.}, 
-\begin{equation}
-\kappa=\int R_0\frac{\partial U}{\partial r}R_0\frac{\partial \rho}{\partial r}r^2dr.
-\end{equation}
-Both the coupling constant and the potential $U$ are negative, for attractive fields.
- $H_{c}$ embodies the coupling of the motion of a single-nucleons with the collective vibrations of the surface, with a matrix element (see Fig.\ref{fig:4.1})
-\begin{equation}
-V_{\nu,\alpha'}=\langle n_{\alpha} = 1, \nu' |H_{c}|\nu \rangle  = \Lambda_{\alpha} \langle \nu' |F|\nu \rangle ,
-\label{eqn:34}
-\end{equation}
-where
-\begin{equation}\label{eqintroD6}
-\Lambda_{\alpha} = \kappa \sqrt{\frac{\hbar\omega_{\alpha}}{2C_{\alpha}}} \sim \frac{\kappa \beta_{\alpha}}{\sqrt{2L_{\alpha}+1}} ,
-\end{equation}
-is the particle-vibration coupling strength, while $\beta_\alpha$ is the (dynamic) deformation parameter. For didactical purposes we shall assume in this section that $\beta_L^2 \ll \beta_L$ and thus  treat  $H_{c}$ perturbatively. It is of notice that confronted with processes requiring to be summed to infinite order of perturbation theory, this can be done without much difficulty (see e.g. App. \ref{C6AppB}).
-
-Making use of the single--particle energies obtained by solving (\ref{eq1.3.2}) and of the  particle vibration matrix element (\ref{eqn:34}) the microscopic, RPA description of the collective states can be obtained by solving the dispersion relation displayed in the inset of Fig. \ref{fig:4.1}.
-
-Making the ansatz that the physical (clothed) single--particle states results from the coupling to only surface vibrations, the Hamiltonian (\ref{eqn:30}) can be regarded as being complete to describe the elementary modes of excitation and their couplings. Adding to (\ref{eqn:30}) the terms describing the spin, spin--isospin, etc. particle--hole modes, as well as those associated with multipole pairing vibrations (see Sect. \ref{App1E} as well as caption to Fig. \ref{figintro3}), i.e. pair addition and pair subtraction modes (with $\lambda^\pi=0^+,2^+,4^+$\dots, and eventually $1^-,3^-$\dots, concerning $1^-$ see App. \ref{App6G}), and the corresponding coupling terms, and diagonalizing perturbatively the resulting Hamiltonian, will lead to the physical single--particle states of spherical normal systems (nuclei around close shells). For spherical open--shell nuclei effects arising from the coupling to the condensate \footnote{see \cite{Bes:90}} will somewhat  affect the actual value of the results, e.g. the energy of the two--quasiparticle phonon states\footnote{see \cite{Barranco:04}}.  
-\subsection{Fluctuation and damping}
- To second order in the particle--vibration coupling strength one finds\footnote{see e.g. \cite{Brink:05}, \cite{Mahaux:85} and references therein. See also \cite{Bernard:81}.},
+is the exchange (Fock) potential. 
+%It is well established that the nucleus can react collectively to external sollicitations. In particular the nuclear surface\footnote{We consider in the present section only this type of collective modes} can vibrate in certain normal modes which, in the harmonic approximation can be described as \footnote{Concerning the dimension of the parameters $C_\alpha$ and $D_\alpha$ see App. \ref{appintroE}, Eq. (\ref{eq4l11}) and subsequent discussion. See also Sect. \ref{C4AppA1} of App. \ref{C6AppA}, Eq. (\ref{eq4A18x}) and following comments.}
+% \begin{equation}
+%H_{coll}=\frac{\hat\Pi_\alpha^2}{2D_\alpha}+\frac{C_\alpha}{2}\hat\alpha^2,
+% \end{equation}
+% where,  
+% \begin{equation}
+%\hat\alpha=\sqrt{\frac{\hbar \omega_\alpha}{2C_\alpha}}\left(\Gamma^\dagger_\alpha+\Gamma_\alpha\right),
+% \end{equation}
+% is the collective coordinate, $\hat\Pi_\alpha$ being the corresponding conjugate momentum, while $\Gamma^\dagger_\alpha(\Gamma_\alpha)$ is the creation (annihilation) operator of the corresponding quanta. Microscopically, these modes can be calculated in the RPA as correlated particle--hole excitations\footnote{\cite{Bohm:51,Bohm:52,Bohm:53}; see also \cite{Bertsch:05}, Ch. 4 and refs. therein.}.
+%The particle--vibration coupling Hamiltonian can be written as,
+%
+%\begin{equation}\label{eqintroD2}
+%H_{c} = \kappa \hat{\alpha} \hat{F} ,
+%\end{equation}
+%with
+%\begin{equation}
+%\hat{F} = \sum_{\nu_1 \nu_2} \langle \nu_1|F|\nu_2 \rangle a_{\nu_1}^{\dagger} a_{\nu_2} ,
+%\label{eqn:32}
+%\end{equation}
+%and
+%\begin{equation}
+%F = - \frac{1}{\kappa} R_0 \frac{\partial U(r)}{\partial r} Y_{LM}^* (\hat{r}) .
+%\label{eqn:33}
+%\end{equation}
+%It is of notice that $\kappa$ characterizes the relationship between potential and density, of the mode considered. The self--consistent value is ($\braket{F}=\alpha$)\footnote{\cite{Bohr:75} Sect. 6-5 h.}, 
+%\begin{equation}
+%\kappa=\int R_0\frac{\partial U}{\partial r}R_0\frac{\partial \rho}{\partial r}r^2dr.
+%\end{equation}
+%Both the coupling constant and the potential $U$ are negative, for attractive fields.
+% $H_{c}$ embodies the coupling of the motion of a single-nucleons with the collective vibrations of the surface, with a matrix element (see Fig.\ref{fig:4.1})
+%\begin{equation}
+%V_{\nu,\alpha'}=\langle n_{\alpha} = 1, \nu' |H_{c}|\nu \rangle  = \Lambda_{\alpha} \langle \nu' |F|\nu \rangle ,
+%\label{eqn:34}
+%\end{equation}
+%where
+%\begin{equation}\label{eqintroD6}
+%\Lambda_{\alpha} = \kappa \sqrt{\frac{\hbar\omega_{\alpha}}{2C_{\alpha}}} \sim \frac{\kappa \beta_{\alpha}}{\sqrt{2L_{\alpha}+1}} ,
+%\end{equation}
+%is the particle-vibration coupling strength, while $\beta_\alpha$ is the (dynamic) deformation parameter. For didactical purposes we shall assume in this section that $\beta_L^2 \ll \beta_L$ and thus  treat  $H_{c}$ perturbatively. It is of notice that confronted with processes requiring to be summed to infinite order of perturbation theory, this can be done without much difficulty (see e.g. App. \ref{C6AppB}).
+%
+%Making use of the single--particle energies obtained by solving (\ref{eq1.3.2}) and of the  particle vibration matrix element (\ref{eqn:34}) the microscopic, RPA description of the collective states can be obtained by solving the dispersion relation displayed in the inset of Fig. \ref{fig:4.1}.
+%
+%Making the ansatz that the physical (clothed) single--particle states results from the coupling to only surface vibrations, the Hamiltonian (\ref{eqn:30}) can be regarded as being complete to describe the elementary modes of excitation and their couplings. Adding to (\ref{eqn:30}) the terms describing the spin, spin--isospin, etc. particle--hole modes, as well as those associated with multipole pairing vibrations (see Sect. \ref{App1E} as well as caption to Fig. \ref{figintro3}), i.e. pair addition and pair subtraction modes (with $\lambda^\pi=0^+,2^+,4^+$\dots, and eventually $1^-,3^-$\dots, concerning $1^-$ see App. \ref{App6G}), and the corresponding coupling terms, and diagonalizing perturbatively the resulting Hamiltonian, will lead to the physical single--particle states of spherical normal systems (nuclei around close shells). For spherical open--shell nuclei effects arising from the coupling to the condensate \footnote{see \cite{Bes:90}} will somewhat  affect the actual value of the results, e.g. the energy of the two--quasiparticle phonon states\footnote{see \cite{Barranco:04}}.  
+%\subsection{Fluctuation and damping}
+ To second order in the particle--vibration coupling strength one finds\footnote{see e.g. \cite{Brink:05}, \cite{Mahaux:85} and references therein. See also \cite{Bernard:81}.} that the nucleons move in an $\omega$-dependent, non-local dielectric medium, that is 
 
 \begin{eqnarray}\label{eqn:36}
 \nonumber
@@ -326,21 +327,21 @@ are the real and imaginary contributions to the self-energy calculated in second
 \label{eqn:37c}
 \end{equation}
 }
-where $|\alpha' \rangle \equiv |n_{\alpha}=1,\nu' \rangle$ are the intermediate states which can couple to the initial single-particle state $\nu$. Note that the expression above is not well defined, in that the energy denominator may vanish. As a rule, textbooks in quantum mechanics deal with such a situation by stating that accidental degeneracies are to be eliminated by diagonalization. Now, this is not a real solution of the problem, because it does not contemplate the case where there are many intermediate states with $E_{\alpha'} \approx \omega$. In other words, where the particle can decay into a more complicated (doorway--) states $\ket{\alpha'}$  (\cite{Feshbach:58}), starting in the single-particle level $\nu$ of energy $\omega$, without changing its energy (real process). This is a typical dissipative (diffusion) process, and has to be solved by direct diagonalization (see Fig.\ref{fig:4.5} and App. \ref{C6AppB}). Another way around, is to extend the function $\sum_{\nu}(\omega)$ into the complex plane $(E_{\alpha'} \rightarrow E_{\alpha'} + \frac{i\Delta}{2})$ thus {\it regularizing the divergence} through a coarse grain approximation, determining the finite contributions and then taking the limit for $\Delta \rightarrow 0$ (Eqs.(\ref{eqn:37a}) and (\ref{eqn:37b})). The resulting complex potential ({\it optical potential} from the {\it complex dielectric function} of optics), parametrizes in simple terms the shift of the centroid of the single-particle state and its finite lifetime.} (see Fig. \ref{fig:4.2}; note that in this case $E_{\alpha'}=\epsilon_{\nu_2}+\hbar\omega_\alpha$).
+where $|\alpha' \rangle \equiv |n_{\alpha}=1,\nu' \rangle$ are the intermediate states which can couple to the initial single-particle state $\nu$. Note that the expression above is not well defined, in that the energy denominator may vanish. As a rule, textbooks in quantum mechanics deal with such a situation by stating that accidental degeneracies are to be eliminated by diagonalization. Now, this is not a real solution of the problem, because it does not contemplate the case where there are many intermediate states with $E_{\alpha'} \approx \omega$. In other words, where the particle can decay into a more complicated (doorway-) states $\ket{\alpha'}$  (\cite{Feshbach:58}), starting in the single-particle level $\nu$ of energy $\omega$, without changing its energy (real, on-the-energy shell process). This is a typical dissipative (diffusion) process, and has to be solved by direct diagonalization (see Fig.\ref{fig:4.5} and App. \ref{C6AppB}). Another way around, is to extend the function $\sum_{\nu}(\omega)$ into the complex plane $(E_{\alpha'} \rightarrow E_{\alpha'} + \frac{i\Delta}{2})$ thus {\it regularizing the divergence} through a coarse grain approximation, determining the finite contributions and then taking the limit for $\Delta \rightarrow 0$ (Eqs.(\ref{eqn:37a}) and (\ref{eqn:37b})). The resulting complex potential ({\it optical potential} from the {\it complex dielectric function} of optics), parametrizes in simple terms the shift of the centroid of the single-particle state and its finite lifetime.} (see Fig. \ref{fig:4.2}; note that in this case $E_{\alpha'}=\epsilon_{\nu_2}+\hbar\omega_\alpha$).
 
-\begin{figure}[h!]
-\centerline {
-\includegraphics*[width=12cm]{introduccion/figs/figintroD1}
-}
-\caption{Schematic representation of the process by which a nucleon excites  vibrations of the nuclear surface through the particle--vibration coupling vertex. In the inset, the graphical RPA dispersion relation which determines the properties of the collective mode $\alpha$,  e.g. the low--lying octupole vibration of $^{208}$Pb, is displayed.}
-\label{fig:4.1}
-\end{figure}
+%\begin{figure}[h!]
+%\centerline {
+%\includegraphics*[width=12cm]{introduccion/figs/figintroD1}
+%}
+%\caption{Schematic representation of the process by which a nucleon excites  vibrations of the nuclear surface through the particle--vibration coupling vertex. In the inset, the graphical RPA dispersion relation which determines the properties of the collective mode $\alpha$,  e.g. the low--lying octupole vibration of $^{208}$Pb, is displayed.}
+%\label{fig:4.1}
+%\end{figure}
 
 \begin{figure}[h!]
 \centerline {
 \includegraphics*[width=5cm]{introduccion/figs/figintroD2}
 }
-\caption{Self-energy (polarization, PO, see e.g. Fig. \ref{fig6.2.3x} and App. \ref{C6AppI}) graph renormalizing  a single-particle. Time ordering leads to the corresponding correlation diagram (CO) (see e.g. Fig. \ref{fig1.4.2} diagrams (e) and (f), as well as Figs. \ref{fig6_B1} and \ref{fig6_C2x}; within this context see also \cite{Brink:05} Fig. 9.2 of this reference).}
+\caption{Self-energy (polarization, PO) graph renormalizing  a single-particle. Time ordering leads to the corresponding correlation diagram (CO) (see e.g. Fig. \ref{fig6_B1}; within this context see also \cite{Brink:05} Fig. 9.2 of this reference).}
 \label{fig:4.2}
 \end{figure}
 For many purposes $\Delta E$ can be treated in terms of an effective mass
@@ -370,7 +371,7 @@ with
 m^* = \frac{m_k m_{\omega}}{m} .
 \label{eqn:40b}
 \end{equation}
- and $U'_H = (m/m^*) U$ and similarly for $W'$. Because $\lambda \approx 0.4$ (i.e. the dressed single-particle $m_{\omega}$ is heavier than the bare nucleon, as it has to carry a phonon along or, better, move in a cloud of phonons) and $m_k=0.7m$, $m^*/m \approx 1$ and $Z_{\omega} \approx 0.7$. Furthermore, due to the fact that $\hbar \omega_{\alpha} \approx 2-2.5 MeV$, {\it the range} of single-particle energy $E=\varepsilon-\varepsilon_F$ over which the particle-vibration coupling process displayed in Fig.\ref{fig:4.2} is effective is $\approx \pm 2\hbar \omega_{\alpha} \approx 4-5$ MeV around the Fermi energy (see Figs.\ref{fig:4.3} and \ref{fig:4.4})
+ and $U'_H = (m/m^*) U$ and similarly for $W'$. Because $\lambda \approx 0.4$ (i.e. the dressed single-particle $m_{\omega}$ is heavier than the bare nucleon, as it has to carry a phonon along or, better, move through a cloud of phonons) and $m_k=0.7m$, $m^*/m \approx 1$ and $Z_{\omega} \approx 0.7$. Furthermore, due to the fact that $\hbar \omega_{\alpha} \approx 2-2.5 MeV$, {\it the range} of single-particle energies $E=\varepsilon-\varepsilon_F$ over which the particle-vibration coupling process displayed in Fig.\ref{fig:4.2} is effective is $\approx \pm 2\hbar \omega_{\alpha} \approx 4-5$ MeV around the Fermi energy (see Figs.\ref{fig:4.3} and \ref{fig:4.4})
 
 \begin{figure}[h!]
 \centerline {
@@ -389,7 +390,7 @@ m^* = \frac{m_k m_{\omega}}{m} .
 \end{figure}
 
 
-It is of notice that $\Delta E_j$ (Eq.(\ref{eqn:37a})) indicates the shift  of the  centroid of the "dressed" single-particle state due to the coupling to the  doorway states, while $\Gamma = 2W$ measures the energy range over which the single-particle state spreads due to this coupling (see Fig.\ref{fig:4.5}). While a large number of states contribute to $\Delta E$ (``off--the--energy--shell process'', i.e. intermediate, virtual processes in which energy is not conserved), only ``on--the--energy--shell processes'', that is processes which conserve  energy, contribute to $\Gamma$. In fact
+It is of notice that $\Delta E_j$ indicates the shift  of the  centroid of the "dressed" single-particle state due to the coupling to the  doorway states, while $\Gamma = 2W$ measures the energy range over which the single-particle state spreads due to this coupling (see Fig.\ref{fig:4.5}). While a large number of states contribute to $\Delta E$ (``off--the--energy--shell process'', i.e. intermediate, virtual processes in which energy is not conserved), only ``on--the--energy--shell processes'', that is processes which conserve  energy, contribute to $\Gamma$. In fact
 \begin{equation}
 \nonumber
 \lim_{\Delta \rightarrow 0} \frac{\Delta}{(\omega -E_{\alpha'})^2 + \left( \frac{\Delta}{2} \right)^2} = 2\pi\delta(\omega-E_{\alpha'}) ,
@@ -424,7 +425,7 @@ as there are equally many states pushing the state down than up in energy (see F
 \end{figure}
 
 
-In the above discussion, the imaginary potential was introduced as an approximation to  the breaking of a stationary state into many, more complicated stationary states through the coupling to doorway states (Fig. \ref{fig:4.5}(b)). This is the  correct picture to describe the coupling of a nucleon moving in a single--particle state with more complicated configurations\footnote{See however \cite{Caldeira:81}, \cite{Caldeira:83} and refs. therein.}$^,$\footnote{To be noted that if we spread the strength of a stationary quantal state in a number of doorway stationary states over an energy range $\Gamma$ (of the order of few MeV in the case of the GDR), and set all components in phase at $t=0$, they will essentially be out of phase at time $t=\tau = \hbar/\Gamma$. In other words, each component will behave independent of each other and the original correlated state, created at $t=0$ with probability $1$ essentially ceases to exist at $t=\tau$. This does not imply that each of the incoherent members of the original coherent state cannot $\gamma$--decay at a much later stage $(\Gamma_{\gamma_0}/\Gamma\lesssim10^{-2}$), see \cite{Bortignon:98}. Discussions with B. Herskind on this issue are acknowledged.}. However, such a description can become quite involved. On the other hand, to account for the change of the centroid energy and of its spreading width in terms of an {\it optical potential $\Delta E + iW$} is very economic and convenient. In any case $\Gamma$ measures the range of energy over which the "pure" single-particle state $|a\rangle$ spreads due to the coupling to the more complicated doorway states $|\alpha'\rangle$. In other words, a stationary state
+In the above discussion, the imaginary potential was introduced as an approximation to  the breaking of a stationary state into many, more complicated stationary states through the coupling to doorway states (Fig. \ref{fig:4.5}(b)). This is the  correct picture to describe the coupling of a nucleon moving in a single--particle state with more complicated configurations\footnote{See however \cite{Caldeira:81}, \cite{Caldeira:83} and refs. therein.}$^,$\footnote{To be noted that if we spread the strength of a stationary quantal state in a number of doorway stationary states over an energy range $\Gamma$ (of the order of few MeV in the case of the GDR, see Sect. \ref{S1.5}), and set all components in phase at $t=0$, they will essentially be out of phase at time $t=\tau = \hbar/\Gamma$. In other words, each component will behave independent of each other and the original correlated state, created at $t=0$ with probability $1$ essentially ceases to exist at $t=\tau$. This does not imply that each of the incoherent members of the original coherent state cannot $\gamma$--decay at a much later stage $(\Gamma_{\gamma_0}/\Gamma\lesssim10^{-2}$), see \cite{Bortignon:98}. Discussions with B. Herskind on this issue are acknowledged.}. However, such a description can become quite involved. On the other hand, to account for the change of the centroid energy and of its spreading width in terms of an {\it optical potential $\Delta E + iW$} is very economic and convenient. In any case $\Gamma$ measures the range of energy over which the "pure" single-particle state $|a\rangle$ spreads due to the coupling to the more complicated doorway states $|\alpha'\rangle$. In other words, a stationary state
 
 \begin{equation}
 \varphi_{\nu}(\vec{r},t) = e^{i\omega t} \varphi_{\nu}(\vec{r}) ,
@@ -457,7 +458,7 @@ implying a lifetime for the single--particle state given by
 \label{eqn:45}
 \end{equation}
 
-One may ask, how  is it possible that the coupling to complicate (but still simple) states like $|\alpha'\rangle = |n_\alpha = 1,\nu'\rangle$ made out of a nucleon in the state $\nu'$ and a one phonon state of quantum numbers $\alpha$, can explain the  damping of a single-particle state lying 8-10 MeV from the Fermi energy $\varepsilon_F$, where the density of levels  is expected to be consistent? This is because the Hamiltonian given in Eq. (\ref{eqn:30}) contains  the basic physics needed to describe the dressed single-particle motion as far as surface modes are concerned (within this context see the discussion carried out following Eq. (\ref{eqintroD6})). Couplings to more complicated states  go through a hierarchy of couplings.
+One may ask, how  is it possible that the coupling to complicate (but still simple) states like $|\alpha'\rangle = |n_\alpha = 1,\nu'\rangle$ made out of a nucleon in the state $\nu'$ and a one phonon state of quantum numbers $\alpha$, can explain the  damping of a single-particle state lying 8-10 MeV from the Fermi energy $\varepsilon_F$, where the density of levels  is expected to be conspicuous? This is because the Hamiltonian  (\ref{eqn:30}) contains  the basic physics needed to describe the dressed single-particle motion as far as collective surface modes are concerned. Modes which, as a rule, play the central role in the dressing of the single-particle motion in nuclei\footnote{Something which was learned in the study of the nuclear spectrum in nuclei along the stability valley, and which have been found to remain correct also in connection with exotic nuclei. In particular light halo exotic nuclei regarding the phenomenon of parity inversion.} (within this context see the discussion carried out following Eq. (\ref{eqintroD6})). Couplings to more complicated states  go through a hierarchy of couplings.
 \begin{figure}[h!]
 \centerline {
 \includegraphics*[width=10cm]{introduccion/figs/figintroD6}
@@ -490,7 +491,7 @@ l}
 \label{fig:4.8}
 \end{figure}
 
-The result given in Eq.(\ref{eqn:46}) is a particular example of the general (empirical) result (see Fig. \ref{fig:4.4})\footnote{\cite{Bertsch:83}}.
+The estimate given in Eq.(\ref{eqn:46}) is a particular example of the general (empirical) result (see Fig. \ref{fig:4.4})\footnote{\cite{Bertsch:83}}.
 
 \begin{equation}
 \Gamma_{sp} (E) =
@@ -526,20 +527,21 @@ A nucleon close to the Fermi energy which, by bouncing inelastically off the nuc
 \caption{Schematic representation of the predictions of the independent particle model for one- and two-particles outside closed shell, in comparison with the experimental findings (e.g. for the case of $^{210}$Pb, where $j=g_{9/2}$). In the inset, the graphical RPA dispersion relation of the monopole pair addition mode of $^{208}$Pb, i.e. $\ket{^{210}\text{Pb(gs)}}$ is shown.}
 \label{fig:4.10}
 \end{figure}
-Simple estimates of this induced interaction leads, in the case of $^{210}$Pb, that is two neutrons above the $N=126$ closed shell, to correlation energies  for pairs of particles moving around it and coupled to angular momentum $J^{\pi} = 0^+$ of $\approx -1.5$ MeV (see Fig. \ref{fig:4.10}), when $\alpha$ is summed over  the different multipolarities  ($\lambda^{\pi}=2^+,3^-,5^-$, label $\alpha$ in Fig. \ref{fig:4.9}), and about half that value if one takes into account the fact that $Z_\omega\approx0.7$ for each of the interacting particles. From this result one can conclude that the pairing interaction induced by the process depicted in Fig.\ref{fig:4.9}, renormalizes in an important way the bare, $NN(^1S_0)$--short range pairing interaction. This issue is taken up in detail later on, in particular in connection with exotic halo nuclei (see e.g. Fig. \ref{fig1.9.1} and Sect. \ref{sect1F1}). Concerning nuclei lying along the stability valley, see next section.
+Simple estimates of this induced interaction leads, in the case of $^{210}$Pb, that is two neutrons above the $N=126$ closed shell, to correlation energies  for pairs of particles moving around it and coupled to angular momentum $J^{\pi} = 0^+$ of $\approx -1.5$ MeV (see Fig. \ref{fig:4.10}), when $\alpha$ is summed over  the different multipolarities  ($\lambda^{\pi}=2^+,3^-,5^-$, label $\alpha$ in Fig. \ref{fig:4.9}), and about half that value if one takes into account the fact that the single particle content  for each of the interacting particles is about $Z_\omega\approx0.7$. From this result one can conclude that the pairing interaction induced by the process depicted in Fig.\ref{fig:4.9}, renormalizes in an important way the bare, $NN(^1S_0)$--short range pairing interaction. This issue is taken up in more detail later on, in particular in connection with exotic halo nuclei (see e.g. Fig. \ref{fig1.9.1} and Sect. \ref{sect1F1}). Concerning nuclei lying along the stability valley, see next section.
 
 \section{Well funneled nuclear structure landscape}\label{C1S4}
-Let us now return to the subject of the finite overlap existing between the elementary modes of nuclear excitation\footnote{And of which the particle--vibration coupling discussed above is a consequence.}. That is, to the fact that one is working in a basis of states which contains already much of the physics one likes to describe, but which has the shortcoming of being overcomplete. An orthogonalization protocol, like a generalized Gram--Schmidt procedure, but leading to an effective field theory, where the different modes melt to some extent together, is called for.
-
-A similar situation is found in the case of transfer processes in general, and of two--nucleon transfer in particular. One can work out the associated transfer amplitude by orthogonalizing, making use of second order perturbation theory, the single--particle wavefunctions of target and projectile. This can be done both within the semiclassical approximation (see App. \ref{C7AppC}, and Sect. \ref{appintroB}) or the  DWBA (Sect. \ref{C3S2} and \ref{C7S1}; see also Sect. \ref{C3AppC} in connection with weak coupled metallic superconductors and of the Josephson effect). 
-
 Because the coupling between elementary modes of excitation is proportional to their overlap, and in keeping with the fact that mean field theory is the natural starting point of nuclear structure and reaction calculations, overcompleteness of the basis is tantamount to the appearance of linear couplings between quasiparticles and collective modes\footnote{See Sect. \ref{appintroD} and App. \ref{appintroE} in the case of surface modes and Sect. \ref{Sect1.7.4} in the case of the simultaneous treatment of surface and of pairing modes; see also Fig. \ref{figC1A6}.}, which in the case of reactions corresponds to the recoil modes\footnote{See e.g. Figs. \ref{figintro2}, \ref{figintro3} and \ref{fig1.9.2}--\ref{fig1.9.4}.  Also Figs.  \ref{figC7C1}, \ref{figC7C2}, \ref{fig6.1.1} and  App. \ref{App1.D}.}.
 
 
-Basis orthogonalization thus implies the diagonalization of the bare $NN$-interaction (four-point vertices) and of the  associated particle-vibration coupling Hamiltonian $H_c$ (three--point vertices). The rules to do so have been casted into a graphical effective field theory, namely the Nuclear Field Theory. In it, the free fields are to be calculated in the HF (HFB) approximation (particle (quasiparticle)) and in the RPA (QRPA) (vibrations). These elementary modes of excitation interact through the particle-vibration coupling vertices, while particles can also interact through four-point vertices ($NN$-bare interaction)\footnote{In connection with the reaction processes one finds again four--point  (e.g. the proton-neutron interaction in the ($p,d$) reaction) and three-point vertices (e.g. particle-recoil coupling vertices).}.
+The basis of states used in the present monograph to describe the nuclear structure and reactions is made out of elementary modes of excitation, namely single-particle and collective modes. They describe in an economic fashion the elementary, coarse grained reaction the nucleus displays to experimental probes, thus fulfilling the requirement found at the basis of quantum mechanics\footnote{\cite{Heisenberg:25}.}. Namely, to provide relations between observable quantities.
 
+Collective modes are composite. Being made out of fermions (nucleons) they contain in their microscopic structure, a consistent fraction of the nuclear correlations. One is  then confronted to deal, in working out their interweaving through three- (PVC) and four- ($v$) point vertices, with an overcomplete set of states. And, as a consequence, the need to correct for eventual Pauli-principle violations and non-orthogonality contributions.
 
-The NFT rules  for evaluating the effect of these couplings between fermions and bosons involve a number of restrictions concerning initial and intermediate states as compared with the usual rules of perturbation theory that are to be used in evaluating the effect of the original (bare) nucleon--nucleon interaction properly renormalized by  the exchange of vibrations between nucleons. This is in keeping with the fact that the collective modes contain, from the start,  the correlations arising from forwards and backwards going  particle--hole ($\beta=0$) as well as particle--particle ($\beta=+2$) and hole--hole ($\beta=-2$) bubbles, where $\beta$ is the transfer quantum number\footnote{\cite{Bohr:64}.}. Furthermore  these (quasi) bosons are not elementary but composite fields, made out of pairs of fermions, and thus subject to the Pauli principle. 
+ The rules to do so have been cast into a graphical effective field theory, namely the Nuclear Field Theory. In it, the free fields are to be calculated in the HF (HFB) approximation (particle (quasiparticle)) and in the RPA (QRPA) (vibrations). These elementary modes of excitation interact through the particle-vibration coupling vertices, while particles can also interact through four-point vertices ($NN$-bare interaction)\footnote{In connection with the reaction processes one finds again four--point  (e.g. the proton-neutron interaction in the ($p,d$) reaction) and three-point vertices (e.g. particle-recoil coupling vertices).}.
+
+A similar situation is found in the case of transfer processes in general, and of two--nucleon transfer in particular. One can work out the associated transfer amplitude by orthogonalizing, making use of second order perturbation theory, the single--particle wavefunctions of target and projectile. This can be done both within the semiclassical approximation\footnote{See App. \ref{C7AppC}, and Sect. \ref{appintroB}.}  or the  DWBA\footnote{Sect. \ref{C3S2} and \ref{C7S1}; see also Sect. \ref{C3AppC} in connection with weak coupled metallic superconductors and of the Josephson effect.}. 
+
+The NFT rules  for evaluating the effect of the couplings between fermions and bosons involve a number of restrictions concerning initial and intermediate states as compared with the usual rules of perturbation theory that are to be used in evaluating the effect of the original (bare) nucleon--nucleon interaction properly renormalized by  the exchange of vibrations between nucleons. This is in keeping with the fact that the collective modes contain, from the start,  the correlations arising from forwards and backwards going  particle--hole ($\beta=0$) as well as particle--particle ($\beta=+2$) and hole--hole ($\beta=-2$) bubbles, where $\beta$ is the transfer quantum number\footnote{\cite{Bohr:64}.}. Furthermore, as already mentioned,  these (quasi) bosons are not elementary but composite fields, made out of pairs of fermions, and thus subject to the Pauli principle. 
  
 
 The general validity of NFT rules have been demonstrated by proving the equivalence existing, to each order of perturbation theory, between the many--body finite nuclear system propagator calculated in terms of Feynman diagrams involving only the fermionic degrees of freedom i.e. explicitly respecting Pauli in a complete and not overcomplete basis, also known as Feynman--Goldstone propagator, and the propagator constructed in terms of Feynman diagrams involving fermion and phonon degrees of freedom (NFT Feynman diagrams) in the case of a general two--body interaction and an arbitrary distribution of single--particle levels\footnote{\cite{Bes:75} and \cite{Bes:76c}; see also \cite{Baranger:69} and the  lecture notes of  \cite{McFarlane:69}.}.
@@ -550,7 +552,7 @@ The general validity of NFT rules have been demonstrated by proving the equivale
 \begin{align}\label{eq1.5.1}
 \delta U(r)=\int d\mathbf{r} \delta \rho(r') v(|\mathbf r- \mathbf r'|),
 \end{align}
-calculate the collective modes associated with the variety of particle--hole ($\beta=0$; density, spin, isospin, etc.) and pairing ($\beta=\pm2$; monopole and multipole pair addition and pair substraction) modes. If this was possible, one could then diagonalize, within the framework of NFT and to the desired order of perturbation, also infinite order, the resulting particle--vibration couplings, and thus obtain renormalized quantities which can be directly compared with the data.
+calculate the collective modes associated with the variety of particle--hole ($\beta=0$; density, spin, isospin, etc.) and pairing ($\beta=\pm2$; monopole and multipole pair addition and pair substraction) modes. If this was possible, one could then diagonalize, within the framework of NFT and to the desired order of perturbation, also infinite order,for specific processes, the resulting particle--vibration couplings, and thus obtain renormalized quantities which can be used as inputs to calculate absolute transition probabilities and differential cross sections. Quantities which can be directly compared with the experimental data.
  In other words, a real physical \textit{ab initio} calculation could be done, resulting in a single,  common ground state which, corrected with the corresponding  ZPF lead eventually to the ``exact'' ground state concerning the degrees of freedom considered, as well as to properly dressed modes and  interactions.
 
 
@@ -558,10 +560,11 @@ calculate the collective modes associated with the variety of particle--hole ($\
 On the other hand,  implementation of the NFT rules (renormalization)\footnote{\cite{Broglia:16}.} have been carried out, making use of the bare Argonne $v_{14}$ potential, and of Skyrme like SLy4\footnote{\cite{Chabanat:97}} forces (or Saxon--Woods parametrizations and $m_k\approx0.7 m$) to determine the mean field and spin vibrational channels, and of multipole--multipole forces with self--consistent  coupling constants for the variety of density vibrational channels.
 
 
-The resulting predictions are, as a rule, able to provide, together with the specific reaction software, in particular \textsc{cooper} and \textsc{single}, an overall account of ``complete'' sets of experimental data, obtained with the help of Coulomb, inelastic and one-- and two--nucleon transfer data, able to map out the nuclear structure and reaction landscape\footnote{\cite{Idini:15,Idini:14,Potel:13}.}. Similar, but more accurate results are obtained by freely parametrising the bare potential so that the dressed particle reproduce experiment\footnote{\cite{Barranco:17}. This approach parallels renormalization in QED (see Sect. \ref{S6.6}).} (Table \ref{tab1.4.1}, last column).  Summing up, the nuclear structure description given by the elementary modes of nuclear excitation approach within the framework of NFT, provides a unified description of the variety of observables. At the same time, each cross section or transition probability is connected to essentially all others.
+The resulting predictions are, as a rule, able to provide, together with the specific reaction computational code, in particular \textsc{cooper} and \textsc{single} (see App. \ref{C8AppD}), an overall account of ``complete'' sets of experimental data, obtained with the help of Coulomb, inelastic and one-- and two--nucleon transfer data, able to map out the nuclear structure and reaction landscape\footnote{\cite{Idini:15,Idini:14,Potel:13}.}. Similar, but more accurate results are obtained by making use of renormalized NFT, which parallels renormalized QED. Namely: a) adjusting the bare potential parameters to be used together with a $k$-mass (similar to the renormalization of the bare mass in QED); b) making use of empirical values of the deformation parameters (PVC vertices) and phonon energies (parallel to renormalization of the bare charge)\footnote{\cite{Barranco:17,Barranco:20}. See also Ch. \ref{C8}.}
+ Summing up, the nuclear structure description given by the elementary modes of nuclear excitation approach within the framework of NFT, provides a unified description of the variety of observables. And, at the same time, each cross section or transition probability is connected to essentially all others.
 
 
-To illustrate this point we  bring together  in this Section  one-- and two--particle transfer with the rest of the observables  for the open--shell nucleus $^{120}$Sn lying  along the stability valley. From this example one can see that: 1) it is possible to predict, with few free parameters, most of them strongly constrained by empirical input, the experimental findings within a 10\% level of accuracy; 2) the nuclear landscape, as it emerges from NFT based on elementary modes of excitation and of their interweaving through the particle--vibration coupling, is well funneled (Fig. \ref{fig1.4.1x}, see also table \ref{tab1.4.1}), its minimum essentially coinciding with the global minimum resulting from the empirical renormalization\footnote{See Sect. \ref{C6S4}.} choice of basic quantities ($m_k$, strength bare pairing, properties of few low--lying collective ($p-h$) modes  and pairing vibrations) An important proviso concerning the above parlance is that one considers a group of homogeneous nuclei as e.g. open shell spherical superfluid nuclei (like the Sn isotopes), or nuclei around closed shells (like $^{208,209,210}$Pb, $^{209}$Bi, $^{210}$Po, etc., or $^{10,11,12}$Be, $^{9,10,11}$Li, etc.)\footnote{Within this context we refer to the conclusions of \cite{Idini:15}.}. In connection with light exotic halo nuclei we refer to Sect. \ref{C1S9} of the present Chapter and to Sects. \ref{C6S2.2x},  \ref{C6S2} and \ref{S6.6}.
+To illustrate this point we  bring together  in this Section  one- and two-particle transfer reactions, together with an essentially ``complete'' set of other  observables  for the open--shell nucleus $^{120}$Sn lying  along the stability valley. From this example one can see that: 1) it is possible to predict, with few free parameters, most of them strongly constrained by empirical input, the experimental findings within a 10\% level of accuracy; 2) the nuclear landscape, as it emerges from NFT based on elementary modes of excitation and of their interweaving through the particle--vibration coupling, is well funneled (Fig. \ref{fig1.4.1x}, see also table \ref{tab1.4.1})\footnote{For details see \cite{Idini:15}.}, its minimum essentially coinciding with the global minimum resulting from the empirical renormalization\footnote{See Sect. \ref{C6S4}.} choice of basic quantities ($m_k$, strength bare pairing, properties of few low--lying collective ($p-h$) modes  and pairing vibrations) An important proviso concerning the above parlance is that one considers a group of homogeneous nuclei as e.g. open shell spherical superfluid nuclei (like the Sn isotopes), or nuclei around closed shells (like $^{208,209,210}$Pb, $^{209}$Bi, $^{210}$Po, etc., or $^{10,11,12}$Be, $^{9,10,11}$Li, etc.)\footnote{Within this context we refer to the conclusions of \cite{Idini:15}.}. In connection with light exotic halo nuclei we refer to Sect. \ref{C1S9} of the present Chapter and to Sects. \ref{C6S2.2x},  \ref{C6S2} and \ref{S6.6}.
 
 
 
@@ -573,14 +576,14 @@ To illustrate this point we  bring together  in this Section  one-- and two--par
  the deviation of the $h_{11/2}\otimes 2^+$ multiplet splitting  $E_{h_{11/2}\otimes 2^+}(\beta_{2}/(\beta_{2})_0)$ (dash-dotted purple curve); 
  the deviation of the  centroid position of the $d_{5/2}$ strength function $S_{d_{5/2}}(\beta_{2}/(\beta_{2})_0)$ (dash-dotted cyan curve); 
  the deviation of the width of the $d_{5/2}$ strength function  $S_{d_{5/2}} (\beta_{2}/(\beta_{2})_0)$ (dash-dotted pink curve);
- the deviation  of the  quadrupole transition strength  $B(E2) (\beta_{2}/(\beta_{2})_0)$ (dashed orange curve). For an overview see\footnote{For details see \cite{Idini:15}.} Fig. \ref{fig1.4.1}.
+ the deviation  of the  quadrupole transition strength  $B(E2) (\beta_{2}/(\beta_{2})_0)$ (dashed orange curve). For an overview see Fig. \ref{fig1.4.1}.
  The remarkable feature of Fig. \ref{fig1.4.1x} is the fact that, in spite of the fluctuations of the results typical of finite  many--body systems, they clearly define a funnel in which all minima fall within a narrow window of $x/x_0$ values ($1 \pm 0.2$). This is a novel and unexpected result, which can be considered as an emergent property of a description of structure and reactions carried out in a basis of elementary modes of excitations, interacting through the PVC and PRC vertices according to the NFT rules.
  
  
  
  The concept of a well funneled energy landscape  is easy to understand in the case in which the number of particles $N\rightarrow \infty$ (thermodynamic limit). For example, a swing will have a very simple and well funneled potential energy landscape. A similar concept which still retains the classical viewpoint, but now referred to the free energy of large molecules, has been used in an attempt to describe protein folding\footnote{\cite{Wolynes:16,Wolynes:12}; see also cover figure of the issue of PNAS in which this reference was published.}. One has hypothesized that the results of an all atom, explicit solvent classical molecular dynamic simulations can be interpret in terms of a somewhat rugged, but still well funneled free energy landscape.
 
-When we see such a behaviour in the nuclear case, even not so well defined, and somehow imperfect, we recognize that the nucleus is, after all, not macroscopic. Concepts strictly valid for $N\rightarrow\infty$ are strongly renormalized by quantal finite size effects, in particular zero point fluctuations (ZPF, Fig. \ref{fig1.4.2})\footnote{This nuclear result in turn, may be used at profit to shed light into the physics which is at the basis of protein folding. These systems are after all quantal systems, and the associated quantal fluctuations are likely to play an important role in fleeting transition states. The fact that average values and shapes of the transit--time distributions agree well with the simplest one--dimensional theory may only reflect the large uncertainties of the tunneling probabilities, small changes in the barrier's parameters compensating for the lack of quantal phenomena, let alone the fact that being most high--dimensional models, as well as real processes, ``sloppy'', their behavior depend on very few parameters (collective variables (CV), see \cite{Buchanan:15}, \cite{Transtrum:15}, and references therein). It is unlikely that one or few of them are not  related to quantal fluctuations. This is particularly true if one considers a NMR chemical shift biased molecular dynamic simulation, in keeping with the fact that NMR, based  on the precession of nuclear spins is by its essence, a quantal phenomenon. Within this context one is reminded of $\alpha$-- and exotic--decay (see e.g. Ch. 7 of \cite{Brink:05} and references therein).}.
+When we see such a behaviour in the nuclear case, even not so well defined, and somehow imperfect, we recognize that the nucleus is, after all, not macroscopic. Concepts strictly valid for $N\rightarrow\infty$ are strongly renormalized by quantal finite size effects, in particular zero point fluctuations (ZPF, Fig. \ref{fig1.4.2})\footnote{This nuclear result in turn, may be used at profit to shed light into the physics which is at the basis of protein folding. These systems are after all quantal systems, and the associated quantal fluctuations are likely to play an important role in fleeting transition states. The fact that average values and shapes of the transit--time distributions agree well with the simplest one--dimensional theory may only reflect the large uncertainties of the tunneling probabilities, small changes in the barrier's parameters compensating for the lack of quantal phenomena, let alone the fact that being most high--dimensional models, as well as real processes, ``sloppy'', their behavior depend on very few parameters (collective variables (CV), see \cite{Buchanan:15}, \cite{Transtrum:15}, and references therein). It is unlikely that one or few of them are not  related to quantal fluctuations. This is particularly true if one considers a NMR chemical shift biased molecular dynamic simulation, in keeping with the fact that NMR, based  on the precession of nuclear spins is by its essence, a quantal phenomenon. Within this context one is reminded of $\alpha$- and exotic-decay (see e.g. Ch. 7 of \cite{Brink:05} and references therein). While setting the formation probability of an alpha particle equal to one, could be compensated by modest changes in the associated tunneling probability (barrier). Something not possible in the case of e.g. exotic decay.}.
 
 In other words, it is likely that the ``imperfect'' nature of the nuclear structure landscape funnel, an example of which is shown in Fig. \ref{fig1.4.1x}, embodies more accurately the physics of quantal many--body systems than that of a smooth, more pedagogical construct essentially based on potential energy, even with the entropic contribution (free energy). This is in keeping with the fact that the interaction terms (potential energy) of the Hamiltonian contain the last vestiges of Newton's conception of force or, causation, being thus too much anchored to classical mechanics\footnote{\cite{Born:48} pp. 95,103; \cite{Pais:86} p 258.}.
 
@@ -592,8 +595,8 @@ In all orders in the particle vibration coupling vertex ((PVC), solid dot), star
 \begin{figure}
 \begin{center}
 \includegraphics[width=\textwidth]{introduccion/figs/funnel_norm_tot_try_v2.pdf}
-\caption{(Color online)
-Root mean square deviations $\sigma(x)$ (see Table \ref{tab1.4.1}) between theoretical predictions and experimental values of the different structural properties which ``completely'' characterize the open--shell nucleus $^{120}$Sn (\cite{Idini:15}). After \cite{Broglia:16}.}\label{fig1.4.1x}
+\caption{(Inset, color online)
+Root mean square deviations $\sigma(x)$ (see also Table \ref{tab1.4.1}) between theoretical predictions and experimental values of the different structural properties which ``completely'' characterize the open--shell nucleus $^{120}$Sn. The bold black line and grey area provide a schematic representation of $\langle\sigma\rangle$ and associated fluctuations.}\label{fig1.4.1x}
 \end{center}
 \end{figure}
 
@@ -624,138 +627,13 @@ $\sigma_{2n}(p,t)$ & 40 (2\%) & 40 (2\%) & 40 (2\%) \\
 \caption{Root  mean square deviation $\sigma$ between  the experimental data and the theoretical values expressed in keV for the pairing gap, quasiparticle energies, multiplet splitting, centroid and width of the  
 $5/2^+$ low--lying single--particle strength distribution (Fig. \ref{fig6.2.3}). In single--particle units $B_{sp}$ for the $\gamma$-decay  (B(E2) transition probabilities) and in mb for $\sigma_{2n}(p,t)$ (Fig. \ref{fig8_2_4}). In brackets
 the ratio $\sigma_{rel}=\sigma/L$ between $\sigma$ and the experimental  range $L$ of the corresponding quantities: 1.4 MeV ($\Delta$), 1 MeV ($E_{qp}$), 700 keV (mult. splitting), 
-1 MeV ($d_{5/2}$ centroid),  809 keV (=1730--921) keV  ($d_{5/2}$ width), 10 $B_{sp}$ (B(E2)), 2250 $\mu$b ($\sigma_{2n}(p,t)$)) is given (for details see \cite{Idini:15}, also Fig. \ref{fig1.4.1}). Columns 2,3, and 4 contain the results of NFT calculations making use of bare single--particle levels from Hartree--Fock with Sly4, same but for a 600keV shift towards the Fermi energy of the $\epsilon_{d_{5/2}}$ orbital, and optimal values of $\epsilon_j$ for all valence levels so that the dressed quasiparticle states provide the best fit to that data, respectively.}
+1 MeV ($d_{5/2}$ centroid),  809 keV (=1730--921) keV  ($d_{5/2}$ width), 10 $B_{sp}$ (B(E2)), 2250 $\mu$b ($\sigma_{2n}(p,t)$)) is given. Columns 2,3, and 4 contain the results of NFT calculations making use of bare single--particle levels from Hartree-Fock with Sly4, same but for a 600keV shift towards the Fermi energy of the $\epsilon_{d_{5/2}}$ orbital, and optimal values of $\epsilon_j$ for all valence levels so that the dressed quasiparticle states provide the best fit to that data, respectively.}
 \label{tab1.4.1}
 \end{center}
 \end{table}
 
 
-\section{Non--orthogonality}\label{appintroC}
-Let us now consider a system based on a  closed shell nucleus, namely two protons moving around $^{208}$Pb.
-The ground state of $^{210}_{84}\text{Po}_{126}$ can be viewed as the proton pair addition mode of the doubly closed shell nucleus  $^{208}_{82}\text{Pb}_{126}$, mode displaying $J^\pi=0^+$ and $\beta=+2$ (transfer--) quantum numbers. Within this framework $^{209}_{83}\text{Bi}_{126}$ is expected to be a \emph{bona fide} proton single--particle system ($\beta=+1$), in which the $g_{7/2},d_{5/2},h_{11/2},d_{3/2}$ and $s_{1/2}$ valence orbitals are occupied, the odd proton occupying, in the ground state, a substate of the $h_{9/2}$ orbital.
 
-
-
-This picture can be specifically probed through one--proton stripping and pick up reactions, e.g. with the help of $^{210}$Po$(t,\alpha)^{209}$Bi and $^{208}$Pb$(^3$He$,d)^{209}$Bi transfer processes\footnote{It is of notice that in the present case, as well as in Sect. \ref{appintroA}, and at variance with the rest of the monograph, use will be made, for the sake of being didactic, of spectroscopic factors ( see end of Sect. \ref{C1S1} as well as App. \ref{C6AppI}).}. The pick--up reaction cross section is, in the case of e.g. the states $1/2^+(s_{1/2})$ and $11/2^-(h_{11/2})$,  essentially consistent with a single peak displaying full $(2j+1)$ occupancy. On the other hand, two $3/2^+$ states with essentially equal strength and exhausting the associated $(2j+1(=4))$ strength are observed.   Furthermore,  the four peaks mentioned above are essentially not excited in the stripping process (see Table \ref{tabintroC1}). In an attempt to further clarify the structure of the two $3/2^+$, use is made of the inelastic process $^{209}$Bi$(d,d')$. Both states are excited in  inelastic scattering, the associated  angular distributions  revealing the octupole character of such excitation (Tables \ref{tabintroC2} and \ref{tabintroC3}).
-
-\begin{figure}
-\centerline {
-\includegraphics*[width=12cm]{introduccion/figs/figintroC1}
-}
-\caption{NFT diagram describing one of the most important processes coupling the $2p-1h$ states $\ket{\alpha}$ and $\ket{\beta}$ (see Eqs. (\ref{eqintroC1}) and (\ref{eqintroC2})), product of bare elementary modes of excitation consisting in the $^{208}$Pb, $0^+$ pair addition mode and the $d_{3/2}$ proton hole state, and of the lowest octupole vibration of $^{208}$Pb and of a proton moving in the $h_{9/2}$ orbital.}
-\label{figintroC1}
-\end{figure}
-\begin{figure}
-\centerline {
-\includegraphics*[width=6cm]{introduccion/figs/figintroC2}}
-\caption{Schematic representation of the $3/2^+$ states entering the NFT calculation of the process displayed in Fig. \ref{figintroC1}. The basis state $\ket \alpha$ carries the full $(t,\alpha)$ transfer strength ($tr$) $\sigma^{tr}$, while the basis state $\ket{\beta}$ the full octupole $(oct)$ strength $\sigma^{oct}$ (see Tables \ref{tabintroC1}--\ref{tabintroC3}). The overlap between these states is  $\cos \chi$. The physical states obtained through the (Feynman) diagramatic ``orthogonalization process'' are denoted $\ket{\text{I}}$ and $\ket{\text{II}}$ (see Eqs. (\ref{eqintroC3}) and (\ref{eqintroC4})).}
-\label{figintroC2}
-\end{figure}
-In keeping with the fact that the same experiment reveals a multiplet (septuplet) of states with centroid around 2.6 MeV and with summed $L=3$ inelastic cross section consistent with that of the lowest collective  (2.615 MeV, $B(E3)/B_{sp}\approx 32$) octupole vibration of $^{208}$Pb, one can posit that the two $3/2^+$ states are a linear combination of the unperturbed (two particles)--(one hole) ($2p$--$1h$) states,
-\begin{align}\label{eqintroC1}
-\ket \alpha=\ket{d_{3/2}^{-1}\otimes gs (^{210}\text{Pb});3/2^+},
-\end{align}
-and 
-\begin{align}\label{eqintroC2}
-\ket \beta=\ket{h_{9/2}\otimes 3^- (^{208}\text{Pb});3/2^+}.
-\end{align}
-Because these states lie very close in energy they mix. According to NFT, the most important contribution to this mixing arises from the process given in Fig. \ref{figintroC1}. The resulting physical (mixed) states can be  written as,
-\begin{align}\label{eqintroC3}
-\ket {\text{I}}=-0.53 \ket \alpha + 0.76 \ket \beta,
-\end{align}
-and 
-\begin{align}\label{eqintroC4}
-\ket {\text{II}}=1.02 \ket \alpha + 0.80 \ket \beta,
-\end{align}
-as resulting from the calculation of the diagram displayed in Fig. \ref{figintroC1} to all orders of perturbation, with the help of Brillouin--Wigner perturbation theory (diagonalization of the corresponding effective Hamiltonian\footnote{See p. 316 \cite{Bortignon:77} and references therein.}, see Sect. \ref{Sect1.7.4}). 
-
-
-
-Let us now calculate the overlap $\mathcal O=\braket{\alpha|\beta}$ between the basis states $\ket\alpha$ and $\ket{\beta}$, that is $\mathcal O=\cos\chi$ (see Fig. \ref{figintroC2}).   
-\begin{table}
-\begin{tabular}{|c|c|c|c|}
-\hline 
- & $E_x$(MeV) & $S(t,\alpha)(2j+1)$ & $S(^3\text{He},d)$ \\
- \hline 
-$3/2^+$ & 2.49 & $1.8\pm0.3\,(4)$  & $<0.01$  \\ 
-$3/2^+$ & 2.95 & $2.2\pm0.3\,(4)$  & $<0.01$ \\ 
- $1/2^+$& 2.43 &  $1.8\,(2)$& $<0.02$ \\ 
- $11/2^-$& 3.69 & $10\,(12)$ &  $<0.05$\\ 
- \hline
-\end{tabular}\caption{Single--particle strength associated with the  transfer reactions  $^{210}$Po$(t,\alpha)^{209}$Bi and $^{208}$Pb$(^3\text{He},d)^{209}$Bi (see \cite{Bortignon:77}).}\label{tabintroC1}
-\end{table}
-\begin{table}
-\begin{tabular}{|c|c|c|}
-\hline 
- & $E_x$(MeV) & $\frac{\sigma\left(^{209}\text{Bi}(9/2^-;gs)\rightarrow^{209}\text{Bi}(3/2^+;E)\right)}{\sigma\left(^{208}\text{Pb}(gs)\rightarrow (3^-;2.615\, \text{MeV})\right)}$  \\
- \hline 
-$3/2$ & 2.49 & $0.042\pm0.003$   \\ 
-$3/2$ & 2.95 & $0.011\pm0.002$  \\ 
- \hline
-\end{tabular}\caption{The total inelastic cross section $\sigma^{oct}$ associated with the lowest octupole vibrational state of $^{208}$Pb can be written in terms of that associated with a single magnetic substate $\sigma'$ as $\sigma_{3^-}^{oct}=7\sigma'$. That associated with the multiplet $(h_{9/2}\otimes 3^-)_{J^+} (J=3/2-15/2)$ as $\sigma_{3^-}^{oct}=70\sigma'$, in keeping with the fact that the $h_{9/2}$ state has 10 magnetic substates. Thus, the strength associated with the 3/2 channel is 4/70=0.057 to be compared with the observed summed (percentage) strength $0.053\pm0.005 $ $(=(0.042\pm0.003)+(0.011\pm0.002))$ associated with the 2.45 MeV and the 2.95 MeV $3/2^+$ states; see \cite{Bortignon:77} Table 4.11.}\label{tabintroC2}
-\end{table}
-\begin{table}
-\begin{tabular}{|c|c|c|c|c|c|c|c|c|}
-\hline
-& \multicolumn{2}{|c}{$E_n$(MeV)} & \multicolumn{2}{|c}{$\frac{\sigma(h_{9/2}\rightarrow 3/2^+)}{\sigma(0^+\rightarrow 3^-)}$(\%)} & \multicolumn{2}{|c}{$S(t,\alpha)$}  & \multicolumn{2}{|c|}{$S(^3\text{He},d)$}   \\
-\hline
-&Theory  & Exp  & Theory  & Exp & Theory & Exp & Theory  & Exp  \\
-\hline
-3/2& 2.480 & 2.494  & 3.76  & $4.2\pm0.3$  & 1.83  & $1.8\pm0.3$ &0.02  & $<0.01$  \\
-3/2& 3.125 & 2.95  & 1.56 & $1.1\pm0.2$  & 2.25  & $2.2\pm0.3$ & $10^{-5}$  & $<0.01$  \\
-\hline
-\end{tabular}\caption{Summary of NFT predictions concerning the structure of the two lowest $3/2^+$ state of $^{209}$Bi, in comparison with the experimental data (see Table 4.7 of \cite{Bortignon:77}).}\label{tabintroC3}
-\end{table}
-Following this figure  one can write,
-\begin{align}
-\sqrt{\sigma_I^{tr}}=\cos\phi;\quad \sqrt{\sigma_{II}^{tr}}=\cos\left(\frac{\pi}{2}-\phi\right)=\sin \phi,
-\end{align}
-where
-\begin{align}
-{\sigma^{tr}}={\sigma_I^{tr}}+{\sigma_{II}^{tr}}=1,
-\end{align}
-in keeping with the fact that the absolute cross sections of the states $\ket {\text{I}}$ and $\ket {\text{II}}$ are normalized in terms of the total cross section.
-
-
-In the same way
-\begin{align}
-\sqrt{\sigma^{oct}_I}=\cos(\chi-\phi)=\cos\chi\cos\phi+\sin\chi\sin\phi,
-\end{align}
-and
-\begin{align}
-\sqrt{\sigma^{oct}_{II}}=\cos\left(\pi-\left(\frac{\pi}{2}-\phi+\chi\right)\right)=-\cos\left(\frac{\pi}{2}+(\phi-\chi)\right)=\sin\phi\cos\chi+\sin\chi\cos\phi.
-\end{align}
-Thus
-\begin{align}
-\sqrt{\sigma^{oct}_{I}}=\cos\chi\sqrt{\sigma^{tr}_{I}}+\sin\chi\sqrt{\sigma^{tr}_{II}},
-\end{align}
-and
-\begin{align}
-\sqrt{\sigma^{oct}_{II}}=-\cos\chi\sqrt{\sigma^{tr}_{II}}+\sin\chi\sqrt{\sigma^{tr}_{I}}.
-\end{align}
-Multiplying the above relations by $\sqrt{\sigma^{tr}_{I}}$ and $\sqrt{\sigma^{tr}_{II}}$ respectively one obtains,
-\begin{align}
-\sqrt{\sigma^{tr}_{I}\sigma^{oct}_{I}}=\cos\chi\sigma^{tr}_I+\sin\chi\sqrt{\sigma^{tr}_{I}\sigma^{tr}_{II}},
-\end{align}
-and
-\begin{align}
-\sqrt{\sigma^{tr}_{II}\sigma^{oct}_{II}}=-\cos\chi\sigma^{tr}_{II}+\sin\chi\sqrt{\sigma^{tr}_{I}\sigma^{tr}_{II}},
-\end{align}
-which, upon substraction  leads to the  expression of the overlap
-\begin{align}
-\cos\chi=\frac{\sqrt{\sigma^{tr}_{I}\sigma^{oct}_{I}}-\sqrt{\sigma^{tr}_{II}\sigma^{oct}_{II}}}{\sigma_I^{tr}+\sigma_{II}^{tr}}.
-\end{align}
-Making use of the values of Tables \ref{tabintroC1}--\ref{tabintroC3} (see also Fig. \ref{figC1A7} (e) last column labeled \textit{experiment})\footnote{See Table 4.7 of \cite{Bortignon:77}.} one obtains
-\begin{align}
-\mathcal O=\cos\chi=\frac{\sqrt{1.8\times4.2}-\sqrt{2.2\times1.1}}{4}=0.298
-\end{align}
-  Regarding the NFT results related to  the above questions we refer to Sect. \ref{Sect1.7.4} as well as to App. \ref{App1.C} (Sect. \ref{AppCS2}). In what follows we provide  simple, necessarily qualitative estimates  making use of the relations\footnote{see Tables 4.5 and 4.6  \cite{Bortignon:77}.}.
-\begin{align}
-\nonumber &\braket{\text{I}|\text{I}}= (-0.53)^2+(0.76)^2-2\times0.53\times0.75\, \mathcal O=1,\\
-\nonumber &\braket{\text{II}|\text{II}}= (1.02)^2+(0.80)^2+2\times1.02\times0.80\, \mathcal O=1,
-\end{align}
-and $\braket{\text{I}|\text{II}}=-0.53\times1.02+0.76\times0.80+(-0.53\times0.80+0.76\times1.02)\,\mathcal O=0$ leading to $\mathcal O=-0.18, -0.42$ and -0.19 respectively and, thus, to the average value of \mbox{$-0.26$}.
- Of course, one can hardly expect to obtain the sign to agree with that of the NFT expression, as it is associated with a free choice of the axis of references (Fig. \ref{figintroC2}). Note also the fact that the quantities $\sigma$ appearing above are well defined, while $\sqrt{\sigma}$ is indetermined by an overall sign.
 \section{Coupling between intrinsic and relative motion}\label{appintroB}
 In what follows, we consider the reaction
 \begin{align}
@@ -791,7 +669,7 @@ The phase $\delta_\beta$ is defined as
 \delta_\beta=\frac{1}{\hbar}\left\{m_\beta \mathbf v_\beta(t)\cdot \left(\mathbf r_\beta-\mathbf R_\beta(t)\right)-\int_0^t\left(U_\beta\left(R_\beta(t')\right)-\frac{1}{2}m_\beta\mathbf v_\beta(t')^2\right)\right\},
 \end{align}
  where an extra phase has been added to eliminate, as far as possible, the diagonal matrix elements in the coupled equations.
-The phase factor $\exp(i\delta_\beta)$ acting on the channel wavefunction is essentially a Galilean transformation (see jagged ``phonon'' in the NFT reaction diagrams displayed in Figs. \ref{fig6.1.1} (one--particle transfer) and Figs. \ref{figC7C1} and \ref{figC7C2} (two--particle transfer); see also Figs. \ref{figintro2}, \ref{figintro3} and \ref{fig1.9.2}--\ref{fig1.9.4}).
+The phase factor $\exp(i\delta_\beta)$ acting on the channel wavefunction is essentially a Galilean transformation (see jagged ``phonon'' in insets to Figs.  \ref{figintro2} and \ref{figintro3}).
 
 
 
@@ -847,7 +725,7 @@ where $\alpha$ labels the entrance channel, that is, the nuclei $a$ and $A$ in t
 
 \section{Nuclear Field Theory for pedestrians}\label{appintroA}
 
-Nuclear Field Theory (NFT) was tailored after Feynman's graphical version of quantum electrodynamics (QED)\footnote{``The diagrams were intended to represent physical processes and the mathematical expressions to describe them\dots I would see electrons going along, being scattered at on point\dots emitting a photon and the photon goes over there\dots I thought that if they really turn out to be useful it would be fun to see them in the pages of Physical Rview'' R. P. Feynman.}. It is then natural that in discussing NFT analogies with QED will be recurrent.   Arguably, as a consequence of special relativity which put an end to the concept of ether, the field--free and matter--free vacuum was rightly considered as \textit{bona fide} empty space. The advent of quantum mechanics changed this situation, the vacuum becoming populated. In quantum mechanics an oscillator, for example, cannot be at rest. The oscillatory nature of the radiation field requires zero point fluctuations (ZPF) of the electromagnetic fields in the vacuum state of lower energy. The occupation of the negative kinetic energy electron states and the subsequent calculation of the cross section for pair creation by photons, contributed another step in the understanding of the QED vacuum, let alone the Lamb shift\footnote{In high energy collisions and accelerator laboratories some of the original beam energy can be consumed by ripping electron-positron pairs out of the vacuum (\cite{Bruce:07}).}.
+Nuclear Field Theory (NFT) was tailored after Feynman's graphical version of quantum electrodynamics (QED)\footnote{``The diagrams were intended to represent physical processes and the mathematical expressions to describe them\dots I would see electrons going along, being scattered at one point\dots emitting a photon and the photon goes over there\dots I thought that if they really turn out to be useful it would be fun to see them in the pages of Physical Review'' R. P. Feynman.}. It is then natural that in discussing NFT analogies with QED will be recurrent.   Arguably, as a consequence of special relativity which put an end to the concept of ether, the field--free and matter--free vacuum was rightly considered as \textit{bona fide} empty space. The advent of quantum mechanics changed this situation, the vacuum becoming populated. In quantum mechanics an oscillator, for example, cannot be at rest. The oscillatory nature of the radiation field requires zero point fluctuations (ZPF) of the electromagnetic fields in the vacuum state of lower energy. The occupation of the negative kinetic energy electron states and the subsequent calculation of the cross section for pair creation by photons, contributed another step in the understanding of the QED vacuum, let alone the Lamb shift\footnote{In high energy collisions and accelerator laboratories some of the original beam energy can be consumed by ripping electron-positron pairs out of the vacuum (\cite{Bruce:07}).}.
 
 
 When the fields are expressed in terms of creation and annihilation operators, the interaction between  fermion and boson fields is proportional to the product of two fermion creation or destruction operator $a^\dagger$ or $a$, and of one boson operator $\Gamma^\dagger$ or $\Gamma$: e.g. $a^\dagger_{\nu'}a_\nu\Gamma_\alpha^\dagger$, (see Fig. \ref{figintroA1}). That is,  bilinear in the fermion fields and linear in the boson fields.
@@ -856,14 +734,14 @@ When the fields are expressed in terms of creation and annihilation operators, t
 \centerline {
 \includegraphics*[width=12cm]{introduccion/figs/figintroA1}
 }
-\caption{Oyster diagrams describing the correlation of the nuclear ground state associated with the ZPF of  collective particle--hole--like excitations. In (a) we show two of such diagrams. In (b) and (c) we display a symmetrized (boson exchange), and antisymmetrized  (fermion exchange) correction to (a), while  (d) contains a simultaneous boson and fermion exchange. In all the diagrams shown, only ground state correlation vertices are present. They are connected with the $Y^\alpha_{k_i}$--components ($\epsilon_k>\epsilon_F, \,\epsilon_i\le\epsilon_F$) of the RPA wavefunction describing the collective mode (wavy line). While this is so for any time ordering, i.e., the sequence with which the particle-vibration coupling vertex (black dot) appear in the case of the processes shown in (a) and (b), this is not the case in connection with processes shown in (c) and (d) as can be seen from the corresponding diagrams (c') and (d') shown in the inset. Because of Pauli principle between particles (holes) present and those involved in the collective modes, the harmonic approximation has to be corrected. This is diagramatically reflected by the presence of scattering vertices.}
+\caption{Oyster diagrams describing the correlation of the nuclear ground state associated with the ZPF of  collective particle--hole--like excitations. In (a) we show two of such diagrams. In (b) and (c) we display a symmetrized (boson exchange), and antisymmetrized  (fermion exchange) correction to (a), while  (d) contains a simultaneous boson and fermion exchange. In all the diagrams shown, only ground state correlation vertices are present. They are connected with the $Y^\alpha_{k_i}$--components ($\epsilon_k>\epsilon_F, \,\epsilon_i\le\epsilon_F$) of the RPA wavefunction describing the collective mode (wavy line). While this is so for any time ordering, i.e., the sequence with which the particle-vibration coupling vertex (black dots) appear in the case of the processes shown in (a) and (b), this is not the case in connection with processes shown in (c) and (d) as can be seen from the corresponding diagrams (c') and (d') shown in the inset. Because of Pauli principle between particles (holes) present and those involved in the collective modes, the harmonic approximation has to be corrected. This is diagramatically reflected by the presence of scattering vertices.}
 \label{figintroA1}
 \end{figure}
 \begin{figure}
 \centerline {
 \includegraphics*[width=10cm]{introduccion/figs/fig1_7_2}
 }
-\caption{Some of the possible outcomes resulting from acting with an external single--particle field, i.e. that associated with inelastic processes (represented by a horizontal dashed line starting with a $\times$) on the ZPF of a nucleus ground state associated with particle--hole correlated vibrations. Within this context one returns to the question of  renormalization mentioned in the text (see end of Sect. \ref{S1.1} and Sect. \ref{C1S4}, see also \cite{Idini:15}, \cite{Broglia:16}, \cite{Barranco:17}; see also Sect. \ref{C6S4}) The diagrams of the first row result by intervening the virtual process shown in Fig. \ref{figintroA1} (c) and eventual time orderings. Similar for those of the second row but in connection with diagram (b) of Fig. \ref{figintroA1}. The boxed processes correspond to particle self--energy (first row) and vertex correction (second row). Reversing the sense in which the fermions (arrowed lines) circle the loop from anticlockwise to clockwise, one obtains two new graphs. The complete set of processes obtained in this way are shown in the third and last row, and constitute a sum rule conserving set of diagrams.}
+\caption{Some of the possible outcomes resulting from acting with an external single--particle field, i.e. that associated with inelastic processes (represented by a horizontal dashed line starting with a $\times$) on the ZPF of a nucleus ground state associated with particle--hole correlated vibrations. Within this context one returns to the question of  renormalization mentioned in the text (see end of Sect. \ref{S1.1} and Sect. \ref{C1S4}, see also \cite{Idini:15}, \cite{Broglia:16}, \cite{Barranco:17}; see also Sect. \ref{C6S4}) The diagrams of the first row result by intervening the virtual process shown in Fig. \ref{figintroA1} (c) and eventual time orderings. Similar for those of the second row but in connection with diagram (d) of Fig. \ref{figintroA1}. The boxed processes correspond to particle self--energy (first row) and vertex correction (second row). Reversing the sense in which the fermions (arrowed lines) circle the loop from anticlockwise to clockwise, one obtains two new graphs. The complete set of processes obtained in this way are shown in the third and last row, and constitute a sum rule conserving set of diagrams (see first row Fig. \ref{fig1.0.9}).}
 \label{figintroA2}
 \end{figure}
 \clearpage
@@ -871,16 +749,16 @@ When the fields are expressed in terms of creation and annihilation operators, t
 \centerline {
 \includegraphics*[width=10cm]{introduccion/figs/figintroA3}
 }
-\caption{ZPF associated with the pair addition mode taking into account the interweaving of nucleons with density modes. The processes boxed in (g), (k) and (o), are associated with the induced pairing interaction (medium polarization effects; (p), (q), (r)) resulting from the exchange of density modes between nucleons moving in time reversal states, including also vertex corrections. The two--nucleon stripping and pickup external field is labeled by a dashed horizontal line which starts with a $\times$. The possibility of using pairing vibrational modes as intermediate bosons contributing to the induced pairing interaction, not only in $^1S_0$ channels but also in other channels (multipole modes) is discussed in App. \ref{App6G}. In particular, in connection with the possible presence of ``vortex--like'' pair addition modes, in exotic, halo nuclei, with $J^\pi=1^-$ and $\beta=+2$ quantum numbers.}
+\caption{ZPF associated with the pair addition mode taking into account the interweaving of nucleons with density modes. The processes boxed in (g), (k) and (o), are associated with the induced pairing interaction (medium polarization effects; (p), (q), (r)) resulting from the exchange of density modes between nucleons moving in time reversal states, including also vertex corrections. The two--nucleon stripping and pickup external field is labeled by a dashed horizontal line which starts with a $\times$. The possibility of using pairing vibrational modes as intermediate bosons contributing to the induced pairing interaction, not only in $^1S_0$ channels but also in other channels (multipole modes) is discussed in App. \ref{App6G}. In particular, in connection with the possible presence of ``vortex--like'' pair addition modes, in exotic, halo nuclei, with $J^\pi=1^-$ and $\beta=+2$ quantum numbers, connected also with the pygmy dipole mode in $^{11}$Li (see e.g. \cite{Broglia:19} and refs. therein).}
 \label{figintroA3}
 \end{figure}
 \clearpage
 
 A detailed graphical NFT treatment of the vacuum has an important consequence concerning the probing of nuclear structure with reactions. By intervening it with an external field one will excite the modes whose properties can be  compared with experiment without further ado. 
 
-In other words, if one is in doubt of which are the properly dressed elementary, physical modes of excitation, one should find out how to specifically excite the  mode in question, by acting with an external field on the ZPF of the vacuum (Hawking--like radiation\footnote{\cite{Barranco:19b}.}; see also Sect. \ref{S6.6.2} in particular Fig. \ref{fig6.6.2}). That is,  carry out a \textit{gedanken}, NFT--like \textit{experiment} as in Fig. \ref{figintroA2} for $p-h$--vibrations and in Fig. \ref{figintroA3} regarding pairing vibrations. Because the corresponding processes deal  with physical states, they translate with ease into a laboratory setup. In keeping with the fact that the vacuum contains all the information (right physical degrees of freedom) of the quantal system under study. Forcing virtual processes associated  with vacuum ZPF to become real, one is guaranteed to get, in each instance, the real, dressed, physical particle. 
+In other words, if one is in doubt of which are the properly dressed elementary, physical modes of excitation, one should find out how to specifically excite the  mode in question, by acting with an external field on the ZPF of the vacuum (Hawking--like radiation\footnote{\cite{Barranco:19b}.}; see also Sect. \ref{S6.6} in particular Fig. \ref{fig6.6.2}). That is,  carry out a \textit{gedanken}, NFT--like \textit{experiment} as in Fig. \ref{figintroA2} for $p-h$--vibrations and in Fig. \ref{figintroA3} regarding pairing vibrations. Because the corresponding processes deal  with physical states, they translate with ease into a laboratory setup. In keeping with the fact that the vacuum contains all the information (right physical degrees of freedom) of the quantal system under study. Forcing virtual processes associated  with vacuum ZPF to become real, one is guaranteed to get, in each instance, the real, dressed, physical particle. 
 
-The fact that one can treat fully quantum mechanically and on equal footing both structure and reaction processes is apparent from these figures and considerations\footnote{Full fledge embodiments being found in e.g. Figs. \ref{fig1.9.1} and \ref{fig1.9.2} and Figs. \ref{fig6.3.1} and \ref{fig6.6.2}.}. Thus unification of structure and reactions, and dressing of energies, vertices (interactions) and formfactors (single--particle radial wavefunctions and associated transition densities), results in a single vacuum correlated state (e.g. Figs. \ref{figintroA1} and \ref{figintroF2}). Vacuum states which through its fluctuations, reflect both single--particle, normal and abnormal (pairing) density vibrations and their interweaving.  It also indicates the  set of specific probes which make  these virtual states to collapse into on--the--energy shell states, providing the corresponding physical information to the   outgoing particles, also photons, which eventually interact with the corresponding detectors (e.g. Figs. \ref{figintroA2}, \ref{figintroA3} and \ref{fig1.9.2}). Structure and reaction processes free of non--orthogonality, overcompleteness and Pauli violation contributions.
+The fact that one can treat fully quantum mechanically and on equal footing both structure and reaction processes is apparent from these figures and considerations\footnote{Full fledge embodiments being found in e.g. Figs. \ref{fig1.9.2}, \ref{fig1.9.3} and  \ref{fig6.6.2}.}. Thus unification of structure and reactions, and dressing of energies, vertices (interactions) and formfactors (single--particle radial wavefunctions and associated transition densities), results in a single vacuum correlated state (e.g. Figs. \ref{figintroA1} and \ref{figintroF2}). Vacuum states which through its fluctuations, reflect both single--particle, normal and abnormal (pairing) density vibrations and their interweaving.  It also indicates the  set of specific probes which make  these virtual states to collapse into on--the--energy shell states, providing the corresponding physical information to the   outgoing particles, also photons, which eventually interact with the corresponding detectors (e.g. Figs. \ref{figintroA2}, \ref{figintroA3} and \ref{fig1.9.2}). Structure and reaction processes free of non--orthogonality, overcompleteness and Pauli violation contributions.
 
 
 Summing up, the last line of Fig. \ref{figintroA2} displays, together with the corresponding time orderings, the lowest order self--energy and vertex correction renormalising vibrational states. It thus gives rise to the physical collective vibrations whose properties can be directly compared with the experimental findings (within this context see last paragraph of the next section). In other words, the processes shown in the last line of   Fig. \ref{figintroA2} imply that the elementary modes participating in the virtual states have to display, exception made for energy (off--shell modes) the same properties of the physical, dressed (renormalized), on--shell modes whose properties can be directly compared with experiment\footnote{Examples of these processes in the case of giant resonances are found in \cite{Bortignon:81,Bertsch:83}. For low--lying states see \cite{Barranco:04}.} (renormalized NFT). This because one can, through an experiment
@@ -924,7 +802,7 @@ with the associated Schr\"odinger equation
 \begin{align}\label{eqC1A8}
 H'_\tau\psi_\tau(\zeta)=\epsilon_\tau \psi_\tau(\zeta),
 \end{align}
-$\zeta$ representing a general variable\footnote{Collective, also in the sense of independent particle motion (see \cite{Mottelson:62}) variable or order parameter.} (e.g. the single--particle co--ordinate, the gap parameter, the shape of the nucleus, etc.). The wave function $\psi_\tau(\zeta)$ is the $\zeta$--co--ordinate representation of the eigenstate $\alpha_\tau^\dagger\ket{\tilde 0}$. The operator $\alpha_\tau^\dagger$ creates an excitation with the quantum number $\tau$ when acting in the state $\ket{\tilde 0}$, the correlated vacuum of all the excitations $\tau$.
+$\zeta$ representing a general variable\footnote{Collective, also in the sense of independent particle motion (see \cite{Mottelson:62}), variable or order parameter.} (e.g. the single--particle co--ordinate, the gap parameter, the shape of the nucleus, etc.). The wave function $\psi_\tau(\zeta)$ is the $\zeta$--co--ordinate representation of the eigenstate $\alpha_\tau^\dagger\ket{\tilde 0}$. The operator $\alpha_\tau^\dagger$ creates an excitation with the quantum number $\tau$ when acting in the state $\ket{\tilde 0}$, the correlated vacuum of all the excitations $\tau$.
 
 
 
@@ -974,12 +852,12 @@ of the ground  state of the system  which ensures that it acts as the vacuum sta
 $|\tilde0\rangle  $ of the elementary modes of excitation. In other words $a_{\nu}|\tilde 0 \rangle   = 0, \Gamma_{\alpha} |\tilde 0\rangle   =0$, where
 $a^+_{\nu}|\tilde 0 \rangle   = |\nu\rangle  $ and , $\Gamma^+_{\alpha} |\tilde 0\rangle   =|\alpha\rangle  $ represent a single-particle and a one-phonon state.
 This   implies, in keeping 
-with the indeterminacy  relations\footnote{The quantities $I$, $N$ and $\Omega$, $\phi$ are the angular momentum and particle number, conjugate variables to the Euler and gauge angles respectively.} $\Delta x \Delta p \geq \hbar/2$, $\Delta I \Delta \Omega \geq 1$, $\Delta N \Delta \phi \geq 1$, etc.  that $|\tilde 0\rangle   = |0\rangle  _F |0\rangle  _B$
+with the indeterminacy  relations\footnote{The quantities $I$, $N$ and $\Omega$, $\phi$ are the angular momentum and particle number, conjugate variables to the Euler and gauge angles respectively.} $\Delta x \Delta p \geq \hbar/2$, $\Delta I \Delta \Omega \geq 1$, $\Delta N \Delta \phi \geq 1$, etc.,  that $|\tilde 0\rangle   = |0\rangle  _F |0\rangle  _B$
 displays the  quantal zero point fluctuations (ZPF) of the many--body system under study.
 
 Within the framework of nuclear field theory (NFT) used below, in which single-particle (fermionic, F) and vibrational
 (bosonic, B) elementary modes of excitation are to be calculated within the framework of HFB and QRPA
-respectively, $|\tilde 0\rangle  $ must display the associated ZPF (cf. App. \ref{App1.E}). In particular for (harmonic) vibrational modes the indeterminacy relation achieves its lowest possible value 
+respectively\footnote{Hartree-Fock (HF) and Random Phase (RPA) approximation extended to open shell superfluid nuclei. Namely Hartree-Fock-Bogoliubov and Quasi Random Phase Approximation.}, $|\tilde 0\rangle  $ must display the associated ZPF (cf. App. \ref{App1.E}). In particular for (harmonic) vibrational modes the indeterminacy relation achieves its lowest possible value 
 $\Delta x \Delta p = \hbar/2$, the associated zero point energy amounting to $\hbar \omega/2$
 for each degree of freedom. For example 5$\hbar \omega/2$ for quadrupole vibrations, 
 $\hbar \omega$ being the energy of the collective vibrational mode under consideration. 
@@ -988,12 +866,10 @@ $\hbar \omega$ being the energy of the collective vibrational mode under conside
 
 
 An illustrative example of the above arguments is provided by the low--lying quadrupole vibrational state of $^{120}$Sn. 
-Diagonalizing SLy4 in QRPA leads to a value of $B(E2)$
+Diagonalizing the effective SLy4 Skyrme interaction in QRPA leads to a value of $B(E2)$
 (890 $e^2$ fm$^2$) which is about a factor of 2 smaller than experimentally observed (2030 $e^2$ fm$^2$). 
 Taking into account  renormalisation effects in NFT, 
-namely in a conserving  approximation (self-energy and vertex corrections, generalised Ward identities, see last line of Fig. \ref{figintroA2} and  Fig. \ref{fig6_C3x}), one obtains a value (2150 e$^2$ fm $^2$), 
-which essentially coincides with 
-the experimental findings. One does not know how to accurately calculate the absolute ground state energy 
+namely in a conserving  approximation (self-energy and vertex corrections, generalised Ward identities, see last line of Fig. \ref{figintroA2} and  Fig. \ref{fig6_C3x}), one obtains a value (2150 e$^2$ fm $^2$).  One does not know how to accurately calculate the absolute ground state energy 
 $E_0$ (total binding energy) of e.g. $^{120}$Sn, but one can accurately work out 
 the properties of the low--energy mode of this nucleus, also the collective energies 
 $\hbar \omega_L =E_L - E_0$, and thus the associated ZPF and zero point energy $E_0$,
@@ -1025,7 +901,7 @@ and protons have played a central role in unraveling the basic features of the p
  
 \subsection{NFT rules and applications}\label{Sect1.7.2}
 A field theory can be formulated in which the nuclear elementary modes of
-excitation play the role of the free fields and in which their mutual interweaving takes place through the particle--vibration coupling vertices\footnote{\cite{Bes:74,Broglia:76,Bohr:75,Mottelson:76}.}.
+excitation play the role of the free fields and in which their mutual interweaving takes place through four-point ($v$) as well as three-point particle-vibration coupling vertices\footnote{\cite{Bes:74,Broglia:76,Bohr:75,Mottelson:76}.}.
 This theory provides a graphical perturbative approach to obtain the exact
 solution of the many-body nuclear-structure problem in the product basis $\psi_\tau(\zeta)\psi_\eta(\Delta)\dots\psi_\gamma(\Gamma)$
 
@@ -1056,8 +932,8 @@ H_{TB}=-\frac{V}{2}\left(A^\dagger A+AA^\dagger\right),\quad\quad A^\dagger=\sum
 
 
 The index $\sigma$ (=$\pm1$) labels the two levels, while $m$ labels the degenerate states within
-each level. The strength of the monopole coupling is denoted by $V$ and the
-energy difference between the two levels is $\epsilon$. 
+each level. The strength of the monopole coupling is denoted  $V$ and the
+energy difference between the two levels  $\epsilon$. 
 The matrix element of (\ref{eqC1A15}) is given by
 \begin{align}\label{eqC1A16} 
 \braket{m,1;m',-1|H_{TB}|m'',1;m''',-1}=-V\delta(m,m')\delta(m'',m''').
@@ -1073,9 +949,9 @@ The closed-shell system of the schematic model under consideration corresponds t
 by adding or removing a single particle to/from this closed-shell configuration.
 The corresponding wave functions and energies, which should include the
 Hartree-Fock corrections (see Fig. \ref{figintro4} (b), (c)) generated by the residual interaction\footnote{The Hartree--Fock energy associated with the Hamiltonian (\ref{eqC1A13}) can be obtained
-from the linearization relation $[H,a_{\sigma,m}^\dagger]=E(m,\sigma)a^\dagger_{\sigma,m}$ acting on the Hartree--Fock
-vacuum, which in this case coincides with the single-particle vacuum defined by
- $a^\dagger_{m,-1}\ket{0}=a_{m,1}\ket{0}=0$}, are
+from the linearization relation $[H,a_{\sigma,m}^\dagger]=E(m,\sigma)a^\dagger_{\sigma,m}$ acting on the Hartree-Fock
+vacuum (see Eq. (\ref{eq0.1.15})), which in this case coincides with the single-particle vacuum defined by
+ $a^\dagger_{m,-1}\ket{0}=a_{m,1}\ket{0}=0$.}, are
  \begin{align}\label{eqC1A17} 
 \left\{\begin{array}{l}
  \ket{m,1}=a^\dagger_{m,1}\ket{0},\quad E(m,1)=\frac{1}{2}(\epsilon+V),\\ 
@@ -1091,7 +967,7 @@ respect to the ground state is
  \centerline {
  \includegraphics*[width=4cm]{introduccion/figs/fig18}
  }
- \caption{Graphical representation of the amplitude of the collective phonon (wavy line) on a given particle--hole excitation ($(m,1),(m,-1)$). This amplitude can be written in terms of the interaction vertex denoted by $\Lambda_i$, and the energy denominator $\omega_i-\epsilon'$. The particles (holes) are depicted by upward-- (downward--) going arrowed lines.}
+ \caption{Graphical representation of the amplitude of the collective phonon (wavy line) on a given particle--hole excitation ($(m,1),(m,-1)$). This amplitude can be written in terms of the interaction vertex denoted  $\Lambda_i$, and the energy denominator $\omega_i-\epsilon'$. The particles (holes) are depicted by upward-- (downward--) going arrowed lines.}
  \label{figC1A1}
  \end{figure}
 The contribution $V$ in (\ref{eqC1A18}) is the Hartree--Fock contribution to the particle--hole excitation.
@@ -1100,7 +976,7 @@ If we define the creation operator of the normal modes as
  \begin{align}\label{eqC1A19} 
 \beta^\dagger_\nu=\sum_m \lambda_m^\nu a_{m,1}^\dagger a_{m,-1},
  \end{align}
-the linearization equation
+the linearization equation (see Eq. (\ref{eq0.1.14})),
  \begin{align}\label{eqC1A20} 
 [H,\beta_\nu^\dagger]=\omega_\nu\beta^\dagger_\nu,
  \end{align}
@@ -1141,7 +1017,7 @@ as the basic degrees of freedom both the vibrations (see (\ref{eqC1A21})) and th
 (see (\ref{eqC1A17})) coupled through the interactions (\ref{eqC1A16}) (four--point vertex) and (\ref{eqC1A26}) (particle--vibration coupling)\footnote{\cite{Bes:74,Broglia:76}}. A significant
 part of the original interaction has already been included in generating the
 collective mode (\ref{eqC1A21}). This implies that the rules for evaluating the effect of
-the couplings (\ref{eqC1A16}) and (\ref{eqC1A26}) between fermions and bosons involve a number of restrictions as compared with the usual rules of perturbation theory that
+the couplings (\ref{eqC1A16}) and (\ref{eqC1A26}) between fermions and bosons, involve a number of restrictions as compared with the usual rules of perturbation theory that
 are to be utilized in evaluating the effect of the original interaction (\ref{eqC1A15}) acting
 in a fermion space. They read as follows:
 \begin{enumerate}[I)]
@@ -1194,6 +1070,14 @@ The physical states are to be written as
  \begin{align}\label{eqC1A29} 
 \ket{qm}=\sum_i\xi_{iqm}\ket{n_i=1;m,1},
  \end{align}
+ 
+  \begin{figure}
+ 	\centerline {
+ 		\includegraphics*[width=13cm]{introduccion/figs/figalpha}
+ 	}
+ 	\caption{Schematic two--level model. Count of the states $\ket{m,1;m-1;m',1}$ in the case of $j=3/2$ and $\Omega=2j+1=4$. State (b) is not allowed because of Pauli principle. The states ((a),(e)), ((c),(f)) and ((d),(g)) are pairwise identical, in keeping with the indistinguishability of the particles. Thus, the states (a), (c) and (d) (equivalent (e), (f) (g)) exhaust the degrees of freedom of states of type (\ref{eqC1A28}). In other words, there are only $\Omega-1=3$ two--particle one--hole states in which the odd particle is in the state ($m',1$).}
+ 	\label{figalpha}
+ \end{figure}
   \begin{figure}
   \centerline {
   \includegraphics*[width=12cm]{introduccion/figs/fig19}
@@ -1205,13 +1089,7 @@ as (\ref{eqC1A28}) cannot be basis states according to rule I), but only interme
 states. The quantities $\xi_{iqm}$, are the amplitudes of the physical state in the different components of the product basis of elementary excitations. Rule (I) eliminates most of the double counting of two--particle, one--hole states. The model state contains $\Omega$ ``proper'' states of the form $\ket{n_i;m,1}$,  in which case the odd particle is in the state $(m,1)$. That is $\ket{n_1;m,1}$ ($\omega_1=\epsilon'-V\Omega$) and $\ket{n_i;m,1}$ ($\omega_i=\epsilon',\; i=2,\dots,\Omega$). However, there are only $\Omega-1$ two--particle, one--hole states in which the odd particle is in the state $(m,1)$ (Fig. \ref{figalpha}). Therefore, a spurious state remains in the spectrum based on elementary modes of excitation. In other words, allowing the quantum number $m$ to run over all possible $\Omega$--states, the  model space contains $\Omega^2$ states (one for each value of $m$), while the correct number is $\Omega(\Omega-1)$.
 
 
-  \begin{figure}
-  \centerline {
-  \includegraphics*[width=13cm]{introduccion/figs/figalpha}
-  }
-  \caption{Schematic two--level model. Count of the states $\ket{m,1;m-1;m',1}$ in the case of $j=3/2$ and $\Omega=2j+1=4$. State (b) is not allowed because of Pauli principle. The states ((a),(e)), ((c),(f)) and ((d),(g)) are pairwise identical, in keeping with the indistinguishability of the particles. Thus, the states (a), (c) and (d) (equivalent (e), (f) (g)) exhaust the degrees of freedom of states of type (\ref{eqC1A28}). In other words, there are only $\Omega-1=3$ two--particle one--hole states in which the odd particle is in the state ($m',1$).}
-  \label{figalpha}
-  \end{figure}
+ 
 Thus the basis $\ket{n_1=1; m,1}$ contains $\Omega$ spurious states. Its origin can be
 traced back to the violation of the Pauli principle (see also Sect. \ref{C1S7sS3}).
 To obtain the energy of $\ket{qm}$ we have to allow the states $\ket{n_1=1;m,1}$
@@ -1278,7 +1156,7 @@ and
  \begin{align}\label{eqC1A41} 
 E_{qm}=\frac{1}{2}\epsilon'+\omega_1+V=\frac{3}{2}\epsilon'-V(\Omega-1),
  \end{align}
-exhausts the inelastic sum rule in agreement with the exact results. Note
+\textit{exhausts the inelastic sum rule in agreement with the exact results.} Note
 that (\ref{eqC1A40}) is specifically excited in inelastic processes, as can be seen by
 direct inspection.
   \begin{figure}
@@ -1381,7 +1259,7 @@ Similarly to $H_{int}$ the ``inelastic operator'' has two different matrix eleme
     \centerline {
     \includegraphics*[width=12cm]{introduccion/figs/fig21}
     }
-    \caption{Lower order contributions to the energy matrix element between the basis states $\ket{n_i=1;m,1}$. The dashed line stands for the model bare interaction (see eq. \ref{eqC1A53}). The quantity $X_{ii'}(E)=A\sum_na^n=-\Lambda_i\Lambda_i'/(E-\epsilon_m-V)$, where $A=-\Lambda_i\Lambda_i'/(E-\epsilon_m)$ and $a=V/(E-\epsilon_m)$, is the matrix element iterated to all orders in $1/\Omega$. The secular equation of the problem is $|(\omega_i\delta(i,i'))+X_{ii'}|=0$, and is equivalent to the dispersion relation (\ref{eqC1A60}). II) Graphical solution of the dispersion relation (\ref{eqC1A60}), for the case $\Omega=4$. The function $F(E)=\sum_i\Lambda_i^2/(\omega_i-E)$ is displayed as a continuous thick line, while the parallel lines $E-\epsilon_m-V$ have been drawn as thin continuous lines intersecting the ordinates axis at $-(\epsilon_m+V)$. The intersections between the two functions give the eigenvalues of the secular equation. For each value of $\epsilon_m$ there are $\Omega+1$ roots, the root at $E=\epsilon_m$ being double.}
+    \caption{(I) Lower order contributions to the energy matrix element between the basis states $\ket{n_i=1;m,1}$. The dashed line stands for the model bare interaction (see eq. \ref{eqC1A53}). The quantity $X_{ii'}(E)=A\sum_na^n=-\Lambda_i\Lambda_i'/(E-\epsilon_m-V)$, where $A=-\Lambda_i\Lambda_i'/(E-\epsilon_m)$ and $a=V/(E-\epsilon_m)$, is the matrix element iterated to all orders in $1/\Omega$. The secular equation of the problem is $|(\omega_i\delta(i,i'))+X_{ii'}|=0$, and is equivalent to the dispersion relation (\ref{eqC1A60}). (II) Graphical solution of the dispersion relation (\ref{eqC1A60}), for the case $\Omega=4$. The function $F(E)=\sum_i\Lambda_i^2/(\omega_i-E)$ is displayed as a continuous thick line, while the parallel lines $E-\epsilon_m-V$ have been drawn as thin continuous lines intersecting the ordinates axis at $-(\epsilon_m+V)$. The intersections between the two functions give the eigenvalues of the secular equation. For each value of $\epsilon_m$ there are $\Omega+1$ roots, the root at $E=\epsilon_m$ being double.}
     \label{figC1A4}
     \end{figure}
 In what follows we discuss again the system comprising an odd particle, in the orbit $(m, 1)$, in addition to a single phonon excitation of the vacuum. 
@@ -1423,7 +1301,7 @@ The normalization condition which determines $N_{qm}$ is   \begin{align}\label{e
 \nonumber &=N^2_{qm}\left[\sum_i\frac{\Lambda^2_i}{(\omega_i-E_{qm})^2}-\frac{1}{(E_{qm}-\epsilon_m-V)^2}\sum_{i,i'}\frac{\Lambda^2_i\Lambda^2_{i'}}{(\omega_i-E_{qm})(\omega_{i'}-E_{qm})}\right]=\\
  &=N^2_{qm}\left[\sum_i\frac{\Lambda_i^2}{(\omega_i-E_{qm})^2}-1\right],
   \end{align}
-where the dispersion relation (\ref{eqC1A60}) has been utilized, and where $X_{ii'}$ is the matrix element appearing in (\ref{eqC1A56}) and defined in (\ref{eqC1A57}). For $E_{qm}=\epsilon_m$ the factor multiplying $N^2_{qm}$ is zero (see eq. (\ref{eqC1A61})). Thus, there are only $\Omega-1$ states which can be normalized when solving the Hamiltonian (\ref{eqC1A46}) in the framework of the nuclear field theory. The full spuriosity of the elementary--mode product basis is concentrated in a single state\footnote{ Note that the mathematical relation $N^2f(E)=1, N^2$. being the norm of the state with energy $E$, implies that such state is spurious if $f(E)= 0$ or $f(E)<O$ (see cq. (\ref{eqC1A38}) and subsequent discussion).}.
+where the dispersion relation (\ref{eqC1A60}) has been utilized, and where $X_{ii'}$ is the matrix element appearing in (\ref{eqC1A56}) and defined in (\ref{eqC1A57}). For $E_{qm}=\epsilon_m$ the factor multiplying $N^2_{qm}$ is zero (see eq. (\ref{eqC1A61})). Thus, there are only $\Omega-1$ states which can be normalized when solving the Hamiltonian (\ref{eqC1A46}) in the framework of the nuclear field theory. The full spuriosity of the elementary--mode product basis is concentrated in a single state\footnote{ Note that the mathematical relation $N^2f(E)=1, N^2$. being the norm of the state with energy $E$, implies that such state is spurious if $f(E)= 0$ or $f(E)<O$ (see Eq. (\ref{eqC1A38}) and subsequent discussion).}.
 
  
 The subscript $F$ has been utilized in (\ref{eqC1A62}) to indicate that we are dealing with the nuclear--field solution of the Hamiltonian (\ref{eqC1A46}) (for simplicity it will not be used in the following). Note that these eigenvectors are expressed in terms of only  allowed initial or final states (see rule I)) 
@@ -1495,7 +1373,7 @@ and $N_{qm}$ is always $>1$. In the present case, however, because the matrix el
   \begin{align}\label{eqC1A78b} 
 \sum_{ii'}\frac{\partial X_{ii'}}{\partial E}\xi_{qm}^*\xi_{qm},
     \end{align} 
-can be either positive, or negative\footnote{Within this context see \cite{Bes:76a} in particular App. B, footnote p. 25.}. From the above discussion it can be concluded that $N_{qm}$ can vanish for certain states, eliminating the redundant degrees of freedom. Examples are discussed in Sect. \ref{Sect1.7.4} (see also \ref{AppCS2}).
+can be either positive, or negative\footnote{Within this context see \cite{Bes:76a} in particular App. B, footnote p. 25.}. From the above discussion it can be concluded that $N_{qm}$ can vanish for certain states, eliminating the redundant degrees of freedom. Examples are discussed in Sect. \ref{Sect1.7.4} (see also App. \ref{AppCS2}).
 
 
 
@@ -1506,7 +1384,7 @@ can be either positive, or negative\footnote{Within this context see \cite{Bes:7
      \centerline {
      \includegraphics*[width=12cm]{introduccion/figs/fig22}
      }
-     \caption{Lower order contributions to the one--particle transfer reaction induced by $a^\dagger_{m,1}$. The result of iterating the different contributions to all orders in $1/\Omega$ is equal to $T_{qm}(ii')=C\sum_nd^n=-\Lambda_i\Lambda_{i'}/\left((\omega_i-\epsilon_m)(E_{qm}-\epsilon_m-V)\right),\,C=-\Lambda_i\Lambda_{i'}/\left((\omega_i-\epsilon_m)(E_{qm}-\epsilon_m)\right),\,d=|V/(E_{qm}-\epsilon_m)|$.}
+     \caption{Lower order contributions to the one--particle transfer reaction induced by $a^\dagger_{m,1}$. The result of iterating the different contributions to all orders in $1/\Omega$ is equal to $T_{qm}(ii')=C\sum_nd^n=-\Lambda_i\Lambda_{i'}/\left((\omega_i-\epsilon_m)(E_{qm}-\epsilon_m-V)\right),\,C=-\Lambda_i\Lambda_{i'}/\left((\omega_i-\epsilon_m)(E_{qm}-\epsilon_m)\right),\,\alpha=|V/(E_{qm}-\epsilon_m)|$.}
      \label{figC1A5}
      \end{figure}
 We now calculate the one-particle stripping process leading to the odd system. This calculation illustrates the explicit concentration of the whole spuriosity into a single state which has zero correlation energy\footnote{This is because the spurious state has zero phase space to correlate.} and  zero amplitude for the different physical processes exciting the $\Omega-1$ physical states. 
@@ -1573,7 +1451,7 @@ This constitutes the basis set of states $\{\alpha_i\}$. All other states give r
 
 The elementary modes of excitation interact through the particle--vibration and four--point vertices displayed in Fig. \ref{figC1A6} giving rise to the matrix elements 
   \begin{align}\label{eqC1A83} 
-   M_1(nj,n'j')\equiv \braket{[\beta^\dagger_n(0\lambda)a^\dagger_{j'}]_{IM}|h_{eff}(E)|[\beta^\dagger_n(0\lambda)a^\dagger_j]_{IM}},
+   M_1(nj,n'j')\equiv \braket{[\beta^\dagger_{n'}(0\lambda)a^\dagger_{j'}]_{IM}|h_{eff}(E)|[\beta^\dagger_n(0\lambda)a^\dagger_j]_{IM}},
     \end{align}   
   \begin{align}\label{eqC1A84} 
    M_2(nj,n'j')\equiv \braket{[\beta^\dagger_{n'}(2\lambda)a_{j'}]_{IM}|h_{eff}(E)|[\beta^\dagger_n(2\lambda)a_j]_{IM}},
@@ -1636,7 +1514,7 @@ and
                    \label{figC1A7}
                    \end{figure}
 Only the lowest states of each spin and parity $\lambda^{\pi}$ are included in the basis states, while all the RPA solutions are included in the intermediate states. The quadrupole surface vibrational modes were allowed only as intermediate states. The single hole and particle states $j_1^{-1}$ and $j_2$, respectively, correspond to experimentally known levels around the $Z = 82$ shell closure.  
-In what follows, the  two $\frac{3}{2}^+$ states built out of the $\ket{d_{3/2}^{-1}\otimes gs(^{210\text{Po}})}$ and $\ket{h_{9/2}\otimes 3^{-}(^{208\text{Pb}})}$ configurations are studied in this space. This two-state system provides a rich laboratory to learn about the interplay of surface and pairing modes. 
+In what follows, the  two $\frac{3}{2}^+$ states built out of the $\ket{d_{3/2}^{-1}\otimes gs(^{210\text{Po}})}$ and $\ket{h_{9/2}\otimes 3^{-}(^{208\text{Pb}})}$ configurations are studied in this space. This two-state system provides a rich laboratory to learn about the interplay of surface and pairing modes. Within this context, see also App. \ref{appintroC}. 
 
 The two basis states 
   \begin{align}\label{eqC1A89} 
@@ -1653,25 +1531,17 @@ are 118 keV apart. They mix strongly through the couplings depicted by the graph
 
 Because of the energy dependence of $h_{eff}$ there is a different matrix element 
 for each final stale. The diagonalization of the matrices was carried out self--consistently, \textit{i.e.} the energy denominators of the different graphs are to be calculated by utilizing the exact energies\footnote{for more details, see ref. \cite{Bortignon:77}; see also \cite{Bortignon:76}.}. 
-The corresponding graphical contributions to the single-particle spectroscopic amplitudes, and thus eventually absolute ($t,\alpha$) differential cross sections, and absolute inelastic scattering cross-sections are also collected in fig. \ref{figC1A7}. To be noted is the very different ratio of the $(d,d')$ and $(t,\alpha)$ cross sections. While $R_1=B(E3;(\frac{3}{2})_1)/B(E3;(\frac{3}{2})_2))$ is approximately equal to 2.5, the ratio $R_2=\sigma((t,\alpha);(\frac{3}{2})_2)/\sigma((t,\alpha);(\frac{3}{2})_1)$ is close to one. Because the component $\ket{\beta}$ carries the inelastic--scattering strength, while the $(t,\alpha)$ reaction proceeds mainly through the component of type $\ket{\alpha}$, \textit{the difference between $R_1$ and $R_2$ can be traced back to the corrections associated with the over--completeness of the unperturbed basis states which give rise to rather different normalizations of the two physical states} (see Sects. \ref{appintroC} and \ref{C1S7sS3}, see also App. \ref{App1.C}, Sect. \ref{AppCS2}).
+The corresponding graphical contributions to the single-particle spectroscopic amplitudes, and thus eventually absolute ($t,\alpha$) differential cross sections, and absolute inelastic scattering cross-sections are also collected in Fig. \ref{figC1A7}. To be noted is the very different ratio of the $(d,d')$ and $(t,\alpha)$ cross sections. While $R_1=B(E3;(\frac{3}{2})_1)/B(E3;(\frac{3}{2})_2))$ is approximately equal to 2.5, the ratio $R_2=\sigma((t,\alpha);(\frac{3}{2})_2)/\sigma((t,\alpha);(\frac{3}{2})_1)$ is close to one. Because the component $\ket{\beta}$ carries the inelastic--scattering strength, while the $(t,\alpha)$ reaction proceeds mainly through the component of type $\ket{\alpha}$, \textit{the difference between $R_1$ and $R_2$ can be traced back to the corrections associated with the over--completeness of the unperturbed basis states which give rise to rather different normalizations of the two physical states} (see Sect.   \ref{C1S7sS3} and App. \ref{appintroC}; see also App. \ref{App1.C}, Sect. \ref{AppCS2}).
 
 \section{Elementary modes of excitation and specific probes}
 The picture of nuclear structure achieved in terms of elementary modes of excitation displays in a transparent manner the correlation aspects of nuclear dynamics. And, as a consequence or better as a result of the physical input at the basis of the picture, it points to the reaction processes specific to bring the structure information to the detector (observer). The wavefunctions resulting from the NFT solution of the finite quantal nuclear many-body problem contains only few components. Each of them make direct reference to a specific probe. In particular inelastic scattering and one- and two-particle transfer reactions. That is, each component is related to an observable, and is thus associated with a concrete experiment one knows how to carry out with the help of accelerators, beams (in e.g. inverse kinematics), targets (active or less), detectors and softwares, whose output directly relate to the observer. Said it differently, the elementary modes of excitation picture calls for a unified nuclear field theory description of structure and reactions (see also Sect. \ref{S6.6.2}). More precisely, to the question concerning how the nuclear structure of the one-proton outside closed shell nucleus $^{209}_{83}$Bi$_{126}$ is, a possible answer reads the following: a subtle interplay between the vacuum state, that is the ground state of the double closed shell nucleus $^{208}_{82}$Pb$_{126}$, its first excited collective state $\ket{3^-(^{208}\text{Pb});2.613\text{ MeV}}$ and the proton pair addition mode $\ket{gs(^{210}_{84}\text{Po}_{126})}$ as far as boson elementary modes of excitation with $\beta=0$ and $\beta=+2$ transfer quantum number is concerned, and a one-proton ($\beta=+1$) and one-proton hole ($\beta=-1$) above and in the $Z=82$, $N=126$ vacuum state respectively, concerning the fermion degree of freedom. Consistent with this scenario, inelastic scattering and Coulomb excitation ($^{209}$Bi($\alpha,\alpha'$) and $^{209}$Bi($\alpha,\alpha'$) respectively), and one-ptoton stripping and pickup reactions ($^{208}$Pb$(^3\text{He},n)^{209}$Bi and $^{210}$Po$(t,\alpha)^{209}$Bi respectively) together with two-proton stripping processes (e.g. $^{207}$Tl$(^3\text{He},n)^{209}$Bi, possible only in inverse kinematics), are the specific experimental probes.
-
-The need to include both single-particle and collective modes to describe the elementary excitations (reactions) of nuclei subject to external probes, implies that one employs an overcomplete (non-orthogonal) set of variables.
-
-From the existence of the nuclear shell structure, interactions can be represented in first approximation by an average field. Thus one can describe the coupling between single-particle and collective vibrations by a three-point (-field) vertex (Fig. \ref{figC1A1}) rather than a four-point (-field) representing the bare nuclear interaction (Fig. \ref{figintro4} (a)). It is of notice that according to rule II of NFT, this interaction is also to be considered in working out the different diagrams. Concerning the role of non-orthogonality between elementary modes of excitation we also refer to two-nucleon transfer processes (Fig. \ref{fig_beta}, as well as App. \ref{C7AppC}), in which case, simultaneous transfer is partially mediated by the finite overlap of the single-particle wavefunctions in target and projectile, contribution which is to be eliminated from the total transition amplitudes (non-orthogonality (NO) correction). A similar requirement is found at the basis of the derivation of the tunneling Hamiltonian associated with weakly coupled superconductors (Josephson junction, Set. \ref{C3AppC}).
-
-
-
-
 \section[Competition between ZPF]{Competition between the variety of ZPF, in particular those associated with density ($\beta=0$) and pairing ($\beta=\pm2$)}\label{appintroF}
 
 \begin{figure}[h!]
 \centerline {
 \includegraphics*[width=12cm]{introduccion/figs/figintro6}
 }
-\caption{Schematic representation of some of the consequences the interweaving of the elementary modes of excitation with varied transfer quantum number $(\beta=0,\pm1,\pm2;$  (\textbf{f}), (\textbf{g})) have in the (mainly single--particle) nuclear spectrum (\textbf{a}) (\textbf{e}). In particular pair correlations (\textbf{b}, \textbf{c}), as measured by the (two--level) dimensionless parameter $x=G2\Omega/D=GN(0)$, product of the bare coupling constant $G$ and the density of states (DOS) at the Fermi energy (ratio of the single--particle degeneracy $2\Omega=(2j+1)$, and the single--particle energy separation; see \cite{Hogassen:61,Broglia:68}). Coupling with surface modes (\textbf{f}) reduce the effective value of $D$ leading to an increase of $N(0)$ as measured by $1/Z$ but, at the same time decreases, through the breaking of the single--particle strength, the single--particle content (\textbf{d}) of each level (as measured by $Z$; see e.g. \cite{Barranco:05} and refs. therein). The eventual increase of $x$, as reflected by $\tilde x$, results from a delicate balance of the two effects eventually overwhelmed by the induced pairing interaction resulting from the exchange of collective ($\beta=0$) vibrations between pairs of nucleons moving in time reversal states close to the Fermi energy, and by the dynamical smoothing of the Fermi energy through the coupling of single--particle states to $\beta\pm2$ pairing vibrations (\textbf{g}).}
+\caption{Schematic representation of some of the consequences the interweaving of the elementary modes of excitation with varied transfer quantum number $(\beta=0,\pm1,\pm2;$  (\textbf{f}), (\textbf{g})) have in the (mainly single-particle) nuclear spectrum (\textbf{a}) (\textbf{e}). In particular pair correlations (\textbf{b}, \textbf{c}), as measured by the (two--level) dimensionless parameter $x=G2\Omega/D=GN(0)$, product of the bare coupling constant $G$ and the density of states (DOS) at the Fermi energy (ratio of the single-particle degeneracy $2\Omega=(2j+1)$, and the single--particle energy separation; see \cite{Hogassen:61,Broglia:68}). Coupling with surface modes (\textbf{f}) reduce the effective value of $D$ leading to an increase of $N(0)$ as measured by $1/Z$ but, at the same time decreases, through the breaking of the single--particle strength, the single-particle content (\textbf{d}) of each level (as measured by $Z$; see e.g. \cite{Barranco:05} and refs. therein). The eventual increase of $x$, as reflected by $\tilde x$, results from a delicate balance of the two effects eventually overwhelmed by the induced pairing interaction resulting from the exchange of collective ($\beta=0$) vibrations between pairs of nucleons moving in time reversal states close to the Fermi energy, and by the dynamical smoothing of the Fermi energy through the coupling of single--particle states to $\beta\pm2$ pairing vibrations (\textbf{g}).}
 \label{figintro6}
 \end{figure}
 \begin{figure}
@@ -1681,9 +1551,9 @@ From the existence of the nuclear shell structure, interactions can be represent
 \caption{\textbf{(a) (c)} ZPF associated with $p-h$ and pairing vibrations (pair substraction and pair addition modes) make use of the same nucleon degrees of freedom to simultaneously, and independently, correlate  $p-h$, $p-p$ and $h-h$ excitations, thus violating Pauli principle (harmonic approximation). The NFT processes \textbf{(b)} and \textbf{(d)}, which contribute to the correlation energy of the nucleus with opposite sign to that contributed by (a) and (c) (each unavoidable crossing of fermion lines contributes  a minus sign), remove Pauli violating contributions to the corresponding order of perturbation in $1/\Omega$ (see Eq. (\ref{eqC1A86}) and related text).}
 \label{figintroF2}
 \end{figure}
-Particle--hole like vibrations, as e.g. collective surface quadrupole vibrations, induce dynamical distortions of the mean field which virtually break the  magnetic degeneracy of levels into two--fold (Kramer's) degenerate (Nilsson--like) levels and to a reduction of the size of the discontinuity at the Fermi surface typical of non--interacting Fermi systems. Pairing vibrations also smooth out the sharp discontinuity of occupancy taking place around the Fermi energy  displayed by closed shell systems through dynamical ($U_jV_j$) weighting factors (see Fig. \ref{fig3.3.2}), which are operative in an energy region\footnote{$E_{corr}$ is the correlation energy associated with the pair addition ($\beta=+2$) and pair removal mode ($\beta=-2$).}  $\epsilon_F\pm E_{corr}(\beta=\pm2)$ (see Fig. \ref{figintro6} (g)). At the same time the dressing of nucleons by particle--hole and pairing vibrations, leads to an effective $\omega$--mass making nucleons heavier, thus approaching the centroid of the valence orbitals lying above and in the Fermi sea towards the Fermi surface.  In Fig. \ref{figintro6} a schematic representation of the subtle effects the interweaving of single--particle motion and collective vibrations has on pairing correlations, is displayed (see also Fig. \ref{fig8.F.1}). 
+Particle-hole like vibrations, as e.g. collective surface quadrupole vibrations, induce dynamical distortions of the mean field which virtually break the  magnetic degeneracy of levels into two-fold (Kramer's) degenerate (Nilsson-like) levels and to a reduction of the size of the discontinuity at the Fermi surface typical of non-interacting Fermi systems (see Fig. \ref{fig1.2.2} (a)--(e)). Pairing vibrations also smooth out the sharp discontinuity of occupancy taking place around the Fermi energy  displayed by closed shell systems through dynamical ($U_jV_j$) weighting factors (see Fig. \ref{fig3.3.2}), which are operative in an energy region\footnote{$E_{corr}$ is the correlation energy associated with the pair addition ($\beta=+2$) and pair removal mode ($\beta=-2$).}  $\epsilon_F\pm E_{corr}(\beta=\pm2)$ (see Figs. \ref{fig1.2.2} (f), (g) and \ref{figintro6} (g)). At the same time the dressing of nucleons by particle--hole and pairing vibrations, leads to an effective $\omega$-mass making nucleons heavier, thus approaching the centroid of the valence orbitals lying above and in the Fermi sea towards the Fermi surface.  In Fig. \ref{figintro6} a schematic representation of the subtle effects the interweaving of single-particle motion and collective vibrations has on pairing correlations, is displayed (see also Fig. \ref{fig8.F.1}). 
 
-
+Within this context, one can mention that there is a remarkable similarity between the variation of $V^2_\nu$ around the Fermi surface for the BCS ground state at $T=0$ for a strong superconductor ($\lambda\approx0.43$), and the normal-metal Fermi function at $T=T_c$ (critical temperature) as a result of the renormalization of the single-electron levels due to the coupling to phonons, something which is not unknown within the nuclear scenario for open shell nuclei (e.g. Sn-isotopes). Thus, the change in the Fermi system, metal or nucleus in going from the normal to the superconducting phase, cannot be solely described in terms of changes in the occupation numbers of single-particle states, as testified by the fact that through this mechanism no gap opens in the single-particle spectrum. Rather, the main mechanism is that of Off-Diagonal-Long-Range-Order (ODLRO)\footnote{\cite{Yang:62}.}, that is the fact that $\ket{BCS(\phi)}_{\mathcal K'}=\prod_\nu(U'_\nu+e^{-2i\phi}V'_nu P^\dagger_\nu\ket{0})$ describes a system in which there is a gap for both single-particle translation and dissociation, as a result of the gauge phase coherence of all the Cooper pairs participating in the BCS condensate. Furthermore, and equally important, are the consequences of such phasing in connection with the Cooper pair tunneling probability (Sects. \ref{S4.3}, \ref{C3AppD} and \ref{C3AppE}) between two weakly coupled superconductors (Josephson junction, Sect. \ref{C3AppC}), as well as two superfluid nuclei in a heavy ion collision, eventually at energies below the Coulomb barrier.
 
 
 
@@ -1910,68 +1780,132 @@ Arbitrarily forcing the particle--vibration coupling (PVC) strength, the strengt
 In a very real sense this, namely the results collected in Fig. \ref{fig1.4.1} is a nucleus\footnote{For details, see \cite{Idini:15}, and \cite{Broglia:16}, see also  Fig. \ref{fig1.4.1x}.}. That is, the summed experimental and theoretical structural information accessed through asymptotic states\footnote{Another examples being provided by the result displayed in Fig. \ref{fig1.9.1} concerning $^{11}$Li and Fig. \ref{fig6.3.1} regarding $^{11}$Be (see also Sect. \ref{S6.6.2}).}, outcome of simultaneously  probing the system with a complete array of experiments (elastic, anelastic and associated $\gamma$--decay, as well as one-- and two--nucleon transfer reactions), and of calculating the corresponding observables with an equally ample array of theoretical tools, as provided by (NFT)$_{\text{ren}}$(r+s).}
 
 \begin{subappendices}
-%\section[Confronting theory with experiment]{Confronting theory with experiment: absolute cross sections}\label{appintroAx}
-%In this appendix we provide a road map concerning the connection between theory and experiment\footnote{Physics is an experimental science: it is concerned only with those statements which in some sense can be verified by experiment (\cite{Schwinger:01})  .} to be found in the present monograph, and in closely connected references.
-%\subsection{One--particle transfer}
-%\subsubsection{Nuclei along the stability valley}
-%Spectroscopic amplitudes
-%\begin{itemize}
-%\item $^{120}$Sn$(p,d)^{119}$Sn$(7/2^+)$: Table \ref{tab6.2.1}
-%\item $^{120}$Sn$(d,p)^{121}$Sn$(j^\pi)(j^\pi=11/2^-,3/2^+,1/2^+,5/2^+,7/2^+)$: Table \ref{tab6.2.2}
-%\item $^{120}$Sn$(p,d)^{119}$Sn$((5/2^+);E_x)(E_x\leq 2$ MeV: Table \ref{tab6.2.3}
-%\end{itemize}
-%\subsubsection{Optical potentials}
-%\cite{Dickey:82,Bechara:75}\footnote{It is to be noted that, while no big differences are found, in all the transfer calculations involving medium heavy nuclei, the optical potentials collected in Table \ref{tab8.2.2} were employed (\cite{Potel:13}).}.
-%\subsubsection{Absolute differential cross sections: theory--experiment}
-%Fig. \ref{fig6.2.2} and \ref{fig6.2.3}.
-%\subsubsection{Halo nuclei}
-%\begin{enumerate}[a)]
-%\item{$^9$Li($d,p)^{10}$Li($1/2^+$)}
-%\item{$^9$Li($d,p)^{10}$Li($1/2^-$)}
-%\item{$^{10}$Be($d,p)^{11}$Be}
-%\item{$^{11}$Be($d,p)^{12}$Be}
-%\end{enumerate}
-%\subsubsection{Optical potentials}
-%Orrigo and Lenske
-%\subsection{Two--particle transfer}
-%\subsubsection{Nuclei along the stability valley}
-%\subsubsection{Closed shell nuclei}
-%Spetroscopic amplitudes
-%\begin{enumerate}[a)]
-%\item{$^{206}$Pb($t,p)^{208}$Pb}
-%\item{$^{208}$Pb($^{16}$O,$^{18}$O)$^{206}$Pb}
-%\item{$^{48}$Ca($t,p)^{50}$Ca}
-%\end{enumerate}
-%\subsubsection{Optical potentials}
-%\subsubsection{Absolute differential cross sections: theory--experiment}
-%Fig. \ref{fig8_2_1}
-%\subsubsection{Open shell nuclei}
-%$^{124,122,120,118,116,114,112}$Sn$(p,t)$
-%\subsubsection{Spectroscopic amplitudes}
-%Table \ref{tab8_2_1}
-%\subsubsection{Optical potentials}
-%Table \ref{tab8.2.2}
-%\subsubsection{Absolute differential cross sections: theory--experiment}
-%Fig. \ref{fig8_2_4}
-%\subsubsection{Nuclei around $N=6$ closed shell}
-%Spectroscopic amplitudes
-%\begin{enumerate}[a)]
-%\item{$^{1}$H($^{11}$Li,$^{9}$Li)$^{3}$H\\ Eqs. (\ref{eq8_2_1})--(\ref{eq8_2_3})}
-%\item{$^{7}$Li$(t,p)$$^9$Li }
-%\item{$^{10}$Be$(t,p)^{12}$Be}
-%\end{enumerate}
-%\subsubsection{Optical potentials}
-%\begin{enumerate}[a)]
-%\item{Table \ref{tab8.1.1}}
-%\item{ref}
-%\item{ref}
-%\end{enumerate}
-%\subsubsection{Absolute differential cross sections: theory--experiment}
-%\begin{enumerate}[a)]
-%\item{Fig. \ref{fig8_1_2}}
-%\item{Fig. \ref{fig8_2_1}}
-%\item{Fig. \ref{fig8_2_1}}
-%\end{enumerate}
+\section{Non--orthogonality}\label{appintroC}
+As already discussed in Sect. \ref{Sect1.7.4}, 
+the ground state of $^{210}_{84}\text{Po}_{126}$ can be viewed as the proton pair addition mode of the doubly closed shell nucleus  $^{208}_{82}\text{Pb}_{126}$, mode displaying $J^\pi=0^+$ and $\beta=+2$ (transfer--) quantum numbers. Within this framework $^{209}_{83}\text{Bi}_{126}$ is expected to be a \emph{bona fide} proton single--particle system ($\beta=+1$), in which the $g_{7/2},d_{5/2},h_{11/2},d_{3/2}$ and $s_{1/2}$ valence orbitals are occupied, the odd proton occupying, in the ground state, a substate of the $h_{9/2}$ orbital.
+
+
+
+This picture can be specifically probed through one--proton stripping and pick up reactions, e.g. with the help of $^{210}$Po$(t,\alpha)^{209}$Bi and $^{208}$Pb$(^3$He$,d)^{209}$Bi transfer processes\footnote{It is of notice that in the present case, as well as in Sect. \ref{appintroA}, and at variance with the rest of the monograph, use will be made, for the sake of being didactic, of spectroscopic factors ( see end of Sect. \ref{C1S1} as well as App. \ref{C6AppI}).}. The pick--up reaction cross section is, in the case of e.g. the states $1/2^+(s_{1/2})$ and $11/2^-(h_{11/2})$,  essentially consistent with a single peak displaying full $(2j+1)$ occupancy. On the other hand, two $3/2^+$ states with essentially equal strength and exhausting the associated $(2j+1(=4))$ strength are observed.   Furthermore,  the four peaks mentioned above are essentially not excited in the stripping process (see Table \ref{tabintroC1}). In an attempt to further clarify the structure of the two $3/2^+$, use is made of the inelastic process $^{209}$Bi$(d,d')$. Both states are excited in  inelastic scattering, the associated  angular distributions  revealing the octupole character of such excitation (Tables \ref{tabintroC2} and \ref{tabintroC3}).
+
+\begin{figure}
+	\centerline {
+		\includegraphics*[width=12cm]{introduccion/figs/figintroC1}
+	}
+	\caption{NFT diagram describing one of the most important processes coupling the $2p-1h$ states $\ket{\alpha}$ and $\ket{\beta}$ (see Eqs. (\ref{eqintroC1}) and (\ref{eqintroC2})), product of bare elementary modes of excitation consisting in the $^{208}$Pb, $0^+$ pair addition mode and the $d_{3/2}$ proton hole state, and of the lowest octupole vibration of $^{208}$Pb and of a proton moving in the $h_{9/2}$ orbital.}
+	\label{figintroC1}
+\end{figure}
+\begin{figure}
+	\centerline {
+		\includegraphics*[width=6cm]{introduccion/figs/figintroC2}}
+	\caption{Schematic representation of the $3/2^+$ states entering the NFT calculation of the process displayed in Fig. \ref{figintroC1}. The basis state $\ket \alpha$ carries the full $(t,\alpha)$ transfer strength ($tr$) $\sigma^{tr}$, while the basis state $\ket{\beta}$ the full octupole $(oct)$ strength $\sigma^{oct}$ (see Tables \ref{tabintroC1}--\ref{tabintroC3}). The overlap between these states is  $\cos \chi$. The physical states obtained through the (Feynman) diagramatic ``orthogonalization process'' are denoted $\ket{\text{I}}$ and $\ket{\text{II}}$ (see Eqs. (\ref{eqintroC3}) and (\ref{eqintroC4})).}
+	\label{figintroC2}
+\end{figure}
+In keeping with the fact that the same experiment reveals a multiplet (septuplet) of states with centroid around 2.6 MeV and with summed $L=3$ inelastic cross section consistent with that of the lowest collective  (2.615 MeV, $B(E3)/B_{sp}\approx 32$) octupole vibration of $^{208}$Pb, one can posit that the two $3/2^+$ states are a linear combination of the unperturbed (two particles)--(one hole) ($2p$--$1h$) states,
+\begin{align}\label{eqintroC1}
+\ket \alpha=\ket{d_{3/2}^{-1}\otimes gs (^{210}\text{Pb});3/2^+},
+\end{align}
+and 
+\begin{align}\label{eqintroC2}
+\ket \beta=\ket{h_{9/2}\otimes 3^- (^{208}\text{Pb});3/2^+}.
+\end{align}
+Because these states lie very close in energy they mix. According to NFT, the most important contribution to this mixing arises from the process given in Fig. \ref{figintroC1}. The resulting physical (mixed) states can be  written as,
+\begin{align}\label{eqintroC3}
+\ket {\text{I}}=-0.53 \ket \alpha + 0.76 \ket \beta,
+\end{align}
+and 
+\begin{align}\label{eqintroC4}
+\ket {\text{II}}=1.02 \ket \alpha + 0.80 \ket \beta,
+\end{align}
+as resulting from the calculation of the diagram displayed in Fig. \ref{figintroC1} to all orders of perturbation, with the help of Brillouin--Wigner perturbation theory (diagonalization of the corresponding effective Hamiltonian\footnote{See p. 316 \cite{Bortignon:77} and references therein.}, see Sect. \ref{Sect1.7.4}). 
+
+
+
+Let us now calculate the overlap $\mathcal O=\braket{\alpha|\beta}$ between the basis states $\ket\alpha$ and $\ket{\beta}$, that is $\mathcal O=\cos\chi$ (see Fig. \ref{figintroC2}).   
+\begin{table}
+	\begin{tabular}{|c|c|c|c|}
+		\hline 
+		& $E_x$(MeV) & $S(t,\alpha)(2j+1)$ & $S(^3\text{He},d)$ \\
+		\hline 
+		$3/2^+$ & 2.49 & $1.8\pm0.3\,(4)$  & $<0.01$  \\ 
+		$3/2^+$ & 2.95 & $2.2\pm0.3\,(4)$  & $<0.01$ \\ 
+		$1/2^+$& 2.43 &  $1.8\,(2)$& $<0.02$ \\ 
+		$11/2^-$& 3.69 & $10\,(12)$ &  $<0.05$\\ 
+		\hline
+	\end{tabular}\caption{Single--particle strength associated with the  transfer reactions  $^{210}$Po$(t,\alpha)^{209}$Bi and $^{208}$Pb$(^3\text{He},d)^{209}$Bi (see \cite{Bortignon:77}).}\label{tabintroC1}
+\end{table}
+\begin{table}
+	\begin{tabular}{|c|c|c|}
+		\hline 
+		& $E_x$(MeV) & $\frac{\sigma\left(^{209}\text{Bi}(9/2^-;gs)\rightarrow^{209}\text{Bi}(3/2^+;E)\right)}{\sigma\left(^{208}\text{Pb}(gs)\rightarrow (3^-;2.615\, \text{MeV})\right)}$  \\
+		\hline 
+		$3/2$ & 2.49 & $0.042\pm0.003$   \\ 
+		$3/2$ & 2.95 & $0.011\pm0.002$  \\ 
+		\hline
+	\end{tabular}\caption{The total inelastic cross section $\sigma^{oct}$ associated with the lowest octupole vibrational state of $^{208}$Pb can be written in terms of that associated with a single magnetic substate $\sigma'$ as $\sigma_{3^-}^{oct}=7\sigma'$. That associated with the multiplet $(h_{9/2}\otimes 3^-)_{J^+} (J=3/2-15/2)$ as $\sigma_{3^-}^{oct}=70\sigma'$, in keeping with the fact that the $h_{9/2}$ state has 10 magnetic substates. Thus, the strength associated with the 3/2 channel is 4/70=0.057 to be compared with the observed summed (percentage) strength $0.053\pm0.005 $ $(=(0.042\pm0.003)+(0.011\pm0.002))$ associated with the 2.45 MeV and the 2.95 MeV $3/2^+$ states; see \cite{Bortignon:77} Table 4.11.}\label{tabintroC2}
+\end{table}
+\begin{table}
+	\begin{tabular}{|c|c|c|c|c|c|c|c|c|}
+		\hline
+		& \multicolumn{2}{|c}{$E_n$(MeV)} & \multicolumn{2}{|c}{$\frac{\sigma(h_{9/2}\rightarrow 3/2^+)}{\sigma(0^+\rightarrow 3^-)}$(\%)} & \multicolumn{2}{|c}{$S(t,\alpha)$}  & \multicolumn{2}{|c|}{$S(^3\text{He},d)$}   \\
+		\hline
+		&Theory  & Exp  & Theory  & Exp & Theory & Exp & Theory  & Exp  \\
+		\hline
+		3/2& 2.480 & 2.494  & 3.76  & $4.2\pm0.3$  & 1.83  & $1.8\pm0.3$ &0.02  & $<0.01$  \\
+		3/2& 3.125 & 2.95  & 1.56 & $1.1\pm0.2$  & 2.25  & $2.2\pm0.3$ & $10^{-5}$  & $<0.01$  \\
+		\hline
+	\end{tabular}\caption{Summary of NFT predictions concerning the structure of the two lowest $3/2^+$ state of $^{209}$Bi, in comparison with the experimental data (see Table 4.7 of \cite{Bortignon:77}).}\label{tabintroC3}
+\end{table}
+Following this figure  one can write,
+\begin{align}
+\sqrt{\sigma_I^{tr}}=\cos\phi;\quad \sqrt{\sigma_{II}^{tr}}=\cos\left(\frac{\pi}{2}-\phi\right)=\sin \phi,
+\end{align}
+where
+\begin{align}
+{\sigma^{tr}}={\sigma_I^{tr}}+{\sigma_{II}^{tr}}=1,
+\end{align}
+in keeping with the fact that the absolute cross sections of the states $\ket {\text{I}}$ and $\ket {\text{II}}$ are normalized in terms of the total cross section.
+
+
+In the same way
+\begin{align}
+\sqrt{\sigma^{oct}_I}=\cos(\chi-\phi)=\cos\chi\cos\phi+\sin\chi\sin\phi,
+\end{align}
+and
+\begin{align}
+\sqrt{\sigma^{oct}_{II}}=\cos\left(\pi-\left(\frac{\pi}{2}-\phi+\chi\right)\right)=-\cos\left(\frac{\pi}{2}+(\phi-\chi)\right)=\sin\phi\cos\chi+\sin\chi\cos\phi.
+\end{align}
+Thus
+\begin{align}
+\sqrt{\sigma^{oct}_{I}}=\cos\chi\sqrt{\sigma^{tr}_{I}}+\sin\chi\sqrt{\sigma^{tr}_{II}},
+\end{align}
+and
+\begin{align}
+\sqrt{\sigma^{oct}_{II}}=-\cos\chi\sqrt{\sigma^{tr}_{II}}+\sin\chi\sqrt{\sigma^{tr}_{I}}.
+\end{align}
+Multiplying the above relations by $\sqrt{\sigma^{tr}_{I}}$ and $\sqrt{\sigma^{tr}_{II}}$ respectively one obtains,
+\begin{align}
+\sqrt{\sigma^{tr}_{I}\sigma^{oct}_{I}}=\cos\chi\sigma^{tr}_I+\sin\chi\sqrt{\sigma^{tr}_{I}\sigma^{tr}_{II}},
+\end{align}
+and
+\begin{align}
+\sqrt{\sigma^{tr}_{II}\sigma^{oct}_{II}}=-\cos\chi\sigma^{tr}_{II}+\sin\chi\sqrt{\sigma^{tr}_{I}\sigma^{tr}_{II}},
+\end{align}
+which, upon substraction  leads to the  expression of the overlap
+\begin{align}
+\cos\chi=\frac{\sqrt{\sigma^{tr}_{I}\sigma^{oct}_{I}}-\sqrt{\sigma^{tr}_{II}\sigma^{oct}_{II}}}{\sigma_I^{tr}+\sigma_{II}^{tr}}.
+\end{align}
+Making use of the values of Tables \ref{tabintroC1}--\ref{tabintroC3} (see also Fig. \ref{figC1A7} (e) last column labeled \textit{experiment})\footnote{See Table 4.7 of \cite{Bortignon:77}.} one obtains
+\begin{align}
+\mathcal O=\cos\chi=\frac{\sqrt{1.8\times4.2}-\sqrt{2.2\times1.1}}{4}=0.298
+\end{align}
+Regarding the NFT results related to  the above questions we refer to Sect. \ref{Sect1.7.4} as well as to App. \ref{App1.C} (Sect. \ref{AppCS2}). In what follows we provide  simple, necessarily qualitative estimates  making use of the relations\footnote{see Tables 4.5 and 4.6  \cite{Bortignon:77}.}.
+\begin{align}
+\nonumber &\braket{\text{I}|\text{I}}= (-0.53)^2+(0.76)^2-2\times0.53\times0.75\, \mathcal O=1,\\
+\nonumber &\braket{\text{II}|\text{II}}= (1.02)^2+(0.80)^2+2\times1.02\times0.80\, \mathcal O=1,
+\end{align}
+and $\braket{\text{I}|\text{II}}=-0.53\times1.02+0.76\times0.80+(-0.53\times0.80+0.76\times1.02)\,\mathcal O=0$ leading to $\mathcal O=-0.18, -0.42$ and -0.19 respectively and, thus, to the average value of \mbox{$-0.26$}.
+Of course, one can hardly expect to obtain the sign to agree with that of the NFT expression, as it is associated with a free choice of the axis of references (Fig. \ref{figintroC2}). Note also the fact that the quantities $\sigma$ appearing above are well defined, while $\sqrt{\sigma}$ is indetermined by an overall sign.
 \section{Inelastic Scattering}\label{appintroE}
 In this Appendix we briefly discuss   how to extract values of the effective deformation parameter $\beta_L$ from inelastic scattering absolute differential cross sections in the most simple and straightforward way, ignoring all the complications associated with the spin carried by the particles, the spin--orbit dependence of the optical model potential, etc. The deformation parameter $\beta_L$ enter e.g. the particle--vibration coupling Hamiltonian (Eqs. (\ref{eqintroD2}--\ref{eqintroD6})).
 \subsection{($\alpha$,$\alpha'$)--scattering}

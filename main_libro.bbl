@@ -1,4 +1,4 @@
-\begin{thebibliography}{512}
+\begin{thebibliography}{513}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \expandafter\ifx\csname urlstyle\endcsname\relax
@@ -163,6 +163,13 @@ P.~Axel.
 \newblock {Electric Dipole Ground-State Transition Width Strength Function and
   7--MeV Photon Interactions}.
 \newblock \emph{Phys. Rev.}, 126:\penalty0 671, 1962.
+
+\bibitem[Bachelet et~al.(2008)Bachelet, Audi, Gaulard, Gu\'{e}naut, Herfurth,
+  Lunney, de~Saint~Simon, and Thibault]{Bachelet:08}
+C.~Bachelet, G.~Audi, C.~Gaulard, C.~Gu\'{e}naut, F.~Herfurth, D.~Lunney,
+  M.~de~Saint~Simon, and C.~Thibault.
+\newblock {New Binding Energy for the Two-Neutron Halo of $^{11}$Li}.
+\newblock \emph{Phys. Rev. Lett.}, 100:\penalty0 182501, 2008.
 
 \bibitem[Ball(2003)]{Ball:03}
 P.~Ball.
@@ -972,11 +979,6 @@ M.~Buchanan.
 \newblock Wheat from the chaf.
 \newblock \emph{Nature Physics}, 11:\penalty0 296, 2015.
 
-\bibitem[{C. Bachelet {et al.}}(2008)]{Bachelet:08}
-{C. Bachelet {et al.}}
-\newblock {New Binding Energy for the Two-Neutron Halo of $^{11}$Li}.
-\newblock \emph{Phys. Rev. Lett.}, 100:\penalty0 182501, 2008.
-
 \bibitem[Calci et~al.(2016)Calci, Navr\'atil, Roth, Dohet-Eraly, Quaglioni, and
   Hupin]{Calci:16}
 A.~Calci, P.~Navr\'atil, R.~Roth, J.~Dohet-Eraly, S.~Quaglioni, and G.~Hupin.
@@ -1067,6 +1069,11 @@ W.~R. Cobb and D.~B. Guthe.
 M.~H. Cohen, L.~M. Falicov, and J.~C. Phillips.
 \newblock Superconductive tunneling.
 \newblock \emph{Phys. Rev. Lett.}, 8:\penalty0 316, 1962.
+
+\bibitem[Cohen-Tannoudji and {Gu\'ery}-Odelin(2011)]{Cohen:11}
+C.~Cohen-Tannoudji and D.~{Gu\'ery}-Odelin.
+\newblock \emph{Advances in Atomic Physics}, page 675.
+\newblock World Scientific, Singapore, 2011.
 
 \bibitem[Col\`{o} et~al.(2000)Col\`{o}, Giai, Bortignon, and Quaglia]{Colo:00}
 G.~Col\`{o}, N.~V. Giai, P.~F. Bortignon, and M.~R. Quaglia.
@@ -2145,6 +2152,11 @@ J.~Mehra.
 \newblock \emph{The beat of a different drum}.
 \newblock Clarendon Press, Oxford, 1996.
 
+\bibitem[Mei{\ss}ner(2015)]{Meissner:15}
+U.~G. Mei{\ss}ner.
+\newblock Anthropic considerations in nuclear physics.
+\newblock \emph{Science bulletin}, 60:\penalty0 43, 2015.
+
 \bibitem[Meitner and Frisch(1939)]{Meitner:39}
 L.~Meitner and O.~R. Frisch.
 \newblock Products of the fission of the uranium nucleus.
@@ -2263,6 +2275,19 @@ B.~Mouginot, E.~Khan, R.~Neveling, F.~Azaiez, E.~Z. Buthelezi, S.~V. F\"ortsch,
 B.~{M\"uhlschlegel}, D.~J. Scalapino, and R.~Denton.
 \newblock Thermodynamic properties of small superconducting particles.
 \newblock \emph{Phys. Rev. B}, 6:\penalty0 1767, 1972.
+
+\bibitem[Nakamura et~al.(2006)Nakamura, Vinodkumar, Sugimoto, Aoi, Baba, Bazin,
+  Fukuda, Gomi, Hasegawa, Imai, Ishihara, Kobayashi, Kondo, Kubo, Miura,
+  Motobayashi, Otsu, Saito, Sakurai, Shimoura, Watanabe, Watanabe, Yakushiji,
+  Yanagisawa, and Yoneda]{Nakamura:06}
+T.~Nakamura, A.~M. Vinodkumar, T.~Sugimoto, N.~Aoi, H.~Baba, D.~Bazin,
+  N.~Fukuda, T.~Gomi, H.~Hasegawa, N.~Imai, M.~Ishihara, T.~Kobayashi,
+  Y.~Kondo, T.~Kubo, M.~Miura, T.~Motobayashi, H.~Otsu, A.~Saito, H.~Sakurai,
+  S.~Shimoura, K.~Watanabe, Y.~X. Watanabe, T.~Yakushiji, Y.~Yanagisawa, and
+  K.~Yoneda.
+\newblock {Observation of Strong Low-Lying E1 Strength in the Two-Neutron Halo
+  Nucleus $^{11}$Li}.
+\newblock \emph{Phys. Rev. Lett.}, 96:\penalty0 252502, 2006.
 
 \bibitem[Nambu(1960)]{Nambu:60}
 Y.~Nambu.
@@ -2396,12 +2421,6 @@ F.~Perey and B.~Buck.
 \newblock {A non--local potential model for the scattering of neutrons by
   nuclei }.
 \newblock \emph{Nuclear Physics}, 32:\penalty0 353, 1962.
-
-\bibitem[Pines and Bohm(1952)]{Bohm:52}
-D.~Pines and D.~Bohm.
-\newblock {A Collective Description of Electron Interactions: II. Collective
-  $\mathrm{vs}$ Individual Particle Aspects of the Interactions}.
-\newblock \emph{Phys. Rev.}, 85:\penalty0 338, 1952.
 
 \bibitem[Pines and Nozi\`{e}res(1966)]{Pines:66}
 D.~Pines and P.~Nozi\`{e}res.
@@ -2829,12 +2848,6 @@ F.~H. Stillinger.
 F.~H. Stillinger and D.~K. Stillinger.
 \newblock Computational study of transition dynamics in 55-atom clusters.
 \newblock \emph{J. Chem. Phys.}, 93:\penalty0 6013, 1990.
-
-\bibitem[{T. Nakamura {et al.}}(2006)]{Nakamura:06}
-{T. Nakamura {et al.}}
-\newblock {Observation of Strong Low-Lying E1 Strength in the Two-Neutron Halo
-  Nucleus $^{11}$Li}.
-\newblock \emph{Phys. Rev. Lett.}, 96:\penalty0 252502, 2006.
 
 \bibitem[Talmi and Unna(1960)]{Talmi:60}
 I.~Talmi and I.~Unna.

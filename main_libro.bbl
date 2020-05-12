@@ -1,4 +1,4 @@
-\begin{thebibliography}{529}
+\begin{thebibliography}{540}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \expandafter\ifx\csname urlstyle\endcsname\relax
@@ -274,6 +274,17 @@ S.~Baroni, M.~Armati, F.~Barranco, R.~A. Broglia, G.~Col\`{o}, G.~Gori, and
 \newblock Correlation energy contribution to nuclear masses.
 \newblock \emph{Journal of Physics G: Nuclear and Particle Physics},
   30:\penalty0 1353, 2004.
+
+\bibitem[Baroni et~al.(2010)Baroni, Macchiavelli, and Schwenk]{Baroni:10}
+S.~Baroni, A.~O. Macchiavelli, and A.~Schwenk.
+\newblock Partial-wave contributions to pairing in nuclei.
+\newblock \emph{Phys. Rev. C}, 81:\penalty0 064308, 2010.
+
+\bibitem[Barranco and Broglia(1985)]{Barranco:85}
+F.~Barranco and R.~A. Broglia.
+\newblock Correlation between mean square radii and zero-point motions of the
+  surface in the {Ca} isotopes.
+\newblock \emph{Phys. Lett. B}, 151:\penalty0 90, 1985.
 
 \bibitem[Barranco and Broglia(1987)]{Barranco:87a}
 F.~Barranco and R.~A. Broglia.
@@ -1000,6 +1011,13 @@ R.~A. Broglia, F.~Barranco, G.~Potel, and E.~Vigezzi.
   Salvat-Pujol, and P. Talou}.}, page~1, 2019{\natexlab{b}}.
 \newblock \doi{http://dx.doi.org/10.23727/CERN-Proceeding-2019-001}.
 
+\bibitem[Broglia et~al.(2019{\natexlab{c}})Broglia, Barranco, Potel, and
+  Vigezzi]{Broglia:19c}
+R.~A. Broglia, F.~Barranco, G.~Potel, and E.~Vigezzi.
+\newblock {Characterization of vorticity in pygmy resonances and soft-dipole
+  modes with two-nucleon transfer reactions}.
+\newblock \emph{Eur. Phys. J. A}, 55:\penalty0 243, 2019{\natexlab{c}}.
+
 \bibitem[Brown and Rae(2007)]{Brown:07}
 B.~A. Brown and W.~D.~M. Rae.
 \newblock In \emph{{NuShell @ MSU}}. MSU--NSCL report, 2007.
@@ -1296,11 +1314,36 @@ F.~{D\"onau}, D.~Almehed, and R.~G. Nazmitdinov.
   correlation energy.
 \newblock \emph{{Phys. Rev. Lett.}}, 83:\penalty0 280, 1999.
 
+\bibitem[Duguet(2004)]{Duguet:04}
+T.~Duguet.
+\newblock {Bare vs effective pairing forces: A microscopic finite-range
+  interaction for Hartree-Fock-Bogolyubov calculations in coordinate space}.
+\newblock \emph{Phys. Rev. C}, 69:\penalty0 054317, 2004.
+
+\bibitem[Duguet(2013)]{Duguet:13}
+T.~Duguet.
+\newblock {Pairing in Finite Nuclei from Low-Momentum Two- and Three-Nucleon
+  Interactions}.
+\newblock In R.~A. Broglia and V.~Zelevinsky, editors, \emph{50 Years of
+  Nuclear BCS}, page 259. World Scientific, Singapore, 2013.
+
 \bibitem[Duguet and Hagen(2012)]{Duguet:12}
 T.~Duguet and G.~Hagen.
 \newblock {\textit{Ab initio} approach to effective single-particle energies in
   doubly closed shell nuclei}.
 \newblock \emph{Phys. Rev. C}, 85:\penalty0 034330, 2012.
+
+\bibitem[Duguet and Lesinski(2008)]{Duguet:08}
+T.~Duguet and T.~Lesinski.
+\newblock Non-empirical pairing functional.
+\newblock \emph{The European Physical Journal Special Topics}, 156:\penalty0
+  207, 2008.
+
+\bibitem[Duguet et~al.(2010)Duguet, Lesinski, Hebeler, and Schwenk]{Duguet:10}
+T.~Duguet, T.~Lesinski, K.~Hebeler, and A.~Schwenk.
+\newblock {Lowest-order contributions of chiral three-nucleon interactions to
+  pairing properties of nuclear ground states}.
+\newblock \emph{Modern Physics Letters A}, 25:\penalty0 1989, 2010.
 
 \bibitem[Dussel et~al.()Dussel, Betan, Liotta, and Vertse]{Dussel:09}
 G.~G. Dussel, R.~I. Betan, R.~J. Liotta, and T.~Vertse.
@@ -1356,6 +1399,12 @@ J.~L. Egido.
   Hamiltonian and Restoration of Rotational and Gauge Invariance}.
 \newblock In R.~A. Broglia and V.~Zelevinski, editors, \emph{50 Years of
   Nuclear BCS}, page 553. World Scientific, Singapore, 2013.
+
+\bibitem[Eliashberg(1960)]{Eliashberg:60}
+G.~M. Eliashberg.
+\newblock Interactions between electrons and lattice vibrations in a
+  superconductor.
+\newblock \emph{Sov. Phys. JETP}, 11:\penalty0 696, 1960.
 
 \bibitem[Elsasser(1933)]{Elsasser:33}
 W.~Elsasser.
@@ -1672,6 +1721,13 @@ I.~Hamamoto.
   nuclei $^{209}$Pb, $^{209}$Bi, $^{207}$Pb and $^{207}$Tl}.
 \newblock \emph{Nuclear Physics A}, 141:\penalty0 1, 1970.
 
+\bibitem[Hamamoto(1977)]{Hamamoto:77}
+I.~Hamamoto.
+\newblock {Particle-vibration coupling: octupole mode}.
+\newblock In A.~Bohr and R.~A. Broglia, editors, \emph{{Elementary Modes of
+  Excitation in Nuclei, Procs. International School of Physics ``Enrico
+  Fermi''}}, page 252. North Holland, Amsterdam, 1977.
+
 \bibitem[Hamamoto and Mottelson(2003)]{Hamamoto:03}
 I.~Hamamoto and B.~R. Mottelson.
 \newblock Pair correlation in neutron drip line nuclei.
@@ -1705,6 +1761,13 @@ O.~Hansen.
 O.~Haxel, J.~H.~D. Jensen, and H.~E. Suess.
 \newblock On the {``Magic Numbers''} in nuclear structure.
 \newblock \emph{Phys. Rev.}, 75:\penalty0 1766, 1949.
+
+\bibitem[Hebeler et~al.(2009)Hebeler, Duguet, Lesinski, and
+  Schwenk]{Hebeler:09}
+K.~Hebeler, T.~Duguet, T.~Lesinski, and A.~Schwenk.
+\newblock {Non-empirical pairing energy functional in nuclear matter and finite
+  nuclei}.
+\newblock \emph{Phys. Rev. C}, 80:\penalty0 044321, 2009.
 
 \bibitem[Heenen et~al.(2013)Heenen, Hellemans, and Janssens]{Heenen:13}
 P.~H. Heenen, V.~Hellemans, and R.~V.~F. Janssens.
@@ -1907,12 +1970,6 @@ N.~Keeley, N.~Alamanos, and V.~Lapoux.
 \newblock Comprehensive analysis method for $(d,p)$ stripping reactions.
 \newblock \emph{Phys. Rev. C}, 69:\penalty0 064604, 2004.
 
-\bibitem[Keeley et~al.(2007)Keeley, Raabe, Alamanos, and Sida]{Keeley:07b}
-N.~Keeley, R.~Raabe, N.~Alamanos, and J.-L. Sida.
-\newblock {Fusion and direct reactions of halo nuclei at energies around the
-  Coulomb barrier}.
-\newblock \emph{Prog. Nucl. Part. Phys.}, 59:\penalty0 579, 2007.
-
 \bibitem[Ketterson and Song(1999)]{Ketterson:99}
 J.~B. Ketterson and S.~N. Song.
 \newblock \emph{{Superconductivity}}.
@@ -1922,12 +1979,6 @@ J.~B. Ketterson and S.~N. Song.
 E.~Khan, N.~Sandulescu, N.~V. Giai, and M.~Grasso.
 \newblock Two-neutron transfer in nuclei close to the drip line.
 \newblock \emph{Physical Review C}, 69:\penalty0 014314, 2004.
-
-\bibitem[Khoa and von Oertzen(2004)]{Khoa:04}
-D.~T. Khoa and W.~von Oertzen.
-\newblock {Di-neutron elastic transfer in the $^4$He($^6$He, $^6$He)$^4$He
-  reaction}.
-\newblock \emph{Physics Letters B}, 595:\penalty0 193, 2004.
 
 \bibitem[Khodel et~al.(1982)Khodel, Platonov, and Saperstein]{Khodel:82}
 V.~A. Khodel, A.~P. Platonov, and E.~E. Saperstein.
@@ -2089,6 +2140,19 @@ A.~J. Leggett.
 A.~J. Leggett.
 \newblock \emph{Quantum Liquids}.
 \newblock Oxford University Press, Oxford, 2006.
+
+\bibitem[Lesinski et~al.(2009)Lesinski, Duguet, Bennaceur, and
+  Meyer]{Lesinski:09}
+T.~Lesinski, T.~Duguet, K.~Bennaceur, and J.~Meyer.
+\newblock {Non-empirical pairing energy density functional}.
+\newblock \emph{The European Physical Journal A}, 40:\penalty0 121, 2009.
+
+\bibitem[Lesinski et~al.(2011)Lesinski, Hebeler, Duguet, and
+  Schwenk]{Lesinski:11}
+T.~Lesinski, K.~Hebeler, T.~Duguet, and A.~Schwenk.
+\newblock {Chiral three-nucleon forces and pairing in nuclei}.
+\newblock \emph{Journal of Physics G: Nuclear and Particle Physics},
+  39:\penalty0 015108, 2011.
 
 \bibitem[Lesinski et~al.(2012)Lesinski, Hebeler, Duguet, and
   Schwenk]{Lesinski:12}
@@ -2315,6 +2379,29 @@ D.~Montanari, L.~Corradi, S.~Szilner, G.~Pollarolo, E.~Fioretto, G.~Montagnoli,
 \newblock {Neutron Pair Transfer in $^{60}\mathrm{Ni}+^{116}\mathrm{Sn}$ Far
   below the Coulomb Barrier}.
 \newblock \emph{Phys. Rev. Lett.}, 113:\penalty0 052501, 2014.
+
+\bibitem[Montanari et~al.(2016)Montanari, Corradi, Szilner, Pollarolo,
+  Goasduff, Mijatovi\ifmmode~\acute{c}\else \'{c}\fi{}, Bazzacco, Birkenbach,
+  Bracco, Charles, Courtin, D\'esesquelles, Fioretto, Gadea, G\"orgen,
+  Gottardo, Grebosz, Haas, Hess, Jelavi\ifmmode \acute{c}\else~\'{c}\fi{}
+  Malenica, Jungclaus, Karolak, Leoni, Maj, Menegazzo, Mengoni, Michelagnoli,
+  Montagnoli, Napoli, Pullia, Recchia, Reiter, Rosso, Salsac, Scarlassara,
+  S\"oderstr\"om, Soi\ifmmode~\acute{c}\else \'{c}\fi{}, Stefanini, Stezowski,
+  Theisen, Ur, Valiente-Dob\'on, and Varga~Pajtler]{Montanari:16}
+D.~Montanari, L.~Corradi, S.~Szilner, G.~Pollarolo, A.~Goasduff,
+  T.~Mijatovi\ifmmode~\acute{c}\else \'{c}\fi{}, D.~Bazzacco, B.~Birkenbach,
+  A.~Bracco, L.~Charles, S.~Courtin, P.~D\'esesquelles, E.~Fioretto, A.~Gadea,
+  A.~G\"orgen, A.~Gottardo, J.~Grebosz, F.~Haas, H.~Hess, D.~Jelavi\ifmmode
+  \acute{c}\else~\'{c}\fi{} Malenica, A.~Jungclaus, M.~Karolak, S.~Leoni,
+  A.~Maj, R.~Menegazzo, D.~Mengoni, C.~Michelagnoli, G.~Montagnoli, D.~R.
+  Napoli, A.~Pullia, F.~Recchia, P.~Reiter, D.~Rosso, M.~D. Salsac,
+  F.~Scarlassara, P.-A. S\"oderstr\"om, N.~Soi\ifmmode~\acute{c}\else
+  \'{c}\fi{}, A.~M. Stefanini, O.~Stezowski, C.~Theisen, C.~A. Ur, J.~J.
+  Valiente-Dob\'on, and M.~Varga~Pajtler.
+\newblock Pair neutron transfer in
+  $^{60}\text{Ni}+\phantom{\rule{0.16em}{0ex}}^{116}\text{Sn}$ probed via
+  $\ensuremath{\gamma}$-particle coincidences.
+\newblock \emph{Phys. Rev. C}, 93:\penalty0 054623, 2016.
 
 \bibitem[Moro et~al.(2019)Moro, Casal, and {G\'omez-Ramos}]{Moro:19}
 A.~Moro, J.~Casal, and M.~{G\'omez-Ramos}.

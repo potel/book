@@ -66,11 +66,6 @@ Repeated entry---line 2034 of file /home/gregory/book/nuclear_bib.bib
  : @book{Ring:80
  :              ,
 I'm skipping whatever remains of this entry
-I was expecting an "="---line 2113 of file /home/gregory/book/nuclear_bib.bib
- :   
- :   title = {Selected topics in the theory of collective phenomena in nuclei.},
-(Error may have been on previous line)
-I'm skipping whatever remains of this entry
 Repeated entry---line 2531 of file /home/gregory/book/nuclear_bib.bib
  : @article{Zinser:95
  :                   ,
@@ -397,10 +392,6 @@ Name 9 in "Guazzoni, P. and M. Jaskola, and L. Zetta, and A. Covello, and A. Gar
 while executing---line 1429 of file abbrvnat.bst
 Name 10 in "Guazzoni, P. and M. Jaskola, and L. Zetta, and A. Covello, and A. Gargano, and Y. Eisermann, and G. Graw, and R. Hertenberger, and A. Metz, and F. Nuoffer, and G. Staudt" has a comma at the end for entry Guazzoni:99
 while executing---line 1429 of file abbrvnat.bst
-Warning--empty title in Mottelson:62
-Warning--empty publisher in Mottelson:62
-Warning--empty year in Mottelson:62
-Warning--empty year in Mottelson:62
 Warning--empty journal in Potel:12b
 Warning--empty journal in Potel:12c
 Name 1 in "A. Repko, and P. G. Reinhard, and V. O. Nesterenko and J. Kvasil" has a comma at the end for entry Repko:13
@@ -448,43 +439,43 @@ Warning--empty year in Wolynes:16
 Warning--empty year in Wolynes:16
 You've used 540 entries,
             2773 wiz_defined-function locations,
-            3533 strings with 87526 characters,
-and the built_in function-call counts, 264515 in all, are:
-= -- 21558
-> -- 19574
-< -- 380
-+ -- 6653
-- -- 6093
-* -- 21992
-:= -- 42772
-add.period$ -- 1676
+            3535 strings with 87600 characters,
+and the built_in function-call counts, 264609 in all, are:
+= -- 21572
+> -- 19578
+< -- 381
++ -- 6654
+- -- 6094
+* -- 21991
+:= -- 42790
+add.period$ -- 1678
 call.type$ -- 540
-change.case$ -- 3537
+change.case$ -- 3538
 chr.to.int$ -- 520
-cite$ -- 1108
-duplicate$ -- 11510
-empty$ -- 19552
-format.name$ -- 6878
-if$ -- 54318
+cite$ -- 1104
+duplicate$ -- 11515
+empty$ -- 19556
+format.name$ -- 6879
+if$ -- 54346
 int.to.chr$ -- 21
 int.to.str$ -- 1
 missing$ -- 615
-newline$ -- 2710
-num.names$ -- 2253
-pop$ -- 7028
+newline$ -- 2711
+num.names$ -- 2255
+pop$ -- 7021
 preamble$ -- 1
 purify$ -- 3080
 quote$ -- 0
-skip$ -- 8872
+skip$ -- 8881
 stack$ -- 0
-substring$ -- 5566
-swap$ -- 885
-text.length$ -- 53
+substring$ -- 5570
+swap$ -- 890
+text.length$ -- 54
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 5545
-warning$ -- 27
-while$ -- 2100
+warning$ -- 23
+while$ -- 2102
 width$ -- 0
-write$ -- 7097
-(There were 151 error messages)
+write$ -- 7103
+(There were 150 error messages)

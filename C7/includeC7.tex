@@ -19,7 +19,7 @@ In keeping with the fact that nuclear Cooper pairs are weakly bound ($E_{corr}\l
 The present Chapter is structured in the following way. In Section \ref{C7S1} we present a summary of two--nucleon transfer reaction theory. It provides, together with Section \ref{C2S1} the elements needed to calculate the absolute two--nucleon transfer differential cross sections in second order DWBA, and thus to compare theory with experiment.
 For the practitioner in search of details and clarification we present in section \ref{C7S2}  a  derivation of the equations presented in section \ref{C7S1}. These equations are implemented and made operative  in the software \textsc{cooper}  used in the applications (cf. App. \ref{C8AppD}).
 
-A number of Appendices are provided. Appendix \ref{C7AppA} briefly reminds the quantal basis for the dressing of elementary modes of excitation and of pairing interaction. In  App. \ref{C7AppB} 	 the derivation of first order DWBA simultaneous transfer is worked out within a formalism tailored to focus the attention on the nuclear structure correlations aspects of the process leading to effective two--nucleon transfer form factors. In App. \ref{C7AppC}  the variety of  contributions to  two--nucleon transfer  amplitudes (successive, simultaneous and non--orthogonality) are discussed in detail within the framework of the semi--classical approximation which provides a rather intuitive vision of the different processes.  Appendices \ref{C7AppD}--\ref{C7AppN} contain relations used in Sect. \ref{C7S2} as well as in the derivation of two--nucleon transfer spectroscopic amplitudes. Finally Appendix \ref{C7AppO} provides a glimpse of original material due to Ben Bayman\footnote{\cite{Bayman:67}, \cite{Bayman:70}, \cite{Bayman:71}, \cite{Bayman:82}.} which was instrumental to render quantitative the studies of two-nucleon transfer, studies which can now be carried out in terms of absolute cross sections and not relative ones as done previously.
+A number of Appendices are provided. Appendix \ref{C7AppA} briefly reminds the quantal basis for the dressing of elementary modes of excitation and of pairing interaction. In  App. \ref{C7AppB} 	 the derivation of first order DWBA simultaneous transfer is worked out within a formalism tailored to focus the attention on the nuclear structure correlations aspects of the process leading to effective two--nucleon transfer form factors. In App. \ref{C7AppC}  the variety of  contributions to  two--nucleon transfer  amplitudes (successive, simultaneous and non--orthogonality) are discussed in detail within the framework of the semi--classical approximation which provides a rather intuitive vision of the different processes.  Appendices \ref{C7AppD}--\ref{C7AppN} contain relations used in Sect. \ref{C7S2} as well as in the derivation of two--nucleon transfer spectroscopic amplitudes. Finally Appendix \ref{C7AppO} provides a glimpse of original material due to Ben Bayman\footnote{\cite{Bayman:67}, \cite{Bayman:70}, \cite{Bayman:71}, \cite{Bayman:82}.} which was instrumental to render quantitative the studies of two-nucleon transfer, studies which can now be carried out in terms of absolute cross sections and not relative ones.
 \section{Summary of second order DWBA}\label{C7S1}
 Let us illustrate the  theory of second order DWBA two--nucleon transfer reactions  with the  $A+t \rightarrow B(\equiv A+2)+p$ reaction, in which $A+2$ and $A$ are even nuclei in their $0^+$ ground state. The extension of the  expressions to the transfer of pairs coupled to arbitrary angular momentum is discussed in subsection \ref{C7S2S10}. 
 
@@ -39,17 +39,17 @@ while the wavefunctions $\varphi^{A+2}_{n,l_i,j_i}(\mathbf r)$ are single-partic
 %{1+\exp\left[\frac{r-R_0}{a}\right]},\quad\quad R_0=r_0 A^{1/3},
 %\end{equation}
 %of depth $V_0$  adjusted to reproduce the experimental single--particles energies, together with a standard spin--orbit potential.
- The radial dependence of the  wavefunction of the two neutrons in the triton is written as $\phi_t(\mathbf r_{p1},\mathbf r_{p2})=\rho(r_{p1})\rho(r_{p2})\rho(r_{12})$, where $r_{p1},r_{p2},r_{12}$ are the distances between neutron 1 and the proton, neutron 2 and the proton and between neutrons 1 and 2 respectively, while $\rho(r)$ is the hard core $(r_{core}=0.45$ fm) potential  wavefunction  depicted in Fig \ref{fig7_1_1}.
+ The radial dependence of the  wavefunction of the two neutrons in the triton is written as $\phi_t(\mathbf r_{p1},\mathbf r_{p2})=\rho(r_{p1})\rho(r_{p2})\rho(r_{12})$, where $r_{p1},r_{p2},r_{12}$ are the distances between neutron 1 and the proton, neutron 2 and the proton and between neutrons 1 and 2 respectively, while $\rho(r)$ is the hard core $(r_{core}=0.45$ fm) potential  wavefunction  depicted in\footnote{\cite{Tang:65}.} Fig \ref{fig7_1_1}.
  
 \begin{figure}
 \centerline{\includegraphics*[width=.55\textwidth,angle=0]{C7/figs_C7/tritium.pdf}}
-\caption{Radial function $\rho(r)$ (hard core 0.45 fm) entering the tritium wavefunction (cf. \cite{Tang:65}).}\label{fig7_1_1}
+\caption{Radial function $\rho(r)$ (hard core 0.45 fm) entering the tritium wavefunction.}\label{fig7_1_1}
 \end{figure}
 \begin{figure}
 \centerline{\includegraphics*[width=.55\textwidth,angle=0]{C7/figs_C7/deuteron.pdf}}
-\caption{Radial wavefunction $\rho_d(r)$ (hard core 0.45 fm) entering the deuteron wavefunction (cf. \cite{Tang:65}).}\label{fig7_1_2}
+\caption{Radial wavefunction $\rho_d(r)$ (hard core 0.45 fm) entering the deuteron wavefunction.}\label{fig7_1_2}
 \end{figure}
-The two--nucleon transfer differential cross section is written as
+The two-nucleon transfer differential cross section is written as
 \begin{equation}\label{eq5.1.4}
 \frac{d\sigma}{d\Omega}=\frac{\mu_i\mu_f}{(4\pi\hbar^2)^2}\frac{k_f}{k_i}\left|T^{(1)}(\theta)+T^{(2)}_{succ}(\theta)-T^{(2)}_{NO}(\theta)\right|^2,
 \end{equation}
@@ -81,7 +81,7 @@ T^{(2)}_{NO}(\theta)=2\sum_{l_i,j_i}\sum_{l_f,j_f,m_f}\sum_{\substack{\sigma_1 \
 \end{multline}
 \end{subequations}
 The quantities $\mu_i, \mu_f (k_i,k_f)$ are the reduced masses (relative linear momenta) in both entrance (initial, $i$) and exit (final, $f$) channels, respectively.
-In the above expressions, $\varphi^{A+1}_{l_f,j_f,m_f}(\mathbf r_{A1})$ are the wavefunctions describing the intermediate states of the nucleus $F(\equiv (A+1))$, generated as solutions of a Woods-Saxon potential,  $\phi_d(\mathbf r_{p2})$ being the  the deuteron bound wavefunction (see Fig. \ref{fig7_1_2}). Note that some or all of the single-particle states described by the wavefunctions $\varphi^{A+1}_{l_f,j_f,m_f}(\mathbf r_{A1})$ may lie in the continuum ( case in which the nucleus $F$ is loosely bound or unbound). Although there are a number of ways to exactly treat such states, discretization processes may be sufficiently	accurate. They can be implemented by, for example,  embedding the Woods--Saxon potential in a spherical box of sufficiently large  radius. In actual calculations involving e.g. the halo nucleus $^{11}$Li, and where $|F\rangle=|^{10}$Li$\rangle$, one achieved convergence making use of approximately  20 continuum states and a box of 30 fm of radius. Concerning the components of the triton wavefunction describing the relative motion of the dineutron, it was  generated with the $p-n$ interaction\footnote{ \cite{Tang:65}.}
+In the above expressions, $\varphi^{A+1}_{l_f,j_f,m_f}(\mathbf r_{A1})$ are the wavefunctions describing the intermediate states of the nucleus $F(\equiv (A+1))$, generated as solutions of a Woods-Saxon potential,  $\phi_d(\mathbf r_{p2})$ being the  the deuteron bound wavefunction (see Fig. \ref{fig7_1_2})\footnote{\cite{Tang:65}.}. Note that some or all of the single-particle states described by the wavefunctions $\varphi^{A+1}_{l_f,j_f,m_f}(\mathbf r_{A1})$ may lie in the continuum ( case in which the nucleus $F$ is loosely bound or unbound). Although there are a number of ways to exactly treat such states, discretization processes may be sufficiently	accurate. They can be implemented by, for example,  embedding the Woods--Saxon potential in a spherical box of sufficiently large  radius. In actual calculations involving e.g. the halo nucleus $^{11}$Li, and where $|F\rangle=|^{10}$Li$\rangle$, one achieved convergence making use of approximately  20 continuum states and a box of 30 fm of radius. Concerning the components of the triton wavefunction describing the relative motion of the dineutron, it was  generated with the $p-n$ interaction\footnote{ \cite{Tang:65}.}
 \begin{align}\label{eq7_1_6}
 v(r)&=-v_0\exp\left(-k(r-r_c)\right) \quad r>r_c\\
 v(r)&=\infty \quad r<r_c,
@@ -1595,18 +1595,16 @@ In keeping with a central objective of the formulation of quantum mechanics, nam
 Pauli principle\footnote{\cite{Pauli:25}.} brings about essential modifications of the virtual fluctuations of the many-body system, modifications which are instrumental in the dressing and interweaving of the elementary modes of excitation\footnote{Within the present context, see also \cite{Schrieffer:64}.}.
 
 
-In Fig.  \ref{figA}, NFT diagrams are given which correspond to the lowest order medium polarization effects renormalizing the properties of a particle--hole collective mode (wavy line), correlated particle--hole excitation which in the shell model basis corresponds to a  linear combination of particle--hole excitations ((up--going)--(down--going) arrowed lines)  calculated within the random phase approximation (RPA,QRPA), and leading to the particle-vibration coupling vertex (formfactor and strength, i.e. transition density (solid dot), see inset (I), bottom). The action of an external field on the zero point fluctuations (ZPF) of the vacuum (inset (II)), forces a virtual process to become real, leading to a collective vibration by annihilating a (virtual, spontaneous) particle--hole excitation (backwards RPA $Y$-amplitude) or, in the time ordered process, by creating a particle--hole excitation which eventually, through the particle--vibration coupling vertex, correlate into the collective (coherent) state (forwardsgoing $X$-amplitudes). Now, oyster-like diagrams associated with the vacuum ZPF can occur at any time (see inset (III) of Fig. \ref{figA}). It is of notice that   while virtual states can violate energy conservation, they have to respect conservation rules. For example, a virtual state  cannot violate  angular momentum neither the  Pauli principle. The process shown in the inset III ($\alpha$) leads, through Pauli principle correcting diagrams (exchange of fermionic arrowed lines) to self-energy (inset III ($\beta$), ($\delta$)) and vertex corrections (induced $p-h$ interaction; inset III ($\gamma$), ($\varepsilon$), see also graphs (c), (f), (h) and (i) of Fig. \ref{figA}) processes. Similar processes are found in the interplay between ZPF 	and pair addition modes as shown in Fig. \ref{figB}. Note the parallel between diagrams \ref{figA} (g)--(i) and \ref{figB} (d)--(f).
+In Fig.  \ref{figA}, NFT diagrams are given which correspond to the lowest order medium polarization effects renormalizing the properties of a particle--hole collective mode (wavy line), correlated particle-hole excitation which in the shell model basis corresponds to a  linear combination of particle-hole excitations ((up--going)--(down--going) arrowed lines)  calculated within the random phase approximation (RPA,QRPA), and leading to the particle-vibration coupling vertex (formfactor and strength, i.e. transition density (solid dot), see inset (I), bottom). The action of an external field on the zero point fluctuations (ZPF) of the vacuum (inset (II)), forces a virtual process to become real, leading to a collective vibration by annihilating a (virtual, spontaneous) particle-hole excitation (backwards RPA $Y$-amplitude) or, in the time ordered process, by creating a particle-hole excitation which eventually, through the particle-vibration coupling vertex, materializes into the collective (coherent) state (forwardsgoing $X$-amplitudes). Now, oyster-like diagrams associated with the vacuum ZPF can occur at any time (see inset (III) of Fig. \ref{figA}). It is of notice that   while virtual states can violate energy conservation, they have to respect conservation rules, as well as Pauli principle. For example, a virtual state  cannot violate  angular momentum neither the  presence of two fermions in the same quantal state. The process shown in the inset III ($\alpha$) leads, through Pauli principle correcting diagrams (exchange of fermionic arrowed lines) to self-energy (inset III ($\beta$), ($\delta$)) and vertex corrections (induced $p-h$ interaction; inset III ($\gamma$), ($\varepsilon$), see also graphs (c), (f), (h) and (i) of Fig. \ref{figA}) processes. Similar processes are found in the interplay between ZPF 	and pair addition modes as shown in Fig. \ref{figB}. Note the parallel between diagrams \ref{figA} (g)--(i) and \ref{figB} (d)--(f).
 
 
- The collective vibrational modes can be viewed as  coherent states\footnote{See e.g. \cite{Glauber:69,Glauber:07}.} exhausting a consistent fraction of the EWSR. For example, a Giant Resonance or a low-lying $E1$-strength concentration (Pygmy Dipole Resonance), like in $^{11}$Li in which case the mode has an energy $E_x\lesssim 1$ MeV and carries $\approx $ 8\% of the TRK sum rule. 
+ The collective vibrational modes can be viewed as  coherent states\footnote{See e.g. \cite{Glauber:69,Glauber:07}.} exhausting a consistent fraction of the EWSR. For example, a Giant Resonance or a low-lying $E1$-strength concentration (Pygmy Dipole Resonance). 
 \section{Coherence and effective formfactors}\label{C7AppB}
 
 In what follows we shall work out  a simplified derivation of the simultaneous two--nucleon transfer amplitude, within the framework of first order DWBA specially suited to discuss correlation aspects of pair transfer in general, and of the associated effective formfactors in particular\footnote{\cite{Glendenning:65,Bayman:67}.}. 
 
 
 We will concentrate on $(t,p)$ reaction, namely reactions of the type $A(\alpha,\beta)B$ where $\alpha=\beta+2$ and $B=A+2$.
-
-
 The intrinsic wave functions are in this case
 \begin{equation}\label{5lec1}
 \begin{split}
@@ -1693,7 +1691,7 @@ The coordinate $\vec \rho$ is the radius vector which measures the distance betw
 %\end{figure}
 To obtain the DWBA cross section we have to calculate the integral
 \begin{equation}\label{5lec8}
-T(\theta)=\int d\xi_A \,d\vec r_1 \,d\vec r_2 \,d\vec r_p \chi^{(-)}_p(\vec R_2) \psi^*_\beta(\xi_{A+2},\sigma_\beta) V_\beta \psi_\alpha(\xi_{A},\sigma_\alpha,\sigma_\beta)\psi_t^{(+)}(\vec R_1)
+T(\theta)=\int d\xi_A \,d\vec r_1 \,d\vec r_2 \,d\vec r_p \chi^{(-)}_p(\vec R_2) \psi^*_\beta(\xi_{A+2},\sigma_\beta) V_\beta \psi_\alpha(\xi_{A},\sigma_\alpha,\sigma_\beta)\psi_t^{(+)}(\vec R_1),
 \end{equation}
 where the final state effective interaction $V_\beta(\rho)$ is assumed to depend only on the distance $\rho$ between the center of mass of the di--neutron and of the proton. 
 Instead of integrating over $\xi_{A},\vec r_1,\vec r_2$ and $\vec r_p$ we would integrate over $\xi_{A},\vec {r'},\vec {r'}$ and $\vec r_p$. The Jacobian of the transformation is equal to 1, i.e. $\partial (\vec r_1,\vec r_2)/\partial (\vec {r'},\vec {r'})=1$.
@@ -1703,22 +1701,18 @@ To carry out the integral (\ref{5lec8}) we transform the wave function (\ref{5le
 
 \begin{equation}\label{5lec9}
 \begin{split}
-| n_1 l_1,n_2 l_2; \lambda \mu \rangle&= \sum_{n l N L} | n l,N L; \lambda \mu \rangle \langle n l,N L; \lambda \mu |\bigr )
+| n_1 l_1,n_2 l_2; \lambda \mu \rangle&= \sum_{n l N L} \left(| n l,N L; \lambda \mu \rangle \langle n l,N L; \lambda \mu |\right)
 | n_1 l_1,n_2 l_2; \lambda \mu \rangle \\
-&=\sum_{n l N L} | n l,N L; \lambda \mu \rangle \langle n l,N L; \lambda \mu | n_1 l_1,n_2 l_2; \lambda  \rangle
+&=\sum_{n l N L} | n l,N L; \lambda \mu \rangle \langle n l,N L; \lambda \mu | n_1 l_1,n_2 l_2; \lambda  \rangle.
 \end{split}
 \end{equation}
-
-The labels $n,l$ are the principal and angular momentum quantum numbers of the relative motion, ehile $N,L$ are the corresponding ones corresponding to the center of mass motion of the two--neutron system. Because of energy and parity conservation we have
-
-
+The labels $n,l$ are the principal and angular momentum quantum numbers of the relative motion, while $N,L$ are the corresponding ones corresponding to the center of mass motion of the two-neutron system. Because of energy and parity conservation we have
 \begin{equation}\label{5lec10}
 \begin{split}
-2n_1+l_1+2n_2+l_2&=2n+l+2N+L\\
+2n_1+l_1+2n_2+l_2&=2n+l+2N+L,\\
 (-1)^{l_1+l_2}=(-1)^{l+L}.
 \end{split}
 \end{equation}
-
 The coefficients $\langle n l,N L, L | n_1 l_1,n_2 l_2, L  \rangle$ are tabulated and were first discussed by Moshinsky\footnote{\cite{Moshinsky:59}.}.
 	
 
@@ -1756,7 +1750,6 @@ Note that there is no selection rule in the principal quantum number $n$, as the
 
 
 Integration over $\xi_A$ and multiplication of the spin functions gives
-
 \begin{equation}\label{5lec14}
 \begin{split}
 \bigl( \psi_{M_{J_i}}^{J_i},V'_\beta(\rho) \psi_{M'_{J_i}}^{J'_i}\bigr)&= \delta(J_i,J'_i)
@@ -1767,10 +1760,7 @@ Integration over $\xi_A$ and multiplication of the spin functions gives
 \delta(M_{S_f},M_{S'_f}).\\
 \end{split}
 \end{equation}
-
 The integral (\ref{5lec8}) can then be written as
-
-
 \begin{equation}\label{5lec15}
 \begin{split}
 T(\theta)&= \sum_{\substack{n_1 l_1 j_1\\n_2 l_2 j_2}}\sum_{J M_J}\sum_{nN}\sum_{S}B(n_1 l_1 j_1,n_2 l_2 j_2;JJ_i J_f)\\
@@ -1781,20 +1771,14 @@ T(\theta)&= \sum_{\substack{n_1 l_1 j_1\\n_2 l_2 j_2}}\sum_{J M_J}\sum_{nN}\sum_
 \end{split}
 \end{equation}
 where we have approximated $V'_\beta$ by an effective interaction depending on $\rho=|\vec \rho|$.
-
 We now define the effective two-nucleon transfer  form factor as
-
-
 \begin{equation}\label{eqC7B15}
 \begin{split}
 u^{J_i J_f}_{LSJ}(R)&=\sum_{\substack{n_1 l_1 j_1\\n_2 l_2 j_2}}\sum_{nN} B(n_1 l_1 j_1,n_2 l_2 j_2;JJ_i J_f) \langle S L J|j_1 j_2 J\rangle\\
 &\langle n0,NL,L|n_1 l_1,n_2 l_2;L \rangle \Omega_n R_{NL}(R).
 \end{split}
 \end{equation}
-
-We can now rewrite eq. (\ref{5lec15}) as
-
-
+One can then rewrite Eq. (\ref{5lec15}) as
 \begin{equation}\label{5lec17}
 \begin{split}
 T(\theta)&= \sum_J\sum_L\sum_S \bigl( J M_J J_i M_{J_i}|J_f M_{J_f} \bigr) \bigl( S M_S S_f M_{S_f}|S_i M_{S_i}\bigr)
@@ -1803,14 +1787,11 @@ T(\theta)&= \sum_J\sum_L\sum_S \bigl( J M_J J_i M_{J_i}|J_f M_{J_f} \bigr) \bigl
  u^{J_i J_f}_{LSJ}(R) Y_{L M_L}^*V(\rho) \phi_{000}(\vec \rho) \chi^{(+)}_t(\vec R_1).
 \end{split}
 \end{equation}
-
 Because the di--neutron has $S=0$, we have that
-
-
 \begin{equation}\label{5lec18}
  \bigl( L M_L 0 0|J M_{J} \bigr)=\delta(J,L)\delta(M_L,M_J),
 \end{equation}
-and the summations over $S$ and $L$ disappear from eq. (\ref{5lec17}). Let us now  make also here, as done in App. \ref{C6AppE}, Eq. (\ref{eqC6AppE15}) for one--particle transfer reactions, the zero range approximation, that is,
+and the summations over $S$ and $L$ disappear from Eq. (\ref{5lec17}). Let us now  make also here, as done in App. \ref{C6AppE}, Eq. (\ref{eqC6AppE15}) for one--particle transfer reactions, the zero range approximation, that is,
 
 
 \begin{equation}\label{5lec19}
@@ -1819,17 +1800,13 @@ V(\rho) \phi_{000}(\vec \rho)=D_0 \delta(\vec \rho),
 where $D_0$ is an empirical parameter ($D_0^2=(31.6\pm9.3)\times10^4$ MeV$^2$fm$^2$) determined to reproduce, in average, the observed absolute cross sections\footnote{\cite{Broglia:73}.}.
 This means that the proton interacts with the center of mass of the di--neutron, only when they are at the same point in space.
 Within this approximation (cf. Fig. \ref{fig_coord})
-
-
 \begin{equation}\label{5lec20}
 \begin{split}
 \vec R=&\vec R_1=\vec r,\\
-\vec R_2=&\frac{A}{A+2}\vec R,
+\vec R_2=&\frac{A}{A+2}\vec R.
 \end{split}
 \end{equation}
-
 Then Eq. (\ref{5lec15}) can be written as
-
 \begin{equation}\label{5lec21}
 \begin{split}
 T&= D_0 \sum_L \bigl( L M_L J_i M_{J_i}|J_f M_{J_f} \bigr) \\
@@ -1837,11 +1814,7 @@ T&= D_0 \sum_L \bigl( L M_L J_i M_{J_i}|J_f M_{J_f} \bigr) \\
  u^{J_i J_f}_{L}(R) Y_{L M_L}^*(\hat R) \chi^{(+)}_t(\vec R)
 \end{split}
 \end{equation}
-
-
 From Eq. (\ref{5lec21}) it is seen that the change in parity implied by the reaction is given by $\Delta\pi=(-1)^L$. Consequently, the selection rules for $(t,p)$ and  $(p,t)$ reactions in zero--range approximation are,
-
-
 \begin{equation}\label{5lec22}
 \begin{split}
 \Delta S&=0\\
@@ -1850,16 +1823,14 @@ From Eq. (\ref{5lec21}) it is seen that the change in parity implied by the reac
 \end{split}
 \end{equation}
 i.e. only normal parity states are excited.
-
-
 The integral appearing in Eq. (\ref{5lec21}) has the same structure as the DWBA integral appearing in Eq. (\ref{eqC6E16}) which was derived for the case of one--nucleon transfer reactions.
 
 
-The difference between the two processes manifests itself through the different structure of the two form factors. While $u_l(r)$  is a single--particle bound state wave function (cf. Eq. (\ref{eqC6E1})), $u_L^{J_i J_f}$ is a coherent summation over the center of mass states of motion of the two transferred neutrons (see Eq. (\ref{eqC7B15})). In other words, an effective quantity (function). It is of notice that this difference essentially vanishes, when one considers dressed particles resulting from the coupling to collective motion, and leading, among other things, to $\omega$-dependent effective masses (see e.g. Eqs. \ref{eq7.2.1}--\ref{eq6.4.15}). Examples of two--nucleon transfer form factors are given in\footnote{\cite{Broglia:67}.} Figs \ref{figC7B2}, \ref{figC7B3} and \ref{figC7B4}.
+The difference between the two processes manifests itself through the different structure of the two form factors. While $u_l(r)$  is a single--particle bound state wave function (cf. Eq. (\ref{eqC6E1})), $u_L^{J_i J_f}$ is a coherent summation over the center of mass states of motion of the two transferred neutrons (see Eq. (\ref{eqC7B15})). In other words, an effective quantity (function). It is of notice that this difference essentially vanishes, when one considers dressed particles resulting from the coupling to collective motion, and leading, among other things, to $\omega$-dependent effective masses. Examples of two-nucleon transfer form factors are given in\footnote{\cite{Broglia:67}.} Figs \ref{figC7B2}, \ref{figC7B3} and \ref{figC7B4}.
  \begin{figure}[h!]
  	\begin{center}
 \includegraphics*[width=0.75\textwidth]{C7/figs_C7/figC7B2}
-\end{center}\caption{The upper part of the figure shows the modified formfactor for the $^{206}$Pb(t,p)$^{208}$Pb transition to the ground state ($0^+_1$) and the pairing vibrational state ($0^+_2$) at 4.87 MeV. Both curves are matched with appropriate 	Hankel functions. In the lower part the form factors of the real ($f(r)$) and the imaginary ($g(r)$) part of the optical potential used to calculate the differential cross sections (see Fig. \ref{fig2A4}), are given in the same scale for the radius.}\label{figC7B2}
+\end{center}\caption{The upper part of the figure shows the modified formfactor for the $^{206}$Pb(t,p)$^{208}$Pb transition to the ground state ($0^+_1$) and the pairing vibrational state ($0^+_2$) at 4.87 MeV. Both curves are matched with appropriate 	Hankel functions. In the lower part the form factors of the real ($f(r)$) and the imaginary ($g(r)$) part of the optical potential used to calculate the differential cross sections (see Fig. \ref{fig2A4}),  in the same scale for the radius.}\label{figC7B2}
 \end{figure}
  \begin{figure}[h!]
  	\begin{center}
@@ -1894,12 +1865,11 @@ The difference between the two processes manifests itself through the different 
 \end{figure}
 In what follows we discuss the relative importance of successive and simultaneous two-neutron transfer and of non-orthogonality 
 corrections associated with the reaction 
-
 \begin{equation}
 \alpha \equiv  a(=b+2) + A \to b + B(=A+2) \equiv \beta,
 \label{A1}
 \end{equation}
-in the limits of independent particles and of strongly correlated Cooper pairs, making use for simplicity of the semiclassical approximation\footnote{For details cf. \cite{Broglia:04a}.}, in which case the two-particle transfer differential cross section can be written as
+in the limits of independent particles and of strongly correlated Cooper pairs, making use  of the semiclassical approximation\footnote{For details cf. \cite{Broglia:04a}.}, in which case the two-particle transfer differential cross section can be written as
 
 \begin{equation}
 \frac{d \sigma_{\alpha \to \beta} }{d \Omega} = P_{\alpha \to \beta} (t = +\infty) 
@@ -1951,7 +1921,7 @@ e^{i \sigma_1}
 \end{split}
 \end{equation}
 the reaction channel $f= (b+1) + F(=A+1)$ having been introduced, the quantity $S(n)$ being the one-neutron separation 
-energy (see Fig. \ref{figC7C3}). The summation over $f(\equiv a'_1,a'_2)$ and $F (\equiv a_1,a_2)$ involves a restricted number of states, namely the valence shells in nuclei $B$ and $a$. It is of notice that the NFT(r+s) diagrams appearing in Fig. \ref{figC7C1} (II) are the only ones we have encountered in which to a particle--recoil coupling vertex (dashed open rectangle) and thus the starting or/and ending of a recoil mode (jagged line) does not correspond the action of the nuclear interaction or mean field (horizontal short arrow) inducing a transfer process. 
+energy (see Fig. \ref{figC7C3}). The summation over $f(\equiv a'_1,a'_2)$ and $F (\equiv a_1,a_2)$ involves a restricted number of states, namely the valence shells in nuclei $B$ and $a$. It is of notice that the NFT$_{\text{(s+r)}}$ diagrams appearing in Fig. \ref{figC7C1} (II) are the only ones we have encountered in which to a particle-recoil coupling vertex (dashed open rectangle) and thus the starting or/and ending of a recoil mode (jagged line) does not correspond the action of the nuclear interaction or mean field (horizontal short arrow) inducing a transfer process. 
 
 The successive transfer amplitude  $\tilde a^{(2)}_{\infty}$ written making use of the post-prior representation is equal to 
 (see Fig. \ref{figC7C2})

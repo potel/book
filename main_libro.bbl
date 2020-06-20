@@ -1,4 +1,4 @@
-\begin{thebibliography}{545}
+\begin{thebibliography}{555}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \expandafter\ifx\csname urlstyle\endcsname\relax
@@ -112,6 +112,12 @@ P.~W. Anderson.
 \newblock \emph{{Basic Notions of Condensed Matter}}.
 \newblock Addison--Wesley, Reading, Mass, 1984.
 
+\bibitem[Anderson(1996)]{Anderson:96}
+P.~W. Anderson.
+\newblock {Off-diagonal long-range order and flux quantization}.
+\newblock In H.~Holden and S.~Kjellstrup~Ratkje, editors, \emph{{The collected
+  works of Lars Onsager}}, page 729. World Scientific, Singapore, 1996.
+
 \bibitem[Anderson and Stein(1984)]{Anderson:84}
 P.~W. Anderson and D.~L. Stein.
 \newblock {Broken symmetry, emergent properties, dissipative structures, life:
@@ -184,6 +190,12 @@ A.~Avdeenkov and S.~Kamerdzhiev.
   Isotopes}.
 \newblock In R.~A. Broglia and V.~Zelevinsky, editors, \emph{50 Years of
   Nuclear BCS}, page 274. World Scientific, Singapore, 2013.
+
+\bibitem[Avez et~al.(2008)Avez, Simenel, and Chomaz]{Avez:08}
+B.~Avez, C.~Simenel, and P.~Chomaz.
+\newblock {Pairing vibrations study with the time-dependent
+  Hartree-Fock-Bogoliubov theory}.
+\newblock \emph{Phys. Rev. C}, 78:\penalty0 044318, 2008.
 
 \bibitem[Avogadro et~al.(2007)Avogadro, Barranco, Broglia, and
   Vigezzi]{Avogadro:07}
@@ -748,6 +760,13 @@ N.~Bohr.
 \newblock The quantum postulate and the recent development of atomic theory.
 \newblock \emph{Nature}, 121:\penalty0 580, 1928.
 
+\bibitem[Bohr and Kalckar(1937)]{Bohr:37}
+N.~Bohr and F.~Kalckar.
+\newblock {On the transmutation of atomic nuclei by impact of material
+  particles I. General theoretical remarks}.
+\newblock \emph{Mat.-Fys. Medd. Dan. Vidensk. Selsk.}, 14:\penalty0 no. 10,
+  1937.
+
 \bibitem[Bohr and Wheeler(1939)]{Bohr:39}
 N.~Bohr and J.~A. Wheeler.
 \newblock The mechanism of nuclear fission.
@@ -1195,6 +1214,13 @@ L.~N. Cooper.
 \newblock In L.~Cooper and D.~Feldman, editors, \emph{BCS: 50 years}. World
   Scientific, Singapore, 2011.
 
+\bibitem[Dasso et~al.(2015)Dasso, Sofia, and Vitturi]{Dasso:15}
+C.~H. Dasso, H.~M. Sofia, and A.~Vitturi.
+\newblock Two particle transfer reactions: the search for the giant pairing
+  vibration.
+\newblock \emph{Journal of Physics: Conference Series}, 580:\penalty0 012018,
+  2015.
+
 \bibitem[de~Boer(1948)]{deBoer:48}
 J.~de~Boer.
 \newblock Quantum theory of condensed permanent gases in the law of
@@ -1536,6 +1562,14 @@ S.~Fortier, S.~Pita, J.~Winfield, W.~Catford, N.~Orr, J.~V. de~Wiele,
   $p(^{11}$Be,$^{10}$Be)$d$ reaction}.
 \newblock \emph{Physics Letters B}, 461:\penalty0 22, 1999.
 
+\bibitem[Fortunato et~al.(2002)Fortunato, Von~Oertzen, Sofia, and
+  Vitturi]{Fortunato:02}
+L.~Fortunato, W.~Von~Oertzen, H.~Sofia, and A.~Vitturi.
+\newblock {Enhanced excitation of giant pairing vibrations in heavy-ion
+  reactions induced by weakly bound projectiles}.
+\newblock \emph{The European Physical Journal A-Hadrons and Nuclei},
+  14:\penalty0 37, 2002.
+
 \bibitem[Fortune(2018)]{Fortune:18}
 H.~Fortune.
 \newblock {Structure of exotic light nuclei: $Z$=2,3,4}.
@@ -1833,6 +1867,13 @@ H.~Hergert and R.~Roth.
   (UCOM): Hartree-Fock-Bogoliubov calculations}.
 \newblock \emph{Phys. Rev. C}, 80:\penalty0 024312, 2009.
 
+\bibitem[Herzog et~al.(1986)Herzog, Civitarese, Ferreira, Liotta, Vertse, and
+  Sibanda]{Herzog:86}
+M.~Herzog, O.~Civitarese, L.~Ferreira, R.~Liotta, T.~Vertse, and L.~Sibanda.
+\newblock {Two-particle transfer reactions leading to giant pairing
+  resonances}.
+\newblock \emph{Nuclear Physics A}, 448:\penalty0 441, 1986.
+
 \bibitem[H\"ogaasen-Feldman(1961)]{Hogassen:61}
 J.~H\"ogaasen-Feldman.
 \newblock A study of some approximations of the pairing force.
@@ -1985,6 +2026,11 @@ J.~B. Ketterson and S.~N. Song.
 E.~Khan, N.~Sandulescu, N.~V. Giai, and M.~Grasso.
 \newblock Two-neutron transfer in nuclei close to the drip line.
 \newblock \emph{Physical Review C}, 69:\penalty0 014314, 2004.
+
+\bibitem[Khan et~al.(2009)Khan, Grasso, and Margueron]{Khan:09}
+E.~Khan, M.~Grasso, and J.~Margueron.
+\newblock Constraining the nuclear pairing gap with pairing vibrations.
+\newblock \emph{Phys. Rev. C}, 80:\penalty0 044328, 2009.
 
 \bibitem[Khodel et~al.(1982)Khodel, Platonov, and Saperstein]{Khodel:82}
 V.~A. Khodel, A.~P. Platonov, and E.~E. Saperstein.
@@ -2596,6 +2642,16 @@ J.~Pedersen, S.~{Bjornh{\o}lm}, J.~Borggreen, K.~Hansen, T.~P. Martin, and
 \newblock Observation of quantum supershells in clusters of sodium atoms.
 \newblock \emph{Nature}, 353:\penalty0 733, 1991.
 
+\bibitem[Penrose(1951)]{Penrose:51}
+O.~Penrose.
+\newblock {Bose-Einstein Condensation and Liquid Helium}.
+\newblock \emph{Philosophical Magazine}, 42:\penalty0 1373, 1951.
+
+\bibitem[Penrose and Onsager(1956)]{Penrose:56}
+O.~Penrose and L.~Onsager.
+\newblock {Bose-Einstein Condensation and Liquid Helium}.
+\newblock \emph{Phys. Rev.}, 104:\penalty0 576, 1956.
+
 \bibitem[Perey and Buck(1962)]{Perey:62}
 F.~Perey and B.~Buck.
 \newblock {A non--local potential model for the scattering of neutrons by
@@ -2889,6 +2945,11 @@ A.~Schmid.
 \newblock Diamagnetic susceptibility at the transition to the superconducting
   state.
 \newblock \emph{Phys. Rev.}, 180:\penalty0 527, 1969.
+
+\bibitem[Schmidt(1964)]{Schmidt:64}
+H.~Schmidt.
+\newblock {Monopole vibrations of closed shell nuclei}.
+\newblock \emph{Zeits. Phys.}, 181:\penalty0 532, 1964.
 
 \bibitem[Schmidt(1968)]{Schmidt:68}
 H.~Schmidt.

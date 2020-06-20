@@ -13,7 +13,7 @@
    height="889.03131"
    id="svg6722"
    version="1.1"
-   inkscape:version="0.92.4 (5da689c313, 2019-01-14)"
+   inkscape:version="0.92.5 (2060ec1f9f, 2020-04-08)"
    sodipodi:docname="fig_gamma.svg">
   <defs
      id="defs6724">
@@ -149,14 +149,14 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="0.50000002"
-     inkscape:cx="160.31898"
-     inkscape:cy="477.54766"
+     inkscape:zoom="0.70710681"
+     inkscape:cx="380.93458"
+     inkscape:cy="489.74246"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
-     inkscape:window-width="1600"
-     inkscape:window-height="1163"
+     inkscape:window-width="1920"
+     inkscape:window-height="1043"
      inkscape:window-x="1366"
      inkscape:window-y="0"
      inkscape:window-maximized="1"
@@ -175,7 +175,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -616,17 +616,6 @@
        inkscape:path-effect="#path-effect3083"
        inkscape:original-d="m 317.13738,161.05411 108.18734,-4.94975"
        inkscape:connector-curvature="0" />
-    <text
-       xml:space="preserve"
-       style="font-style:normal;font-weight:normal;line-height:0%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
-       x="342.59323"
-       y="178.63127"
-       id="text3085"><tspan
-         sodipodi:role="line"
-         id="tspan3087"
-         x="342.59323"
-         y="178.63127"
-         style="font-size:18px;line-height:1.25;font-family:sans-serif">ξ≈30fm</tspan></text>
     <text
        xml:space="preserve"
        style="font-style:normal;font-weight:normal;line-height:0%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
@@ -1088,5 +1077,16 @@
        height="19.375"
        x="329.875"
        y="162.11221" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;line-height:0%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
+       x="331.22406"
+       y="178.63127"
+       id="text3085"><tspan
+         sodipodi:role="line"
+         id="tspan3087"
+         x="331.22406"
+         y="178.63127"
+         style="font-size:18px;line-height:1.25;font-family:sans-serif">2ξ≈20fm</tspan></text>
   </g>
 </svg>

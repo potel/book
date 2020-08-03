@@ -14,16 +14,12 @@ Illegal, another \bibstyle command---line 10 of file main_libro.aux
  : \bibstyle
  :          {abbrvnat}
 I'm skipping whatever remains of this command
-Reallocated field_info (elt_size=4) to 20512 items from 5000.
+Reallocated field_info (elt_size=4) to 20960 items from 5000.
 Database file #1: /home/gregory/book/nuclear_bib.bib
 I was expecting an "="---line 106 of file /home/gregory/book/nuclear_bib.bib
  : 
  : }
 (Error may have been on previous line)
-I'm skipping whatever remains of this entry
-"{" immediately follows a field name---line 297 of file /home/gregory/book/nuclear_bib.bib
- :   volume = 1,$^
- :                {116}$Sn+$^{60}$Ni$\to^{114}$Sn+$^{62}$Ni
 I'm skipping whatever remains of this entry
 I was expecting a `,' or a `}'---line 522 of file /home/gregory/book/nuclear_bib.bib
  :   pages = 2371
@@ -51,182 +47,202 @@ I'm skipping whatever remains of this entry
  :   volume =       {2},@Incollection
  :                                   {Bes:77,
 I'm skipping whatever remains of this entry
-I was expecting an "="---line 1144 of file /home/gregory/book/nuclear_bib.bib
+Repeated entry---line 1066 of file /home/gregory/book/nuclear_bib.bib
+ :   BOOKTITLE =    {Internati@incollection{Bes:77
+ :                                                ,
+I'm skipping whatever remains of this entry
+I was expecting an "="---line 1153 of file /home/gregory/book/nuclear_bib.bib
  :   
  :   address =      {Berlin, Heidelberg},
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
-I was expecting an "="---line 1400 of file /home/gregory/book/nuclear_bib.bib
+I was expecting an "="---line 1418 of file /home/gregory/book/nuclear_bib.bib
  : 
  : collaboration = {},
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
-I was expecting an "="---line 1784 of file /home/gregory/book/nuclear_bib.bib
+"{" immediately follows a field name---line 1511 of file /home/gregory/book/nuclear_bib.bib
+ : journal = "Phys. Lett. B",@Incollection
+ :                                        {Bes:77,
+I'm skipping whatever remains of this entry
+Repeated entry---line 1732 of file /home/gregory/book/nuclear_bib.bib
+ : }@incollection{Bes:77
+ :                      ,
+I'm skipping whatever remains of this entry
+I was expecting an "="---line 1820 of file /home/gregory/book/nuclear_bib.bib
  : 
  : title = "Multi--pair transfer reactions between superfluid heavy ions",
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
-Repeated entry---line 2042 of file /home/gregory/book/nuclear_bib.bib
+Repeated entry---line 2078 of file /home/gregory/book/nuclear_bib.bib
  : @book{Ring:80
  :              ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 2539 of file /home/gregory/book/nuclear_bib.bib
+Repeated entry---line 2575 of file /home/gregory/book/nuclear_bib.bib
  : @article{Zinser:95
  :                   ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 2900 of file /home/gregory/book/nuclear_bib.bib
+Repeated entry---line 2936 of file /home/gregory/book/nuclear_bib.bib
  : @book{Mayer:55
  :               ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 2923 of file /home/gregory/book/nuclear_bib.bib
+Repeated entry---line 2959 of file /home/gregory/book/nuclear_bib.bib
  : @article{Koning:03
  :                   ,
 I'm skipping whatever remains of this entry
-You're missing a field name---line 3110 of file /home/gregory/book/nuclear_bib.bib
+You're missing a field name---line 3146 of file /home/gregory/book/nuclear_bib.bib
  : year = {1973},
  :               ,
 I'm skipping whatever remains of this entry
-"{" immediately follows a field name---line 4124 of file /home/gregory/book/nuclear_bib.bib
+"{" immediately follows a field name---line 4160 of file /home/gregory/book/nuclear_bib.bib
  : @article{Schmid:66,@article
  :                            {Jenning:11,
 I'm skipping whatever remains of this entry
 Warning--I'm ignoring Shimizu:13's extra "year" field
---line 4243 of file /home/gregory/book/nuclear_bib.bib
-Repeated entry---line 4503 of file /home/gregory/book/nuclear_bib.bib
+--line 4279 of file /home/gregory/book/nuclear_bib.bib
+Repeated entry---line 4539 of file /home/gregory/book/nuclear_bib.bib
  : @article{Thompson:88
  :                     ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 4528 of file /home/gregory/book/nuclear_bib.bib
+Repeated entry---line 4564 of file /home/gregory/book/nuclear_bib.bib
  : @article{Barranco:99
  :                     ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 4751 of file /home/gregory/book/nuclear_bib.bib
+Repeated entry---line 4787 of file /home/gregory/book/nuclear_bib.bib
  : @article{Bortignon:83
  :                      ,
 I'm skipping whatever remains of this entry
 Warning--I'm ignoring Glauber:69's extra "pages" field
---line 4766 of file /home/gregory/book/nuclear_bib.bib
-Repeated entry---line 4846 of file /home/gregory/book/nuclear_bib.bib
+--line 4802 of file /home/gregory/book/nuclear_bib.bib
+Repeated entry---line 4882 of file /home/gregory/book/nuclear_bib.bib
  : @article{Sackett:93
  :                    ,
 I'm skipping whatever remains of this entry
-"{" immediately follows a field name---line 5545 of file /home/gregory/book/nuclear_bib.bib
+"{" immediately follows a field name---line 5585 of file /home/gregory/book/nuclear_bib.bib
  : journal = {Phys. Lett. B},@article
  :                                   {Thompson:04,
 I'm skipping whatever remains of this entry
-Repeated entry---line 5569 of file /home/gregory/book/nuclear_bib.bib
+Repeated entry---line 5609 of file /home/gregory/book/nuclear_bib.bib
  : @article{Lanford:73
  :                    ,
 I'm skipping whatever remains of this entry
-"{" immediately follows a field name---line 6143 of file /home/gregory/book/nuclear_bib.bib
+"{" immediately follows a field name---line 6183 of file /home/gregory/book/nuclear_bib.bib
  :   volume = {352},@article
  :                          {PhysRevC.49.279,
 I'm skipping whatever remains of this entry
-Repeated entry---line 6206 of file /home/gregory/book/nuclear_bib.bib
+Repeated entry---line 6246 of file /home/gregory/book/nuclear_bib.bib
  : @article{Kroll:49
  :                  ,
 I'm skipping whatever remains of this entry
-"{" immediately follows a field name---line 6339 of file /home/gregory/book/nuclear_bib.bib
+"{" immediately follows a field name---line 6379 of file /home/gregory/book/nuclear_bib.bib
  : @article{Fossez:16,@article
  :                            {PhysRevC.49.279,
 I'm skipping whatever remains of this entry
 Reallocated str_pool (elt_size=1) to 130000 items from 65000.
-"{" immediately follows a field name---line 6676 of file /home/gregory/book/nuclear_bib.bib
+"{" immediately follows a field name---line 6716 of file /home/gregory/book/nuclear_bib.bib
  :   year = {2017},@article
  :                         {PhysRevLett.95.232502,
 I'm skipping whatever remains of this entry
-Repeated entry---line 6796 of file /home/gregory/book/nuclear_bib.bib
+Repeated entry---line 6836 of file /home/gregory/book/nuclear_bib.bib
  : @article{Rosner:17
  :                   ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 6895 of file /home/gregory/book/nuclear_bib.bib
+Repeated entry---line 6935 of file /home/gregory/book/nuclear_bib.bib
  :   @article{Boersma:96
  :                      ,
 I'm skipping whatever remains of this entry
-I was expecting a `,' or a `}'---line 7246 of file /home/gregory/book/nuclear_bib.bib
+I was expecting a `,' or a `}'---line 7286 of file /home/gregory/book/nuclear_bib.bib
  :  title = {A method for solving the {Dyson} equation with nonlocal interactions} 
  :                                                                                 issue = {3},,
 I'm skipping whatever remains of this entry
-"{" immediately follows a field name---line 7416 of file /home/gregory/book/nuclear_bib.bib
+"{" immediately follows a field name---line 7459 of file /home/gregory/book/nuclear_bib.bib
  :  pages = {360},@article
  :                        {fossez2018energy,
 I'm skipping whatever remains of this entry
-"{" immediately follows a field name---line 7560 of file /home/gregory/book/nuclear_bib.bib
+"{" immediately follows a field name---line 7603 of file /home/gregory/book/nuclear_bib.bib
  :   issue = {25},@article
  :                        {Bethe:47,
 I'm skipping whatever remains of this entry
-You're missing a field name---line 7780 of file /home/gregory/book/nuclear_bib.bib
+You're missing a field name---line 7823 of file /home/gregory/book/nuclear_bib.bib
  :  year = {2007},
  :                ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 7797 of file /home/gregory/book/nuclear_bib.bib
+Repeated entry---line 7840 of file /home/gregory/book/nuclear_bib.bib
  : @article{Montanari:14
  :                      ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 8027 of file /home/gregory/book/nuclear_bib.bib
+Repeated entry---line 8070 of file /home/gregory/book/nuclear_bib.bib
  : @article{Schiffer:12
  :                     ,
 I'm skipping whatever remains of this entry
-I was expecting an "="---line 8122 of file /home/gregory/book/nuclear_bib.bib
+I was expecting an "="---line 8165 of file /home/gregory/book/nuclear_bib.bib
  :  
  :  numpages = {8},
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
-Repeated entry---line 8685 of file /home/gregory/book/nuclear_bib.bib
+Repeated entry---line 8728 of file /home/gregory/book/nuclear_bib.bib
  : @article{Lundeen:81
  :                    ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 8819 of file /home/gregory/book/nuclear_bib.bib
+Repeated entry---line 8862 of file /home/gregory/book/nuclear_bib.bib
  : @article{Lanford:73
  :                    ,
 I'm skipping whatever remains of this entry
-I was expecting an "="---line 9070 of file /home/gregory/book/nuclear_bib.bib
+I was expecting an "="---line 9113 of file /home/gregory/book/nuclear_bib.bib
  :  year={2009},Physics 
  :                      Today 23, 11, 23 (1970)
 I'm skipping whatever remains of this entry
-Repeated entry---line 9372 of file /home/gregory/book/nuclear_bib.bib
+Repeated entry---line 9415 of file /home/gregory/book/nuclear_bib.bib
  : @article{Barker:77
  :                   ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 9418 of file /home/gregory/book/nuclear_bib.bib
+Repeated entry---line 9461 of file /home/gregory/book/nuclear_bib.bib
  : @article{Thompson:94
  :                     ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 9447 of file /home/gregory/book/nuclear_bib.bib
+Repeated entry---line 9490 of file /home/gregory/book/nuclear_bib.bib
  : @article{Bertsch:98
  :                    ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 9474 of file /home/gregory/book/nuclear_bib.bib
+Repeated entry---line 9517 of file /home/gregory/book/nuclear_bib.bib
  : @article{Blanchon:07
  :                     ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 9483 of file /home/gregory/book/nuclear_bib.bib
+Repeated entry---line 9526 of file /home/gregory/book/nuclear_bib.bib
  : @article{Fortune:18
  :                    ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 9526 of file /home/gregory/book/nuclear_bib.bib
+Repeated entry---line 9569 of file /home/gregory/book/nuclear_bib.bib
  : @article{Moro:19
  :                 ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 9576 of file /home/gregory/book/nuclear_bib.bib
+Repeated entry---line 9619 of file /home/gregory/book/nuclear_bib.bib
  : @article{Sagawa:93
  :                   ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 9751 of file /home/gregory/book/nuclear_bib.bib
+Repeated entry---line 9794 of file /home/gregory/book/nuclear_bib.bib
  : @article{Dietrich:71
  :                     ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 9853 of file /home/gregory/book/nuclear_bib.bib
+Repeated entry---line 9896 of file /home/gregory/book/nuclear_bib.bib
  : @article{Mouginot:11
  :                     ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 9893 of file /home/gregory/book/nuclear_bib.bib
+Repeated entry---line 9936 of file /home/gregory/book/nuclear_bib.bib
  : @article{Betan:02
  :                  ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 9902 of file /home/gregory/book/nuclear_bib.bib
+Repeated entry---line 9945 of file /home/gregory/book/nuclear_bib.bib
  : @article{Laskin:16
  :                   ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 10053 of file /home/gregory/book/nuclear_bib.bib
+ : @article{Gunnarsson:97
+ :                       ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 10074 of file /home/gregory/book/nuclear_bib.bib
+ : @book{Gunnarsson:04
+ :                    ,
 I'm skipping whatever remains of this entry
 Name 1 in "R. A. Broglia, and P. F. Bortignon, and F. Barranco, and E. Vigezzi, and A. Idini, and G. Potel" has a comma at the end for entry Broglia:16
 while executing---line 1347 of file abbrvnat.bst
@@ -312,6 +328,7 @@ Warning--empty title in Fossez:16
 Warning--empty journal in Fossez:16
 Warning--empty year in Fossez:16
 Warning--empty year in Fossez:16
+Warning--empty journal in Anderson:91
 Warning--can't use both author and editor fields in Ashcroft:87
 Name 1 in "R. A. Broglia, and R. A. Ricci, and C. H. Dasso" has a comma at the end for entry Bernard:81
 while executing---line 1429 of file abbrvnat.bst
@@ -416,6 +433,7 @@ Name 9 in "Guazzoni, P. and M. Jaskola, and L. Zetta, and A. Covello, and A. Gar
 while executing---line 1429 of file abbrvnat.bst
 Name 10 in "Guazzoni, P. and M. Jaskola, and L. Zetta, and A. Covello, and A. Gargano, and Y. Eisermann, and G. Graw, and R. Hertenberger, and A. Metz, and F. Nuoffer, and G. Staudt" has a comma at the end for entry Guazzoni:99
 while executing---line 1429 of file abbrvnat.bst
+Warning--empty publisher in Mottelson:68
 Warning--empty journal in Potel:12b
 Warning--empty journal in Potel:12c
 Name 1 in "A. Repko, and P. G. Reinhard, and V. O. Nesterenko and J. Kvasil" has a comma at the end for entry Repko:13
@@ -461,45 +479,45 @@ while executing---line 1429 of file abbrvnat.bst
 Warning--empty title in Stent:80
 Warning--empty year in Wolynes:16
 Warning--empty year in Wolynes:16
-You've used 554 entries,
+You've used 570 entries,
             2773 wiz_defined-function locations,
-            3614 strings with 89438 characters,
-and the built_in function-call counts, 270250 in all, are:
-= -- 22068
-> -- 19856
-< -- 391
-+ -- 6749
-- -- 6175
-* -- 22405
-:= -- 43680
-add.period$ -- 1722
-call.type$ -- 554
-change.case$ -- 3606
-chr.to.int$ -- 534
-cite$ -- 1132
-duplicate$ -- 11815
-empty$ -- 20069
-format.name$ -- 6982
-if$ -- 55541
-int.to.chr$ -- 21
+            3685 strings with 91675 characters,
+and the built_in function-call counts, 277855 in all, are:
+= -- 22692
+> -- 20366
+< -- 406
++ -- 6927
+- -- 6335
+* -- 23010
+:= -- 44893
+add.period$ -- 1773
+call.type$ -- 570
+change.case$ -- 3704
+chr.to.int$ -- 548
+cite$ -- 1166
+duplicate$ -- 12177
+empty$ -- 20660
+format.name$ -- 7158
+if$ -- 57125
+int.to.chr$ -- 23
 int.to.str$ -- 1
-missing$ -- 629
-newline$ -- 2781
-num.names$ -- 2315
-pop$ -- 7144
+missing$ -- 647
+newline$ -- 2862
+num.names$ -- 2382
+pop$ -- 7352
 preamble$ -- 1
-purify$ -- 3134
+purify$ -- 3219
 quote$ -- 0
-skip$ -- 9089
+skip$ -- 9354
 stack$ -- 0
-substring$ -- 5721
-swap$ -- 911
-text.length$ -- 55
+substring$ -- 5879
+swap$ -- 957
+text.length$ -- 60
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 5699
-warning$ -- 23
-while$ -- 2159
+type$ -- 5860
+warning$ -- 25
+while$ -- 2223
 width$ -- 0
-write$ -- 7288
-(There were 156 error messages)
+write$ -- 7500
+(There were 160 error messages)

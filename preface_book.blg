@@ -1,144 +1,187 @@
 This is BibTeX, Version 0.99d (TeX Live 2019/Debian)
-Capacity: max_strings=100000, hash_size=100000, hash_prime=85009
+Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
 The top-level auxiliary file: preface_book.aux
 The style file: abbrvnat.bst
-Illegal, another \bibstyle command---line 280 of file preface_book.aux
- : \bibstyle
- :          {abbrvnat}
-I'm skipping whatever remains of this command
-Database file #1: /home/gregory/book/nuclear_bib.bib
-"{" immediately follows a field name---line 296 of file /home/gregory/book/nuclear_bib.bib
- :   volume = 1,$^
- :                {116}$Sn+$^{60}$Ni$\to^{114}$Sn+$^{62}$Ni
-I'm skipping whatever remains of this entry
-I was expecting a `,' or a `}'---line 609 of file /home/gregory/book/nuclear_bib.bib
- :   volume = 16
- :              C,
-I'm skipping whatever remains of this entry
-You're missing a field name---line 3084 of file /home/gregory/book/nuclear_bib.bib
- : year = {1973},
- :               ,
-I'm skipping whatever remains of this entry
-"{" immediately follows a field name---line 4031 of file /home/gregory/book/nuclear_bib.bib
- : @article{Schmid:66,@article
- :                            {Jenning:11,
-I'm skipping whatever remains of this entry
-"{" immediately follows a field name---line 4058 of file /home/gregory/book/nuclear_bib.bib
- : year = {2013},@BOOK
- :                    {Pauli:47,
-I'm skipping whatever remains of this entry
-I was expecting a `,' or a `}'---line 4938 of file /home/gregory/book/nuclear_bib.bib
- :   pages = 210
- :              (R),
-I'm skipping whatever remains of this entry
-"{" immediately follows a field name---line 5438 of file /home/gregory/book/nuclear_bib.bib
- : journal = {Phys. Lett. B},@article
- :                                   {Thompson:04,
-I'm skipping whatever remains of this entry
-Repeated entry---line 5462 of file /home/gregory/book/nuclear_bib.bib
- : @article{Lanford:73
- :                    ,
-I'm skipping whatever remains of this entry
-"{" immediately follows a field name---line 6532 of file /home/gregory/book/nuclear_bib.bib
- :   year = {2017},@article
- :                         {PhysRevLett.95.232502,
-I'm skipping whatever remains of this entry
-You're missing a field name---line 7626 of file /home/gregory/book/nuclear_bib.bib
- :  year = {2007},
- :                ,
-I'm skipping whatever remains of this entry
-Repeated entry---line 7873 of file /home/gregory/book/nuclear_bib.bib
- : @article{Schiffer:12
- :                     ,
-I'm skipping whatever remains of this entry
-I was expecting an "="---line 7969 of file /home/gregory/book/nuclear_bib.bib
- :  
- :  numpages = {8},
-(Error may have been on previous line)
-I'm skipping whatever remains of this entry
-Repeated entry---line 8532 of file /home/gregory/book/nuclear_bib.bib
- : @article{Lundeen:81
- :                    ,
-I'm skipping whatever remains of this entry
-Repeated entry---line 8667 of file /home/gregory/book/nuclear_bib.bib
- : @article{Lanford:73
- :                    ,
-I'm skipping whatever remains of this entry
-Name 1 in "R. A. Broglia, and P. F. Bortignon, and F. Barranco, and E. Vigezzi, and A. Idini, and G. Potel" has a comma at the end for entry Broglia:16
-while executing---line 1347 of file abbrvnat.bst
-Name 1 in "R. A. Broglia, and P. F. Bortignon, and F. Barranco, and E. Vigezzi, and A. Idini, and G. Potel" has a comma at the end for entry Broglia:16
-while executing---line 1347 of file abbrvnat.bst
-Name 2 in "R. A. Broglia, and P. F. Bortignon, and F. Barranco, and E. Vigezzi, and A. Idini, and G. Potel" has a comma at the end for entry Broglia:16
-while executing---line 1347 of file abbrvnat.bst
-Name 3 in "R. A. Broglia, and P. F. Bortignon, and F. Barranco, and E. Vigezzi, and A. Idini, and G. Potel" has a comma at the end for entry Broglia:16
-while executing---line 1347 of file abbrvnat.bst
-Name 4 in "R. A. Broglia, and P. F. Bortignon, and F. Barranco, and E. Vigezzi, and A. Idini, and G. Potel" has a comma at the end for entry Broglia:16
-while executing---line 1347 of file abbrvnat.bst
-Name 5 in "R. A. Broglia, and P. F. Bortignon, and F. Barranco, and E. Vigezzi, and A. Idini, and G. Potel" has a comma at the end for entry Broglia:16
-while executing---line 1347 of file abbrvnat.bst
-Name 1 in "R. A. Broglia, and P. F. Bortignon, and F. Barranco, and E. Vigezzi, and A. Idini, and G. Potel" has a comma at the end for entry Broglia:16
-while executing---line 1429 of file abbrvnat.bst
-Name 2 in "R. A. Broglia, and P. F. Bortignon, and F. Barranco, and E. Vigezzi, and A. Idini, and G. Potel" has a comma at the end for entry Broglia:16
-while executing---line 1429 of file abbrvnat.bst
-Name 3 in "R. A. Broglia, and P. F. Bortignon, and F. Barranco, and E. Vigezzi, and A. Idini, and G. Potel" has a comma at the end for entry Broglia:16
-while executing---line 1429 of file abbrvnat.bst
-Name 4 in "R. A. Broglia, and P. F. Bortignon, and F. Barranco, and E. Vigezzi, and A. Idini, and G. Potel" has a comma at the end for entry Broglia:16
-while executing---line 1429 of file abbrvnat.bst
-Name 5 in "R. A. Broglia, and P. F. Bortignon, and F. Barranco, and E. Vigezzi, and A. Idini, and G. Potel" has a comma at the end for entry Broglia:16
-while executing---line 1429 of file abbrvnat.bst
-Name 1 in "R. A. Broglia, and P. F. Bortignon, and F. Barranco, and E. Vigezzi, and A. Idini, and G. Potel" has a comma at the end for entry Broglia:16
-while executing---line 1429 of file abbrvnat.bst
-Name 2 in "R. A. Broglia, and P. F. Bortignon, and F. Barranco, and E. Vigezzi, and A. Idini, and G. Potel" has a comma at the end for entry Broglia:16
-while executing---line 1429 of file abbrvnat.bst
-Name 3 in "R. A. Broglia, and P. F. Bortignon, and F. Barranco, and E. Vigezzi, and A. Idini, and G. Potel" has a comma at the end for entry Broglia:16
-while executing---line 1429 of file abbrvnat.bst
-Name 4 in "R. A. Broglia, and P. F. Bortignon, and F. Barranco, and E. Vigezzi, and A. Idini, and G. Potel" has a comma at the end for entry Broglia:16
-while executing---line 1429 of file abbrvnat.bst
-Name 5 in "R. A. Broglia, and P. F. Bortignon, and F. Barranco, and E. Vigezzi, and A. Idini, and G. Potel" has a comma at the end for entry Broglia:16
-while executing---line 1429 of file abbrvnat.bst
-Warning--empty year in Dussel:09
-Warning--empty year in Dussel:09
-Warning--empty title in Schrodinger:26
-Warning--empty title in Stephens:85
-You've used 86 entries,
+I found no \bibdata command---while reading file preface_book.aux
+Warning--I didn't find a database entry for "Bohr:37"
+Warning--I didn't find a database entry for "Meitner:39"
+Warning--I didn't find a database entry for "Bohr:39"
+Warning--I didn't find a database entry for "Weizsacker:35"
+Warning--I didn't find a database entry for "Broglia:04a"
+Warning--I didn't find a database entry for "Bohr:75"
+Warning--I didn't find a database entry for "Brink:05"
+Warning--I didn't find a database entry for "Elsasser:33"
+Warning--I didn't find a database entry for "Mayer:48"
+Warning--I didn't find a database entry for "Haxel:49"
+Warning--I didn't find a database entry for "Mayer:49"
+Warning--I didn't find a database entry for "Mayer:49b"
+Warning--I didn't find a database entry for "Mayer:55"
+Warning--I didn't find a database entry for "Bardeen:57a"
+Warning--I didn't find a database entry for "Bardeen:57b"
+Warning--I didn't find a database entry for "Bohr:58"
+Warning--I didn't find a database entry for "Bohr:69"
+Warning--I didn't find a database entry for "Dirac:26"
+Warning--I didn't find a database entry for "Rose:84"
+Warning--I didn't find a database entry for "Duguet:13"
+Warning--I didn't find a database entry for "Duguet:04"
+Warning--I didn't find a database entry for "Duguet:08"
+Warning--I didn't find a database entry for "Lesinski:09"
+Warning--I didn't find a database entry for "Hebeler:09"
+Warning--I didn't find a database entry for "Baroni:10"
+Warning--I didn't find a database entry for "Duguet:10"
+Warning--I didn't find a database entry for "Lesinski:11"
+Warning--I didn't find a database entry for "Hergert:09"
+Warning--I didn't find a database entry for "Bohm:51"
+Warning--I didn't find a database entry for "Bohm:53"
+Warning--I didn't find a database entry for "Mottelson:68"
+Warning--I didn't find a database entry for "Mottelson:67"
+Warning--I didn't find a database entry for "Broglia:16"
+Warning--I didn't find a database entry for "Bertsch:83"
+Warning--I didn't find a database entry for "Barranco:04"
+Warning--I didn't find a database entry for "Ward:50"
+Warning--I didn't find a database entry for "Weinberg:96"
+Warning--I didn't find a database entry for "Feshbach:58"
+Warning--I didn't find a database entry for "Feshbach:62"
+Warning--I didn't find a database entry for "Jackson:70"
+Warning--I didn't find a database entry for "Jeukenne:76"
+Warning--I didn't find a database entry for "Sartor:80"
+Warning--I didn't find a database entry for "Pollarolo:83"
+Warning--I didn't find a database entry for "Satchler:83"
+Warning--I didn't find a database entry for "Dickhoff:05"
+Warning--I didn't find a database entry for "Montanari:14"
+Warning--I didn't find a database entry for "Dickhoff:17"
+Warning--I didn't find a database entry for "Dickhoff:19"
+Warning--I didn't find a database entry for "Fernandez:10"
+Warning--I didn't find a database entry for "Fernandez:10b"
+Warning--I didn't find a database entry for "Jenning:11"
+Warning--I didn't find a database entry for "Barbieri:05"
+Warning--I didn't find a database entry for "Rotureau:17"
+Warning--I didn't find a database entry for "Broglia:81b"
+Warning--I didn't find a database entry for "Flynn:72"
+Warning--I didn't find a database entry for "Broglia:73"
+Warning--I didn't find a database entry for "Lanford:73"
+Warning--I didn't find a database entry for "Anderson:72"
+Warning--I didn't find a database entry for "Anderson:84b"
+Warning--I didn't find a database entry for "Nilsson:55"
+Warning--I didn't find a database entry for "Mottelson:59"
+Warning--I didn't find a database entry for "Nolan:88"
+Warning--I didn't find a database entry for "Ragnarsson:05"
+Warning--I didn't find a database entry for "Nathan:65"
+Warning--I didn't find a database entry for "Schrieffer:73"
+Warning--I didn't find a database entry for "Potel:13b"
+Warning--I didn't find a database entry for "Penrose:51"
+Warning--I didn't find a database entry for "Penrose:56"
+Warning--I didn't find a database entry for "Yang:62"
+Warning--I didn't find a database entry for "Anderson:96"
+Warning--I didn't find a database entry for "Tinkham:96"
+Warning--I didn't find a database entry for "Hogassen:61"
+Warning--I didn't find a database entry for "Bes:66"
+Warning--I didn't find a database entry for "Nambu:60"
+Warning--I didn't find a database entry for "Bortignon:81"
+Warning--I didn't find a database entry for "Bortignon:98"
+Warning--I didn't find a database entry for "Litvinova:18"
+Warning--I didn't find a database entry for "Wibowo:19"
+Warning--I didn't find a database entry for "Bertsch:05"
+Warning--I didn't find a database entry for "Broglia:77"
+Warning--I didn't find a database entry for "Cappuzzello:15"
+Warning--I didn't find a database entry for "Cavallaro:19"
+Warning--I didn't find a database entry for "Bortignon:16"
+Warning--I didn't find a database entry for "Laskin:16"
+Warning--I didn't find a database entry for "Betan:02"
+Warning--I didn't find a database entry for "Dussel:09"
+Warning--I didn't find a database entry for "Mouginot:11"
+Warning--I didn't find a database entry for "Khan:04"
+Warning--I didn't find a database entry for "Avez:08"
+Warning--I didn't find a database entry for "Khan:09"
+Warning--I didn't find a database entry for "Dasso:15"
+Warning--I didn't find a database entry for "Fortunato:02"
+Warning--I didn't find a database entry for "Herzog:86"
+Warning--I didn't find a database entry for "Gogny:78"
+Warning--I didn't find a database entry for "Esbensen:83"
+Warning--I didn't find a database entry for "Reinhard:79"
+Warning--I didn't find a database entry for "Khodel:82"
+Warning--I didn't find a database entry for "Barranco:87a"
+Warning--I didn't find a database entry for "Barranco:85"
+Warning--I didn't find a database entry for "Brown:63"
+Warning--I didn't find a database entry for "Anderson:62"
+Warning--I didn't find a database entry for "Glauber:07"
+Warning--I didn't find a database entry for "Basdevant:05"
+Warning--I didn't find a database entry for "Schrodinger:26"
+Warning--I didn't find a database entry for "Pais:00"
+Warning--I didn't find a database entry for "Born:26"
+Warning--I didn't find a database entry for "Mahaux:85"
+Warning--I didn't find a database entry for "Mitra:18"
+Warning--I didn't find a database entry for "Vyazovskiy:13"
+Warning--I didn't find a database entry for "Schwinger:01"
+Warning--I didn't find a database entry for "Kinoshita:90"
+Warning--I didn't find a database entry for "Lamb:51b"
+Warning--I didn't find a database entry for "Lundeen:81"
+Warning--I didn't find a database entry for "Lundeen:86"
+Warning--I didn't find a database entry for "Pipkin:90"
+Warning--I didn't find a database entry for "Sapirstein:90"
+Warning--I didn't find a database entry for "Grotch:94"
+Warning--I didn't find a database entry for "Heisenberg:25"
+Warning--I didn't find a database entry for "Born:25a"
+Warning--I didn't find a database entry for "Born:25b"
+Warning--I didn't find a database entry for "Dirac:25"
+Warning--I didn't find a database entry for "Heisenberg:27"
+Warning--I didn't find a database entry for "Pauli:25"
+Warning--I didn't find a database entry for "Dirac:28a"
+Warning--I didn't find a database entry for "Dirac:28b"
+Warning--I didn't find a database entry for "Feynman:49"
+Warning--I didn't find a database entry for "Schwinger:48"
+Warning--I didn't find a database entry for "Tomonaga:46"
+Warning--I didn't find a database entry for "Dyson:49"
+Warning--I didn't find a database entry for "Schwinger:58"
+Warning--I didn't find a database entry for "Schweber:94"
+Warning--I didn't find a database entry for "Feynman:75"
+Warning--I didn't find a database entry for "Idini:15"
+Warning--I didn't find a database entry for "Barranco:01"
+Warning--I didn't find a database entry for "Broglia:19"
+Warning--I didn't find a database entry for "Barranco:17"
+Warning--I didn't find a database entry for "Barranco:20"
+Warning--I didn't find a database entry for "Kwan:14"
+Warning--I didn't find a database entry for "Feynman:06"
+Warning--I didn't find a database entry for "Mottelson:62"
+You've used 0 entries,
             2773 wiz_defined-function locations,
-            1177 strings with 16354 characters,
-and the built_in function-call counts, 38247 in all, are:
-= -- 3183
-> -- 2439
-< -- 66
-+ -- 837
-- -- 749
-* -- 3046
-:= -- 6143
-add.period$ -- 263
-call.type$ -- 86
-change.case$ -- 485
-chr.to.int$ -- 84
-cite$ -- 176
-duplicate$ -- 1791
-empty$ -- 3098
-format.name$ -- 883
-if$ -- 7904
-int.to.chr$ -- 3
+            871 strings with 7332 characters,
+and the built_in function-call counts, 33 in all, are:
+= -- 0
+> -- 0
+< -- 0
++ -- 0
+- -- 0
+* -- 2
+:= -- 10
+add.period$ -- 0
+call.type$ -- 0
+change.case$ -- 0
+chr.to.int$ -- 0
+cite$ -- 0
+duplicate$ -- 0
+empty$ -- 1
+format.name$ -- 0
+if$ -- 1
+int.to.chr$ -- 1
 int.to.str$ -- 1
-missing$ -- 102
-newline$ -- 437
-num.names$ -- 357
-pop$ -- 978
+missing$ -- 0
+newline$ -- 8
+num.names$ -- 0
+pop$ -- 0
 preamble$ -- 1
-purify$ -- 418
+purify$ -- 0
 quote$ -- 0
-skip$ -- 1315
+skip$ -- 1
 stack$ -- 0
-substring$ -- 945
-swap$ -- 123
-text.length$ -- 5
+substring$ -- 0
+swap$ -- 0
+text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 861
-warning$ -- 4
-while$ -- 333
+type$ -- 0
+warning$ -- 0
+while$ -- 0
 width$ -- 0
-write$ -- 1131
-(There were 31 error messages)
+write$ -- 7
+(There was 1 error message)

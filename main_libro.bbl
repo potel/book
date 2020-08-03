@@ -1,4 +1,4 @@
-\begin{thebibliography}{554}
+\begin{thebibliography}{570}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \expandafter\ifx\csname urlstyle\endcsname\relax
@@ -111,6 +111,12 @@ P.~W. Anderson.
 P.~W. Anderson.
 \newblock \emph{{Basic Notions of Condensed Matter}}.
 \newblock Addison--Wesley, Reading, Mass, 1984.
+
+\bibitem[Anderson(1991)]{Anderson:91}
+P.~W. Anderson.
+\newblock {Theories of Fullerene $T_c$'s which will not work}.
+\newblock 1991.
+\newblock (unpublished).
 
 \bibitem[Anderson(1996)]{Anderson:96}
 P.~W. Anderson.
@@ -557,9 +563,9 @@ D.~R. B{\`{e}}s and R.~A. Broglia.
 \bibitem[B{\`{e}}s and Broglia(1977)]{Bes:77}
 D.~R. B{\`{e}}s and R.~A. Broglia.
 \newblock Nuclear superfluidity and field theory of elementary excitations.
-\newblock In A.~Bohr and R.~A. Broglia, editors, \emph{International School
-  CARLSON201768of Physics ``Enrico Fermi'' Course LXIX, Elementary Modes of
-  Excitation in Nuclei}, page~55. North Holland, Amsterdam, 1977.
+\newblock In A.~Bohr and R.~A. Broglia, editors, \emph{International School of
+  Physics ``Enrico Fermi'' Course LXIX, Elementary Modes of Excitation in
+  Nuclei}, page~55. North Holland, Amsterdam, 1977.
 
 \bibitem[B{\`{e}}s and Kurchan(1990)]{Bes:90}
 D.~R. B{\`{e}}s and J.~Kurchan.
@@ -937,10 +943,9 @@ R.~A. Broglia and A.~Winther.
 \newblock Westview Press, Boulder, CO., 2004.
 
 \bibitem[Broglia and Zelevinsky(2013)]{Broglia:13}
-R.~A. Broglia and V.~Zelevinsky.
-\newblock {Preface}.
-\newblock In R.~A. Broglia and V.~Zelevinsky, editors, \emph{50 Years of
-  Nuclear BCS}. World Scientific, Singapore, 2013.
+R.~A. Broglia and V.~Zelevinsky, editors.
+\newblock \emph{{50 Years of Nuclear BCS}}.
+\newblock World Scientific, Singapore, 2013.
 
 \bibitem[Broglia et~al.(1968)Broglia, Riedel, and {S\o{}rensen}]{Broglia:68}
 R.~A. Broglia, C.~Riedel, and B.~{S\o{}rensen}.
@@ -950,7 +955,7 @@ R.~A. Broglia, C.~Riedel, and B.~{S\o{}rensen}.
 \bibitem[Broglia et~al.(1971{\natexlab{a}})Broglia, Paar, and Bes]{Broglia:71b}
 R.~A. Broglia, V.~Paar, and D.~R. Bes.
 \newblock {Diagramatic perturbation treatment of the effective interaction
-  between two-photon states in closed shell nuclei: The $J^\pi = 0^+$ states in
+  between two-phonon states in closed shell nuclei: The $J^\pi = 0^+$ states in
   $^{208}$Pb}.
 \newblock \emph{Physics Letters B}, 37:\penalty0 159, 1971{\natexlab{a}}.
 
@@ -1250,6 +1255,11 @@ R.~de~Diego, J.~M. Arias, J.~A. Lay, and A.~M. Moro.
   excitation.
 \newblock \emph{Phys. Rev. C}, 89:\penalty0 064609, 2014.
 
+\bibitem[de~Gennes(1974)]{deGennes:74}
+P.~G. de~Gennes.
+\newblock \emph{{The physics of liquid crystals}}.
+\newblock Clarendon Press, Oxford, 1974.
+
 \bibitem[de~Gennes(1994)]{DeGennes:94}
 P.~G. de~Gennes.
 \newblock \emph{{Les objets fragiles}}.
@@ -1533,6 +1543,14 @@ R.~P. Feynman.
 \newblock \emph{QED: The strange theory of light and matter}.
 \newblock Princeton University Press, 2006.
 
+\bibitem[Fleming et~al.(1991)Fleming, Ramirez, Rosseinsky, Murphy, Haddon,
+  Zahurak, and Makhija]{Fleming:91}
+R.~M. Fleming, A.~P. Ramirez, M.~J. Rosseinsky, D.~W. Murphy, R.~C. Haddon,
+  S.~M. Zahurak, and A.~V. Makhija.
+\newblock Relation of structure and superconducting transition temperatures in
+  a 3 c 60.
+\newblock \emph{Nature}, 352:\penalty0 787, 1991.
+
 \bibitem[Flynn et~al.(1971)Flynn, Igo, Barnes, Kovar, B\`{e}s, and
   Broglia]{Flynn:71}
 E.~R. Flynn, G.~Igo, P.~D. Barnes, D.~Kovar, D.~R. B\`{e}s, and R.~A. Broglia.
@@ -1763,6 +1781,16 @@ P.~Guazzoni, L.~Zetta, A.~Covello, A.~Gargano, B.~F. Bayman, G.~Graw,
   $^{114}$Sn$(p,t)^{112}$Sn reaction}.
 \newblock \emph{{Phys. Rev. C}}, 85:\penalty0 054609, 2012.
 
+\bibitem[Gunnarsson(1995)]{Gunnarsson:95}
+O.~Gunnarsson.
+\newblock {Jahn-Teller effect and on-site interaction for C 60 n-}.
+\newblock \emph{Physical Review B}, 51:\penalty0 3493, 1995.
+
+\bibitem[Gunnarsson(1997)]{Gunnarsson:97}
+O.~Gunnarsson.
+\newblock Superconductivity in fullerides.
+\newblock \emph{Review of Modern Physics}, 69:\penalty0 575, 1997.
+
 \bibitem[Gunnarsson(2004)]{Gunnarsson:04}
 O.~Gunnarsson.
 \newblock \emph{Alkali-doped Fullerides: Narrow-band Solids with Unusual
@@ -1775,11 +1803,22 @@ K.~Hamacher.
 \newblock \emph{European Biophysics Journal}, 39\penalty0 (7):\penalty0 1051,
   2010.
 
-\bibitem[Hamamoto(1970)]{Hamamoto:70}
+\bibitem[Hamamoto(1969)]{Hamamoto:69}
+I.~Hamamoto.
+\newblock {Particle-vibration coupling in the nuclei $^{209}$Bi and
+  $^{209}$Pb}.
+\newblock \emph{Nuclear Physics A}, 126:\penalty0 545, 1969.
+
+\bibitem[Hamamoto(1970{\natexlab{a}})]{Hamamoto:70}
 I.~Hamamoto.
 \newblock {Single-particle components of particle-vibrational states in the
   nuclei $^{209}$Pb, $^{209}$Bi, $^{207}$Pb and $^{207}$Tl}.
-\newblock \emph{Nuclear Physics A}, 141:\penalty0 1, 1970.
+\newblock \emph{Nuclear Physics A}, 141:\penalty0 1, 1970{\natexlab{a}}.
+
+\bibitem[Hamamoto(1970{\natexlab{b}})]{Hamamoto:70b}
+I.~Hamamoto.
+\newblock {Nuclear octupole vibrations in the isotopes of Pb}.
+\newblock \emph{Nuclear Physics A}, 155:\penalty0 362, 1970{\natexlab{b}}.
 
 \bibitem[Hamamoto(1977)]{Hamamoto:77}
 I.~Hamamoto.
@@ -1827,6 +1866,18 @@ O.~Hansen.
 O.~Haxel, J.~H.~D. Jensen, and H.~E. Suess.
 \newblock On the {``Magic Numbers''} in nuclear structure.
 \newblock \emph{Phys. Rev.}, 75:\penalty0 1766, 1949.
+
+\bibitem[Hebard(1992)]{Hebard:92}
+A.~F. Hebard.
+\newblock Superconductivity in doped fullerenes.
+\newblock \emph{Physics Today}, 45:\penalty0 26, 1992.
+
+\bibitem[Hebard et~al.(1991)Hebard, Rosseinsky, Haddon, Murphy, Glarum,
+  Palstra, Ramirez, and Kortan]{Hebard:91}
+A.~F. Hebard, M.~J. Rosseinsky, R.~C. Haddon, D.~W. Murphy, S.~H. Glarum,
+  T.~T.~M. Palstra, A.~P. Ramirez, and A.~R. Kortan.
+\newblock {Superconductivity at 18 K in potassium-doped C60}.
+\newblock \emph{Nature}, 350:\penalty0 600, 1991.
 
 \bibitem[Hebeler et~al.(2009)Hebeler, Duguet, Lesinski, and
   Schwenk]{Hebeler:09}
@@ -1883,6 +1934,14 @@ M.~Herzog, O.~Civitarese, L.~Ferreira, R.~Liotta, T.~Vertse, and L.~Sibanda.
 J.~H\"ogaasen-Feldman.
 \newblock A study of some approximations of the pairing force.
 \newblock \emph{Nuclear Physics}, 28:\penalty0 258, 1961.
+
+\bibitem[Holczer et~al.(1991)Holczer, Klein, Huang, Kaner, Fu, Whetten, and
+  Diederich]{Holczer:91}
+K.~Holczer, O.~Klein, S.-M. Huang, R.~B. Kaner, K.-J. Fu, R.~L. Whetten, and
+  F.~Diederich.
+\newblock {Alkali-fulleride superconductors: synthesis, composition, and
+  diamagnetic shielding}.
+\newblock \emph{Science}, page 1154, 1991.
 
 \bibitem[Holstein(1989)]{Holstein:89}
 B.~R. Holstein.
@@ -1982,7 +2041,7 @@ J.~Jeukenne, A.~Lejeune, and C.~Mahaux.
 \bibitem[Josephson(1962)]{Josephson:62}
 B.~D. Josephson.
 \newblock Possible new effects in superconductive tunnelling.
-\newblock \emph{Phys. Lett.}, 1, 1962.
+\newblock \emph{Phys. Lett.}, 1:\penalty0 251, 1962.
 
 \bibitem[Kadin(2007)]{Kadin:07}
 A.~M. Kadin.
@@ -2319,6 +2378,13 @@ M.~Matsuo.
 \newblock In R.~A. Broglia and V.~Zelevinsky, editors, \emph{50 Years of
   Nuclear BCS}, page~66. World Scientific, Singapore, 2013.
 
+\bibitem[Matsuyanagi et~al.(2013)Matsuyanagi, Hinohora, and
+  Sato]{Matsuyanagi:13}
+K.~Matsuyanagi, N.~Hinohora, and K.~Sato.
+\newblock {BCS-pairing and nuclear vibrations}.
+\newblock In R.~A. Broglia and V.~Zelevinsky, editors, \emph{50 Years of
+  Nuclear BCS}, page 111. World Scientific, Singapore, 2013.
+
 \bibitem[Mau and Pacheco(1996)]{VinhMau:96}
 N.~V. Mau and J.~C. Pacheco.
 \newblock {Structure of the $^{11}$Li nucleus}.
@@ -2483,6 +2549,18 @@ B.~R. Mottelson.
 \newblock In G.~Racah, editor, \emph{International School of Physics ``Enrico
   Fermi'' Course {XV} , Nuclear Spectroscopy}, page~44. Academic Press, New
   York, 1962.
+
+\bibitem[Mottelson(1967)]{Mottelson:67}
+B.~R. Mottelson.
+\newblock Topics in nuclear structure theory.
+\newblock In \emph{Nikko Summer School Lectures}, pages 1--78. Nordita
+  Publications, no 288, Copenhagen, Denmark, 1967.
+
+\bibitem[Mottelson(1968)]{Mottelson:68}
+B.~R. Mottelson.
+\newblock Properties of individual levels and nuclear models.
+\newblock In J.~Sanada, editor, \emph{Proc. Intern. Conf. on Nuclear Structure,
+  Phys. Soc. of Japan}, page~87. 1968.
 
 \bibitem[Mottelson(1976)]{Mottelson:76}
 B.~R. Mottelson.
@@ -2842,6 +2920,15 @@ H.~I. {R\"osner}, M.~Caldarini, A.~Prestel, M.~A. Vanoni, R.~A. Broglia,
   A.~Aliverti, G.~Tiana, , and B.~B. Kragelund.
 \newblock Cold denaturation of the {HIV--1} protease monomer.
 \newblock \emph{Biochemistry}, 156:\penalty0 1029, 2017.
+
+\bibitem[Rosseinsky et~al.(1991)Rosseinsky, Ramirez, Glarum, Murphy, Haddon,
+  Hebard, Palstra, Kortan, Zahurak, and Makhija]{Rosseinsky:91}
+M.~J. Rosseinsky, A.~P. Ramirez, S.~H. Glarum, D.~W. Murphy, R.~C. Haddon,
+  A.~F. Hebard, T.~T.~M. Palstra, A.~R. Kortan, S.~M. Zahurak, and A.~V.
+  Makhija.
+\newblock Superconductivity at 28 k in
+  ${\mathrm{rb}}_{\mathit{x}}$${\mathrm{c}}_{60}$.
+\newblock \emph{Phys. Rev. Lett.}, 66:\penalty0 2830, 1991.
 
 \bibitem[Rost(1997)]{Rost:97}
 B.~Rost.
@@ -3316,10 +3403,15 @@ L.~Weinberg.
 \newblock In L.~Cooper and D.~Feldman, editors, \emph{BCS: 50 years}. World
   Scientific, Singapore, 2011.
 
-\bibitem[Weinberg(1996)]{Weinberg:96}
+\bibitem[Weinberg(1996{\natexlab{a}})]{Weinberg:96}
 S.~Weinberg.
 \newblock \emph{The Quantum Theory of Fields}, volume~1.
-\newblock Cambridge University Press, Cambridge, 1996.
+\newblock Cambridge University Press, Cambridge, 1996{\natexlab{a}}.
+
+\bibitem[Weinberg(1996{\natexlab{b}})]{Weinberg:96b}
+S.~Weinberg.
+\newblock \emph{The Quantum Theory of Fields}, volume~2.
+\newblock Cambridge University Press, Cambridge, 1996{\natexlab{b}}.
 
 \bibitem[Weisskopf(1981)]{Weisskopf:81}
 V.~F. Weisskopf.
@@ -3426,6 +3518,14 @@ P.~G. Young and R.~H. Stokes.
 \newblock {New States in $^{9}\mathrm{Li}$ from the Reaction
   $^{7}\mathrm{Li}(t,p)^{9}\mathrm{Li}$}.
 \newblock \emph{Phys. Rev. C}, 4:\penalty0 1597, 1971.
+
+\bibitem[Zhou et~al.(1992)Zhou, Zhu, Fischer, Coustel, Vaughan, Heiney,
+  McCauley, and Smith]{Zhou:92}
+O.~Zhou, Q.~Zhu, J.~E. Fischer, N.~Coustel, G.~B.~M. Vaughan, P.~A. Heiney,
+  J.~P. McCauley, and A.~B. Smith.
+\newblock {Compressibility of M3C60 Fullerene Superconductors: Relation Between
+  $T_c$ and Lattice Parameter}.
+\newblock \emph{Science}, 255:\penalty0 833, 1992.
 
 \bibitem[Zhou et~al.(1999)Zhou, Vitkup, and Karplus]{Zhou:99}
 Y.~Zhou, D.~Vitkup, and M.~Karplus.

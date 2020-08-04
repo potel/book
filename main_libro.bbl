@@ -1,4 +1,4 @@
-\begin{thebibliography}{570}
+\begin{thebibliography}{571}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \expandafter\ifx\csname urlstyle\endcsname\relax
@@ -123,6 +123,12 @@ P.~W. Anderson.
 \newblock {Off-diagonal long-range order and flux quantization}.
 \newblock In H.~Holden and S.~Kjellstrup~Ratkje, editors, \emph{{The collected
   works of Lars Onsager}}, page 729. World Scientific, Singapore, 1996.
+
+\bibitem[Anderson and Rowell(1963)]{Anderson:63}
+P.~W. Anderson and J.~M. Rowell.
+\newblock {Probable observation of the Josephson superconducting tunneling
+  effect}.
+\newblock \emph{Physical Review Letters}, 10:\penalty0 230, 1963.
 
 \bibitem[Anderson and Stein(1984)]{Anderson:84}
 P.~W. Anderson and D.~L. Stein.

@@ -1,27 +1,19 @@
 
- \chapter{Two--particle transfer}\label{C7}
+ \chapter{Two-particle transfer}\label{C7}
   \epigraph{A unified picture of pairing and two-nucleon transfer, where the two subjects are blended together (which is what happens in nature) }{B. F.  Bayman}
-Cooper pairs are the building blocks of pairing correlations in many-body fermionic systems. In particular in atomic nuclei. As a consequence, nuclear superfluidity can be specifically probed through Cooper pair tunneling.
-In the simultaneous transfer of two nucleons, one nucleon can go over from target to projectile, or viceversa, under the influence of mainly the mean field or the nuclear interaction
-responsible for the existence of it,  while the other follows suit by profiting of: 1) pairing correlations (simultaneous transfer); 
-2) the fact that the single-particle wavefunctions describing the motion of Cooper pair partners in both target and projectile are solutions of different 
-single-particle potentials (non--orthogonality term). 
-In the limit of independent particle motion, in which all of the nucleon-nucleon interaction is used up in generating a mean field, both contributions
-to the transfer process (simultaneous and non-orthogonality) cancel out exactly (App. \ref{C7AppC}).
 
-In keeping with the fact that nuclear Cooper pairs are weakly bound ($E_{corr}\ll \epsilon_F$), this cancellation is, in actual nuclei, quite strong. Consequently, successive transfer, a process in which the nuclear interaction acts twice is, as a rule, the main mechanism at the basis of Cooper pair transfer. Because of the same reason (weak binding), the correlation length of Cooper pairs is larger than nuclear dimensions ($\xi=\hbar v_F/(\pi E_{corr})> R$), a fact which allows the two members of a Cooper pair to move between target and projectile, essentially as a whole, also in the case of successive transfer. In other words, because of its (intrinsic, virtual extension) Cooper pair transfer display equivalent 	pairing correlations both in simultaneous than in successive transfer. \footnote{In order for a nucleon to display independent particle motion, all other nucleons must act coherently so as to leave the way free making feel their pullings and pushings only when the nucleon in question tries to leave the self--bound system,thus acting as a reflecting surface which inverts the momentum of the particle. It is then natural to consider the nuclear mean field the most striking and fundamental collective feature in all nuclear phenomena (\cite{Mottelson:62}). A close second is provided by the BCS mean field, resulting from the condensation of a number of strongly overlapping Cooper pairs ($ \approx \langle BCS|\sum_{\nu>0}a^\dagger_\nu a^\dagger_{\bar\nu}|BCS\rangle=e^{-2i\phi}\alpha'_0\neq 0$) and leading to phase correlated (independent) pair motion. It is a rather unfortunate custom of popular terminology that regards these collective fields (HF and HFB) as well as successive transfer, as in some sense an antithesis to the nuclear collective modes  and to simultaneous transfer respectively. Within this context it is of notice that the  differential cross section associated with the two-nucleon transfer  processes	between the ground state of superfluid nuclei is proportional to $\alpha_0^2$ and not to $\Delta^2$. In fact, Cooper pairs partners remain correlated even over regions in which $G=0$, of course provided normal density is different from zero.}
 
 
  
 
 
 
-The present Chapter is structured in the following way. In Section \ref{C7S1} we present a summary of two--nucleon transfer reaction theory. It provides, together with Section \ref{C2S1} the elements needed to calculate the absolute two--nucleon transfer differential cross sections in second order DWBA, and thus to compare theory with experiment.
+The present Chapter is structured in the following way. In Section \ref{C7S1} we present a summary of two-nucleon transfer reaction theory. It provides, together with Section \ref{C2S1} the elements needed to calculate the absolute two-nucleon transfer differential cross sections in second order DWBA, and thus to compare theory with experiment.
 For the practitioner in search of details and clarification we present in section \ref{C7S2}  a  derivation of the equations presented in section \ref{C7S1}. These equations are implemented and made operative  in the software \textsc{cooper}  used in the applications (cf. App. \ref{C8AppD}).
 
-A number of Appendices are provided. Appendix \ref{C7AppA} briefly reminds the quantal basis for the dressing of elementary modes of excitation and of pairing interaction. In  App. \ref{C7AppB} 	 the derivation of first order DWBA simultaneous transfer is worked out within a formalism tailored to focus the attention on the nuclear structure correlations aspects of the process leading to effective two-nucleon transfer form factors. In App. \ref{C7AppC}  the variety of  contributions to  two--nucleon transfer  amplitudes (successive, simultaneous and non-orthogonality) are discussed in detail within the framework of the semi-classical approximation which provides a rather intuitive picture of the different processes.  Appendices \ref{C7AppD}--\ref{C7AppN} contain relations used in Sect. \ref{C7S2} as well as in the derivation of two--nucleon transfer spectroscopic amplitudes. Finally Appendix \ref{C7AppO} provides a glimpse of original material due to Ben Bayman\footnote{\cite{Bayman:67}, \cite{Bayman:70}, \cite{Bayman:71}, \cite{Bayman:82}.} which was instrumental to render quantitative the studies of two-nucleon transfer, studies which can now be carried out in terms of absolute cross sections and not relative ones.
+A number of Appendices are provided.   Appendices \ref{C7AppD}--\ref{C7AppN} contain relations used in Sect. \ref{C7S2} as well as in the derivation of some two-nucleon transfer spectroscopic amplitudes. Finally, Appendix \ref{C7AppO} provides a glimpse of original material due to Ben Bayman\footnote{\cite{Bayman:70}, \cite{Bayman:71}, \cite{Bayman:82}.} which was instrumental to render quantitative the studies of two-nucleon transfer, studies which can now be carried out in terms of absolute differential cross sections and not only relative ones.
 \section{Summary of second order DWBA}\label{C7S1}
-Let us illustrate the  theory of second order DWBA two--nucleon transfer reactions  with the  $A+t \rightarrow B(\equiv A+2)+p$ reaction, in which $A+2$ and $A$ are even nuclei in their $0^+$ ground state. The extension of the  expressions to the transfer of pairs coupled to arbitrary angular momentum is discussed in subsection \ref{C7S2S10}. 
+Let us illustrate the  theory of second order DWBA two-nucleon transfer reactions  with the  $A+t \rightarrow B(\equiv A+2)+p$ reaction, in which $A+2$ and $A$ are even nuclei in their $0^+$ ground state. The extension of the  expressions to the transfer of pairs coupled to arbitrary angular momentum is discussed in subsection \ref{C7S2S10}. 
 
 
 The wavefunction of the nucleus $A+2$ can be written as 
@@ -1577,9 +1569,8 @@ Note that (\ref{eq225_7}) takes into account only the spins of the heavy nucleus
 \frac{1}{2(2\Lambda+1)}\sum_{\mu}|A_{\mu}|^2+|B_{\mu}|^2.
 \end{split}
 \end{equation}
-\begin{subappendices}
 \section[ZPF and Pauli principle]{ZPF and Pauli principle at the basis of medium polarization effects: self--energy, vertex corrections and induced interaction}\label{C7AppA}
-In keeping with a central objective of the formulation of quantum mechanics, namely that the basic concepts on which it is based relate directly to experiment\footnote{\cite{Heisenberg:25}. The abstract of this reference reads: ``In this paper it will be attempted to secure foundations for a quantum theoretical mechanics which is exclusively based on relations between quantities which in principle are observables''. Within the present context, namely that of the probing the nuclear structure (e.g. pairing correlations) with direct nuclear reactions, in particular Cooper pair transfer, one can hardly think of a better \emph{incipit} for the introduction of elementary modes of excitation, modes which carry within them most of the correlations one aims at mapping out in microscopic detail, thus requiring for their theoretical treatment an effective field theory, like e.g. NFT to  properly deal with the intrinsic overcompleteness of the basis (non--orthogonality) as well as of Pauli violating processes.}, elementary modes of nuclear excitation (single-particle, collective vibrations and rotations), are solidly anchored on observation (inelastic and Coulomb excitation, one-- and two--particle transfer reactions). Of all quantal phenomena, zero point fluctuations (ZPF), closely connected with virtual states, are likely the  most representative of the essential difference existing between quantum and classical mechanics. In fact, ZPF are intimately connected with the complementary principle\footnote{\cite{Bohr:28}.}, and thus with  indeterminacy\footnote{\cite{Heisenberg:27}.} and non-commutative\footnote{\cite{Born:25a}, \cite{Born:25b}.} relations, and with the probabilistic interpretation\footnote{ \cite{Born:26}.} of the (modulus squared) of the wavefunctions, solution of Schr\"odinger's or Dirac's equations\footnote{\cite{Schrodinger:25}, \cite{Dirac:26}.}.
+In keeping with a central objective of the formulation of quantum mechanics, namely that the basic concepts on which it is based relate directly to experiment\footnote{\cite{Heisenberg:25}.}, elementary modes of nuclear excitation (single-particle, collective vibrations and rotations), are solidly anchored on observation (inelastic and Coulomb excitation, one-- and two--particle transfer reactions). Of all quantal phenomena, zero point fluctuations (ZPF), closely connected with virtual states, are likely the  most representative of the essential difference existing between quantum and classical mechanics. In fact, ZPF are intimately connected with the complementary principle\footnote{\cite{Bohr:28}.}, and thus with  indeterminacy\footnote{\cite{Heisenberg:27}.} and non-commutative\footnote{\cite{Born:25a}, \cite{Born:25b}.} relations, and with the probabilistic interpretation\footnote{ \cite{Born:26}.} of the (modulus squared) of the wavefunctions, solution of Schr\"odinger's or Dirac's equations\footnote{\cite{Schrodinger:25}, \cite{Dirac:26}.}.
  \begin{figure}[h!]
  	\begin{center}
 \includegraphics*[width=1.2\textwidth]{C7/figs_C7/FigA.pdf}
@@ -1595,10 +1586,10 @@ In keeping with a central objective of the formulation of quantum mechanics, nam
 Pauli principle\footnote{\cite{Pauli:25}.} brings about essential modifications of the virtual fluctuations of the many-body system, modifications which are instrumental in the dressing and interweaving of the elementary modes of excitation\footnote{Within the present context, see also \cite{Schrieffer:64}.}.
 
 
-In Fig.  \ref{figA}, NFT diagrams are given which correspond to the lowest order medium polarization effects renormalizing the properties of a particle--hole collective mode (wavy line), correlated particle-hole excitation  ((up-going)--(down-going) arrowed lines)  calculated within the random phase approximation (RPA,QRPA), and leading to the particle-vibration coupling vertex (formfactor and strength, i.e. transition density (solid dot), see inset (I), bottom). The action of an external field on the zero point fluctuations (ZPF) of the vacuum (inset (II)), forces a virtual process to become real, leading to a collective vibration by annihilating a (virtual, spontaneous) particle-hole excitation (backwards RPA $Y$-amplitude) or, in the time ordered process, by creating a particle-hole excitation which eventually, through the particle-vibration coupling vertex, materializes into the collective (coherent) state (forwardsgoing $X$-amplitudes). Now, oyster-like diagrams associated with the vacuum ZPF can occur at any time (see inset (III) of Fig. \ref{figA}). It is of notice that   while virtual states can violate energy conservation, they have to respect conservation rules, as well as Pauli principle. For example, a virtual state  cannot violate  angular momentum neither allow for the  presence of two fermions in the same quantal state. The process shown in the inset III ($\alpha$) leads, through Pauli principle correcting diagrams (exchange of fermionic arrowed lines) to self-energy (inset III ($\beta$), ($\delta$)) and vertex corrections (induced $p-h$ interaction; inset III ($\gamma$), ($\varepsilon$), see also graphs (c), (f), (h) and (i) of Fig. \ref{figA}) processes. Similar processes are found in the interplay between ZPF 	and pair addition modes as shown in Fig. \ref{figB}. Note the parallel between diagrams \ref{figA} (g)--(i) and \ref{figB} (d)--(f).
+In Fig.  \ref{figA}, NFT diagrams are given which correspond to the lowest order medium polarization effects renormalizing the properties of a particle--hole collective mode (wavy line), correlated particle-hole excitation  ((up-going)--(down-going) arrowed lines)  calculated within the random phase approximation (RPA,QRPA), and leading to the particle-vibration coupling vertex (formfactor and strength, i.e. transition density (solid dot), see inset (I), bottom). The action of an external field on the zero point fluctuations (ZPF) of the vacuum (inset (II)), forces a virtual process to become real, leading to a collective vibration by annihilating a (virtual, spontaneous) particle-hole excitation (backwards RPA $Y$-amplitude) or, in the time ordered process, by creating a particle-hole excitation which eventually, through the particle-vibration coupling vertex, materializes into the collective (coherent) state (forwardsgoing $X$-amplitudes). Now, oyster-like diagrams associated with the vacuum ZPF can occur at any time (see inset (III) of Fig. \ref{figA}). It is of notice that   while virtual states can violate energy conservation, they have to respect conservation rules, as well as Pauli principle. For example, a virtual state  cannot violate  angular momentum neither allow for the  presence of two fermions in the same quantal state. The process shown in the inset III ($\alpha$) leads, through Pauli principle correcting diagrams (exchange of fermionic arrowed lines) to self-energy (inset III ($\beta$), ($\delta$)) and vertex corrections (induced $p-h$ interaction; inset III ($\gamma$), ($\varepsilon$), see also graphs (c), (f), (h) and (i) of Fig. \ref{figA}) processes. Similar processes are found in the interplay between ZPF 	and pair addition modes as shown in Fig. \ref{figB}. Note the parallel between diagrams of Figs. \ref{figA} (g)--(i) and of Figs. \ref{figB} (d)--(f).
 
 
- The collective vibrational modes can be viewed as  coherent states\footnote{See e.g. \cite{Glauber:69,Glauber:07}.} exhausting a consistent fraction of the EWSR. For example, a Giant Resonance or a low-lying $E1$-strength concentration (Pygmy Dipole Resonance). 
+ The collective vibrational modes can be viewed as  coherent states\footnote{See e.g. \cite{Glauber:69,Glauber:07}.} exhausting a consistent fraction of the EWSR.
 \section{Coherence and effective formfactors}\label{C7AppB}
 
 In what follows we shall work out  a simplified derivation of the simultaneous two--nucleon transfer amplitude, within the framework of first order DWBA specially suited to discuss correlation aspects of pair transfer in general, and of the associated effective formfactors in particular\footnote{\cite{Glendenning:65,Bayman:67}.}. 
@@ -1627,7 +1618,7 @@ while
 \psi_\beta=& \psi_{M_f}^{J_f}(\xi_{A+2}) \chi^{s_f}_{M_{s_f}}(\sigma_\beta)\\
 &=\sum_{\substack{n_1 l_1 j_1\\n_2 l_2 j_2}} B(n_1 l_1 j_1,n_2 l_2 j_2;JJ'_iJ_f)
 \left[ \phi^J(j_1 j_2) \phi^{J'_i}(\xi_A)\right]^{J_f}_{M_f}\\
-&\times \chi^{s_f}_{M_{s_f}}(\sigma_\beta)
+&\times \chi^{s_f}_{M_{s_f}}(\sigma_\beta).
 \end{split}
 \end{equation}
 
@@ -1717,8 +1708,6 @@ The coefficients $\langle n l,N L, L | n_1 l_1,n_2 l_2, L  \rangle$ are tabulate
 	
 
 With the help of eq. (\ref{5lec9}) we can write the wave function $\psi_{M_f}^{J_f}(\xi_{A+2})$ as
-
-
 \begin{equation}\label{5lec11}
 \begin{split}
 \psi_{M_f}^{J_f}(\xi_{A+2})&= \sum_{\substack{n_1 l_1 j_1\\n_2 l_2 j_2\\ J J_i}} B(n_1 l_1 j_1,n_2 l_2 j_2;JJ'_i J_f)
@@ -1728,24 +1717,17 @@ With the help of eq. (\ref{5lec9}) we can write the wave function $\psi_{M_f}^{J
 & \times \sum_{L S'} \langle S' L J |j_1 j_2 J \rangle \sum_{M_L M'_S} \langle L M_L S' M'_S |J M_J  \rangle \chi^{S'}_{M'_S}(\sigma_\alpha)\\
 & \times \sum_{n l N \Lambda} \langle n l,N \Lambda, L |n_1 l_1,n_2 l_2, L \rangle \\
 & \times \sum_{m_l  M_\Lambda}
-\langle l m_l \Lambda M_\Lambda |L M_L \rangle \phi_{n l m_l}(\vec r) \phi_{N \Lambda M_\Lambda}(\vec R)
+\langle l m_l \Lambda M_\Lambda |L M_L \rangle \phi_{n l m_l}(\vec r) \phi_{N \Lambda M_\Lambda}(\vec R),
 \end{split}
 \end{equation}
-
 Integration over $\vec r$ gives
-
 \begin{equation}\label{5lec12}
-\langle \phi_{n l m_l}(\vec r) | \phi_{000}(\vec r) \rangle = \delta(l,0) \delta(m_l,0) \Omega_n
+\langle \phi_{n l m_l}(\vec r) | \phi_{000}(\vec r) \rangle = \delta(l,0) \delta(m_l,0) \Omega_n,
 \end{equation}
-
 where
-
-
 \begin{equation}\label{5lec13}
-\Omega_n=\int R_{n l} (\nu_1^{1/2} r)R_{00} (\nu_2^{1/2} r) r^2\, dr
+\Omega_n=\int R_{n l} (\nu_1^{1/2} r)R_{00} (\nu_2^{1/2} r) r^2\, dr.
 \end{equation}
-
-
 Note that there is no selection rule in the principal quantum number $n$, as the potential in which the two neutrons move in the triton has a frequency $\nu_2$ which is different from the one that the two neutrons are subjected to, when moving in the system $A$ (\textit{non--orthogonality effect}).
 
 
@@ -1842,7 +1824,7 @@ The difference between the two processes manifests itself through the different 
 \includegraphics*[width=0.75\textwidth]{C7/figs_C7/figC7B4}
 \end{center}\caption{Asymptotic behavior of the modified formfactor for the $^{206}$(t,p)$^{208}$Pb(gs) ground state transition for oscillator plus Hankel wave functions (continuous solid curve), oscillator wave functions alone (dash point dashed curve), and Saxon-Woods wave functions with a variety of asymptotic matchings.}\label{figC7B4}
 \end{figure}
-\section[Successive, simultaneous, non--orthogonality]{Relative importance of successive and simultaneous transfer and non-orthogonality corrections}\label{C7AppC}
+\section[Successive, simultaneous, non-orthogonality]{Relative importance of successive and simultaneous transfer and non-orthogonality corrections}\label{C7AppC}
 
  \begin{figure}[h!]
  	\begin{center}
@@ -1905,10 +1887,9 @@ where
 \sigma_1 + \sigma_2 = \frac{1}{\hbar} \frac{2m_n}{m_A} ( m_{aA} \vec v_{aA} (t) + m_{bB} v_{bB}(t)) \cdot (\vec r_{1\alpha}
 -\vec r_{2 \alpha}),
 \end{equation}
-in keeping with the fact that ${\rm exp} ( i (\sigma_1 + \sigma_2))$ takes care of recoil 
+${\rm exp} ( i (\sigma_1 + \sigma_2))$ taking care of recoil 
 effects (Galilean transformation associated with the mismatch between entrance and exit channels). 
-The phase $\gamma (t)$ is related  with the effective $Q-$value of the reaction. In the above expression, $\phi$ indicates an antisymmetrized, correlated two-particle (Cooper pair)  wavefunction, $S(2n)$ being the two-neutron separation energy (see Fig. \ref{figC7C3}), $U(r_{1b})$ being the single particle potential generated by nucleus $b$.. The contribution arising from non-orthogonality effects can be written as (see Fig. \ref{figC7C1} (II))
-
+The phase $\gamma (t)$ is related  with the effective $Q-$value of the reaction. In the above expression, $\phi$ indicates an antisymmetrized, correlated two-particle (Cooper pair)  wavefunction, $S(2n)$ being the two-neutron separation energy (see Fig. \ref{figC7C3}), $U(r_{1b})$ being the single particle potential generated by nucleus $b$. The contribution arising from non-orthogonality effects can be written as (see Fig. \ref{figC7C1} (II))
 \begin{equation}\label{eq7.C.6}
 \begin{split}
 a^{(NO)} (\infty) &= \frac{1}{i \hbar} \int^{\infty}_{-\infty} dt (\psi^b \psi^B, (V_{bB} - <V_{bB}>) \psi^f \psi^F )
@@ -1940,9 +1921,9 @@ the independent-particle model and the strong-correlation limits.
 Before doing so, let us comment on the graphical description of the transfer amplitudes (\ref{eq7.C.4}) (\ref{eq7.C.6}) and (\ref{eqC7C7}) displayed in Figs. \ref{figC7C1}
 and \ref{figC7C2}. The time arrow is assumed to point upwards:
 (I) Simultaneous transfer, in which one particle is transferred by the nucleon-nucleon interaction acting either in the entrance $\alpha \equiv a+A$ channel (prior) or in the final $\beta \equiv b + B$ channel (post), while the other particle follows suit making use of the particle-particle correlation (grey area) which binds the Cooper pair (see upper inset labelled (a)), represented by a solid arrow on a double line, to the projectile (curved arrowed lines) or to the target (opened arrowed lines). The above argument provides the explanation why when e.g. $v_{1b}$ acts on one nucleon, the other nucleon also reacts instantaneously. In fact a Cooper pair displays generalized rigidity (emergent property in gauge space).
-A crossed open circle represents the particle-pair vibration coupling. The associated strength, together with an energy denominator, determines the amplitude $X_{a'_1 a'_2}$  with which the pair mode (Cooper pair) is in the (time reversed) two particle configuration $a'_1 a'_2$. In the transfer process, the  relative motion orbit changes, the readjustement of the corresponding trajectory mismatch being operated by a Galilean transformation induced by the operator ($\textrm{exp}\{ \vec k \cdot (\vec{r}_{1A}(t)+\vec{r}_{2A}(t))\}$). This phenomenon, known as recoil process, is represented by a jagged line which  provides simultaneous information on the two transferred nucleons (single time appearing as argument of both single-particle coordinates $r_1$ and $r_2$; see inset labeled (b)). In other words, information on the coupling of structure and reaction modes.
+A crossed open circle represents the particle-pair vibration coupling. The associated strength, together with an energy denominator, determines the amplitude $X_{a'_1 a'_2}$  with which the pair mode (Cooper pair) is in the (time reversed) two particle configuration $a'_1 a'_2$. In the transfer process, the  relative motion orbit changes, the readjustement of the corresponding trajectory mismatch being operated by a Galilean transformation induced by the operator ($\textrm{exp}\{ \vec k \cdot (\vec{r}_{1A}(t)+\vec{r}_{2A}(t))\}$). This phenomenon, known as recoil process, is represented by a jagged line which  provides simultaneous information on the two transferred nucleons (single time appearing as argument of both single-particle coordinates $r_1$ and $r_2$; see Fig. \ref{figC7C1} inset labeled (b)). In other words, information on the coupling of structure and reaction modes.
 (II) Non-orthogonality contribution. While one of the nucleons of the Cooper pairs is transferred under the action of $v$, the other goes, uncorrelatedly over, profiting of the non-orthogonality of the associated single-particle wavefunctions (see inset (c)). 
-(III) Successive transfer. In this case, there are two time dependences associated with the acting of the nucleon-nucleon interaction twice (see inset (d)). 
+(III) Successive transfer. In this case, there are two time dependences associated with the acting of the nucleon-nucleon interaction twice (see Fig. \ref{figC7C2} inset (d)). 
 
 
 \subsection{Independent particle limit}\label{C7S7C1}
@@ -2055,307 +2036,7 @@ Thus the total two-nucleon transfer amplitude is equal, in the strong coupling l
 Summing up, only when successive transfer and non-orthogonal corrections are included in the description of the two-nucleon 
 transfer process, does one obtain a consistent description of the process, which correctly converges to the weak and 
 strong correlation limiting values.
-
-%\section[successive and simultaneous  amplitudes]{Simple numerical estimates of successive and simultaneous transfer amplitudes}\label{C7AppD}
-%Let us denote
-%\begin{equation}\label{eq_est_1}
-%    H=T+V,
-%\end{equation}
-%the total hamiltonian describing the nuclear system, where $V$ is the nuclear two--body interaction.
-%
-%
-%The fact that the nuclear quantality parameter has a value of $Q\approx 0.4$ testifies to the validity of independent particle motion in nuclei. This is tantamount to saying that there exist a single--particle potential $U$, such that
-%\begin{equation}\label{eq_est_2}
-%\langle \Psi_0 | U | \Psi_0 \rangle \ll \langle \Psi_0 |(V- U )| \Psi_0 \rangle,
-%\end{equation}
-%where $\Psi_0$ is the exact ground state wavefunction, that is, $H\Psi_0=E_0 \Psi_0$. One can the write \ref{eq_est_1} as
-%\begin{equation}\label{eq_est_3}
-%H=T+V_{eff},
-%\end{equation}
-%where
-%\begin{equation}\label{eq_est_4}
-%V_{eff}=U+(V-U).
-%\end{equation}
-%Let us now consider a reaction in which two nucleons are transferred between target and projectile, that is,
-%\begin{equation}\label{eq_est_5}
-%a(=b+2)+A\rightarrow b+B(=A+2).
-%\end{equation}
-%The transfer cross section is proportional to the square of the amplitude
-%\begin{equation}\label{eq_est_6}
-%\sqrt{\sigma}\sim \langle bB | V_{eff} | aA \rangle = \langle bB | U | aA \rangle + \langle bB | (V-U) | aA \rangle.
-%\end{equation}
-%Let us assume that the transferred nucleons are e.g. two neutrons moving in time reversal states lying close t othe Fermi energy (Cooper pair). In this case it is natural to assume that the operative component of $(V-U)$ is the pairing interaction
-%\begin{equation}\label{eq_est_7}
-%V_p=-GP^\dagger P,
-%\end{equation}
-%where
-%\begin{equation}\label{eq_est_8}
-%P^\dagger=\sum_{\nu>0}a_\nu^{\dagger}a_{\bar\nu}^{\dagger},
-%\end{equation}
-%is the pair operator, and
-%\begin{equation}\label{eq_est_9}
-%G\approx\frac{18}{A}\; \text{MeV},
-%\end{equation}
-%is the pairing coupling constant for nucleons moving in an extended (2--3 major shell) configuration.
-%
-%
-%One can then write Eq. \ref{eq_est_6} as
-%\begin{equation}\label{eq_est_10}
-%\sqrt{\sigma}=\sqrt{\sigma_1}+\sqrt{\sigma_2},
-%\end{equation}
-%where
-%\begin{equation}\label{eq_est_11}
-%\sqrt{\sigma_1}\sim \langle Bb | U| aA\rangle \approx 2\left(\frac{|V_0|}{2}\right)\mathcal{O}, \; \text{(SUCC+NO)}
-%\end{equation}
-%and
-%\begin{equation}\label{eq_est_12}
-%\begin{split}
-%\sqrt{\sigma_2}\sim & \langle Bb |V-U| aA\rangle = \langle Bb |H_p| aA\rangle\\
-%&\approx GU(b)V(B)\approx\frac{G}{2}, \; \text{(PAIRING)}
-%\end{split}
-%\end{equation}
-%
-%In the process described by the transfer amplitude $\langle Bb |U| aA\rangle$, one nucleon is transferred under the effect of the single--particle potential of depth $V_0(\approx -50$ MeV ) while, simultaneously, the second nucleon moves over from a single--particle orbit centered around $b$ to one centered around $A$ profiting of the non--orthogonality of the corresponding wavefunctions $\varphi^{(b)}(r_{1b})$ and $\varphi^{(A)}(r_{1A})$. Within this context, it is then natural that $\mathcal{O}$ stands for the overlap between these two  wavefunctions, that is, (see below simple estimate of $\mathcal{O}$),
-%\begin{equation}\label{eq_est_13}
-%\mathcal{O}=\langle \varphi^{(b)}|\varphi^{(A)}\rangle \approx 0.3 \times 10^{-2},
-%\end{equation}
-%and that (\ref{eq_est_11}) is known as the sum of the simultaneous plus non--orthogonality contributions to the two--nucleon transfer amplitude. Of notice that the prefactor 2 in (\ref{eq_est_11}) is associated with the fact that two nucleons can choose to jump from one system to the other through non--orthogonality while the factor $|V_0|/2$ is associated with the fact that transfer takes mainly place at the surface.
-%
-%
-%The term (\ref{eq_est_12}) corresponds to the simultaneous $(t,p)$ transfer via the pairing two--body interaction $V_p$ (see Eq. (\ref{eq_est_7})), $U(A)$ and $V(B)$ being the product of two occupation amplitudes: $U(A)$ measures the availability of free single--particle orbitals around the Fermi energy in the target nucleus, while $V(B)$ reflects the degree of occupancy of levels in the residual system. Close to the Fermi energy $U(b)V(B)\approx (1/\sqrt{2})^2=1/2$, leading to the final expression of (\ref{eq_est_12}).
-%
-%
-%In keeping with the fact that the ratio of transfer amplitudes
-%\begin{equation}\label{eq_est_14}
-%\begin{split}
-%\left(\frac{\sigma_1}{\sigma_2}\right)^{1/2}&\approx 2\frac{|V_0|}{2}\times \mathcal{O}\frac{1}{G/2}\approx 2\times A\times 10^{-2}\\
-%& \approx 2 (A\approx 100),
-%\end{split}
-%\end{equation}
-%is larger that one, and that the correlation length of nuclear Cooper pairs ($\xi\approx \hbar v_F/2\Delta \approx 30$ fm) is larger than nuclear dimensions, one can expect  that the successive transfer of two nucleons under the influence of the single--particle field, can give an important contribution to the total transfer amplitude $\sqrt{\sigma}$. In other words, we expect the process
-%
-%
-%\begin{equation}\label{eq_est_15}
-%a(=b+2)+A \rightarrow f(=b+1)+F(A+1)\rightarrow b+B(=A+2)
-%\end{equation}
-%gives a consistent contribution to $\sqrt{\sigma}$. The associated amplitude can be written as
-%
-%\begin{equation}\label{eq_est_16}
-%\begin{split}
-%\sqrt{\sigma_3}\sim & \sum_{fF}\frac{\langle bB|U|fF\rangle \langle fF|U|aA\rangle}{E_{aA}-E_{fF}}\\
-%& \approx \frac{(V_0/13)(V_0/13)}{\Delta E},
-%\end{split}
-%\end{equation}
-%the factor 1/7 appears in each of the steps (instead of 1/2, see (\ref{eq_est_11})) in keeping with the fact that many other reactions channels and then, absorptive processes will take place at closer distance in two--step channels (of notice that 1/7 corresponds to $r=R_0+2.5 a$).
-%
-%
-%Typical values of the energy denominator in (\ref{eq_est_16}) are $\Delta E=30$ MeV for medium heavy nuclei lying along the stability valley.
-
-%\section{Transfer amplitudes}\label{C7AppE}
-%Making use of a simplified expression for the elastic scattering amplitude, that is
-%
-%\begin{equation}\label{eq_est_17}
-%\sqrt{\sigma_{el}}\sim \langle aA|U|aA\rangle,
-%\end{equation}
-%one can calculate the transfer probabilities associated with the different processes discussed above, namely
-%\begin{equation}\label{eq_est_18}
-%P_i=\left(\frac{\sigma_i}{\sigma_{el}}\right)=\left\{
-%\begin{array}{l}
-%  \left|\frac{\langle bB|U|aA\rangle}{\langle aA|U|aA\rangle}\right|^2\approx \mathcal{O}^2\approx 0.9 \times 10^{-5}\quad (i=1), \\
-%  \left|\frac{\langle bB|V_p|aA\rangle}{\langle aA|U|aA\rangle}\right|^2\approx \left(\frac{G}{2V_0}\right)^2\approx 1.4 \times 10^{-6}\quad (i=2), \\
-%    \left|\frac{\langle bB|U|fF\rangle\langle fF|U|aA\rangle}{\Delta E\langle aA|U|aA\rangle}\right|^2\approx \left(\frac{V_0}{170\Delta E}\right)^2\approx 0.96 \times 10^{-4}\quad (i=3).
-%\end{array}
-%\right.
-%\end{equation}
-%Because all these probabilities are small, one can write
-%\begin{equation}\label{eq_est_19}
-%\sigma_i=P_i\sigma_{el},
-%\end{equation}
-%where
-%\begin{equation}\label{eq_est_20}
-%\begin{split}
-%\sigma_{el}=&\left(\frac{\mu_\alpha}{2\pi\hbar^2}\right)^2|\langle aA|U|aA\rangle|^2\\
-%&\approx \left(\left(\frac{\mu_\alpha}{2\pi\hbar^2}\right)(V_0)\right)^2U_0^2\\
-%&\approx \left( 1.8 \text{MeV}^{-1}\text{fm}\right)^2 \left( 50 \text{MeV}\right)^2 \\
-%&\approx \left( 90\text{fm}\right)^2 =0.8 \text{b}
-%\end{split}
-%\end{equation}
-%where use has been made of the effective volume associated with the reaction process (see   )
-%\begin{equation}\label{eq_est_21}
-%V_{ol}\approx \frac{4\pi}{3}3R^2a\approx 12 A^{2/3} \text{fm}^3\approx 260 \text{fm}^3,
-%\end{equation}
-%as well as of $\frac{\mu_\alpha}{2\pi\hbar^2}$ factor of the typical two--nucleon transfer reaction $^{120}$Sn+p$\rightarrow ^{118}$Sn+t, that is (see  ),
-%\begin{equation}\label{eq_est_22}
-%\frac{\sqrt{\mu_\alpha\mu_\beta}}{2\pi\hbar^2}\approx \frac{\sqrt{3}M}{2\pi\hbar^2}\approx \frac{1}{145} \text{MeV}^{-1}\text{fm}^{-2}.
-%\end{equation}
-%Summing up, one can write
-%\begin{equation}\label{eq_est_23}
-%\sigma_i=P_i0.8\text{b}.
-%\end{equation}
-%Making use of (\ref{eq_est_18}) one obtains
-%\begin{equation}\label{eq_est_24}
-%\sigma_i=\left\{
-%\begin{array}{l}
-%  0.7\times 10^{-2} \text{mb}\quad (i=1), \\
-%   1.1\times 10^{-3} \text{mb}\quad (i=2), \\
-%    8 \,\text{mb}\quad (i=1),\quad (i=3).
-%\end{array}
-%\right.
-%\end{equation}
-%These numbers, although worked out for $A$=100 can be rescaled in connection with the reaction $^{11}$Li$(p,t)^9$Li(gs), in which case, microscopic calculation lead to $d\sigma_1(\theta=60^\circ)/d\Omega\approx 0.01$mb/sr and $d\sigma_3(\theta=60^\circ)/d\Omega\approx 5$mb/sr.
-
-%\section[Final state interaction]{Inelastic scattering following two--particle transfer: final state interaction}\label{C7AppF}
-%This subject is qualitatively discussed in connection with the $^{11}$Li$(p,t)^9$Li$(1/2^-;2.69)$, but of course is a general question, also in connection with the validity of considering perturbation theory instead of coupled channels.
-%
-%
-%
-%In keeping with the fact that the first excited state of $^9$Li can be viewed as
-%
-%\begin{equation}\label{eq_est_25}
-%|^9\text{Li}(1/2^-;2.69 \text{MeV})\rangle\approx|2^+\left(^8\text{Be}\otimes p_{3/2}(\pi)\right)_{1/2^-}\rangle,
-%\end{equation}
-%this state can, in principle, be excited in a two--step process, namely
-%\begin{equation}\label{eq_est_26}
-%\text{gs ($^{11}$Li)+t$\;\longrightarrow\;$ gs ($^{9}$Li)+p$\;\longrightarrow \;1/2^-$ ($^{9}$Li)+p}.
-%\end{equation}
-%
-%
-%Let us calculate the probability associated with the inelastic scattering of the lowest $2^+$ of $^8$Li. In this case, we are interested in the component of $V-U$ corresponding to $\delta U_C= -KF\alpha=-R_0\frac{\partial U}{\partial r}\beta_L$, namely the field associated with the inelastic excitation of multipole vibrations. Making use of the Saxon--Woos potential one obtains
-%\begin{equation}\label{eq_est_27}
-%R_0\frac{\partial U}{\partial r}=\frac{R_0}{a}\frac{\exp\left(\frac{(r-R_0)}{a}\right)}{\left(1+\exp\left(\frac{(r-R_0)}{a}\right)\right)^2}.
-%\end{equation}
-%In keeping with the fact that
-%\begin{equation}\label{eq_est_28}
-%\left\langle R_0 \left.\frac{\partial U}{\partial r}\right|_{r=R_0}\right\rangle \approx \left\langle \frac{R_0 U_0}{a}\right\rangle \approx 1.2 U_0 \text{MeV} \approx -60 \text{MeV}
-%\end{equation}
-%and that the main contributions of surface dominated reactions processes is estimated to arize from distances of the order of $r\approx R_0 + 2.5 a$, one obtains
-%\begin{equation}\label{eq_est_29}
-%\begin{split}
-%\left\langle \frac{R_0}{a}\frac{e^{2.5}U_0}{\left(1+\exp 2.5\right)^2}\right\rangle &= \left\langle \frac{R_0 U_0}{a}\right\rangle\frac{e^{2.5}}{\left(1+\exp 2.5\right)^2}\\
-%&\approx1.2U_0\times 0.7 \times 10^{-1}=0.84\times 10^{-1}U_0.
-%\end{split}
-%\end{equation}
-%Thus
-%\begin{equation}\label{eq_est_30}
-%\langle bB^*|\delta U_C|bB\rangle \approx 0.84\times 10^{-1}U_0 \beta_L.
-%\end{equation}
-%Consequently
-%
-%\begin{equation}\label{eq_est_31}
-%\begin{split}
-%P_{inel} \approx &\left|\frac{\langle bB^*|\delta U_C|aA\rangle}{\langle aA|U|aA\rangle}\right|^2=\left(0.84\times 10^{-1} \beta_L\right)^2\\
-%&\approx 0.7\times 10^{-2}\beta_L^2.
-%\end{split}
-%\end{equation}
-%In keeping with the fact that the $\beta_L$ associated with the lowest $2^+$ vibrational states of the Sn--isotopes and of $^8$are $\approx 0.1$ and $\approx 1$ respectively one can write
-%
-%\begin{equation}\label{eq_est_32}
-%P_{inel}=\left\{
-%\begin{array}{l}
-%  0.7\times 10^{-4} \quad \text{(Sn--isotopes)}, \\
-%   0.7\times 10^{-2} \quad \text{($^{11}$Li)}. \\
-%\end{array}
-%\right.
-%\end{equation}
-%Making use of the results collected in (\ref{eq_est_18}),
-%\begin{equation}\label{eq_est_33}
-%\begin{split}
-%\sqrt{P(p,t)}=&\sqrt{P_1}+\sqrt{P_2}+\sqrt{P_3}\\
-%&=\sqrt{0.9\times 10^{-1}}+\sqrt{1.4\times 10^{-6}}+\sqrt{0.96\times 10^{-4}}\\
-%&\approx 3\times 10^{-3}+1.2\times 10^{-3}+0.98\times 10^{-2}\\
-%&\approx 1.4 \times 10^{-2}.
-%\end{split}
-%\end{equation}
-%Thus
-%\begin{equation}\label{eq_est_34}
-%P((p,t)\otimes P(\text{inel}))=P(p,t)P(\text{inel})=\left\{
-%\begin{array}{l}
-%  2\times 10^{-4}\times 10^{-4}\approx 10^{-8} \quad \text{(Sn)}, \\
-%   2\times 10^{-4}\times 10^{-2}\approx 10^{-6} \quad \text{($^{11}$Li)}, \\
-%\end{array}
-%\right.
-%\end{equation}
-%in overall agreement with th result of microscopic calculations (for $^{11}$Li).
-%%\section{Simple estimate $\mathcal{O}$}\label{C7AppG}
-%%The nuclear density can be parametrized according to
-%%\begin{equation}\label{eq_est_35}
-%%\rho(r)=\frac{\rho_0}{1+\exp\left(\frac{r-R_0}{a}\right)}.
-%%\end{equation}
-%%Let us calculate this function for 
-%%\begin{equation}\label{eq_est_36}
-%%r=R_0+3a,
-%%\end{equation}
-%%that is 
-%%\begin{equation}\label{eq_est_37}
-%%\rho(r=R_0+3a)=\frac{\rho_0}{1+\exp 3}=5\times 10^{-2}\rho_0.
-%%\end{equation}
-%%In other words, we assume that the main transfer takes place from densities of the order of 5\% saturation density
-%%\begin{equation}\label{eq_est_38}
-%%\mathcal{O}\approx \frac{\rho_A(R_0^A+3a)\rho_a(R_0^a+3a)}{\rho_0^2}=25\times 10^{-4}\approx 0.3 \times 10^{-2}.
-%%\end{equation}
-%%another estimate 
-%%\begin{equation}\label{eq_est_39}
-%%r=R_0+2.5a,
-%%\end{equation}
-%%for which
-%%\begin{equation}\label{eq_est_40}
-%%\rho(r=R_0+2.5a)=\frac{\rho_0}{1+\exp 2.5}\approx 0.76\times 10^{-1}\rho_0,
-%%\end{equation}
-%%leading to 
-%%\begin{equation}\label{eq_est_41}
-%%\mathcal{O}\approx 0.5 \times 10^{-2}.
-%%\end{equation}
-%\section*{Simple estimate of $\frac{(\mu_\alpha \mu_\beta)^{1/2}}{2\pi\hbar^2}$.}\label{C7AppH}
-%Let us do it for the case of $^{120}$Sn+p $\longrightarrow ^{118}$Sn+t. In this case
-%\begin{equation}\label{eq_est_42}
-%\begin{split}
-%&\mu_\alpha=\frac{120}{121}M\approx M,\\
-%&\mu_\beta=\frac{118\times  3}{121} \approx 2.9 M.
-%\end{split}
-%\end{equation}
-%Thus
-%\begin{equation}\label{eq_est_43}
-%\begin{split}
-%\frac{\sqrt{\mu_\alpha\mu_\beta}}{2\pi\hbar^2}&\approx \frac{\sqrt{3}M}{2\pi\hbar^2}=\frac{\sqrt{3}}{2\pi 40 \text{MeV fm}^2}\\
-%&\approx \frac{1}{145}\times \text{MeV}^{-1}\times \text{fm}^{-2}
-%\end{split}
-%\end{equation}
-%\section*{Simple estimate of $V_{ol}$}\label{C7AppI}
-%In keeping with the assumption that transfer processes are expected to take place at the nuclear surface, the effective volume associate with such processes can be estimated to be
-%\begin{equation}\label{eq_est_44}
-%\begin{split}
-%V_{ol}&=\frac{4\pi}{3}(R^3-(R+a)^3)\\
-%&\approx \frac{4\pi}{3}3aR^2\approx \frac{4\pi}{3}(2\text{fm})R^2\\
-%&\approx \frac{8\pi}{3}(1.2A^{1/3})^2\text{fm}^3\\
-%&\approx 1.2 A^{1/3}\text{fm}^3\approx 260 \text{fm}^3 (A\approx 100)
-%\end{split}
-%\end{equation}
-%%\section{Example of coherent states}\label{C7AppJ}
-%%A central feature of heavy ion collisions seems to be the importance of the coherent response of the different degrees of freedom. Thus in the description of the excitation of the surface modes it is not enough to know the population of the vibrational states but also the relative phases which determine the shape of the nuclei as a function of time. Let us assume a collision in which the ions, which display vibrational modes, interact only through the Coulomb field. Solving the problem quantum mechanically leads to the following total wavefunction (cf. \cite{Glauber:59} cf. also \cite{Broglia:04a} and references therein) 
-%%\begin{align}
-%%|\Psi(t)\rangle=&e^{-i\frac{H_0t}{\hbar}}|\phi(t)\rangle\\
-%%&=\sum_{\{n_\mu\}}\left(\Pi_\mu \,e^{\frac{|I_\mu|^2}{2}}\frac{(I_\mu(t))^{n_\mu}}{\sqrt{n_\mu!}} \right)|\{n_\mu\}\rangle
-%%\end{align}
-%%where
-%%\begin{equation}
-%%I_\mu(t)=\frac{1}{\hbar}\int^t f_\mu^*(t')e^{i\omega t'} dt'
-%%\end{equation}
-%%and where $H_0$ is the Hamiltonian describing the intrinsic degrees of freedom of each nuclei. The wavefunction $\phi(t)$ is the solution of the Schr\"{o}dinger equation
-%%\begin{equation}
-%%i\hbar\frac{\partial\phi}{\partial t}=\tilde V \phi(t)
-%%\end{equation}
-%%where $\tilde V=\exp(i H_0 t\hbar) V \exp(-i H_0 t\hbar)$, $V$ being the external field. The integral $I_\mu$ is related to the average number of phonons by
-%%\begin{equation}
-%%\langle n_\mu\rangle=|I_\mu(t)|^2
-%%\end{equation} 
-%%The state $|\Psi(t)\rangle$ is known in quantum mechanics as a coherent state (Glauber 1959). Its name stems from the fact that the associated uncertainty rltions in momentum and coordinate associated with it fulfills the absolute minimum consistent with quantum mechanics, that is,
-%% \begin{equation}
-%% \Delta x_\psi \Delta \pi_\psi=\frac{\hbar}{2}.
-%% \end{equation} 
-%% Note that this value is normally associated with the ground state. In general states described by a wavefunction of the type $\exp (\frac{i \hat O}{\hbar})\phi(t)$ exhaust the energy weighted sum rule of the associated operator which in the present case is the Hamiltonian.
-%% Heavy ion collisions seem thus specific to study the nuclear spectroscopy of the coherent nuclear states.
-%% 
-%% Coherent states which pictorially look so simple, being almost a classical state, arise from the excitation and delicate phase relation of many quasiparticle degrees of freedom of the individual nuclei.
+ \begin{subappendices}
 \section{Spherical harmonics and angular momenta}\label{C7AppD}
 With Condon--Shortley phases
 \begin{equation}\label{eq20}

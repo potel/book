@@ -686,10 +686,15 @@ S.~Boersma.
 \newblock A maritime analogy of the {Casimir} effect.
 \newblock \emph{Am. J. Phys.}, 64:\penalty0 539, 1996.
 
-\bibitem[Bogoljubov(1958)]{Bogoljubov:58}
+\bibitem[Bogoljubov(1958{\natexlab{a}})]{Bogoljubov:58}
 N.~Bogoljubov.
 \newblock On a new method in the theory of superconductivity.
-\newblock \emph{Il Nuovo Cimento}, 7:\penalty0 794, 1958.
+\newblock \emph{Il Nuovo Cimento}, 7:\penalty0 794, 1958{\natexlab{a}}.
+
+\bibitem[Bogoljubov(1958{\natexlab{b}})]{Bogoljubov:58b}
+N.~Bogoljubov.
+\newblock \emph{J. Exp. Theor. Phys. USSR}, 34:\penalty0 58,
+  1958{\natexlab{b}}.
 
 \bibitem[Bohlen et~al.(1997)Bohlen, von Oertzen, Stolla, Kalpakchieva, Gebauer,
   Wilpert, Wilpert, Ostrowski, Grimes, and Massey]{Bohlen:97}
@@ -1108,11 +1113,6 @@ A.~O. Caldeira and A.~J. Leggett.
 A.~O. Caldeira and A.~J. Leggett.
 \newblock Quantum tunneling in a dissipative system.
 \newblock \emph{Ann. of Phys.}, 149:\penalty0 374, 1983.
-
-\bibitem[Calogeracos and Dombey(1999)]{Calogeracos:99}
-A.~Calogeracos and N.~Dombey.
-\newblock History and physics of the klein paradox.
-\newblock \emph{Contemporary physics}, 40:\penalty0 313, 1999.
 
 \bibitem[Cappuzzello et~al.(2015)Cappuzzello, Carbone, Cavallaro, {Bond\'i},
   Agodi, Azaiez, Bonaccorso, Cunsolo, Fortunato, Foti, Franchoo, Khan, Linares,
@@ -1657,9 +1657,9 @@ I.~Giaver.
 
 \bibitem[Ginzburg(2004)]{Ginzburg:04}
 V.~L. Ginzburg.
-\newblock Nobel lecture: On superconductivity and superfluidity (what i have
+\newblock {Nobel Lecture: On superconductivity and superfluidity (what I have
   and have not managed to do) as well as on the ``physical minimum'' at the
-  beginning of the xxi century.
+  beginning of the XXI century}.
 \newblock \emph{Rev. Mod. Phys.}, 76:\penalty0 981, 2004.
 
 \bibitem[Ginzburg and Landau(1950)]{Ginzburg:50}
@@ -2123,12 +2123,6 @@ C.~Kittel.
 \newblock \emph{{Introduction to solid state physics}}.
 \newblock {Wiley}, NJ, 1996.
 
-\bibitem[Klein(1929)]{Klein:29}
-O.~Klein.
-\newblock {Die Reflexion von Elektronen an einem Potentialsprung nach der
-  relativistischen Dynamik von Dirac}.
-\newblock \emph{Zeitschrift für Physik A}, 53:\penalty0 157, 1929.
-
 \bibitem[Kobayashi et~al.(1989)Kobayashi, Shimoura, Tanihata, Katori, Matsuta,
   Minamisono, Sugimoto, Müller, Olson, Symons, and Wieman]{Kobayashi:89}
 T.~Kobayashi, S.~Shimoura, I.~Tanihata, K.~Katori, K.~Matsuta, T.~Minamisono,
@@ -2290,7 +2284,7 @@ J.~Lindhard.
 
 \bibitem[Lipparini(2003)]{Lipparini:03}
 E.~Lipparini.
-\newblock \emph{{Modern Many--Particle Physics: Atomic gases, Quantum Dots and
+\newblock \emph{{Modern Many-Particle Physics: Atomic gases, Quantum Dots and
   Quantum Fluids,}}.
 \newblock World Scientific, Singapore, 2003.
 
@@ -3264,12 +3258,20 @@ D.~ter Haar.
 \newblock \emph{{Men of Physics: L. D. Landau II}}.
 \newblock Bergamon Press, Oxford, 1969.
 
-\bibitem[Terasaki et~al.(2002)Terasaki, Barranco, Broglia, Vigezzi, and
-  Bortignon]{Terasaki:02a}
+\bibitem[Terasaki et~al.(2002{\natexlab{a}})Terasaki, Barranco, Broglia,
+  Vigezzi, and Bortignon]{Terasaki:02a}
 J.~Terasaki, F.~Barranco, R.~A. Broglia, E.~Vigezzi, and P.~F. Bortignon.
 \newblock Solution of the {D}yson equation for nucleons in the superfluid
   phase.
-\newblock \emph{Nuclear Physics A}, 697:\penalty0 127, 2002.
+\newblock \emph{Nuclear Physics A}, 697:\penalty0 127, 2002{\natexlab{a}}.
+
+\bibitem[Terasaki et~al.(2002{\natexlab{b}})Terasaki, Barranco, Vigezzi,
+  Broglia, and Bortignon]{Terasaki:02b}
+J.~Terasaki, F.~Barranco, E.~Vigezzi, R.~A. Broglia, and P.~F. Bortignon.
+\newblock Effect of particle-phonon coupling on pairing correlations in finite
+  systems -- the atomic nucleus --.
+\newblock \emph{Progress of Theoretical Physics}, 108:\penalty0 495,
+  2002{\natexlab{b}}.
 
 \bibitem[Thoennessen et~al.(1999)Thoennessen, Yokoyama, Azhari, Baumann, Brown,
   Galonsky, Hansen, Kelley, Kryger, Ramakrishnan, and Thirolf]{Thoennessen:99}

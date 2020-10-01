@@ -14,7 +14,7 @@ Illegal, another \bibstyle command---line 10 of file main_libro.aux
  : \bibstyle
  :          {abbrvnat}
 I'm skipping whatever remains of this command
-Reallocated field_info (elt_size=4) to 20988 items from 5000.
+Reallocated field_info (elt_size=4) to 21016 items from 5000.
 Database file #1: /home/gregory/book/nuclear_bib.bib
 I was expecting an "="---line 106 of file /home/gregory/book/nuclear_bib.bib
  : 
@@ -484,45 +484,45 @@ while executing---line 1429 of file abbrvnat.bst
 Warning--empty title in Stent:80
 Warning--empty year in Wolynes:16
 Warning--empty year in Wolynes:16
-You've used 571 entries,
+You've used 572 entries,
             2773 wiz_defined-function locations,
-            3685 strings with 91793 characters,
-and the built_in function-call counts, 278401 in all, are:
-= -- 22733
-> -- 20414
-< -- 406
-+ -- 6945
-- -- 6350
-* -- 23072
-:= -- 44980
-add.period$ -- 1775
-call.type$ -- 571
-change.case$ -- 3711
-chr.to.int$ -- 547
-cite$ -- 1169
-duplicate$ -- 12198
-empty$ -- 20695
-format.name$ -- 7174
-if$ -- 57232
+            3688 strings with 91884 characters,
+and the built_in function-call counts, 278712 in all, are:
+= -- 22756
+> -- 20425
+< -- 407
++ -- 6949
+- -- 6353
+* -- 23089
+:= -- 45030
+add.period$ -- 1778
+call.type$ -- 572
+change.case$ -- 3714
+chr.to.int$ -- 548
+cite$ -- 1171
+duplicate$ -- 12220
+empty$ -- 20732
+format.name$ -- 7178
+if$ -- 57299
 int.to.chr$ -- 25
 int.to.str$ -- 1
-missing$ -- 648
-newline$ -- 2866
-num.names$ -- 2386
-pop$ -- 7367
+missing$ -- 649
+newline$ -- 2871
+num.names$ -- 2391
+pop$ -- 7378
 preamble$ -- 1
-purify$ -- 3226
+purify$ -- 3229
 quote$ -- 0
-skip$ -- 9365
+skip$ -- 9377
 stack$ -- 0
-substring$ -- 5887
-swap$ -- 962
+substring$ -- 5889
+swap$ -- 963
 text.length$ -- 60
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 5871
+type$ -- 5877
 warning$ -- 26
-while$ -- 2227
+while$ -- 2230
 width$ -- 0
-write$ -- 7511
+write$ -- 7524
 (There were 161 error messages)

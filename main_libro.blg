@@ -14,7 +14,7 @@ Illegal, another \bibstyle command---line 10 of file main_libro.aux
  : \bibstyle
  :          {abbrvnat}
 I'm skipping whatever remains of this command
-Reallocated field_info (elt_size=4) to 21016 items from 5000.
+Reallocated field_info (elt_size=4) to 21268 items from 5000.
 Database file #1: /home/gregory/book/nuclear_bib.bib
 I was expecting an "="---line 106 of file /home/gregory/book/nuclear_bib.bib
  : 
@@ -248,6 +248,8 @@ Repeated entry---line 10149 of file /home/gregory/book/nuclear_bib.bib
  : @book{Gunnarsson:04
  :                    ,
 I'm skipping whatever remains of this entry
+Warning--I didn't find a database entry for "Potel:20b"
+Warning--I didn't find a database entry for "yy"
 Name 1 in "R. A. Broglia, and P. F. Bortignon, and F. Barranco, and E. Vigezzi, and A. Idini, and G. Potel" has a comma at the end for entry Broglia:16
 while executing---line 1347 of file abbrvnat.bst
 Name 1 in "R. A. Broglia, and P. F. Bortignon, and F. Barranco, and E. Vigezzi, and A. Idini, and G. Potel" has a comma at the end for entry Broglia:16
@@ -484,45 +486,45 @@ while executing---line 1429 of file abbrvnat.bst
 Warning--empty title in Stent:80
 Warning--empty year in Wolynes:16
 Warning--empty year in Wolynes:16
-You've used 572 entries,
+You've used 579 entries,
             2773 wiz_defined-function locations,
-            3688 strings with 91884 characters,
-and the built_in function-call counts, 278712 in all, are:
-= -- 22756
-> -- 20425
-< -- 407
-+ -- 6949
-- -- 6353
-* -- 23089
-:= -- 45030
-add.period$ -- 1778
-call.type$ -- 572
-change.case$ -- 3714
-chr.to.int$ -- 548
-cite$ -- 1171
-duplicate$ -- 12220
-empty$ -- 20732
-format.name$ -- 7178
-if$ -- 57299
-int.to.chr$ -- 25
+            3722 strings with 92513 characters,
+and the built_in function-call counts, 281221 in all, are:
+= -- 22975
+> -- 20528
+< -- 414
++ -- 6987
+- -- 6383
+* -- 23260
+:= -- 45428
+add.period$ -- 1799
+call.type$ -- 579
+change.case$ -- 3744
+chr.to.int$ -- 554
+cite$ -- 1185
+duplicate$ -- 12360
+empty$ -- 20974
+format.name$ -- 7221
+if$ -- 57827
+int.to.chr$ -- 26
 int.to.str$ -- 1
-missing$ -- 649
-newline$ -- 2871
-num.names$ -- 2391
-pop$ -- 7378
+missing$ -- 657
+newline$ -- 2906
+num.names$ -- 2419
+pop$ -- 7435
 preamble$ -- 1
-purify$ -- 3229
+purify$ -- 3253
 quote$ -- 0
-skip$ -- 9377
+skip$ -- 9473
 stack$ -- 0
-substring$ -- 5889
-swap$ -- 963
+substring$ -- 5954
+swap$ -- 972
 text.length$ -- 60
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 5877
+type$ -- 5949
 warning$ -- 26
-while$ -- 2230
+while$ -- 2257
 width$ -- 0
-write$ -- 7524
+write$ -- 7614
 (There were 161 error messages)

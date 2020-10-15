@@ -1,4 +1,4 @@
-\begin{thebibliography}{572}
+\begin{thebibliography}{579}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \expandafter\ifx\csname urlstyle\endcsname\relax
@@ -1340,6 +1340,11 @@ W.~H. Dickhoff, R.~J. Charity, and M.~H. Mahzoon.
 \newblock \emph{Journal of Physics G: Nuclear and Particle Physics},
   44:\penalty0 033001, 2017.
 
+\bibitem[Dietrich(1970)]{Dietrich:70}
+K.~Dietrich.
+\newblock {On a nuclear Josephson effect in heavy ion scattering}.
+\newblock \emph{Physics Letters B}, 32\penalty0 (6):\penalty0 428, 1970.
+
 \bibitem[Dietrich et~al.(1971)Dietrich, Hara, and Weller]{Dietrich:71}
 K.~Dietrich, K.~Hara, and F.~Weller.
 \newblock Multiple pair transfer in reactions between heavy nuclei.
@@ -1467,6 +1472,11 @@ J.~L. Egido.
   Hamiltonian and Restoration of Rotational and Gauge Invariance}.
 \newblock In R.~A. Broglia and V.~Zelevinski, editors, \emph{50 Years of
   Nuclear BCS}, page 553. World Scientific, Singapore, 2013.
+
+\bibitem[Ehrenfest and Oppenheimer(1931)]{Ehrenfest:31}
+P.~Ehrenfest and J.~R. Oppenheimer.
+\newblock {Note on the Statistics of Nuclei}.
+\newblock \emph{Phys. Rev.}, 37:\penalty0 333, 1931.
 
 \bibitem[Eliashberg(1960)]{Eliashberg:60}
 G.~M. Eliashberg.
@@ -1702,6 +1712,11 @@ D.~Gogny.
   with Electromagnetic Interactions, p.88}, page~55. Springer Verlag,
   Heidelberg, 1978.
 
+\bibitem[Goldanskii and Larkin(1968)]{Goldanskii:68}
+V.~I. Goldanskii and A.~I. Larkin.
+\newblock {An analog of the Josephson effect in nuclear transformations}.
+\newblock \emph{Soviet Physics JETP}, 26:\penalty0 617, 1968.
+
 \bibitem[Gori et~al.(2004)Gori, Barranco, Vigezzi, and Broglia]{Gori:04}
 G.~Gori, F.~Barranco, E.~Vigezzi, and R.~A. Broglia.
 \newblock {Parity inversion and breakdown of shell closure in Be isotopes}.
@@ -1873,6 +1888,11 @@ O.~Hansen.
 \newblock {Experimental establishment of the nuclear pairing phases}.
 \newblock In R.~A. Broglia and V.~Zelevinsky, editors, \emph{50 Years of
   Nuclear BCS}, page 449. World Scientific, Singapore, 2013.
+
+\bibitem[Hara(1971)]{Hara:71}
+K.~Hara.
+\newblock {On the Josephson-current in heavy-ion reactions}.
+\newblock \emph{Physics Letters B}, 35:\penalty0 198, 1971.
 
 \bibitem[Haxel et~al.(1949)Haxel, Jensen, and Suess]{Haxel:49}
 O.~Haxel, J.~H.~D. Jensen, and H.~E. Suess.
@@ -2128,6 +2148,11 @@ H.~Kitagawa and H.~Sagawa.
 C.~Kittel.
 \newblock \emph{{Introduction to solid state physics}}.
 \newblock {Wiley}, NJ, 1996.
+
+\bibitem[Kleber and Schmidt(1971)]{Kleber:71}
+M.~Kleber and H.~Schmidt.
+\newblock Josephson effect in nuclear reactions.
+\newblock \emph{Zeitschrift f{\"u}r Physik}, 245:\penalty0 68, 1971.
 
 \bibitem[Kobayashi et~al.(1989)Kobayashi, Shimoura, Tanihata, Katori, Matsuta,
   Minamisono, Sugimoto, Müller, Olson, Symons, and Wieman]{Kobayashi:89}
@@ -2936,11 +2961,6 @@ M.~J. Rosseinsky, A.~P. Ramirez, S.~H. Glarum, D.~W. Murphy, R.~C. Haddon,
   ${\mathrm{rb}}_{\mathit{x}}$${\mathrm{c}}_{60}$.
 \newblock \emph{Phys. Rev. Lett.}, 66:\penalty0 2830, 1991.
 
-\bibitem[Rost(1997)]{Rost:97}
-B.~Rost.
-\newblock {Protein structures sustained evolutionary drift}.
-\newblock \emph{Folding and Design}, 2:\penalty0 19, 1997.
-
 \bibitem[Rotureau et~al.(2017)Rotureau, Danielewicz, Hagen, Nunes, and
   Papenbrock]{Rotureau:17}
 J.~Rotureau, P.~Danielewicz, G.~Hagen, F.~M. Nunes, and T.~Papenbrock.
@@ -3264,6 +3284,16 @@ D.~ter Haar.
 \newblock \emph{{Men of Physics: L. D. Landau II}}.
 \newblock Bergamon Press, Oxford, 1969.
 
+\bibitem[ter Haar(1995{\natexlab{a}})]{TerHaar:95}
+D.~ter Haar.
+\newblock \emph{Elements of statistical mechanics}.
+\newblock Elsevier, 1995{\natexlab{a}}.
+
+\bibitem[ter Haar(1995{\natexlab{b}})]{terHaar:95b}
+D.~ter Haar.
+\newblock When is a boson not a boson?
+\newblock \emph{Physics World}, 8:\penalty0 19, 1995{\natexlab{b}}.
+
 \bibitem[Terasaki et~al.(2002{\natexlab{a}})Terasaki, Barranco, Broglia,
   Vigezzi, and Bortignon]{Terasaki:02a}
 J.~Terasaki, F.~Barranco, R.~A. Broglia, E.~Vigezzi, and P.~F. Bortignon.
@@ -3426,6 +3456,12 @@ S.~Weinberg.
 S.~Weinberg.
 \newblock \emph{The Quantum Theory of Fields}, volume~2.
 \newblock Cambridge University Press, Cambridge, 1996{\natexlab{b}}.
+
+\bibitem[Weiss(1979)]{Weiss:79}
+H.~Weiss.
+\newblock {Semiclassical description of two-nucleon transfer between superfluid
+  nuclei}.
+\newblock \emph{Phys. Rev. C}, 19:\penalty0 834, 1979.
 
 \bibitem[Weisskopf(1981)]{Weisskopf:81}
 V.~F. Weisskopf.

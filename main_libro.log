@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2020.5.31)  1 OCT 2020 09:19
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2020.5.31)  15 OCT 2020 10:06
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -495,7 +495,7 @@ LaTeX Font Info:    Font shape `OT1/txr/b/n' in size <10.95> not available
 
 
 ] [10] [11]
-Overfull \hbox (14.8179pt too wide) in paragraph at lines 138--138
+Overfull \hbox (14.8179pt too wide) in paragraph at lines 139--139
  [][] []\OT1/txr/m/n/10.95 Matrix el-e-ment for the tran-si-tion am-pli-tude (a
 l-ter-na-tive deriva- 
  []
@@ -525,166 +525,169 @@ nd-ing to a uni-formly charged
  []
 
 [16] [17] [18]
-<introduccion/figs/figpreface2x.pdf, id=68, 759.49107pt x 603.1398pt>
-File: introduccion/figs/figpreface2x.pdf Graphic file (type pdf)
-<use introduccion/figs/figpreface2x.pdf>
-Package pdftex.def Info: introduccion/figs/figpreface2x.pdf  used on input line
- 103.
-(pdftex.def)             Requested size: 455.24408pt x 361.52774pt.
+<introduccion/figs/figpreface2-v2.pdf, id=68, 759.49107pt x 603.1398pt>
+File: introduccion/figs/figpreface2-v2.pdf Graphic file (type pdf)
+<use introduccion/figs/figpreface2-v2.pdf>
+Package pdftex.def Info: introduccion/figs/figpreface2-v2.pdf  used on input li
+ne 102.
+(pdftex.def)             Requested size: 426.79134pt x 338.93399pt.
 
 
-LaTeX Warning: Float too large for page by 88.5276pt on input line 106.
+LaTeX Warning: Float too large for page by 79.53386pt on input line 105.
 
 <introduccion/figs/figpreface3.pdf, id=70, 566.45049pt x 401.15343pt>
 File: introduccion/figs/figpreface3.pdf Graphic file (type pdf)
 <use introduccion/figs/figpreface3.pdf>
 Package pdftex.def Info: introduccion/figs/figpreface3.pdf  used on input line 
-110.
+109.
 (pdftex.def)             Requested size: 341.43306pt x 241.80182pt.
 <introduccion/figs/fig1_1_4.pdf, id=72, 1145.80623pt x 355.43294pt>
 File: introduccion/figs/fig1_1_4.pdf Graphic file (type pdf)
 <use introduccion/figs/fig1_1_4.pdf>
-Package pdftex.def Info: introduccion/figs/fig1_1_4.pdf  used on input line 117
+Package pdftex.def Info: introduccion/figs/fig1_1_4.pdf  used on input line 116
 .
 (pdftex.def)             Requested size: 341.43306pt x 105.9148pt.
-[19] [20 <./introduccion/figs/figpreface2x.pdf>] [21 <./introduccion/figs/figpr
-eface3.pdf> <./introduccion/figs/fig1_1_4.pdf>] [22]
-<introduccion/figs/figpreface5.pdf, id=165, 482.37358pt x 333.27628pt>
+[19] [20 <./introduccion/figs/figpreface2-v2.pdf>] [21 <./introduccion/figs/fig
+preface3.pdf> <./introduccion/figs/fig1_1_4.pdf>] [22]
+<introduccion/figs/figpreface5.pdf, id=168, 482.37358pt x 333.27628pt>
 File: introduccion/figs/figpreface5.pdf Graphic file (type pdf)
 <use introduccion/figs/figpreface5.pdf>
 Package pdftex.def Info: introduccion/figs/figpreface5.pdf  used on input line 
-195.
+194.
 (pdftex.def)             Requested size: 284.52756pt x 196.5906pt.
 
-Overfull \hbox (7.2132pt too wide) in paragraph at lines 199--200
+Overfull \hbox (7.2132pt too wide) in paragraph at lines 198--199
 []\OT1/txr/m/n/10.95 Within the frame-work of NFT, single-particles are to be c
 al-cu-lated as the Hartree-
  []
 
-[23 <./introduccion/figs/figpreface5.pdf>] [24] [25]
-Overfull \hbox (7.41031pt too wide) in paragraph at lines 238--239
+[23 <./introduccion/figs/figpreface5.pdf>] [24]
+Overfull \hbox (7.41031pt too wide) in paragraph at lines 237--238
 []\OT1/txr/m/n/10.95 Vibrational modes can also be-come renor-mal-ized through 
 the cou-pling to dressed
  []
 
-<introduccion/figs/figintro4.pdf, id=183, 921.2399pt x 741.54977pt>
+[25]
+<introduccion/figs/figintro4.pdf, id=186, 921.2399pt x 741.54977pt>
 File: introduccion/figs/figintro4.pdf Graphic file (type pdf)
 <use introduccion/figs/figintro4.pdf>
-Package pdftex.def Info: introduccion/figs/figintro4.pdf  used on input line 25
-0.
+Package pdftex.def Info: introduccion/figs/figintro4.pdf  used on input line 24
+9.
 (pdftex.def)             Requested size: 312.9803pt x 251.93123pt.
+
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<introduccion/figs/figpreface7.pdf, id=185, 579.41591pt x 366.25171pt>
+<introduccion/figs/figpreface7.pdf, id=188, 579.41591pt x 366.25171pt>
 File: introduccion/figs/figpreface7.pdf Graphic file (type pdf)
 <use introduccion/figs/figpreface7.pdf>
 Package pdftex.def Info: introduccion/figs/figpreface7.pdf  used on input line 
-257.
+256.
 (pdftex.def)             Requested size: 341.43306pt x 215.82396pt.
-<introduccion/figs/figpreface8.pdf, id=187, 423.1162pt x 149.37823pt>
+<introduccion/figs/figpreface8.pdf, id=190, 423.1162pt x 149.37823pt>
 File: introduccion/figs/figpreface8.pdf Graphic file (type pdf)
 <use introduccion/figs/figpreface8.pdf>
 Package pdftex.def Info: introduccion/figs/figpreface8.pdf  used on input line 
-265.
+264.
 (pdftex.def)             Requested size: 341.43306pt x 120.54439pt.
-<introduccion/figs/fig1_2_5.pdf, id=189, 834.4809pt x 578.36082pt>
+<introduccion/figs/fig1_2_5.pdf, id=192, 834.4809pt x 578.36082pt>
 File: introduccion/figs/fig1_2_5.pdf Graphic file (type pdf)
 <use introduccion/figs/fig1_2_5.pdf>
-Package pdftex.def Info: introduccion/figs/fig1_2_5.pdf  used on input line 272
+Package pdftex.def Info: introduccion/figs/fig1_2_5.pdf  used on input line 271
 .
 (pdftex.def)             Requested size: 341.43306pt x 236.63527pt.
-<introduccion/figs/figpreface9.pdf, id=191, 927.18999pt x 393.66782pt>
+<introduccion/figs/figpreface9.pdf, id=194, 927.18999pt x 393.66782pt>
 File: introduccion/figs/figpreface9.pdf Graphic file (type pdf)
 <use introduccion/figs/figpreface9.pdf>
 Package pdftex.def Info: introduccion/figs/figpreface9.pdf  used on input line 
-279.
+278.
 (pdftex.def)             Requested size: 426.79134pt x 181.20352pt.
 [26]
 
 LaTeX Warning: Text page 27 contains only floats.
 
+
+Overfull \vbox (65.02782pt too high) has occurred while \output is active []
+
+
 [27 <./introduccion/figs/figintro4.pdf>] [28 <./introduccion/figs/figpreface7.p
 df>] [29 <./introduccion/figs/figpreface8.pdf> <./introduccion/figs/fig1_2_5.pd
 f>] [30 <./introduccion/figs/figpreface9.pdf>]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [31]
-<introduccion/figs/fig_preface_3_1.pdf, id=322, 463.82356pt x 147.61462pt>
+<introduccion/figs/fig_preface_3_1.pdf, id=321, 463.82356pt x 147.61462pt>
 File: introduccion/figs/fig_preface_3_1.pdf Graphic file (type pdf)
 <use introduccion/figs/fig_preface_3_1.pdf>
 Package pdftex.def Info: introduccion/figs/fig_preface_3_1.pdf  used on input l
-ine 326.
+ine 325.
 (pdftex.def)             Requested size: 341.43306pt x 108.66324pt.
-<introduccion/figs/fig1_3_2.pdf, id=324, 382.33667pt x 275.99799pt>
+ [31]
+<introduccion/figs/fig1_3_2.pdf, id=327, 382.33667pt x 275.99799pt>
 File: introduccion/figs/fig1_3_2.pdf Graphic file (type pdf)
 <use introduccion/figs/fig1_3_2.pdf>
-Package pdftex.def Info: introduccion/figs/fig1_3_2.pdf  used on input line 333
+Package pdftex.def Info: introduccion/figs/fig1_3_2.pdf  used on input line 332
 .
 (pdftex.def)             Requested size: 426.79134pt x 308.10489pt.
-
-[32 <./introduccion/figs/fig_preface_3_1.pdf>] [33 <./introduccion/figs/fig1_3_
-2.pdf>]
-Overfull \hbox (2.70064pt too wide) in paragraph at lines 368--369
+ [32 <./introduccion/figs/fig_preface_3_1.pdf>] [33 <./introduccion/figs/fig1_3
+_2.pdf>]
+Overfull \hbox (2.70064pt too wide) in paragraph at lines 367--368
 []\OT1/txr/m/n/10.95 Similar to the quadrupole and oc-tupole vi-bra-tional band
 s built out of $\OML/txmi/m/it/10.95 n[]$ \OT1/txr/m/n/10.95 phonons
  []
 
 [34]
-<introduccion/figs/fig0_4_4.pdf, id=405, 525.37038pt x 534.74751pt>
+<introduccion/figs/fig0_4_4.pdf, id=408, 525.37038pt x 534.74751pt>
 File: introduccion/figs/fig0_4_4.pdf Graphic file (type pdf)
 <use introduccion/figs/fig0_4_4.pdf>
-Package pdftex.def Info: introduccion/figs/fig0_4_4.pdf  used on input line 381
+Package pdftex.def Info: introduccion/figs/fig0_4_4.pdf  used on input line 380
 .
 (pdftex.def)             Requested size: 227.62204pt x 231.68309pt.
-<introduccion/figs/fig0_4_2_v4.pdf, id=407, 608.8017pt x 582.88297pt>
+<introduccion/figs/fig0_4_2_v4.pdf, id=410, 608.8017pt x 582.88297pt>
 File: introduccion/figs/fig0_4_2_v4.pdf Graphic file (type pdf)
 <use introduccion/figs/fig0_4_2_v4.pdf>
 Package pdftex.def Info: introduccion/figs/fig0_4_2_v4.pdf  used on input line 
-388.
+387.
 (pdftex.def)             Requested size: 426.79134pt x 408.62898pt.
-<introduccion/figs/fig0_4_2_v3.pdf, id=409, 342.81876pt x 486.98961pt>
+<introduccion/figs/fig0_4_2_v3.pdf, id=412, 342.81876pt x 486.98961pt>
 File: introduccion/figs/fig0_4_2_v3.pdf Graphic file (type pdf)
 <use introduccion/figs/fig0_4_2_v3.pdf>
 Package pdftex.def Info: introduccion/figs/fig0_4_2_v3.pdf  used on input line 
-395.
+394.
 (pdftex.def)             Requested size: 341.43306pt x 485.02667pt.
-<introduccion/figs/fig0_4_4_v2.pdf, id=411, 637.99046pt x 444.6958pt>
+<introduccion/figs/fig0_4_4_v2.pdf, id=414, 637.99046pt x 444.6958pt>
 File: introduccion/figs/fig0_4_4_v2.pdf Graphic file (type pdf)
 <use introduccion/figs/fig0_4_4_v2.pdf>
 Package pdftex.def Info: introduccion/figs/fig0_4_4_v2.pdf  used on input line 
-402.
+401.
 (pdftex.def)             Requested size: 426.79134pt x 297.49pt.
 
-Overfull \hbox (8.6821pt too wide) in paragraph at lines 407--408
+Overfull \hbox (8.6821pt too wide) in paragraph at lines 406--407
 \OT1/txr/m/n/10.95 ler an-gles and an-gu-lar mo-men-tum ($\OML/txmi/m/it/10.95 
 !; \OT1/txr/bx/n/10.95 I$\OT1/txr/m/n/10.95 ) as-so-ci-ated with ro-ta-tion in 
 three-dimensional
  []
 
-[35] [36 <./introduccion/figs/fig0_4_4.pdf>] [37 <./introduccion/figs/fig0_4_2_
-v4.pdf>] [38 <./introduccion/figs/fig0_4_2_v3.pdf>] [39 <./introduccion/figs/fi
-g0_4_4_v2.pdf>] [40]
-Overfull \hbox (1.778pt too wide) in paragraph at lines 460--462
+[35 <./introduccion/figs/fig0_4_4.pdf>] [36 <./introduccion/figs/fig0_4_2_v4.pd
+f>] [37 <./introduccion/figs/fig0_4_2_v3.pdf>] [38 <./introduccion/figs/fig0_4_
+4_v2.pdf>] [39]
+Overfull \hbox (1.778pt too wide) in paragraph at lines 459--461
 \OT1/txr/m/n/10.95 Because there is no restor-ing force as-so-ci-ated with dif-
 fer-ent ori-en-ta-tions of $\OMS/txsy/m/n/10.95 j[]i[]$\OT1/txr/m/n/10.95 ,
  []
 
-
-Overfull \hbox (45.84108pt too wide) in paragraph at lines 472--473
+[40]
+Overfull \hbox (45.84108pt too wide) in paragraph at lines 471--472
 \OT1/txr/m/n/10.95 Let us now turn to the pair-ing Hamil-to-nian. In the case i
 n which [],
  []
 
 [41] [42] [43] [44] [45] [46] [47] [48] [49]
-<introduccion/figs/fig0_4_5_v3.pdf, id=530, 546.38994pt x 372.58089pt>
+<introduccion/figs/fig0_4_5_v3.pdf, id=533, 546.38994pt x 372.58089pt>
 File: introduccion/figs/fig0_4_5_v3.pdf Graphic file (type pdf)
 <use introduccion/figs/fig0_4_5_v3.pdf>
 Package pdftex.def Info: introduccion/figs/fig0_4_5_v3.pdf  used on input line 
-751.
+750.
 (pdftex.def)             Requested size: 341.43306pt x 232.82268pt.
  [50] [51 <./introduccion/figs/fig0_4_5_v3.pdf>] [52] [53]
-Overfull \hbox (3.72626pt too wide) in paragraph at lines 812--814
+Overfull \hbox (3.72626pt too wide) in paragraph at lines 811--813
 \OT1/txr/m/n/10.95 Let us as-sume that $[] = [][] \OML/txmi/m/it/10.95 F\OT1/tx
 r/m/n/10.95 (\OT1/txr/bx/n/10.95 r[]\OT1/txr/m/n/10.95 )$ and $\OML/txmi/m/it/1
 0.95 H \OT1/txr/m/n/10.95 = \OML/txmi/m/it/10.95 T \OT1/txr/m/n/10.95 + \OML/tx
@@ -698,29 +701,29 @@ OT1/txr/m/n/10.95 (\OT1/txr/bx/n/10.95 r\OT1/txr/m/n/10.95 )[](\OT1/txr/bx/n/10
 
 [54]
 LaTeX Font Info:    Font shape `OT1/txr/b/n' in size <9> not available
-(Font)              Font shape `OT1/txr/bx/n' tried instead on input line 837.
- [55] [56]
+(Font)              Font shape `OT1/txr/bx/n' tried instead on input line 836.
+ [55]
 <introduccion/figs/fig0_8_1.pdf, id=568, 658.00371pt x 357.21884pt>
 File: introduccion/figs/fig0_8_1.pdf Graphic file (type pdf)
 <use introduccion/figs/fig0_8_1.pdf>
-Package pdftex.def Info: introduccion/figs/fig0_8_1.pdf  used on input line 869
+Package pdftex.def Info: introduccion/figs/fig0_8_1.pdf  used on input line 868
 .
 (pdftex.def)             Requested size: 426.79134pt x 231.69347pt.
 <introduccion/figs/fig0_8_2.pdf, id=570, 1131.4403pt x 992.59401pt>
 File: introduccion/figs/fig0_8_2.pdf Graphic file (type pdf)
 <use introduccion/figs/fig0_8_2.pdf>
-Package pdftex.def Info: introduccion/figs/fig0_8_2.pdf  used on input line 876
+Package pdftex.def Info: introduccion/figs/fig0_8_2.pdf  used on input line 875
 .
 (pdftex.def)             Requested size: 284.52756pt x 249.60188pt.
 <introduccion/figs/fig0_5_3.pdf, id=572, 188.70967pt x 149.25613pt>
 File: introduccion/figs/fig0_5_3.pdf Graphic file (type pdf)
 <use introduccion/figs/fig0_5_3.pdf>
-Package pdftex.def Info: introduccion/figs/fig0_5_3.pdf  used on input line 883
+Package pdftex.def Info: introduccion/figs/fig0_5_3.pdf  used on input line 882
 .
 (pdftex.def)             Requested size: 227.62204pt x 180.03793pt.
- [57] [58 <./introduccion/figs/fig0_8_1.pdf>] [59 <./introduccion/figs/fig0_8_2
-.pdf>] [60 <./introduccion/figs/fig0_5_3.pdf>]
-Overfull \hbox (21.98633pt too wide) in paragraph at lines 903--904
+ [56] [57 <./introduccion/figs/fig0_8_1.pdf>] [58 <./introduccion/figs/fig0_8_2
+.pdf>] [59 <./introduccion/figs/fig0_5_3.pdf>]
+Overfull \hbox (21.98633pt too wide) in paragraph at lines 902--903
 \OT1/txr/m/n/10.95 lated[], lead-ing[] to $\OML/txmi/m/it/10.95 ^^N\OMS/txsy/m/
 n/10.95 h[]i \OT1/txr/m/n/10.95 = 0\OML/txmi/m/it/10.95 :\OT1/txr/m/n/10.95 494
 $ fm$[]$. It im-plies a rel-a-tive cor-rec-tion $\OML/txmi/m/it/10.95 ^^N\OMS/t
@@ -729,50 +732,50 @@ xsy/m/n/10.95 h[]i\OML/txmi/m/it/10.95 =\OT1/txr/m/n/10.95 ((3\OML/txmi/m/it/10
 y/m/n/10.95 ^^Y
  []
 
-[61]
-Overfull \hbox (11.35233pt too wide) in paragraph at lines 914--915
+[60]
+Overfull \hbox (11.35233pt too wide) in paragraph at lines 913--914
 []\OT1/txr/m/n/10.95 The Coulomb in-ter-ac-tion re-sult-ing from the ex-change 
 of pho-tons be-tween charged
  []
 
-[62]
-Overfull \hbox (6.07968pt too wide) in paragraph at lines 923--924
+[61]
+Overfull \hbox (6.07968pt too wide) in paragraph at lines 922--923
 \OT1/txr/m/n/10.95 electron$\OMS/txsy/m/n/10.95 !$\OT1/txr/m/n/10.95 nucleon, p
 hotons$\OMS/txsy/m/n/10.95 !$\OT1/txr/m/n/10.95 collective vi-bra-tions, fine s
 truc-ture constant$\OMS/txsy/m/n/10.95 !$\OT1/txr/m/n/10.95 particle-
  []
 
-[63]
-Overfull \hbox (2.31905pt too wide) in paragraph at lines 932--933
+[62]
+Overfull \hbox (2.31905pt too wide) in paragraph at lines 931--932
 [][]\OT1/txr/m/n/10.95 ) = 0\OML/txmi/m/it/10.95 :\OT1/txr/m/n/10.95 11\OML/txm
 i/m/it/10.95 e[]$ \OT1/txr/m/n/10.95 fm$[]$, a quan-tity to be com-pared with t
 he ex-per-i-men-tal value $\OML/txmi/m/it/10.95 B\OT1/txr/m/n/10.95 (\OML/txmi/
 m/it/10.95 E\OT1/txr/m/n/10.95 1) =
  []
 
-[64] [65]) [66]
+[63] [64]) [65]
 \openout2 = `introduccion/introduccion.aux'.
 
- (./introduccion/introduccion.tex
-Chapter 2.
-[67
+ (./introduccion/introduccion.tex [66
 
 
 
 ]
-<introduccion/figs/figintro1.pdf, id=672, 867.43672pt x 608.19887pt>
+Chapter 2.
+[67]
+<introduccion/figs/figintro1.pdf, id=674, 867.43672pt x 608.19887pt>
 File: introduccion/figs/figintro1.pdf Graphic file (type pdf)
 <use introduccion/figs/figintro1.pdf>
 Package pdftex.def Info: introduccion/figs/figintro1.pdf  used on input line 18
 .
 (pdftex.def)             Requested size: 426.79134pt x 299.24506pt.
-<introduccion/figs/figintro2.pdf, id=674, 415.99327pt x 427.196pt>
+<introduccion/figs/figintro2.pdf, id=676, 415.99327pt x 427.196pt>
 File: introduccion/figs/figintro2.pdf Graphic file (type pdf)
 <use introduccion/figs/figintro2.pdf>
 Package pdftex.def Info: introduccion/figs/figintro2.pdf  used on input line 25
 .
 (pdftex.def)             Requested size: 341.43306pt x 350.64194pt.
-<introduccion/figs/figintro3.pdf, id=676, 796.40646pt x 699.4514pt>
+<introduccion/figs/figintro3.pdf, id=678, 796.40646pt x 699.4514pt>
 File: introduccion/figs/figintro3.pdf Graphic file (type pdf)
 <use introduccion/figs/figintro3.pdf>
 Package pdftex.def Info: introduccion/figs/figintro3.pdf  used on input line 32
@@ -784,7 +787,7 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 [68] [69 <./introduccion/figs/figintro1.pdf>] [70 <./introduccion/figs/figintro
 2.pdf>] [71 <./introduccion/figs/figintro3.pdf>] [72] [73] [74] [75] [76]
-<introduccion/figs/fig1_2_2.pdf, id=818, 714.2243pt x 287.53995pt>
+<introduccion/figs/fig1_2_2.pdf, id=822, 714.2243pt x 287.53995pt>
 File: introduccion/figs/fig1_2_2.pdf Graphic file (type pdf)
 <use introduccion/figs/fig1_2_2.pdf>
 Package pdftex.def Info: introduccion/figs/fig1_2_2.pdf  used on input line 143
@@ -792,7 +795,7 @@ Package pdftex.def Info: introduccion/figs/fig1_2_2.pdf  used on input line 143
 (pdftex.def)             Requested size: 341.43306pt x 137.456pt.
 
 [77] [78 <./introduccion/figs/fig1_2_2.pdf>] [79] [80] [81] [82]
-<introduccion/figs/figintroD2.pdf, id=874, 136.51pt x 155.58125pt>
+<introduccion/figs/figintroD2.pdf, id=878, 136.51pt x 155.58125pt>
 File: introduccion/figs/figintroD2.pdf Graphic file (type pdf)
 <use introduccion/figs/figintroD2.pdf>
 Package pdftex.def Info: introduccion/figs/figintroD2.pdf  used on input line 3
@@ -803,17 +806,17 @@ Package pdftex.def Info: introduccion/figs/figintroD2.pdf  used on input line 3
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 [83]
-<introduccion/figs/figintroD3.pdf, id=879, 420.57124pt x 293.095pt>
+<introduccion/figs/figintroD3.pdf, id=883, 426.62561pt x 293.91367pt>
 File: introduccion/figs/figintroD3.pdf Graphic file (type pdf)
 <use introduccion/figs/figintroD3.pdf>
 Package pdftex.def Info: introduccion/figs/figintroD3.pdf  used on input line 3
 67.
-(pdftex.def)             Requested size: 199.16928pt x 138.80116pt.
+(pdftex.def)             Requested size: 199.16928pt x 137.21558pt.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<introduccion/figs/figintroD4.pdf, id=881, 744.1802pt x 438.32571pt>
+<introduccion/figs/figintroD4.pdf, id=885, 744.1802pt x 438.32571pt>
 File: introduccion/figs/figintroD4.pdf Graphic file (type pdf)
 <use introduccion/figs/figintroD4.pdf>
 Package pdftex.def Info: introduccion/figs/figintroD4.pdf  used on input line 3
@@ -824,14 +827,14 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 [84 <./introduccion/figs/figintroD2.pdf>] [85 <./introduccion/figs/figintroD3.p
 df> <./introduccion/figs/figintroD4.pdf>]
-<introduccion/figs/figintroD5.pdf, id=1006, 523.9575pt x 548.0475pt>
+<introduccion/figs/figintroD5.pdf, id=1022, 523.9575pt x 548.0475pt>
 File: introduccion/figs/figintroD5.pdf Graphic file (type pdf)
 <use introduccion/figs/figintroD5.pdf>
 Package pdftex.def Info: introduccion/figs/figintroD5.pdf  used on input line 4
 10.
 (pdftex.def)             Requested size: 284.52756pt x 297.61374pt.
  [86 <./introduccion/figs/figintroD5.pdf>]
-<introduccion/figs/figintroD6.pdf, id=1033, 541.59033pt x 232.4353pt>
+<introduccion/figs/figintroD6.pdf, id=1049, 541.59033pt x 232.4353pt>
 File: introduccion/figs/figintroD6.pdf Graphic file (type pdf)
 <use introduccion/figs/figintroD6.pdf>
 Package pdftex.def Info: introduccion/figs/figintroD6.pdf  used on input line 4
@@ -841,14 +844,14 @@ Package pdftex.def Info: introduccion/figs/figintroD6.pdf  used on input line 4
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<introduccion/figs/figintroD7.pdf, id=1035, 445.23033pt x 327.79155pt>
+<introduccion/figs/figintroD7.pdf, id=1051, 445.23033pt x 327.79155pt>
 File: introduccion/figs/figintroD7.pdf Graphic file (type pdf)
 <use introduccion/figs/figintroD7.pdf>
 Package pdftex.def Info: introduccion/figs/figintroD7.pdf  used on input line 4
 62.
 (pdftex.def)             Requested size: 284.52756pt x 209.48076pt.
 [87]
-<introduccion/figs/figintroD8.pdf, id=1040, 464.30154pt x 304.7053pt>
+<introduccion/figs/figintroD8.pdf, id=1056, 464.30154pt x 304.7053pt>
 File: introduccion/figs/figintroD8.pdf Graphic file (type pdf)
 <use introduccion/figs/figintroD8.pdf>
 Package pdftex.def Info: introduccion/figs/figintroD8.pdf  used on input line 4
@@ -858,13 +861,13 @@ Package pdftex.def Info: introduccion/figs/figintroD8.pdf  used on input line 4
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<introduccion/figs/figintroD9.pdf, id=1042, 265.99374pt x 217.81375pt>
+<introduccion/figs/figintroD9.pdf, id=1058, 265.99374pt x 217.81375pt>
 File: introduccion/figs/figintroD9.pdf Graphic file (type pdf)
 <use introduccion/figs/figintroD9.pdf>
 Package pdftex.def Info: introduccion/figs/figintroD9.pdf  used on input line 5
 06.
 (pdftex.def)             Requested size: 170.71652pt x 139.7958pt.
-<introduccion/figs/figintroD10.pdf, id=1044, 721.4561pt x 469.92549pt>
+<introduccion/figs/figintroD10.pdf, id=1060, 721.4561pt x 469.92549pt>
 File: introduccion/figs/figintroD10.pdf Graphic file (type pdf)
 <use introduccion/figs/figintroD10.pdf>
 Package pdftex.def Info: introduccion/figs/figintroD10.pdf  used on input line 
@@ -873,14 +876,14 @@ Package pdftex.def Info: introduccion/figs/figintroD10.pdf  used on input line
 [88 <./introduccion/figs/figintroD6.pdf>] [89 <./introduccion/figs/figintroD7.p
 df> <./introduccion/figs/figintroD8.pdf>] [90 <./introduccion/figs/figintroD9.p
 df> <./introduccion/figs/figintroD10.pdf>] [91] [92] [93] [94]
-<introduccion/figs/funnel_norm_tot_try_v3.pdf, id=1277, 1861.19363pt x 1373.134
+<introduccion/figs/funnel_norm_tot_try_v3.pdf, id=1293, 1861.19363pt x 1373.134
 66pt>
 File: introduccion/figs/funnel_norm_tot_try_v3.pdf Graphic file (type pdf)
 <use introduccion/figs/funnel_norm_tot_try_v3.pdf>
 Package pdftex.def Info: introduccion/figs/funnel_norm_tot_try_v3.pdf  used on 
 input line 588.
 (pdftex.def)             Requested size: 512.1496pt x 377.8332pt.
-<introduccion/figs/fig1_4_2.pdf, id=1278, 564.75935pt x 169.3921pt>
+<introduccion/figs/fig1_4_2.pdf, id=1294, 564.75935pt x 169.3921pt>
 File: introduccion/figs/fig1_4_2.pdf Graphic file (type pdf)
 <use introduccion/figs/fig1_4_2.pdf>
 Package pdftex.def Info: introduccion/figs/fig1_4_2.pdf  used on input line 596
@@ -892,13 +895,13 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 [95] [96 <./introduccion/figs/funnel_norm_tot_try_v3.pdf>] [97 <./introduccion/
 figs/fig1_4_2.pdf>]
-<introduccion/figs/figintroA1.pdf, id=1415, 648.91231pt x 329.35057pt>
+<introduccion/figs/figintroA1.pdf, id=1432, 648.91231pt x 329.35057pt>
 File: introduccion/figs/figintroA1.pdf Graphic file (type pdf)
 <use introduccion/figs/figintroA1.pdf>
 Package pdftex.def Info: introduccion/figs/figintroA1.pdf  used on input line 7
 28.
 (pdftex.def)             Requested size: 341.43306pt x 173.28854pt.
-<introduccion/figs/fig1_7_2.pdf, id=1417, 501.18578pt x 561.27771pt>
+<introduccion/figs/fig1_7_2.pdf, id=1434, 501.18578pt x 561.27771pt>
 File: introduccion/figs/fig1_7_2.pdf Graphic file (type pdf)
 <use introduccion/figs/fig1_7_2.pdf>
 Package pdftex.def Info: introduccion/figs/fig1_7_2.pdf  used on input line 735
@@ -906,7 +909,7 @@ Package pdftex.def Info: introduccion/figs/fig1_7_2.pdf  used on input line 735
 (pdftex.def)             Requested size: 284.52756pt x 318.65552pt.
  [98 <./introduccion/figs/figintroA1.pdf>] [99 <./introduccion/figs/fig1_7_2.pd
 f>]
-<introduccion/figs/figintroA3.pdf, id=1442, 542.27141pt x 939.29031pt>
+<introduccion/figs/figintroA3.pdf, id=1458, 542.27141pt x 939.29031pt>
 File: introduccion/figs/figintroA3.pdf Graphic file (type pdf)
 <use introduccion/figs/figintroA3.pdf>
 Package pdftex.def Info: introduccion/figs/figintroA3.pdf  used on input line 7
@@ -923,20 +926,20 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 
 ] [102] [103] [104] [105]
-<introduccion/figs/fig18.pdf, id=1488, 146.14601pt x 182.281pt>
+<introduccion/figs/fig18.pdf, id=1504, 146.14601pt x 182.281pt>
 File: introduccion/figs/fig18.pdf Graphic file (type pdf)
 <use introduccion/figs/fig18.pdf>
 Package pdftex.def Info: introduccion/figs/fig18.pdf  used on input line 950.
 (pdftex.def)             Requested size: 113.81102pt x 141.95331pt.
 
 [106] [107 <./introduccion/figs/fig18.pdf>] [108]
-<introduccion/figs/figalpha.pdf, id=1504, 1797.31631pt x 372.30707pt>
+<introduccion/figs/figalpha.pdf, id=1520, 1797.31631pt x 372.30707pt>
 File: introduccion/figs/figalpha.pdf Graphic file (type pdf)
 <use introduccion/figs/figalpha.pdf>
 Package pdftex.def Info: introduccion/figs/figalpha.pdf  used on input line 105
 7.
 (pdftex.def)             Requested size: 369.88582pt x 76.61885pt.
-<introduccion/figs/fig19.pdf, id=1506, 470.55798pt x 247.32399pt>
+<introduccion/figs/fig19.pdf, id=1522, 470.55798pt x 247.32399pt>
 File: introduccion/figs/fig19.pdf Graphic file (type pdf)
 <use introduccion/figs/fig19.pdf>
 Package pdftex.def Info: introduccion/figs/fig19.pdf  used on input line 1064.
@@ -945,14 +948,14 @@ Package pdftex.def Info: introduccion/figs/fig19.pdf  used on input line 1064.
 Underfull \vbox (badness 1303) has occurred while \output is active []
 
  [109 <./introduccion/figs/figalpha.pdf>] [110 <./introduccion/figs/fig19.pdf>]
-<introduccion/figs/fig20.pdf, id=1576, 697.00403pt x 284.26201pt>
+<introduccion/figs/fig20.pdf, id=1593, 697.00403pt x 284.26201pt>
 File: introduccion/figs/fig20.pdf Graphic file (type pdf)
 <use introduccion/figs/fig20.pdf>
 Package pdftex.def Info: introduccion/figs/fig20.pdf  used on input line 1145.
 (pdftex.def)             Requested size: 341.43306pt x 139.24622pt.
  [111]
 [112 <./introduccion/figs/fig20.pdf>] [113]
-<introduccion/figs/fig21.pdf, id=1593, 315.34506pt x 418.12907pt>
+<introduccion/figs/fig21.pdf, id=1609, 315.34506pt x 418.12907pt>
 File: introduccion/figs/fig21.pdf Graphic file (type pdf)
 <use introduccion/figs/fig21.pdf>
 Package pdftex.def Info: introduccion/figs/fig21.pdf  used on input line 1240.
@@ -968,7 +971,7 @@ me-work of the Brillouin--Wigner
  []
 
 [114] [115 <./introduccion/figs/fig21.pdf>] [116] [117]
-<introduccion/figs/fig22.pdf, id=1613, 712.26097pt x 302.731pt>
+<introduccion/figs/fig22.pdf, id=1629, 712.26097pt x 302.731pt>
 File: introduccion/figs/fig22.pdf Graphic file (type pdf)
 <use introduccion/figs/fig22.pdf>
 Package pdftex.def Info: introduccion/figs/fig22.pdf  used on input line 1363.
@@ -982,25 +985,25 @@ it/10.95 m; \OT1/txr/m/n/10.95 1; \OML/txmi/m/it/10.95 m; \OMS/txsy/m/n/10.95 ^
  []
 
 [120]
-<introduccion/figs/fig23.pdf, id=1629, 390.25798pt x 423.181pt>
+<introduccion/figs/fig23.pdf, id=1645, 390.25798pt x 423.181pt>
 File: introduccion/figs/fig23.pdf Graphic file (type pdf)
 <use introduccion/figs/fig23.pdf>
 Package pdftex.def Info: introduccion/figs/fig23.pdf  used on input line 1443.
 (pdftex.def)             Requested size: 284.52756pt x 308.53212pt.
  [121] [122 <./introduccion/figs/fig23.pdf>]
-<introduccion/figs/fig24a.pdf, id=1643, 374.29916pt x 473.8712pt>
+<introduccion/figs/fig24a.pdf, id=1659, 374.29916pt x 473.8712pt>
 File: introduccion/figs/fig24a.pdf Graphic file (type pdf)
 <use introduccion/figs/fig24a.pdf>
 Package pdftex.def Info: introduccion/figs/fig24a.pdf  used on input line 1477.
 
 (pdftex.def)             Requested size: 341.43306pt x 432.27914pt.
-<introduccion/figs/fig24b.pdf, id=1645, 299.22429pt x 376.07536pt>
+<introduccion/figs/fig24b.pdf, id=1661, 299.22429pt x 376.07536pt>
 File: introduccion/figs/fig24b.pdf Graphic file (type pdf)
 <use introduccion/figs/fig24b.pdf>
 Package pdftex.def Info: introduccion/figs/fig24b.pdf  used on input line 1482.
 
 (pdftex.def)             Requested size: 341.43306pt x 429.12631pt.
-<introduccion/figs/fig24c.pdf, id=1647, 945.03835pt x 659.27597pt>
+<introduccion/figs/fig24c.pdf, id=1663, 945.03835pt x 659.27597pt>
 File: introduccion/figs/fig24c.pdf Graphic file (type pdf)
 <use introduccion/figs/fig24c.pdf>
 Package pdftex.def Info: introduccion/figs/fig24c.pdf  used on input line 1488.
@@ -1045,7 +1048,7 @@ Overfull \hbox (19.17578pt too wide) in paragraph at lines 1552--1561
  []
 
 [127] [128]
-<introduccion/figs/figintro6.pdf, id=1744, 1068.31543pt x 1024.3656pt>
+<introduccion/figs/figintro6.pdf, id=1760, 1068.31543pt x 1024.3656pt>
 File: introduccion/figs/figintro6.pdf Graphic file (type pdf)
 <use introduccion/figs/figintro6.pdf>
 Package pdftex.def Info: introduccion/figs/figintro6.pdf  used on input line 15
@@ -1055,7 +1058,7 @@ Package pdftex.def Info: introduccion/figs/figintro6.pdf  used on input line 15
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<introduccion/figs/figintroF2.pdf, id=1746, 319.52498pt x 238.98645pt>
+<introduccion/figs/figintroF2.pdf, id=1762, 319.52498pt x 238.98645pt>
 File: introduccion/figs/figintroF2.pdf Graphic file (type pdf)
 <use introduccion/figs/figintroF2.pdf>
 Package pdftex.def Info: introduccion/figs/figintroF2.pdf  used on input line 1
@@ -1065,7 +1068,7 @@ Package pdftex.def Info: introduccion/figs/figintroF2.pdf  used on input line 1
 /figintroF2.pdf>] [133
 
 ]
-<introduccion/figs/fig1_9_1.pdf, id=1836, 450.80287pt x 674.78479pt>
+<introduccion/figs/fig1_9_1.pdf, id=1852, 450.80287pt x 674.78479pt>
 File: introduccion/figs/fig1_9_1.pdf Graphic file (type pdf)
 <use introduccion/figs/fig1_9_1.pdf>
 Package pdftex.def Info: introduccion/figs/fig1_9_1.pdf  used on input line 164
@@ -1080,7 +1083,7 @@ Underfull \vbox (badness 1062) has occurred while \output is active []
 
  [137]
 [138]
-<introduccion/figs/fig1_9_2xx.pdf, id=1939, 598.07693pt x 845.61588pt>
+<introduccion/figs/fig1_9_2xx.pdf, id=1955, 598.07693pt x 845.61588pt>
 File: introduccion/figs/fig1_9_2xx.pdf Graphic file (type pdf)
 <use introduccion/figs/fig1_9_2xx.pdf>
 Package pdftex.def Info: introduccion/figs/fig1_9_2xx.pdf  used on input line 1
@@ -1090,7 +1093,7 @@ Package pdftex.def Info: introduccion/figs/fig1_9_2xx.pdf  used on input line 1
 
 LaTeX Warning: Float too large for page by 46.55423pt on input line 1692.
 
-<introduccion/figs/fig1_9_3xxx.pdf, id=1941, 195.93593pt x 299.72243pt>
+<introduccion/figs/fig1_9_3xxx.pdf, id=1957, 195.93593pt x 299.72243pt>
 File: introduccion/figs/fig1_9_3xxx.pdf Graphic file (type pdf)
 <use introduccion/figs/fig1_9_3xxx.pdf>
 Package pdftex.def Info: introduccion/figs/fig1_9_3xxx.pdf  used on input line 
@@ -1099,19 +1102,19 @@ Package pdftex.def Info: introduccion/figs/fig1_9_3xxx.pdf  used on input line
 
 LaTeX Warning: Float too large for page by 107.90425pt on input line 1705.
 
-<introduccion/figs/figintro5xx.pdf, id=1943, 311.59389pt x 191.87624pt>
+<introduccion/figs/figintro5xx.pdf, id=1959, 311.59389pt x 191.87624pt>
 File: introduccion/figs/figintro5xx.pdf Graphic file (type pdf)
 <use introduccion/figs/figintro5xx.pdf>
 Package pdftex.def Info: introduccion/figs/figintro5xx.pdf  used on input line 
 1709.
 (pdftex.def)             Requested size: 341.43306pt x 210.27107pt.
-<introduccion/figs/figintro6xxx.pdf, id=1945, 109.538pt x 192.45984pt>
+<introduccion/figs/figintro6xxx.pdf, id=1961, 109.538pt x 192.45984pt>
 File: introduccion/figs/figintro6xxx.pdf Graphic file (type pdf)
 <use introduccion/figs/figintro6xxx.pdf>
 Package pdftex.def Info: introduccion/figs/figintro6xxx.pdf  used on input line
  1716.
 (pdftex.def)             Requested size: 170.71652pt x 299.96889pt.
-<introduccion/figs/fig1_9_4.pdf, id=1947, 209.8334pt x 382.84482pt>
+<introduccion/figs/fig1_9_4.pdf, id=1963, 209.8334pt x 382.84482pt>
 File: introduccion/figs/fig1_9_4.pdf Graphic file (type pdf)
 <use introduccion/figs/fig1_9_4.pdf>
 Package pdftex.def Info: introduccion/figs/fig1_9_4.pdf  used on input line 172
@@ -1127,7 +1130,7 @@ Underfull \vbox (badness 1817) has occurred while \output is active []
 [140 <./introduccion/figs/fig1_9_2xx.pdf>] [141 <./introduccion/figs/fig1_9_3xx
 x.pdf>] [142 <./introduccion/figs/figintro5xx.pdf>] [143 <./introduccion/figs/f
 igintro6xxx.pdf>] [144 <./introduccion/figs/fig1_9_4.pdf>] [145]
-<introduccion/figs/fig1_4_1v2.pdf, id=2100, 1024.86441pt x 638.29207pt>
+<introduccion/figs/fig1_4_1v2.pdf, id=2116, 1024.86441pt x 638.29207pt>
 File: introduccion/figs/fig1_4_1v2.pdf Graphic file (type pdf)
 <use introduccion/figs/fig1_4_1v2.pdf>
 Package pdftex.def Info: introduccion/figs/fig1_4_1v2.pdf  used on input line 1
@@ -1163,7 +1166,7 @@ LaTeX Font Info:    Font shape `OT1/txr/b/n' in size <10> not available
 LaTeX Font Info:    Font shape `OT1/txr/b/n' in size <7> not available
 (Font)              Font shape `OT1/txr/bx/n' tried instead on input line 1821.
 
-<introduccion/figs/fig1_C_2.pdf, id=2240, 835.02486pt x 539.65947pt>
+<introduccion/figs/fig1_C_2.pdf, id=2265, 835.02486pt x 539.65947pt>
 File: introduccion/figs/fig1_C_2.pdf Graphic file (type pdf)
 <use introduccion/figs/fig1_C_2.pdf>
 Package pdftex.def Info: introduccion/figs/fig1_C_2.pdf  used on input line 182
@@ -1202,14 +1205,14 @@ Overfull \hbox (16.98978pt too wide) in paragraph at lines 2--2
  []
 
 [163] [164]
-<nutshell/figs/Excited0Pb206tp.pdf, id=2300, 747.66498pt x 475.10979pt>
+<nutshell/figs/Excited0Pb206tp.pdf, id=2325, 747.66498pt x 475.10979pt>
 File: nutshell/figs/Excited0Pb206tp.pdf Graphic file (type pdf)
 <use nutshell/figs/Excited0Pb206tp.pdf>
 Package pdftex.def Info: nutshell/figs/Excited0Pb206tp.pdf  used on input line 
 15.
 (pdftex.def)             Requested size: 360.0pt x 228.76056pt.
  [165] [166 <./nutshell/figs/Excited0Pb206tp.pdf>]
-<nutshell/figs/fig1_1_2.pdf, id=2342, 597.35532pt x 684.24321pt>
+<nutshell/figs/fig1_1_2.pdf, id=2367, 597.35532pt x 684.24321pt>
 File: nutshell/figs/fig1_1_2.pdf Graphic file (type pdf)
 <use nutshell/figs/fig1_1_2.pdf>
 Package pdftex.def Info: nutshell/figs/fig1_1_2.pdf  used on input line 40.
@@ -1225,34 +1228,37 @@ Missing character: There is no ¨ in font txr!
 LaTeX Warning: Float too large for page by 64.07959pt on input line 48.
 
 [167] [168 <./nutshell/figs/fig1_1_2.pdf>]
-<nutshell/figs/ExcitedSn122pt.pdf, id=2370, 795.52806pt x 614.86407pt>
+<nutshell/figs/ExcitedSn122pt.pdf, id=2396, 795.52806pt x 614.86407pt>
 File: nutshell/figs/ExcitedSn122pt.pdf Graphic file (type pdf)
 <use nutshell/figs/ExcitedSn122pt.pdf>
 Package pdftex.def Info: nutshell/figs/ExcitedSn122pt.pdf  used on input line 6
-3.
+4.
 (pdftex.def)             Requested size: 360.0pt x 278.25308pt.
-<nutshell/figs/fig2_1_4.pdf, id=2372, 531.45187pt x 372.11513pt>
+<nutshell/figs/fig2_1_4.pdf, id=2398, 531.45187pt x 372.11513pt>
 File: nutshell/figs/fig2_1_4.pdf Graphic file (type pdf)
 <use nutshell/figs/fig2_1_4.pdf>
-Package pdftex.def Info: nutshell/figs/fig2_1_4.pdf  used on input line 67.
+Package pdftex.def Info: nutshell/figs/fig2_1_4.pdf  used on input line 68.
 (pdftex.def)             Requested size: 360.0pt x 252.06967pt.
-<nutshell/figs/fig1D1_v2.pdf, id=2374, 282.42204pt x 445.43106pt>
+<nutshell/figs/fig1D1_v2.pdf, id=2400, 282.42204pt x 445.43106pt>
 File: nutshell/figs/fig1D1_v2.pdf Graphic file (type pdf)
 <use nutshell/figs/fig1D1_v2.pdf>
-Package pdftex.def Info: nutshell/figs/fig1D1_v2.pdf  used on input line 71.
+Package pdftex.def Info: nutshell/figs/fig1D1_v2.pdf  used on input line 72.
 (pdftex.def)             Requested size: 323.9978pt x 511.02512pt.
 
 
-LaTeX Warning: Float too large for page by 6.82487pt on input line 73.
+LaTeX Warning: Float too large for page by 6.82487pt on input line 74.
 
-[169]
-Underfull \hbox (badness 1412) in paragraph at lines 76--76
+
+Underfull \vbox (badness 4927) has occurred while \output is active []
+
+ [169]
+Underfull \hbox (badness 1412) in paragraph at lines 77--77
 [][][] \OT1/txr/m/n/9 Both in heavy ion re-ac-tion be-tween su-per-fluid nu-cle
 i (Mon-ta-nari et al. (2014), see
  []
 
 
-Underfull \hbox (badness 2460) in paragraph at lines 76--76
+Underfull \hbox (badness 2460) in paragraph at lines 77--77
 \OT1/txr/m/n/9 also Sect. 7.3[]) and light ions ($\OML/txmi/m/it/9 d; p$\OT1/tx
 r/m/n/9 ) and $(\OML/txmi/m/it/9 t; p\OT1/txr/m/n/9 )$ re-ac-tion. See e.g. Cav
 -al-laro et al.
@@ -1260,10 +1266,10 @@ r/m/n/9 ) and $(\OML/txmi/m/it/9 t; p\OT1/txr/m/n/9 )$ re-ac-tion. See e.g. Cav
 
 [170 <./nutshell/figs/ExcitedSn122pt.pdf>] [171 <./nutshell/figs/fig2_1_4.pdf>]
 [172 <./nutshell/figs/fig1D1_v2.pdf>]
-<nutshell/figs/fig2_1_5.pdf, id=2483, 546.1292pt x 470.19417pt>
+<nutshell/figs/fig2_1_5.pdf, id=2508, 546.1292pt x 470.19417pt>
 File: nutshell/figs/fig2_1_5.pdf Graphic file (type pdf)
 <use nutshell/figs/fig2_1_5.pdf>
-Package pdftex.def Info: nutshell/figs/fig2_1_5.pdf  used on input line 91.
+Package pdftex.def Info: nutshell/figs/fig2_1_5.pdf  used on input line 92.
 (pdftex.def)             Requested size: 284.52756pt x 244.96153pt.
  [173]
 
@@ -1272,214 +1278,216 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<nutshell/figs/cross_strength.pdf, id=2488, 529.55911pt x 444.25574pt>
+<nutshell/figs/cross_strength.pdf, id=2513, 529.55911pt x 444.25574pt>
 File: nutshell/figs/cross_strength.pdf Graphic file (type pdf)
 <use nutshell/figs/cross_strength.pdf>
 Package pdftex.def Info: nutshell/figs/cross_strength.pdf  used on input line 1
-84.
+85.
 (pdftex.def)             Requested size: 284.52756pt x 238.70146pt.
 
-Underfull \hbox (badness 3219) in paragraph at lines 185--185
+Underfull \hbox (badness 3219) in paragraph at lines 186--186
 []\OT1/txr/m/n/10.95 Figure 3.1.7: |Ab-so-lute value of the two--nucleon trans-
 fer cross sec-tion
  []
 
-[174] [175 <./nutshell/figs/fig2_1_5.pdf>] [176 <./nutshell/figs/cross_strength
-.pdf>] [177] [178]
-<nutshell/figs/potential.pdf, id=2556, 1337.84535pt x 568.26047pt>
+[174]
+Underfull \vbox (badness 3386) has occurred while \output is active []
+
+ [175 <./nutshell/figs/fig2_1_5.pdf>] [176 <./nutshell/figs/cross_strength.pdf>
+]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [177]
+<nutshell/figs/potential.pdf, id=2578, 1337.84535pt x 568.26047pt>
 File: nutshell/figs/potential.pdf Graphic file (type pdf)
 <use nutshell/figs/potential.pdf>
-Package pdftex.def Info: nutshell/figs/potential.pdf  used on input line 235.
+Package pdftex.def Info: nutshell/figs/potential.pdf  used on input line 236.
 (pdftex.def)             Requested size: 369.88582pt x 157.10886pt.
- [179] [180 <./nutshell/figs/potential.pdf>]
-<nutshell/figs/fig1A3.pdf, id=2591, 634.54375pt x 751.77579pt>
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [178]
+[179 <./nutshell/figs/potential.pdf>] [180]
+<nutshell/figs/fig1A3.pdf, id=2616, 634.54375pt x 751.77579pt>
 File: nutshell/figs/fig1A3.pdf Graphic file (type pdf)
 <use nutshell/figs/fig1A3.pdf>
-Package pdftex.def Info: nutshell/figs/fig1A3.pdf  used on input line 253.
+Package pdftex.def Info: nutshell/figs/fig1A3.pdf  used on input line 254.
 (pdftex.def)             Requested size: 360.0pt x 426.50919pt.
 
 
-LaTeX Warning: Float too large for page by 31.109pt on input line 255.
+LaTeX Warning: Float too large for page by 31.109pt on input line 256.
 
-<nutshell/figs/fig1A4.pdf, id=2593, 514.74002pt x 445.48123pt>
+<nutshell/figs/fig1A4.pdf, id=2618, 514.74002pt x 445.48123pt>
 File: nutshell/figs/fig1A4.pdf Graphic file (type pdf)
 <use nutshell/figs/fig1A4.pdf>
-Package pdftex.def Info: nutshell/figs/fig1A4.pdf  used on input line 257.
+Package pdftex.def Info: nutshell/figs/fig1A4.pdf  used on input line 258.
 (pdftex.def)             Requested size: 251.9989pt x 218.09059pt.
-<nutshell/figs/fig1A5.pdf, id=2595, 529.04346pt x 435.69467pt>
+<nutshell/figs/fig1A5.pdf, id=2620, 529.04346pt x 435.69467pt>
 File: nutshell/figs/fig1A5.pdf Graphic file (type pdf)
 <use nutshell/figs/fig1A5.pdf>
-Package pdftex.def Info: nutshell/figs/fig1A5.pdf  used on input line 261.
+Package pdftex.def Info: nutshell/figs/fig1A5.pdf  used on input line 262.
 (pdftex.def)             Requested size: 251.9989pt x 207.5355pt.
-
-Underfull \vbox (badness 2277) has occurred while \output is active []
-
- [181]
-[182 <./nutshell/figs/fig1A3.pdf>] [183 <./nutshell/figs/fig1A4.pdf> <./nutshel
-l/figs/fig1A5.pdf>]
-<nutshell/figs/resumevec.pdf, id=2651, 590.47983pt x 859.93016pt>
+[181] [182 <./nutshell/figs/fig1A3.pdf>] [183 <./nutshell/figs/fig1A4.pdf> <./n
+utshell/figs/fig1A5.pdf>]
+<nutshell/figs/resumevec.pdf, id=2676, 591.04884pt x 860.4993pt>
 File: nutshell/figs/resumevec.pdf Graphic file (type pdf)
 <use nutshell/figs/resumevec.pdf>
-Package pdftex.def Info: nutshell/figs/resumevec.pdf  used on input line 295.
-(pdftex.def)             Requested size: 426.79134pt x 621.55048pt.
+Package pdftex.def Info: nutshell/figs/resumevec.pdf  used on input line 296.
+(pdftex.def)             Requested size: 426.79134pt x 621.37099pt.
 
 
-LaTeX Warning: Float too large for page by 76.55022pt on input line 297.
+LaTeX Warning: Float too large for page by 76.37073pt on input line 298.
 
-[184]
-Overfull \hbox (4.27632pt too wide) in paragraph at lines 305--305
+[184] [185 <./nutshell/figs/resumevec.pdf>]
+Overfull \hbox (4.27632pt too wide) in paragraph at lines 307--307
 []\OT1/txr/bx/n/14.4 Two--nucleon spec-tro-scopic am-pli-tudes as-so-ci-ated wi
 th
  []
 
-[185] [186 <./nutshell/figs/resumevec.pdf>]
-<nutshell/figs/dispersion.pdf, id=3077, 517.1523pt x 414.6971pt>
+[186]
+<nutshell/figs/dispersion.pdf, id=2930, 517.1523pt x 414.6971pt>
 File: nutshell/figs/dispersion.pdf Graphic file (type pdf)
 <use nutshell/figs/dispersion.pdf>
-Package pdftex.def Info: nutshell/figs/dispersion.pdf  used on input line 358.
+Package pdftex.def Info: nutshell/figs/dispersion.pdf  used on input line 342.
 (pdftex.def)             Requested size: 360.0pt x 288.69139pt.
  [187] [188 <./nutshell/figs/dispersion.pdf>] [189]
-Overfull \hbox (7.29993pt too wide) detected at line 442
+Overfull \hbox (7.29993pt too wide) detected at line 426
 []
  []
 
-<nutshell/figs/removal_forward.pdf, id=3098, 115.29144pt x 194.67789pt>
+<nutshell/figs/removal_forward.pdf, id=2951, 115.29144pt x 194.67789pt>
 File: nutshell/figs/removal_forward.pdf Graphic file (type pdf)
 <use nutshell/figs/removal_forward.pdf>
 Package pdftex.def Info: nutshell/figs/removal_forward.pdf  used on input line 
-449.
+433.
 (pdftex.def)             Requested size: 36.0022pt x 60.79211pt.
-<nutshell/figs/removal_backward.pdf, id=3100, 134.2325pt x 111.79895pt>
+<nutshell/figs/removal_backward.pdf, id=2953, 134.2325pt x 111.79895pt>
 File: nutshell/figs/removal_backward.pdf Graphic file (type pdf)
 <use nutshell/figs/removal_backward.pdf>
 Package pdftex.def Info: nutshell/figs/removal_backward.pdf  used on input line
- 460.
+ 444.
 (pdftex.def)             Requested size: 71.9989pt x 59.96793pt.
 [190 <./nutshell/figs/removal_forward.pdf>] [191 <./nutshell/figs/removal_backw
 ard.pdf>]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [192]
-<nutshell/figs/addition_forward.pdf, id=3129, 131.9573pt x 194.67789pt>
+<nutshell/figs/addition_forward.pdf, id=2979, 131.9573pt x 194.67789pt>
 File: nutshell/figs/addition_forward.pdf Graphic file (type pdf)
 <use nutshell/figs/addition_forward.pdf>
 Package pdftex.def Info: nutshell/figs/addition_forward.pdf  used on input line
- 543.
+ 530.
 (pdftex.def)             Requested size: 36.0022pt x 53.11327pt.
-
-Overfull \hbox (10.49196pt too wide) detected at line 552
+ [192]
+Overfull \hbox (10.49196pt too wide) detected at line 539
 []
  []
 
-<nutshell/figs/addition_backward.pdf, id=3131, 134.2325pt x 114.12901pt>
+<nutshell/figs/addition_backward.pdf, id=2984, 134.2325pt x 114.12901pt>
 File: nutshell/figs/addition_backward.pdf Graphic file (type pdf)
 <use nutshell/figs/addition_backward.pdf>
 Package pdftex.def Info: nutshell/figs/addition_backward.pdf  used on input lin
-e 571.
+e 558.
 (pdftex.def)             Requested size: 71.9989pt x 61.21776pt.
 [193 <./nutshell/figs/addition_forward.pdf> <./nutshell/figs/addition_backward.
 pdf>]
-<nutshell/figs/fig1E6.pdf, id=3155, 658.65697pt x 603.60645pt>
+<nutshell/figs/fig1E6.pdf, id=3008, 658.65697pt x 603.60645pt>
 File: nutshell/figs/fig1E6.pdf Graphic file (type pdf)
 <use nutshell/figs/fig1E6.pdf>
-Package pdftex.def Info: nutshell/figs/fig1E6.pdf  used on input line 592.
+Package pdftex.def Info: nutshell/figs/fig1E6.pdf  used on input line 579.
 (pdftex.def)             Requested size: 360.0pt x 329.92146pt.
-<nutshell/figs/fig1E8.pdf, id=3157, 638.1511pt x 503.24707pt>
+<nutshell/figs/fig1E8.pdf, id=3010, 638.1511pt x 503.24707pt>
 File: nutshell/figs/fig1E8.pdf Graphic file (type pdf)
 <use nutshell/figs/fig1E8.pdf>
-Package pdftex.def Info: nutshell/figs/fig1E8.pdf  used on input line 636.
+Package pdftex.def Info: nutshell/figs/fig1E8.pdf  used on input line 623.
 (pdftex.def)             Requested size: 360.0pt x 283.90509pt.
  [194] [195 <./nutshell/figs/fig1E6.pdf>] [196] [197 <./nutshell/figs/fig1E8.pd
-f>] [198] [199] [200] [201]
-Overfull \hbox (5.95367pt too wide) in paragraph at lines 761--763
+f>]
+Overfull \hbox (12.57304pt too wide) in paragraph at lines 647--649
+\OT1/txr/m/n/10.95 Consequently, the bare $\OML/txmi/m/it/10.95 NN$\OT1/txr/m/n
+/10.95 -nucleon pair-ing in-ter-ac-tion is ex-pected to be-come strongly
+ []
+
+[198] [199] [200] [201]
+Overfull \hbox (5.95367pt too wide) in paragraph at lines 748--750
 \OT1/txr/m/n/10.95 is the ``stan-dard'' self con-sis-tent dipole strength[]. Th
 e screen-ing fac-tor $\OML/txmi/m/it/10.95 s \OT1/txr/m/n/10.95 = (\OML/txmi/m/
 it/10.95 ^^T[]=^^T[]\OT1/txr/m/n/10.95 ) =
  []
 
-<nutshell/figs/fig1F1.pdf, id=3320, 293.898pt x 383.031pt>
+<nutshell/figs/fig1F1.pdf, id=3173, 293.898pt x 383.031pt>
 File: nutshell/figs/fig1F1.pdf Graphic file (type pdf)
 <use nutshell/figs/fig1F1.pdf>
-Package pdftex.def Info: nutshell/figs/fig1F1.pdf  used on input line 768.
+Package pdftex.def Info: nutshell/figs/fig1F1.pdf  used on input line 755.
 (pdftex.def)             Requested size: 251.9989pt x 328.43004pt.
-<nutshell/figs/pigmy.pdf, id=3322, 679.93979pt x 265.83862pt>
+<nutshell/figs/pigmy.pdf, id=3175, 679.93979pt x 265.83862pt>
 File: nutshell/figs/pigmy.pdf Graphic file (type pdf)
 <use nutshell/figs/pigmy.pdf>
-Package pdftex.def Info: nutshell/figs/pigmy.pdf  used on input line 783.
+Package pdftex.def Info: nutshell/figs/pigmy.pdf  used on input line 770.
 (pdftex.def)             Requested size: 180.0pt x 70.37387pt.
-<nutshell/figs/fig1F3.pdf, id=3324, 670.505pt x 495.451pt>
+<nutshell/figs/fig1F3.pdf, id=3177, 670.505pt x 495.451pt>
 File: nutshell/figs/fig1F3.pdf Graphic file (type pdf)
 <use nutshell/figs/fig1F3.pdf>
-Package pdftex.def Info: nutshell/figs/fig1F3.pdf  used on input line 787.
+Package pdftex.def Info: nutshell/figs/fig1F3.pdf  used on input line 774.
 (pdftex.def)             Requested size: 360.0pt x 266.01244pt.
-[202] [203 <./nutshell/figs/fig1F1.pdf>]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [204 <./nutshell/figs/pigmy.pdf>] [205 <./nutshell/figs/fig1F3.pdf>]
-Overfull \hbox (1.11966pt too wide) in paragraph at lines 812--813
+[202] [203 <./nutshell/figs/fig1F1.pdf>] [204 <./nutshell/figs/pigmy.pdf>]
+[205 <./nutshell/figs/fig1F3.pdf>]
+Overfull \hbox (1.11966pt too wide) in paragraph at lines 799--800
 []\OT1/txr/m/n/10.95 This schematic model[] has been im-ple-mented with mi-cro-
 scopic de-tail[] within
  []
 
 [206]
-<nutshell/figs/VdW.pdf, id=3361, 529.73506pt x 340.4061pt>
+<nutshell/figs/VdW.pdf, id=3214, 529.73506pt x 340.4061pt>
 File: nutshell/figs/VdW.pdf Graphic file (type pdf)
 <use nutshell/figs/VdW.pdf>
-Package pdftex.def Info: nutshell/figs/VdW.pdf  used on input line 854.
+Package pdftex.def Info: nutshell/figs/VdW.pdf  used on input line 841.
 (pdftex.def)             Requested size: 483.69684pt x 310.82964pt.
- [207] [208 <./nutshell/figs/VdW.pdf>] [209]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [210]
-Overfull \hbox (2.51202pt too wide) in paragraph at lines 919--921
+ [207] [208 <./nutshell/figs/VdW.pdf>]
+Overfull \hbox (2.51202pt too wide) in paragraph at lines 868--870
 \OT1/txr/m/n/10.95 where $\OML/txmi/m/it/10.95 N$ \OT1/txr/m/n/10.95 is the num
 -ber of atoms and $\OML/txmi/m/it/10.95 a[]$ \OT1/txr/m/n/10.95 the most prob-a
 -ble non-bonded near-neighbor
  []
 
-
-Overfull \hbox (9.88641pt too wide) in paragraph at lines 931--944
+[209]
+Overfull \hbox (9.88641pt too wide) in paragraph at lines 880--893
 [][] 
  []
 
-[211] [212]
-<nutshell/figs/fig3D1_v2.pdf, id=3411, 594.91975pt x 583.22708pt>
-File: nutshell/figs/fig3D1_v2.pdf Graphic file (type pdf)
-<use nutshell/figs/fig3D1_v2.pdf>
-Package pdftex.def Info: nutshell/figs/fig3D1_v2.pdf  used on input line 993.
-(pdftex.def)             Requested size: 142.26378pt x 139.4701pt.
-<nutshell/figs/fig2D4_v2.pdf, id=3413, 164.19402pt x 231.53787pt>
+[210]
+<nutshell/figs/fig2D4_v2.pdf, id=3257, 164.19402pt x 231.53787pt>
 File: nutshell/figs/fig2D4_v2.pdf Graphic file (type pdf)
 <use nutshell/figs/fig2D4_v2.pdf>
-Package pdftex.def Info: nutshell/figs/fig2D4_v2.pdf  used on input line 1009.
+Package pdftex.def Info: nutshell/figs/fig2D4_v2.pdf  used on input line 953.
 (pdftex.def)             Requested size: 142.26378pt x 200.62021pt.
- [213 <./nutshell/figs/fig3D1_v2.pdf>] [214 <./nutshell/figs/fig2D4_v2.pdf>]
-<nutshell/figs/fig2D5_v2.pdf, id=3439, 151.80177pt x 106.40514pt>
+ [211] [212 <./nutshell/figs/fig2D4_v2.pdf>]
+<nutshell/figs/fig2D5_v2.pdf, id=3275, 151.80177pt x 106.40514pt>
 File: nutshell/figs/fig2D5_v2.pdf Graphic file (type pdf)
 <use nutshell/figs/fig2D5_v2.pdf>
-Package pdftex.def Info: nutshell/figs/fig2D5_v2.pdf  used on input line 1066.
+Package pdftex.def Info: nutshell/figs/fig2D5_v2.pdf  used on input line 1010.
 (pdftex.def)             Requested size: 113.81102pt x 79.77766pt.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[215]) [216 <./nutshell/figs/fig2D5_v2.pdf>] [217]
+[213]) [214 <./nutshell/figs/fig2D5_v2.pdf>] [215]
 \openout2 = `nutshell/include_trans_nut.aux'.
 
 
-(./nutshell/include_trans_nut.tex [218
+(./nutshell/include_trans_nut.tex [216
 
 
 
 ]
 Chapter 4.
-[219]
-<nutshell/figs/fig_alpha.pdf, id=3470, 1405.84781pt x 1740.95561pt>
+
+Underfull \vbox (badness 1735) has occurred while \output is active []
+
+ [217]
+<nutshell/figs/fig_alpha.pdf, id=3306, 1405.84781pt x 1740.95561pt>
 File: nutshell/figs/fig_alpha.pdf Graphic file (type pdf)
 <use nutshell/figs/fig_alpha.pdf>
 Package pdftex.def Info: nutshell/figs/fig_alpha.pdf  used on input line 17.
 (pdftex.def)             Requested size: 360.0pt x 445.81062pt.
-<nutshell/figs/fig_beta.pdf, id=3472, 1665.74126pt x 2316.10901pt>
+<nutshell/figs/fig_beta.pdf, id=3308, 1665.74126pt x 2316.10901pt>
 File: nutshell/figs/fig_beta.pdf Graphic file (type pdf)
 <use nutshell/figs/fig_beta.pdf>
 Package pdftex.def Info: nutshell/figs/fig_beta.pdf  used on input line 21.
@@ -1488,7 +1496,7 @@ Package pdftex.def Info: nutshell/figs/fig_beta.pdf  used on input line 21.
 
 LaTeX Warning: Float too large for page by 114.19887pt on input line 23.
 
-<nutshell/figs/fig_gamma.pdf, id=3474, 541.77878pt x 669.84293pt>
+<nutshell/figs/fig_gamma.pdf, id=3310, 541.77878pt x 669.84293pt>
 File: nutshell/figs/fig_gamma.pdf Graphic file (type pdf)
 <use nutshell/figs/fig_gamma.pdf>
 Package pdftex.def Info: nutshell/figs/fig_gamma.pdf  used on input line 25.
@@ -1496,8 +1504,8 @@ Package pdftex.def Info: nutshell/figs/fig_gamma.pdf  used on input line 25.
 
 LaTeX Warning: Float too large for page by 81.15642pt on input line 27.
 
-[220] [221 <./nutshell/figs/fig_alpha.pdf>] [222 <./nutshell/figs/fig_beta.pdf>
-] [223 <./nutshell/figs/fig_gamma.pdf>] [224] [225] [226]
+[218] [219 <./nutshell/figs/fig_alpha.pdf>] [220 <./nutshell/figs/fig_beta.pdf>
+] [221 <./nutshell/figs/fig_gamma.pdf>] [222] [223]
 Overfull \hbox (7.59915pt too wide) in paragraph at lines 112--114
 \OT1/txr/m/n/10.95 text we note that the in-te-grated gs $\OMS/txsy/m/n/10.95 !
 $ \OT1/txr/m/n/10.95 gs ab-so-lute cross sec-tion $\OML/txmi/m/it/10.95 ^^[\OT1
@@ -1505,152 +1513,191 @@ $ \OT1/txr/m/n/10.95 gs ab-so-lute cross sec-tion $\OML/txmi/m/it/10.95 ^^[\OT1
 
  []
 
-[227]
-<nutshell/figs/fig3_1_4.pdf, id=3601, 646.08362pt x 461.79564pt>
+[224] [225]
+<nutshell/figs/fig3_1_4.pdf, id=3437, 646.08362pt x 461.79564pt>
 File: nutshell/figs/fig3_1_4.pdf Graphic file (type pdf)
 <use nutshell/figs/fig3_1_4.pdf>
-Package pdftex.def Info: nutshell/figs/fig3_1_4.pdf  used on input line 133.
+Package pdftex.def Info: nutshell/figs/fig3_1_4.pdf  used on input line 137.
 (pdftex.def)             Requested size: 398.33858pt x 284.72488pt.
-<nutshell/figs/fig3_2_2.pdf, id=3603, 845.1575pt x 597.23125pt>
+<nutshell/figs/fig3_2_2.pdf, id=3439, 845.1575pt x 597.23125pt>
 File: nutshell/figs/fig3_2_2.pdf Graphic file (type pdf)
 <use nutshell/figs/fig3_2_2.pdf>
-Package pdftex.def Info: nutshell/figs/fig3_2_2.pdf  used on input line 137.
+Package pdftex.def Info: nutshell/figs/fig3_2_2.pdf  used on input line 141.
 (pdftex.def)             Requested size: 426.79134pt x 301.59483pt.
- [228] [229 <./nutshell/figs/fig3_1_4.pdf>] [230 <./nutshell/figs/fig3_2_2.pdf,
- page is rotated 90 degrees>] [231] [232] [233] [234] [235]
-<nutshell/figs/fig3_3_1.pdf, id=3746, 1353.14015pt x 876.42636pt>
+ [226] [227 <./nutshell/figs/fig3_1_4.pdf>] [228 <./nutshell/figs/fig3_2_2.pdf,
+ page is rotated 90 degrees>] [229]
+
+Package natbib Warning: Citation `Kubota' on page 230 undefined on input line 1
+93.
+
+
+Package natbib Warning: Citation `Kubota' on page 230 undefined on input line 1
+93.
+
+[230] [231]
+Overfull \hbox (1.75952pt too wide) in paragraph at lines 210--211
+[]\OT1/txr/m/n/10.95 The en-ergy cen-troid, the width and the per-cent-age of t
+he TRK sum rule (EWSR)
+ []
+
+
+Package natbib Warning: Citation `Potel:20b' on page 232 undefined on input lin
+e 213.
+
+
+Package natbib Warning: Citation `yy' on page 232 undefined on input line 213.
+
+[232]
+<nutshell/figs/fig3_3_1.pdf, id=3578, 1353.14015pt x 876.42636pt>
 File: nutshell/figs/fig3_3_1.pdf Graphic file (type pdf)
 <use nutshell/figs/fig3_3_1.pdf>
-Package pdftex.def Info: nutshell/figs/fig3_3_1.pdf  used on input line 215.
+Package pdftex.def Info: nutshell/figs/fig3_3_1.pdf  used on input line 219.
 (pdftex.def)             Requested size: 251.9989pt x 163.21956pt.
- [236 <./nutshell/figs/fig3_3_1.pdf>]
-<nutshell/figs/fig3_3_2.pdf, id=3760, 595.78806pt x 363.58601pt>
+ [233]
+Underfull \hbox (badness 1454) in paragraph at lines 258--258
+[][]\OT1/txr/m/n/9 See Fig. 7.1.3[], Sect. 7.1.2[] and Ta-ble 7.1.2[] con-cern-
+ing the ex-per-i-men-tal value of
+ []
+
+[234 <./nutshell/figs/fig3_3_1.pdf>]
+<nutshell/figs/fig3_3_2.pdf, id=3595, 595.78806pt x 363.58601pt>
 File: nutshell/figs/fig3_3_2.pdf Graphic file (type pdf)
 <use nutshell/figs/fig3_3_2.pdf>
-Package pdftex.def Info: nutshell/figs/fig3_3_2.pdf  used on input line 260.
+Package pdftex.def Info: nutshell/figs/fig3_3_2.pdf  used on input line 264.
 (pdftex.def)             Requested size: 426.79134pt x 260.45578pt.
 
-Underfull \hbox (badness 2027) in paragraph at lines 277--277
+Underfull \hbox (badness 2027) in paragraph at lines 281--281
 \OT1/txr/m/n/10.95 cal-cu-lated with the same bom-bard-ing con-di-tions as thos
 e as-so-ci-ated with
  []
 
-[237] [238 <./nutshell/figs/fig3_3_2.pdf>] [239]
-<nutshell/figs/fig_1v2.pdf, id=3785, 377.75005pt x 453.1768pt>
+
+Underfull \vbox (badness 2556) has occurred while \output is active []
+
+ [235 <./nutshell/figs/fig3_3_2.pdf>] [236]
+<nutshell/figs/fig_1v2.pdf, id=3618, 377.75005pt x 453.1768pt>
 File: nutshell/figs/fig_1v2.pdf Graphic file (type pdf)
 <use nutshell/figs/fig_1v2.pdf>
-Package pdftex.def Info: nutshell/figs/fig_1v2.pdf  used on input line 380.
+Package pdftex.def Info: nutshell/figs/fig_1v2.pdf  used on input line 385.
 (pdftex.def)             Requested size: 227.62204pt x 273.0768pt.
- [240 <./nutshell/figs/fig_1v2.pdf>]
-<nutshell/figs/fig2A2.pdf, id=3834, 954.50186pt x 464.59283pt>
+ [237] [238 <./nutshell/figs/fig_1v2.pdf>]
+<nutshell/figs/fig2A2.pdf, id=3670, 954.50186pt x 464.59283pt>
 File: nutshell/figs/fig2A2.pdf Graphic file (type pdf)
 <use nutshell/figs/fig2A2.pdf>
-Package pdftex.def Info: nutshell/figs/fig2A2.pdf  used on input line 408.
+Package pdftex.def Info: nutshell/figs/fig2A2.pdf  used on input line 413.
 (pdftex.def)             Requested size: 360.0pt x 175.22853pt.
-<nutshell/figs/fig2A3_v2.pdf, id=3836, 305.93895pt x 273.39616pt>
+<nutshell/figs/fig2A3_v2.pdf, id=3672, 305.93895pt x 273.39616pt>
 File: nutshell/figs/fig2A3_v2.pdf Graphic file (type pdf)
 <use nutshell/figs/fig2A3_v2.pdf>
-Package pdftex.def Info: nutshell/figs/fig2A3_v2.pdf  used on input line 412.
+Package pdftex.def Info: nutshell/figs/fig2A3_v2.pdf  used on input line 417.
 (pdftex.def)             Requested size: 360.0pt x 321.70357pt.
- [241]
-<nutshell/figs/tp_Pb_contributions.pdf, id=3842, 497.057pt x 463.33101pt>
+
+[239]
+<nutshell/figs/tp_Pb_contributions.pdf, id=3677, 497.057pt x 463.33101pt>
 File: nutshell/figs/tp_Pb_contributions.pdf Graphic file (type pdf)
 <use nutshell/figs/tp_Pb_contributions.pdf>
 Package pdftex.def Info: nutshell/figs/tp_Pb_contributions.pdf  used on input l
-ine 422.
+ine 427.
 (pdftex.def)             Requested size: 360.0pt x 335.58469pt.
 
-Overfull \hbox (22.11394pt too wide) in paragraph at lines 426--427
+Overfull \hbox (22.11394pt too wide) in paragraph at lines 431--432
 \OT1/txr/m/n/10.95 par-tic-u-lar, to the pair re-moval mode of $[]$Pb, that is,
  to the re-ac-tion, $[]$Pb$(\OML/txmi/m/it/10.95 t; p\OT1/txr/m/n/10.95 )$$[]$P
 b(gs).
  []
 
-[242 <./nutshell/figs/fig2A2.pdf>] [243 <./nutshell/figs/fig2A3_v2.pdf>]
-[244 <./nutshell/figs/tp_Pb_contributions.pdf>]
-Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [245]
-[246] [247] [248]
-<C6/figs_C6/fig4_6_1x.pdf, id=3957, 714.23528pt x 249.74998pt>
+Underfull \vbox (badness 2951) has occurred while \output is active []
+
+ [240 <./nutshell/figs/fig2A2.pdf>] [241 <./nutshell/figs/fig2A3_v2.pdf>] [242 
+<./nutshell/figs/tp_Pb_contributions.pdf>] [243] [244] [245] [246]
+<C6/figs_C6/fig4_6_1x.pdf, id=3792, 714.23528pt x 249.74998pt>
 File: C6/figs_C6/fig4_6_1x.pdf Graphic file (type pdf)
 <use C6/figs_C6/fig4_6_1x.pdf>
-Package pdftex.def Info: C6/figs_C6/fig4_6_1x.pdf  used on input line 550.
+Package pdftex.def Info: C6/figs_C6/fig4_6_1x.pdf  used on input line 556.
 (pdftex.def)             Requested size: 483.69684pt x 169.13797pt.
- [249] [250 <./C6/figs_C6/fig4_6_1x.pdf>] [251] [252] [253]
-[254]
-Underfull \vbox (badness 6110) has occurred while \output is active []
-
- [255]
-<nutshell/figs/fig3_A_1.pdf, id=3984, 502.36609pt x 155.25385pt>
+ [247] [248 <./C6/figs_C6/fig4_6_1x.pdf>] [249] [250] [251] [252] [253]
+<nutshell/figs/fig3_A_1.pdf, id=3820, 502.36609pt x 155.25385pt>
 File: nutshell/figs/fig3_A_1.pdf Graphic file (type pdf)
 <use nutshell/figs/fig3_A_1.pdf>
-Package pdftex.def Info: nutshell/figs/fig3_A_1.pdf  used on input line 759.
+Package pdftex.def Info: nutshell/figs/fig3_A_1.pdf  used on input line 751.
 (pdftex.def)             Requested size: 227.62204pt x 70.34447pt.
-
-[256] [257 <./nutshell/figs/fig3_A_1.pdf>] [258]
-<nutshell/figs/fig3_A_2.pdf, id=4024, 904.10931pt x 171.41116pt>
+ [254] [255 <./nutshell/figs/fig3_A_1.pdf>] [256]
+<nutshell/figs/fig3_A_2.pdf, id=3860, 904.10931pt x 171.41116pt>
 File: nutshell/figs/fig3_A_2.pdf Graphic file (type pdf)
 <use nutshell/figs/fig3_A_2.pdf>
-Package pdftex.def Info: nutshell/figs/fig3_A_2.pdf  used on input line 844.
+Package pdftex.def Info: nutshell/figs/fig3_A_2.pdf  used on input line 836.
 (pdftex.def)             Requested size: 341.43306pt x 64.7315pt.
- [259 <./nutshell/figs/fig3_A_2.pdf>]
-<nutshell/figs/fig3_A_3.pdf, id=4116, 554.04819pt x 158.54787pt>
+ [257]
+<nutshell/figs/fig3_A_3.pdf, id=3865, 554.04819pt x 158.54787pt>
 File: nutshell/figs/fig3_A_3.pdf Graphic file (type pdf)
 <use nutshell/figs/fig3_A_3.pdf>
-Package pdftex.def Info: nutshell/figs/fig3_A_3.pdf  used on input line 879.
+Package pdftex.def Info: nutshell/figs/fig3_A_3.pdf  used on input line 871.
 (pdftex.def)             Requested size: 341.43306pt x 97.70593pt.
- [260] [261 <./nutshell/figs/fig3_A_3.pdf>] [262] [263] [264] [265]
-[266] [267] [268]
-<nutshell/figs/fig3A4.pdf, id=4179, 558.92027pt x 319.05226pt>
+ [258 <./nutshell/figs/fig3_A_2.pdf>] [259 <./nutshell/figs/fig3_A_3.pdf>] [260
+] [261]
+Underfull \vbox (badness 1466) has occurred while \output is active []
+
+ [262]
+[263] [264] [265] [266]
+<nutshell/figs/fig3A4.pdf, id=4015, 558.92027pt x 319.05226pt>
 File: nutshell/figs/fig3A4.pdf Graphic file (type pdf)
 <use nutshell/figs/fig3A4.pdf>
-Package pdftex.def Info: nutshell/figs/fig3A4.pdf  used on input line 1144.
+Package pdftex.def Info: nutshell/figs/fig3A4.pdf  used on input line 1138.
 (pdftex.def)             Requested size: 312.9803pt x 178.66318pt.
- [269]
-Overfull \hbox (0.96605pt too wide) in paragraph at lines 1168--1170
+ [267]
+Overfull \hbox (0.96605pt too wide) in paragraph at lines 1162--1164
 \OT1/txr/m/n/10.95 Consequently, the renor-mal-iza-tion ef-fects of the pair-in
 g gap as-so-ci-ated with phonon
  []
 
-[270 <./nutshell/figs/fig3A4.pdf>]
-Overfull \hbox (14.59737pt too wide) in paragraph at lines 1206--1208
+[268 <./nutshell/figs/fig3A4.pdf>]
+Overfull \hbox (14.59737pt too wide) in paragraph at lines 1200--1202
 \OT1/txr/m/n/10.95 The bind-ing en-ergy per nu-cleon is $\OML/txmi/m/it/10.95 B
 E=A \OT1/txr/m/n/10.95 = 8\OML/txmi/m/it/10.95 :\OT1/txr/m/n/10.95 504$ MeV. Th
 us $\OML/txmi/m/it/10.95 BE \OT1/txr/m/n/10.95 = 120 \OMS/txsy/m/n/10.95 ^^B \O
 T1/txr/m/n/10.95 8\OML/txmi/m/it/10.95 :\OT1/txr/m/n/10.95 504[] =
  []
 
-[271]
-<nutshell/figs/Fig3B1.pdf, id=4200, 2245.60513pt x 2478.65059pt>
+[269]
+<nutshell/figs/Fig3B1.pdf, id=4035, 2245.60513pt x 2478.65059pt>
 File: nutshell/figs/Fig3B1.pdf Graphic file (type pdf)
 <use nutshell/figs/Fig3B1.pdf>
-Package pdftex.def Info: nutshell/figs/Fig3B1.pdf  used on input line 1240.
+Package pdftex.def Info: nutshell/figs/Fig3B1.pdf  used on input line 1231.
 (pdftex.def)             Requested size: 426.79134pt x 471.06198pt.
- [272] [273 <./nutshell/figs/Fig3B1.pdf>] [274] [275] [276]
-<nutshell/figs/fig3B2.pdf, id=4247, 1376.22726pt x 670.01195pt>
+ [270] [271 <./nutshell/figs/Fig3B1.pdf>] [272] [273] [274]
+<nutshell/figs/fig3B2.pdf, id=4106, 1376.22726pt x 670.01195pt>
 File: nutshell/figs/fig3B2.pdf Graphic file (type pdf)
 <use nutshell/figs/fig3B2.pdf>
-Package pdftex.def Info: nutshell/figs/fig3B2.pdf  used on input line 1330.
+Package pdftex.def Info: nutshell/figs/fig3B2.pdf  used on input line 1321.
 (pdftex.def)             Requested size: 341.43306pt x 166.22462pt.
- [277 <./nutshell/figs/fig3B2.pdf>] [278]
-<nutshell/figs/fig3B3x.pdf, id=4271, 492.4061pt x 887.07344pt>
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[275] [276 <./nutshell/figs/fig3B2.pdf>]
+
+Package natbib Warning: Citation `Potel:20b' on page 277 undefined on input lin
+e 1355.
+
+[277]
+<nutshell/figs/fig3B3x.pdf, id=4134, 492.4061pt x 887.07344pt>
 File: nutshell/figs/fig3B3x.pdf Graphic file (type pdf)
 <use nutshell/figs/fig3B3x.pdf>
-Package pdftex.def Info: nutshell/figs/fig3B3x.pdf  used on input line 1381.
+Package pdftex.def Info: nutshell/figs/fig3B3x.pdf  used on input line 1373.
 (pdftex.def)             Requested size: 369.88582pt x 666.3863pt.
 
 
-LaTeX Warning: Float too large for page by 94.18604pt on input line 1383.
+LaTeX Warning: Float too large for page by 94.18604pt on input line 1375.
 
-[279]
-Underfull \hbox (badness 10000) in paragraph at lines 1402--1402
+
+Underfull \hbox (badness 10000) in paragraph at lines 1394--1394
 []\OT1/txr/m/n/10.95 Table 4.9.1: |Rel-a-tive two-nucleon trans-fer cross sec-t
 ions
  []
 
-[280] [281 <./nutshell/figs/fig3B3x.pdf>] [282]
-Overfull \hbox (39.19127pt too wide) in paragraph at lines 1423--1424
+[278] [279 <./nutshell/figs/fig3B3x.pdf>] [280]
+Overfull \hbox (39.19127pt too wide) in paragraph at lines 1415--1416
 \OT1/txr/m/n/10.95 tion leads to a two--particle den-sity ma-trix with the prop
 -erty $[][] \OML/txmi/m/it/10.95 ^^^\OT1/txr/m/n/10.95 (\OT1/txr/bx/n/10.95 r[]
 \OML/txmi/m/it/10.95 ; \OT1/txr/bx/n/10.95 r[]\OT1/txr/m/n/10.95 ; \OT1/txr/bx/
@@ -1658,37 +1705,41 @@ n/10.95 r[]\OML/txmi/m/it/10.95 ; \OT1/txr/bx/n/10.95 r[]\OT1/txr/m/n/10.95 ) \
 U/txsyc/m/n/10.95 ,
  []
 
+[281]
 
-Overfull \hbox (20.26544pt too wide) in paragraph at lines 1430--1431
+Package natbib Warning: Citation `Potel:20b' on page 282 undefined on input lin
+e 1421.
+
+
+Overfull \hbox (20.26544pt too wide) in paragraph at lines 1421--1422
 []\OT1/txr/m/it/10.95 There is ex-per-i-men-tal ev-i-dence which tes-ti-fies to
  the fact that through the Josephson-
  []
 
-[283] [284] [285] [286] [287] [288] [289] [290] [291] [292]
-<nutshell/figs/fig3_8_1_v3.pdf, id=4378, 830.83604pt x 706.82202pt>
+[282] [283] [284] [285] [286]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [287]
+[288] [289] [290]
+<nutshell/figs/fig3_8_1_v3.pdf, id=4237, 830.83604pt x 706.82202pt>
 File: nutshell/figs/fig3_8_1_v3.pdf Graphic file (type pdf)
 <use nutshell/figs/fig3_8_1_v3.pdf>
-Package pdftex.def Info: nutshell/figs/fig3_8_1_v3.pdf  used on input line 1602
+Package pdftex.def Info: nutshell/figs/fig3_8_1_v3.pdf  used on input line 1596
 .
 (pdftex.def)             Requested size: 597.50787pt x 508.32907pt.
 
 
-LaTeX Warning: Float too large for page by 120.50764pt on input line 1609.
+LaTeX Warning: Float too large for page by 120.50764pt on input line 1603.
 
-[293] [294 <./nutshell/figs/fig3_8_1_v3.pdf>]
-Overfull \hbox (22.09659pt too wide) detected at line 1669
+[291] [292] [293 <./nutshell/figs/fig3_8_1_v3.pdf>]
+Overfull \hbox (22.09659pt too wide) detected at line 1664
 []
  []
 
-[295]
-Overfull \hbox (4.33786pt too wide) detected at line 1677
-[]
- []
-
-[296]) [297]
+[294]) [295]
 \openout2 = `C6/includeC6.aux'.
 
- (./C6/includeC6.tex [298
+ (./C6/includeC6.tex [296
 
 
 
@@ -1700,8 +1751,8 @@ Overfull \hbox (6.69849pt too wide) in paragraph at lines 8--9
 e, single-particle states dressed,
  []
 
-[299]
-<C6/figs_C6/Reaction3.pdf, id=4435, 575.75098pt x 517.935pt>
+[297]
+<C6/figs_C6/Reaction3.pdf, id=4295, 575.75098pt x 517.935pt>
 File: C6/figs_C6/Reaction3.pdf Graphic file (type pdf)
 <use C6/figs_C6/Reaction3.pdf>
 Package pdftex.def Info: C6/figs_C6/Reaction3.pdf  used on input line 16.
@@ -1717,7 +1768,7 @@ S/txsy/m/n/10.95 f\OML/txmi/m/it/10.95 J[]; M[]\OMS/txsy/m/n/10.95 g\OML/txmi/m
 95 g$
  []
 
-[300] [301 <./C6/figs_C6/Reaction3.pdf>] [302] [303]
+[298] [299 <./C6/figs_C6/Reaction3.pdf>] [300] [301]
 Overfull \hbox (51.1632pt too wide) detected at line 141
  []$[]  \OML/txmi/m/it/10.95 T[] \OT1/txr/m/n/10.95 = (\OMS/txsy/m/n/10.95 ^^@\
 OT1/txr/m/n/10.95 1)[][] [] \OML/txmi/m/it/10.95 i[]e[][] [] [][]\OT1/txr/m/n/1
@@ -1738,7 +1789,7 @@ Overfull \hbox (7.93712pt too wide) detected at line 141
 ([])\OML/txmi/m/it/10.95 :$ []  
  []
 
-[304] [305]
+[302] [303]
 Overfull \hbox (8.69138pt too wide) detected at line 192
  []$[]  \OML/txmi/m/it/10.95 t[] \OT1/txr/m/n/10.95 = (\OMS/txsy/m/n/10.95 ^^@\
 OT1/txr/m/n/10.95 1)[][]\OML/txmi/m/it/10.95 i[]e[][][]\OT1/txr/m/n/10.95 (\OML
@@ -1747,17 +1798,17 @@ OT1/txr/m/n/10.95 1)[][]\OML/txmi/m/it/10.95 i[]e[][][]\OT1/txr/m/n/10.95 (\OML
 l[]\OT1/txr/m/n/10.95 )[]([][])[][][]$ 
  []
 
-<C6/figs_C6/coord.png, id=4460, 580.569pt x 421.575pt>
+<C6/figs_C6/coord.png, id=4319, 580.569pt x 421.575pt>
 File: C6/figs_C6/coord.png Graphic file (type png)
 <use C6/figs_C6/coord.png>
 Package pdftex.def Info: C6/figs_C6/coord.png  used on input line 194.
 (pdftex.def)             Requested size: 284.52756pt x 206.60571pt.
-[306 <./C6/figs_C6/coord.png>]
+[304 <./C6/figs_C6/coord.png>]
 Overfull \hbox (72.64201pt too wide) detected at line 235
 []
  []
 
-[307]
+[305]
 Overfull \hbox (24.33946pt too wide) in paragraph at lines 273--274
 \OT1/txr/m/n/10.95 (QRPA), and a $\OML/txmi/m/it/10.95 v[]\OT1/txr/m/n/10.95 ([
 ]\OML/txmi/m/it/10.95 S[]\OT1/txr/m/n/10.95 )(\OMS/txsy/m/n/10.95 ^^Q \OML/txmi
@@ -1765,18 +1816,18 @@ Overfull \hbox (24.33946pt too wide) in paragraph at lines 273--274
 e-Fock-Bogoliubov
  []
 
-<C6/figs_C6/fig6_2_1x.pdf, id=4472, 472.34546pt x 494.0166pt>
+<C6/figs_C6/fig6_2_1x.pdf, id=4330, 472.34546pt x 494.0166pt>
 File: C6/figs_C6/fig6_2_1x.pdf Graphic file (type pdf)
 <use C6/figs_C6/fig6_2_1x.pdf>
 Package pdftex.def Info: C6/figs_C6/fig6_2_1x.pdf  used on input line 281.
 (pdftex.def)             Requested size: 284.52756pt x 297.58064pt.
-[308] [309 <./C6/figs_C6/fig6_2_1x.pdf>]
-<C6/figs_C6/fig6_2_2.pdf, id=4515, 867.62933pt x 912.46413pt>
+[306] [307 <./C6/figs_C6/fig6_2_1x.pdf>]
+<C6/figs_C6/fig6_2_2.pdf, id=4374, 867.62933pt x 912.46413pt>
 File: C6/figs_C6/fig6_2_2.pdf Graphic file (type pdf)
 <use C6/figs_C6/fig6_2_2.pdf>
 Package pdftex.def Info: C6/figs_C6/fig6_2_2.pdf  used on input line 296.
 (pdftex.def)             Requested size: 360.0pt x 378.59593pt.
-<C6/figs_C6/cross_teor_exp.pdf, id=4517, 678.92844pt x 428.3478pt>
+<C6/figs_C6/cross_teor_exp.pdf, id=4376, 678.92844pt x 428.3478pt>
 File: C6/figs_C6/cross_teor_exp.pdf Graphic file (type pdf)
 <use C6/figs_C6/cross_teor_exp.pdf>
 Package pdftex.def Info: C6/figs_C6/cross_teor_exp.pdf  used on input line 301.
@@ -1788,13 +1839,13 @@ Underfull \hbox (badness 2529) in paragraph at lines 305--305
 rox-i-ma-tion treat-ment of
  []
 
-[310] [311 <./C6/figs_C6/fig6_2_2.pdf>] [312 <./C6/figs_C6/cross_teor_exp.pdf>]
-<C8/figsC8/Fig6_2_1.pdf, id=4601, 904.50594pt x 1036.49649pt>
+[308] [309 <./C6/figs_C6/fig6_2_2.pdf>] [310 <./C6/figs_C6/cross_teor_exp.pdf>]
+<C8/figsC8/Fig6_2_1.pdf, id=4460, 904.50594pt x 1036.49649pt>
 File: C8/figsC8/Fig6_2_1.pdf Graphic file (type pdf)
 <use C8/figsC8/Fig6_2_1.pdf>
 Package pdftex.def Info: C8/figsC8/Fig6_2_1.pdf  used on input line 334.
 (pdftex.def)             Requested size: 341.43306pt x 391.24736pt.
-<C8/figsC8/Fig6_2_3.pdf, id=4603, 490.55246pt x 309.75903pt>
+<C8/figsC8/Fig6_2_3.pdf, id=4462, 490.55246pt x 309.75903pt>
 File: C8/figsC8/Fig6_2_3.pdf Graphic file (type pdf)
 <use C8/figsC8/Fig6_2_3.pdf>
 Package pdftex.def Info: C8/figsC8/Fig6_2_3.pdf  used on input line 346.
@@ -1805,30 +1856,30 @@ Overfull \hbox (20.29271pt too wide) in paragraph at lines 361--367
 v-ing with the low--lying quadrupole
  []
 
-[313] [314 <./C8/figsC8/Fig6_2_1.pdf>] [315 <./C8/figsC8/Fig6_2_3.pdf>]
-<C8/figsC8/Fig6_3_1_v2.pdf, id=4663, 1770.26653pt x 1310.38326pt>
+[311] [312 <./C8/figsC8/Fig6_2_1.pdf>] [313 <./C8/figsC8/Fig6_2_3.pdf>]
+<C8/figsC8/Fig6_3_1_v2.pdf, id=4522, 1770.26653pt x 1310.38326pt>
 File: C8/figsC8/Fig6_3_1_v2.pdf Graphic file (type pdf)
 <use C8/figsC8/Fig6_3_1_v2.pdf>
 Package pdftex.def Info: C8/figsC8/Fig6_3_1_v2.pdf  used on input line 421.
 (pdftex.def)             Requested size: 554.82874pt x 410.69345pt.
 
-[316] [317] [318 <./C8/figsC8/Fig6_3_1_v2.pdf>]
-<C6/figs_C6/FigBook1.pdf, id=4767, 448.21031pt x 333.16472pt>
+[314] [315] [316 <./C8/figsC8/Fig6_3_1_v2.pdf>]
+<C6/figs_C6/FigBook1.pdf, id=4626, 448.21031pt x 333.16472pt>
 File: C6/figs_C6/FigBook1.pdf Graphic file (type pdf)
 <use C6/figs_C6/FigBook1.pdf>
 Package pdftex.def Info: C6/figs_C6/FigBook1.pdf  used on input line 453.
 (pdftex.def)             Requested size: 341.43306pt x 253.8026pt.
-<C6/figs_C6/FigBook3.pdf, id=4768, 448.79669pt x 333.16472pt>
+<C6/figs_C6/FigBook3.pdf, id=4627, 448.79669pt x 333.16472pt>
 File: C6/figs_C6/FigBook3.pdf Graphic file (type pdf)
 <use C6/figs_C6/FigBook3.pdf>
 Package pdftex.def Info: C6/figs_C6/FigBook3.pdf  used on input line 457.
 (pdftex.def)             Requested size: 341.43306pt x 253.46707pt.
-<C6/figs_C6/FigBook2.pdf, id=4769, 448.79669pt x 333.16472pt>
+<C6/figs_C6/FigBook2.pdf, id=4628, 448.79669pt x 333.16472pt>
 File: C6/figs_C6/FigBook2.pdf Graphic file (type pdf)
 <use C6/figs_C6/FigBook2.pdf>
 Package pdftex.def Info: C6/figs_C6/FigBook2.pdf  used on input line 461.
 (pdftex.def)             Requested size: 341.43306pt x 253.46707pt.
- [319]
+ [317]
 Overfull \hbox (12.47293pt too wide) in paragraph at lines 467--470
 \OT1/txr/m/n/10.95 and thus an-swers, is pro-vided by the ab-so-lute dif-fer-en
 -tial cross sec-tion[] $\OML/txmi/m/it/10.95 d^^[\OT1/txr/m/n/10.95 (\OML/txmi/
@@ -1836,8 +1887,8 @@ m/it/10.95 ^^R\OT1/txr/m/n/10.95 )[]\OML/txmi/m/it/10.95 =d\OT1/txr/m/n/10.95
 $
  []
 
-[320 <./C6/figs_C6/FigBook1.pdf>] [321 <./C6/figs_C6/FigBook3.pdf>] [322 <./C6/
-figs_C6/FigBook2.pdf>] [323] [324] [325] [326]
+[318 <./C6/figs_C6/FigBook1.pdf>] [319 <./C6/figs_C6/FigBook3.pdf>] [320 <./C6/
+figs_C6/FigBook2.pdf>] [321] [322] [323] [324]
 LaTeX Font Info:    Font shape `OT1/txr/b/n' in size <8> not available
 (Font)              Font shape `OT1/txr/bx/n' tried instead on input line 538.
 LaTeX Font Info:    Font shape `OT1/txr/b/n' in size <6> not available
@@ -1848,12 +1899,12 @@ Underfull \hbox (badness 4492) in paragraph at lines 539--539
 , Quantum-theoretical re-
  []
 
-<C8/figsC8/fig6_6_1.pdf, id=4884, 658.46405pt x 276.91136pt>
+<C8/figsC8/fig6_6_1.pdf, id=4743, 658.46405pt x 276.91136pt>
 File: C8/figsC8/fig6_6_1.pdf Graphic file (type pdf)
 <use C8/figsC8/fig6_6_1.pdf>
 Package pdftex.def Info: C8/figsC8/fig6_6_1.pdf  used on input line 562.
 (pdftex.def)             Requested size: 284.52756pt x 119.65688pt.
-<C8/figsC8/Fig3.pdf, id=4886, 2442.43497pt x 3847.38454pt>
+<C8/figsC8/Fig3.pdf, id=4745, 2442.43497pt x 3847.38454pt>
 File: C8/figsC8/Fig3.pdf Graphic file (type pdf)
 <use C8/figsC8/Fig3.pdf>
 Package pdftex.def Info: C8/figsC8/Fig3.pdf  used on input line 567.
@@ -1861,51 +1912,51 @@ Package pdftex.def Info: C8/figsC8/Fig3.pdf  used on input line 567.
 
 LaTeX Warning: Float too large for page by 96.05254pt on input line 569.
 
-[327] [328 <./C8/figsC8/fig6_6_1.pdf>] [329 <./C8/figsC8/Fig3.pdf>] [330]
-[331] [332]
-<C6/figs_C6/fig6_C1.pdf, id=4929, 521.4241pt x 110.29463pt>
+[325] [326 <./C8/figsC8/fig6_6_1.pdf>] [327 <./C8/figsC8/Fig3.pdf>] [328]
+[329] [330]
+<C6/figs_C6/fig6_C1.pdf, id=4787, 521.4241pt x 110.29463pt>
 File: C6/figs_C6/fig6_C1.pdf Graphic file (type pdf)
 <use C6/figs_C6/fig6_C1.pdf>
 Package pdftex.def Info: C6/figs_C6/fig6_C1.pdf  used on input line 708.
 (pdftex.def)             Requested size: 284.52756pt x 60.18594pt.
-<C6/figs_C6/fig6_C2.pdf, id=4931, 485.38895pt x 111.21147pt>
+<C6/figs_C6/fig6_C2.pdf, id=4789, 485.38895pt x 111.21147pt>
 File: C6/figs_C6/fig6_C2.pdf Graphic file (type pdf)
 <use C6/figs_C6/fig6_C2.pdf>
 Package pdftex.def Info: C6/figs_C6/fig6_C2.pdf  used on input line 712.
 (pdftex.def)             Requested size: 284.52756pt x 65.19165pt.
- [333] [334 <./C6/figs_C6/fig6_C1.pdf> <./C6/figs_C6/fig6_C2.pdf>]
-[335]
-<C6/figs_C6/fig6_E1.pdf, id=5040, 406.12195pt x 334.84251pt>
+ [331] [332 <./C6/figs_C6/fig6_C1.pdf> <./C6/figs_C6/fig6_C2.pdf>]
+[333]
+<C6/figs_C6/fig6_E1.pdf, id=4900, 406.12195pt x 334.84251pt>
 File: C6/figs_C6/fig6_E1.pdf Graphic file (type pdf)
 <use C6/figs_C6/fig6_E1.pdf>
 Package pdftex.def Info: C6/figs_C6/fig6_E1.pdf  used on input line 775.
 (pdftex.def)             Requested size: 199.16928pt x 164.2122pt.
- [336] [337 <./C6/figs_C6/fig6_E1.pdf>] [338]
-<C6/figs_C6/fig6_F2.pdf, id=5071, 737.6687pt x 550.16895pt>
+ [334] [335 <./C6/figs_C6/fig6_E1.pdf>] [336]
+<C6/figs_C6/fig6_F2.pdf, id=4929, 737.6687pt x 550.16895pt>
 File: C6/figs_C6/fig6_F2.pdf Graphic file (type pdf)
 <use C6/figs_C6/fig6_F2.pdf>
 Package pdftex.def Info: C6/figs_C6/fig6_F2.pdf  used on input line 889.
 (pdftex.def)             Requested size: 426.79134pt x 318.30908pt.
- [339] [340 <./C6/figs_C6/fig6_F2.pdf>] [341]
-<C6/figs_C6/knock1.pdf, id=5104, 597.50786pt x 845.04686pt>
+ [337] [338 <./C6/figs_C6/fig6_F2.pdf>] [339]
+<C6/figs_C6/knock1.pdf, id=4963, 597.50786pt x 845.04686pt>
 File: C6/figs_C6/knock1.pdf Graphic file (type pdf)
 <use C6/figs_C6/knock1.pdf>
 Package pdftex.def Info: C6/figs_C6/knock1.pdf  used on input line 954.
 (pdftex.def)             Requested size: 284.52756pt x 402.4072pt.
- [342] [343 <./C6/figs_C6/knock1.pdf>] [344]
+ [340] [341 <./C6/figs_C6/knock1.pdf>] [342]
 Overfull \hbox (7.52312pt too wide) detected at line 1038
 []
  []
 
-<C6/figs_C6/coords2.pdf, id=5133, 597.50786pt x 845.04686pt>
+<C6/figs_C6/coords2.pdf, id=4991, 597.50786pt x 845.04686pt>
 File: C6/figs_C6/coords2.pdf Graphic file (type pdf)
 <use C6/figs_C6/coords2.pdf>
 Package pdftex.def Info: C6/figs_C6/coords2.pdf  used on input line 1054.
 (pdftex.def)             Requested size: 284.52756pt x 402.4072pt.
-[345]
+[343]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [346 <./C6/figs_C6/coords2.pdf>]
+ [344 <./C6/figs_C6/coords2.pdf>]
 Overfull \hbox (20.8552pt too wide) detected at line 1099
 []
  []
@@ -1915,13 +1966,13 @@ Overfull \hbox (10.12291pt too wide) detected at line 1106
 []
  []
 
-[347]
-<C6/figs_C6/knock2.pdf, id=5154, 597.50786pt x 845.04686pt>
+[345]
+<C6/figs_C6/knock2.pdf, id=5013, 597.50786pt x 845.04686pt>
 File: C6/figs_C6/knock2.pdf Graphic file (type pdf)
 <use C6/figs_C6/knock2.pdf>
 Package pdftex.def Info: C6/figs_C6/knock2.pdf  used on input line 1110.
 (pdftex.def)             Requested size: 284.52756pt x 402.4072pt.
- [348 <./C6/figs_C6/knock2.pdf>] [349]
+ [346 <./C6/figs_C6/knock2.pdf>] [347]
 Overfull \hbox (43.6791pt too wide) detected at line 1184
  []$[]  \OML/txmi/m/it/10.95 T[]\OT1/txr/m/n/10.95 (\OT1/txr/bx/n/10.95 k[]\OML
 /txmi/m/it/10.95 ; \OT1/txr/bx/n/10.95 k[]\OT1/txr/m/n/10.95 ) = [] [] [] [] []
@@ -1937,7 +1988,7 @@ m/n/10.95 ([]) [] \OML/txmi/m/it/10.95 d\OT1/txr/bx/n/10.95 r[]\OML/txmi/m/it/1
 0.95 d\OT1/txr/bx/n/10.95 r[] [][] [][]$ 
  []
 
-[350]
+[348]
 Overfull \hbox (23.15771pt too wide) detected at line 1215
  []$[] \OMS/txsy/m/n/10.95 ^^B h\OML/txmi/m/it/10.95 l[] m[] \OMS/txsy/m/n/10.9
 5 ^^@ \OML/txmi/m/it/10.95 m[] \OMS/txsy/m/n/10.95 ^^@ \OML/txmi/m/it/10.95 M \
@@ -1956,8 +2007,8 @@ i$
 
 Underfull \vbox (badness 1400) has occurred while \output is active []
 
- [351]
-[352]
+ [349]
+[350]
 Overfull \hbox (16.38405pt too wide) detected at line 1296
  []$[]  \OML/txmi/m/it/10.95 T[]\OT1/txr/m/n/10.95 (\OT1/txr/bx/n/10.95 k[]\OML
 /txmi/m/it/10.95 ; \OT1/txr/bx/n/10.95 k[]\OT1/txr/m/n/10.95 ) = [][]\OML/txmi/
@@ -1965,14 +2016,14 @@ m/it/10.95 D[]T[] [] [] [] [] e[]i[]\OT1/txr/m/n/10.95 (\OMS/txsy/m/n/10.95 ^^@
 \OT1/txr/m/n/10.95 1)[]$ 
  []
 
-[353]
-<C6/figs_C6/onept.pdf, id=5193, 597.50786pt x 845.04686pt>
+[351]
+<C6/figs_C6/onept.pdf, id=5052, 597.50786pt x 845.04686pt>
 File: C6/figs_C6/onept.pdf Graphic file (type pdf)
 <use C6/figs_C6/onept.pdf>
 Package pdftex.def Info: C6/figs_C6/onept.pdf  used on input line 1302.
 (pdftex.def)             Requested size: 284.52756pt x 402.4072pt.
- [354] [355 <./C6/figs_C6/onept.pdf>] [356] [357] [358]
-<C6/figs_C6/fig4I1.pdf, id=5229, 1361.91023pt x 834.45326pt>
+ [352] [353 <./C6/figs_C6/onept.pdf>] [354] [355] [356]
+<C6/figs_C6/fig4I1.pdf, id=5088, 1361.91023pt x 834.45326pt>
 File: C6/figs_C6/fig4I1.pdf Graphic file (type pdf)
 <use C6/figs_C6/fig4I1.pdf>
 Package pdftex.def Info: C6/figs_C6/fig4I1.pdf  used on input line 1406.
@@ -1987,22 +2038,22 @@ Overfull \hbox (1.33829pt too wide) in paragraph at lines 1417--1419
 e resid-ual in-ter-ac-tion among
  []
 
-[359] [360 <./C6/figs_C6/fig4I1.pdf>]) [361]
+[357] [358 <./C6/figs_C6/fig4I1.pdf>]) [359]
 \openout2 = `C7/includeC7.aux'.
 
- (./C7/includeC7.tex [362
+ (./C7/includeC7.tex [360
 
 
 
 ]
 Chapter 6.
-[363]
-<C7/figs_C7/tritium.pdf, id=5309, 492.32301pt x 396.82256pt>
+[361]
+<C7/figs_C7/tritium.pdf, id=5168, 492.32301pt x 396.82256pt>
 File: C7/figs_C7/tritium.pdf Graphic file (type pdf)
 <use C7/figs_C7/tritium.pdf>
 Package pdftex.def Info: C7/figs_C7/tritium.pdf  used on input line 37.
 (pdftex.def)             Requested size: 198.0011pt x 159.59207pt.
-<C7/figs_C7/deuteron.pdf, id=5311, 494.96289pt x 408.38182pt>
+<C7/figs_C7/deuteron.pdf, id=5170, 494.96289pt x 408.38182pt>
 File: C7/figs_C7/deuteron.pdf Graphic file (type pdf)
 <use C7/figs_C7/deuteron.pdf>
 Package pdftex.def Info: C7/figs_C7/deuteron.pdf  used on input line 41.
@@ -2019,7 +2070,7 @@ r/m/n/10.95 (\OT1/txr/bx/n/10.95 r[]\OT1/txr/m/n/10.95 )\OML/txmi/m/it/10.95 v\
 OT1/txr/m/n/10.95 (\OT1/txr/bx/n/10.95 r[]\OT1/txr/m/n/10.95 )$ 
  []
 
-[364 <./C7/figs_C7/tritium.pdf>]
+[362 <./C7/figs_C7/tritium.pdf>]
 Overfull \hbox (19.77057pt too wide) detected at line 73
  []$[]  \OML/txmi/m/it/10.95 T[]\OT1/txr/m/n/10.95 (\OML/txmi/m/it/10.95 ^^R\OT
 1/txr/m/n/10.95 ) = 2 [] [] [] [] \OML/txmi/m/it/10.95 d\OT1/txr/bx/n/10.95 r[]
@@ -2038,7 +2089,7 @@ wave-func-tions $\OML/txmi/m/it/10.95 '[]\OT1/txr/m/n/10.95 (\OT1/txr/bx/n/10.9
 5 r[]\OT1/txr/m/n/10.95 )$
  []
 
-[365 <./C7/figs_C7/deuteron.pdf>] [366]
+[363 <./C7/figs_C7/deuteron.pdf>] [364]
 Overfull \hbox (9.90369pt too wide) in paragraph at lines 111--113
 \OT1/txr/m/n/10.95 The $\OML/txmi/m/it/10.95 f[]\OT1/txr/m/n/10.95 (\OML/txmi/m
 /it/10.95 k[]; r\OT1/txr/m/n/10.95 )$ and $\OML/txmi/m/it/10.95 g[]\OT1/txr/m/n
@@ -2046,11 +2097,11 @@ Overfull \hbox (9.90369pt too wide) in paragraph at lines 111--113
 the ir-reg-u-lar so-lu-tions of a Schr[]odinger
  []
 
-[367] [368]
+[365] [366]
 Underfull \vbox (badness 7081) has occurred while \output is active []
 
- [369]
-[370] [371] [372] [373] [374]
+ [367]
+[368] [369] [370] [371] [372]
 Overfull \hbox (0.1503pt too wide) detected at line 493
 []
  []
@@ -2058,8 +2109,8 @@ Overfull \hbox (0.1503pt too wide) detected at line 493
 
 Underfull \vbox (badness 7291) has occurred while \output is active []
 
- [375]
-[376] [377] [378] [379]
+ [373]
+[374] [375] [376] [377]
 Overfull \hbox (2.43016pt too wide) detected at line 761
 []
  []
@@ -2077,7 +2128,7 @@ Overfull \hbox (49.41087pt too wide) detected at line 790
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [380]
+ [378]
 Overfull \hbox (20.16118pt too wide) detected at line 829
 []
  []
@@ -2085,18 +2136,18 @@ Overfull \hbox (20.16118pt too wide) detected at line 829
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [381]
-[382]
+ [379]
+[380]
 Overfull \hbox (4.96275pt too wide) in paragraph at lines 912--914
 \OT1/txr/m/n/10.95 The ex-pres-sion of the re-main-ing quan-ti-ties ap-pear-ing
  in the in-te-gral are now straight-
  []
 
-[383]
+[381]
 Underfull \vbox (badness 2980) has occurred while \output is active []
 
- [384]
-[385]
+ [382]
+[383]
 Overfull \hbox (67.3315pt too wide) detected at line 1053
 []
  []
@@ -2106,7 +2157,7 @@ Overfull \hbox (2.30019pt too wide) detected at line 1072
 []
  []
 
-[386]
+[384]
 Overfull \hbox (26.07825pt too wide) detected at line 1086
 []
  []
@@ -2116,12 +2167,12 @@ Overfull \hbox (2.2184pt too wide) detected at line 1120
 []
  []
 
-[387] [388]
+[385] [386]
 Overfull \hbox (1.12923pt too wide) detected at line 1180
 []
  []
 
-[389] [390] [391] [392] [393]
+[387] [388] [389] [390] [391]
 Overfull \hbox (75.8953pt too wide) detected at line 1393
 []
  []
@@ -2131,7 +2182,7 @@ Overfull \hbox (11.92131pt too wide) detected at line 1413
 []
  []
 
-[394]
+[392]
 Overfull \hbox (52.8132pt too wide) detected at line 1426
  []$[] \OT1/txr/m/n/10.95 = [] [] \OML/txmi/m/it/10.95 d\OT1/txr/bx/n/10.95 r[]
 \OT1/txr/m/n/10.95 (\OMS/txsy/m/n/10.95 ^^@\OT1/txr/m/n/10.95 1)[] [][] [][]$ 
@@ -2155,7 +2206,7 @@ Overfull \hbox (18.17717pt too wide) detected at line 1435
 []
  []
 
-[395]
+[393]
 Overfull \hbox (19.04434pt too wide) detected at line 1504
 []
  []
@@ -2163,13 +2214,13 @@ Overfull \hbox (19.04434pt too wide) detected at line 1504
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [396]
+ [394]
 Overfull \hbox (32.75931pt too wide) detected at line 1516
 []
  []
 
-[397] [398]
-<C7/figs_C7/FigA.pdf, id=5487, 1351.2547pt x 1431.68617pt>
+[395] [396]
+<C7/figs_C7/FigA.pdf, id=5345, 1351.2547pt x 1431.68617pt>
 File: C7/figs_C7/FigA.pdf Graphic file (type pdf)
 <use C7/figs_C7/FigA.pdf>
 Package pdftex.def Info: C7/figs_C7/FigA.pdf  used on input line 1576.
@@ -2179,7 +2230,7 @@ Overfull \hbox (71.9989pt too wide) in paragraph at lines 1576--1577
  [] 
  []
 
-<C7/figs_C7/FigB.pdf, id=5489, 706.26445pt x 933.72667pt>
+<C7/figs_C7/FigB.pdf, id=5347, 706.26445pt x 933.72667pt>
 File: C7/figs_C7/FigB.pdf Graphic file (type pdf)
 <use C7/figs_C7/FigB.pdf>
 Package pdftex.def Info: C7/figs_C7/FigB.pdf  used on input line 1582.
@@ -2196,19 +2247,19 @@ Overfull \hbox (16.51506pt too wide) in paragraph at lines 1589--1590
  ap-prox-i-ma-tion (RPA,QRPA),
  []
 
-[399] [400 <./C7/figs_C7/FigA.pdf>] [401 <./C7/figs_C7/FigB.pdf>]
-<C7/figs_C7/coord.pdf, id=5526, 833.5884pt x 321.16747pt>
+[397] [398 <./C7/figs_C7/FigA.pdf>] [399 <./C7/figs_C7/FigB.pdf>]
+<C7/figs_C7/coord.pdf, id=5385, 833.5884pt x 321.16747pt>
 File: C7/figs_C7/coord.pdf Graphic file (type pdf)
 <use C7/figs_C7/coord.pdf>
 Package pdftex.def Info: C7/figs_C7/coord.pdf  used on input line 1610.
 (pdftex.def)             Requested size: 360.0pt x 138.70209pt.
- [402 <./C7/figs_C7/coord.pdf>] [403] [404] [405]
-<C7/figs_C7/figC7B2.pdf, id=5582, 447.27101pt x 415.954pt>
+ [400 <./C7/figs_C7/coord.pdf>] [401] [402] [403]
+<C7/figs_C7/figC7B2.pdf, id=5441, 447.27101pt x 415.954pt>
 File: C7/figs_C7/figC7B2.pdf Graphic file (type pdf)
 <use C7/figs_C7/figC7B2.pdf>
 Package pdftex.def Info: C7/figs_C7/figC7B2.pdf  used on input line 1814.
 (pdftex.def)             Requested size: 270.0pt x 251.10393pt.
-<C7/figs_C7/figC7B3.pdf, id=5584, 439.24101pt x 246.52101pt>
+<C7/figs_C7/figC7B3.pdf, id=5443, 439.24101pt x 246.52101pt>
 File: C7/figs_C7/figC7B3.pdf Graphic file (type pdf)
 <use C7/figs_C7/figC7B3.pdf>
 Package pdftex.def Info: C7/figs_C7/figC7B3.pdf  used on input line 1819.
@@ -2219,7 +2270,7 @@ Underfull \hbox (badness 2253) in paragraph at lines 1820--1820
 n to the ground state
  []
 
-<C7/figs_C7/figC7B4.pdf, id=5586, 301.928pt x 371.789pt>
+<C7/figs_C7/figC7B4.pdf, id=5445, 301.928pt x 371.789pt>
 File: C7/figs_C7/figC7B4.pdf Graphic file (type pdf)
 <use C7/figs_C7/figC7B4.pdf>
 Package pdftex.def Info: C7/figs_C7/figC7B4.pdf  used on input line 1824.
@@ -2239,7 +2290,7 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<C7/figs_C7/Reaction1.pdf, id=5588, 597.50786pt x 845.04686pt>
+<C7/figs_C7/Reaction1.pdf, id=5447, 597.50786pt x 845.04686pt>
 File: C7/figs_C7/Reaction1.pdf Graphic file (type pdf)
 <use C7/figs_C7/Reaction1.pdf>
 Package pdftex.def Info: C7/figs_C7/Reaction1.pdf  used on input line 1831.
@@ -2247,7 +2298,7 @@ Package pdftex.def Info: C7/figs_C7/Reaction1.pdf  used on input line 1831.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<C7/figs_C7/Reaction2.pdf, id=5590, 594.40465pt x 780.05276pt>
+<C7/figs_C7/Reaction2.pdf, id=5449, 594.40465pt x 780.05276pt>
 File: C7/figs_C7/Reaction2.pdf Graphic file (type pdf)
 <use C7/figs_C7/Reaction2.pdf>
 Package pdftex.def Info: C7/figs_C7/Reaction2.pdf  used on input line 1837.
@@ -2255,12 +2306,12 @@ Package pdftex.def Info: C7/figs_C7/Reaction2.pdf  used on input line 1837.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<C7/figs_C7/figC7C3.pdf, id=5592, 456.10399pt x 239.29399pt>
+<C7/figs_C7/figC7C3.pdf, id=5451, 456.10399pt x 239.29399pt>
 File: C7/figs_C7/figC7C3.pdf Graphic file (type pdf)
 <use C7/figs_C7/figC7C3.pdf>
 Package pdftex.def Info: C7/figs_C7/figC7C3.pdf  used on input line 1844.
 (pdftex.def)             Requested size: 270.0pt x 141.65689pt.
-[406] [407 <./C7/figs_C7/figC7B2.pdf>]
+[404] [405 <./C7/figs_C7/figC7B2.pdf>]
 Overfull \hbox (13.21794pt too wide) detected at line 1903
 []
  []
@@ -2268,54 +2319,54 @@ Overfull \hbox (13.21794pt too wide) detected at line 1903
 
 Underfull \vbox (badness 6284) has occurred while \output is active []
 
- [408 <./C7/figs_C7/figC7B3.pdf>] [409 <./C7/figs_C7/figC7B4.pdf>]
+ [406 <./C7/figs_C7/figC7B3.pdf>] [407 <./C7/figs_C7/figC7B4.pdf>]
 Underfull \vbox (badness 5403) has occurred while \output is active []
 
- [410 <./C7/figs_C7/Reaction1.pdf>]
+ [408 <./C7/figs_C7/Reaction1.pdf>]
 Overfull \vbox (79.76546pt too high) has occurred while \output is active []
 
 
-[411 <./C7/figs_C7/Reaction2.pdf>]
+[409 <./C7/figs_C7/Reaction2.pdf>]
 Underfull \vbox (badness 1132) has occurred while \output is active []
 
- [412 <./C7/figs_C7/figC7C3.pdf>] [413] [414]
+ [410 <./C7/figs_C7/figC7C3.pdf>] [411] [412]
 Overfull \hbox (1.8139pt too wide) in paragraph at lines 2040--2040
 []\OT1/txr/bx/n/14.4 Spherical har-mon-ics and an-gu-lar mo-menta 
  []
 
-[415] [416] [417] [418] [419]
+[413] [414] [415] [416] [417]
 Overfull \hbox (7.34784pt too wide) in paragraph at lines 2279--2281
 \OT1/txr/m/n/10.95 When we sub-sti-tute these an-gu-lar trans-for-ma-tions in t
 he spher-i-cal har-monic $\OML/txmi/m/it/10.95 Y[]\OT1/txr/m/n/10.95 (\OML/txmi
 /m/it/10.95 ^^R; ^^^\OT1/txr/m/n/10.95 )$,
  []
 
-[420] [421]
+[418] [419]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [422]
-[423]
+ [420]
+[421]
 Overfull \hbox (47.76418pt too wide) in paragraph at lines 2424--2424
 \OT1/txr/bx/n/14.4 tion am-pli-tudes in-clud-ing re-coil, non-orthogonality
  []
 
-<C7/figs_C7/fig5_H_1.pdf, id=5679, 794.97pt x 614.295pt>
+<C7/figs_C7/fig5_H_1.pdf, id=5539, 794.97pt x 614.295pt>
 File: C7/figs_C7/fig5_H_1.pdf Graphic file (type pdf)
 <use C7/figs_C7/fig5_H_1.pdf>
 Package pdftex.def Info: C7/figs_C7/fig5_H_1.pdf  used on input line 2427.
 (pdftex.def)             Requested size: 483.69684pt x 373.77269pt.
-) [424] [425 <./C7/figs_C7/fig5_H_1.pdf, page is rotated 270 degrees>]
+) [422] [423 <./C7/figs_C7/fig5_H_1.pdf, page is rotated 270 degrees>]
 \openout2 = `C8/includeC8.aux'.
 
 
-(./C8/includeC8.tex [426
+(./C8/includeC8.tex [424
 
 
 
 ]
 Chapter 7.
-[427]
-<C8/figsC8/fig8_1_3x.pdf, id=5698, 403.106pt x 466.54298pt>
+[425]
+<C8/figsC8/fig8_1_3x.pdf, id=5556, 403.106pt x 466.54298pt>
 File: C8/figsC8/fig8_1_3x.pdf Graphic file (type pdf)
 <use C8/figsC8/fig8_1_3x.pdf>
 Package pdftex.def Info: C8/figsC8/fig8_1_3x.pdf  used on input line 9.
@@ -2324,41 +2375,41 @@ Package pdftex.def Info: C8/figsC8/fig8_1_3x.pdf  used on input line 9.
 
 LaTeX Warning: Float too large for page by 9.09529pt on input line 12.
 
-<C8/figsC8/fig8_1_1.pdf, id=5700, 410.10281pt x 582.27957pt>
+<C8/figsC8/fig8_1_1.pdf, id=5558, 410.10281pt x 582.27957pt>
 File: C8/figsC8/fig8_1_1.pdf Graphic file (type pdf)
 <use C8/figsC8/fig8_1_1.pdf>
 Package pdftex.def Info: C8/figsC8/fig8_1_1.pdf  used on input line 14.
 (pdftex.def)             Requested size: 341.43306pt x 484.78458pt.
-<C8/figsC8/fig8_1_3.pdf, id=5702, 863.35934pt x 617.44066pt>
+<C8/figsC8/fig8_1_3.pdf, id=5560, 863.35934pt x 617.44066pt>
 File: C8/figsC8/fig8_1_3.pdf Graphic file (type pdf)
 <use C8/figsC8/fig8_1_3.pdf>
 Package pdftex.def Info: C8/figsC8/fig8_1_3.pdf  used on input line 22.
 (pdftex.def)             Requested size: 512.1496pt x 366.28416pt.
-[428] [429 <./C8/figsC8/fig8_1_3x.pdf>] [430 <./C8/figsC8/fig8_1_1.pdf>]
-[431 <./C8/figsC8/fig8_1_3.pdf>]
+[426] [427 <./C8/figsC8/fig8_1_3x.pdf>] [428 <./C8/figsC8/fig8_1_1.pdf>]
+[429 <./C8/figsC8/fig8_1_3.pdf>]
 Overfull \hbox (12.51808pt too wide) in paragraph at lines 83--84
 \OT1/txr/m/n/10.95 verse kine-mat-ics, two-neutron pick up re-ac-tion $[]$H($[]
 $Li,$[]$Li)$[]$H are[], the $\OMS/txsy/m/n/10.95 j\OT1/txr/m/n/10.95 3\OML/txmi
 /m/it/10.95 =\OT1/txr/m/n/10.95 2[][] ([][])\OMS/txsy/m/n/10.95 i$
  []
 
-[432]
+[430]
 Overfull \hbox (26.85603pt too wide) in paragraph at lines 109--132
  [] 
  []
 
-[433]
-<C8/figsC8/fig8_B_2.pdf, id=5967, 527.57097pt x 466.54298pt>
+[431]
+<C8/figsC8/fig8_B_2.pdf, id=5825, 527.57097pt x 466.54298pt>
 File: C8/figsC8/fig8_B_2.pdf Graphic file (type pdf)
 <use C8/figsC8/fig8_B_2.pdf>
 Package pdftex.def Info: C8/figsC8/fig8_B_2.pdf  used on input line 145.
 (pdftex.def)             Requested size: 341.43306pt x 301.93945pt.
-<C8/figsC8/fig8_B_3.pdf, id=5969, 627.94597pt x 474.57298pt>
+<C8/figsC8/fig8_B_3.pdf, id=5827, 627.94597pt x 474.57298pt>
 File: C8/figsC8/fig8_B_3.pdf Graphic file (type pdf)
 <use C8/figsC8/fig8_B_3.pdf>
 Package pdftex.def Info: C8/figsC8/fig8_B_3.pdf  used on input line 150.
 (pdftex.def)             Requested size: 341.43306pt x 258.03973pt.
-<C8/figsC8/fig8_1_5.pdf, id=5971, 653.9789pt x 407.56581pt>
+<C8/figsC8/fig8_1_5.pdf, id=5829, 653.9789pt x 407.56581pt>
 File: C8/figsC8/fig8_1_5.pdf Graphic file (type pdf)
 <use C8/figsC8/fig8_1_5.pdf>
 Package pdftex.def Info: C8/figsC8/fig8_1_5.pdf  used on input line 162.
@@ -2366,8 +2417,8 @@ Package pdftex.def Info: C8/figsC8/fig8_1_5.pdf  used on input line 162.
 
 Underfull \vbox (badness 6204) has occurred while \output is active []
 
- [434]
-[435 <./C8/figsC8/fig8_B_2.pdf>] [436 <./C8/figsC8/fig8_B_3.pdf>]
+ [432]
+[433 <./C8/figsC8/fig8_B_2.pdf>] [434 <./C8/figsC8/fig8_B_3.pdf>]
 Underfull \hbox (badness 10000) in paragraph at lines 194--194
 []\OT1/txr/m/n/10.95 Table 7.2.1: |Two-nucleon trans-fer spec-tro-scopic am-pli
 -tudes
@@ -2378,7 +2429,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 194--194
 []\OT1/txr/m/n/10.95 , as-so-ci-ated with
  []
 
-<C8/figsC8/fig8_2_4.pdf, id=5993, 482.93813pt x 493.46458pt>
+<C8/figsC8/fig8_2_4.pdf, id=5853, 482.93813pt x 493.46458pt>
 File: C8/figsC8/fig8_2_4.pdf Graphic file (type pdf)
 <use C8/figsC8/fig8_2_4.pdf>
 Package pdftex.def Info: C8/figsC8/fig8_2_4.pdf  used on input line 199.
@@ -2392,21 +2443,21 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 Underfull \vbox (badness 3386) has occurred while \output is active []
 
- [437]
-[438 <./C8/figsC8/fig8_1_5.pdf>] [439 <./C8/figsC8/fig8_2_4.pdf>]
+ [435]
+[436 <./C8/figsC8/fig8_1_5.pdf>] [437 <./C8/figsC8/fig8_2_4.pdf>]
 Overfull \hbox (21.95746pt too wide) in paragraph at lines 246--247
 \OT1/txr/m/n/10.95 schemes to cal-cu-late the $\OML/txmi/m/it/10.95 B$\OT1/txr/
 m/n/10.95 -amplitude[] as-so-ci-ated with the re-ac-tion $[]$Sn$(\OML/txmi/m/it
 /10.95 p; t\OT1/txr/m/n/10.95 )[]$Sn(gs).
  []
 
-[440] [441]
-<C8/figsC8/Fig2_v2.pdf, id=6273, 795.53908pt x 614.86407pt>
+[438] [439]
+<C8/figsC8/Fig2_v2.pdf, id=6132, 795.53908pt x 614.86407pt>
 File: C8/figsC8/Fig2_v2.pdf Graphic file (type pdf)
 <use C8/figsC8/Fig2_v2.pdf>
 Package pdftex.def Info: C8/figsC8/Fig2_v2.pdf  used on input line 284.
 (pdftex.def)             Requested size: 341.43306pt x 263.88914pt.
-<C8/figsC8/fig5_v2.pdf, id=6275, 736.00961pt x 431.497pt>
+<C8/figsC8/fig5_v2.pdf, id=6134, 736.00961pt x 431.497pt>
 File: C8/figsC8/fig5_v2.pdf Graphic file (type pdf)
 <use C8/figsC8/fig5_v2.pdf>
 Package pdftex.def Info: C8/figsC8/fig5_v2.pdf  used on input line 290.
@@ -2417,8 +2468,8 @@ Overfull \hbox (2.40431pt too wide) in paragraph at lines 297--297
 r-
  []
 
-[442 <./C8/figsC8/Fig2_v2.pdf>]
-<C8/figsC8/SnNi2n_v4.pdf, id=6327, 2148.60555pt x 1034.72424pt>
+[440 <./C8/figsC8/Fig2_v2.pdf>]
+<C8/figsC8/SnNi2n_v4.pdf, id=6186, 2148.60555pt x 1034.72424pt>
 File: C8/figsC8/SnNi2n_v4.pdf Graphic file (type pdf)
 <use C8/figsC8/SnNi2n_v4.pdf>
 Package pdftex.def Info: C8/figsC8/SnNi2n_v4.pdf  used on input line 307.
@@ -2446,14 +2497,14 @@ Overfull \hbox (0.7346pt too wide) in paragraph at lines 304--310
 
 Overfull \hbox (114.34824pt too wide) has occurred while \output is active
 \OT1/txr/m/sl/10.95 7.3.  HEAVY ION REACTIONS BETWEEN SUPERFLUID NUCLEI AND COR
-RELATION LENGTH \OT1/txr/m/n/10.95 443
+RELATION LENGTH \OT1/txr/m/n/10.95 441
  []
 
-[443 <./C8/figsC8/fig5_v2.pdf>]
+[441 <./C8/figsC8/fig5_v2.pdf>]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [444 <./C8/figsC8/SnNi2n_v4.pdf>]
-<C8/figsC8/Fig8_v2.pdf, id=10018, 405.74667pt x 628.08138pt>
+ [442 <./C8/figsC8/SnNi2n_v4.pdf>]
+<C8/figsC8/Fig8_v2.pdf, id=9877, 405.74667pt x 628.08138pt>
 File: C8/figsC8/Fig8_v2.pdf Graphic file (type pdf)
 <use C8/figsC8/Fig8_v2.pdf>
 Package pdftex.def Info: C8/figsC8/Fig8_v2.pdf  used on input line 325.
@@ -2462,7 +2513,7 @@ Package pdftex.def Info: C8/figsC8/Fig8_v2.pdf  used on input line 325.
 
 LaTeX Warning: Float too large for page by 55.41197pt on input line 327.
 
-[445] [446 <./C8/figsC8/Fig8_v2.pdf>] [447]
+[443] [444 <./C8/figsC8/Fig8_v2.pdf>] [445]
 Overfull \hbox (5.34222pt too wide) in paragraph at lines 342--343
 \OT1/txr/m/n/10.95 sen-si-tiv-ity of the ab-so-lute cross sec-tions to the mod-
 els used to cal-cu-late $\OML/txmi/m/it/10.95 F\OT1/txr/m/n/10.95 (\OT1/txr/bx/
@@ -2473,9 +2524,9 @@ n/10.95 r[]\OML/txmi/m/it/10.95 ; \OT1/txr/bx/n/10.95 r[]\OML/txmi/m/it/10.95 ;
 
 Underfull \vbox (badness 6332) has occurred while \output is active []
 
- [448]
-[449] [450]
-<C8/figsC8/120Sn_pt.pdf, id=10068, 448.79669pt x 328.75037pt>
+ [446]
+[447] [448]
+<C8/figsC8/120Sn_pt.pdf, id=9928, 448.79669pt x 328.75037pt>
 File: C8/figsC8/120Sn_pt.pdf Graphic file (type pdf)
 <use C8/figsC8/120Sn_pt.pdf>
 Package pdftex.def Info: C8/figsC8/120Sn_pt.pdf  used on input line 453.
@@ -2486,98 +2537,98 @@ Overfull \hbox (0.4242pt too wide) in paragraph at lines 431--457
 ions de-ter-mine the asymp-
  []
 
-[451] [452 <./C8/figsC8/120Sn_pt.pdf>] [453]
+[449] [450 <./C8/figsC8/120Sn_pt.pdf>] [451]
 Overfull \hbox (3.4425pt too wide) in paragraph at lines 546--547
 []\OT1/txr/m/n/10.95 We now con-sider $[]$Li$[]$, and cal-cu-late $\OML/txmi/m/
 it/10.95 k[]$ \OT1/txr/m/n/10.95 (neu-trons) with the help of the Thomas-
  []
 
-[454] [455]
-<C8/figsC8/figA1_corr.pdf, id=10099, 187.76581pt x 232.39pt>
+[452] [453]
+<C8/figsC8/figA1_corr.pdf, id=9958, 187.76581pt x 232.39pt>
 File: C8/figsC8/figA1_corr.pdf Graphic file (type pdf)
 <use C8/figsC8/figA1_corr.pdf>
 Package pdftex.def Info: C8/figsC8/figA1_corr.pdf  used on input line 571.
 (pdftex.def)             Requested size: 360.0pt x 445.59152pt.
-<C8/figsC8/Nobel40Years-4b.pdf, id=10100, 542.97171pt x 790.69499pt>
+<C8/figsC8/Nobel40Years-4b.pdf, id=9959, 542.97171pt x 790.69499pt>
 File: C8/figsC8/Nobel40Years-4b.pdf Graphic file (type pdf)
 <use C8/figsC8/Nobel40Years-4b.pdf>
 Package pdftex.def Info: C8/figsC8/Nobel40Years-4b.pdf  used on input line 577.
 
 (pdftex.def)             Requested size: 288.0011pt x 419.3921pt.
-<C8/figsC8/figa3_newnew.pdf, id=10101, 887.02963pt x 352.05426pt>
+<C8/figsC8/figa3_newnew.pdf, id=9960, 887.02963pt x 352.05426pt>
 File: C8/figsC8/figa3_newnew.pdf Graphic file (type pdf)
 <use C8/figsC8/figa3_newnew.pdf>
 Package pdftex.def Info: C8/figsC8/figa3_newnew.pdf  used on input line 583.
 (pdftex.def)             Requested size: 360.0pt x 142.88202pt.
-<C8/figsC8/figa4_newnew.pdf, id=10102, 816.49077pt x 239.04936pt>
+<C8/figsC8/figa4_newnew.pdf, id=9961, 816.49077pt x 239.04936pt>
 File: C8/figsC8/figa4_newnew.pdf Graphic file (type pdf)
 <use C8/figsC8/figa4_newnew.pdf>
 Package pdftex.def Info: C8/figsC8/figa4_newnew.pdf  used on input line 589.
 (pdftex.def)             Requested size: 360.0pt x 105.4009pt.
- [456] [457 <./C8/figsC8/figA1_corr.pdf>] [458 <./C8/figsC8/Nobel40Years-4b.pdf
->] [459 <./C8/figsC8/figa3_newnew.pdf> <./C8/figsC8/figa4_newnew.pdf
+ [454] [455 <./C8/figsC8/figA1_corr.pdf>] [456 <./C8/figsC8/Nobel40Years-4b.pdf
+>] [457 <./C8/figsC8/figa3_newnew.pdf> <./C8/figsC8/figa4_newnew.pdf
 
 pdfTeX warning: /usr/bin/pdflatex (file ./C8/figsC8/figa4_newnew.pdf): PDF incl
 usion: multiple pdfs with page group included in a single page
->] [460] [461]
-<C8/figsC8/fig6G1.pdf, id=10171, 501.40955pt x 258.35538pt>
+>] [458] [459]
+<C8/figsC8/fig6G1.pdf, id=10030, 501.40955pt x 258.35538pt>
 File: C8/figsC8/fig6G1.pdf Graphic file (type pdf)
 <use C8/figsC8/fig6G1.pdf>
 Package pdftex.def Info: C8/figsC8/fig6G1.pdf  used on input line 664.
 (pdftex.def)             Requested size: 360.0pt x 185.49141pt.
-<C8/figsC8/fig6G2.pdf, id=10172, 440.89548pt x 323.97433pt>
+<C8/figsC8/fig6G2.pdf, id=10031, 440.89548pt x 323.97433pt>
 File: C8/figsC8/fig6G2.pdf Graphic file (type pdf)
 <use C8/figsC8/fig6G2.pdf>
 Package pdftex.def Info: C8/figsC8/fig6G2.pdf  used on input line 681.
 (pdftex.def)             Requested size: 284.52756pt x 209.078pt.
-<C8/figsC8/fig6G3.pdf, id=10173, 421.2057pt x 626.53783pt>
+<C8/figsC8/fig6G3.pdf, id=10032, 421.2057pt x 626.53783pt>
 File: C8/figsC8/fig6G3.pdf Graphic file (type pdf)
 <use C8/figsC8/fig6G3.pdf>
 Package pdftex.def Info: C8/figsC8/fig6G3.pdf  used on input line 686.
 (pdftex.def)             Requested size: 256.0748pt x 380.91602pt.
- [462] [463 <./C8/figsC8/fig6G1.pdf>] [464 <./C8/figsC8/fig6G2.pdf>] [465 <./C8
+ [460] [461 <./C8/figsC8/fig6G1.pdf>] [462 <./C8/figsC8/fig6G2.pdf>] [463 <./C8
 /figsC8/fig6G3.pdf>]
-<C8/figsC8/fig6G5.pdf, id=10774, 471.39296pt x 341.03041pt>
+<C8/figsC8/fig6G5.pdf, id=10633, 471.39296pt x 341.03041pt>
 File: C8/figsC8/fig6G5.pdf Graphic file (type pdf)
 <use C8/figsC8/fig6G5.pdf>
 Package pdftex.def Info: C8/figsC8/fig6G5.pdf  used on input line 735.
 (pdftex.def)             Requested size: 369.88582pt x 267.60017pt.
-<C8/figsC8/fig6G6.pdf, id=10775, 303.51083pt x 130.78482pt>
+<C8/figsC8/fig6G6.pdf, id=10634, 303.51083pt x 130.78482pt>
 File: C8/figsC8/fig6G6.pdf Graphic file (type pdf)
 <use C8/figsC8/fig6G6.pdf>
 Package pdftex.def Info: C8/figsC8/fig6G6.pdf  used on input line 739.
 (pdftex.def)             Requested size: 284.52756pt x 122.60844pt.
-<C8/figsC8/fig6G7.pdf, id=10776, 283.30373pt x 270.75798pt>
+<C8/figsC8/fig6G7.pdf, id=10635, 283.30373pt x 270.75798pt>
 File: C8/figsC8/fig6G7.pdf Graphic file (type pdf)
 <use C8/figsC8/fig6G7.pdf>
 Package pdftex.def Info: C8/figsC8/fig6G7.pdf  used on input line 743.
 (pdftex.def)             Requested size: 170.71652pt x 163.15837pt.
-<C8/figsC8/fig6G8.pdf, id=10777, 126.65851pt x 130.56825pt>
+<C8/figsC8/fig6G8.pdf, id=10636, 126.65851pt x 130.56825pt>
 File: C8/figsC8/fig6G8.pdf Graphic file (type pdf)
 <use C8/figsC8/fig6G8.pdf>
 Package pdftex.def Info: C8/figsC8/fig6G8.pdf  used on input line 747.
 (pdftex.def)             Requested size: 170.71652pt x 175.98856pt.
- [466] [467 <./C8/figsC8/fig6G5.pdf>]
-[468 <./C8/figsC8/fig6G6.pdf> <./C8/figsC8/fig6G7.pdf
+ [464] [465 <./C8/figsC8/fig6G5.pdf>]
+[466 <./C8/figsC8/fig6G6.pdf> <./C8/figsC8/fig6G7.pdf
 
 pdfTeX warning: /usr/bin/pdflatex (file ./C8/figsC8/fig6G7.pdf): PDF inclusion:
  multiple pdfs with page group included in a single page
->] [469 <./C8/figsC8/fig6G8.pdf>]) [470] (./main_libro.bbl
+>] [467 <./C8/figsC8/fig6G8.pdf>]) [468] (./main_libro.bbl
 Underfull \hbox (badness 1226) in paragraph at lines 58--64
 \OT1/txr/m/n/10.95 V. Savelev, F. Sergeev, S. Smirnov, B. Cherny-shev, R. Shafi
 gullin, and
  []
 
-[471
+[469
 
 
-] [472]
+] [470]
 Underfull \hbox (badness 1648) in paragraph at lines 232--236
 []\OT1/txr/m/n/10.95 C. Bachelet, G. Audi, C. Gaulard, C. Gu[]enaut, F. Her-fur
 th, D. Lun-ney,
  []
 
-[473] [474] [475] [476] [477] [478] [479] [480]
+[471] [472] [473] [474] [475] [476] [477] [478]
 Underfull \hbox (badness 2181) in paragraph at lines 898--904
 []\OT1/txr/m/n/10.95 R. A. Broglia.  Heavy ion re-ac-tion, Notes of lec-tures d
 e-liv-ered dur-ing
@@ -2595,89 +2646,91 @@ Underfull \hbox (badness 10000) in paragraph at lines 898--904
 ub-lished.
  []
 
-[481]
+[479]
 LaTeX Font Info:    Trying to load font information for OT1+txtt on input line 
 1002.
  (/usr/share/texlive/texmf-dist/tex/latex/txfonts/ot1txtt.fd
 File: ot1txtt.fd 2000/12/15 v3.1
-) [482]
-[483]
+) [480]
+[481]
 Underfull \hbox (badness 1062) in paragraph at lines 1208--1212
 []\OT1/txr/m/n/10.95 W. R. Cobb and D. B. Guthe.  An-gu-lar dis-tri-bu-tion of 
 pro-tons from the
  []
 
-[484] [485] [486] [487]
+[482] [483] [484] [485]
 Missing character: There is no è in font txr!
- [488] [489] [490] [491] [492]
+ [486] [487] [488] [489] [490]
 Missing character: There is no ü in font txr!
 Missing character: There is no ö in font txr!
- [493]
+ [491] [492]
 Missing character: There is no ü in font txr!
- [494]
 Missing character: There is no á in font txr!
- [495]
-[496] [497] [498]
-Underfull \hbox (badness 1320) in paragraph at lines 2519--2533
+ [493]
+[494] [495] [496]
+Underfull \hbox (badness 1320) in paragraph at lines 2544--2558
 \OT1/txr/m/n/10.95 tovi[]c, D. Baz-za-cco, B. Birken-bach, A. Bracco, L. Charle
 s, S. Courtin,
  []
 
-[499] [500] [501] [502] [503] [504] [505]
+[497] [498] [499] [500] [501] [502] [503]
 Missing character: There is no é in font txr!
 Missing character: There is no ö in font txr!
 Missing character: There is no ü in font txr!
- [506] [507] [508]
+ [504] [505] [506] [507]
 Missing character: There is no è in font txr!
 Missing character: There is no ä in font txr!
- [509]
+ [508]
 Missing character: There is no ü in font txr!
 )
-(./main_libro.ind) [510] (./main_libro.aux (./C1/includeC1.aux)
-(./preface_book.aux) (./introduccion/introduccion.aux)
-(./nutshell/include_struct_nut.aux) (./nutshell/include_trans_nut.aux)
-(./C6/includeC6.aux) (./C7/includeC7.aux) (./C8/includeC8.aux)) ) 
+(./main_libro.ind)
+
+Package natbib Warning: There were undefined citations.
+
+[509] (./main_libro.aux (./C1/includeC1.aux) (./preface_book.aux)
+(./introduccion/introduccion.aux) (./nutshell/include_struct_nut.aux)
+(./nutshell/include_trans_nut.aux) (./C6/includeC6.aux) (./C7/includeC7.aux)
+(./C8/includeC8.aux)) ) 
 Here is how much of TeX's memory you used:
- 9724 strings out of 481239
- 154202 string characters out of 5920377
- 390358 words of memory out of 5000000
- 24553 multiletter control sequences out of 15000+600000
+ 9737 strings out of 481239
+ 154392 string characters out of 5920377
+ 390553 words of memory out of 5000000
+ 24567 multiletter control sequences out of 15000+600000
  627672 words of font info for 262 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 41i,26n,51p,3867b,1383s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/share/te
-xlive/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/share/texlive/texmf-dist/fon
-ts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-dist/fonts/typ
-e1/public/amsfonts/cm/cmmi12.pfb></usr/share/texlive/texmf-dist/fonts/type1/pub
-lic/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/ams
-fonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/c
-m/cmr17.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.
-pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></
-usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/sha
-re/texlive/texmf-dist/fonts/type1/public/doublestroke/dsrom10.pfb></usr/share/t
-exlive/texmf-dist/fonts/type1/public/amsfonts/latxfont/line10.pfb></usr/share/t
-exmf/fonts/type1/public/tex-gyre/qhvr.pfb></usr/share/texmf/fonts/type1/public/
-tex-gyre/qtmb.pfb></usr/share/texmf/fonts/type1/public/tex-gyre/qtmr.pfb></usr/
-share/texmf/fonts/type1/public/tex-gyre/qtmri.pfb></usr/share/texlive/texmf-dis
-t/fonts/type1/public/txfonts/rtxb.pfb></usr/share/texlive/texmf-dist/fonts/type
-1/public/txfonts/rtxbmi.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/t
-xfonts/rtxi.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/txfonts/rtxmi
-.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/txfonts/rtxr.pfb></usr/s
-hare/texlive/texmf-dist/fonts/type1/public/txfonts/rtxsc.pfb></usr/share/texliv
-e/texmf-dist/fonts/type1/public/txfonts/txbsy.pfb></usr/share/texlive/texmf-dis
-t/fonts/type1/public/txfonts/txex.pfb></usr/share/texlive/texmf-dist/fonts/type
-1/public/txfonts/txsy.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/txf
-onts/txsya.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/txfonts/txsyb.
-pfb></usr/share/texlive/texmf-dist/fonts/type1/public/txfonts/txsyc.pfb></usr/s
-hare/texlive/texmf-dist/fonts/type1/public/txfonts/txtt.pfb></usr/share/texlive
-/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/share/texlive/texmf-dist/fon
-ts/type1/urw/times/utmr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/ti
-mes/utmr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmri8a.pfb
->
-Output written on main_libro.pdf (510 pages, 26146117 bytes).
+ 41i,26n,51p,3867b,1415s stack positions out of 5000i,500n,10000p,200000b,80000s
+{/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.e
+nc}</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></u
+sr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/sha
+re/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texl
+ive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/tex
+mf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/share/texlive/texmf-dist
+/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/share/texlive/texmf-dist/fonts/t
+ype1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/p
+ublic/amsfonts/cm/cmsy7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/d
+oublestroke/dsrom10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfo
+nts/latxfont/line10.pfb></usr/share/texmf/fonts/type1/public/tex-gyre/qhvr.pfb>
+</usr/share/texmf/fonts/type1/public/tex-gyre/qtmb.pfb></usr/share/texmf/fonts/
+type1/public/tex-gyre/qtmr.pfb></usr/share/texmf/fonts/type1/public/tex-gyre/qt
+mri.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/txfonts/rtxb.pfb></us
+r/share/texlive/texmf-dist/fonts/type1/public/txfonts/rtxbmi.pfb></usr/share/te
+xlive/texmf-dist/fonts/type1/public/txfonts/rtxi.pfb></usr/share/texlive/texmf-
+dist/fonts/type1/public/txfonts/rtxmi.pfb></usr/share/texlive/texmf-dist/fonts/
+type1/public/txfonts/rtxr.pfb></usr/share/texlive/texmf-dist/fonts/type1/public
+/txfonts/rtxsc.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/txfonts/tx
+bsy.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/txfonts/txex.pfb></us
+r/share/texlive/texmf-dist/fonts/type1/public/txfonts/txsy.pfb></usr/share/texl
+ive/texmf-dist/fonts/type1/public/txfonts/txsya.pfb></usr/share/texlive/texmf-d
+ist/fonts/type1/public/txfonts/txsyb.pfb></usr/share/texlive/texmf-dist/fonts/t
+ype1/public/txfonts/txsyc.pfb></usr/share/texlive/texmf-dist/fonts/type1/public
+/txfonts/txtt.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmb8a.p
+fb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/share/
+texlive/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/share/texlive/texmf-d
+ist/fonts/type1/urw/times/utmri8a.pfb>
+Output written on main_libro.pdf (509 pages, 26378667 bytes).
 PDF statistics:
- 11070 PDF objects out of 12825 (max. 8388607)
- 7278 compressed objects within 73 object streams
+ 10932 PDF objects out of 12825 (max. 8388607)
+ 7188 compressed objects within 72 object streams
  0 named destinations out of 1000 (max. 500000)
- 1659 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1648 words of extra memory for PDF output out of 10000 (max. 10000000)
 

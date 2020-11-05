@@ -1570,7 +1570,7 @@ Note that (\ref{eq225_7}) takes into account only the spins of the heavy nucleus
 \end{split}
 \end{equation}
 \section[ZPF and Pauli principle]{ZPF and Pauli principle at the basis of medium polarization effects: self--energy, vertex corrections and induced interaction}\label{C7AppA}
-In keeping with a central objective of the formulation of quantum mechanics, namely that the basic concepts on which it is based relate directly to experiment\footnote{\cite{Heisenberg:25}.}, elementary modes of nuclear excitation (single-particle, collective vibrations and rotations), are solidly anchored on observation (inelastic and Coulomb excitation, one-- and two--particle transfer reactions). Of all quantal phenomena, zero point fluctuations (ZPF), closely connected with virtual states, are likely the  most representative of the essential difference existing between quantum and classical mechanics. In fact, ZPF are intimately connected with the complementary principle\footnote{\cite{Bohr:28}.}, and thus with  indeterminacy\footnote{\cite{Heisenberg:27}.} and non-commutative\footnote{\cite{Born:25a}, \cite{Born:25b}.} relations, and with the probabilistic interpretation\footnote{ \cite{Born:26}.} of the (modulus squared) of the wavefunctions, solution of Schr\"odinger's or Dirac's equations\footnote{\cite{Schrodinger:25}, \cite{Dirac:26}.}.
+Of all quantal phenomena, zero point fluctuations (ZPF), closely connected with virtual states, are likely the  most representative of the essential difference existing between quantum and classical mechanics. In fact, ZPF are intimately connected with the complementary principle\footnote{\cite{Bohr:28}.}, and thus with  indeterminacy\footnote{\cite{Heisenberg:27}.} and non-commutative\footnote{\cite{Born:25a}, \cite{Born:25b}.} relations, and with the probabilistic interpretation\footnote{ \cite{Born:26}.} of the (modulus squared) of the wavefunctions, solution of Schr\"odinger's or Dirac's equations\footnote{\cite{Schrodinger:25}, \cite{Dirac:26}.}.
  \begin{figure}[h!]
  	\begin{center}
 \includegraphics*[width=1.2\textwidth]{C7/figs_C7/FigA.pdf}
@@ -1600,9 +1600,9 @@ The intrinsic wave functions are in this case
 \begin{equation}\label{5lec1}
 \begin{split}
 \psi_\alpha=& \psi_{M_i}^{J_i}(\xi_A) \sum_{s s'_f} \left[ \chi^s(\sigma_\alpha) \chi^{s'_f}(\sigma_\beta) \right] _{M_{s_i}}^{s_i}
-\phi_t^{L=0}\left(\sum_{i<j}|\vec r_i-\vec r_j|\right)\\
+\phi_t^{L=0}\left(r_{12},r_{1p},r_{2p}\right)\\
 &= \psi_{M_i}^{J_i}(\xi_A) \sum_{M_s M'_{s_f}} (s M'_{s} s'_f M'_{s_f}| s_i M_{s_i}) \chi^s_{M'_s}(\sigma_\alpha) \chi^{s_f'}_{M'_{s_f}}(\sigma_\beta)\\
-& \times \phi_t^{L=0}\bigl(\sum_{i<j}|\vec r_i-\vec r_j|\bigr)
+& \times \phi_t^{L=0}\left(r_{12},r_{1p},r_{2p}\right)
 \end{split}
 \end{equation}
  \begin{figure}[h!]
@@ -1633,62 +1633,38 @@ B&(n_1 l_1 j_1,n_2 l_2 j_2;JJ'_iJ_f)\\
 
 where
 \begin{equation}\label{5lec4}
-\phi^J(j_1 j_2)=\frac{\left[ \phi_{j_1}(\vec r_1) \phi_{j_2}(\vec r_2)\right]^{J}-
-\left[ \phi_{j_1}(\vec r_2) \phi_{j_2}(\vec r_1)\right]^{J}}{\sqrt{1+\delta(j_1,j_2)}},
+\phi^J(j_1 j_2)=\frac{\left[ \phi_{j_1}(\mathbf r_1) \phi_{j_2}(\mathbf r_2)\right]^{J}-
+\left[ \phi_{j_1}(\mathbf r_2) \phi_{j_2}(\mathbf r_1)\right]^{J}}{\sqrt{1+\delta(j_1,j_2)}},
 \end{equation}
 is an antisymetrized, normalized wave function of the two transferred particles. The function $\chi^{s}_{M_{s}}(\sigma_\beta)$ appearing  both in eq. (\ref{5lec1}) and (\ref{5lec2}) is the spin wave function of the proton while 
 \begin{equation}\label{5lec5}
 \chi^{s}(\sigma_\alpha)=\left[ \chi^{s_1}(\sigma_{n_1}) \chi^{s_2}(\sigma_{n_2})\right]^{s},
 \end{equation}
-is the spin function of the two--neutron system.
+is the spin function of the two-neutron system.
 
 
-A convenient description of the intrinsic  degrees of freedom of the triton is obtained by using a wavefunction symmetric in the coordinates of all particles, i.e.
+A simple description of the intrinsic  degrees of freedom of the triton is obtained by using a wavefunction symmetric in the coordinates of all particles, i.e.
 
 \begin{equation}\label{5lec6}
 \begin{split}
-\phi_t^{L=0}\bigl(\sum_{i<j}|\vec r_i-\vec r_j|\bigr)&=N_t\,e^{[(r_1-r_2)^2+(r_1-r_p)^2+(r_2-r_p)^2]}\\
-&=\phi_{000}(\vec r)\phi_{000}(\vec \rho),
+\phi_t^{L=0}\left(r_{12},r_{1p},r_{2p}\right)&=N_t\,e^{[(r_1-r_2)^2+(r_1-r_p)^2+(r_2-r_p)^2]}\\
+&=\phi_{000}(\mathbf r)\phi_{000}(\pmb \rho),
 \end{split}
 \end{equation}
 where
 \begin{equation}
-\phi_{000}(\vec r)=R_{nl}(\nu^{1/2 }r) Y_{lm}(\hat r).
+\phi_{000}(\mathbf r)=R_{nl}(\nu^{1/2 }r) Y_{lm}(\mathbf{\hat r}).
 \end{equation}
 
-The coordinate $\vec \rho$ is the radius vector which measures the distance between the center of mass of the dineutron and the proton, while the vector $\vec r$ is the dineutron relative coordinate (cf. Fig. \ref{fig_coord}).
-%\begin{subequations}\label{eq5th_1}
-%\begin{equation}
-%\vec{r}=\vec{r}_1-\vec{r}_2\quad\text{(relative distance between the neutrons)}
-%\end{equation}
-%\begin{equation}
-%\vec{R}=\frac{\vec{r}_1+\vec{r}_2}{2}\quad\text{(coord. of the CM of the dineutron)}
-%\end{equation}
-%\begin{equation}
-%\vec{\rho}=\vec{r}_p-\frac{\vec{r}_1+\vec{r}_2}{2}\quad\text{(distance between the CM of the dineutron and the proton)}
-%\end{equation}
-%\begin{equation}
-%\vec{R}_2=\vec{r}_p-\frac{\vec{r}_1+\vec{r}_2}{A+2}\quad\text{(distance of the proton from the CM of the system A+2)}
-%\end{equation}
-%\begin{equation}
-%\vec{R}_1=\frac{\vec{r}_p+\vec{r}_1+\vec{r}_2}{3}\quad\text{(coord. of the CM of the triton)}
-%\end{equation}
-%\end{subequations}
-
-
-%\begin{figure}
-%\centerline{\includegraphics*[width=6cm,angle=0]{C:/Gregory/Broglia/notas_ricardo/Figures/ricardo_091105/5_1.eps}}
-%\caption{}\label{fig5th_1}
-%\end{figure}
+The coordinate $\pmb \rho$ is the radius vector which measures the distance between the center of mass of the dineutron and the proton, while the vector $\mathbf r$ is the dineutron relative coordinate (cf. Fig. \ref{fig_coord}).
 To obtain the DWBA cross section we have to calculate the integral
 \begin{equation}\label{5lec8}
-T(\theta)=\int d\xi_A \,d\vec r_1 \,d\vec r_2 \,d\vec r_p \chi^{(-)}_p(\vec R_2) \psi^*_\beta(\xi_{A+2},\sigma_\beta) V_\beta \psi_\alpha(\xi_{A},\sigma_\alpha,\sigma_\beta)\psi_t^{(+)}(\vec R_1),
+T(\theta)=\int d\xi_A \,d\mathbf r_1 \,d\mathbf r_2 \,d\mathbf r_p \chi^{(-)}_p(\mathbf R_2) \psi^*_\beta(\xi_{A+2},\sigma_\beta) V_\beta \psi_\alpha(\xi_{A},\sigma_\alpha,\sigma_\beta)\psi_t^{(+)}(\mathbf R_1),
 \end{equation}
-where the final state effective interaction $V_\beta(\rho)$ is assumed to depend only on the distance $\rho$ between the center of mass of the di--neutron and of the proton. 
-Instead of integrating over $\xi_{A},\vec r_1,\vec r_2$ and $\vec r_p$ we would integrate over $\xi_{A},\vec {r'},\vec {r'}$ and $\vec r_p$. The Jacobian of the transformation is equal to 1, i.e. $\partial (\vec r_1,\vec r_2)/\partial (\vec {r'},\vec {r'})=1$.
+where the final state effective interaction $V_\beta(\rho)$ is assumed to depend only on the distance $\rho$ between the center of mass of the di-neutron and of the proton. 
 
 
-To carry out the integral (\ref{5lec8}) we transform the wave function (\ref{5lec4}) into center of mass and relative coordinates. If we assume that both $\phi_{j_1}(\vec r_1)$ and $\phi_{j_2}(\vec r_2)$ are harmonic oscillator wave functions (used as a basis to expand the Saxon--Woods single--particle wavefunctions), this transformation can be carried with the aid of tha Moshinsky brackets. If $| n_1 l_1,n_2 l_2; \lambda \mu \rangle$ is a complete system of wave functions in the harmonic oscillator basis, depending on $\vec r_1$ and $\vec r_2$ and $| n l,N L; \lambda \mu \rangle$ is the corresponding one depending on $\vec r$ and  $\vec R$, we can write
+To carry out the integral (\ref{5lec8}) we transform the wave function (\ref{5lec4}) into center of mass and relative coordinates. If we assume that both $\phi_{j_1}(\mathbf r_1)$ and $\phi_{j_2}(\mathbf r_2)$ are harmonic oscillator wave functions (used as a basis to expand the Saxon-Woods single-particle wavefunctions), this transformation can be carried with the aid of the Moshinsky brackets. If $| n_1 l_1,n_2 l_2; \lambda \mu \rangle$ is a complete system of wave functions in the harmonic oscillator basis, depending on $\mathbf r_1$ and $\mathbf r_2$ and $| n l,N L; \lambda \mu \rangle$ is the corresponding one depending on $\mathbf r$ and  $\mathbf R$, we can write
 
 \begin{equation}\label{5lec9}
 \begin{split}
@@ -1704,7 +1680,7 @@ The labels $n,l$ are the principal and angular momentum quantum numbers of the r
 (-1)^{l_1+l_2}=(-1)^{l+L}.
 \end{split}
 \end{equation}
-The coefficients $\langle n l,N L, L | n_1 l_1,n_2 l_2, L  \rangle$ are tabulated and were first discussed by Moshinsky\footnote{\cite{Moshinsky:59}.}.
+The coefficients $\langle n l,N L, L | n_1 l_1,n_2 l_2, L  \rangle$ were first discussed by Moshinsky\footnote{\cite{Moshinsky:59}.}.
 	
 
 With the help of eq. (\ref{5lec9}) we can write the wave function $\psi_{M_f}^{J_f}(\xi_{A+2})$ as
@@ -1717,18 +1693,18 @@ With the help of eq. (\ref{5lec9}) we can write the wave function $\psi_{M_f}^{J
 & \times \sum_{L S'} \langle S' L J |j_1 j_2 J \rangle \sum_{M_L M'_S} \langle L M_L S' M'_S |J M_J  \rangle \chi^{S'}_{M'_S}(\sigma_\alpha)\\
 & \times \sum_{n l N \Lambda} \langle n l,N \Lambda, L |n_1 l_1,n_2 l_2, L \rangle \\
 & \times \sum_{m_l  M_\Lambda}
-\langle l m_l \Lambda M_\Lambda |L M_L \rangle \phi_{n l m_l}(\vec r) \phi_{N \Lambda M_\Lambda}(\vec R),
+\langle l m_l \Lambda M_\Lambda |L M_L \rangle \phi_{n l m_l}(\mathbf r) \phi_{N \Lambda M_\Lambda}(\mathbf R),
 \end{split}
 \end{equation}
 Integration over $\vec r$ gives
 \begin{equation}\label{5lec12}
-\langle \phi_{n l m_l}(\vec r) | \phi_{000}(\vec r) \rangle = \delta(l,0) \delta(m_l,0) \Omega_n,
+\langle \phi_{n l m_l}(\mathbf r) | \phi_{000}(\mathbf r) \rangle = \delta(l,0) \delta(m_l,0) \Omega_n,
 \end{equation}
 where
 \begin{equation}\label{5lec13}
 \Omega_n=\int R_{n l} (\nu_1^{1/2} r)R_{00} (\nu_2^{1/2} r) r^2\, dr.
 \end{equation}
-Note that there is no selection rule in the principal quantum number $n$, as the potential in which the two neutrons move in the triton has a frequency $\nu_2$ which is different from the one that the two neutrons are subjected to, when moving in the system $A$ (\textit{non--orthogonality effect}).
+\textit{Note that there is no selection rule in the principal quantum number $n$, as the potential in which the two neutrons move in the triton has a frequency $\nu_2$ which is different from the one that the two neutrons are subjected to, when moving in the system $A$ (non-orthogonality effect}).
 
 
 Integration over $\xi_A$ and multiplication of the spin functions gives
@@ -1749,10 +1725,10 @@ T(\theta)&= \sum_{\substack{n_1 l_1 j_1\\n_2 l_2 j_2}}\sum_{J M_J}\sum_{nN}\sum_
 &\times \langle J M_J J_i M_{J_i}|J_f M_{J_f} \rangle \langle SLJ|j_1 j_2 J \rangle \\
 &\times \langle L M_L S M_{S}|J M_{J} \rangle \langle n0,NL,L|n_1 l_1,n_2 l_2,L \rangle \\
 &\times \langle S M_S S_f M_{S_f}|S_i M_{S_i}\rangle \Omega_n \\
-&\times \int d\vec R\,d\vec r_p\, \chi^{(+)*}_t(\vec R_1) \phi^*_{NLM_L}(\vec R) V(\rho) \phi_{000}(\vec \rho) \chi^{(+)}_t(\vec R_1),
+&\times \int d\mathbf R\,d\mathbf r_p\, \chi^{(+)*}_t(\mathbf R_1) \phi^*_{NLM_L}(\mathbf R) V(\rho) \phi_{000}(\pmb \rho) \chi^{(+)}_t(\mathbf R_1),
 \end{split}
 \end{equation}
-where we have approximated $V'_\beta$ by an effective interaction depending on $\rho=|\vec \rho|$.
+where we have approximated $V'_\beta$ by an effective interaction depending on $\rho=|\pmb \rho|$.
 We now define the effective two-nucleon transfer  form factor as
 \begin{equation}\label{eqC7B15}
 \begin{split}
@@ -1765,35 +1741,35 @@ One can then rewrite Eq. (\ref{5lec15}) as
 \begin{split}
 T(\theta)&= \sum_J\sum_L\sum_S \bigl( J M_J J_i M_{J_i}|J_f M_{J_f} \bigr) \bigl( S M_S S_f M_{S_f}|S_i M_{S_i}\bigr)
  \bigl( L M_L S M_{S}|J M_{J} \bigr) \\
-&\times \int d\vec R\,d\vec r_p\, \chi^{*(-)}_p(\vec R_2)
- u^{J_i J_f}_{LSJ}(R) Y_{L M_L}^*V(\rho) \phi_{000}(\vec \rho) \chi^{(+)}_t(\vec R_1).
+&\times \int d\mathbf R\,d\mathbf r_p\, \chi^{*(-)}_p(\mathbf R_2)
+ u^{J_i J_f}_{LSJ}(R) Y_{L M_L}^*V(\rho) \phi_{000}(\pmb \rho) \chi^{(+)}_t(\mathbf R_1).
 \end{split}
 \end{equation}
-Because the di--neutron has $S=0$, we have that
+Because the di-neutron has $S=0$, we have that
 \begin{equation}\label{5lec18}
  \bigl( L M_L 0 0|J M_{J} \bigr)=\delta(J,L)\delta(M_L,M_J),
 \end{equation}
-and the summations over $S$ and $L$ disappear from Eq. (\ref{5lec17}). Let us now  make also here, as done in App. \ref{C6AppE}, Eq. (\ref{eqC6AppE15}) for one--particle transfer reactions, the zero range approximation, that is,
+and the summations over $S$ and $L$ disappear from Eq. (\ref{5lec17}). Let us now  make also here, as done in Sect. \ref{C6AppE}, Eq. (\ref{eqC6AppE15}) for one-particle transfer reactions, the zero range approximation, that is,
 
 
 \begin{equation}\label{5lec19}
-V(\rho) \phi_{000}(\vec \rho)=D_0 \delta(\vec \rho),
+V(\rho) \phi_{000}(\pmb \rho)=D_0 \delta(\pmb \rho),
 \end{equation}
-where $D_0$ is an empirical parameter ($D_0^2=(31.6\pm9.3)\times10^4$ MeV$^2$fm$^2$) determined to reproduce, in average, the observed absolute cross sections\footnote{\cite{Broglia:73}.}.
+where $D_0$ is an empirical parameter ($D_0^2=(31.6\pm9.3)\times10^4$ MeV$^2$fm$^2$) determined to reproduce, in average, the observed absolute cross sections\footnote{\cite{Broglia:73}.} with only the simultaneous transfer.
 This means that the proton interacts with the center of mass of the di--neutron, only when they are at the same point in space.
 Within this approximation (cf. Fig. \ref{fig_coord})
 \begin{equation}\label{5lec20}
 \begin{split}
-\vec R=&\vec R_1=\vec r,\\
-\vec R_2=&\frac{A}{A+2}\vec R.
+\mathbf R=&\mathbf R_1=\mathbf r,\\
+\mathbf R_2=&\frac{A}{A+2}\mathbf R.
 \end{split}
 \end{equation}
 Then Eq. (\ref{5lec15}) can be written as
 \begin{equation}\label{5lec21}
 \begin{split}
 T&= D_0 \sum_L \bigl( L M_L J_i M_{J_i}|J_f M_{J_f} \bigr) \\
-&\times \int d\vec R\, \chi^{*(-)}_p\bigl(\frac{A}{A+2}\vec R\bigr)
- u^{J_i J_f}_{L}(R) Y_{L M_L}^*(\hat R) \chi^{(+)}_t(\vec R)
+&\times \int d\mathbf R\, \chi^{*(-)}_p\bigl(\frac{A}{A+2}\mathbf R\bigr)
+ u^{J_i J_f}_{L}(R) Y_{L M_L}^*(\mathbf{\hat R}) \chi^{(+)}_t(\mathbf R)
 \end{split}
 \end{equation}
 From Eq. (\ref{5lec21}) it is seen that the change in parity implied by the reaction is given by $\Delta\pi=(-1)^L$. Consequently, the selection rules for $(t,p)$ and  $(p,t)$ reactions in zero--range approximation are,
@@ -1808,7 +1784,11 @@ i.e. only normal parity states are excited.
 The integral appearing in Eq. (\ref{5lec21}) has the same structure as the DWBA integral appearing in Eq. (\ref{eqC6E16}) which was derived for the case of one--nucleon transfer reactions.
 
 
-The difference between the two processes manifests itself through the different structure of the two form factors. While $u_l(r)$  is a single--particle bound state wave function (cf. Eq. (\ref{eqC6E1})), $u_L^{J_i J_f}$ is a coherent summation over the center of mass states of motion of the two transferred neutrons (see Eq. (\ref{eqC7B15})). In other words, an effective quantity (function). It is of notice that this difference essentially vanishes, when one considers dressed particles resulting from the coupling to collective vibrations  and leading to renormalized energies, single-particle content, and radial wavefunction. Examples of two-nucleon transfer form factors are given in\footnote{\cite{Broglia:67}.} Figs \ref{figC7B2}, \ref{figC7B3} and \ref{figC7B4}.
+The difference between the two processes manifests itself through the different structure of the two form factors. While $u_l(r)$  is a single--particle bound state wave function (cf. Eq. (\ref{eqC6E1})), $u_L^{J_i J_f}$ is a coherent summation \textit{over the center of mass states of motion of the two transferred neutrons} (see Eq. (\ref{eqC7B15})). In other words, an effective quantity (function). It is of notice that this difference between single-particle transfer formfactors and simultaneous two-nucleon transfer effective formfactors, essentially vanishes when one considers dressed particles resulting from the coupling to collective vibrations  and leading to renormalized energies, single-particle content, and radial wavefunction. 
+In view of the relation (\ref{eq3.2.19}), closely connected with Fig. \ref{fig3.2.1} (a) found at the basis of the fact that successive transfer of entangled nucleons over distances of the order of the correlation length,  the above ``historic'' result\footnote{See \cite{Potel:13}, in particular App. C and Fig. 10 of this reference.} is certainly dated. It is also found at the basis of a series of misunderstandings in working out the variety of potentialities concerning the parallel between BCS\footnote{\cite{Cooper:11b}.} and nuclear BCS\footnote{\cite{Broglia:13}.}, let alone regarding Cooper pair tunneling across a Josephson junction, and two-nucleon transfer in heavy ion collisions between superfluid nuclei at energies below the Coulomb barrier. The reason to bring it here is to set in evidence subtle aspects of the correlations existing between partner nucleons of a Cooper pair to be also found in the formfactors associated with successive transfer although, arguably, in a less evident fashion.
+
+
+ Examples of two-nucleon transfer form factors are given in\footnote{\cite{Broglia:67}.} Figs \ref{figC7B2}, \ref{figC7B3} and \ref{figC7B4}.
  \begin{figure}[h!]
  	\begin{center}
 \includegraphics*[width=0.75\textwidth]{C7/figs_C7/figC7B2}
@@ -1830,7 +1810,7 @@ The difference between the two processes manifests itself through the different 
  	\begin{center}
 \includegraphics*[width=0.75\textwidth]{C7/figs_C7/Reaction1}
 \end{center}
-\caption{Graphical representation of simultaneous (I) and non--orthogonality (II) transfer processes. For details see text and  caption to Fig. \ref{figC7C2}. In this figure, as well as in Fig. \ref{figC7C2}, and at variance with, e.g. Fig. \ref{fig1.9.2}, the particle-pair vibration coupling vertex is represented by a crossed circle. Concerning the jagged line representing recoil see Sect. \ref{App1C3}.}\label{figC7C1}
+\caption{Graphical representation of simultaneous (I) and non--orthogonality (II) transfer processes. For details see text and  caption to Fig. \ref{figC7C2}. In this figure, as well as in Fig. \ref{figC7C2}, and at variance with, e.g. Fig. \ref{fig1.9.2}, the particle-pair vibration coupling vertex is represented by a crossed circle. Concerning the jagged line representing recoil see App. \ref{App1C3}.}\label{figC7C1}
 \end{figure}
  \begin{figure}[h!]
  	\begin{center}
@@ -1876,16 +1856,16 @@ The simultaneous transfer amplitude is given by (see Fig. \ref{figC7C1} (I))
 \begin{split}
 a^{(1)} (\infty)& = \frac{1}{i \hbar} \int^{\infty}_{-\infty} dt (\psi^b \psi^B, (V_{bB} - <V_{bB}>) \psi^a \psi^A ) \times 
 {\rm exp} [\frac{i}{\hbar} (E^{bB} - E^{aA}) t]  \\
-&\approx \frac{2}{i \hbar} \int^{\infty}_{- \infty}  dt \left( \phi^{B(A)} (S^B_{(2n)}; \vec r_{1A}, \vec r_{2A}), U(r_{1b}) 
+&\approx \frac{2}{i \hbar} \int^{\infty}_{- \infty}  dt \left( \phi^{B(A)} (S^B_{(2n)}; \mathbf r_{1A}, \mathbf r_{2A}), U(r_{1b}) 
 e^{i (\sigma_1 + \sigma_2)}
-\phi^{a(b)} (S^a_{(2n)}; \vec r_{1b}, \vec r_{2b}) \right)\\
+\phi^{a(b)} (S^a_{(2n)}; \mathbf r_{1b}, \mathbf r_{2b}) \right)\\
 &\times {\rm exp} [\frac{i}{\hbar} (E^{bB} - E^{aA}) t + \gamma(t)] 
 \end{split}
 \end{equation}
 where 
 \begin{equation}
-\sigma_1 + \sigma_2 = \frac{1}{\hbar} \frac{2m_n}{m_A} ( m_{aA} \vec v_{aA} (t) + m_{bB} v_{bB}(t)) \cdot (\vec r_{1\alpha}
--\vec r_{2 \alpha}),
+\sigma_1 + \sigma_2 = \frac{1}{\hbar} \frac{2m_n}{m_A} ( m_{aA} \mathbf v_{aA} (t) + m_{bB} v_{bB}(t)) \cdot (\mathbf r_{1\alpha}
+-\mathbf r_{2 \alpha}),
 \end{equation}
 ${\rm exp} ( i (\sigma_1 + \sigma_2))$ taking care of recoil 
 effects (Galilean transformation associated with the mismatch between entrance and exit channels). 
@@ -1895,10 +1875,10 @@ The phase $\gamma (t)$ is related  with the effective $Q-$value of the reaction.
 a^{(NO)} (\infty) &= \frac{1}{i \hbar} \int^{\infty}_{-\infty} dt (\psi^b \psi^B, (V_{bB} - <V_{bB}>) \psi^f \psi^F )
 (\psi^f\psi^F, \psi^a \psi^A) 
 {\rm exp} [\frac{i}{\hbar} (E^{bB} - E^{aA}) t]    \\
-&\approx \frac{2}{i \hbar} \int^{\infty}_{- \infty} \phi^{B(F)} (S^B_{(n)}, \vec r_{1A}), U(r_{1b}) 
+&\approx \frac{2}{i \hbar} \int^{\infty}_{- \infty} \phi^{B(F)} (S^B_{(n)}, \mathbf r_{1A}), U(r_{1b}) 
 e^{i \sigma_1}
-(\phi^{f(b)}(S^f(n), \vec r_{1b})\\
-&  \times\phi^{F(A)} (S^F(n),\vec r_{2A}) e^{i \sigma_2} \phi^{a(f)}(S^a(n),\vec r_{2b})) {\rm exp} [\frac{i}{\hbar} (E^{bB} - E^{aA}) t + \gamma(t)] ,
+(\phi^{f(b)}(S^f(n), \mathbf r_{1b})\\
+&  \times\phi^{F(A)} (S^F(n),\mathbf r_{2A}) e^{i \sigma_2} \phi^{a(f)}(S^a(n),\mathbf r_{2b})) {\rm exp} [\frac{i}{\hbar} (E^{bB} - E^{aA}) t + \gamma(t)] ,
 \end{split}
 \end{equation}
 the reaction channel $f= (b+1) + F(=A+1)$ having been introduced, the quantity $S(n)$ being the one-neutron separation 
@@ -1920,10 +1900,10 @@ the independent-particle model and the strong-correlation limits.
 
 Before doing so, let us comment on the graphical description of the transfer amplitudes (\ref{eq7.C.4}) (\ref{eq7.C.6}) and (\ref{eqC7C7}) displayed in Figs. \ref{figC7C1}
 and \ref{figC7C2}. The time arrow is assumed to point upwards:
-(I) Simultaneous transfer, in which one particle is transferred by the nucleon-nucleon interaction acting either in the entrance $\alpha \equiv a+A$ channel (prior) or in the final $\beta \equiv b + B$ channel (post), while the other particle follows suit making use of the particle-particle correlation (grey area) which binds the Cooper pair (see upper inset labelled (a)), represented by a solid arrow on a double line, to the projectile (curved arrowed lines) or to the target (opened arrowed lines). The above argument provides the explanation why when e.g. $v_{1b}$ acts on one nucleon, the other nucleon also reacts instantaneously. In fact a Cooper pair displays generalized rigidity (emergent property in gauge space).
-A crossed open circle represents the particle-pair vibration coupling. The associated strength, together with an energy denominator, determines the amplitude $X_{a'_1 a'_2}$  with which the pair mode (Cooper pair) is in the (time reversed) two particle configuration $a'_1 a'_2$. In the transfer process, the  relative motion orbit changes, the readjustement of the corresponding trajectory mismatch being operated by a Galilean transformation induced by the operator ($\textrm{exp}\{ \vec k \cdot (\vec{r}_{1A}(t)+\vec{r}_{2A}(t))\}$). This phenomenon, known as recoil process, is represented by a jagged line which  provides simultaneous information on the two transferred nucleons (single time appearing as argument of both single-particle coordinates $r_1$ and $r_2$; see Fig. \ref{figC7C1} inset labeled (b)). In other words, information on the coupling of structure and reaction modes.
-(II) Non-orthogonality contribution. While one of the nucleons of the Cooper pairs is transferred under the action of $v$, the other goes, uncorrelatedly over, profiting of the non-orthogonality of the associated single-particle wavefunctions (see inset (c)). 
-(III) Successive transfer. In this case, there are two time dependences associated with the acting of the nucleon-nucleon interaction twice (see Fig. \ref{figC7C2} inset (d)). 
+(\textbf{I}) Simultaneous transfer, in which one particle is transferred by the nucleon-nucleon interaction acting either in the entrance $\alpha \equiv a+A$ channel (prior) or in the final $\beta \equiv b + B$ channel (post), while the other particle follows suit making use of the particle-particle correlation (grey area) which binds the Cooper pair (see upper inset labelled (a)), represented by a solid arrow on a double line, to the projectile (curved arrowed lines) or to the target (opened arrowed lines). The above argument provides the explanation why when e.g. $v_{1b}$ acts on one nucleon, the other nucleon also reacts instantaneously. In fact a Cooper pair displays generalized rigidity (emergent property in gauge space).
+A crossed open circle represents the particle-pair vibration coupling. The associated strength, together with an energy denominator, determines the amplitude $X_{a'_1 a'_2}$  with which the pair mode (Cooper pair) is in the (time reversed generalized to include different number of nodes) two particle configuration $a'_1 a'_2$. In the transfer process, the  relative motion orbit changes, the readjustement of the corresponding trajectory mismatch being operated by a Galilean transformation induced by the operator ($\textrm{exp}\{ \mathbf k \cdot (\mathbf{r}_{1A}(t)+\mathbf{r}_{2A}(t))\}$). This phenomenon, known as recoil process, is represented by a jagged line which  provides  information on the two transferred nucleons (single time appearing as argument of both single-particle coordinates $r_1$ and $r_2$; see Fig. \ref{figC7C1} inset labeled (b)). In other words, information on the coupling of structure and reaction modes.
+(\textbf{II}) Non-orthogonality contribution. While one of the nucleons of the Cooper pairs is transferred under the action of $v$, the other goes, uncorrelatedly over, profiting of the non-orthogonality of the associated single-particle wavefunctions (see inset (c)). 
+(\textbf{III}) Successive transfer. In this case, there are two time dependences associated with the acting of the nucleon-nucleon interaction twice (see Fig. \ref{figC7C2} inset (d)). 
 
 
 \subsection{Independent particle limit}\label{C7S7C1}
@@ -1939,14 +1919,14 @@ S^a(2n) = 2 S^a(n) = 2 S^f(n).
 \end{equation}
 In this case 
 \begin{equation}\label{eqC7C10}
-\phi^{B(A)} (S^B(2n), \vec r_{1A},\vec r_{2A}) = \sum_{a_1 a_2} \phi_{a_1}^{B(F)} (S^B(n),\vec r_{1A}) 
-\phi_{a_{2}}^{F(A)} (S^F(n),\vec r_{2a}),
+\phi^{B(A)} (S^B(2n), \mathbf r_{1A},\mathbf r_{2A}) = \sum_{a_1 a_2} \phi_{a_1}^{B(F)} (S^B(n),\mathbf r_{1A}) 
+\phi_{a_{2}}^{F(A)} (S^F(n),\mathbf r_{2a}),
 \end{equation}
 and 
 \begin{equation}\label{eqC7C11}
-\phi^{a(b)} (S^a(2n), \vec r_{1b},\vec r_{2b}) = 
-\sum_{a^{'}_{1} a^{'}_{2}} \phi_{a^{'}_1}^{a(f)} (S^a(n),\vec r_{2b}) 
-\phi_{a^{'}_{2}}^{f(b)} (S^f(n),\vec r_{1b}),
+\phi^{a(b)} (S^a(2n), \mathbf r_{1b},\mathbf r_{2b}) = 
+\sum_{a^{'}_{1} a^{'}_{2}} \phi_{a^{'}_1}^{a(f)} (S^a(n),\mathbf r_{2b}) 
+\phi_{a^{'}_{2}}^{f(b)} (S^f(n),\mathbf r_{1b}),
 \end{equation}
 where $(a_1, a_2) \equiv F$ and $(a'_1, a'_2) \equiv f$ span, as mentioned above, shells in nuclei $B$ and $a$ respectively. 
 
@@ -2035,7 +2015,31 @@ Thus the total two-nucleon transfer amplitude is equal, in the strong coupling l
 
 Summing up, only when successive transfer and non-orthogonal corrections are included in the description of the two-nucleon 
 transfer process, does one obtain a consistent description of the process, which correctly converges to the weak and 
-strong correlation limiting values.
+strong correlation limiting values. 
+
+As already stated (Sect. \ref{trans_nutAppA}), actual nuclei are, as a rule, closer to the independent particle limit than to the cluster one. Thus, it is not surprising that successive constitutes the major contribution to two-nucleon transfer processes. Nonetheless, the slight deviation from independent particle motion arising from pairing correlations, entangles the fermions (nucleons) partners of a Cooper pair, in a subtle fashion. This can be seen by expressing the pair transfer operator  in terms of quasiparticles. Making use of the relation
+\begin{align}\label{eq6.5.23}
+a^\dagger_\nu=U_\nu\alpha_\nu^\dagger+V_\nu\alpha_{\tilde\nu},
+\end{align} 
+one obtains 
+\begin{align}\label{eq6.5.24}
+P^\dagger_\nu=a^\dagger_\nu a^\dagger_{\tilde\nu}=U^2_\nu\alpha_\nu^\dagger\alpha_{\tilde\nu}^\dagger-U_\nu V_\nu(\alpha_\nu^\dagger\alpha_\nu+\alpha_{\tilde\nu}^\dagger\alpha_{\tilde\nu})-V^2_\nu\alpha_{\tilde\nu}\alpha_\nu+U_\nu V_\nu.
+\end{align} 
+Because one-quasiparticle transfer amplitude is $\sim U_\nu$ and the associated cross section is $\sim U^2_\nu$ (i.e. $\sim T^2$, $T$ being the associated transition amplitude), it is natural that the two-quasiparticle transfer amplitude is $\sim U^2_\nu$ and that the associated cross section is $\sim U^4_\nu$ (i.e. $\sim T^4$). As apparent from (\ref{eq6.5.24}), there exists a different possibility to transfer a pair of nucleons, leaving the quasiparticle distribution unchanged\footnote{This was the main message of Josephson (\cite{Josephson:62}), and was the possibility which was missed by Giaever (\cite{Giaver:73}), who interpreted supercurrents with zero voltage drop through the oxide barrier separating two superconductors as a metallic short. As he (Giaever) states: ``to make an experimental discovery is not enough to observe something, one must also realize the significance of the observation''. It was also missed by Cohen, Falicov and Phillips (\cite{Cohen:62}), who developed the many-body tunneling Hamiltonian (eventually extended by Josephson) and who found four contributions to the current which correspond to normal (carriers of charge $e$) current of type S-Q. That is, implying quasiparticle excitation.}. Namely, through the last term of (\ref{eq6.5.24}). Thus, a transfer amplitude $\sim U_\nu V_\nu$ and associated two-nucleon transfer cross section $\sim(U_\nu V_\nu)^2$ $(\sim T^2)$. A result which one finds at the basis of (\ref{eq3.2.19}).
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
  \begin{subappendices}
 \section{Spherical harmonics and angular momenta}\label{C7AppD}
 With Condon--Shortley phases
@@ -2354,12 +2358,12 @@ In BCS theory, the quasiparticles are defined in terms of linear combinations of
 \section{Spectroscopic amplitudes in the BCS approximation}\label{C7AppN}
 The creation operator of a pair of fermions coupled to $J,M$ can be expressed in second quantization as
 \begin{equation}\label{eq54}
-P^\dagger(j_1,j_2,J M)=N\sum_m \langle j_1 \; m \;j_2 \;M-m|J \; M\rangle \;a^\dagger_{j_1m}a^\dagger_{j_2M-m},
+T^\dagger(j_1,j_2,J M)=N\sum_m \langle j_1 \; m \;j_2 \;M-m|J \; M\rangle \;a^\dagger_{j_1m}a^\dagger_{j_2M-m},
 \end{equation}
 where $N$ is a normalization constant. To determine it, we write the wave function resulting from the action of (\ref{eq54}) on the vacuum
 \begin{equation}\label{eq55}
 \begin{split}
-  \Psi=P^\dagger(j_1,j_2,J M) |0\rangle &= \frac{N}{\sqrt 2}\sum_m \langle j_1 \; m \;j_2 \;M-m|J \; M\rangle\\
+  \Psi=T^\dagger(j_1,j_2,J M) |0\rangle &= \frac{N}{\sqrt 2}\sum_m \langle j_1 \; m \;j_2 \;M-m|J \; M\rangle\\
     & \times\left(\phi_{j_1 m}(\mathbf{r_1})\phi_{j_2 M-m}(\mathbf{r_2})-\phi_{j_2 M-m}(\mathbf{r_1})\phi_{j_1,m}(\mathbf{r_2})\right).
 \end{split}
 \end{equation}
@@ -2394,12 +2398,12 @@ P^\dagger(j_1,j_2,J M)=\frac{1}{\sqrt{1+\delta_{j_1,j_2}}}\sum_m \langle j_1 \; 
 
 The spectroscopic amplitude for finding in a $A+2,J_f,M_f$ nucleus a couple of nucleons with quantum numbers $j_1,j_2$ coupled to $J$ on top of a $A,J_i$ nucleus is
 \begin{equation}\label{eq61}
-B(J,j_1,j_2)=\sum_{M,M_i} \langle J_i \; M_i \; J M|J_f \; M_f\rangle \langle \Psi_{J_f M_f}|P^\dagger(j_1,j_2,J M)|\Psi_{J_i M_i}\rangle.
+B(j_1,j_2(J))=\sum_{M,M_i} \langle J_i \; M_i \; J M|J_f \; M_f\rangle \langle \Psi_{J_f M_f}|T^\dagger(j_1,j_2,J M)|\Psi_{J_i M_i}\rangle.
 \end{equation}
 This is completely general. It depends on the structure model only through the way the $A+2$ and $A$ nuclei are treated. We now want to turn our attention to the expression of $B(J,j_1,j_2)$ in the BCS approximation when both the $A+2$ and the $A$ are $0^+$, zero--quasiparticle ground states. In order to do this, we write (\ref{eq60}) in terms of quasiparticle operators using (\ref{eq53})\footnote{In what follows, we use the phase convention $\alpha_{j \bar m}=(-1)^{j-m}\alpha_{j-m}$ instead of $\alpha_{j \bar m}=(-1)^{j+m}\alpha_{j-m}$, consistent with (\ref{eq38}). Had we stick to the definition (\ref{eq38}), the amplitude $B(0,j,j)$ calculated below would have a minus sign, which would not have any physical consequence.}:
 \begin{equation}\label{eq62}
     \begin{split}
-       P^\dagger(j_1,j_2,J M)= & \frac{1}{\sqrt{1+\delta_{j_1,j_2}}}\sum_{m_1,m_2} \langle j_1 \; m_1 \;j_2 \;m_2|J \; M\rangle \left( U_{j_1}U_{j_2}\alpha_{j_1m_1}^\dagger\alpha_{j_2m_2}^\dagger\right.\\
+       T^\dagger(j_1,j_2,J M)= & \frac{1}{\sqrt{1+\delta_{j_1,j_2}}}\sum_{m_1,m_2} \langle j_1 \; m_1 \;j_2 \;m_2|J \; M\rangle \left( U_{j_1}U_{j_2}\alpha_{j_1m_1}^\dagger\alpha_{j_2m_2}^\dagger\right.\\
          &  +(-1)^{j_1+j_2-M}V_{j_1}V_{j_2}\alpha_{j_1-m_1}\alpha_{j_2-m_2}\\
          &+(-1)^{j_2-m_2}U_{j_1}V_{j_2}\alpha_{j_1m_1}^\dagger
          \alpha_{j_2-m_2}\\
@@ -2419,7 +2423,7 @@ After carrying out the summation one finds,
 \begin{equation}\label{eq64}
  B_j=B(j^2(0))=\sqrt{j+1/2}\;V_jU_j.
 \end{equation}
-Note that in this final expression $V_j$ refers to the $A$ nucleus, while $U_j$ is related to the $A+2$ nucleus. In practice, it does not make a big difference to calculate both for the same nucleus.
+Note that in this final expression $V_j$ refers to the $A+2$ nucleus, while $U_j$ is related to the $A$ nucleus. In practice, it does not make a big difference to calculate both for the same nucleus.
 
 \section[Bayman's two-nucleon transfer amplitudes]{Derivation of two-nucleon transfer transition amplitudes including recoil, non-orthogonality and successive transfer.}\label{C7AppO}
 In the present Appendix we reproduce with the permission of the author the first (manuscript) page (Fig. \ref{fig5.h.1}) of what, arguably, was the first complete derivation\footnote{\cite{Bayman:70} (unpublished).} of the different contributions needed to calculate absolute two--nucleon transfer cross sections in a systematic way\footnote{ \cite{Bayman:71} and \cite{Bayman:82}). Within this context we refer to \cite{Broglia:73} and \cite{Potel:13} in particular Fig. 10 of this reference.}. 

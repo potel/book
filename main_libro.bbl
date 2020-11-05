@@ -1,4 +1,4 @@
-\begin{thebibliography}{579}
+\begin{thebibliography}{589}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \expandafter\ifx\csname urlstyle\endcsname\relax
@@ -72,12 +72,6 @@ H.~An and C.~Cai.
 P.~W. Anderson.
 \newblock New method in the theory of superconductivity.
 \newblock \emph{Phys. Rev.}, 110:\penalty0 985, 1958.
-
-\bibitem[Anderson(1959)]{Anderson:59}
-P.~W. Anderson.
-\newblock Theory of dirty superconductors.
-\newblock \emph{Journal of Physics and Chemistry of Solids}, 11:\penalty0 26,
-  1959.
 
 \bibitem[Anderson(1964{\natexlab{a}})]{Anderson:64}
 P.~W. Anderson.
@@ -190,6 +184,11 @@ N.~Austern.
 \newblock \emph{Direct nuclear reaction theories}.
 \newblock Interscience monographs and texts in physics and astronomy.
   Wiley--Interscience, 1970.
+
+\bibitem[Austin and Bertsch(1995)]{Austin:95}
+S.~Austin and G.~Bertsch.
+\newblock {Halo Nuclei}.
+\newblock \emph{Sci. American}, 272:\penalty0 90, 1995.
 
 \bibitem[Auton(1970)]{Auton:70}
 D.~Auton.
@@ -314,6 +313,13 @@ S.~Baroni, M.~Armati, F.~Barranco, R.~A. Broglia, G.~Col\`{o}, G.~Gori, and
 S.~Baroni, A.~O. Macchiavelli, and A.~Schwenk.
 \newblock Partial-wave contributions to pairing in nuclei.
 \newblock \emph{Phys. Rev. C}, 81:\penalty0 064308, 2010.
+
+\bibitem[Barranco(1985)]{Barranco:85b}
+F.~Barranco.
+\newblock Estudio de las fluctuaciones y correlaciones en el estado fundamental
+  del nucleo.
+\newblock \emph{PhD Thesis, University of Sevilla}, 1985.
+\newblock (unpublished).
 
 \bibitem[Barranco and Broglia(1985)]{Barranco:85}
 F.~Barranco and R.~A. Broglia.
@@ -502,6 +508,11 @@ V.~Bernard and N.~V. Giai.
 \newblock In R.~A. Broglia, R.~A. Ricci, and C.~H. Dasso, editors, \emph{Proc.
   of the Int. School of Physics "Enrico Fermi", Course LXXVII, p. 437}. North
   Holland, Amsterdam, 1981.
+
+\bibitem[Bertrand(1981)]{Bertrand:81}
+F.~Bertrand.
+\newblock {Giant multipole resonances -- Perspectives after ten years}.
+\newblock \emph{Nuclear Physics A}, 354:\penalty0 129, 1981.
 
 \bibitem[Bertsch(1988)]{Bertsch:88b}
 G.~Bertsch.
@@ -894,6 +905,13 @@ D.~M. Brink and G.~R. Satchler.
 \newblock \emph{Angular Momentum}.
 \newblock Clarendon Press, 1968.
 
+\bibitem[Broglia et~al.(1977)Broglia, Liotta, Nilsson, and
+  Winther]{Broglia:77b}
+R.~Broglia, R.~Liotta, B.~Nilsson, and A.~Winther.
+\newblock {Formfactors for one- and two-nucleon transfer reactions induced by
+  light and heavy ions}.
+\newblock \emph{Physics Reports}, 29:\penalty0 291, 1977.
+
 \bibitem[Broglia(1975)]{Broglia:75}
 R.~A. Broglia.
 \newblock {Heavy ion reaction, Notes of lectures delivered during the academic
@@ -1224,6 +1242,11 @@ C.~Cohen-Tannoudji and D.~{Gu\'ery}-Odelin.
 G.~Col\`{o}, N.~V. Giai, P.~F. Bortignon, and M.~R. Quaglia.
 \newblock On dipole compression modes in nuclei.
 \newblock \emph{Physics Letters B}, 485:\penalty0 362, 2000.
+
+\bibitem[Cooper and Feldman(2011)]{Cooper:11b}
+L.~Cooper and D.~Feldman, editors.
+\newblock \emph{BCS: 50 years}.
+\newblock World Scientific, Singapore, 2011.
 
 \bibitem[Cooper(1956)]{Cooper:56}
 L.~N. Cooper.
@@ -1642,6 +1665,20 @@ R.~J. Furnstahl and A.~Schwenk.
   for nuclei?}
 \newblock \emph{Journal of Physics G}, 37:\penalty0 064005, 2010.
 
+\bibitem[{Gaardh\o{}je}(1985)]{Gaardhoje:85}
+J.~J. {Gaardh\o{}je}.
+\newblock The dynamics of nuclear structure at high excitation energy.
+\newblock In R.~A. Broglia and C.~H. Dasso, editors, \emph{Frontiers in Nuclear
+  Dynamics}, page 133. Plenum Pressd, New York, 1985.
+
+\bibitem[Gaardh\o{}je et~al.(1986)Gaardh\o{}je, Ellegaard, Herskind, Diamond,
+  Deleplanque, Dines, Macchiavelli, and Stephens]{Gaardhoje:86}
+J.~J. Gaardh\o{}je, C.~Ellegaard, B.~Herskind, R.~M. Diamond, M.~A.
+  Deleplanque, G.~Dines, A.~O. Macchiavelli, and F.~S. Stephens.
+\newblock {Gamma Decay of Isovector Giant Resonances Built on Highly Excited
+  States in $^{111}\mathrm{Sn}$}.
+\newblock \emph{Phys. Rev. Lett.}, 56:\penalty0 1783, 1986.
+
 \bibitem[Garrett(1985)]{Garrett:85}
 J.~D. Garrett.
 \newblock The ``single--particle'' spectrum of states: correlated or
@@ -1665,8 +1702,8 @@ E.~Garrido, D.~Fedorov, and A.~Jensen.
 \newblock {Spin-dependent effective interactions for halo nuclei}.
 \newblock \emph{Phys. Rev. C}, 68:\penalty0 014002, 2003.
 
-\bibitem[Giaver(1973)]{Giaver:73}
-I.~Giaver.
+\bibitem[Giaever(1973)]{Giaver:73}
+I.~Giaever.
 \newblock Electron tunneling and superconductivity.
 \newblock In P.~Norstedt and S{\"{o}}ner, editors, \emph{Le Prix Nobel en
   1973}, page~84. 1973.
@@ -1747,6 +1784,12 @@ M.~Gornov, Y.~Gurov, S.~Lapushkin, P.~Morokhov, V.~Pechkurov, K.~Seth,
 \newblock {Spectroscopy of $^7$, $^8$He, $^{10}$Li, and $^{13}$Be nuclei in
   stopped $\pi^-$meson absorption reactions}.
 \newblock \emph{Bull. Rus. Acad. Sci.}, 62:\penalty0 1781, 1998.
+
+\bibitem[{G\"{o}tz} et~al.(1975){G\"{o}tz}, Ichimura, Broglia, and
+  Winther]{Gotz:75}
+U.~{G\"{o}tz}, M.~Ichimura, R.~A. Broglia, and A.~Winther.
+\newblock {Reaction mechanism of two-nucleon transfer between heavy ions}.
+\newblock \emph{Phys. Rep.}, 16:\penalty0 115, 1975.
 
 \bibitem[Greiner(1998)]{Greiner:98}
 W.~Greiner.
@@ -2223,6 +2266,12 @@ E.~Kwan, C.~Wu, N.~Summers, G.~Hackman, T.~Drake, C.~Andreoiu, R.~Ashley,
   $^{11}$Be}.
 \newblock \emph{Physics Letters B}, 732:\penalty0 210, 2014.
 
+\bibitem[Lalazissis and Ring(2019)]{Lalazissis:19}
+G.~A. Lalazissis and P.~Ring.
+\newblock Giant resonances with time dependent covariant density functional
+  theory.
+\newblock \emph{Eur. Phys. J. A}, 55:\penalty0 229, 2019.
+
 \bibitem[Lamb~Jr(1964)]{Lamb:51b}
 W.~E. Lamb~Jr.
 \newblock {Fine structure of the hydrogen atom}.
@@ -2499,6 +2548,11 @@ A.~Migdal.
 \newblock Interaction between electrons and lattice vibrations in a normal
   metal.
 \newblock \emph{Soviet Physics JETP}, 7:\penalty0 996, 1958.
+
+\bibitem[Milloni(1994)]{Milloni:94}
+P.~W. Milloni.
+\newblock \emph{{The Quantum Vacuum}}.
+\newblock Academic Press, New York, 1994.
 
 \bibitem[Mitra et~al.(2018)Mitra, Kraft, Wright, Acland, Snyder, Rosenthal,
   Czerniewski, Bauer, Snyder, Culver, et~al.]{Mitra:18}
@@ -3200,6 +3254,12 @@ M.~Smith, M.~Brodeur, T.~Brunner, S.~Ettenauer, A.~Lapierre, R.~Ringle, V.~L.
   {$^{11}$}{Li}.
 \newblock \emph{Phys. Rev. Lett.}, 101:\penalty0 202501, 2008.
 
+\bibitem[Snover(1986)]{Snover:86}
+K.~A. Snover.
+\newblock Giant resonances in excited nuclei.
+\newblock \emph{Annual Review of Nuclear and Particle Science}, 36:\penalty0
+  545, 1986.
+
 \bibitem[Stent(1980)]{Stent:80}
 G.~S. Stent.
 \newblock In G.~S. Stent, editor, \emph{The double helix}. Norton and Co., New
@@ -3299,7 +3359,7 @@ D.~ter Haar.
 J.~Terasaki, F.~Barranco, R.~A. Broglia, E.~Vigezzi, and P.~F. Bortignon.
 \newblock Solution of the {D}yson equation for nucleons in the superfluid
   phase.
-\newblock \emph{Nuclear Physics A}, 697:\penalty0 127, 2002{\natexlab{a}}.
+\newblock \emph{Nuclear Physics A}, 2002{\natexlab{a}}.
 
 \bibitem[Terasaki et~al.(2002{\natexlab{b}})Terasaki, Barranco, Vigezzi,
   Broglia, and Bortignon]{Terasaki:02b}

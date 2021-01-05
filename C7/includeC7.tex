@@ -11,7 +11,7 @@
 The present Chapter is structured in the following way. In Section \ref{C7S1} we present a summary of two-nucleon transfer reaction theory. It provides, together with Section \ref{C2S1} the elements needed to calculate the absolute two-nucleon transfer differential cross sections in second order DWBA, and thus to compare theory with experiment.
 For the practitioner in search of details and clarification we present in section \ref{C7S2}  a  derivation of the equations presented in section \ref{C7S1}. These equations are implemented and made operative  in the software \textsc{cooper}  used in the applications (cf. App. \ref{C8AppD}).
 
-A number of Appendices are provided.   Appendices \ref{C7AppD}--\ref{C7AppN} contain relations used in Sect. \ref{C7S2} as well as in the derivation of some two-nucleon transfer spectroscopic amplitudes. Finally, Appendix \ref{C7AppO} provides a glimpse of original material due to Ben Bayman\footnote{\cite{Bayman:70}, \cite{Bayman:71}, \cite{Bayman:82}.} which was instrumental to render quantitative the studies of two-nucleon transfer, studies which can now be carried out in terms of absolute differential cross sections and not only relative ones.
+A number of Appendices are provided.   Appendices \ref{C7AppD}--\ref{C7AppN} contain relations used in Sect. \ref{C7S2} as well as in the derivation of some two-nucleon transfer spectroscopic amplitudes. Finally, Appendix \ref{C7AppO} provides a glimpse of original material due to Ben Bayman\footnote{\cite{Bayman:70}, \cite{Bayman:71}, \cite{Bayman:82}.} which was instrumental to render quantitative the studies of two-nucleon transfer, studies which can now be carried out in terms of absolute differential cross sections and not only of relative ones.
 \section{Summary of second order DWBA}\label{C7S1}
 Let us illustrate the  theory of second order DWBA two-nucleon transfer reactions  with the  $A+t \rightarrow B(\equiv A+2)+p$ reaction, in which $A+2$ and $A$ are even nuclei in their $0^+$ ground state. The extension of the  expressions to the transfer of pairs coupled to arbitrary angular momentum is discussed in subsection \ref{C7S2S10}. 
 
@@ -24,7 +24,7 @@ where
 \begin{equation}\label{eq7_1_2}
 [\phi^{A+2}_{l_i,j_i}(\mathbf r_{A1},\sigma_1,\mathbf r_{A2},\sigma_2)]^0_0=\sum_{nm}a_{nm}\left[\varphi^{A+2}_{n,l_i,j_i}(\mathbf r_{A1},\sigma_1)\varphi^{A+2}_{m,l_i,j_i}(\mathbf r_{A2},\sigma_2)\right]^0_0,
 \end{equation} 
-while the wavefunctions $\varphi^{A+2}_{n,l_i,j_i}(\mathbf r)$ are single-particle wavefunctions.
+while  $\varphi^{A+2}_{n,l_i,j_i}(\mathbf r)$ are single-particle wavefunctions.
 %eigenfunctions of a Saxon--Woods potential
 %\begin{equation}\label{Eq17}
 %U(r)=-\frac{V_0}
@@ -32,6 +32,9 @@ while the wavefunctions $\varphi^{A+2}_{n,l_i,j_i}(\mathbf r)$ are single-partic
 %\end{equation}
 %of depth $V_0$  adjusted to reproduce the experimental single--particles energies, together with a standard spin--orbit potential.
  The radial dependence of the  wavefunction of the two neutrons in the triton is written as $\phi_t(\mathbf r_{p1},\mathbf r_{p2})=\rho(r_{p1})\rho(r_{p2})\rho(r_{12})$, where $r_{p1},r_{p2},r_{12}$ are the distances between neutron 1 and the proton, neutron 2 and the proton and between neutrons 1 and 2 respectively, while $\rho(r)$ is the hard core $(r_{core}=0.45$ fm) potential  wavefunction  depicted in\footnote{\cite{Tang:65}.} Fig \ref{fig7_1_1}.
+ 
+
+ 
  
 \begin{figure}
 \centerline{\includegraphics*[width=.55\textwidth,angle=0]{C7/figs_C7/tritium.pdf}}
@@ -51,25 +54,25 @@ where\footnote{See \cite{Bayman:82} and App. \ref{C7AppO}.},
 \begin{multline}\label{eq1_40}
 T^{(1)}(\theta)=2\sum_{l_i,j_i}\sum_{\sigma_1 \sigma_2}\int d\mathbf{r}_{tA}d\mathbf{r}_{p1}d\mathbf{r}_{A2}
   [\phi^{A+2}_{l_i,j_i}(\mathbf r_{A1},\sigma_1,\mathbf r_{A2},\sigma_2)]^{0*}_0\chi^{(-)*}_{pB}(\mathbf{r}_{pB})\\
- \times v(\mathbf{r}_{p1}) \phi_t(\mathbf r_{p1},\sigma_1,\mathbf r_{p2},\sigma_2)\chi^{(+)}_{tA}(\mathbf{r}_{tA}),
+ \times v({r}_{p1}) \phi_t(\mathbf r_{p1},\sigma_1,\mathbf r_{p2},\sigma_2)\chi^{(+)}_{tA}(\mathbf{r}_{tA}), \idx{Two-nucleon transfer!simultaneous}
 \end{multline}
 \begin{multline}\label{eq1_41}
 T^{(2)}_{succ}(\theta)=2\sum_{l_i,j_i}\sum_{l_f,j_f,m_f}\sum_{\substack{\sigma_1 \sigma_2\\\sigma'_1 \sigma'_2}}
 \int d\mathbf{r}_{dF}d\mathbf{r}_{p1}d\mathbf{r}_{A2}
 [\phi^{A+2}_{l_i,j_i}(\mathbf r_{A1},\sigma_{1},\mathbf r_{A2},\sigma_2)]^{0*}_0\chi^{(-)*}_{pB}(\mathbf{r}_{pB})
- v(\mathbf{r}_{p1})\\
+ v({r}_{p1})\\
  \times\phi_d(\mathbf r_{p1},\sigma_1)\varphi^{A+1}_{l_f,j_f,m_f}(\mathbf r_{A2},\sigma_2) \int d\mathbf{r}'_{dF}d\mathbf{r}'_{p1}d\mathbf{r}'_{A2}G(\mathbf{r}_{dF},\mathbf{r}'_{dF})\\
- \times \phi_d(\mathbf r'_{p1},\sigma'_1)^*\varphi^{A+1*}_{l_f,j_f,m_f}(\mathbf r'_{A2},\sigma'_2) \frac{2\mu_{dF}}{\hbar^2}v(\mathbf{r}'_{p2})
- \phi_d(\mathbf r'_{p1},\sigma'_1)\phi_d(\mathbf r'_{p2},\sigma'_2) \chi^{(+)}_{tA}(\mathbf{r}'_{tA}),
+ \times \phi_d(\mathbf r'_{p1},\sigma'_1)^*\varphi^{A+1*}_{l_f,j_f,m_f}(\mathbf r'_{A2},\sigma'_2) \frac{2\mu_{dF}}{\hbar^2}v({r}'_{p2})
+ \phi_d(\mathbf r'_{p1},\sigma'_1)\phi_d(\mathbf r'_{p2},\sigma'_2) \chi^{(+)}_{tA}(\mathbf{r}'_{tA}), \idx{Two-nucleon transfer!successive}
 \end{multline}
 \begin{multline}\label{eq1_42}
 T^{(2)}_{NO}(\theta)=2\sum_{l_i,j_i}\sum_{l_f,j_f,m_f}\sum_{\substack{\sigma_1 \sigma_2\\\sigma'_1 \sigma'_2}}
 \int d\mathbf{r}_{dF}d\mathbf{r}_{p1}d\mathbf{r}_{A2}
 [\phi^{A+2}_{l_i,j_i}(\mathbf r_{A1},\sigma_1,\mathbf r_{A2},\sigma_2)]^{0*}_0\chi^{(-)*}_{pB}(\mathbf{r}_{pB})
- v(\mathbf{r}_{p1})\\
+ v({r}_{p1})\\
  \times \phi_d(\mathbf r_{p1},\sigma_1)\varphi^{A+1}_{l_f,j_f,m_f}(\mathbf r_{A2},\sigma_2)\int d\mathbf{r}'_{p1}d\mathbf{r}'_{A2}d\mathbf{r}'_{dF}\\
  \times\phi_d(\mathbf r'_{p1},\sigma'_1)^*\varphi^{A+1*}_{l_f,j_f,m_f}(\mathbf r'_{A2},\sigma'_2) 
-  \phi_d(\mathbf r'_{p1},\sigma'_1)\phi_d(\mathbf r'_{p2},\sigma'_2)\chi^{(+)}_{tA}(\mathbf{r}'_{tA}).
+  \phi_d(\mathbf r'_{p1},\sigma'_1)\phi_d(\mathbf r'_{p2},\sigma'_2)\chi^{(+)}_{tA}(\mathbf{r}'_{tA}).\idx{Two-nucleon transfer!non-orthogonality correction}
 \end{multline}
 \end{subequations}
 The quantities $\mu_i, \mu_f (k_i,k_f)$ are the reduced masses (relative linear momenta) in both entrance (initial, $i$) and exit (final, $f$) channels, respectively.
@@ -94,7 +97,7 @@ where $v_{p1}$ and $v_{p2}$ is the hard--core potential (\ref{eq7_1_6}). The tra
 \begin{equation}\label{eq1_45}
     V_\beta=v_{pA}+v_{p1}+v_{p2}-U_{\beta}.
 \end{equation}
-Assuming that $\langle \beta |v_{pA}|\alpha \rangle \approx	 \langle \beta |U_{\beta}|\alpha \rangle $ (i.e, assuming that the matrix element of the core--core interaction between the initial and final states is very similar to the matrix element of the real part of the optical potential), one obtains the final expression of the transfer potential in the \emph{post} representation, namely,	
+Assuming that $\langle \beta |v_{pA}|\alpha \rangle \approx	 \langle \beta |U_{\beta}|\alpha \rangle $ (i.e, assuming that the matrix element of the core--core interaction between the initial and final states is very similar to the matrix element of the real part of the optical potential), one obtains the final expression of the transfer potential in the \emph{post-post} representation, namely,	
 \begin{equation}\label{eq1_45x}
     V_\beta\simeq v_{p1}+v_{p2}=v(\mathbf{r}_{p1})+v(\mathbf{r}_{p2}).
 \end{equation}
@@ -109,8 +112,9 @@ G(\mathbf{r}_{dF},\mathbf{r}_{dF}')=i\sum_{l}\sqrt{2l+1}
 \frac{f_{l}(k_{dF},r_<)g_{l}(k_{dF},r_>)}{k_{dF}r_{dF}r_{dF}'}
 \left[  Y^{l} (\hat r_{dF}) Y^{l} (\hat r_{dF}')\right]_0^0.
 \end{equation}
-The $f_{l}(k_{dF},r)$ and $g_l(k_{dF},r)$ are the regular and the irregular solutions of a Schr\"{o}dinger equation for  a suitable optical potential and an energy equal to the kinetic energy of the intermediate state. In most cases of interest, the result is hardly altered if we use the same energy of  relative motion for all the intermediate states. This representative energy is calculated when both intermediate nuclei are in their corresponding ground states. It is of notice that the validity of this approximation can break down in some particular cases. If, for example, some relevant intermediate state become off shell, its contribution is significantly quenched. An interesting situation can arise when this happens to all possible intermediate states, so they can only be virtually populated.
+The $f_{l}(k_{dF},r)$ and $g_l(k_{dF},r)$ are the regular and the irregular solutions of a Schr\"{o}dinger equation for  a suitable optical potential and an energy equal to the kinetic energy of the intermediate state. In most cases of interest, the result is hardly altered if we use the same energy of  relative motion for all the intermediate states. This representative energy is calculated when both intermediate nuclei are in their corresponding ground states. It is of notice that the validity of this approximation can break down in some particular cases. If, for example, some relevant intermediate state become off shell, its contribution is significantly quenched. An subtle situation can arise when this happens to all possible intermediate states, so they can only be virtually populated.
 \section{Detailed derivation of second order DWBA}\label{C7S2}
+\idx{Two-nucleon transfer!second order DWBA}
 \subsection{Simultaneous transfer: distorted waves}\label{Sect6.2.1}
 For a $(t,p)$ reaction, the triton is represented by an incoming distorted wave. We make the assumption that the two neutrons are in an $S=L=0$ state, and that the relative motion of the proton with respect to the dineutron is also $l=0$. Consequently, the total spin of the triton   is entirely due to the spin of the proton. We will explicitly treat it, as we will consider a spin--orbit term in the optical potential acting between the triton and the target\footnote{In what follows we will use the notation of \cite{Bayman:71}, see also  App. \ref{C7AppO}.}.
 
@@ -166,6 +170,7 @@ one obtains
 \end{split}
 \end{equation}
 \subsection{matrix element for the transition amplitude}\label{C7SS722}
+\idx{Two-nucleon transfer!second order DWBA}
 We now turn our attention to the evaluation of
 \begin{equation}\label{eq94}
   \begin{split}
@@ -214,6 +219,7 @@ The only term which does not vanish after the integration is performed is the on
  \left[Y^{l_t}(\hat{\mathbf{R}})\chi(\sigma_p)\right]^{j_t}\right\}_{0}^{0}\delta_{l_pl_t}\delta_{j_pj_t}\delta_{mm_t}.
  \end{split}
 \end{equation}
+\idx{Two-nucleon transfer!second order DWBA}
 Coupling separately the spin and angular functions, one obtains
  \begin{equation}\label{eq7_2_12}
 \begin{split}
@@ -246,6 +252,7 @@ The last sum over $\sigma_p$ leads to
   \end{split}
 \end{equation}
 The $9j$--symbols can be evaluated to find
+\idx{Two-nucleon transfer!second order DWBA}
 \begin{equation}\label{eq100}
   \begin{split}
 \bigl((\lambda \tfrac{1}{2})_k(\lambda \tfrac{1}{2})_k|(\lambda \lambda)_0(\tfrac{1}{2}\tfrac{1}{2})_0\bigr)_0&=\sqrt{\frac{2k+1}{2(2\lambda+1)}}\\
@@ -308,20 +315,21 @@ We can further simplify this expression using
 &=\frac{\sqrt{(2\lambda+1)}}{4\pi}P_\lambda(\cos \theta_{12}).
   \end{split}
 \end{equation}
-Note that when using Condon--Shortley phases this last expression is to be multiplied by $(-1)^\lambda$, and that
+Note that when using Condon-Shortley phases this last expression is to be multiplied by $(-1)^\lambda$, and that
 \begin{equation}\label{eq7_2_21}
   \begin{split}
 \left[Y^{l}(\hat{\boldsymbol{\zeta}})Y^{l}(\hat{\mathbf{R}})\right]^{0}_{0}&=\sum_m \langle l \;m\;l\;-m|0\;0\rangle Y^{l}_m(\hat{\boldsymbol{\zeta}}) Y^{l}_{-m}(\hat{\mathbf{R}})\\
 &=\frac{1}{\sqrt{(2l+1)}}\sum_m (-1)^{l+m}Y^{l}_m(\hat{\boldsymbol{\zeta}}) Y^{l}_{-m}(\hat{\mathbf{R}}).\\
   \end{split}
 \end{equation}
-Because the integral of the above expression is independent of $m$, one can eliminate the $m$--sum and multiply by $2l+1$ the $m=0$ term, leading to
+Because the integral of the above expression is independent of $m$, one can eliminate the $m$--sum and multiply by $2l+1$ the $m=0$ term, leading to \idx{Two-nucleon transfer!second order DWBA}
 \begin{equation}\label{eq115}
   \begin{split}
 \left[Y^{l}(\hat{\boldsymbol{\zeta}})Y^{l}(\hat{\mathbf{R}})\right]^{0}_{0}&\Rightarrow(-1)^l\sqrt{(2l+1)}  \, Y^{l}_0(\hat{\boldsymbol{\zeta}})_0Y^{l}(\hat{\mathbf{R}})\\
 &=\sqrt{(2l+1)}Y^{l}_0(\hat{\boldsymbol{\zeta}}) Y_0^{l*}(\hat{\mathbf{R}}).
 \end{split}
 \end{equation}
+\idx{Two-nucleon transfer!second order DWBA}
 We now change the integration variables from $(\boldsymbol{\zeta},\mathbf{r},\boldsymbol{\eta})$ to $(\mathbf{R},\alpha,\beta,\gamma,r_{12},r_{1p},r_{2p})$, the quantity
 \begin{equation}\label{eq113}
 \left|\frac{\partial(\mathbf{r},\boldsymbol{\eta},\boldsymbol{\zeta})}
@@ -374,6 +382,7 @@ where  use was made of the relation
 \begin{equation}\label{eq119}
 Y^{l}_0(\hat{\boldsymbol{\zeta}})=i^l\sqrt{\frac{2l+1}{4\pi}}P_l(\cos \theta_\zeta).
 \end{equation}
+\idx{Two-nucleon transfer!second order DWBA}
 
 
 
@@ -397,7 +406,7 @@ and
 =\left|i^l \sqrt{\frac{2l+1}{4\pi}\frac{1}{l(l+1)}}P_l^1(\cos\theta)\right|,
 \end{equation}
  when $m_p=1/2, m_t=-1/2$
-Taking the squared modulus of (\ref{eq118}), the sum over $m_t$ and $m_p$ yields a factor 2 multiplying each one of the 2 different terms of the sum ($m_t=m_p$ and $m_t=-m_p$). This is equivalent to multiply each amplitude by $\sqrt{2}$, so the final constant that multiply the amplitudes is
+Taking the squared modulus of (\ref{eq118}), the sum over $m_t$ and $m_p$ yields a factor 2 multiplying each one of the 2 different terms of the sum ($m_t=m_p$ and $m_t=-m_p$). This is equivalent to multiply each amplitude by $\sqrt{2}$, so the final constant that multiply the amplitudes is\idx{Two-nucleon transfer!second order DWBA}
 \begin{equation}\label{eq238}
 \frac{8\pi^{3/2}}{k_ik_f}.
 \end{equation}
@@ -433,8 +442,9 @@ and
   \end{split}
 \end{equation}
 Note that the absence of the $(-1)^\lambda$ factor with respect to what is found in the work of Bayman\footnote{  \cite{Bayman:71}.}, is due to the use of time--reversed phases instead of Condon--Shortley phasing. This is compensated in the total result by a similar difference in the expression of the spectroscopic amplitudes. This ensures that, in either case, the contribution of all the single particle transitions tend to have the same phase for superfluid nuclei, adding coherently to enhance the transfer cross section.
-\subsubsection{Heavy--ion Reactions}
- In  dealing with a heavy ion reaction, $\theta_0^0(\mathbf{r},\mathbf{s})$ are be the spatial part of the wavefunction
+\subsubsection{Heavy-ion Reactions}
+\idx{Two-nucleon transfer!second order DWBA}
+ In  dealing with a heavy ion reaction, $\theta_0^0(\mathbf{r},\mathbf{s})$ is the spatial part of the wavefunction
  \begin{equation}\label{eq189}
  \begin{split}
 \Psi(\mathbf{r}_{b1},\mathbf{r}_{b2},\sigma_1,\sigma_2)&=\left[\psi ^{j_i} (\mathbf{r}_{b1},\sigma_1) \psi ^{j_i} (\mathbf{r}_{b2},\sigma_2) \right] _0^{0}\\
@@ -449,7 +459,7 @@ where $\theta_i$ is the angle between $\mathbf{r}_{b1}$ and $\mathbf{r}_{b2}$. N
 \begin{equation}\label{eq191}
 \frac{d\sigma}{d\Omega}(\hat{\mathbf{k}}_f)=\frac{\mu_f\mu_i}{16\pi^2\hbar^4k_i^3k_f}| T^{(1)}(\theta)|^2,
 \end{equation}
-where
+where\idx{Two-nucleon transfer!second order DWBA}
 \begin{equation}\label{eq192}
   \begin{split}
   T^{(1)}(\theta)&=\sum_{l}(2l+1)P_l(\cos\theta)
@@ -491,7 +501,7 @@ One can then write,
     (\hat{\mathbf{r}}_{aA}),
   \end{split}
 \end{equation}
-which, after a number of simplifications becomes 
+which, after a number of simplifications becomes \idx{Two-nucleon transfer!second order DWBA}
 \begin{equation}\label{eq209}
   \begin{split}
   \langle \Psi_f^{(-)}&(\mathbf{k}_{bB})|V(r_{1p})|\Psi_i^{(+)}(k_{aA},\hat {\mathbf{z}})\rangle=\frac{(4\pi)^{3/2}}{k_{aA}k_{bB}}\sum_{l \tilde l m}
@@ -532,7 +542,7 @@ Changing the integration variables and proceeding as in last section, (implying 
   &\times f_{l}(r_{bB})g_{l}(r_{aA})Y_{0}^{l*}(\hat{\mathbf{r}}_{bB}) V(r_{1p})/r_{bB},
   \end{split}
 \end{equation}
-which eventually can be recasted, through the use of Legendre polynomials, in the expression,
+which eventually can be recasted, through the use of Legendre polynomials, in the expression,\idx{Two-nucleon transfer!second order DWBA}
 \begin{equation}\label{eq7_2_48}
   \begin{split}
   T^{1step}_{2N}=\langle \Psi_f^{(-)}&(\mathbf{k}_{bB})|V(r_{1p})|\Psi_i^{(+)}(k_{aA},\hat {\mathbf{z}})\rangle=\frac{1}{2k_{aA}k_{bB}}\sum_{l}
@@ -547,6 +557,7 @@ which eventually can be recasted, through the use of Legendre polynomials, in th
 \end{equation}
 expression which gives the same results as (\ref{eq192})
 \subsection{Coordinates for the calculation of simultaneous transfer}\label{csc}
+\idx{Two-nucleon transfer!second order DWBA}
 In what follows we explicit the coordinates used in the calculation of the above equations. Making use of the notation of \cite{Bayman:71}, we find the expression of the variables appearing in the integral as functions of the integration variables $r_{1p},r_{2p},r_{12},R,\beta,\gamma$ (remember that $\mathbf{R}=R\,\hat{\mathbf{z}}$, see last section). $\mathbf{R}$ being the center of mass coordinate. Thus, one can write
 \begin{equation}\label{eq65}
     \mathbf{R} =\frac{1}{3}\left(\mathbf{r}_1+ \mathbf{r}_2+ \mathbf{r}_p\right)=\frac{1}{3}\left(\mathbf{R}+ \mathbf{d}_1+ \mathbf{R}+ \mathbf{d}_2+ \mathbf{R}+ \mathbf{d}_p\right),
@@ -623,7 +634,7 @@ with
  -\cos(\alpha)\\
 \end{bmatrix},
 \end{equation}
-and the rotation matrixes are
+and the rotation matrixes are \idx{Two-nucleon transfer!second order DWBA}
 \begin{equation}\label{eq80}
 \mathcal{R}_y(\beta)=
 \begin{bmatrix}
@@ -674,7 +685,7 @@ and
 \begin{equation}\label{eq86}
     \boldsymbol{\zeta}=3\mathbf{R}-\frac{A+3}{A+2}(\mathbf{r}_1+\mathbf{r}_2),
 \end{equation}
-where we have used (\ref{eq65}).
+where we have used (\ref{eq65}).\idx{Two-nucleon transfer!second order DWBA}
 
 
 For heavy ions, we find instead
@@ -731,6 +742,7 @@ and
 
 
 \subsection{Matrix element for the transition amplitude (alternative derivation)}
+\idx{Two-nucleon transfer!second order DWBA}
 In what follows we work out an alternative derivation of $T^{1step}_{2N}$, more closely related to heavy ion reactions\footnote{\cite{Bayman:82}.}, that is
 \begin{equation}\label{eq141}
  \begin{split}
@@ -788,7 +800,7 @@ T^{(1)}(\mu=0;\theta)=&2\frac{(4\pi)^{3/2}}{k_{Aa}k_{Bb}}\sum_{l}i^{-l}
   \sqrt{l(l+1)}\Bigr)\delta_{m_p,-m_t}\right].\\
  \end{split}
 \end{equation}
-Making use of the relations,
+Making use of the relations,\idx{Two-nucleon transfer!second order DWBA}
 \begin{equation}\label{eq145}
  \begin{split}
 \left[ \psi ^{j_f}\right.& \left.(\mathbf{r}_{A1},\sigma_1) \psi ^{j_f} (\mathbf{r}_{A2},\sigma_2) \right] _0^{0*}\\
@@ -813,6 +825,7 @@ u_{l_i}(r_{b1})u_{l_i}(r_{b2})\\
 P_{l_i}(\cos\omega_b)\left[\chi(\sigma_1)\chi(\sigma_2)\right]^{0}_{0},
 \end{split}
 \end{equation}
+\idx{Two-nucleon transfer!second order DWBA}
 where $\omega_A$ is the angle between $\mathbf{r}_{A1}$ and $\mathbf{r}_{A2}$, and $\omega_b$ is the angle between $\mathbf{r}_{b1}$ and $\mathbf{r}_{b2}$. Consequently
 \begin{equation}\label{eq147}
  \begin{split}
@@ -827,6 +840,7 @@ T^{(1)}(\theta)=&(4\pi)^{-3/2}\frac{\sqrt{(2j_i+1)(2j_f+1)}}{k_{Aa}k_{Bb}}\sum_{
   \sqrt{l(l+1)}\Bigr)\delta_{m_p,-m_t}\right],\\
  \end{split}
 \end{equation}
+\idx{Two-nucleon transfer!second order DWBA}
 where $\omega_{if}$ is the angle between $\mathbf{r}_{Aa}$ and $\mathbf{r}_{Bb}$. For heavy ions, we can consider that the the optical potential does not have a spin--orbit term, and the distorted waves are independent of $j$. We thus have
 \begin{equation}\label{eq167}
  \begin{split}
@@ -847,7 +861,8 @@ T^{(1)}(\theta)=&(4\pi)^{-1}\frac{\sqrt{(2j_i+1)(2j_f+1)}}{k_{Aa}k_{Bb}}\sum_{l}
  &\times  u_{l_i}(r_{b1})u_{l_i}(r_{b2})u_{l_f}(r_{A1})u_{l_f}(r_{A2})f_{l}(r_{Bb})g_{l}(r_{Aa}).
  \end{split}
 \end{equation}
-\subsection{Coordinates used to derive Eq. (\ref{eq168})}
+\idx{Two-nucleon transfer!second order DWBA}
+\subsection[Coordinates for simultaneous transfer]{Coordinates used to derive Eq. (\ref{eq168})}
 We determine the relation between the integration variables in (\ref{eq147}) and the coordinates needed to evaluate the quantities in the integrand. Noting that
 \begin{equation}\label{eq177}
 \mathbf{r}_{Aa}=\frac{\mathbf{r}_{A1}+\mathbf{r}_{A2}+m_b\mathbf{r}_{Ab}}{m_b+2},
@@ -875,7 +890,7 @@ Since,
 \begin{equation}\label{eq179}
 \mathbf{r}_{AB}=\frac{\mathbf{r}_{A1}+\mathbf{r}_{A2}}{m_A+2},
 \end{equation}
-one obtains
+one obtains \idx{Two-nucleon transfer!second order DWBA}
 \begin{equation}\label{eq180}
 \mathbf{r}_{Bb}=\mathbf{r}_{BA}+\mathbf{r}_{Ab}=\frac{m_b+2}{m_b}\mathbf{r}_{Aa}-\frac{m_A+m_b+2}{(m_A+2)m_b}
 (\mathbf{r}_{A1}+\mathbf{r}_{A2}).
@@ -919,6 +934,7 @@ r_{b1}&=m_b^{-1}\left|(m_b+1)\mathbf{r}_{A1}+\mathbf{r}_{A2}-(m_b+2)\mathbf{r}_{
 2(m_b+2)\mathbf{r}_{Aa}\,\mathbf{r}_{A2}+2(m_b+1)\mathbf{r}_{A1}\mathbf{r}_{A2}\Bigr)^{1/2},
 \end{split}
 \end{equation}
+\idx{Two-nucleon transfer!second order DWBA}
 \hspace{0.5cm}
 \begin{equation}\label{eq175}
 \begin{split}
@@ -990,7 +1006,7 @@ d^3r_{b1}'d^3r_{A2}' \,\chi^{(-)*}(\mathbf{k}_{Bb},\mathbf{r}_{Bb})\\
  \end{split}
 \end{equation}
 It is of notice that the time--reversal phase convention is used throughout.
-Expanding the Green function and the distorted waves in a basis of angular momentum eigenstate one can write,
+Expanding the Green function and the distorted waves in a basis of angular momentum eigenstate one can write,\idx{Two-nucleon transfer!second order DWBA}
 \begin{equation}\label{eq2}
 \chi^{(-)*}(\mathbf{k}_{Bb},\mathbf{r}_{Bb})= \sum_{\tilde l}\frac{ 4\pi }{k_{Bb} r_{Bb}} i^{-\tilde l}
 e^{i\sigma_f^{\tilde l}} F_{\tilde l} \sum_m Y_m^{\tilde l} (\hat r_{Bb}) Y_m^{\tilde l*} (\hat k_{Bb}),
@@ -1013,7 +1029,7 @@ e^{i\sigma_i^{ l}} F_{ l}  (r_{Aa}')
 \left[  Y^{l} (\hat r_{Aa}') Y^{l} (\hat k_{Aa})\right]_0^0
 \end{equation}
 where we have taken into account the choice $\hat k_{Aa} \equiv \hat z$.
-The Green function can be written as
+The Green function can be written as \idx{Two-nucleon transfer!second order DWBA}
 \begin{equation}\label{eq7}
 G(\mathbf{r}_{Cc},\mathbf{r}_{Cc}')=i\sum_{l_c}\sqrt{2l_c+1}
 \frac{f_{l_c}(k_{Cc},r_<)P_{l_c}(k_{Cc},r_>)}{k_{Cc}r_{Cc}r_{Cc}'}
@@ -1037,7 +1053,7 @@ d^3r_{b1}'d^3r_{A2}' v(r_{b1}) v(r_{c2}')
 & \times \left[ \psi ^{j_f} (\mathbf{r}_{A2}',\sigma_2') \psi ^{j_i} (\mathbf{r}_{b1}',\sigma_1') \right] _M^{K*}.
  \end{split}
 \end{equation}
-Let us now perform the integration over $\mathbf{r}_{A2}$,
+Let us now perform the integration over $\mathbf{r}_{A2}$, \idx{Two-nucleon transfer!second order DWBA}
 \begin{equation}\label{eq18}
  \begin{split}
 \sum_{\sigma_1, \sigma_2} &\int d\mathbf{r}_{A2} \left[ \psi ^{j_f} (\mathbf{r}_{A1},\sigma_1) \psi ^{j_f} (\mathbf{r}_{A2},\sigma_2) \right] _0^{0*} \left[ \psi ^{j_f} (\mathbf{r}_{A2},\sigma_2) \psi ^{j_i} (\mathbf{r}_{b1},\sigma_1) \right] _M^{K}\\
@@ -1051,7 +1067,7 @@ Let us now perform the integration over $\mathbf{r}_{A2}$,
 &=-\sqrt{\frac{2}{2j_f+1}} \bigl ( (l_f \tfrac{1}{2})_{j_f} (l_i \tfrac{1}{2})_{j_i} |(l_f l_i)_K (\tfrac{1}{2} \tfrac{1}{2})_0 \bigr )_K \left[ Y ^{l_f} (\hat r_{A1}) Y ^{l_i} (\hat r_{b1}) \right] _M^{K} u_{l_f}(r_{A1})u_{l_i}(r_{b1}),
  \end{split}
 \end{equation}
-where we have evaluated the $9j$--symbol
+where we have evaluated the $9j$--symbol \idx{Two-nucleon transfer!second order DWBA}
 \begin{equation}\label{eq187}
     \bigl ( (j_f j_f)_0 (j_f j_i)_K |(j_f j_f)_0 (j_f j_i)_K \bigr )_K=\frac{1}{2j_f+1},
 \end{equation}
@@ -1084,7 +1100,7 @@ T_{succ}^{(2)}(\theta)=&\frac{4\mu_{Cc}(4\pi)^2 i}{\hbar^2 k_{Aa}k_{Bb}k_{Cc}}\f
 \left[ Y ^{ l} (\hat r_{Aa}') Y ^{l} (\hat k_{Aa}) \right] _{0}^{0} \left[ Y ^{ l_c} (\hat r_{Cc}) Y ^{l_c} (\hat r_{Cc}') \right] _{0}^{0}.
  \end{split}
 \end{equation}
-We now proceed to write this expression in a more compact way. 
+We now proceed to write this expression in a more compact way. \idx{Two-nucleon transfer!second order DWBA}
 For this purpose one writes
 \begin{equation}\label{eq24}
  \begin{split}
@@ -1098,7 +1114,7 @@ For this purpose one writes
 \left[ Y ^{l} (\hat k_{Bb}) Y ^{l} (\hat k_{Aa}) \right] _{0}^{0}.\\
  \end{split}
 \end{equation}
-Taking into account the relations
+Taking into account the relations \idx{Two-nucleon transfer!second order DWBA}
 \begin{equation}\label{eq25}
 \left[ Y ^{l} (\hat k_{Bb}) Y ^{l} (\hat k_{Aa}) \right] _{0}^{0}=\frac{(-1)^l}{\sqrt{4 \pi}} Y_0^l(\hat k_{Bb}) i^l,
 \end{equation}
@@ -1132,7 +1148,7 @@ and
 \left[ Y ^{l_f} (\hat r_{A2}') Y ^{l_i} (\hat r_{b2}') \right] _{M}^{K*},
  \end{split}
 \end{equation}
-over the angular variables do not depend on $M$. Let us see why this is so with the help of (\ref{eq29}),
+over the angular variables do not depend on $M$. Let us see why this is so with the help of (\ref{eq29}), \idx{Two-nucleon transfer!second order DWBA}
 \begin{equation}\label{eq31}
  \begin{split}
 \left[Y^{l}(\hat r_{Bb}) Y ^{l_c} (\hat r_{Cc}) \right]^{K*}_{M}&
@@ -1143,7 +1159,7 @@ over the angular variables do not depend on $M$. Let us see why this is so with 
 \left[ Y ^{l_f} (\hat r_{A1}) Y ^{l_i} (\hat r_{b1}) \right]^{K} \right\rbrace ^J_0.
 \end{split}
 \end{equation}
-After integration, only the term
+After integration, only the term \idx{Two-nucleon transfer!second order DWBA}
 \begin{equation}\label{eq32}
  \begin{split}
 (-1)^{K-M} & \langle K\;K\;M\;-M|0\;0\rangle \left\lbrace \left[Y^{l} (\hat r_{Bb}) Y ^{l_c} (\hat r_{Cc}) \right]^{K}
@@ -1162,7 +1178,7 @@ T_{succ}^{(2)}(\theta)=&\frac{64\mu_{Cc}(\pi)^{3/2} i}{\hbar^2 k_{Aa}k_{Bb}k_{Cc
 &\times \sum_{l_c,l}\frac{e^{i(\sigma _i^l+\sigma _f^{l})}}{\sqrt{(2l+1)}} Y_0^l (\hat k_{Bb})S_{K,l,l_c},
  \end{split}
 \end{equation}
-where
+where \idx{Two-nucleon transfer!second order DWBA}
 \begin{equation}\label{eq121}
  \begin{split}
 S_{K,l,l_c}=&\int d^3 r_{Cc}d^3 r_{b1} v(r_{b1}) u_{l_f}(r_{A1})u_{l_i}(r_{b1})\frac{s_{K,l,l_c}(r_{Cc})}{r_{Cc}}\frac{F_l(r_{Bb})}{r_{Bb}} \\
@@ -1197,7 +1213,7 @@ S_{K,l,l_c}=&\frac{4\pi^{3/2}\sqrt{2l_c+1}}{2K+1}i^{-l_c}\\
  Y^{l*}_M (\hat r_{Bb}).
  \end{split}
 \end{equation}
-Similarly, one has
+Similarly, one has \idx{Two-nucleon transfer!second order DWBA}
 \begin{equation}\label{eq125}
  \begin{split}
 s_{K,l,l_c}(r_{Cc})=&\frac{4\pi^{3/2}\sqrt{2l_c+1}}{2K+1}i^{l_c}\\
@@ -1235,6 +1251,7 @@ s_{K,l,l_c}(r_{Cc})=&\int r_{Cc}^{'2} \, d r'_{Cc}\,r_{A2}^{'2}\, d r'_{A2} \,\s
  \end{split}
 \end{equation}
 \subsection{Coordinates for the successive transfer}
+\idx{Two-nucleon transfer!second order DWBA}
 In the standard configuration in which the integrals (\ref{eq127}) and (\ref{eq128}) are to be evaluated, we have
 \begin{equation}\label{eq148}
 \mathbf{r}_{Cc}=r_{Cc}\, \hat {\mathbf{z}} \,, \qquad \mathbf{r}_{b1}=r_{b1}(-\cos\theta \, \hat {\mathbf{z}}-\sin\theta \, \hat {\mathbf{x}}).
@@ -1246,7 +1263,7 @@ Now,
 &=\left(r_{Cc}-\frac{m_b}{m_b+1}r_{b1}\cos\theta \right)\hat {\mathbf{z}}-\frac{m_b}{m_b+1}r_{b1}\sin\theta \hat {\mathbf{x}},
 \end{split}
 \end{equation}
-and
+and \idx{Two-nucleon transfer!second order DWBA}
 \begin{equation}\label{eq150}
 \mathbf{r}_{Bb}=\mathbf{r}_{BC}+\mathbf{r}_{Cb}=-\frac{1}{m_B}\mathbf{r}_{C1}+\mathbf{r}_{Cb}.
 \end{equation}
@@ -1290,12 +1307,12 @@ where e.g. in the case of (\ref{eq155}), one has
 f(M)=\langle l_c \;0\;l\;M|K\;M\rangle \left[ Y ^{l_f} (\hat r_{C1}) Y ^{l_i} (\theta+\pi,0) \right] _{M}^{K}
  Y^{l*}_M (\hat r_{Bb}).
 \end{equation}
-
+\idx{Two-nucleon transfer!second order DWBA}
 Note that all the vectors that come into play in the above expressions are in the $(x,z)$--plane. Consequently, the azimuthal angle $\phi$ is always equal to zero. Under these circumstances and for time--reversed phases, ($Y^{L*}_M(\theta,0)=(-1)^LY^{L}_M(\theta,0)$) one has
 \begin{equation}\label{eq164}
 f(-M)=(-1)^{l_c+l_f+l_i+l}f(M).
 \end{equation}
-Consequently,
+Consequently, \idx{Two-nucleon transfer!second order DWBA}
 \begin{equation}\label{eq166}
 \begin{split}
 \sum_M \langle l_c \;0\;l&\;M|K\;M\rangle f(M)=\langle l_c \;0\;l\;0|K\;0\rangle f(0)\\
@@ -1304,7 +1321,7 @@ Consequently,
 \end{equation}
 Consequently, in the case in which $l_c+l+l_i+l_f$ is odd, we have only  to evaluate the $M=0$ contribution. This consideration is useful to restrict the number of numerical operations needed to calculate the transition amplitude.
 \subsection{non--orthogonality term}\label{S6.2.9}
-We write the non--orthogonality contribution to the transition amplitude (see \cite{Bayman:82}):
+We write the non--orthogonality contribution to the transition amplitude (see \cite{Bayman:82}): \idx{Two-nucleon transfer!second order DWBA}
 \begin{equation}\label{129}
  \begin{split}
 T_{NO}^{(2)}(\theta)=&2\sum_{\substack{\sigma_1 \sigma_2 \\ \sigma_1' \sigma_2' \\ KM}}\int d^3r_{Cc}d^3r_{b1}d^3r_{A2}
@@ -1350,8 +1367,9 @@ s_{K,l,l_c}(r_{Cc})=&r_{Cc}\int  d r'_{A2}\, r_{A2}^{'2}\,\sin\theta'\, d\theta'
  Y^{l}_M (\hat r_{Aa}').
  \end{split}
 \end{equation}
-\subsection{Arbitrary orbital momentum transfer}\label{C7S2S10}
-We will now examine the case in which the two transferred nucleons carry an angular momentum $\Lambda$ different from 0. Let us assume that two nucleons coupled to angular momentum $\Lambda$ in the initial nucleus $a$ are transferred into a final state of zero angular momentum in nucleus $B$. The transition amplitude is given by the integral
+\subsection{General orbital momentum transfer}\label{C7S2S10}
+We will now examine the case in which the two transferred nucleons carry an angular momentum $\Lambda$ different from 0. Let us assume that two nucleons coupled to angular momentum $\Lambda$ in the initial nucleus $a$ are transferred into a final state of zero angular momentum in nucleus $B$. The transition amplitude is given by the \idx{Two-nucleon transfer!second order DWBA}
+ integral
  \begin{equation}\label{eq227}
  \begin{split}
 2\sum_{\sigma_1 \sigma_2} & \int d\mathbf{r}_{cC} d\mathbf{r}_{A2}d\mathbf{r}_{b1} \chi^{(-)*}(\mathbf{r}_{bB}) \left[ \psi^{j_f} (\mathbf{r}_{A1}, \sigma_1) \psi^{j_f} (\mathbf{r}_{A2}, \sigma_2) \right] _{0}^{0*}\\
@@ -1377,7 +1395,7 @@ for fixed $\mathbf{r}_{cC}$, which can be seen to obey the equation
 &=\left \langle \left[ \psi^{j_f} (\mathbf{r}_{A2}, \sigma_2) \psi^{j_{i1}} (\mathbf{r}_{b1}, \sigma_1) \right] _{M}^{K} \Big | v(r_{c2}) \Big| \Psi^{(+)}(\mathbf{r}_{aA},\mathbf{r}_{b1},\mathbf{r}_{b2},\sigma_1,\sigma_2) \right \rangle.
 \end{split}
 \end{equation}
-The solution can be written in terms of the Green function $G(\mathbf{r}_{cC},\mathbf{r}'_{cC})$ defined by
+The solution can be written in terms of the Green function $G(\mathbf{r}_{cC},\mathbf{r}'_{cC})$ defined by\idx{Two-nucleon transfer!second order DWBA}
   \begin{equation}\label{eq231}
 \left(\frac{\hbar^2}{2\mu_{cC}}k_{cC}^2\right.  \left.+\frac{\hbar^2}{2\mu_{cC}}\nabla^2_{r_{cC}}-U(r_{cC})\right)
 G(\mathbf{r}_{cC},\mathbf{r}'_{cC})=\frac{\hbar^2}{2\mu_{cC}}\delta(\mathbf{r}_{cC}-\mathbf{r}'_{cC}).
@@ -1399,8 +1417,8 @@ Therefore
 &-\left \langle \left[ \psi^{j_f} (\mathbf{r}'_{A2}, \sigma_2) \psi^{j_{i1}} (\mathbf{r}'_{b1}, \sigma_1) \right] _{M}^{K} \Big | \chi^{(+)}(\mathbf{r}'_{aA})\left[ \psi^{j_{i1}} (\mathbf{r}'_{b1}, \sigma'_1) \psi^{j_{i2}} (\mathbf{r}'_{b2}, \sigma'_2) \right]_{\mu}^{\Lambda} \right \rangle.
 \end{split}
 \end{equation}
-When we substitute $\mathcal U_{K,M}(\mathbf{r}_{cC})$ into (\ref{eq228}) and (\ref{eq227}), the first term gives rise to the successive amplitude for the two--particle transfer, while the second term is responsible for the non--orthogonal contribution.
-\subsection{Successive transfer contribution}
+When we substitute $\mathcal U_{K,M}(\mathbf{r}_{cC})$ into (\ref{eq228}) and (\ref{eq227}), the first term gives rise to the successive amplitude for the two--particle transfer, while the second term is responsible for the non--orthogonal contribution. \idx{Two-nucleon transfer!second order DWBA}
+\subsubsection{Successive transfer contribution}
 We need to evaluate the integral
 \begin{equation}\label{eq210}
  \begin{split}
@@ -1411,7 +1429,7 @@ T_{succ}^{(2)}(\theta;\mu)=&\frac{4\mu_{cC}}{\hbar^2}\sum_{\sigma_1 \sigma_2}\su
  \left[ \psi^{j_{f}} (\mathbf{r}_{A2}, \sigma_2) \psi^{j_{i1}} (\mathbf{r}_{b1}, \sigma_1) \right]_{M}^{K},
  \end{split}
 \end{equation}
-where we must substitute the Green function and the distorted waves by their partial wave expansions (see App. \ref{C7AppE}).
+where we must substitute the Green function and the distorted waves by their partial wave expansions (see App. \ref{C7AppE}). \idx{Two-nucleon transfer!second order DWBA}
 The integral over $\mathbf{r}'_{b1}$ is:
 \begin{multline}\label{eq211}
 \sum_{\sigma'_1} \int  d\mathbf{r}'_{b1}
@@ -1448,11 +1466,11 @@ the expression (\ref{eq214}) is equivalent to,
 (-1)^K \sqrt{\frac{2P+1}{2\Lambda+1}}\left\lbrace \left[Y^{l_f} (\hat{\mathbf{r}}'_{A2}) Y^{l_{i2}} (\hat{\mathbf{r}}'_{b2}) \right]^{P}
 \left[ Y ^{l_f} (\hat{\mathbf{r}}_{A1}) Y ^{l_{i1}} (\hat{\mathbf{r}}_{b1}) \right]^{K} \right\rbrace ^\Lambda_\mu.
 \end{equation}
-eWe now recouple the term
+We now recouple the term
 \begin{equation}\label{eq216}
 \left[ Y ^{l_a} (\hat{\mathbf{r}}'_{aA}) Y ^{l_a} (\hat{\mathbf{k}}_{aA}) \right]^{0}_0 \left[ Y ^{l_b} (\hat{\mathbf{r}}_{bB}) Y ^{l_b} (\hat{\mathbf{k}}_{bB}) \right]^{0}_0,
 \end{equation}
- arising from the partial wave expansion of the incoming and outgoing distorted waves to have,
+ arising from the partial wave expansion of the incoming and outgoing distorted waves to have, \idx{Two-nucleon transfer!second order DWBA}
 \begin{equation}\label{eq217}
 \bigl ((l_a l_a)_0 (l_b l_b)_0 |(l_a l_b)_\Lambda (l_a l_b)_\Lambda \bigr )_0 \left\lbrace \left[Y^{la} (\hat{\mathbf{r}}'_{aA}) Y^{l_{b}} (\hat{\mathbf{r}}_{bB}) \right]^{\Lambda}
 \left[ Y ^{l_a} (\hat{\mathbf{k}}_{aA}) Y ^{l_{b}} (\hat{\mathbf{k}}_{bB}) \right]^{\Lambda} \right\rbrace ^0_0.
@@ -1475,7 +1493,7 @@ is
 & \left. \left. \left[ Y ^{l_f} (\hat{\mathbf{r}}_{A1}) Y ^{l_{i1}} (\hat{\mathbf{r}}_{b1}) \right]^{K} \right\rbrace ^\Lambda\left[Y^{la} (\hat{\mathbf{r}}'_{aA}) Y^{l_{b}} (\hat{\mathbf{r}}_{bB}) \right]^{\Lambda}\right ]_0^0.
 \end{split}
 \end{equation}
-We now couple this last term with the term $\left[ Y ^{l_c} (\hat{\mathbf{r}'}_{cC}) Y ^{l_{c}} (\hat{\mathbf{r}}_{cC}) \right]^{0}_0$, arising from the partial wave expansion of the Green function. That is,
+We now couple this last term with the term $\left[ Y ^{l_c} (\hat{\mathbf{r}'}_{cC}) Y ^{l_{c}} (\hat{\mathbf{r}}_{cC}) \right]^{0}_0$, arising from the partial wave expansion of the Green function. That is, \idx{Two-nucleon transfer!second order DWBA}
 \begin{equation}\label{eq221}
 \begin{split}
 \left [\left\lbrace  \vphantom{\left.\left[ Y ^{l_{i1}}\right]^{K}\right\rbrace ^\Lambda} \right. \right.&\left.\left.
@@ -1514,7 +1532,7 @@ T_{succ}^{(2)}(\theta;\mu)=&(-1)^{j_f+j_{i1}}\frac{2048\pi^{5}\mu_{Cc}}{ \hbar^2
 &\times (2l_c+1)^{3/2} \left[ Y ^{l_a} (\hat{\mathbf{k}}_{aA}) Y ^{l_{b}} (\hat{\mathbf{k}}_{bB}) \right]^{\Lambda}_\mu S_{K,P,l_a,l_b,l_c},
  \end{split}
 \end{equation}
-with (note that we have reduced the dimensionality of the integrals in the same fashion as for the $L=$0--angular momentum transfer calculation, see (\ref{eq124}))
+with (note that we have reduced the dimensionality of the integrals in the same fashion as for the $L=$0--angular momentum transfer calculation, see (\ref{eq124})) \idx{Two-nucleon transfer!second order DWBA}
 \begin{equation}\label{eq223}
  \begin{split}
 S_{K,P,l_a,l_b,l_c}=&\int r_{Cc}^2 \, d r_{Cc}\,r_{b1}^2\, d r_{b1} \,\sin\theta\, d\theta \, v(r_{b1}) u_{l_f}(r_{C1})u_{l_i}(r_{b1})\\
@@ -1532,7 +1550,7 @@ s_{P,l_a,l_c}(r_{Cc})=&\int r_{Cc}^{'2} \, d r'_{Cc}\,r_{A2}^{'2}\, d r'_{A2} \,
  Y^{l_a}_{-M} (\hat r_{Aa}').
  \end{split}
 \end{equation}
-We have evaluated the transition matrix element for a particular projection $\mu$ of the initial angular momentum of the two transferred nucleons. If they are coupled to a core of angular momentum $J_f$ to total angular momentum $J_i,M_i$, the fraction of the initial wavefunction with projection $\mu$ is $\langle \Lambda \;\mu\;J_f\;M_i-\mu|J_i\;M_i\rangle$, and the cross section will be
+We have evaluated the transition matrix element for a particular projection $\mu$ of the initial angular momentum of the two transferred nucleons. If they are coupled to a core of angular momentum $J_f$ to total angular momentum $J_i,M_i$, the fraction of the initial wavefunction with projection $\mu$ is $\langle \Lambda \;\mu\;J_f\;M_i-\mu|J_i\;M_i\rangle$, and the cross section will be \idx{Two-nucleon transfer!second order DWBA}
 \begin{equation}\label{eq225_3}
 \frac{d\sigma}{d\Omega}(\hat{\mathbf{k}}_{bB})=\frac{k_{bB}}{k_{aA}}\frac{\mu_{aA}\mu_{bB}}{(2\pi\hbar^2)^2}\left|\sum_\mu
 \langle \Lambda \;\mu\;J_f\;M_i-\mu|J_i\;M_i\rangle T_{succ}^{(2)}(\theta;\mu)\right|^2.
@@ -1562,14 +1580,15 @@ T_{succ}^{(2)}(\theta;\mu) &=\sum_{l_a,l_b} C_{l_a,l_b} \left[ Y ^{l_a} (\hat{\m
 &=\sum_{l_a,l_b} C_{l_a,l_b}i^{l_a} \sqrt{\frac{2l_a+1}{4\pi}}\langle l_a \;l_b\;0\;\mu|\Lambda\;\mu\rangle Y ^{l_{b}}_\mu (\hat{\mathbf{k}}_{bB}).
  \end{split}
 \end{equation}
-Note that (\ref{eq225_7}) takes into account only the spins of the heavy nucleus. In a $(t,p)$ or $(p,t)$ reaction, we have to sum over the spins of the proton and of the triton and divide by 2. If a spin--orbit term is present in the optical potential, the sum yields the combination of terms shown in Section (\ref{C7SS722}),
+Note that (\ref{eq225_7}) takes into account only the spins of the heavy nucleus. In a $(t,p)$ or $(p,t)$ reaction, we have to sum over the spins of the proton and of the triton and divide by 2. If a spin-orbit term is present in the optical potential, the sum yields the combination of terms shown in Section (\ref{C7SS722}), \idx{Two-nucleon transfer!second order DWBA}
 \begin{equation}\label{eq225_8}
 \begin{split}
 \frac{d\sigma}{d\Omega}(\hat{\mathbf{k}}_{bB})=\frac{k_{bB}}{k_{aA}}\frac{\mu_{aA}\mu_{bB}}{(2\pi\hbar^2)^2}
 \frac{1}{2(2\Lambda+1)}\sum_{\mu}|A_{\mu}|^2+|B_{\mu}|^2.
 \end{split}
 \end{equation}
-\section[ZPF and Pauli principle]{ZPF and Pauli principle at the basis of medium polarization effects: self--energy, vertex corrections and induced interaction}\label{C7AppA}
+\section[ZPF and Pauli principle]{ZPF, exclusion principle and medium polarization effects: self-energy, vertex corrections, induced interaction}\label{C7AppA}
+\idx{Surface vibrations!zero-point fluctuations}
 Of all quantal phenomena, zero point fluctuations (ZPF), closely connected with virtual states, are likely the  most representative of the essential difference existing between quantum and classical mechanics. In fact, ZPF are intimately connected with the complementary principle\footnote{\cite{Bohr:28}.}, and thus with  indeterminacy\footnote{\cite{Heisenberg:27}.} and non-commutative\footnote{\cite{Born:25a}, \cite{Born:25b}.} relations, and with the probabilistic interpretation\footnote{ \cite{Born:26}.} of the (modulus squared) of the wavefunctions, solution of Schr\"odinger's or Dirac's equations\footnote{\cite{Schrodinger:25}, \cite{Dirac:26}.}.
  \begin{figure}[h!]
  	\begin{center}
@@ -1583,10 +1602,12 @@ Of all quantal phenomena, zero point fluctuations (ZPF), closely connected with 
 \end{center}
 \caption{Pauli effects associated (p-h) ZPF dressing a pairing vibrational (pair addition) mode (see inset I) in terms of self-energy (graphs (a)--(c); correlation (CO) and polarization (PO) diagrams, inset II) and vertex correction (graphs (d)--(f); induced particle-particle (pairing) interaction) processes (inset (III)), associated with phonon exchange between nucleons (inset (IV)).}\label{figB}
 \end{figure}
-Pauli principle\footnote{\cite{Pauli:25}.} brings about essential modifications of the virtual fluctuations of the many-body system, modifications which are instrumental in the dressing and interweaving of the elementary modes of excitation\footnote{Within the present context, see also \cite{Schrieffer:64}.}.
+Pauli principle\footnote{\cite{Pauli:25}.} brings about essential modifications to the virtual fluctuations of the many-body system, modifications which are instrumental in the dressing and interweaving of the elementary modes of excitation\footnote{Within the present context, see also \cite{Schrieffer:64}.}.
 
 
-In Fig.  \ref{figA}, NFT diagrams are given which correspond to the lowest order medium polarization effects renormalizing the properties of a particle--hole collective mode (wavy line), correlated particle-hole excitation  ((up-going)--(down-going) arrowed lines)  calculated within the random phase approximation (RPA,QRPA), and leading to the particle-vibration coupling vertex (formfactor and strength, i.e. transition density (solid dot), see inset (I), bottom). The action of an external field on the zero point fluctuations (ZPF) of the vacuum (inset (II)), forces a virtual process to become real, leading to a collective vibration by annihilating a (virtual, spontaneous) particle-hole excitation (backwards RPA $Y$-amplitude) or, in the time ordered process, by creating a particle-hole excitation which eventually, through the particle-vibration coupling vertex, materializes into the collective (coherent) state (forwardsgoing $X$-amplitudes). Now, oyster-like diagrams associated with the vacuum ZPF can occur at any time (see inset (III) of Fig. \ref{figA}). It is of notice that   while virtual states can violate energy conservation, they have to respect conservation rules, as well as Pauli principle. For example, a virtual state  cannot violate  angular momentum neither allow for the  presence of two fermions in the same quantal state. The process shown in the inset III ($\alpha$) leads, through Pauli principle correcting diagrams (exchange of fermionic arrowed lines) to self-energy (inset III ($\beta$), ($\delta$)) and vertex corrections (induced $p-h$ interaction; inset III ($\gamma$), ($\varepsilon$), see also graphs (c), (f), (h) and (i) of Fig. \ref{figA}) processes. Similar processes are found in the interplay between ZPF 	and pair addition modes as shown in Fig. \ref{figB}. Note the parallel between diagrams of Figs. \ref{figA} (g)--(i) and of Figs. \ref{figB} (d)--(f).
+
+
+In Fig.  \ref{figA}, NFT diagrams are given which correspond to the lowest order medium polarization effects renormalizing the properties of a particle--hole collective mode (wavy line), correlated particle-hole excitation  ((up-going)--(down-going) arrowed lines)  calculated within the random phase approximation (RPA,QRPA), and leading to the particle-vibration coupling vertex (formfactor and strength, i.e. transition density (solid dot), see inset (I), bottom). The action of an external field on the zero point fluctuations (ZPF) of the vacuum (inset (II)), forces a virtual process to become real, leading to a collective vibration by annihilating a (virtual, spontaneous) particle-hole excitation (backwards RPA $Y$-amplitude) or, in the time ordered process, by creating a particle-hole excitation which eventually, through the particle-vibration coupling vertex, materializes into the collective (coherent) state (forwardsgoing $X$-amplitudes). Now, oyster-like diagrams associated with the vacuum ZPF can occur at any time (see inset (III) of Fig. \ref{figA}). It is of notice that   while virtual states can violate energy conservation, they have to respect conservation rules, as well as Pauli principle. For example, a virtual state  cannot violate  angular momentum neither allow for the  presence of two fermions in the same quantal state. The process shown in the inset III ($\alpha$) leads, through Pauli principle correcting diagrams (exchange of fermionic arrowed lines) to self-energy (inset III ($\beta$), ($\delta$)) and vertex corrections (induced $p-h$ interaction; inset III ($\gamma$), ($\varepsilon$), see also graphs (c), (f), (h) and (i) of Fig. \ref{figA}) processes. Similar processes are found in the interplay between ($p-h$-like) ZPF 	and pair addition modes as shown in Fig. \ref{figB}. Note the parallel between diagrams of Figs. \ref{figA} (g)--(i) and of Figs. \ref{figB} (d)--(f).
 
 
  The collective vibrational modes can be viewed as  coherent states\footnote{See e.g. \cite{Glauber:69,Glauber:07}.} exhausting a consistent fraction of the EWSR.
@@ -1595,7 +1616,7 @@ In Fig.  \ref{figA}, NFT diagrams are given which correspond to the lowest order
 In what follows we shall work out  a simplified derivation of the simultaneous two--nucleon transfer amplitude, within the framework of first order DWBA specially suited to discuss correlation aspects of pair transfer in general, and of the associated effective formfactors in particular\footnote{\cite{Glendenning:65,Bayman:67}.}. 
 
 
-We will concentrate on $(t,p)$ reaction, namely reactions of the type $A(\alpha,\beta)B$ where $\alpha=\beta+2$ and $B=A+2$.
+We will concentrate on $(t,p)$ reactions, namely reactions of the type $A(\alpha,\beta)B$ where $\alpha=\beta+2$ and $B=A+2$.
 The intrinsic wave functions are in this case
 \begin{equation}\label{5lec1}
 \begin{split}
@@ -1781,11 +1802,14 @@ From Eq. (\ref{5lec21}) it is seen that the change in parity implied by the reac
 \end{split}
 \end{equation}
 i.e. only normal parity states are excited.
-The integral appearing in Eq. (\ref{5lec21}) has the same structure as the DWBA integral appearing in Eq. (\ref{eqC6E16}) which was derived for the case of one--nucleon transfer reactions.
+The integral appearing in Eq. (\ref{5lec21}) has the same structure as the DWBA integral appearing in Eq. (\ref{eqC6E16}) which was derived for the case of one-nucleon transfer reactions.
 
 
-The difference between the two processes manifests itself through the different structure of the two form factors. While $u_l(r)$  is a single--particle bound state wave function (cf. Eq. (\ref{eqC6E1})), $u_L^{J_i J_f}$ is a coherent summation \textit{over the center of mass states of motion of the two transferred neutrons} (see Eq. (\ref{eqC7B15})). In other words, an effective quantity (function). It is of notice that this difference between single-particle transfer formfactors and simultaneous two-nucleon transfer effective formfactors, essentially vanishes when one considers dressed particles resulting from the coupling to collective vibrations  and leading to renormalized energies, single-particle content, and radial wavefunction. 
-In view of the relation (\ref{eq3.2.19}), closely connected with Fig. \ref{fig3.2.1} (a) found at the basis of the fact that successive transfer of entangled nucleons over distances of the order of the correlation length,  the above ``historic'' result\footnote{See \cite{Potel:13}, in particular App. C and Fig. 10 of this reference.} is certainly dated. It is also found at the basis of a series of misunderstandings in working out the variety of potentialities concerning the parallel between BCS\footnote{\cite{Cooper:11b}.} and nuclear BCS\footnote{\cite{Broglia:13}.}, let alone regarding Cooper pair tunneling across a Josephson junction, and two-nucleon transfer in heavy ion collisions between superfluid nuclei at energies below the Coulomb barrier. The reason to bring it here is to set in evidence subtle aspects of the correlations existing between partner nucleons of a Cooper pair to be also found in the formfactors associated with successive transfer although, arguably, in a less evident fashion.
+The difference between the two processes manifests itself through the different structure of the two form factors. While $u_l(r)$  is a single--particle bound state wave function (cf. Eq. (\ref{eqC6E1})), $u_L^{J_i J_f}$ is a coherent summation \textit{over the center of mass states of motion of the two transferred neutrons} (see Eq. (\ref{eqC7B15})). In other words, an effective quantity (function). It is of notice that this difference between single-particle transfer formfactors and simultaneous two-nucleon transfer effective formfactors, becomes less pronounced  when one considers dressed particles resulting from the coupling to collective vibrations  and leading to renormalized energies, single-particle content, and renormalized radial wavefunction. 
+In view of the relation (\ref{eq3.2.19}), closely connected with Fig. \ref{fig3.2.1} (b) found at the basis of the fact that successive transfer of entangled nucleons over distances of the order of the correlation length is the dominant contribution to pair transfer,  the above  results\footnote{See \cite{Potel:13}, in particular App. C and Fig. 10 of this reference.} are certainly dated. 
+
+
+The reason to bring the subject here is to set in evidence subtle aspects of the correlations existing between partner nucleons of a Cooper pair to be also found in the formfactors associated with successive transfer although, arguably, in a less evident fashion.
 
 
  Examples of two-nucleon transfer form factors are given in\footnote{\cite{Broglia:67}.} Figs \ref{figC7B2}, \ref{figC7B3} and \ref{figC7B4}.
@@ -1804,13 +1828,13 @@ In view of the relation (\ref{eq3.2.19}), closely connected with Fig. \ref{fig3.
 \includegraphics*[width=0.75\textwidth]{C7/figs_C7/figC7B4}
 \end{center}\caption{Asymptotic behavior of the modified formfactor for the $^{206}$(t,p)$^{208}$Pb(gs) ground state transition for oscillator plus Hankel wave functions (continuous solid curve), oscillator wave functions alone (dash point dashed curve), and Saxon-Woods wave functions with a variety of asymptotic matchings.}\label{figC7B4}
 \end{figure}
-\section[Successive, simultaneous, non-orthogonality]{Relative importance of successive and simultaneous transfer and non-orthogonality corrections}\label{C7AppC}
+\section[Successive, simultaneous (semiclassical)]{Relative importance of successive and simultaneous transfer and non-orthogonality corrections (semiclassical)}\label{C7AppC}
 
  \begin{figure}[h!]
  	\begin{center}
 \includegraphics*[width=0.75\textwidth]{C7/figs_C7/Reaction1}
 \end{center}
-\caption{Graphical representation of simultaneous (I) and non--orthogonality (II) transfer processes. For details see text and  caption to Fig. \ref{figC7C2}. In this figure, as well as in Fig. \ref{figC7C2}, and at variance with, e.g. Fig. \ref{fig1.9.2}, the particle-pair vibration coupling vertex is represented by a crossed circle. Concerning the jagged line representing recoil see App. \ref{App1C3}.}\label{figC7C1}
+\caption{Graphical representation of simultaneous (I) and non--orthogonality (II) transfer processes. For details see text and  caption to Fig. \ref{figC7C2}. In the present figure, as well as in Fig. \ref{figC7C2}, and at variance with, e.g. Fig. \ref{fig1.9.2}, the particle-pair vibration coupling vertex is represented by a crossed circle. Concerning the jagged line representing recoil see App. \ref{App1C3}.}\label{figC7C1}
 \end{figure}
  \begin{figure}[h!]
  	\begin{center}
@@ -1862,20 +1886,28 @@ e^{i (\sigma_1 + \sigma_2)}
 &\times {\rm exp} [\frac{i}{\hbar} (E^{bB} - E^{aA}) t + \gamma(t)] 
 \end{split}
 \end{equation}
-where 
+where\footnote{See \cite{Broglia:75}.}, Eq. (W12, p. 361)
 \begin{equation}
-\sigma_1 + \sigma_2 = \frac{1}{\hbar} \frac{2m_n}{m_A} ( m_{aA} \mathbf v_{aA} (t) + m_{bB} v_{bB}(t)) \cdot (\mathbf r_{1\alpha}
--\mathbf r_{2 \alpha}),
+\sigma_1 + \sigma_2 = \frac{1}{\hbar} \frac{m_n}{m_A} ( m_{aA} \mathbf v_{aA} (t) + m_{bB} \mathbf v_{bB}(t)) \cdot (\mathbf r_{1\alpha}
++\mathbf r_{2 \alpha}),
 \end{equation}
-${\rm exp} ( i (\sigma_1 + \sigma_2))$ taking care of recoil 
+the ``$\alpha$-point'' being defined by the relation\footnote{See \cite{Broglia:72d}, Eq. (2.26); see also \cite{Gotz:75} Eq. (5.2 c).}
+\begin{equation}
+\mathbf r_{\alpha A}=\frac{m_B}{m_a+m_B}\mathbf r_{bA}, 
+\end{equation}
+and, as a result,
+\begin{equation}
+\mathbf r_{i A}=\mathbf r_{i \alpha}+\frac{m_B}{m_a+m_B}\mathbf r_{bA},\quad(i=1,2).
+\end{equation}
+The ${\rm exp} ( i (\sigma_1 + \sigma_2))$ takes care of recoil 
 effects (Galilean transformation associated with the mismatch between entrance and exit channels). 
 The phase $\gamma (t)$ is related  with the effective $Q-$value of the reaction. In the above expression, $\phi$ indicates an antisymmetrized, correlated two-particle (Cooper pair)  wavefunction, $S(2n)$ being the two-neutron separation energy (see Fig. \ref{figC7C3}), $U(r_{1b})$ being the single particle potential generated by nucleus $b$. The contribution arising from non-orthogonality effects can be written as (see Fig. \ref{figC7C1} (II))
 \begin{equation}\label{eq7.C.6}
 \begin{split}
-a^{(NO)} (\infty) &= \frac{1}{i \hbar} \int^{\infty}_{-\infty} dt (\psi^b \psi^B, (V_{bB} - <V_{bB}>) \psi^f \psi^F )
+a^{(NO)} (\infty) &= \frac{1}{i \hbar} \sum_{f,F}\int^{\infty}_{-\infty} dt (\psi^b \psi^B, (V_{bB} - <V_{bB}>) \psi^f \psi^F )
 (\psi^f\psi^F, \psi^a \psi^A) 
 {\rm exp} [\frac{i}{\hbar} (E^{bB} - E^{aA}) t]    \\
-&\approx \frac{2}{i \hbar} \int^{\infty}_{- \infty} \phi^{B(F)} (S^B_{(n)}, \mathbf r_{1A}), U(r_{1b}) 
+&\approx \frac{2}{i \hbar}\sum_{f,F} \int^{\infty}_{- \infty} \phi^{B(F)} (S^B_{(n)}, \mathbf r_{1A}), U(r_{1b}) 
 e^{i \sigma_1}
 (\phi^{f(b)}(S^f(n), \mathbf r_{1b})\\
 &  \times\phi^{F(A)} (S^F(n),\mathbf r_{2A}) e^{i \sigma_2} \phi^{a(f)}(S^a(n),\mathbf r_{2b})) {\rm exp} [\frac{i}{\hbar} (E^{bB} - E^{aA}) t + \gamma(t)] ,
@@ -1888,7 +1920,7 @@ The successive transfer amplitude  $\tilde a^{(2)}_{\infty}$ written making use 
 (see Fig. \ref{figC7C2})
 
 \begin{align}\label{eqC7C7}
-\nonumber \tilde a^{(2)} (\infty) & = \frac{1}{i \hbar} \int^{\infty}_{-\infty} dt (\psi^b \psi^B, (V_{bB} - <V_{bB}>) e^{i \sigma_1} \psi^f \psi^F )\\
+\nonumber \tilde a^{(2)} (\infty) & = \frac{1}{i \hbar} \sum_{f,F}\int^{\infty}_{-\infty} dt (\psi^b \psi^B, (V_{bB} - <V_{bB}>) e^{i \sigma_1} \psi^f \psi^F )\\
  \nonumber &\times {\rm exp} [\frac{i}{\hbar} (E^{bB} - E^{fF}) t + \gamma_1(t)]   \\
 \nonumber &\times \frac{1}{i \hbar} \int^{t}_{-\infty} dt' (\psi^f \psi^F, (V_{fF} - <V_{fF}>) e^{i \sigma_2} \psi^a \psi^A > \\
 &\times {\rm exp} [\frac{i}{\hbar} (E^{fF} - E^{aA}) t' + \gamma_2(t')].
@@ -1901,7 +1933,7 @@ the independent-particle model and the strong-correlation limits.
 Before doing so, let us comment on the graphical description of the transfer amplitudes (\ref{eq7.C.4}) (\ref{eq7.C.6}) and (\ref{eqC7C7}) displayed in Figs. \ref{figC7C1}
 and \ref{figC7C2}. The time arrow is assumed to point upwards:
 (\textbf{I}) Simultaneous transfer, in which one particle is transferred by the nucleon-nucleon interaction acting either in the entrance $\alpha \equiv a+A$ channel (prior) or in the final $\beta \equiv b + B$ channel (post), while the other particle follows suit making use of the particle-particle correlation (grey area) which binds the Cooper pair (see upper inset labelled (a)), represented by a solid arrow on a double line, to the projectile (curved arrowed lines) or to the target (opened arrowed lines). The above argument provides the explanation why when e.g. $v_{1b}$ acts on one nucleon, the other nucleon also reacts instantaneously. In fact a Cooper pair displays generalized rigidity (emergent property in gauge space).
-A crossed open circle represents the particle-pair vibration coupling. The associated strength, together with an energy denominator, determines the amplitude $X_{a'_1 a'_2}$  with which the pair mode (Cooper pair) is in the (time reversed generalized to include different number of nodes) two particle configuration $a'_1 a'_2$. In the transfer process, the  relative motion orbit changes, the readjustement of the corresponding trajectory mismatch being operated by a Galilean transformation induced by the operator ($\textrm{exp}\{ \mathbf k \cdot (\mathbf{r}_{1A}(t)+\mathbf{r}_{2A}(t))\}$). This phenomenon, known as recoil process, is represented by a jagged line which  provides  information on the two transferred nucleons (single time appearing as argument of both single-particle coordinates $r_1$ and $r_2$; see Fig. \ref{figC7C1} inset labeled (b)). In other words, information on the coupling of structure and reaction modes.
+A crossed open circle represents the particle-pair vibration coupling. The associated strength, together with an energy denominator, determines the amplitude $X_{a'_1 a'_2}$  with which the pair mode (Cooper pair) is in the (time reversed)\footnote{Generalized to include also different number of nodes.} two particle configuration $a'_1 a'_2$. In the transfer process, the  relative motion orbit changes, the readjustement of the corresponding trajectory mismatch being operated by a Galilean transformation induced by the operator ($\textrm{exp}\{ \mathbf k \cdot (\mathbf{r}_{1A}(t)+\mathbf{r}_{2A}(t))\}$). This phenomenon, known as recoil process, is represented by a jagged line which  provides  information on the two transferred nucleons (single time appearing as argument of both single-particle coordinates $r_1$ and $r_2$; see Fig. \ref{figC7C1} inset labeled (b)). In other words, information on the coupling of structure and reaction modes.
 (\textbf{II}) Non-orthogonality contribution. While one of the nucleons of the Cooper pairs is transferred under the action of $v$, the other goes, uncorrelatedly over, profiting of the non-orthogonality of the associated single-particle wavefunctions (see inset (c)). 
 (\textbf{III}) Successive transfer. In this case, there are two time dependences associated with the acting of the nucleon-nucleon interaction twice (see Fig. \ref{figC7C2} inset (d)). 
 
@@ -1936,7 +1968,7 @@ a^{(1)} (\infty) = a^{(NO)}(\infty).
 \end{equation}
 It can be further demonstrated  that within the present approximation, $Im \; \tilde a^{(2)} =0,$ and that 
 \begin{eqnarray}\label{eqC7C13}
-\nonumber \tilde a^{(2)} (\infty) = \frac{1}{i \hbar} \int^{\infty}_{-\infty} dt (\psi^b \psi^B, (V_{bB} - <V_{bB}>) e^{i \sigma_1} \psi^f \psi^F >\\
+\nonumber \tilde a^{(2)} (\infty) = \frac{1}{i \hbar} \sum_{f,F}\int^{\infty}_{-\infty} dt (\psi^b \psi^B, (V_{bB} - <V_{bB}>) e^{i \sigma_1} \psi^f \psi^F >\\
 \nonumber  \times 
 {\rm exp} [\frac{i}{\hbar} (E^{bB} - E^{fF}) t + \gamma_1(t)] \nonumber  \\
 \nonumber \times \frac{1}{i \hbar} \int^{\infty}_{-\infty} dt' (\psi^f \psi^F, (V_{fF} - <V_{fF}>) e^{i \sigma_2} \psi^a \psi^A ) \\
@@ -1961,22 +1993,22 @@ initial state for the second step, the behaviour of the other nucleon.
 
 The second limit to be considered is the one in which the correlation betwen the two nucleons is so strong that (see Fig. \ref{figC7C3})
 \begin{equation}
-S^a(2n) \approx S^a(n) >> S^f(n),
+S^a(2n) \approx S^a(n) \gg S^f(n),
 \label{A15}
 \end{equation}
 and 
 \begin{equation}
-S^B(2n) \approx S^B(n) >> S^F(n).
+S^B(2n) \approx S^B(n) \gg S^F(n).
 \label{A16}
 \end{equation}
 That is, the magnitude of the one-nucleon separation energy is strongly modified by the pair breaking.
 
-There is a different , although equivalent way to express (\ref{A3}) which is  more convenient to discuss the strong coupling limit.
+There is a different, although equivalent way to express (\ref{A3}) which is  more convenient to discuss the strong coupling limit.
 In fact, making use of the post-prior representation one can write
 \begin{eqnarray}
 a^{(2)}(t) &= \tilde a^{(2)}(t) - a^{(NO)}(t) = 
 %\nonumber \\ 
-\frac{1}{i \hbar} \int^{\infty}_{-\infty} dt (\psi^b \psi^B, (V_{bB} - <V_{bB}>) e^{i \sigma_1} \psi^f \psi^F ) \nonumber \\ 
+\frac{1}{i \hbar} \sum_{f,F}\int^{\infty}_{-\infty} dt (\psi^b \psi^B, (V_{bB} - <V_{bB}>) e^{i \sigma_1} \psi^f \psi^F ) \nonumber \\ 
 &\times {\rm exp} [\frac{i}{\hbar} (E^{bB} - E^{fF}) t + \gamma_1(t)]  \nonumber  \\
 &\nonumber\times\frac{1}{i \hbar} \int^{t}_{-\infty} dt' (\psi^f \psi^F, (V_{aA} - <V_{aA}>) \psi^a \psi^A )\\
 & \times 
@@ -2017,7 +2049,10 @@ Summing up, only when successive transfer and non-orthogonal corrections are inc
 transfer process, does one obtain a consistent description of the process, which correctly converges to the weak and 
 strong correlation limiting values. 
 
-As already stated (Sect. \ref{trans_nutAppA}), actual nuclei are, as a rule, closer to the independent particle limit than to the cluster one. Thus, it is not surprising that successive constitutes the major contribution to two-nucleon transfer processes. Nonetheless, the slight deviation from independent particle motion arising from pairing correlations, entangles the fermions (nucleons) partners of a Cooper pair, in a subtle fashion. This can be seen by expressing the pair transfer operator  in terms of quasiparticles. Making use of the relation
+
+\subsubsection{Parallel with Josephson and Giaever tunneling.}
+As already stated (Sect. \ref{trans_nutAppA}), actual nuclei are, as a rule, closer to the independent particle limit than to the cluster one. Thus, it is not surprising that successive constitutes the major contribution to two-nucleon transfer processes. Nonetheless, the slight deviation from independent particle motion arising from pairing correlations, entangles the fermions (nucleons) partners \idx{Cooper pair!entanglement of fermion partners}
+ of a Cooper pair, in a subtle fashion. This can be seen by expressing the pair transfer operator  in terms of quasiparticles. Making use of the relation
 \begin{align}\label{eq6.5.23}
 a^\dagger_\nu=U_\nu\alpha_\nu^\dagger+V_\nu\alpha_{\tilde\nu},
 \end{align} 
@@ -2392,11 +2427,11 @@ N=\frac{1}{\sqrt{1+\delta_{j_1,j_2}}}.
 \end{equation}
 To sum up,
 \begin{equation}\label{eq60}
-P^\dagger(j_1,j_2,J M)=\frac{1}{\sqrt{1+\delta_{j_1,j_2}}}\sum_m \langle j_1 \; m \;j_2 \;M-m|J \; M\rangle \;a^\dagger_{j_1m}a^\dagger_{j_2M-m}.
+T^\dagger(j_1,j_2,J M)=\frac{1}{\sqrt{1+\delta_{j_1,j_2}}}\sum_m \langle j_1 \; m \;j_2 \;M-m|J \; M\rangle \;a^\dagger_{j_1m}a^\dagger_{j_2M-m}.
 \end{equation}
 
 
-The spectroscopic amplitude for finding in a $A+2,J_f,M_f$ nucleus a couple of nucleons with quantum numbers $j_1,j_2$ coupled to $J$ on top of a $A,J_i$ nucleus is
+The spectroscopic amplitude \idx{BCS!pair transfer amplitudes} for finding in a $A+2,J_f,M_f$ nucleus a couple of nucleons with quantum numbers $j_1,j_2$ coupled to $J$ on top of a $A,J_i$ nucleus is
 \begin{equation}\label{eq61}
 B(j_1,j_2(J))=\sum_{M,M_i} \langle J_i \; M_i \; J M|J_f \; M_f\rangle \langle \Psi_{J_f M_f}|T^\dagger(j_1,j_2,J M)|\Psi_{J_i M_i}\rangle.
 \end{equation}
@@ -2419,7 +2454,7 @@ If both nuclei are in the $\ket{BCS}$ ground state (zero-quasiparticles state), 
          &=\frac{1}{\sqrt 2}\sum_{m} \frac{1}{\sqrt{(2j+1)}}V_jU_j.
      \end{split}
 \end{equation}
-After carrying out the summation one finds,
+After carrying out the summation one finds, \idx{BCS!pair transfer amplitudes}
 \begin{equation}\label{eq64}
  B_j=B(j^2(0))=\sqrt{j+1/2}\;V_jU_j.
 \end{equation}

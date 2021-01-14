@@ -1,4 +1,4 @@
-\begin{thebibliography}{604}
+\begin{thebibliography}{613}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \expandafter\ifx\csname urlstyle\endcsname\relax
@@ -41,6 +41,13 @@ K.~Alder, A.~Bohr, T.~Huus, B.~Mottelson, and A.~Winther.
 \newblock {Study of Nuclear Structure by Electromagnetic Excitation with
   Accelerated Ions}.
 \newblock \emph{Rev. Mod. Phys.}, 28:\penalty0 432, 1956.
+
+\bibitem[Allaart et~al.(1974)Allaart, Goeke, M\"uther, and
+  Faessler]{Allaart:74}
+K.~Allaart, K.~Goeke, H.~M\"uther, and A.~Faessler.
+\newblock Microscopic, nonharmonic description of rotations and pairing
+  vibrations in deformed $\mathrm{pf}$-shell nuclei.
+\newblock \emph{Phys. Rev. C}, 9:\penalty0 988, 1974.
 
 \bibitem[Ambegaokar(1969)]{Ambegaokar:69}
 V.~Ambegaokar.
@@ -543,6 +550,11 @@ G.~F. Bertsch and R.~A. Broglia.
 \newblock \emph{Oscillations in Finite Quantum Systems}.
 \newblock Cambridge University Press, Cambridge, 2005.
 
+\bibitem[Bertsch and Esbensen(1991)]{Bertsch:91}
+G.~F. Bertsch and H.~Esbensen.
+\newblock Pair correlations near the neutron drip line.
+\newblock \emph{Annals of Physics}, 209, 1991.
+
 \bibitem[Bertsch et~al.(1967)Bertsch, Broglia, and Riedel]{Bertsch:67}
 G.~F. Bertsch, R.~A. Broglia, and C.~Riedel.
 \newblock {Qualitative description of nuclear collectivity}.
@@ -818,15 +830,10 @@ N.~Bohr and J.~A. Wheeler.
 \newblock The mechanism of nuclear fission.
 \newblock \emph{Phys. Rev.}, 56:\penalty0 426, 1939.
 
-\bibitem[Born(1926{\natexlab{a}})]{Born:26}
+\bibitem[Born(1926)]{Born:26}
 M.~Born.
 \newblock {Zur Quantenmechanik der Sto\ss{}vorg\"{a}nge}.
-\newblock \emph{Zeitschr. f. Phys.}, 37:\penalty0 863, 1926{\natexlab{a}}.
-
-\bibitem[Born(1926{\natexlab{b}})]{Born:26b}
-M.~Born.
-\newblock {Zur Quantenmechanik der Sto\ss{}vorg\"{a}nge}.
-\newblock \emph{Zeitschr. f. Phys.}, 38:\penalty0 803, 1926{\natexlab{b}}.
+\newblock \emph{Zeitschr. f. Phys.}, 37:\penalty0 863, 1926.
 
 \bibitem[Born(1948)]{Born:48}
 M.~Born.
@@ -1563,6 +1570,11 @@ H.~Esbensen and G.~F. Bertsch.
 \newblock Nuclear surface fluctuations: Charge density.
 \newblock \emph{Phys. Rev. C}, 28:\penalty0 355, 1983.
 
+\bibitem[Esbensen et~al.(1997)Esbensen, Bertsch, and Hencken]{Esbensen:97}
+H.~Esbensen, G.~F. Bertsch, and K.~Hencken.
+\newblock {Application of contact interactions to Borromean halos}.
+\newblock \emph{Phys. Rev. C}, 56:\penalty0 3054, 1997.
+
 \bibitem[Federman and Talmi(1965)]{Federman:65}
 P.~Federman and I.~Talmi.
 \newblock Coexistence of shell model and deformed states in oxygen isotopes.
@@ -1913,6 +1925,22 @@ O.~Gunnarsson.
   Properties}.
 \newblock World Scientific, Singapore, 2004.
 
+\bibitem[Hagino and Sagawa(2005)]{Hagino:05}
+K.~Hagino and H.~Sagawa.
+\newblock Pairing correlations in nuclei on the neutron--drip line.
+\newblock \emph{Phys. Rev. C}, 72:\penalty0 044321, 2005.
+
+\bibitem[Hagino and Sagawa(2007)]{Hagino:07b}
+K.~Hagino and H.~Sagawa.
+\newblock Dipole excitation and geometry of borromean nuclei.
+\newblock \emph{Phys. Rev. C}, 76:\penalty0 047302, 2007.
+
+\bibitem[Hagino et~al.(2007)Hagino, Sagawa, Carbonell, and Schuck]{Hagino:07}
+K.~Hagino, H.~Sagawa, J.~Carbonell, and P.~Schuck.
+\newblock Coexistence of {BCS}-- and {BEC}--like pair structures in halo
+  nuclei.
+\newblock \emph{Phys. Rev. Lett.}, 99:\penalty0 022506, 2007.
+
 \bibitem[Hamacher(2010)]{Hamacher:10}
 K.~Hamacher.
 \newblock {Temperature dependence of fluctuations in HIV-1-protease}.
@@ -1977,6 +2005,12 @@ O.~Hansen.
 \newblock {Experimental establishment of the nuclear pairing phases}.
 \newblock In R.~A. Broglia and V.~Zelevinsky, editors, \emph{50 Years of
   Nuclear BCS}, page 449. World Scientific, Singapore, 2013.
+
+\bibitem[Hansen and Jonson(1987)]{Hansen:87}
+P.~G. Hansen and B.~Jonson.
+\newblock The neutron halo of extremely neutron-rich nuclei.
+\newblock \emph{Europhysics Letters ({EPL})}, 4\penalty0 (4):\penalty0 409,
+  1987.
 
 \bibitem[Hara(1971)]{Hara:71}
 K.~Hara.
@@ -2461,11 +2495,6 @@ F.~London.
 \newblock {Zur Theorie der Systematik der Molekularkr\"{a}fte}.
 \newblock \emph{Z. f. Physik}, 63:\penalty0 245, 1930.
 
-\bibitem[London(1937)]{London:37}
-F.~London.
-\newblock {The general theory of molecular forces, Trans.}
-\newblock \emph{Faraday Soc.}, 33:\penalty0 8, 1937.
-
 \bibitem[L\"owen(1994)]{Lowen:94}
 H.~L\"owen.
 \newblock Melting, freezing and colloidal suspensions.
@@ -2528,11 +2557,23 @@ T.~P. Martin, U.~{N\"{a}her}, and H.~Schaber.
   School of Physics ``Enrico Fermi'' Course CXXI, Perspectives in
   many--particle physics}}, page 139. North Holland, Amsterdam, 1994.
 
+\bibitem[Matsuo(2006)]{Matsuo:06}
+M.~Matsuo.
+\newblock {Spatial structure of neutron Cooper pair in low density uniform
+  matter}.
+\newblock \emph{Phys. Rev. C}, 73:\penalty0 044309, 2006.
+
 \bibitem[Matsuo(2013)]{Matsuo:13}
 M.~Matsuo.
 \newblock {Spatial Structure of Cooper Pairs in Nuclei}.
 \newblock In R.~A. Broglia and V.~Zelevinsky, editors, \emph{50 Years of
   Nuclear BCS}, page~66. World Scientific, Singapore, 2013.
+
+\bibitem[Matsuo et~al.(2005)Matsuo, Mizuyama, and Serizawa]{Matsuo:05}
+M.~Matsuo, K.~Mizuyama, and Y.~Serizawa.
+\newblock Di-neutron correlation and soft dipole excitation in medium mass
+  neutron-rich nuclei near drip line.
+\newblock \emph{Phys. Rev. C}, 71:\penalty0 064326, 2005.
 
 \bibitem[Matsuyanagi et~al.(2013)Matsuyanagi, Hinohora, and
   Sato]{Matsuyanagi:13}
@@ -3102,6 +3143,12 @@ D.~Sackett, K.~Ieki, A.~Galonsky, C.~A. Bertulani, H.~Esbensen, J.~J. Kruse,
 \newblock {Electromagnetic excitation of $^{11}Li$}.
 \newblock \emph{Phys. Rev. C}, 48:\penalty0 118, 1993.
 
+\bibitem[Sagawa and Hagino(2007)]{Sagawa:07}
+H.~Sagawa and K.~Hagino.
+\newblock Pairing correlations and soft dipole excitations in nuclei on the
+  neutron-drip line.
+\newblock \emph{Physics of Atomic Nuclei}, 70:\penalty0 1321, 2007.
+
 \bibitem[Sagawa et~al.(1993)Sagawa, Brown, and Esbensen]{Sagawa:93}
 H.~Sagawa, B.~A. Brown, and H.~Esbensen.
 \newblock {Parity inversion in the N=7 isotones and the pairing blocking
@@ -3168,6 +3215,16 @@ G.~Satchler.
 G.~Satchler.
 \newblock \emph{Direct Nuclear Reactions}.
 \newblock Clarendon Press, Oxford, 1983.
+
+\bibitem[Schafroth(1958)]{Schafroth:58}
+M.~R. Schafroth.
+\newblock Remarks on the meissner effect.
+\newblock \emph{Phys. Rev.}, 111:\penalty0 72, 1958.
+
+\bibitem[Schafroth et~al.(1957)Schafroth, Butler, and Blatt]{Schafroth:57}
+M.~R. Schafroth, S.~T. Butler, and J.~M. Blatt.
+\newblock Quasichemical equilibrium approach to superconductivity.
+\newblock \emph{Helvetica Physica Acta}, 30:\penalty0 93, 1957.
 
 \bibitem[Schiffer et~al.(2012)Schiffer, Hoffman, Kay, Clark, Deibel, Freeman,
   Howard, Mitchell, Parker, Sharp, and Thomas]{Schiffer:12}
@@ -3435,20 +3492,12 @@ D.~ter Haar.
 \newblock When is a boson not a boson?
 \newblock \emph{Physics World}, 8:\penalty0 19, 1995{\natexlab{b}}.
 
-\bibitem[Terasaki et~al.(2002{\natexlab{a}})Terasaki, Barranco, Broglia,
-  Vigezzi, and Bortignon]{Terasaki:02a}
+\bibitem[Terasaki et~al.(2002)Terasaki, Barranco, Broglia, Vigezzi, and
+  Bortignon]{Terasaki:02a}
 J.~Terasaki, F.~Barranco, R.~A. Broglia, E.~Vigezzi, and P.~F. Bortignon.
 \newblock Solution of the {D}yson equation for nucleons in the superfluid
   phase.
-\newblock \emph{Nuclear Physics A}, 2002{\natexlab{a}}.
-
-\bibitem[Terasaki et~al.(2002{\natexlab{b}})Terasaki, Barranco, Vigezzi,
-  Broglia, and Bortignon]{Terasaki:02b}
-J.~Terasaki, F.~Barranco, E.~Vigezzi, R.~A. Broglia, and P.~F. Bortignon.
-\newblock Effect of particle-phonon coupling on pairing correlations in finite
-  systems -- the atomic nucleus --.
-\newblock \emph{Progress of Theoretical Physics}, 108:\penalty0 495,
-  2002{\natexlab{b}}.
+\newblock \emph{Nuclear Physics A}, 2002.
 
 \bibitem[Thoennessen et~al.(1999)Thoennessen, Yokoyama, Azhari, Baumann, Brown,
   Galonsky, Hansen, Kelley, Kryger, Ramakrishnan, and Thirolf]{Thoennessen:99}

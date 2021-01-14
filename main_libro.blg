@@ -10,11 +10,11 @@ A level-1 auxiliary file: nutshell/include_trans_nut.aux
 A level-1 auxiliary file: C6/includeC6.aux
 A level-1 auxiliary file: C7/includeC7.aux
 A level-1 auxiliary file: C8/includeC8.aux
-Illegal, another \bibstyle command---line 13 of file main_libro.aux
+Illegal, another \bibstyle command---line 10 of file main_libro.aux
  : \bibstyle
  :          {abbrvnat}
 I'm skipping whatever remains of this command
-Reallocated field_info (elt_size=4) to 22080 items from 5000.
+Reallocated field_info (elt_size=4) to 22332 items from 5000.
 Database file #1: /home/gregory/book/nuclear_bib.bib
 I was expecting an "="---line 111 of file /home/gregory/book/nuclear_bib.bib
  : 
@@ -303,6 +303,12 @@ Name 2 in "G. Col\`{o}, and N. Van Giai, and P. F. Bortignon, and M. R. Quaglia"
 while executing---line 1347 of file abbrvnat.bst
 Name 3 in "G. Col\`{o}, and N. Van Giai, and P. F. Bortignon, and M. R. Quaglia" has a comma at the end for entry Colo:00
 while executing---line 1347 of file abbrvnat.bst
+Name 1 in "M. R. Schafroth, and S. T. Butler, and J. M. Blatt" has a comma at the end for entry Schafroth:57
+while executing---line 1347 of file abbrvnat.bst
+Name 1 in "M. R. Schafroth, and S. T. Butler, and J. M. Blatt" has a comma at the end for entry Schafroth:57
+while executing---line 1347 of file abbrvnat.bst
+Name 2 in "M. R. Schafroth, and S. T. Butler, and J. M. Blatt" has a comma at the end for entry Schafroth:57
+while executing---line 1347 of file abbrvnat.bst
 Name 1 in "Saperstein, E. E., and Baldo, M." has a comma at the end for entry Saperstein:12
 while executing---line 1347 of file abbrvnat.bst
 Name 1 in "Saperstein, E. E., and Baldo, M." has a comma at the end for entry Saperstein:12
@@ -484,48 +490,56 @@ Name 1 in "Saperstein, E. E., and Baldo, M." has a comma at the end for entry Sa
 while executing---line 1429 of file abbrvnat.bst
 Name 1 in "Saperstein, E. E., and Baldo, M." has a comma at the end for entry Saperstein:12
 while executing---line 1429 of file abbrvnat.bst
+Name 1 in "M. R. Schafroth, and S. T. Butler, and J. M. Blatt" has a comma at the end for entry Schafroth:57
+while executing---line 1429 of file abbrvnat.bst
+Name 2 in "M. R. Schafroth, and S. T. Butler, and J. M. Blatt" has a comma at the end for entry Schafroth:57
+while executing---line 1429 of file abbrvnat.bst
+Name 1 in "M. R. Schafroth, and S. T. Butler, and J. M. Blatt" has a comma at the end for entry Schafroth:57
+while executing---line 1429 of file abbrvnat.bst
+Name 2 in "M. R. Schafroth, and S. T. Butler, and J. M. Blatt" has a comma at the end for entry Schafroth:57
+while executing---line 1429 of file abbrvnat.bst
 Warning--empty title in Stent:80
 Warning--empty year in Wolynes:16
 Warning--empty year in Wolynes:16
-You've used 604 entries,
+You've used 613 entries,
             2773 wiz_defined-function locations,
-            3846 strings with 96854 characters,
-and the built_in function-call counts, 294940 in all, are:
-= -- 24045
-> -- 21756
-< -- 432
-+ -- 7402
-- -- 6773
-* -- 24438
-:= -- 47704
-add.period$ -- 1878
-call.type$ -- 604
-change.case$ -- 3943
-chr.to.int$ -- 579
-cite$ -- 1235
-duplicate$ -- 12883
-empty$ -- 21849
-format.name$ -- 7648
-if$ -- 60588
-int.to.chr$ -- 26
+            3892 strings with 98061 characters,
+and the built_in function-call counts, 298873 in all, are:
+= -- 24391
+> -- 21981
+< -- 437
++ -- 7475
+- -- 6839
+* -- 24750
+:= -- 48320
+add.period$ -- 1905
+call.type$ -- 613
+change.case$ -- 3992
+chr.to.int$ -- 590
+cite$ -- 1253
+duplicate$ -- 13066
+empty$ -- 22181
+format.name$ -- 7733
+if$ -- 61412
+int.to.chr$ -- 24
 int.to.str$ -- 1
-missing$ -- 686
-newline$ -- 3032
-num.names$ -- 2525
-pop$ -- 7841
+missing$ -- 695
+newline$ -- 3077
+num.names$ -- 2561
+pop$ -- 7921
 preamble$ -- 1
-purify$ -- 3431
+purify$ -- 3471
 quote$ -- 0
-skip$ -- 9913
+skip$ -- 10060
 stack$ -- 0
-substring$ -- 6142
-swap$ -- 1004
+substring$ -- 6283
+swap$ -- 1009
 text.length$ -- 61
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 6204
+type$ -- 6303
 warning$ -- 26
-while$ -- 2350
+while$ -- 2385
 width$ -- 0
-write$ -- 7940
-(There were 160 error messages)
+write$ -- 8057
+(There were 167 error messages)

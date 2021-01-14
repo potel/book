@@ -1,0 +1,107 @@
+%\documentclass[a4paper,11pt]{book}
+\documentclass{cambridge6a}
+%\usepackage[sectionbib]{chapterbib}
+%\usepackage{bibunits}
+%\usepackage{chapterbib}
+\UseRawInputEncoding 
+\usepackage{inputenc}
+\usepackage{cyrillic}
+\usepackage{makeidx} 
+%\usepackage{tempora}
+%\usepackage[russian,british]{babel}
+%\usepackage{chapterbib}
+\usepackage{dsfont}   
+\usepackage[title]{appendix}
+\usepackage{slashbox} 
+\usepackage{enumerate}
+\usepackage[stable]{footmisc} 
+\usepackage{epigraph} 
+%\documentclass[a4paper]{book}
+% \linespread{2.}     
+%\numberwithin{section}
+%\documentclass[12pt]{article}
+%\documentclass[12pt]{cmmp}
+\usepackage{textcomp}
+%%\usepackage{psfig}
+%\usepackage{harvard}
+\usepackage{epsfig}
+\usepackage{amsmath}   
+\usepackage{amsfonts}
+%\counterwithin{figure}{section}
+\usepackage{amssymb}
+\usepackage{bbold}
+\usepackage{bbm}
+\numberwithin{equation}{section}
+\numberwithin{figure}{section}
+\numberwithin{table}{section}
+%%\usepackage{graphicx}
+%%
+%%\usepackage{txfonts}
+%%%\usepackage{mathrsfs}
+%
+%%\usepackage{feynmf}     %<------------ Obbligatorio
+\unitlength=1mm         %<------------ Obbligatorio
+%
+\newsavebox{\fmbox}
+\newenvironment{fmpage}[1]
+{\begin{lrbox}{\fmbox}\begin{minipage}{#1}}
+{\end{minipage}\end{lrbox}\fbox{\usebox{\fmbox}}}
+\newcommand{\braket}[1]{\langle {#1} \rangle }
+\newcommand{\ket}[1]{|{#1} \rangle }
+\newcommand{\bra}[1]{\langle {#1}|}
+%\newcommand{\idx}[1]{\index {#1}\textcolor{red}{#1}}
+\newcommand{\idx}[1]{\index {#1}}
+\newcommand\idop{\mathds 1}
+\newcommand{\cyrrm}{\fontencoding{OT2}\selectfont\textcyrup}
+\usepackage{dsfont}
+\usepackage{latexsym}
+\usepackage[varg]{txfonts}
+\usepackage{mathrsfs}
+\usepackage{upgreek}
+\usepackage[round]{natbib}
+%\usepackage [latin1]{inputenc}
+\usepackage{verbatim}
+\usepackage{array}
+\usepackage{color}
+%\pagestyle{plain}
+\usepackage{graphicx}
+\usepackage{caption}
+%\usepackage[justification=justified]{caption}
+\renewcommand{\thefootnote}{\arabic{footnote}}
+%\renewcommand{\@makefnmark}{\makebox{\footnotesize\@thefnmark}}
+
+\DeclareMathAlphabet{\mathpzc}{OT1}{pzc}{m}{it}
+\makeindex
+%\title{Nuclear Structure and Reactions\\superfluidity  with Cooper pair transfer\footnote{\textbf{Very preliminary version}}}
+\title{Nuclear Structure and Reactions\\superfluidity  with Cooper pair transfer}
+\title{The nuclear Cooper pair\\\large Structure and Reactions}
+\author{G. Potel and R. A. Broglia}
+\begin{document}
+\maketitle
+% \bibliographystyle{abbrvnat}
+\include{C1/includeC1}
+%\include{C1/PrefaceFrontiers}
+\tableofcontents
+\setcounter{chapter}{0}
+\include{preface_book}
+\include{introduccion/introduccion}
+\include{nutshell/include_struct_nut}
+%%%\include{nutshell/Ch3NA}
+\include{nutshell/include_trans_nut}
+%%%\include{nutshell/Ch4NA}
+\include{C6/includeC6}
+%%%\include{C6/Ch5NA}
+\include{C7/includeC7}
+%%%\include{C7/Ch6NA}
+\include{C8/includeC8}
+%%\include{C8/Ch7NA}
+\bibliographystyle{abbrvnat}
+\renewcommand{\bibname}{Bibliography}
+\bibliography{/home/gregory/book/nuclear_bib.bib}
+\printindex
+\end{document} 
+
+%%% Local Variables:
+%%% mode: latex
+%%% TeX-master: t
+%%% End:

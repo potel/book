@@ -9,7 +9,7 @@
 
 
 The present Chapter is structured in the following way. In Section \ref{C7S1} we present a summary of two-nucleon transfer reaction theory. It provides, together with Section \ref{C2S1} the elements needed to calculate the absolute two-nucleon transfer differential cross sections in second order DWBA, and thus to compare theory with experiment.
-For the practitioner in search of details and clarification we present in section \ref{C7S2}  a  derivation of the equations presented in section \ref{C7S1}. These equations are implemented and made operative  in the software \textsc{cooper}  used in the applications (cf. App. \ref{C8AppD}).
+For the practitioner in search of details and clarification we carry out, in section \ref{C7S2}  a  derivation of the equations presented in section \ref{C7S1}. These equations are implemented and made operative  in the software \textsc{cooper}  used in the applications (cf. App. \ref{C8AppD}).
 
 A number of Appendices are provided.   Appendices \ref{C7AppD}--\ref{C7AppN} contain relations used in Sect. \ref{C7S2} as well as in the derivation of some two-nucleon transfer spectroscopic amplitudes. Finally, Appendix \ref{C7AppO} provides a glimpse of original material due to Ben Bayman\footnote{\cite{Bayman:70}, \cite{Bayman:71}, \cite{Bayman:82}.} which was instrumental to render quantitative the studies of two-nucleon transfer, studies which can now be carried out in terms of absolute differential cross sections and not only of relative ones.
 \section{Summary of second order DWBA}\label{C7S1}
@@ -741,7 +741,7 @@ and
 
 
 
-\subsection{Matrix element for the transition amplitude (alternative derivation)}
+\subsection{Alternative derivation (heavy ions)}
 \idx{Two-nucleon transfer!second order DWBA}
 In what follows we work out an alternative derivation of $T^{1step}_{2N}$, more closely related to heavy ion reactions\footnote{\cite{Bayman:82}.}, that is
 \begin{equation}\label{eq141}
@@ -862,7 +862,7 @@ T^{(1)}(\theta)=&(4\pi)^{-1}\frac{\sqrt{(2j_i+1)(2j_f+1)}}{k_{Aa}k_{Bb}}\sum_{l}
  \end{split}
 \end{equation}
 \idx{Two-nucleon transfer!second order DWBA}
-\subsection[Coordinates for simultaneous transfer]{Coordinates used to derive Eq. (\ref{eq168})}
+\subsection[Coordinates for simultaneous transfer]{Coordinates used to derive the transition amplitude  (Eq. (\ref{eq168}))}
 We determine the relation between the integration variables in (\ref{eq147}) and the coordinates needed to evaluate the quantities in the integrand. Noting that
 \begin{equation}\label{eq177}
 \mathbf{r}_{Aa}=\frac{\mathbf{r}_{A1}+\mathbf{r}_{A2}+m_b\mathbf{r}_{Ab}}{m_b+2},
@@ -1320,8 +1320,8 @@ Consequently, \idx{Two-nucleon transfer!second order DWBA}
 \end{split}
 \end{equation}
 Consequently, in the case in which $l_c+l+l_i+l_f$ is odd, we have only  to evaluate the $M=0$ contribution. This consideration is useful to restrict the number of numerical operations needed to calculate the transition amplitude.
-\subsection{non--orthogonality term}\label{S6.2.9}
-We write the non--orthogonality contribution to the transition amplitude (see \cite{Bayman:82}): \idx{Two-nucleon transfer!second order DWBA}
+\subsection{Non-orthogonality term}\label{S6.2.9}
+We write the non-orthogonality contribution to the transition amplitude (see \cite{Bayman:82}): \idx{Two-nucleon transfer!second order DWBA}
 \begin{equation}\label{129}
  \begin{split}
 T_{NO}^{(2)}(\theta)=&2\sum_{\substack{\sigma_1 \sigma_2 \\ \sigma_1' \sigma_2' \\ KM}}\int d^3r_{Cc}d^3r_{b1}d^3r_{A2}
@@ -2060,7 +2060,7 @@ one obtains
 \begin{align}\label{eq6.5.24}
 P^\dagger_\nu=a^\dagger_\nu a^\dagger_{\tilde\nu}=U^2_\nu\alpha_\nu^\dagger\alpha_{\tilde\nu}^\dagger-U_\nu V_\nu(\alpha_\nu^\dagger\alpha_\nu+\alpha_{\tilde\nu}^\dagger\alpha_{\tilde\nu})-V^2_\nu\alpha_{\tilde\nu}\alpha_\nu+U_\nu V_\nu.
 \end{align} 
-Because one-quasiparticle transfer amplitude is $\sim U_\nu$ and the associated cross section is $\sim U^2_\nu$ (i.e. $\sim T^2$, $T$ being the associated transition amplitude), it is natural that the two-quasiparticle transfer amplitude is $\sim U^2_\nu$ and that the associated cross section is $\sim U^4_\nu$ (i.e. $\sim T^4$). As apparent from (\ref{eq6.5.24}), there exists a different possibility to transfer a pair of nucleons, leaving the quasiparticle distribution unchanged\footnote{This was the main message of Josephson (\cite{Josephson:62}), and was the possibility which was missed by Giaever (\cite{Giaver:73}), who interpreted supercurrents with zero voltage drop through the oxide barrier separating two superconductors as a metallic short. As he (Giaever) states: ``to make an experimental discovery is not enough to observe something, one must also realize the significance of the observation''. It was also missed by Cohen, Falicov and Phillips (\cite{Cohen:62}), who developed the many-body tunneling Hamiltonian (eventually extended by Josephson) and who found four contributions to the current which correspond to normal (carriers of charge $e$) current of type S-Q. That is, implying quasiparticle excitation.}. Namely, through the last term of (\ref{eq6.5.24}). Thus, a transfer amplitude $\sim U_\nu V_\nu$ and associated two-nucleon transfer cross section $\sim(U_\nu V_\nu)^2$ $(\sim T^2)$. A result which one finds at the basis of (\ref{eq3.2.19}).
+Because one-quasiparticle transfer amplitude is $\sim U_\nu$ and the associated cross section is $\sim U^2_\nu$ (i.e. $\sim T^2$, $T$ being the associated transition amplitude), it is natural that the two-quasiparticle transfer amplitude is $\sim U^2_\nu$ (within this context see Fig. \ref{fig4.6.1}, $S$-$Q$ current) and that the associated cross section is $\sim U^4_\nu$ (i.e. $\sim T^4$). As it is apparent from (\ref{eq6.5.24}), there exists a different possibility to transfer a pair of nucleons, leaving this time the quasiparticle distribution unchanged\footnote{This was the main message of Josephson (\cite{Josephson:62}), and was the possibility which was missed by Giaever (\cite{Giaver:73}), who interpreted supercurrents with zero voltage drop through the oxide barrier separating two superconductors as a metallic short. As he (Giaever) states: ``to make an experimental discovery is not enough to observe something, one must also realize the significance of the observation''. It was also missed by Cohen, Falicov and Phillips (\cite{Cohen:62}), who developed the many-body tunneling Hamiltonian (eventually extended by Josephson) and who found four contributions to the current which correspond to normal (carriers of charge $e$) current of type S-Q. That is, implying quasiparticle excitation.}. Namely, through the last term of (\ref{eq6.5.24}). Thus, a transfer amplitude $\sim U_\nu V_\nu$ (Fig. \ref{fig4.6.1}, $S$-$S$ current) and associated two-nucleon transfer cross section $\sim(U_\nu V_\nu)^2$ $(\sim T^2)$. A result which one finds at the basis of (\ref{eq3.2.19}).
 
 
 

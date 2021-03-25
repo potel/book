@@ -1,4 +1,4 @@
-\begin{thebibliography}{613}
+\begin{thebibliography}{621}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \expandafter\ifx\csname urlstyle\endcsname\relax
@@ -48,6 +48,11 @@ K.~Allaart, K.~Goeke, H.~M\"uther, and A.~Faessler.
 \newblock Microscopic, nonharmonic description of rotations and pairing
   vibrations in deformed $\mathrm{pf}$-shell nuclei.
 \newblock \emph{Phys. Rev. C}, 9:\penalty0 988, 1974.
+
+\bibitem[Alva et~al.(2015)Alva, S{\"o}ding, and Lupas]{Alva:15}
+V.~Alva, J.~S{\"o}ding, and A.~N. Lupas.
+\newblock A vocabulary of ancient peptides at the origin of folded proteins.
+\newblock \emph{Elife}, 4:\penalty0 e09410, 2015.
 
 \bibitem[Ambegaokar(1969)]{Ambegaokar:69}
 V.~Ambegaokar.
@@ -576,6 +581,12 @@ D.~R. B{\`{e}}s.
 \newblock In P.~Federman, editor, \emph{Notas de F{\'i}sica, Vol 1, n. 1}.
   Instituto de F{\'i}sica, Universidad Nacional Aut{\'o}noma de Mexico., 1978.
 
+\bibitem[B\`es(2016)]{Bes:16}
+D.~R. B\`es.
+\newblock The field treatment of the nuclear spectrum. historical foundation
+  and two contributions to its ensuing development.
+\newblock \emph{Physica Scripta}, 91:\penalty0 063010, 2016.
+
 \bibitem[B{\`{e}}s and Broglia(1966)]{Bes:66}
 D.~R. B{\`{e}}s and R.~A. Broglia.
 \newblock Pairing vibrations.
@@ -944,11 +955,11 @@ R.~Broglia, R.~Liotta, B.~Nilsson, and A.~Winther.
 
 \bibitem[Broglia(1975)]{Broglia:75}
 R.~A. Broglia.
-\newblock {Heavy ion reaction, Notes of lectures delivered during the academic
-  years 1974--1976 at SUNY, Stony Brook at Brookhaven National Laboratory, and
+\newblock {Heavy ion reactions, Notes of lectures delivered during the academic
+  years 1974--1976 at SUNY, Stony Brook, at Brookhaven National Laboratory, and
   at Niels Bohr Institute, unpublished.}
-\newblock \emph{http://www.mi.infn.it/~vigezzi/HIR/HeavyIonReactions.pdf},
-  1975.
+\newblock
+  \emph{http://www.mi.infn.it/{$\sim$}vigezzi/HIR/HeavyIonReactions.pdf}, 1975.
 
 \bibitem[Broglia(1981)]{Broglia:81c}
 R.~A. Broglia.
@@ -995,7 +1006,7 @@ R.~A. Broglia and D.~R. Bes.
 R.~A. Broglia and C.~Riedel.
 \newblock Pairing vibration and particle-hole states excited in the reaction
   $^{206}${P}b(t, p)$^{208}${P}b.
-\newblock \emph{Nucl. Phys.}, 92:\penalty0 145, 1967.
+\newblock \emph{Nucl. Phys. A}, 92:\penalty0 145, 1967.
 
 \bibitem[Broglia and Tiana(2001)]{Broglia:01b}
 R.~A. Broglia and G.~Tiana.
@@ -1053,7 +1064,7 @@ R.~A. Broglia, C.~Riedel, and T.~Udagawa.
 R.~A. Broglia, O.~Hansen, and C.~Riedel.
 \newblock Two--neutron transfer reactions and the pairing model.
 \newblock \emph{Advances in Nuclear Physics}, 6:\penalty0 287, 1973.
-\newblock URL \url{www.mi.infn.it/?vigezzi/BHR/ BrogliaHansenRiedel.pdf}.
+\newblock URL \url{www.mi.infn.it/{$\sim$}vigezzi/BHR/BrogliaHansenRiedel.pdf}.
 
 \bibitem[Broglia et~al.(1974)Broglia, B{\`{e}}s, and Nilsson]{Broglia:74}
 R.~A. Broglia, D.~R. B{\`{e}}s, and B.~S. Nilsson.
@@ -1151,9 +1162,9 @@ M.~Buchanan.
 \newblock \emph{Nature Physics}, 11:\penalty0 296, 2015.
 
 \bibitem[Burde et~al.(1982)Burde, Dines, Shih, Diamond, Draper, Lindenberger,
-  SchÃ¼ck, and Stephens]{Burde:82}
+  SchÃƒÂ¼ck, and Stephens]{Burde:82}
 J.~Burde, E.~L. Dines, S.~Shih, R.~M. Diamond, J.~E. Draper, K.~H.
-  Lindenberger, C.~SchÃ¼ck, and F.~S. Stephens.
+  Lindenberger, C.~SchÃƒÂ¼ck, and F.~S. Stephens.
 \newblock Third discontinuity in the yrast levels of $^{158}${Er}.
 \newblock \emph{Physical Review Letters}, 48:\penalty0 530, 1982.
 
@@ -1190,6 +1201,18 @@ F.~Cappuzzello, D.~Carbone, M.~Cavallaro, M.~{Bond\'i}, C.~Agodi, F.~Azaiez,
 \newblock {Signatures of the Giant Pairing Vibration in the $^{14}$C and
   $^{15}$C atomic nuclei.}
 \newblock \emph{Nature Communications}, 6:\penalty0 6743, 2015.
+
+\bibitem[Cappuzzello et~al.(2021)Cappuzzello, {Carbone, D.}, {Cavallaro, M.},
+  {Spatafora, A.}, {Ferreira, J. L.}, {Agodi, C.}, {Linares, R.}, and {Lubian,
+  J.}]{Cappuzzello:21}
+F.~Cappuzzello, {Carbone, D.}, {Cavallaro, M.}, {Spatafora, A.}, {Ferreira, J.
+  L.}, {Agodi, C.}, {Linares, R.}, and {Lubian, J.}
+\newblock Confirmation of giant pairing vibration evidence in
+  12,13\$\$^\{\backslash{}mathrm \{12,13\}\}\$\$c(18\$\$^\{\backslash{}mathrm
+  \{18\}\}\$\$o,16\$\$^\{\backslash{}mathrm
+  \{16\}\}\$\$o)14,15\$\$^\{\backslash{}mathrm \{14,15\}\}\$\$c reactions at
+  275 mev.
+\newblock \emph{Eur. Phys. J. A}, 57:\penalty0 34, 2021.
 
 \bibitem[Casal et~al.(2017)Casal, Gomez-Ramos, and Moro]{Casal:17}
 J.~Casal, M.~Gomez-Ramos, and A.~Moro.
@@ -1327,8 +1350,8 @@ J.~de~Boer and R.~J. Lundbeck.
   state of liquids}.
 \newblock \emph{Physica}, 14:\penalty0 520, 1948.
 
-\bibitem[{De Broglie}(1925)]{Broglie:25}
-L.~{De Broglie}.
+\bibitem[de~Broglie(1925)]{Broglie:25}
+L.~de~Broglie.
 \newblock Recherches sur la {th\'eorie} des quanta.
 \newblock \emph{Ann. Phys.}, 10:\penalty0 22, 1925.
 
@@ -1676,12 +1699,12 @@ E.~R. Flynn, G.~J. Igo, R.~A. Broglia, S.~Landowne, V.~Paar, and B.~Nilsson.
 \newblock \emph{Nuclear Physics A}, 195:\penalty0 97, 1972{\natexlab{b}}.
 
 \bibitem[Fortier et~al.(1999)Fortier, Pita, Winfield, Catford, Orr, de~Wiele,
-  Blumenfeld, Chapman, Chappell, Clarke, Curtis, Freer, Galès, Jones,
+  Blumenfeld, Chapman, Chappell, Clarke, Curtis, Freer, GalÃ¨s, Jones,
   Langevin-Joliot, Laurent, Lhenry, Maison, Roussel-Chomaz, Shawcross, Smith,
   Spohr, Suomijarvi, and de~Vismes]{Fortier:99}
 S.~Fortier, S.~Pita, J.~Winfield, W.~Catford, N.~Orr, J.~V. de~Wiele,
   Y.~Blumenfeld, R.~Chapman, S.~Chappell, N.~Clarke, N.~Curtis, M.~Freer,
-  S.~Galès, K.~Jones, H.~Langevin-Joliot, H.~Laurent, I.~Lhenry, J.~Maison,
+  S.~GalÃ¨s, K.~Jones, H.~Langevin-Joliot, H.~Laurent, I.~Lhenry, J.~Maison,
   P.~Roussel-Chomaz, M.~Shawcross, M.~Smith, K.~Spohr, T.~Suomijarvi, and
   A.~de~Vismes.
 \newblock {Core excitation in $^{11}$Be$_{gs}$ via the
@@ -2127,6 +2150,12 @@ A.~Idini.
 \newblock \emph{Ph.D. thesis, University of Milan
   http://air.unimi.it/2434/216315}, 2013.
 
+\bibitem[Idini et~al.(2012)Idini, Barranco, and Vigezzi]{Idini:12}
+A.~Idini, F.~Barranco, and E.~Vigezzi.
+\newblock Quasiparticle renormalization and pairing correlations in spherical
+  superfluid nuclei.
+\newblock \emph{Phys. Rev. C}, 85:\penalty0 014331, 2012.
+
 \bibitem[Idini et~al.(2014)Idini, Potel, Barranco, Vigezzi, and
   Broglia]{Idini:14}
 A.~Idini, G.~Potel, F.~Barranco, E.~Vigezzi, and R.~A. Broglia.
@@ -2162,13 +2191,13 @@ J.~N. Israelachvili.
 \newblock Academic Press, New York, 1985.
 
 \bibitem[Iwasaki et~al.(2000)Iwasaki, Motobayashi, Akiyoshi, Ando, Fukuda,
-  Fujiwara, Fülöp, Hahn, Higurashi, Hirai, Hisanaga, Iwasa, Kijima, Minemura,
+  Fujiwara, FÃ¼lÃ¶p, Hahn, Higurashi, Hirai, Hisanaga, Iwasa, Kijima, Minemura,
   Nakamura, Notani, Ozawa, Sakurai, Shimoura, Takeuchi, Teranishi, Yanagisawa,
   and Ishihara]{Iwasaki:00}
 H.~Iwasaki, T.~Motobayashi, H.~Akiyoshi, Y.~Ando, N.~Fukuda, H.~Fujiwara,
-  Z.~Fülöp, K.~Hahn, Y.~Higurashi, M.~Hirai, I.~Hisanaga, N.~Iwasa, T.~Kijima,
-  T.~Minemura, T.~Nakamura, M.~Notani, S.~Ozawa, H.~Sakurai, S.~Shimoura,
-  S.~Takeuchi, T.~Teranishi, Y.~Yanagisawa, and M.~Ishihara.
+  Z.~FÃ¼lÃ¶p, K.~Hahn, Y.~Higurashi, M.~Hirai, I.~Hisanaga, N.~Iwasa,
+  T.~Kijima, T.~Minemura, T.~Nakamura, M.~Notani, S.~Ozawa, H.~Sakurai,
+  S.~Shimoura, S.~Takeuchi, T.~Teranishi, Y.~Yanagisawa, and M.~Ishihara.
 \newblock {Quadrupole deformation of $^{12}$Be studied by proton inelastic
   scattering}.
 \newblock \emph{Physics Letters B}, 481:\penalty0 7, 2000.
@@ -2285,9 +2314,9 @@ M.~Kleber and H.~Schmidt.
 \newblock \emph{Zeitschrift f{\"u}r Physik}, 245:\penalty0 68, 1971.
 
 \bibitem[Kobayashi et~al.(1989)Kobayashi, Shimoura, Tanihata, Katori, Matsuta,
-  Minamisono, Sugimoto, Müller, Olson, Symons, and Wieman]{Kobayashi:89}
+  Minamisono, Sugimoto, MÃ¼ller, Olson, Symons, and Wieman]{Kobayashi:89}
 T.~Kobayashi, S.~Shimoura, I.~Tanihata, K.~Katori, K.~Matsuta, T.~Minamisono,
-  K.~Sugimoto, W.~Müller, D.~L. Olson, T.~J.~M. Symons, and H.~Wieman.
+  K.~Sugimoto, W.~MÃ¼ller, D.~L. Olson, T.~J.~M. Symons, and H.~Wieman.
 \newblock Electromagnetic dissociation and soft giant dipole resonance of the
   neutron-dripline nucleus {$^{11}$Li}.
 \newblock \emph{Physics Letters B}, 232:\penalty0 51, 1989.
@@ -2365,12 +2394,12 @@ Y.~Kubota, A.~Corsi, G.~Authelet, H.~Baba, C.~Caesar, D.~Calvet, A.~Delbart,
 
 \bibitem[Kwan et~al.(2014)Kwan, Wu, Summers, Hackman, Drake, Andreoiu, Ashley,
   Ball, Bender, Boston, Boston, Chester, Close, Cline, Cross, Dunlop, Finlay,
-  Garnsworthy, Hayes, Laffoley, Nano, Navrátil, Pearson, Pore, Quaglioni,
+  Garnsworthy, Hayes, Laffoley, Nano, NavrÃ¡til, Pearson, Pore, Quaglioni,
   Svensson, Starosta, Thompson, Voss, Williams, and Wang]{Kwan:14}
 E.~Kwan, C.~Wu, N.~Summers, G.~Hackman, T.~Drake, C.~Andreoiu, R.~Ashley,
   G.~Ball, P.~Bender, A.~Boston, H.~Boston, A.~Chester, A.~Close, D.~Cline,
   D.~Cross, R.~Dunlop, A.~Finlay, A.~Garnsworthy, A.~Hayes, A.~Laffoley,
-  T.~Nano, P.~Navrátil, C.~Pearson, J.~Pore, S.~Quaglioni, C.~Svensson,
+  T.~Nano, P.~NavrÃ¡til, C.~Pearson, J.~Pore, S.~Quaglioni, C.~Svensson,
   K.~Starosta, I.~Thompson, P.~Voss, S.~Williams, and Z.~Wang.
 \newblock {Precision measurement of the electromagnetic dipole strengths in
   $^{11}$Be}.
@@ -2759,11 +2788,16 @@ B.~R. Mottelson.
 \newblock In J.~Sanada, editor, \emph{Proc. Intern. Conf. on Nuclear Structure,
   Phys. Soc. of Japan}, page~87. 1968.
 
-\bibitem[Mottelson(1976)]{Mottelson:76}
+\bibitem[Mottelson(1976{\natexlab{a}})]{Mottelson:76}
 B.~R. Mottelson.
 \newblock \emph{Elementary Modes of Excitation in Nuclei, Le Prix Nobel en
   1975}, page~80.
-\newblock Imprimerie Royale Norstedts Tryckeri, Stockholm, 1976.
+\newblock Imprimerie Royale Norstedts Tryckeri, Stockholm, 1976{\natexlab{a}}.
+
+\bibitem[Mottelson(1976{\natexlab{b}})]{Mottelson:76b}
+B.~R. Mottelson.
+\newblock Atomkernens element\ae{}re eksitationer.
+\newblock \emph{Naturens Verden}, 6:\penalty0 169, 1976{\natexlab{b}}.
 
 \bibitem[Mottelson and Nilsson(1959)]{Mottelson:59}
 B.~R. Mottelson and S.~G. Nilsson.
@@ -2771,6 +2805,14 @@ B.~R. Mottelson and S.~G. Nilsson.
   shape}.
 \newblock \emph{Kgl. Danske Videnskab, Selskab. Mat.-fys. Skrifter}, 1, no 8,
   1959.
+
+\bibitem[Mougey et~al.(1976)Mougey, Bernheim, BussiÃ¨re, Gillebert, {Phan Xuan
+  HÃ´}, Priou, Royer, Sick, and Wagner]{Mougey:76}
+J.~Mougey, M.~Bernheim, A.~BussiÃ¨re, A.~Gillebert, {Phan Xuan HÃ´}, M.~Priou,
+  D.~Royer, I.~Sick, and G.~Wagner.
+\newblock {Quasi-free $(e, e'p)$ scattering on $^{12}$C, $^{28}$Si, $^{40}$Ca
+  and $^{58}$Ni}.
+\newblock \emph{Nuclear Physics A}, 262:\penalty0 461, 1976.
 
 \bibitem[Mouginot et~al.(2011)Mouginot, Khan, Neveling, Azaiez, Buthelezi,
   F\"ortsch, Franchoo, Fujita, Mabiala, Mira, Papka, Ramus, Scarpaci, Smit,
@@ -3019,6 +3061,12 @@ G.~Potel, A.~Idini, F.~Barranco, E.~Vigezzi, and R.~A. Broglia.
 \newblock {From bare to renormalized order parameter in gauge space: structure
   and reactions}.
 \newblock \emph{Phys. Rev C}, 96:\penalty0 034606, 2017.
+
+\bibitem[Potel et~al.(2021)Potel, Barranco, Vigezzi, and Broglia]{Potel:21}
+G.~Potel, F.~Barranco, E.~Vigezzi, and R.~A. Broglia.
+\newblock {Quantum entanglement in nuclear Cooper-pair tunneling with
+  $\ensuremath{\gamma}$ rays}.
+\newblock \emph{Phys. Rev. C}, 103:\penalty0 L021601, 2021.
 
 \bibitem[Povh and Rosina(2002)]{Povh:02}
 B.~Povh and M.~Rosina.
@@ -3317,6 +3365,12 @@ J.~Schwinger.
 \newblock \emph{Quantum Mechanics}.
 \newblock Springer, Heidelberg, 2001.
 
+\bibitem[{Senior, A.W., Evans, R., Jumper, J. et al.}(2020)]{Senior:20}
+{Senior, A.W., Evans, R., Jumper, J. et al.}
+\newblock Improved protein structure prediction using potentials from deep
+  learnings.
+\newblock \emph{Nature}, 577:\penalty0 706, 2020.
+
 \bibitem[Service(2020)]{Service:20}
 R.~F. Service.
 \newblock The game has changed. {AI} triumphs at solving protein structures.
@@ -3356,12 +3410,12 @@ S.~Shimoura, T.~Nakamura, M.~Ishihara, N.~Inabe, T.~Kobayashi, T.~Kubo,
 \newblock \emph{Physics Letters B}, 348:\penalty0 29, 1995.
 
 \bibitem[Simon et~al.(2007)Simon, Meister, Aumann, Borge, Chulkov, Pramanik,
-  Elze, Emling, Forssén, Geissel, Hellström, Jonson, Kratz, Kulessa, Leifels,
-  Markenroth, Münzenberg, Nickel, Nilsson, Nyman, Richter, Riisager,
+  Elze, Emling, ForssÃ©n, Geissel, HellstrÃ¶m, Jonson, Kratz, Kulessa, Leifels,
+  Markenroth, MÃ¼nzenberg, Nickel, Nilsson, Nyman, Richter, Riisager,
   Scheidenberger, Schrieder, Tengblad, and Zhukov]{Simon:07}
 H.~Simon, M.~Meister, T.~Aumann, M.~Borge, L.~Chulkov, U.~D. Pramanik, T.~Elze,
-  H.~Emling, C.~Forssén, H.~Geissel, M.~Hellström, B.~Jonson, J.~Kratz,
-  R.~Kulessa, Y.~Leifels, K.~Markenroth, G.~Münzenberg, F.~Nickel, T.~Nilsson,
+  H.~Emling, C.~ForssÃ©n, H.~Geissel, M.~HellstrÃ¶m, B.~Jonson, J.~Kratz,
+  R.~Kulessa, Y.~Leifels, K.~Markenroth, G.~MÃ¼nzenberg, F.~Nickel, T.~Nilsson,
   G.~Nyman, A.~Richter, K.~Riisager, C.~Scheidenberger, G.~Schrieder,
   O.~Tengblad, and M.~Zhukov.
 \newblock {Systematic investigation of the drip--line nuclei $^{11}$Li and
@@ -3708,13 +3762,13 @@ K.~Wimmer, T.~{Kr\"oll}, R.~{Kr\"ucken}, V.~Bildstein, R.~{Gernh\"auser},
 \newblock \emph{Phys. Rev. Lett.}, 105:\penalty0 252501, 2010.
 
 \bibitem[Winfield et~al.(2001)Winfield, Fortier, Catford, Pita, Orr, de~Wiele,
-  Blumenfeld, Chapman, Chappell, Clarke, Curtis, Freer, Galès, Langevin-Joliot,
-  Laurent, Lhenry, Maison, Roussel-Chomaz, Shawcross, Spohr, Suomijärvi, and
-  de~Vismes]{Winfield:01}
+  Blumenfeld, Chapman, Chappell, Clarke, Curtis, Freer, GalÃ¨s,
+  Langevin-Joliot, Laurent, Lhenry, Maison, Roussel-Chomaz, Shawcross, Spohr,
+  SuomijÃ¤rvi, and de~Vismes]{Winfield:01}
 J.~Winfield, S.~Fortier, W.~Catford, S.~Pita, N.~Orr, J.~V. de~Wiele,
   Y.~Blumenfeld, R.~Chapman, S.~Chappell, N.~Clarke, N.~Curtis, M.~Freer,
-  S.~Galès, H.~Langevin-Joliot, H.~Laurent, I.~Lhenry, J.~Maison,
-  P.~Roussel-Chomaz, M.~Shawcross, K.~Spohr, T.~Suomijärvi, and A.~de~Vismes.
+  S.~GalÃ¨s, H.~Langevin-Joliot, H.~Laurent, I.~Lhenry, J.~Maison,
+  P.~Roussel-Chomaz, M.~Shawcross, K.~Spohr, T.~SuomijÃ¤rvi, and A.~de~Vismes.
 \newblock {Single-neutron transfer from $^{11}$Be$_{gs}$ via the $(p,d)$
   reaction with a radioactive beam}.
 \newblock \emph{Nuclear Physics A}, 683:\penalty0 48, 2001.
@@ -3730,10 +3784,10 @@ P.~W\"olfe.
 \newblock {Sound propagation an kinetic coefficients in superfluid $^3$He}.
 \newblock \emph{Progr. Low Temp. Phys.}, 7:\penalty0 191, 1978.
 
-\bibitem[Wolynes()]{Wolynes:16}
+\bibitem[Wolynes(2016)]{Wolynes:16}
 P.~G. Wolynes.
 \newblock Moments of excitement.
-\newblock \emph{Science}, 352.
+\newblock \emph{Science}, 352:\penalty0 150, 2016.
 
 \bibitem[Wolynes et~al.(2012)Wolynes, Eaton, and R.]{Wolynes:12}
 P.~G. Wolynes, W.~A. Eaton, and F.~A. R.
@@ -3811,13 +3865,13 @@ M.~Zinser, F.~Humbert, T.~Nilsson, W.~Schwab, T.~Blaich, M.~J.~G. Borge, L.~V.
 \bibitem[Zinser et~al.(1997)Zinser, Humbert, Nilsson, Schwab, Simon, Aumann,
   Borge, Chulkov, Cub, Elze, Emling, Geissel, Guillemaud-Mueller, Hansen,
   Holzmann, Irnich, Jonson, Kratz, Kulessa, Leifels, Lenske, Magel, Mueller,
-  Münzenberg, Nickel, Nyman, Richter, Riisager, Scheidenberger, Schrieder,
+  MÃ¼nzenberg, Nickel, Nyman, Richter, Riisager, Scheidenberger, Schrieder,
   Stelzer, Stroth, Surowiec, Tengblad, Wajda, and Zude]{Zinser:97}
 M.~Zinser, F.~Humbert, T.~Nilsson, W.~Schwab, H.~Simon, T.~Aumann, M.~J.~G.
   Borge, L.~V. Chulkov, J.~Cub, T.~W. Elze, H.~Emling, H.~Geissel,
   D.~Guillemaud-Mueller, P.~G. Hansen, R.~Holzmann, H.~Irnich, B.~Jonson, J.~V.
   Kratz, R.~Kulessa, Y.~Leifels, H.~Lenske, A.~Magel, A.~C. Mueller,
-  G.~Münzenberg, F.~Nickel, G.~Nyman, A.~Richter, K.~Riisager,
+  G.~MÃ¼nzenberg, F.~Nickel, G.~Nyman, A.~Richter, K.~Riisager,
   C.~Scheidenberger, G.~Schrieder, K.~Stelzer, J.~Stroth, A.~Surowiec,
   O.~Tengblad, E.~Wajda, and E.~Zude.
 \newblock {Invariant-mass spectroscopy of $^{10}$Li and $^{11}$Li}.

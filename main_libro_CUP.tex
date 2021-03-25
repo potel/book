@@ -3,13 +3,14 @@
 %\usepackage[sectionbib]{chapterbib}
 %\usepackage{bibunits}
 %\usepackage{chapterbib}
-\UseRawInputEncoding 
+\UseRawInputEncoding
+\setcounter{tocdepth}{2}
 \usepackage{inputenc}
-\usepackage{cyrillic}
+\usepackage{cyrillic} 
 \usepackage{makeidx} 
 %\usepackage{tempora}
 %\usepackage[russian,british]{babel}
-%\usepackage{chapterbib}
+%\usepackage{chapterbib}  
 \usepackage{dsfont}   
 \usepackage[title]{appendix}
 \usepackage{slashbox} 
@@ -66,9 +67,9 @@
 \usepackage{color}
 %\pagestyle{plain}
 \usepackage{graphicx}
-\usepackage{caption}
+%\usepackage{caption}
 \usepackage{scrextend}
-%\usepackage[justification=justified]{caption}
+\usepackage[justification=justified]{caption}
 \renewcommand{\thefootnote}{\textsuperscript{\arabic{footnote}}}
 \deffootnote[1em]{1em}{1em}{\textsuperscript{\thefootnotemark}}
 %\renewcommand{\@makefnmark}{\makebox{\footnotesize\@thefnmark}}
@@ -83,8 +84,8 @@
 \maketitle
 % \bibliographystyle{abbrvnat}
 \include{C1/includeC1}
-%\include{C1/PrefaceFrontiers}
 \tableofcontents
+%\listoffigures
 \setcounter{chapter}{0}
 \include{preface_book}
 \include{introduccion/introduccion}
@@ -95,7 +96,7 @@
 \include{C6/includeC6}
 %%%\include{C6/Ch5NA}
 \include{C7/includeC7}
-%%%\include{C7/Ch6NA}
+%%% \include{C7/Ch6NA}
 \include{C8/includeC8}
 %%\include{C8/Ch7NA}
 \bibliographystyle{abbrvnat}
